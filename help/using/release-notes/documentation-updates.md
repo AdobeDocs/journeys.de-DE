@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 70a71d920502a40186e32d5d876a9703e844bf3f
+source-git-commit: 6e7d89f4a9cb56b7b87cfc73ad7a9c7c4dc323a3
 
 ---
 
@@ -20,6 +20,11 @@ source-git-commit: 70a71d920502a40186e32d5d876a9703e844bf3f
 
 Diese Seite listet alle Aktualisierungen der Dokumentation für das Journey Orchestration auf.
 You can also consult the Journey Orchestration [Release Notes](../release-notes/release-notes.md).
+
+## January 2020 {#january-2020}
+
+* Für [Erlebnisereignisse](../datasource/adobe-experience-platform-data-source.md) und [Segmente](../functions/functioninsegment.md)wurden Einschränkungen hinzugefügt.
+* Die Dokumentation [zu getBestSendTime wurde aktualisiert](../functions/functiongetbestsendtime.md) .
 
 ## December 2019 {#december-2019}
 
@@ -32,4 +37,3 @@ You can also consult the Journey Orchestration [Release Notes](../release-notes/
 * [Die Abschnitte &quot;Bedingte Anweisungen](../expression/conditional-instruction.md) &quot;und &quot; [Sammlungsverwaltung](../expression/collection-management-functions.md) &quot;wurden verschoben und aktualisiert.
 * Der Abschnitt [Funktionen](../expression/functions.md) wurde um neue Beispiele ergänzt.
 * Die Dokumentation [zur Funktion](../functions/functiontodatetime.md) toDateTime wurde aktualisiert, um Änderungen der Zeitzonensyntax widerzuspiegeln.
-
