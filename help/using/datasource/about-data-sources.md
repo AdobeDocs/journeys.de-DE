@@ -11,12 +11,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
 
 ---
 
 
 # Datenquellen {#concept_s1s_dqt_52b}
+
+>[!CONTEXTUALHELP]
+>id=&quot;jo_datasources&quot;
+>title=&quot;Grundlagen zu Datenquellen&quot;
+>abstract=&quot;Die Konfiguration der Datenquelle wird immer von einem technischen Benutzer durchgeführt. Mit der Datenquellenkonfiguration können Sie eine Verbindung zu einem System definieren, um zusätzliche Informationen abzurufen, die auf Ihren Reisen verwendet werden, zum Beispiel: Bedingungsdefinition, Parameter- und Personalisierungsdaten in Aktionen, benutzerdefinierte Wartedefinition, benutzerdefinierte Zeitzonendefinition.&quot;
 
 Die Datenquellenkonfiguration wird immer von einem **technischen Benutzer** durchgeführt.
 
