@@ -9,12 +9,20 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
 
 ---
 
 
 # User interface {#concept_rcq_lqt_52b}
+
+
+>[!CONTEXTUALHELP]
+>id=&quot;jo_home&quot;
+>title=&quot;Info zur Reiseliste&quot;
+>abstract=&quot;Die Reiseliste ermöglicht Ihnen, alle Ihre Reisen gleichzeitig anzuzeigen, ihren Status zu sehen und grundlegende Aktionen durchzuführen. Sie können Ihre Reisen duplizieren, beenden oder löschen. Je nach Reise stehen bestimmte Aktionen möglicherweise nicht zur Verfügung. Sie können beispielsweise eine angehaltene Reise nicht anhalten oder löschen. Sie können auch die Suchleiste verwenden, um nach einer Reise zu suchen.&quot;
+>additional-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;Demovideo ansehen&quot;
+
 
 >[!NOTE]
 >
