@@ -11,12 +11,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
 
 ---
 
 
 # Aktionen {#about_actions}
+
+>[!CONTEXTUALHELP]
+>id=&quot;jo_actions&quot;
+>title=&quot;Info&quot;
+>abstract=&quot;Hier definieren Sie die Verbindung zum System, das Nachrichten sendet. Die hier definierten Aktionen stehen dann in der linken Palette Ihrer Reise in der Kategorie Aktion zur Verfügung.&quot;
 
 Die Konfiguration von benutzerdefinierten Aktionen wird immer von einem **technischen Benutzer** durchgeführt.
 
