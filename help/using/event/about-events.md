@@ -11,12 +11,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
 
 ---
 
 
 # Ereignisse {#concept_gfj_fqt_52b}
+
+>[!CONTEXTUALHELP]
+>id=&quot;jo_events&quot;
+>title=&quot;Info&quot;
+>abstract=&quot;Ein Ereignis ist mit einer Person verknüpft. Es bezieht sich auf das Verhalten einer Person (zum Beispiel kaufte eine Person ein Produkt, besuchte einen Laden, verließ eine Website usw.) oder etwas, das mit einer Person verbunden ist (z. B. eine Person erreichte 10 000 Treuepunkte). Das wird das Journey Orchestration auf Reisen hören, um die besten nächsten Aktionen zu organisieren.&quot;
 
 Eine Veranstaltung ist mit einer Person verbunden. Es bezieht sich auf das Verhalten einer Person (zum Beispiel kaufte eine Person ein Produkt, besuchte einen Laden, verließ eine Website usw.) oder etwas, das mit einer Person verbunden ist (z. B. eine Person erreichte 10 000 Treuepunkte). Das wird das Journey Orchestration auf Reisen hören, um die besten nächsten Aktionen zu organisieren.
 
