@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d018072f2cbf2b8804c5c678f84cc8e25e3e86f4
+source-git-commit: fed9033310bf37535796638eda3b0846f1ed52c6
 
 ---
 
@@ -34,3 +34,5 @@ Um die Aktionsliste anzuzeigen oder eine neue Aktion zu konfigurieren, klicken S
 Wenn Sie über Adobe Campaign Standard verfügen, müssen Sie die vordefinierte Aktion konfigurieren. Siehe Abschnitt [](../action/working-with-adobe-campaign.md).
 
 Wenn Sie zum Senden von Nachrichten ein Drittanbietersystem verwenden, müssen Sie eine benutzerdefinierte Aktion hinzufügen und konfigurieren. Siehe Abschnitt [](../action/about-custom-action-configuration.md).
+
+Das ist ein Test.
