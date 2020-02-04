@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fed9033310bf37535796638eda3b0846f1ed52c6
+source-git-commit: 4ba4259a31a6f71e842d59bdbccf07c3edf3fafd
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: fed9033310bf37535796638eda3b0846f1ed52c6
 
 Die Konfiguration von benutzerdefinierten Aktionen wird immer von einem **technischen Benutzer** durchgeführt.
 
-Hier definieren Sie die Verbindung zum System, das Nachrichten senden soll. Die hier definierten Aktionen stehen dann in der linken Palette Ihrer Reise in der Kategorie **[!UICONTROL Aktion]**zur Verfügung (siehe[](../building-journeys/about-action-activities.md).
+Hier definieren Sie die Verbindung zum System, das Nachrichten senden soll. Die hier definierten Aktionen stehen dann in der linken Palette Ihrer Reise in der Kategorie **[!UICONTROL Aktion]**zur Verfügung (siehe[](../building-journeys/about-action-activities.md)).
 
 Um die Aktionsliste anzuzeigen oder eine neue Aktion zu konfigurieren, klicken Sie in den oberen Menüs auf **[!UICONTROL Aktionen]**. Die Liste der Aktionen wird angezeigt. Weitere Informationen[](../about/user-interface.md)zur Benutzeroberfläche finden Sie unter .
 
@@ -34,5 +34,3 @@ Um die Aktionsliste anzuzeigen oder eine neue Aktion zu konfigurieren, klicken S
 Wenn Sie über Adobe Campaign Standard verfügen, müssen Sie die vordefinierte Aktion konfigurieren. Siehe Abschnitt [](../action/working-with-adobe-campaign.md).
 
 Wenn Sie zum Senden von Nachrichten ein Drittanbietersystem verwenden, müssen Sie eine benutzerdefinierte Aktion hinzufügen und konfigurieren. Siehe Abschnitt [](../action/about-custom-action-configuration.md).
-
-Das ist ein Test.
