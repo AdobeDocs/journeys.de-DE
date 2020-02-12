@@ -1,6 +1,6 @@
 ---
-title: Über den einfachen Verwendungsfall
-description: Mehr über die Reise - einfacher Anwendungsfall
+title: Informationen zum einfachen Anwendungsfall
+description: Mehr über die Journey mit dem einfachen Anwendungsfall
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,28 +10,28 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54b54a64ad2822eec96008ac4a2e16c208a4a3ab
 
 ---
 
 
-# Über den einfachen Verwendungsfall{#concept_grh_vby_w2b}
+# Informationen zum einfachen Anwendungsfall{#concept_grh_vby_w2b}
 
 ## Zweck {#purpose}
 
-Nehmen wir das Beispiel einer Hotelmarke namens Marlton. In ihren Hotels haben sie Beacon-Geräte in der Nähe aller strategischen Bereiche positioniert: Lobby, Fußböden, Restaurant, Fitnessraum, Pool, etc.
+Nehmen wir als Beispiel eine Hotelmarke namens Marlton. In den Hotels der Kette wurden Beacon-Geräte in der Nähe aller strategischen Punkte angebracht: Lobby, Etagen, Restaurant, Fitness-Raum, Pool usw.
 
-In diesem Fall werden wir sehen, wie man eine personalisierte Nachricht in Echtzeit an eine Person, die neben einem Beacon in der Nähe des Kurortes zu Fuß.
+In diesem Anwendungsfall sehen wir, wie sich in Echtzeit eine personalisierte Nachricht an eine Person senden lässt, die einen Beacon nahe des Spa passiert.
 
-Wir wollen eine Nachricht nur senden, wenn die Person eine Frau ist. Die Nachricht muss innerhalb von Sekunden empfangen werden.
+Wir wollen nur dann eine Nachricht senden, wenn die Person weiblich ist. Die Nachricht muss innerhalb von Sekunden empfangen werden.
 
 ![](../assets/journeyuc1_16.png)
 
-## Voraussetzungen: {#prerequisites}
+## Voraussetzungen:  {#prerequisites}
 
-Für unseren Verwendungsfall haben wir in Adobe Campaign Standard eine E-Mail-Vorlage für Transaktionsnachrichten entwickelt. Wir verwenden eine Ereignistransaktionsnachrichtenvorlage. Refer to this [page](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
+Für unseren Anwendungsfall haben wir in Adobe Campaign Standard eine Transaktionsnachrichtenvorlage in Form einer E-Mail entwickelt. Wir verwenden eine Transaktionsnachrichtenvorlage für Ereignisse. Mehr dazu erfahren Sie auf [dieser Seite](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
 
 Adobe Campaign Standard ist so konfiguriert, dass E-Mails gesendet werden.
 
-Ereignisse werden vom Handy des Kunden gesendet, wenn sie in der Nähe eines Beacons erkannt werden. Sie müssen eine Mobilanwendung entwerfen, um Ereignisse vom Handy des Kunden an das Mobile SDK zu senden.
+Ereignisse werden vom Smartphone des Kunden gesendet, sobald es in der Nähe eines Beacons erkannt wird. Sie müssen eine App einrichten, damit Ereignisse vom Smartphone des Kunden an das Mobile SDK gesendet werden.
