@@ -1,6 +1,6 @@
 ---
 title: avg
-description: Erfahren Sie mehr über die Funktion avg
+description: Erfahren Sie mehr über die Funktion „avg“
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
 
 # avg {#avg}
 
-Gibt den Durchschnittswert aus einem Satz von Ausdrücken zurück, entweder als Liste oder als zwei Ausdrücke. Null-Werte werden ignoriert.
+Gibt den Durchschnittswert eines Satzes von Ausdrücken zurück, entweder als Liste oder in Form von zwei Ausdrücken. Nullwerte werden ignoriert.
 
 
 ## Kategorie
@@ -54,7 +54,7 @@ Unterstützte Typen:
 
 `avg(<integer>,<integer>)`
 
-Gibt eine Dezimalstelle zurück.
+Gibt eine Dezimalzahl zurück.
 
 ## Beispiele
 
@@ -62,8 +62,8 @@ Gibt eine Dezimalstelle zurück.
 
 `avg([10,3,8])`
 
-Gibt 7.0 zurück.
+Gibt 7,0 zurück.
 
 `avg(10.2, 3)`
 
-Gibt 6.6 zurück.
+Gibt 6,6 zurück.
