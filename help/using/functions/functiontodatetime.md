@@ -1,6 +1,6 @@
 ---
 title: toDateTime
-description: Informationen zur Funktion toDateTime
+description: Erfahren Sie mehr über die Funktion „toDateTime“
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,14 +10,14 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
 
 ---
 
 # toDateTime {#toDateTime}
 
-Konvertiert Parameter je nach Typ in einen Datumszeitwert.
+Konvertiert Parameter je nach Typ in einen Datum/Uhrzeit-Wert.
 
 ## Kategorie
 
@@ -31,14 +31,14 @@ Konversion
 
 | Parameter | Typ |
 |-----------|------------------|
-| Datumszeit im ISO-8601-Format | string |
-| Zeitzone-ID | string |
-| Datumseinstellung ohne Zeitzone | dateTimeOnly |
-| ganzzahliger Wert einer Epoche in Millisekunden | integer |
+| Datum/Uhrzeit im ISO 8601-Format | Zeichenfolge |
+| Zeitzonen-ID | Zeichenfolge |
+| Datum/Uhrzeit ohne Zeitzone | dateTimeOnly |
+| ganzzahliger Wert einer Epoche in Millisekunden | Ganzzahl |
 
 >[!NOTE]
 >
->Die Zeitzone-ID muss eine String-Konstante sein. Es kann weder ein Feldverweis noch ein Ausdruck sein. Weitere Informationen zu Datentypen finden Sie unter [](../expression/data-types.md).
+>Die Zeitzonen-ID muss eine Zeichenfolgenkonstante sein. Sie darf weder ein Feldverweis noch ein Ausdruck sein. Weitere Informationen zu Datentypen finden Sie unter [](../expression/data-types.md).
 
 ## Signaturen und zurückgegebene Typen
 
@@ -48,7 +48,7 @@ Konversion
 
 `toDateTime(<integer>)`
 
-Gibt eine **dateTime** zurück.
+Gibt einen **Datum/Uhrzeit-Wert** zurück.
 
 <!--`toDateTime(<year>,<month>,<dayOfMonth>,<hour>,<minute>,<second>)`
 
