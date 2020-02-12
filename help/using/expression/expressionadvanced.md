@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 
 ---
@@ -18,42 +18,42 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 
 # Informationen zum erweiterten Ausdruckseditor {#concept_uyj_trt_52b}
 
-Mit dem erweiterten Ausdruckseditor können Sie erweiterte Ausdrücke in verschiedenen Bildschirmen der Oberfläche erstellen, z. B. beim Definieren einer Datenquellenbedingung.
-Sie steht auch immer dann zur Verfügung, wenn Sie Aktionsparameter definieren müssen, die bestimmte Datenmanipulation erfordern. Sie können Daten aus Ereignissen oder zusätzliche Informationen, die aus der Datenquelle abgerufen wurden, nutzen. Bei einer Reise ist die angezeigte Liste der Ereignisfelder kontextuell und variiert je nach Ereignis/Ereignissen, die während der Reise hinzugefügt werden.
+Mit dem erweiterten Ausdruckseditor können Sie in verschiedenen Bildschirmen der Oberfläche erweiterte Ausdrücke erstellen, z. B. beim Definieren einer Bedingung der Datenquelle.
+Der Editor steht auch immer dann zur Verfügung, wenn Sie Aktionsparameter definieren müssen, die eine bestimmte Datenbearbeitung erfordern. Sie können Daten aus den Ereignissen oder zusätzliche Informationen nutzen, die aus der Datenquelle abgerufen wurden. Bei einer Journey ist die angezeigte Liste der Ereignisfelder kontextbezogen und variiert je nach den Ereignissen, die in der Journey hinzugefügt werden.
 
-Der erweiterte Ausdruckseditor bietet eine Reihe integrierter Funktionen und Operatoren, mit denen Sie Werte bearbeiten und einen Ausdruck definieren können, der Ihren Anforderungen entspricht. Mit dem erweiterten Ausdruckseditor können Sie auch die Werte des Parameters für die externe Datenquelle definieren, Zuordnungsfelder und Sammlungen, z. B. Erlebnisereignisse, bearbeiten.
+Der erweiterte Ausdruckseditor bietet eine Reihe integrierter Funktionen und Operatoren, mit denen Sie Werte bearbeiten und einen Ausdruck definieren können, der Ihren Anforderungen entspricht. Mit dem erweiterten Ausdruckseditor können Sie auch die Werte des Parameters für die externe Datenquelle definieren sowie Zuordnungsfelder und Kollektionen (z. B. Erlebnisereignisse) bearbeiten.
 
 ![](../assets/journey65.png)
 
-_Die Benutzeroberfläche des erweiterten Ausdrucks-Editors_
+_Die Benutzeroberfläche des erweiterten Ausdruckseditors_
 
-Der erweiterte Ausdruckseditor kann verwendet werden für:
+Der erweiterte Ausdruckseditor kann für folgende Aufgaben verwendet werden:
 
-* Erstellen [erweiterter Bedingungen](../building-journeys/condition-activity.md#about_condition) für Datenquellen und Ereignisinformationen
-* Definieren benutzerdefinierter [Zeitzonen](../building-journeys/timezone-management.md) in Datumsbedingungen, Aktivitäten mit festem Datum und benutzerdefinierte Warteaktivitäten
-* benutzerdefinierte [Warteaktivitäten definieren](../building-journeys/wait-activity.md#custom)
-* Definieren der Aktionsparameter
+* Erstellen von [erweiterten Bedingungen](../building-journeys/condition-activity.md#about_condition) für Datenquellen und Ereignisinformationen
+* Definieren von benutzerdefinierten [Zeitzonen](../building-journeys/timezone-management.md) in Datumsbedingungen, Warteaktivitäten mit festgelegtem Datum und benutzerdefinierten Warteaktivitäten
+* Definieren von benutzerdefinierten [Warteaktivitäten](../building-journeys/wait-activity.md#custom)
+* Definieren der Zuordnung von Aktionsparametern
 
-Wenn möglich, können Sie zwischen den beiden Modi mit der Schaltfläche **[!UICONTROL Erweiterter Modus]**/**[!UICONTROL  Einfacher Modus]** wechseln. Der einfache Modus wird [hier](../building-journeys/condition-activity.md#about_condition)beschrieben.
+Wenn möglich, können Sie mit der Schaltfläche **[!UICONTROL Erweiterter Modus]**/**[!UICONTROL Einfacher Modus]** zwischen den beiden Modi wechseln. Der einfache Modus wird [hier](../building-journeys/condition-activity.md#about_condition) beschrieben.
 
 >[!NOTE]
 >
->Bedingungen können im einfachen oder erweiterten Ausdruckseditor definiert werden. Sie geben immer einen booleschen Typ zurück.
+>Bedingungen können im einfachen oder erweiterten Ausdruckseditor definiert werden. Sie geben stets einen booleschen Typ zurück.
 >
->Aktionsparameter können durch Auswahl von Feldern oder über den erweiterten Ausdruckseditor definiert werden. Sie geben einen bestimmten Datentyp gemäß ihrem Ausdruck zurück.
+>Aktionsparameter können durch Auswahl von Feldern oder über den erweiterten Ausdruckseditor definiert werden. Sie geben je nach Ausdruck einen bestimmten Datentyp zurück.
 
-## Zugriff auf den erweiterten Ausdruckseditor {#section_fdz_4nj_cjb}
+## Zugreifen auf den erweiterten Ausdruckseditor {#section_fdz_4nj_cjb}
 
-Sie können auf verschiedene Weise auf den erweiterten Ausdruckseditor zugreifen:
+Sie können den erweiterten Ausdruckseditor auf verschiedene Weise aufrufen:
 
-* Wenn Sie eine Datenquellenbedingung erstellen, können Sie auf den erweiterten Editor zugreifen, indem Sie auf **[!UICONTROL Erweiterter Modus]**klicken.
+* Wenn Sie eine Bedingung der Datenquelle erstellen, können Sie den erweiterten Ausdruckseditor nutzen, indem Sie auf **[!UICONTROL Erweiterter Modus]** klicken.
 
    ![](../assets/journeyuc2_33.png)
 
-* Wenn Sie eine benutzerdefinierte Zeitzone oder einen benutzerdefinierten Timer erstellen, wird der erweiterte Editor direkt angezeigt.
-* Wenn Sie den Aktionsparameter zuordnen, klicken Sie auf **[!UICONTROL Erweiterter Modus]**.
+* Wenn Sie eine benutzerdefinierte Zeitzone oder einen benutzerdefinierten Timer erstellen, wird direkt der erweiterte Ausdruckseditor angezeigt.
+* Wenn Sie Aktionsparameter zuordnen, klicken Sie auf **[!UICONTROL Erweiterter Modus]**.
 
-## Benutzeroberfläche{#section_otq_tnj_cjb}
+## Kennenlernen der Benutzeroberfläche{#section_otq_tnj_cjb}
 
 In diesem Bildschirm können Sie Ihren Ausdruck manuell schreiben.
 
@@ -61,24 +61,24 @@ In diesem Bildschirm können Sie Ihren Ausdruck manuell schreiben.
 
 Im linken Bildschirmbereich werden die verfügbaren Felder und Funktionen angezeigt:
 
-* **[!UICONTROL Ereignisse]**: Wählen Sie eines der Felder aus, die vom Inbound-Ereignis empfangen wurden. Die angezeigte Liste der Ereignisfelder ist kontextuell und variiert je nach Ereignis/Ereignissen, die während der Reise hinzugefügt werden.
-* **[!UICONTROL Datenquellen]**: Wählen Sie aus der Liste der verfügbaren Felder aus den Feldgruppen Ihrer Datenquellen.
+* **[!UICONTROL Ereignisse]**: Wählen Sie eines der Felder aus, die vom eingehenden Ereignis empfangen wurden. Die angezeigte Liste der Ereignisfelder ist kontextbasiert und variiert je nach Ereignissen, die in der Journey hinzugefügt werden.
+* **[!UICONTROL Datenquellen]**: Wählen Sie aus der Liste der Felder, die in den Feldergruppen Ihrer Datenquellen verfügbar sind.
 * **[!UICONTROL Funktionen]**: Wählen Sie aus der Liste der integrierten Funktionen, die eine komplexe Filterung ermöglichen. Die Funktionen sind nach Kategorien geordnet.
 
 ![](../assets/journey65.png)
 
-Ein automatischer Abschlussmechanismus zeigt kontextbezogene Vorschläge an.
+Ein Mechanismus für die automatische Vervollständigung zeigt kontextbezogene Vorschläge an.
 
 ![](../assets/journey68.png)
 
-Ein Syntaxvalidierungsmechanismus überprüft die Integrität Ihres Codes. Fehler werden über dem Editor angezeigt.
+Ein Syntaxvalidierungsverfahren überprüft die Integrität Ihres Codes. Fehler werden über dem Editor angezeigt.
 
 ![](../assets/journey69.png)
 
-**Parameter beim Erstellen von Bedingungen mit dem erweiterten Ausdruckseditor erforderlich**
+**Bedarf an Parametern beim Erstellen von Bedingungen mit dem erweiterten Ausdruckseditor**
 
-Wenn Sie ein Feld aus einer externen Datenquelle auswählen, für das ein Parameter aufgerufen werden muss (siehe [](../datasource/external-data-sources.md). Beispiel: In einer wetterbezogenen Datenquelle lautet ein häufig verwendeter Parameter &quot;city&quot;. Daher müssen Sie festlegen, wo Sie diesen Parameter &quot;city&quot;abrufen möchten. Funktionen können auch auf Parameter angewendet werden, um Formatänderungen oder Verkettungen durchzuführen.
+Wenn Sie ein Feld aus einer externen Datenquelle auswählen, für das ein Parameter aufgerufen werden muss (siehe [](../datasource/external-data-sources.md)). Beispiel: In einer wetterbezogenen Datenquelle lautet ein häufig verwendeter Parameter „city“. Darum müssen Sie festlegen, wo Sie diesen Parameter „city“ abrufen möchten. Funktionen können auch auf Parameter angewendet werden, um Formatänderungen oder Verkettungen vorzunehmen.
 
 ![](../assets/journeyuc2_19.png)
 
-Bei komplexeren Anwendungsfällen können Sie, wenn Sie die Parameter der Datenquelle in den Hauptausdruck aufnehmen möchten, ihre Werte mit dem Schlüsselwort &quot;params&quot;definieren. Siehe [diese Seite](../expression/field-references.md).
+Bei komplexeren Anwendungsfällen können Sie, wenn Sie die Parameter der Datenquelle in den Hauptausdruck aufnehmen möchten, deren Werte mit dem Keyword „params“ definieren. Weiterführende Informationen finden Sie auf [dieser Seite](../expression/field-references.md).
