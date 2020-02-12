@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cdede8bc301203d88b551a5cb4dcdbe4e7fe49a7
 
 ---
@@ -18,18 +18,18 @@ source-git-commit: cdede8bc301203d88b551a5cb4dcdbe4e7fe49a7
 
 # Versionshinweise {#release-notes}
 
-Diese Seite listet alle neuen Funktionen und Verbesserungen für die Reiseorganisation auf.
-Sie können auch die Aktualisierungen der [Dokumentation](../release-notes/documentation-updates.md)lesen.
+Auf dieser Seite werden alle neuen Funktionen und Verbesserungen bei der Orchestrierung der Customer Journey aufgelistet.
+Sie können auch den Abschnitt [Aktualisierungen der Dokumentation](../release-notes/documentation-updates.md) lesen.
 
 ## GA-Version - Dezember 2019 {#ga-release---december-2019}
 
-Journey Orchestration ist jetzt GA.
+Die Orchestrierung der Customer Journey ist jetzt allgemein verfügbar.
 
-Erstellen Sie in Echtzeit-Orchesteringanwendungsfällen mithilfe von Kontextdaten, die in Ereignissen oder Datenquellen gespeichert werden.
+Erstellen Sie Anwendungsfälle für Echtzeit-Orchestrierung mithilfe von Kontextdaten, die in Ereignissen oder Datenquellen gespeichert sind.
 
-Mit dem Journey Orchestration können Sie Echtzeit-Orchester auf Basis von Kontextdaten zu Ereignissen, Informationen aus der Adobe Experience Platform oder Daten aus API-Diensten von Drittanbietern organisieren. Die Anwendung bestimmt in mehrstufigen Flüssen, die Fahrten genannt werden, je nach Profil und Verhalten des Benutzers die nächsten für den Verbraucher spezifischen Aktionen. Dies umfasst sowohl den optimalen Zeitpunkt als auch die Art der Aktion, z. B. das Senden einer Push-Benachrichtigung über die Transaktionsnachrichten-Funktionen von Adobe Campaign Standard (Adobe Campaign Standard erforderlich) oder die Benachrichtigung eines Drittanbietersystems. Diese Entscheidungen werden auf der Grundlage von Regeln und Sensei-Bewertungen getroffen.
+Die Orchestrierung der Customer Journey erlaubt eine Echtzeit-Orchestrierung auf Basis von Kontextdaten aus Ereignissen, Informationen aus Adobe Experience Platform oder Daten aus API-Diensten von Drittanbietern. Die Anwendung bestimmt in mehrstufigen Flüssen, die Journeys genannt werden, je nach Profil und Verhalten des Benutzers die nächsten für den Kunden optimalen Aktionen. Dies umfasst sowohl den besten Zeitpunkt als auch die Art der Aktion, z. B. das Senden einer Push-Benachrichtigung über die Transaktionsnachrichtenfunktion von Adobe Campaign Standard (Adobe Campaign Standard erforderlich) oder das Benachrichtigen eines Drittanbietersystems. Diese Entscheidungen werden auf Grundlage von Regeln und Sensei-Werten getroffen.
 
-[Erfahren Sie mehr](../action/working-with-adobe-campaign.md) über das Journey Orchestration.
+[Weitere Informationen](../action/working-with-adobe-campaign.md) zur Orchestrierung der Customer Journey.
 
 Zusätzliche Ressourcen:
 
