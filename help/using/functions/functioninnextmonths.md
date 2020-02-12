@@ -1,6 +1,6 @@
 ---
 title: inNextMonths
-description: Informationen zur Funktion in NextMonths
+description: Erfahren Sie mehr über die Funktion „inNextMonths“
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 
 ---
@@ -18,11 +18,11 @@ source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 
 # inNextMonths {#inNextMonths}
 
-Gibt TRUE zurück, wenn ein angegebenes Datum oder dateTime zwischen jetzt und jetzt liegt + Delta-Monate.
+Gibt „true“ zurück, wenn der angegebene Datums- bzw. Datum/Uhrzeit-Wert zwischen jetzt und jetzt + delta Monaten liegt.
 
 ## Kategorie
 
-Date
+Datum
 
 ## Funktionssyntax
 
@@ -32,7 +32,7 @@ Date
 
 | Parameter | Typ |
 |-----------|------------------|
-| Datum | dateTime |
+| Datum/Uhrzeit | dateTime |
 | delta | integer |
 
 ## Signaturen und zurückgegebener Typ
@@ -45,4 +45,4 @@ Gibt einen booleschen Wert zurück.
 
 `inNextMonths(toDateTime('2020-01-12T01:11:00Z'), 4))`
 
-Gibt TRUE zurück.
+Gibt „true“ zurück.
