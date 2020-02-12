@@ -1,6 +1,6 @@
 ---
 title: concat
-description: Erfahren Sie mehr über das Funktionskonzat
+description: Erfahren Sie mehr über die Funktion „concat“
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a844adc1a073aebfb7fd8a719e52f305079260b7
 
 ---
@@ -22,7 +22,7 @@ Verkettet zwei Zeichenfolgenparameter oder eine Liste von Zeichenfolgen.
 
 ## Kategorie
 
-String
+Zeichenfolge
 
 ## Funktionssyntax
 
@@ -33,9 +33,9 @@ String
 | Parameter | Typ |
 |-----------|------------------|
 | Liste | listString |
-| string | string |
+| string | Zeichenfolge |
 
-## Unterschrift und zurückgegebener Typ
+## Signatur und zurückgegebener Typ
 
 `concat(<string>,<string>)`
 
@@ -47,8 +47,8 @@ Gibt eine Zeichenfolge zurück.
 
 `concat("Hello","World")`
 
-Gibt &quot;HelloWorld&quot;zurück.
+Gibt „HelloWorld“ zurück.
 
 `concat(["Hello"," ","World"])`
 
-Gibt &quot;Hello World&quot;zurück.
+Gibt „Hello World“ zurück.
