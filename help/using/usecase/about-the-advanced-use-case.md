@@ -1,6 +1,6 @@
 ---
-title: Informationen zum erweiterten Verwendungsfall
-description: Mehr über die Reise - fortgeschrittener Anwendungsfall
+title: Informationen zum erweiterten Anwendungsfall
+description: Erfahren Sie mehr über die Journey mit dem erweiterten Anwendungsfall
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,53 +10,53 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54b54a64ad2822eec96008ac4a2e16c208a4a3ab
 
 ---
 
 
-# Informationen zum erweiterten Verwendungsfall{#concept_vzy_ncy_w2b}
+# Informationen zum erweiterten Anwendungsfall{#concept_vzy_ncy_w2b}
 
 ## Zweck {#purpose}
 
-Nehmen wir das Beispiel einer Hotelmarke namens Marlton. In ihren Hotels haben sie Beacon-Geräte in der Nähe aller strategischen Bereiche positioniert: Lobby, Fußböden, Restaurant, Fitnessraum, Pool, etc.
+Nehmen wir als Beispiel eine Hotelmarke namens Marlton. In den Hotels der Kette wurden Beacon-Geräte in der Nähe aller strategischen Punkte angebracht: Lobby, Etagen, Restaurant, Fitness-Raum, Pool usw.
 
 >[!NOTE]
 >
->In diesem Fall verwenden wir Adobe Campaign Standard, um Nachrichten zu senden.
+>In diesem Anwendungsfall verwenden wir Adobe Campaign Standard zum Senden von Nachrichten.
 
-In diesem Fall werden wir sehen, wie personalisierte Nachrichten in Echtzeit an Kunden gesendet werden, wenn sie in der Nähe eines bestimmten Beacons gehen.
+In diesem Anwendungsfall werden wir sehen, wie sich in Echtzeit personalisierte Nachrichten an Kunden senden lassen, wenn diese einen bestimmten Beacon passieren.
 
-Zunächst möchten wir eine Nachricht senden, sobald eine Person in ein Marlton Hotel eintritt. Wir möchten eine Nachricht nur senden, wenn die Person innerhalb der letzten 24 Stunden keine Mitteilung von uns erhalten hat.
+Zunächst möchten wir eine Nachricht senden, sobald eine Person ein Marlton-Hotel betritt. Allerdings wollen wir nur dann eine Nachricht senden, wenn die Person innerhalb der letzten 24 Stunden keine Mitteilung von uns erhalten hat.
 
 Anschließend prüfen wir zwei Bedingungen:
 
-* Wenn diese Person kein Treuemitglied ist, senden wir ihm eine E-Mail, um dem Treueangebot beizutreten.
-* Wenn diese Person bereits Treuemitglied ist, prüfen wir, ob sie über eine Zimmerreservierung verfügt:
-   * Wenn er das nicht tut, senden wir ihm eine Push-Benachrichtigung mit Zimmerpreisen.
-   * Wenn er das tut, senden wir ihm eine willkommene Push-Benachrichtigung. Und wenn er in den nächsten 6 Stunden ins Restaurant kommt, senden wir ihm eine Push-Benachrichtigung mit einem Rabatt auf eine Mahlzeit.
+* Wenn die Person kein Mitglied des Treueprogramms ist, senden wir ihr eine E-Mail, um ihr eine Mitgliedschaft im Treueprogramm anzubieten.
+* Wenn die Person bereits Mitglied des Treueprogramms ist, prüfen wir, ob sie über eine Zimmerreservierung verfügt:
+   * Wenn das nicht der Fall ist, senden wir eine Push-Benachrichtigung mit Zimmerpreisen.
+   * Wenn eine Reservierung vorhanden ist, senden wir der Person eine Willkommens-Push-Benachrichtigung. Wenn diese Person dann in den nächsten 6 Stunden das Restaurant betritt, senden wir ihr eine Push-Benachrichtigung mit einem Rabatt für eine Mahlzeit.
 
 ![](../assets/journeyuc2_29.png)
 
 Für diesen Anwendungsfall müssen wir zwei Ereignisse erstellen (siehe [](../usecase/configuring-the-events.md)):
 
-* Das Beacon-Ereignis der Lobby, das an das System gesendet wird, wenn ein Kunde das Hotel betritt.
-* Das Restaurant-Beacon-Ereignis, das gestoßen wird, wenn ein Kunde das Restaurant betritt.
+* das Beacon-Ereignis „Lobby“, das an das System gesendet wird, sobald ein Kunde das Hotel betritt;
+* das Beacon-Ereignis „Restaurant“, das gesendet wird, sobald ein Kunde das Restaurant betritt.
 
 Es muss eine Verbindung zu zwei Datenquellen konfiguriert werden (siehe [](../usecase/configuring-the-data-sources.md)):
 
-* Die integrierte Experience Platform-Datenquelle zum Abrufen der Informationen für unsere beiden Bedingungen (Treuemitgliedschaft und Datum des letzten Kontakts) sowie die Informationen zur Personalisierung der Nachricht.
-* Das Hotelreservierungssystem, um die Informationen zum Reservierungsstatus abzurufen.
+* zur integrierten Experience Platform-Datenquelle zum Abrufen der Informationen für die beiden Bedingungen (Mitgliedschaft im Treueprogramm und Datum des letzten Kontakts) sowie der Informationen für die Personalisierung der Nachricht.
+* zum Hotelreservierungssystem zum Abrufen der Informationen über den Reservierungsstatus.
 
-## Voraussetzungen: {#prerequisites}
+## Voraussetzungen:  {#prerequisites}
 
-Für unseren Verwendungsfall haben wir drei transaktionale Meldungsvorlagen von Adobe Campaign Standard entwickelt. Wir verwenden Vorlagen für Ereignistransaktionen. Refer to this [page](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
+Für unseren Anwendungsfall haben wir mit Adobe Campaign Standard drei Transaktionsnachrichtenvorlagen entwickelt. Wir nutzen Transaktionsnachrichtenvorlagen für Ereignisse. Mehr dazu erfahren Sie auf [dieser Seite](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
 
 Adobe Campaign Standard ist so konfiguriert, dass E-Mails und Push-Benachrichtigungen gesendet werden.
 
-Die Experience Cloud ID wird als Schlüssel zur Identifizierung des Kunden im Hotelreservierungssystem verwendet.
+Als Schlüssel zur Identifizierung des Kunden im Hotelreservierungssystem dient die Experience Cloud-ID.
 
-Ereignisse werden vom Handy des Kunden gesendet, wenn sie in der Nähe eines Beacons festgestellt wurden. Sie müssen eine Mobilanwendung entwerfen, um Ereignisse vom Handy des Kunden an das Mobile SDK zu senden.
+Ereignisse werden vom Smartphone des Kunden gesendet, sobald es in der Nähe eines Beacons entdeckt wird. Sie müssen eine App einrichten, damit Ereignisse vom Smartphone des Kunden an das Mobile SDK gesendet werden.
 
-Das Feld &quot;Treueanwärter&quot;ist ein benutzerdefiniertes Feld und wurde in XDM für unsere spezifische Organisations-ID hinzugefügt.
+Das Feld „Mitglied des Treueprogramms“ ist ein benutzerdefiniertes Feld und wurde in XDM für unsere spezielle Organisations-ID hinzugefügt.
