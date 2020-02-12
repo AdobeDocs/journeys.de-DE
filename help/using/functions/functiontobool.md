@@ -1,6 +1,6 @@
 ---
 title: toBool
-description: Erfahren Sie mehr über die Funktion toBool
+description: Erfahren Sie mehr über die Funktion „toBool“
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 ---
@@ -20,8 +20,8 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 Konvertiert einen Argumentwert je nach Typ in einen booleschen Wert.
 
-* Aus Zeichenfolge: versuchen Sie, den Zeichenfolgenwert als booleschen Wert zu konvertieren, von &quot;true&quot;, wenn der Zeichenfolgenwert &quot;true&quot; ist, andernfalls &quot;false&quot;
-* Von numerisch: true, wenn der numerische Wert nicht gleich 0 ist, andernfalls false
+* Von Zeichenfolge: Versucht, den Zeichenfolgenwert in einen booleschen Wert zu konvertieren, von „true“, wenn der Zeichenfolgenwert „true“ ist, andernfalls „false“
+* Von numerisch: „true“, wenn der numerische Wert ungleich 0 ist, andernfalls „false“
 
 ## Kategorie
 
@@ -36,7 +36,7 @@ Konversion
 * decimal
 * boolean
 * string
-* integer
+* Ganzzahl
 
 ## Signaturen und zurückgegebene Typen
 
@@ -48,7 +48,7 @@ Konversion
 
 `toBool(<integer>)`
 
-Gib einen Booleschen zurück.
+Geben einen booleschen Wert zurück.
 
 ## Beispiele
 
@@ -56,8 +56,8 @@ Gib einen Booleschen zurück.
 
 `toBool(1)`
 
-Gibt TRUE zurück.
+Gibt „true“ zurück.
 
 `toBool("this is not a boolean")`
 
-Gibt false zurück.
+Gibt „false“ zurück.
