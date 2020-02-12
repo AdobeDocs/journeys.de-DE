@@ -1,6 +1,6 @@
 ---
-title: Info zu Reiseberichten
-description: Erfahren Sie, wie Sie Ihre Reiseberichte erstellen
+title: Informationen zu Journey-Berichten
+description: Erfahren Sie, wie Sie Journey-Berichte erstellen können
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,46 +10,46 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b5b3c8b6adafaedbdd80db3091300e7a26249a3e
 
 ---
 
 
-# Info zu Reiseberichten {#concept_rfj_wpt_52b}
+# Informationen zu Journey-Berichten {#concept_rfj_wpt_52b}
 
 >[!NOTE]
 >
->Die Komponente &quot;Bereitstellungsdaten und Segmente&quot;wird nur ausgefüllt, wenn Sie über Adobe Campaign Standard verfügen.
+>Die Versanddaten und die Komponente „Segmente“ werden nur dann ausgefüllt, wenn Sie über Adobe Campaign Standard verfügen.
 
-In diesem Abschnitt erfahren Sie, wie Sie auf Berichte zugreifen und diese verwenden können, um die Effektivität Ihrer Reise zu messen.
+In diesem Abschnitt erfahren Sie, wie Sie Berichte aufrufen und verwenden können, um die Effektivität Ihrer Journey zu messen.
 
-## Benutzeroberfläche für die Berichterstellung {#reporting-interface}
+## Reporting-Benutzeroberfläche {#reporting-interface}
 
 Über die am oberen Seitenrand befindliche Symbolleiste können Sie beispielsweise einen Bericht ändern, speichern oder ausdrucken.
 
 ![](../assets/dynamic_report_toolbar.png)
 
-Im Tab **[!UICONTROL Projekt]**haben Sie folgende Möglichkeiten:
+Im Tab **[!UICONTROL Projekt]** haben Sie folgende Möglichkeiten:
 
-* **[!UICONTROL Öffnen]**: öffnet einen zuvor erstellten Bericht oder eine Vorlage.
-* **[!UICONTROL Speichern unter]**: dupliziert Vorlagen, um sie ändern zu können.
-* **[!UICONTROL Projekt]**aktualisieren: aktualisiert Ihren Bericht auf der Grundlage neuer Daten und Änderungen an Filtern.
-* **[!UICONTROL CSV]**herunterladen: exportiert Ihre Berichte in eine CSV-Datei.
-* **[!UICONTROL Drucken]**: druckt Ihren Bericht.
+* **[!UICONTROL Öffnen]**: Öffnet einen zuvor erstellten Bericht oder eine Vorlage.
+* **[!UICONTROL Sichern unter]**: Dupliziert Vorlagen, damit sie geändert werden können.
+* **[!UICONTROL Projekt aktualisieren]**: Aktualisiert Ihren Bericht auf der Basis neuer Daten und Filteränderungen.
+* **[!UICONTROL CSV herunterladen]**: Exportiert Ihre Berichte in eine CSV-Datei.
+* **[!UICONTROL Drucken]**: Druckt den Bericht.
 
-Im Tab **[!UICONTROL Bearbeiten]**haben Sie folgende Möglichkeiten:
+Im Tab **[!UICONTROL Bearbeiten]** haben Sie folgende Möglichkeiten:
 
-* **[!UICONTROL Rückgängig]**: bricht Ihre letzte Aktion im Dashboard ab.
-* **[!UICONTROL Wiederholen]**: bricht Ihre letzte Aktion**[!UICONTROL  Rückgängig]** im Dashboard ab.
-* **[!UICONTROL Alle]**löschen: löscht alle Bereiche im Dashboard.
+* **[!UICONTROL Rückgängig]**: Bricht den zuletzt im Dashboard ausgeführten Vorgang ab.
+* **[!UICONTROL Wiederholen]**: Bricht den zuletzt im Dashboard ausgeführten **[!UICONTROL Rückgängig]**-Vorgang ab.
+* **[!UICONTROL Alle löschen]**: Löscht alle Bedienfelder in Ihrem Dashboard.
 
-Im Tab **[!UICONTROL Einfügen]**können Sie Ihre Berichte anpassen, indem Sie Diagramme und Tabellen zu Ihrem Dashboard hinzufügen:
+Im Tab **[!UICONTROL Einfügen]** können Sie Ihre Berichte anpassen, indem Sie Diagramme und Tabellen zum Dashboard hinzufügen:
 
-* **[!UICONTROL Neues leeres Bedienfeld]**: fügt Ihrem Dashboard ein neues leeres Bedienfeld hinzu.
-* **[!UICONTROL Neue Freiform]**: fügt Ihrem Dashboard eine neue Freiformtabelle hinzu.
-* **[!UICONTROL Neue Zeile]**: fügt Ihrem Dashboard ein neues Liniendiagramm hinzu.
-* **[!UICONTROL Neue Leiste]**: fügt Ihrem Dashboard ein neues Balkendiagramm hinzu.
+* **[!UICONTROL Neues leeres Bedienfeld]**: Fügt ein neues leeres Bedienfeld zu Ihrem Dashboard hinzu.
+* **[!UICONTROL Neue Freiform]**: Fügt eine neue Freiformtabelle zu Ihrem Dashboard hinzu.
+* **[!UICONTROL Neue Zeile]**: Fügt einen neuen Kantengraphen zu Ihrem Dashboard hinzu.
+* **[!UICONTROL Neuer Balken]**: Fügt ein neues Balkendiagramm zu Ihrem Dashboard hinzu.
 
 In den linken Tabs können Sie nach Bedarf Berichte erstellen und Daten filtern.
 
@@ -57,61 +57,61 @@ In den linken Tabs können Sie nach Bedarf Berichte erstellen und Daten filtern.
 
 Über diese Tabs haben Sie Zugriff auf folgende Elemente:
 
-* **[!UICONTROL Bedienfelder]**: Fügen Sie Ihrem Bericht ein leeres Bedienfeld oder Freiformelement hinzu, um Ihre Daten zu filtern. For more on this, refer to the[Adding panels](../reporting/creating-your-journey-reports.md#adding-panels)section
-* **[!UICONTROL Visualisierungen]**: Ziehen Sie die gewünschten Visualisierungselemente in den Bereich, um Ihren Bericht grafisch aufzubereiten. For more on this, refer to the[Adding visualizations](../reporting/creating-your-journey-reports.md#adding-visualizations)section.
-* **[!UICONTROL Komponenten]**: Passen Sie Ihren Bericht mit unterschiedlichen Dimensionen, Metriken, Segmenten und Zeiträumen an. For more on this, refer to the[Adding components](../reporting/creating-your-journey-reports.md#adding-components)section.
+* **[!UICONTROL Bedienfelder]**: Fügt Ihrem Bericht ein leeres Bedienfeld oder eine Freiform hinzu, um Ihre Daten zu filtern. Weiterführende Informationen hierzu finden Sie im Abschnitt [Bedienfelder hinzufügen](../reporting/creating-your-journey-reports.md#adding-panels).
+* **[!UICONTROL Visualisierungen]**: Legen Sie die gewünschten Visualisierungselemente ab, um Ihren Bericht grafisch aufzubereiten. Weiterführende Informationen hierzu finden Sie im Abschnitt [Visualisierungen hinzufügen](../reporting/creating-your-journey-reports.md#adding-visualizations).
+* **[!UICONTROL Komponenten]**: Passen Sie Ihren Bericht mit unterschiedlichen Dimensionen, Metriken, Segmenten und Zeiträumen an. Weiterführende Informationen hierzu finden Sie im Abschnitt [Komponenten hinzufügen](../reporting/creating-your-journey-reports.md#adding-components).
 
-## Kurzvorlage für die Reise {#ootb-template}
+## Vorlage für Journey-Zusammenfassung {#ootb-template}
 
-Berichte sind in zwei Kategorien unterteilt: eine vordefinierte Vorlage und benutzerdefinierte Berichte.
-Die vordefinierte Vorlage, **[!UICONTROL Reisezusammenfassung]**, bietet einen klaren Überblick über die wichtigsten Verfolgungsdaten.
+Berichte sind in zwei Kategorien unterteilt: in eine vordefinierte Vorlage und in benutzerdefinierte Berichte.
+Die vordefinierte Vorlage **[!UICONTROL Journey-Zusammenfassung]** bietet einen Überblick über die wichtigsten Tracking-Daten.
 
 ![](../assets/dynamic_report_journey_8.png)
 
 Für jede Tabelle werden Zusammenfassungen und Grafiken erstellt. Die Darstellung dieser Details können Sie in deren Einstellungen ändern.
 
-Die folgenden KPIs stehen oben in Ihrem Bericht zur Verfügung:
+Die folgenden KPIs stehen oben im Bericht zur Verfügung:
 
-* **[!UICONTROL Fahrt - Einfahrt]**: Gesamtzahl der Personen, die das Einstiegsereignis der Reise erreicht haben.
-* **[!UICONTROL Reise - Abschlussrate]**: Gesamtzahl der Personen, die das Ende der Reise erreicht haben (oder bei Personen, die keiner Bedingung entsprechen), im Vergleich zur Gesamtzahl der Personen, die die Reise betreten haben.
-* **[!UICONTROL Reise - aktuell]**: Gesamtzahl der Personen, die sich derzeit auf der Reise befinden.
-* **[!UICONTROL Reise - Fehlgeschlagene Rate]**: Gesamtzahl der Fahrten, die im Vergleich zur Anzahl der Fahrten nicht erfolgreich durchgeführt wurden.
-* **[!UICONTROL Auslieferung - gesendete]**Nachrichten: Gesamtzahl der gesendeten Nachrichten.
-* **[!UICONTROL Auslieferungsrate]**: Gesamtzahl der erfolgreich ausgelieferten Nachrichten im Vergleich zu den gesendeten Nachrichten.
-* **[!UICONTROL Auslieferung - Absprungrate]**: Gesamtzahl der Nachrichten, die im Vergleich zu den gesendeten Nachrichten abgeschnitten haben.
-* **[!UICONTROL Auslieferung - Abmeldung]**: Gesamtzahl der Abmeldeabbrüche nach Empfänger im Vergleich zu den bereitgestellten Nachrichten.
-* **[!UICONTROL Auslieferung - Offene Preise]**: Gesamtzahl der geöffneten Nachrichten im Vergleich zur Anzahl der ausgelieferten Nachrichten.
-* **[!UICONTROL Auslieferung - Klickrate]**: Gesamtanzahl der Klicks in einer Auslieferung im Vergleich zur Anzahl der ausgelieferten Nachrichten.
+* **[!UICONTROL Journey - Eingestiegen]**: Gesamtzahl der Kontakte, die das Einstiegsereignis der Journey erreicht haben.
+* **[!UICONTROL Journey - Abschlussrate]**: Gesamtzahl der Kontakte, die das Ende der Journey erreicht haben (oder der Kontakte, die keiner Bedingung entsprechen), in Bezug auf die Gesamtzahl der Kontakte, die in die Journey eingestiegen sind.
+* **[!UICONTROL Journey - Aktuell]**: Gesamtzahl der Kontakte, die sich derzeit in der Journey befinden.
+* **[!UICONTROL Journey - Fehlerrate]**: Gesamtzahl der Journeys, die nicht erfolgreich durchgeführt wurden, in Bezug auf die Zahl der ausgeführten Journeys .
+* **[!UICONTROL Versand - Gesendete Nachrichten]**: Gesamtzahl der gesendeten Nachrichten.
+* **[!UICONTROL Zustellbarkeitsrate]**: Gesamtzahl der erfolgreich zugestellten Nachrichten in Bezug auf die gesendeten Nachrichten.
+* **[!UICONTROL Versand - Bounce-Rate]**: Gesamtzahl der Nachrichten, bei denen es zu einem Bounce gekommen ist, in Bezug auf die gesendeten Nachrichten .
+* **[!UICONTROL Versand - Abmelderate]**: Gesamtzahl der Abmeldungen nach Empfänger in Bezug auf die zugestellten Nachrichten.
+* **[!UICONTROL Versand - Öffnungsrate]**: Gesamtzahl der geöffneten Nachrichten in Bezug auf die Zahl der zugestellten Nachrichten.
+* **[!UICONTROL Versand - Klickrate]**: Gesamtzahl der Klicks in einem Versand in Bezug auf die Zahl der zugestellten Nachrichten.
 
-Mit der Visualisierung des Reiseflusses können Sie den Pfad Ihrer Zielprofile Schritt für Schritt durch Ihre Reise sehen. Dies ist nur verfügbar, wenn Sie eine Reise als Ziel auswählen. Es wird automatisch generiert und kann nicht geändert werden.
+Mit der Visualisierung des Journey-Flusses können Sie den Pfad Ihrer Zielprofile durch Ihre Journey Schritt für Schritt anzeigen. Diese Option ist nur verfügbar, wenn Sie eine Journey als Ziel ausgewählt haben. Sie wird automatisch generiert und kann nicht geändert werden.
 
 ![](../assets/dynamic_report_journey_10.png)
 
-Die **[!UICONTROL Tabelle &quot;Reisezusammenfassung]**&quot;enthält die für Ihre Reise verfügbaren Daten, z. B.:
+Die Tabelle **[!UICONTROL Journey-Zusammenfassung]** enthält die für Ihre Journey verfügbaren Daten, z. B.:
 
-* **[!UICONTROL Eingegeben]**: Gesamtzahl der Personen, die das Einstiegsereignis der Reise erreicht haben.
-* **[!UICONTROL Abschlussrate]**: Gesamtzahl der Personen, die die Endflusskontrolle der Reise erreicht haben, im Vergleich zur Gesamtzahl der Personen, die die Reise betreten haben.
-* **[!UICONTROL Aktuell]**: Gesamtzahl der Personen, die sich derzeit auf der Reise befinden.
-* **[!UICONTROL Fehlgeschlagen]**: Gesamtzahl der Fahrten, die nicht erfolgreich durchgeführt wurden.
-* **[!UICONTROL Fehlgeschlagene Rate]**: Gesamtzahl der Fahrten, die im Vergleich zur Anzahl der Fahrten nicht erfolgreich durchgeführt wurden.
+* **[!UICONTROL Eingestiegen]**: Gesamtzahl der Kontakte, die das Einstiegsereignis der Journey erreicht haben.
+* **[!UICONTROL Abschlussrate]**: Gesamtzahl der Kontakte, die die Flusskontrolle am Ende der Journey erreicht haben, in Bezug auf die Gesamtzahl der Kontakte, die in die Journey eingestiegen sind.
+* **[!UICONTROL Aktuell]**: Gesamtzahl der Kontakte, die sich derzeit in der Journey befinden.
+* **[!UICONTROL Fehlgeschlagen]**: Gesamtzahl der Journeys, die nicht erfolgreich ausgeführt wurden.
+* **[!UICONTROL Fehlerrate]**: Gesamtzahl der Journeys, die nicht erfolgreich ausgeführt wurden, in Bezug auf die Zahl der ausgeführten Journeys.
 
-Die Tabelle &quot; **[!UICONTROL Wichtigste Ereignisse]**&quot;zeigt die erfolgreichsten Ereignisse und die**[!UICONTROL  Top-Aktion]**an, die erfolgreichsten Aktionen auf Ihren Reisen.
+In der Tabelle **[!UICONTROL Top-Ereignisse]** werden die erfolgreichsten Ereignisse und in **[!UICONTROL Top-Aktionen]** die erfolgreichsten Aktionen in Ihren Journeys angezeigt.
 
 ![](../assets/dynamic_report_journey_11.png)
 
-Die **[!UICONTROL Tabelle &quot;Auslieferung - Übersendung]**&quot;enthält die für die Auslieferungen Ihrer Reise verfügbaren Daten, z. B.:
+Die Tabelle **[!UICONTROL Versand - Versandzusammenfassung]** enthält die für die Lieferungen Ihrer Journey verfügbaren Daten, z. B.:
 
 * **[!UICONTROL Verarbeitet/gesendet]**: Gesamtzahl der gesendeten Nachrichten.
-* **[!UICONTROL Ausgelieferte Rate]**: Gesamtzahl der erfolgreich ausgelieferten Nachrichten im Vergleich zu den gesendeten Nachrichten.
-* **[!UICONTROL Ausgeliefert]**: Anzahl der erfolgreich gesendeten Nachrichten im Verhältnis zur Gesamtanzahl der gesendeten Nachrichten.
-* **[!UICONTROL Absprung- und Fehlerquote]**: Gesamtzahl der Nachrichten, die im Vergleich zu den gesendeten Nachrichten abgeschnitten haben.
-* **[!UICONTROL Absprünge + Fehler]**: die Gesamtzahl der während der Bereitstellung und der automatischen Verarbeitung der Rücksendung gesammelten Fehler im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.
+* **[!UICONTROL Zustellrate]**: Gesamtzahl der erfolgreich zugestellten Nachrichten in Bezug auf die gesendeten Nachrichten.
+* **[!UICONTROL Zugestellt]**: Zahl der erfolgreich gesendeten Nachrichten in Bezug auf die Gesamtzahl der gesendeten Nachrichten.
+* **[!UICONTROL Bounce + Fehlerrate]**: Gesamtzahl der Nachrichten, bei denen es zu einem Bounce gekommen ist, in Bezug auf die gesendeten Nachrichten.
+* **[!UICONTROL Bounces + Fehler]**: Gesamtzahl der über alle Sendungen hinweg kumulierten Fehler und der automatischen Bounce-Verarbeitung in Bezug auf die Gesamtzahl der gesendeten Nachrichten.
 
-Die **[!UICONTROL Übersicht]**über die Auslieferung - Rückverfolgung enthält die Daten, die zur Verfolgung des Erfolgs Ihrer Auslieferungen verfügbar sind, z. B.:
+Die Tabelle **[!UICONTROL Versand - Tracking-Zusammenfassung]** enthält die Daten, die zur Verfolgung des Erfolgs bei den Lieferungen Ihrer Journey verfügbar sind, z. B.:
 
-* **[!UICONTROL Offene Rate]**: Prozentsatz der geöffneten Nachrichten.
-* **[!UICONTROL Öffnen]**: Anzahl der Male, die eine Nachricht bei einer Bereitstellung geöffnet wurde.
-* **[!UICONTROL Klicken Sie auf Trough Rate]**: Gesamtanzahl der Klicks in einer Auslieferung im Vergleich zur Anzahl der ausgelieferten Nachrichten.
-* **[!UICONTROL Klicken Sie auf]**: Anzahl der Male, die bei einer Bereitstellung auf einen Inhalt geklickt wurde.
-* **[!UICONTROL Abmelderate]**: Prozentsatz der Abmeldeabbrüche nach Empfänger im Vergleich zu den bereitgestellten Nachrichten.
-* **[!UICONTROL Abmeldung]**: Gesamtzahl der Abmeldeabbrüche nach Empfänger im Vergleich zu den bereitgestellten Nachrichten.
+* **[!UICONTROL Öffnungsrate]**: Prozentsatz der geöffneten Nachrichten.
+* **[!UICONTROL Öffnungen]**: Zahl der Öffnungen einer Nachricht in einem Versand.
+* **[!UICONTROL Klickrate]**: Gesamtzahl der Klicks in einem Versand in Bezug auf die Zahl der zugestellten Nachrichten.
+* **[!UICONTROL Klicks]**: Zahl der Klicks auf einen Inhalt in einem Versand.
+* **[!UICONTROL Abmelderate]**: Prozentsatz der Abmeldungen nach Empfänger in Bezug auf die zugestellten Nachrichten.
+* **[!UICONTROL Abmeldungen]**: Gesamtzahl der Abmeldungen nach Empfänger in Bezug auf die zugestellten Nachrichten.
