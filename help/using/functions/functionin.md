@@ -1,6 +1,6 @@
 ---
 title: in
-description: Informationen zur Funktion in
+description: Erfahren Sie mehr über die Funktion „in“
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 ---
@@ -18,9 +18,9 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 # in {#in}
 
-Überprüft, ob der erste Argumentwert in der Liste enthalten ist. Die Prüfung wird mit einem Equal für jeden Argumentwert durchgeführt. Gibt TRUE zurück, wenn der Argumentwert gefunden wurde, andernfalls FALSE.
+Überprüft, ob sich der erste Argumentwert in der Liste befindet. Die Prüfung wird mithilfe eines Gleichzeichens für jeden Argumentwert durchgeführt. Gibt „true“ zurück, wenn der Argumentwert gefunden wurde, andernfalls „false“.
 
-Der Typ der Liste `<expression>` muss mit Elementen der Liste übereinstimmen. Elemente der Liste müssen als Erinnerung übereinstimmen.
+Der Typ von `<expression>` muss mit Elementen der Liste übereinstimmen. Zur Erinnerung: Typen von Elementen in der Liste müssen miteinander übereinstimmen.
 
 ## Kategorie
 
@@ -34,9 +34,9 @@ Liste
 
 | Parameter | Typ |
 |-----------|------------------|
-| String | String |
+| Zeichenfolge | Zeichenfolge |
 | Boolesch | Boolesch |
-| Integer | Integer |
+| Ganzzahl | Ganzzahl |
 | Dezimal | Dezimal |
 | Dauer | Dauer |
 | DateTime | DateTime |
@@ -49,7 +49,7 @@ Liste
 | Liste | listDateTime |
 | Liste | listDateTimeOnly |
 
-## Unterschrift und zurückgegebener Typ
+## Signatur und zurückgegebener Typ
 
 `in(<integer>,<listInteger>)`
 
@@ -65,16 +65,16 @@ Liste
 
 `in(<duration>,<listDuration>)`
 
-Gib einen Booleschen zurück.
+Geben einen booleschen Wert zurück.
 
 ## Beispiel
 
 `in(4,[4,5,3,4])`
 
-Gibt TRUE zurück.
+Gibt „true“ zurück.
 
 `in(8,[4,5,3,4])`
 
-Gibt false zurück.
+Gibt „false“ zurück.
 
 `in(#{ExperiencePlatform.ProfileFieldGroup.profile.person.gender}, ["male"])`
