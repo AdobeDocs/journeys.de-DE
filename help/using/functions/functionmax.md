@@ -1,6 +1,6 @@
 ---
 title: max
-description: Erfahren Sie mehr über die Funktion max
+description: Erfahren Sie mehr über die Funktion „max“
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,14 +10,14 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 ---
 
 # max{#max}
 
-Gibt den Maximalwert aus einem Satz von Ausdrücken zurück, entweder als Liste oder als zwei Ausdrücke. Null-Werte werden ignoriert.
+Gibt den Maximalwert aus einem Satz von Ausdrücken zurück, entweder als Liste oder in Form von zwei Ausdrücken. Nullwerte werden ignoriert.
 
 ## Kategorie
 
@@ -52,19 +52,19 @@ Gibt eine Dauer zurück.
 
 `max(<listDateTimeOnly>)`
 
-Gibt eine Uhrzeit ohne Berücksichtigung der Zeitzone zurück.
+Gibt einen Datum/Uhrzeit-Wert ohne Berücksichtigung der Zeitzone zurück.
 
 `max(<listDateTime>)`
 
-Gibt eine Uhrzeit zurück.
+Gibt einen Datum/Uhrzeit-Wert zurück.
 
 `max(<listDecimal>)`
 
-Gibt eine Dezimalstelle zurück.
+Gibt eine Dezimalzahl zurück.
 
 `max(<decimal>,<decimal>)`
 
-Gibt eine Dezimalstelle zurück.
+Gibt eine Dezimalzahl zurück.
 
 `max(<duration>,<duration>)`
 
@@ -72,11 +72,11 @@ Gibt eine Dauer zurück.
 
 `max(<dateTime>,<dateTime>)`
 
-Gibt eine Uhrzeit zurück.
+Gibt einen Datum/Uhrzeit-Wert zurück.
 
 `max(<dateTimeOnly>,<dateTimeOnly>)`
 
-Gibt eine Uhrzeit ohne Berücksichtigung der Zeitzone zurück.
+Gibt einen Datum/Uhrzeit-Wert ohne Berücksichtigung der Zeitzone zurück.
 
 `max(<integer>,<integer>)`
 
