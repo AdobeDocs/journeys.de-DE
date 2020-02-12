@@ -1,6 +1,6 @@
 ---
-title: ersetzen
-description: Informationen zum Funktionsaustausch
+title: replace
+description: Erfahren Sie mehr über die Funktion „replace“
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 
 ---
@@ -18,13 +18,13 @@ source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 
 # replace {#replace}
 
-Ersetzt das erste Vorkommen, das mit der Zielzeichenfolge übereinstimmt, durch die Ersatzzeichenfolge in der Basiszeichenfolge.
+Ersetzt das erste Auftreten, das mit der Zielzeichenfolge übereinstimmt, in der Basiszeichenfolge durch die Ersatzzeichenfolge.
 
-Die Ersetzung erfolgt vom Anfang der Zeichenfolge bis zum Ende, wenn z. B. &quot;aa&quot;durch &quot;b&quot;in der Zeichenfolge &quot;aaa&quot;ersetzt wird, führt dies zu &quot;ba&quot;anstatt zu &quot;ab&quot;.
+Die Ersetzung erfolgt vom Anfang der Zeichenfolge zum Ende, z. B. führt ein Ersetzen von „aa“ in der Zeichenfolge „aaa“ durch „b“ zu „ba“ und nicht zu „ab“.
 
 ## Kategorie
 
-String
+Zeichenfolge
 
 ## Funktionssyntax
 
@@ -34,11 +34,11 @@ String
 
 | Parameter | Typ |
 |-----------|--------------|
-| base | string |
-| target | string |
-| Ersatz | string |
+| base | Zeichenfolge |
+| target | Zeichenfolge |
+| replacement | Zeichenfolge |
 
-## Unterschrift und zurückgegebener Typ
+## Signatur und zurückgegebener Typ
 
 `replace(<base>,<target>,<replacement>)`
 
@@ -48,4 +48,4 @@ Gibt eine Zeichenfolge zurück.
 
 `replace("Hello World", "l", "x")`
 
-Gibt &quot;Hexlo World&quot;zurück.
+Gibt „Hexlo World“ zurück.
