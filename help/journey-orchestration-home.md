@@ -1,9 +1,9 @@
 ---
 keywords: Journeys;home;popular topics
 solution: Journeys
-title: Produktdokumentation zur Journey Orchestrierung
+title: Produktdokumentation für die Orchestrierung der Customer Journey
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3b448258ef6c4a1fb6876693dac26268481bd0c4
 
 ---
@@ -13,15 +13,15 @@ source-git-commit: 3b448258ef6c4a1fb6876693dac26268481bd0c4
 
 ![](using/assets/bannerjourney.png)
 
-## Jetzt loslegen
+## Erste Schritte
 
-* **[Was ist Journey-Orchestrierung?](using/action/working-with-adobe-campaign.md)**<br/>Erfahren Sie mehr über die Reisebegleitung.
+* **[Was ist Journey-Orchestrierung?](using/action/working-with-adobe-campaign.md)**<br/>Weitere Informationen zur Orchestrierung der Customer Journey.
 
-* **[Erstellen Sie Ihre erste Reise](using/about/get-started.md)**<br/>Discover die wichtigsten Schritte, um die Journey Orchestrierung einzurichten und Ihre erste Reise zu bauen.
+* **[Erstellen Ihrer ersten Journey](using/about/get-started.md)**<br/>Entdecken Sie die wichtigsten Schritte zur Einrichtung der Orchestrierung der Customer Journey und zur Erstellung Ihrer ersten Journey.
 
-* **[Konfigurieren eines Ereignisses](using/event/about-events.md#section_tbk_5qt_pgb)**<br/>Erfahren Sie, wie Sie die Ereignisse konfigurieren, auf die Ihre Reisen hören werden.
+* **[Konfigurieren eines Ereignisses](using/event/about-events.md#section_tbk_5qt_pgb)**<br/>Erfahren Sie, wie Sie die Ereignisse konfigurieren, auf die Ihre Journeys reagieren.
 
-* **[Zugriff auf Journey Orchestration](using/about/access-management.md)**<br/>gewähren Erfahren Sie, wie Sie den Zugriff Ihrer Benutzer mit Produktprofilen und -rechten verwalten.
+* **[Gewähren von Zugriff auf die Orchestrierung der Customer Journey](using/about/access-management.md)**<br/>Erfahren Sie, wie Sie den Zugriff Ihrer Anwender mit Produktprofilen und -rechten verwalten.
 
 ## Wichtigste Seiten
 
@@ -34,7 +34,7 @@ source-git-commit: 3b448258ef6c4a1fb6876693dac26268481bd0c4
     <div>
     <a href="using/about/troubleshooting.md"><strong>Problembehebung</strong></a>
     </div>
-    <em></em>Finden Sie heraus, mit welchen verschiedenen Tools Sie Ihre Reisen beheben können.
+    <em></em>Informieren Sie sich über die verschiedenen Tools, mit denen Sie Probleme bei Ihren Journeys beheben können.
     <br>
   </td>
   <td valign="top">
@@ -42,9 +42,9 @@ source-git-commit: 3b448258ef6c4a1fb6876693dac26268481bd0c4
       <img alt="build" src="using/assets/do-not-localize/design.png"/>
     </a>
     <div>
-    <a href="using/usecase/building-the-journey.md"><strong>Umsetzung</strong></a>
+    <a href="using/usecase/building-the-journey.md"><strong>Anwendungsfall</strong></a>
     </div>
-    <em></em>Erfahren Sie, wie Sie schrittweise eine erweiterte Reise erstellen.
+    <em></em>Lernen Sie Schritt für Schritt, wie Sie eine erweiterte Journey erstellen können.
     <br>
   </td>
   <td valign="top">
@@ -54,7 +54,7 @@ source-git-commit: 3b448258ef6c4a1fb6876693dac26268481bd0c4
     <div>
     <a href="using/expression/expressionadvanced.md"><strong>Erstellen erweiterter Ausdrücke</strong></a>
     </div>
-    <em>Erfahren Sie, wie Sie komplexe Ausdrücke erstellen, die Daten aus Ereignissen und Datenquellen nutzen. </em>
+    <em>Erfahren Sie, wie Sie mithilfe von Daten aus Ereignissen und Datenquellen komplexe Ausdrücke erstellen. </em>
     <br>
   </td>
 </tr>
@@ -62,9 +62,9 @@ source-git-commit: 3b448258ef6c4a1fb6876693dac26268481bd0c4
 
 ## Zusätzliche Ressourcen
 
-* [Experience Platform](https://www.adobe.com/experience-platform/documentation-and-developer-resources.html)
+* [Experience Platform](https://www.adobe.com/de/experience-platform/documentation-and-developer-resources.html)
 * [Echtzeit-Kundenprofil](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/unified_profile_architectural_overview/unified_profile_architectural_overview.md)
-* [Experience Cloud XDM-Felddefinition](https://www.adobe.io/apis/cloudplatform/dataservices/xdm.html)
-* [Identitäts-Namensraum](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/identity_namespace_overview/identity_namespace_overview.md)
-* [Streaming-Ingestion-APIs](https://www.adobe.io/apis/cloudplatform/dataservices/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md)
-* [Transaktionsnachrichten in Adobe Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
+* [Experience Cloud-XDM-Felddefinition](https://www.adobe.io/apis/cloudplatform/dataservices/xdm.html)
+* [Identity Namespace](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/identity_namespace_overview/identity_namespace_overview.md)
+* [Streaming-Erfassungs-APIs](https://www.adobe.io/apis/cloudplatform/dataservices/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md)
+* [Transaktionsnachrichten in Adobe Campaign Standard](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
