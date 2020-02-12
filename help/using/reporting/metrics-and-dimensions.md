@@ -1,6 +1,6 @@
 ---
 title: Metriken und Dimensionen
-description: Erfahren Sie mehr über Dimensionen und Metriken, die für die Reiseorganisation verfügbar sind
+description: Erfahren Sie mehr über Dimensionen und Metriken, die bei der Orchestrierung der Customer Journey verfügbar sind.
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 
 ---
@@ -20,100 +20,100 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 
 >[!NOTE]
 >
->Bereitstellungsdaten werden nur ausgefüllt, wenn Sie über Adobe Campaign Standard verfügen.
+>Die Versanddaten werden nur ausgefüllt, wenn Sie über Adobe Campaign Standard verfügen.
 
-Hier finden Sie die Liste aller in dynamischen Berichten verfügbaren Komponenten sowie deren Definitionen.
+Hier finden Sie eine Liste aller Komponenten, die in dynamischen Berichten enthalten sind, sowie ihrer Definitionen.
 
-Die nachstehende Tabelle enthält eine Liste der in Reiseberichten verwendeten Dimensionen und deren Definitionen.
+In der Tabelle unten finden Sie eine Liste der Dimensionen, die in Journey-Berichten verwendet werden, sowie ihre Definitionen.
 
-To learn more on compatibility between dimensions and metrics, refer to [this page](../assets/do-not-localize/dynamic_report_compatibility_journey.pdf).
+Weiterführende Informationen zur Kompatibilität zwischen Dimensionen und Metriken finden Sie auf dieser [Seite](../assets/do-not-localize/dynamic_report_compatibility_journey.pdf).
 
-## Reisedimensionen {#MBE_table_wk4_bnj_w2b}
+## Journey-Dimensionen {#MBE_table_wk4_bnj_w2b}
 
-Die nachstehende Tabelle enthält eine Liste der in Reiseberichten verwendeten Dimensionen, deren Definitionen und Formeln.
+In der Tabelle unten finden Sie eine Liste der Dimensionen, die in Journey-Berichten verwendet werden, sowie ihre Definitionen und Formeln.
 
 | Dimensionen | Definition |
 |--- |--- |
-| **Aktionen** | Liste aller Aktionen (**Aktionsname - Aktionsbezeichnung**), die auf Reisen verwendet werden, z.B. Push - Checkout-Bestätigung, E-Mail - Rewards-Treue. |
-| **Datenquelle** | Liste der Datenquellen (Name der **Datenquelle**), die zur Datenbereicherung in einer Reise verwendet werden, z.B. Erlebnis-Plattform, Reservierungssystem. |
-| **[!UICONTROL Event]** | Liste aller Ereignisse (**Ereignisname - Ereignisbezeichnung**), die bei Reisen verwendet werden, z. B. Geometrixx-Ereignis - Geometrixx-Checkout. |
-| **Verwendete** | Liste der Feldgruppen (**Feldgruppenname**), die zur Datenbereicherung bei Reisen verwendet werden, z. B. Profilfeldgruppe, Geometrixx Reservierungssystem. |
-| **Journey** | Liste aller Fahrten (**Reisename**) im Testmodus und live, z.B. Warenkorbabbruch, Hotelreservierungsmeldung. |
-| **Reiseversion** | Liste aller veröffentlichten Reiseversionen (**Reisename und Versionsnummer**), z.B. Warenkorbabbruch v1, Hotelreservierungsbenachrichtigung v2. |
-| **Orchestrierung** | Liste aller Orchesteraktivitäten (**Bedingung, Ende, Warten**), die für Fahrten definiert und verwendet werden. |
+| **Aktion** | Liste aller Aktionen (**Aktionsname - Aktionsbezeichnung**), die in Journeys verwendet werden (z. B. Push-Benachrichtigung - Checkout-Bestätigung, E-Mail - Treueprämien). |
+| **Datenquelle** | Liste der Datenquellen (**Datenquellenname**), die in einer Journey zur Datenanreicherung verwendet werden (z. B. Experience Platform, Reservierungssystem). |
+| **[!UICONTROL Ereignis]** | Liste aller Ereignisse (**Ereignisname - Ereignisbezeichnung**), die in Journeys zum Einsatz kommen (z. B. Geometrixx-Ereignis - Geometrixx-Checkout). |
+| **Feldergruppe** | Liste der Feldergruppen (**Feldergruppenname**), die in Journeys zur Datenanreicherung verwendet werden (z. B. Profilfeldgruppe, Geometrixx-Reservierungssystem). |
+| **Journey** | Liste aller Journeys (**Journey-Name**), die im Testmodus und live sind (z. B. Transaktionsabbruch, Benachrichtigung zu Hotelreservierung). |
+| **Journey-Version** | Liste aller publizierten Journey-Versionen (**Journey-Name + Nummer der Version**), z. B. Transaktionsabbruch v1, Benachrichtigung zu Hotelreservierung v2. |
+| **Orchestrierung** | Liste aller Orchestrierungsaktivitäten (**Bedingung, Ende, Warten**), die definiert sind und in Journeys verwendet werden. |
 
-## Auslieferungsdimensionen {#delivery-dimensions}
+## Versanddimensionen {#delivery-dimensions}
 
-Die nachstehende Tabelle enthält eine Liste der in Reiseberichten verwendeten Auslieferungsdimensionen, deren Definitionen und Formeln.
+Die nachstehende Tabelle enthält eine Liste der in Journey-Berichten verwendeten Versanddimensionen sowie ihrer Definitionen und Formeln.
 
 | Dimension | Definition |
 |--- |--- |
 | **Browser** | Browser, in dem die Nachricht geöffnet oder angeklickt wurde |
-| **Bereitstellungsname** | Titel und Kennung des Versands |
-| **Gerät** | Gerät, auf dem die E-Mail/SMS/Push-Benachrichtigung geöffnet/angesehen/angeklickt wurde. |
-| **Nachrichtentyp** | Der für den Versand verwendete Kanal, beispielsweise E-Mail, SMS, Push-Benachrichtigung oder In-App-Nachricht |
-| **Name der Mobile App** | Name der Mobile App |
-| **Plattform** | Plattform des Geräts, auf dem die Nachricht geöffnet/angesehen/angeklickt wurde |
-| **[!UICONTROL Push-Plattform]** | Plattform des Geräts, auf dem die Push-Benachrichtigung geöffnet wurde, wie iOS oder Android |
-| **Empfänger-Domain** | Die zum Öffnen der E-Mail verwendete Domain |
-| **Tracking-URL** | URL, die der Benutzer in der Nachricht angeklickt hat |
-| **Kategorie des URL-Trackings** | Die der Tracking-URL zugewiesene Kategorie |
-| **Titel des URL-Trackings** | Der an die URL vergebene Titel, wie &quot;Mirrorseite&quot;, &quot;Kontakt&quot; oder &quot;Öffnung&quot;. |
-| **Variante** | Variante der E-Mail im Fall von A/B-Tests |
+| **Versandname** | Titel und Kennung des Versands. |
+| **Gerät** | Gerät, mit dem die E-Mail/SMS/Push-Benachrichtigung geöffnet/angezeigt/angeklickt wurde. |
+| **Nachrichtentyp** | Der für den Versand verwendete Kanal, beispielsweise E-Mail, SMS, Push-Benachrichtigung oder In-App-Nachricht. |
+| **Name der App** | Der Name der App. |
+| **Plattform** | Plattform des Geräts, auf dem die Nachricht geöffnet/angezeigt/angeklickt wurde. |
+| **[!UICONTROL Push-Plattform]** | Plattform des Geräts, auf dem die Push-Benachrichtigung geöffnet wurde (z. B. iOS oder Android). |
+| **Empfänger-Domain** | Die zum Öffnen der E-Mail verwendete Domain. |
+| **Tracking-URL** | URL, auf die der Benutzer in der Nachricht geklickt hat. |
+| **Kategorie des URL-Trackings** | Die der Tracking-URL zugewiesene Kategorie. |
+| **Titel des URL-Trackings** | Der an die URL vergebene Titel, wie „Mirrorseite“, „Kontakt“ oder „Öffnung“. |
+| **Variante** | Variante der E-Mail im Fall von A/B-Tests. |
 
 
-## Reisemetriken {#MBE_p_p22_c4j_w2b}
+## Journey-Metriken {#MBE_p_p22_c4j_w2b}
 
-Die nachstehende Tabelle enthält eine Liste der in Reiseberichten verwendeten Metriken, deren Definitionen und Formeln.
+In der Tabelle unten finden Sie eine Liste der Metriken, die in Journey-Berichten verwendet werden, sowie ihrer Definitionen und Formeln.
 
 | Metrik | Definition |
 |--- |---|
-| **Abgeschlossen** | Gesamtzahl der Personen, die die Reise normal beendet haben. |
-| **Abschlussrate** | Gesamtzahl der Personen, die die Reise normal beendet haben, im Vergleich zur Gesamtzahl der Personen, die die Reise betreten haben. |
-| **Aktuell** | Die Gesamtzahl der Personen, die sich derzeit auf der Reise befinden, d. h. die Anzahl der Eingaben abzüglich der Personen, die die Reise abgebrochen haben, Fehler und Zeitüberschreitungen. |
-| **Aktueller Zinssatz** | Gesamtzahl der Personen, die sich derzeit auf der Reise befinden, im Vergleich zur Anzahl der Personen, die die Reise betreten haben. |
-| **Eingestiegen** | Gesamtanzahl der Ereignisse, die aufgetreten sind, um einen einzelnen Eintrag auf der Reise zu starten. |
-| **Fehler** | Gesamtanzahl der Fehler, die während einer Reise aufgetreten sind, die jedoch nicht daran gehindert wurden, erfolgreich zu sein. |
-| **Fehler in Aktion** | Gesamtanzahl der Fehler, die bei Aktionen aufgetreten sind. |
-| **Fehler bei der Anreicherung** | Gesamtanzahl der Fehler, die bei einer Datenanreicherung beim Aufruf einer Datenquelle/Feldgruppe aufgetreten sind. |
-| **Fehler beim Ereignis** | Gesamtanzahl der Fehler, die bei Ereignissen aufgetreten sind. |
-| **Fehlerrate** | Gesamtzahl der während einer Reise aufgetretenen Fehler im Vergleich zur Gesamtzahl der Vorfälle auf der Reise. |
-| **Ausgeführte Aktion** | Gesamtzahl der durchgeführten Aktionen für eine Reise. |
-| **Ausgeführte Anreicherung** | Die Gesamtzahl der durch Aufruf einer Datenquelle ausgeführten Anreicherungen, um bestimmte Feldgruppen abzurufen. |
-| **Ausgeführtes Ereignis** | Gesamtzahl der durchgeführten Aktionen für eine Reise. |
-| **Vollstreckte Orchestrierung** | Gesamtanzahl der für eine Reise ausgeführten Orchesterationsobjekte (Ende, Warten, Bedingung). |
-| **Fehlgeschlagen** | Gesamtzahl der Fahrten, die nicht erfolgreich durchgeführt wurden. |
-| **Fehlerhafte Rate** | Gesamtzahl der Fahrten, die im Vergleich zur Anzahl der Fahrten nicht erfolgreich durchgeführt wurden. |
+| **Abgeschlossen** | Gesamtzahl der Kontakte, die die Journey normal beendet haben. |
+| **Abschlussrate** | Gesamtzahl der Kontakte, die die Journey normal beendet haben, in Bezug auf die Gesamtzahl der Kontakte, die in die Journey eingestiegen sind. |
+| **Aktuell** | Gesamtzahl der Kontakte, die sich derzeit in der Journey befinden, d. h. die Zahl der Kontakte, die die Journey begonnen haben, abzüglich der Personen, die die Journey abgebrochen haben bzw. bei denen es zu Fehlern und Zeitüberschreitungen gekommen ist. |
+| **Aktuelle Rate** | Gesamtzahl der Kontakte, die sich derzeit in der Journey befinden, in Bezug auf die Zahl der Kontakte, die in die Journey eingestiegen sind. |
+| **Eingestiegen** | Gesamtzahl der Ereignisse, die aufgetreten sind, um einen individuellen Einstieg in die Journey zu starten. |
+| **Fehler** | Gesamtzahl der Fehler, die während einer Journey aufgetreten sind, jedoch nicht verhindert haben, dass die Journey erfolgreich war. |
+| **Fehler in Aktion** | Gesamtzahl der Fehler, die bei Aktionen aufgetreten sind. |
+| **Fehler bei Anreicherung** | Gesamtzahl der Fehler, die beim Aufrufen einer Datenquelle/Feldergruppe bei der Datenanreicherung aufgetreten sind. |
+| **Fehler bei Ereignis** | Gesamtzahl der Fehler, die bei Ereignissen aufgetreten sind. |
+| **Fehlerrate** | Gesamtzahl der bei einer Journey aufgetretenen Fehler in Bezug auf die Gesamtzahl des Auftretens in der Journey. |
+| **Ausgeführte Aktion** | Gesamtzahl der für eine Journey durchgeführten Aktionen. |
+| **Ausgeführte Anreicherung** | Gesamtzahl der durch Aufruf einer Datenquelle ausgeführten Anreicherungen, um bestimmte Feldergruppen abzurufen. |
+| **Ausgeführtes Ereignis** | Gesamtzahl der für eine Journey durchgeführten Aktionen. |
+| **Ausgeführte Orchestrierung** | Gesamtzahl der für eine Journey ausgeführten Orchestrierungsobjekte (Ende, Warten, Bedingung). |
+| **Fehlgeschlagen** | Gesamtzahl der Journeys, die nicht erfolgreich ausgeführt wurden. |
+| **Fehlerrate** | Gesamtzahl der Journeys, die in Bezug auf die Zahl der ausgeführten Journeys nicht erfolgreich ausgeführt wurden. |
 
-## Bereitstellungsmetriken {#delivery-metrics}
+## Versandmetriken {#delivery-metrics}
 
-Die nachstehende Tabelle enthält eine Liste der Metriken, die in Fahrtenberichten verwendet werden, deren Definitionen und Formeln.
+In der Tabelle unten finden Sie eine Liste der Metriken, die in Journey-Berichten verwendet werden, sowie ihrer Definitionen und Formeln.
 
 | Metrik | Definition |
 |--- |--- |
-| **Auf Blacklist** | Anzahl der Empfänger, die eine E-Mail als Spam oder Junk gekennzeichnet haben |
-| **Blacklist-Rate** | Die Gesamtzahl der Nachrichten, die als auf der schwarzen Liste erscheinen, im Vergleich zu den gesendeten Nachrichten. |
-| **Bounces + Fehler** | Gesamtzahl der über alle Sendungen hinweg kumulierten Fehler und der automatischen Bounce-Verarbeitung in Bezug auf die Gesamtzahl der gesendeten Nachrichten |
-| **Absprung- und Fehlerquote** | Gesamtanzahl der Nachrichten, die im Vergleich zu den gesendeten Nachrichten abgeschnitten haben. |
-| **Klicken** | Die Anzahl der Klicks auf einen Inhalt in einem Versand. |
-| **Durchklickrate** | Gesamtanzahl der Klicks in einer Bereitstellung im Vergleich zur Anzahl der gesendeten Nachrichten. |
-| **Zugestellt** | Anzahl der erfolgreich gesendeten Nachrichten in Bezug auf die Gesamtzahl der gesendeten Nachrichten |
-| **Zustellrate** | Die Gesamtzahl der erfolgreich ausgelieferten Nachrichten im Vergleich zu den gesendeten Nachrichten. |
-| **Fehler** | Gesamtanzahl der Fehler, die während einer Reise aufgetreten sind, die jedoch nicht daran gehindert wurden, erfolgreich zu sein. |
-| **Hardbounce** | Gesamtzahl der permanenten Fehler, beispielsweise einer falschen E-Mail-Adresse |
-| **Hardbounce-Rate** | Gesamtanzahl der Auslieferungen, die aufgrund permanenter Fehler im Vergleich zu den gesendeten Nachrichten fehlgeschlagen sind. |
-| **Mirrorseite** | Die Anzahl der Empfänger, die den Mirrorseiten-Link angeklickt haben |
-| **Mirrorseitenrate** | Gesamtanzahl der Klicks auf den Link der Spiegelseite im Vergleich zu den insgesamt bereitgestellten Nachrichten. |
+| **Auf Blacklist** | Zahl der Empfänger, die eine E-Mail als Spam oder Junk gekennzeichnet haben |
+| **Blacklist-Rate** | Gesamtzahl der Nachrichten, die als „Auf Blacklist“ markiert sind, in Bezug auf die Zahl der gesendeten Nachrichten. |
+| **Bounces + Fehler** | Gesamtzahl der über alle Sendungen hinweg kumulierten Fehler und der automatischen Bounce-Verarbeitung in Bezug auf die Gesamtzahl der gesendeten Nachrichten. |
+| **Bounce + Fehlerrate** | Gesamtzahl der Nachrichten, bei denen es zu einem Bounce gekommen ist, in Bezug auf die gesendeten Nachrichten. |
+| **Klick** | Zahl der Klicks auf einen Inhalt in einem Versand. |
+| **Durchklickrate** | Gesamtzahl der Klicks in einem Versand in Bezug auf die Zahl der gesendeten Nachrichten. |
+| **Zugestellt** | Zahl der erfolgreich gesendeten Nachrichten in Bezug auf die Gesamtzahl der gesendeten Nachrichten. |
+| **Zustellrate** | Gesamtzahl der erfolgreich zugestellten Nachrichten in Bezug auf die gesendeten Nachrichten. |
+| **Fehler** | Gesamtzahl der Fehler, die während einer Journey aufgetreten sind, jedoch nicht verhindert haben, dass die Journey erfolgreich war. |
+| **Hardbounce** | Gesamtzahl der permanenten Fehler, beispielsweise eine falsche E-Mail-Adresse. |
+| **Hardbounce-Rate** | Gesamtzahl der versendeten Nachrichten, die aufgrund permanenter Fehler fehlgeschlagen sind, in Bezug auf die gesendeten Nachrichten. |
+| **Mirrorseite** | Zahl der Empfänger, die auf den Mirrorseiten-Link geklickt haben. |
+| **Mirrorseitenrate** | Gesamtzahl der Klicks auf den Mirrorseiten-Link in Bezug auf die Gesamtzahl der zugestellten Sendungen. |
 | **Öffnungen** | Anzahl der Öffnungen einer Nachricht in einem Versand. |
-| **Öffnungsrate** | Gesamtanzahl der geöffneten Nachrichten im Vergleich zur Anzahl der gesendeten Nachrichten. |
-| **Quarantäne** | Anzahl der Bounce-Nachrichten, aufgrund derer eine Adresse unter Quarantäne gestellt wurde |
-| **Quarantänerate** | Gesamtzahl der Quarantäne im Vergleich zu den gesendeten Meldungen. |
-| **Zurückgewiesen** | Anzahl der Sendungen, die von SMTP-Servern als Spam gekennzeichnet wurden |
-| **Zurückweisungsrate** | Gesamtzahl der als abgelehnt markierten Nachrichten im Vergleich zu den gesendeten Nachrichten. |
-| **Verarbeitet/gesendet** | Gesamtzahl der gesendeten Nachrichten |
-| **Softbounce** | Gesamtzahl der temporären Fehler, beispielsweise einer vollen Inbox |
-| **Softbounce-Rate** | Gesamtanzahl der Auslieferungen, die aus temporären Gründen im Vergleich zu den gesendeten Nachrichten fehlgeschlagen sind. |
-| **Einzelklicks** | Anzahl der Empfänger, die einen Inhalt in einem Versand angeklickt haben |
-| **Einzelöffnungen** | Anzahl der Empfänger, die den Versand geöffnet haben |
-| **Abgemeldet** | Gesamtanzahl der Klicks auf den Abmelde-Link. |
-| **Abmelderate** | Gesamtanzahl der Abmeldeabbrüche nach Empfänger im Vergleich zu den bereitgestellten Nachrichten. |
+| **Öffnungsrate** | Gesamtzahl der geöffneten Nachrichten in Bezug auf die Zahl der zugestellten Nachrichten. |
+| **Quarantäne** | Zahl der Bounce-Nachrichten, bei denen eine Adresse unter Quarantäne gestellt wurde |
+| **Quarantänerate** | Gesamtzahl der Nachrichten in Quarantäne in Bezug auf die gesendeten Nachrichten. |
+| **Zurückgewiesen** | Zahl der Nachrichten, die von SMTP-Servern als Spam gekennzeichnet wurden. |
+| **Zurückweisungsrate** | Gesamtzahl der als abgelehnt markierten Nachrichten in Bezug auf die gesendeten Nachrichten. |
+| **Verarbeitet/gesendet** | Gesamtzahl der gesendeten Nachrichten für den Versand. |
+| **Softbounce** | Gesamtzahl der temporären Fehler, beispielsweise bei einem vollen Posteingang. |
+| **Softbounce-Rate** | Gesamtzahl der versendeten Nachrichten, die aus einem temporären Grund fehlgeschlagen sind, in Bezug auf die gesendeten Nachrichten. |
+| **Einzelklicks** | Zahl der Empfänger, die auf einen Inhalt in einem Versand geklickt haben. |
+| **Einzelöffnungen** | Zahl der Empfänger, die den Versand geöffnet haben. |
+| **Abgemeldet** | Zahl der Klicks auf den Abmelde-Link. |
+| **Abmelderate** | Gesamtzahl der Abmeldungen durch Empfänger in Bezug auf die gesendeten Nachrichten. |
