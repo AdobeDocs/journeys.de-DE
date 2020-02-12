@@ -1,6 +1,6 @@
 ---
-title: 'Adobe Experience Platform-Datenquelle '
-description: 'Erfahren Sie, wie Sie die Adobe Experience Platform-Datenquelle konfigurieren '
+title: 'Datenquelle von Adobe Experience Platform '
+description: 'Erfahren Sie, wie Sie die Datenquelle von Adobe Experience Platform konfigurieren '
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,39 +10,39 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7e69b19f2b7099e5c015dd1052a58728cf143ffa
 
 ---
 
 
-# Adobe Experience Platform data source {#concept_zrb_nqt_52b}
+# Datenquelle von Adobe Experience Platform {#concept_zrb_nqt_52b}
 
-Die Experience Platform-Datenquelle definiert die Verbindung zum Echtzeit-Kundenprofildienst. Diese Datenquelle ist integriert und vorkonfiguriert. Es kann nicht gelöscht werden. Diese Datenquelle dient zum Abrufen und Verwenden von Daten aus dem Echtzeit-Kundenprofildienst (z. B. zur Überprüfung, ob die Person, die eine Reise absolvierte, eine Frau ist). Es ermöglicht Ihnen die Verwendung von Profildaten und Experience Events-Daten. Weitere Informationen zum Echtzeit-Kundenprofildienst finden Sie auf dieser [Seite](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/unified_profile_architectural_overview/unified_profile_architectural_overview.md).
+Die Datenquelle von Experience Platform definiert die Verbindung zum Echtzeit-Kundenprofildienst. Diese Datenquelle ist integriert und vorkonfiguriert. Sie kann nicht gelöscht werden. Diese Datenquelle dient zum Abrufen und Verwenden von Daten aus dem Echtzeit-Kundenprofildienst (überprüfen Sie beispielsweise, ob es sich bei der Person, die an einer Journey teilnimmt, um eine Frau handelt). Sie ermöglicht Ihnen die Verwendung von Profildaten und Erlebnisereignisdaten. Weitere Informationen zum Echtzeit-Kundenprofildienst finden Sie auf dieser [Seite](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/unified_profile_architectural_overview/unified_profile_architectural_overview.md).
 
 >[!NOTE]
 >
->Sie können die 1000 neuesten Erlebnisereignisse abrufen, die vor weniger als einem Jahr erstellt wurden.
+>Sie können die 1.000 neuesten Erlebnisereignisse abrufen, die vor weniger als einem Jahr erstellt wurden.
 
-Um die Verbindung zum Echtzeit-Kundenprofildienst zu ermöglichen, müssen wir einen Schlüssel zur Identifizierung einer Person und einen Namespace verwenden, der den Schlüssel kontextualisiert. Daher können Sie diese Datenquelle nur verwenden, wenn Ihre Reisen mit einem Ereignis beginnen, das einen Schlüssel und einen Namespace enthält. Näheres wird im Abschnitt [](../building-journeys/journey.md) beschrieben.
+Um die Verbindung zum Echtzeit-Kundenprofildienst zu ermöglichen, müssen wir einen Schlüssel zur Identifizierung einer Person und einen Namespace verwenden, der den Schlüssel kontextualisiert. Daher können Sie diese Datenquelle nur verwenden, wenn Ihre Journeys mit einem Ereignis beginnen, das einen Schlüssel und einen Namespace enthält. Siehe [](../building-journeys/journey.md).
 
-Sie können die vorkonfigurierte Feldgruppe mit dem Namen &quot;ProfileFieldGroup&quot;bearbeiten, neue hinzufügen und diejenigen entfernen, die nicht in Entwurfs- oder Live-Reisen verwendet werden. Näheres wird im Abschnitt [](../datasource/field-groups.md) beschrieben.
+Sie können die vorkonfigurierte Feldergruppe mit dem Namen „ProfileFieldGroup“ bearbeiten, neue hinzufügen und diejenigen entfernen, die nicht in Entwurfs- oder Live-Journeys verwendet werden. Siehe [](../datasource/field-groups.md).
 
-Im Folgenden finden Sie die wichtigsten Schritte, um der integrierten Datenquelle Feldgruppen hinzuzufügen.
+Im Folgenden finden Sie die wichtigsten Schritte, um der integrierten Datenquelle Feldergruppen hinzuzufügen.
 
-1. Wählen Sie in der Liste der Datenquellen die integrierte Experience Platform-Datenquelle aus.
+1. Wählen Sie in der Liste der Datenquellen die integrierte Datenquelle von Experience Platform aus.
 
-   Dadurch wird der Bereich für die Datenquellenkonfiguration auf der rechten Seite des Bildschirms geöffnet.
+   Dadurch wird der Konfigurationsbereich für die Datenquellen auf der rechten Seite des Bildschirms geöffnet.
 
    ![](../assets/journey23.png)
 
-1. Klicken Sie auf Neue Feldgruppe **[!UICONTROL hinzufügen]**, um eine neue Feldreihe zum Abrufen zu definieren. Näheres wird im Abschnitt[](../datasource/field-groups.md)beschrieben.
+1. Klicken Sie auf **[!UICONTROL Neue Feldergruppe hinzufügen]**, um eine neue Reihe von Feldern zum Abrufen zu definieren. Siehe [](../datasource/field-groups.md).
 
    ![](../assets/journey24.png)
 
-1. Wählen Sie ein Schema aus der Dropdownliste **[!UICONTROL Schema]**. In diesem Feld werden die in der Plattform verfügbaren Profil- und Erlebnisereignisschemata aufgelistet. Die Schemaerstellung wird nicht im Journey Orchestration durchgeführt. Er wird in der Datenplattform ausgeführt.
-1. Wählen Sie die zu verwendenden Felder aus.
-1. Definieren Sie die Cachedauer.
+1. Wählen Sie ein Schema aus der Dropdown-Liste **[!UICONTROL Schema]** aus. In diesem Feld werden die in der Plattform verfügbaren Profil- und Erlebnisereignisschemata aufgelistet. Die Schemaerstellung wird nicht in der Orchestrierung der Customer Journey durchgeführt. Sie wird in der Datenplattform durchgeführt.
+1. Wählen Sie die Felder aus, die Sie verwenden möchten.
+1. Definieren Sie die Aufbewahrungsfrist im Cache.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-Wenn Sie den Cursor auf den Namen einer Feldgruppe setzen, werden rechts zwei Symbole angezeigt. Damit können Sie die Feldgruppe löschen und duplizieren. Beachten Sie, dass das Symbol &quot; **[!UICONTROL Löschen]**&quot;nur verfügbar ist, wenn die Feldgruppe auf keiner Live- oder Entwurfsreise verwendet wird (Informationen, die im Feld &quot;**[!UICONTROL  Verwendet in]** &quot;angezeigt werden).
+Wenn Sie den Cursor auf dem Namen einer Feldergruppe platzieren, werden rechts zwei Symbole angezeigt. Damit können Sie die Feldergruppe löschen und duplizieren. Beachten Sie, dass das Symbol **[!UICONTROL Löschen]** nur verfügbar ist, wenn die Feldergruppe in keiner Live- oder Entwurfs-Journey verwendet wird (die Information wird im Feld **[!UICONTROL Verwendet in]** angezeigt).
