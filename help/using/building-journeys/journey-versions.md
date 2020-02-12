@@ -1,6 +1,6 @@
 ---
-title: Reiseversionen
-description: Informationen zu Reiseversionen
+title: Journey-Versionen
+description: Erfahren Sie mehr über Journey-Versionen
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,36 +10,36 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
 
 ---
 
 
-# Reiseversionen{#concept_ldc_k55_zgb}
+# Journey-Versionen{#concept_ldc_k55_zgb}
 
-In der Reiseliste werden alle Reiseversionen mit der Versionsnummer angezeigt. Näheres wird im Abschnitt [](../building-journeys/using-the-journey-designer.md) beschrieben. Wenn Sie nach einer Reise suchen, werden beim ersten Öffnen der Anwendung die neuesten Versionen oben in der Liste angezeigt. Anschließend können Sie die gewünschte Sortierung definieren und die Anwendung behält sie als Benutzerpräferenz bei. Die Reiseversion wird auch oben auf der Benutzeroberfläche der Reiseausgabe über der Arbeitsfläche angezeigt.
+In der Liste der Journeys werden alle Journey-Versionen mit der Versionsnummer angezeigt. Siehe [](../building-journeys/using-the-journey-designer.md). Wenn Sie nach einer Journey suchen, werden beim ersten Öffnen der Anwendung die neuesten Versionen oben in der Liste angezeigt. Anschließend können Sie die gewünschte Sortierung definieren und die Anwendung behält sie als Benutzervoreinstellung bei. Die Version der Journey wird auch oben auf der Benutzeroberfläche zum Bearbeiten der Journey (oberhalb der Arbeitsfläche) angezeigt.
 
 ![](../assets/journeyversions1.png)
 
-Wenn Sie eine Live-Reise ändern müssen, müssen Sie eine neue Version Ihrer Reise erstellen.
+Wenn Sie eine Live-Journey ändern müssen, müssen Sie eine neue Version Ihrer Journey erstellen.
 
-1. Öffnen Sie die neueste Version Ihrer Live-Reise, klicken Sie auf **[!UICONTROL Erstellen Sie eine neue Version]**und bestätigen Sie.
+1. Öffnen Sie die neueste Version Ihrer Live-Journey, klicken Sie auf **[!UICONTROL Neue Version erstellen]** und bestätigen Sie.
 
    ![](../assets/journeyversions2.png)
 
    >[!NOTE]
    >
-   >Sie können nur eine neue Version aus der neuesten Version einer Reise erstellen.
+   >Sie können nur aus der neuesten Version einer Journey eine neue Journey erstellen.
 
-1. Nehmen Sie Ihre Änderungen vor, klicken Sie auf **[!UICONTROL Veröffentlichen]**und bestätigen Sie.
+1. Nehmen Sie Ihre Änderungen vor, klicken Sie auf **[!UICONTROL Veröffentlichen]** und bestätigen Sie.
 
    ![](../assets/journeyversions3.png)
 
-Ab dem Zeitpunkt der Veröffentlichung der Reise beginnen die Personen, in die neueste Version der Reise zu gelangen. Personen, die bereits eine frühere Version eingegeben haben, bleiben bis zum Ende der Reise darin. Wenn sie später wieder auf dieselbe Reise gehen, werden sie in die neueste Version wechseln.
+Ab dem Zeitpunkt der Veröffentlichung der Journey nehmen Kontakte an der neuen Version der Journey teil. Personen, die bereits an einer früheren Version teilnehmen, bleiben bis zum Ende der Journey darin. Wenn sie später wieder in dieselbe Journey eintreten, wechseln sie in die neueste Version.
 
-Reiseversionen können einzeln gestoppt werden. Alle Versionen von Reisen haben denselben Namen.
+Journey-Versionen können einzeln angehalten werden. Alle Versionen von Journeys haben denselben Namen.
 
 >[!NOTE]
 >
->Wenn Sie mehrere Live-Versionen haben und die neueste Version beenden, werden die Benutzer nicht auf eine frühere Live-Version zurückgreifen. Es wird kein Eintritt auf die Reise geben.
+>Wenn Sie mehrere Live-Versionen haben und die neueste Version anhalten, greifen die Anwender nicht auf eine frühere Live-Version zurück. Es findet kein Zutritt zur Journey statt.
