@@ -1,6 +1,6 @@
 ---
 title: toDecimal
-description: Informationen zur Funktion toDecimal
+description: Erfahren Sie mehr über die Funktion „toDecimal“
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 ---
@@ -30,12 +30,12 @@ Konversion
 
 ## Parameter
 
-| Parameter | Description |
+| Parameter | Beschreibung |
 |--- |--- |
-| string | wandelt den Zeichenfolgenwert als Dezimalzahl um |
-| dateTime | Konvertiert das Datum als Anzahl der Millisekunden (etwa Millisekunden) |
-| boolean | wandelt den booleschen Wert in 1 um, wenn true, 0, wenn false |
-| integer | wird in eine Dezimalstelle umgewandelt (Beispiel).: 1 wird 1.0) |
+| Zeichenfolge | konvertiert den Zeichenfolgenwert in eine Dezimalzahl |
+| dateTime | konvertiert das Datum in die Zahl der Millisekunden (Millisekunden der Epoche) |
+| boolean | wandelt den booleschen Wert in 1 um, wenn „true“, und in 0, wenn „false“ |
+| Ganzzahl | konvertiert in eine Dezimalzahl (Beispiel: 1 wird zu 1.0) |
 
 ## Signaturen und zurückgegebene Typen
 
@@ -47,7 +47,7 @@ Konversion
 
 `toDecimal(<boolean>)`
 
-Gibt eine Dezimalstelle zurück.
+Gibt eine Dezimalzahl zurück.
 
 ## Beispiele
 
