@@ -1,6 +1,6 @@
 ---
-title: Jetzt loslegen
-description: Erste Schritte mit dem Journey Orchestrierung
+title: Erste Schritte
+description: Erste Schritte mit der Orchestrierung der Customer Journey
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -8,63 +8,63 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fed6fd8d8ee497ec47727f7297dc72f319fabe27
 
 ---
 
 
-# Jetzt loslegen{#concept_y4b_4qt_52b}
+# Erste Schritte{#concept_y4b_4qt_52b}
 
-In Journey Orchestration gibt es zwei Arten von Benutzern, die jeweils bestimmte Aufgaben ausführen: der **technische Nutzer** und der **Geschäftsbenutzer**. Der Benutzerzugriff wird über Produktprofile und -rechte verwaltet. Informationen [](../about/access-management.md) zum Konfigurieren des Benutzerzugriffs finden Sie unter .
+Bei der Orchestrierung der Customer Journey gibt es zwei Arten von Benutzern, die jeweils eigene Aufgaben erledigen: den **technischen Anwender** und den **Business-Anwender**. Der Benutzerzugriff wird mithilfe von Produktprofilen und Berechtigungen verwaltet. Informationen zum Konfigurieren des Benutzerzugriffs finden Sie unter [](../about/access-management.md).
 
-Im Folgenden finden Sie die wichtigsten Schritte zur Konfiguration und Verwendung der Journey-Orchestrierung:
+Im Folgenden finden Sie die wichtigsten Schritte zum Konfigurieren und Verwenden der Orchestrierung der Customer Journey:
 
 1. **Ereignis konfigurieren**
 
-   Sie müssen die erwarteten Informationen definieren und wie sie verarbeitet werden. Diese Konfiguration ist obligatorisch. Dieser Schritt wird von einem **technischen Benutzer** ausgeführt.
+   Sie müssen die erwarteten Informationen sowie deren Verarbeitungsmethode definieren. Die Konfiguration ist obligatorisch. Dieser Schritt wird von einem **technischen Anwender** ausgeführt.
 
    Weitere Informationen hierzu finden Sie im Abschnitt [](../event/about-events.md).
 
    ![](../assets/journey7.png)
 
-1. **Datenquelle konfigurieren**
+1. **Konfigurieren der Datenquelle**
 
-   Sie müssen eine Verbindung zu einem System definieren, um zusätzliche Informationen abzurufen, die auf Ihren Reisen, z.B. in Ihren Bedingungen, verwendet werden. Eine integrierte Experience Platform-Datenquelle wird auch zur Bereitstellungszeit konfiguriert. Dieser Schritt ist nicht erforderlich, wenn Sie nur Daten aus den Ereignissen Ihrer Reise nutzen. Dieser Schritt wird von einem **technischen Benutzer** ausgeführt.
+   Sie müssen eine Verbindung zu einem System definieren, um zusätzliche Informationen abrufen zu können, die bei Ihren Journeys verwendet werden (z. B. in Ihren Bedingungen). Außerdem wird zur Bereitstellungszeit eine integrierte Experience Platform-Datenquelle konfiguriert. Dieser Schritt ist nicht erforderlich, wenn Sie ausschließlich Daten aus den Ereignissen Ihrer Journey nutzen. Dieser Schritt wird von einem **technischen Anwender** ausgeführt.
 
    Weitere Informationen hierzu finden Sie im Abschnitt [](../datasource/about-data-sources.md).
 
    ![](../assets/journey22.png)
 
-1. **Aktionen konfigurieren**
+1. **Konfigurieren einer Aktion**
 
-   Wenn Sie ein Drittanbietersystem verwenden, um Ihre Nachrichten zu senden, müssen Sie die Verbindung mit dem Journey Orchestration konfigurieren. Näheres wird im Abschnitt [](../action/about-custom-action-configuration.md) beschrieben.
+   Wenn Sie zum Versand Ihrer Nachrichten ein Drittanbietersystem verwenden möchten, müssen Sie dessen Verbindung zur Orchestrierung der Customer Journey konfigurieren. Siehe [](../action/about-custom-action-configuration.md).
 
-   Wenn Sie Adobe Campaign Standard zum Senden von Nachrichten verwenden, müssen Sie die integrierte Aktion konfigurieren. Näheres wird im Abschnitt [](../action/working-with-adobe-campaign.md) beschrieben.
+   Wenn Sie Adobe Campaign Standard zum Senden von Nachrichten verwenden möchten, müssen Sie die integrierte Aktion konfigurieren. Siehe [](../action/working-with-adobe-campaign.md).
 
-   Diese Schritte werden von einem **technischen Benutzer** ausgeführt.
+   Diese Schritte werden von einem **technischen Anwender** ausgeführt.
 
    ![](../assets/custom2.png)
 
-1. **Entwerfen Sie Ihre Reise**
+1. **Gestalten Ihrer Journey**
 
-   Kombinieren Sie die verschiedenen Ereignis-, Orchestrierungs- und Aktionsaktivitäten, um Ihre mehrstufigen kanalübergreifenden Szenarien zu erstellen. Dieser Schritt wird von einem **Geschäftsbenutzer** ausgeführt.
+   Kombinieren Sie die verschiedenen Ereignis-, Orchestrierungs- und Aktionsaktivitäten, um Ihre mehrstufigen kanalübergreifenden Szenarien zu erstellen. Dieser Schritt wird von einem **Business-Anwender** ausgeführt.
 
    Weiterführende Informationen dazu finden Sie unter [](../building-journeys/journey.md).
 
    ![](../assets/journeyuc2_24.png)
 
-1. **Testen und Veröffentlichen der Reise**
+1. **Testen und Veröffentlichen der Journey**
 
-   Sie müssen die Reise validieren und aktivieren. Dieser Schritt wird von einem **Geschäftsbenutzer** ausgeführt.
+   Sie müssen die Journey validieren und aktivieren. Dieser Schritt wird von einem **Business-Anwender** ausgeführt.
 
-   For more on this, see [](../building-journeys/testing-the-journey.md) and [](../building-journeys/publishing-the-journey.md).
+   Weiterführende Informationen dazu finden Sie unter [](../building-journeys/testing-the-journey.md) und [](../building-journeys/publishing-the-journey.md).
 
    ![](../assets/journeyuc2_32bis.png)
 
-1. **Ihre Reise überwachen**
+1. **Überwachen Ihrer Journey**
 
-   Verwenden Sie die dedizierten Berichterstellungswerkzeuge, um die Effektivität Ihrer Reise zu messen. Dieser Schritt wird von einem **Geschäftsbenutzer** ausgeführt.
+   Verwenden Sie die dedizierten Reporting-Tools, um zu messen, ob Ihre Journey effektiv ist. Dieser Schritt wird von einem **Business-Anwender** ausgeführt.
 
    Weiterführende Informationen dazu finden Sie unter [](../reporting/about-journey-reports.md).
 
