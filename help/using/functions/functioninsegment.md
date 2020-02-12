@@ -1,6 +1,6 @@
 ---
 title: inSegment
-description: Informationen zur Funktion in Segment
+description: Erfahren Sie mehr über die Funktion „inSegment“
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7e69b19f2b7099e5c015dd1052a58728cf143ffa
 
 ---
@@ -18,11 +18,11 @@ source-git-commit: 7e69b19f2b7099e5c015dd1052a58728cf143ffa
 
 # inSegment {#inSegment}
 
-Überprüft, ob eine Person zu einem bestimmten Segment gehört.
+Überprüft, ob ein Kontakt zu einem bestimmten Segment gehört.
 
-Der Segmentname muss eine String-Konstante sein. Es kann weder ein Feldverweis noch ein Ausdruck sein.
+Der Segmentname muss eine Zeichenfolgenkonstante sein. Er darf weder ein Feldverweis noch ein Ausdruck sein.
 
-Segmente werden in der [Adobe Experience Platform](https://platform.adobe.com/segment/overview)definiert. Der Ausdruckseditor stellt eine automatisch ausgefüllte Segmentliste bereit.
+Segmente werden in [Adobe Experience Platform](https://platform.adobe.com/segment/overview) definiert. Der Ausdruckseditor bietet eine automatisch ausgefüllte Segmentliste.
 
 >[!NOTE]
 >
@@ -38,11 +38,11 @@ Adobe Experience Platform
 
 ## Parameter
 
-| Parameter | Description | Typ |
+| Parameter | Beschreibung | Typ |
 |--- |--- |--- |
 | Segment | Der Segmentname | `<string>` |
 
-## Unterschrift und zurückgegebener Typ
+## Signatur und zurückgegebener Typ
 
 `inSegment(<string>)`
 
@@ -54,4 +54,4 @@ Gibt einen booleschen Wert zurück.
 
 Erklärung:
 
-Die Funktion gibt &quot; **[!UICONTROL true]**&quot;zurück, wenn die Person in der Reiseinstanz Teil des Plattformsegments &quot;Herren über 50&quot;ist, andernfalls &quot;**[!UICONTROL  false]** &quot;.
+Die Funktion gibt **[!UICONTROL true]** zurück, wenn der Kontakt in der Journey-Instanz Teil des Plattformsegments namens „Herren über 50“ ist, andernfalls wird **[!UICONTROL false]** zurückgegeben.
