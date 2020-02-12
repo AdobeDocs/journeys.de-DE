@@ -1,6 +1,6 @@
 ---
 title: endWith
-description: Erfahren Sie mehr über die Funktion endWith
+description: Erfahren Sie mehr über die Funktion „endWith“
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a844adc1a073aebfb7fd8a719e52f305079260b7
 
 ---
@@ -18,11 +18,11 @@ source-git-commit: a844adc1a073aebfb7fd8a719e52f305079260b7
 
 # endWith {#endWith}
 
-Gibt TRUE zurück, wenn der zweite Parameter ein Suffix des ersten Parameters ist.
+Gibt „true“ zurück, wenn der zweite Parameter ein Suffix des ersten Parameters ist.
 
 ## Kategorie
 
-String
+Zeichenfolge
 
 ## Funktionssyntax
 
@@ -32,10 +32,10 @@ String
 
 | Parameter | Typ |
 |-----------|------------------|
-| string | string |
-| Suffix | string |
+| string | Zeichenfolge |
+| suffix | Zeichenfolge |
 
-## Unterschrift und zurückgegebener Typ
+## Signatur und zurückgegebener Typ
 
 `endWith(<string>,<string>)`
 
@@ -45,8 +45,8 @@ Gibt einen booleschen Wert zurück.
 
 `endWith("Hello World", "World")`
 
-Gibt TRUE zurück.
+Gibt „true“ zurück.
 
 `endWith("Hello World", "Hello")`
 
-Gibt false zurück.
+Gibt „false“ zurück.
