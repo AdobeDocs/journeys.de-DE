@@ -1,6 +1,6 @@
 ---
 title: inNextDays
-description: Informationen zur Funktion in NextDays
+description: Erfahren Sie mehr über die Funktion „inNextDays“
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0e06abf518445ce145d2d042b16daaa2dfd9603e
 
 ---
@@ -18,11 +18,11 @@ source-git-commit: 0e06abf518445ce145d2d042b16daaa2dfd9603e
 
 # inNextDays {#inNextDays}
 
-Gibt TRUE zurück, wenn ein bestimmtes Datum oder eine angegebene dateTime zwischen jetzt und jetzt liegt + Delta-Tage.
+Gibt „true“ zurück, wenn der angegebene Datums- bzw. Datum/Uhrzeit-Wert zwischen jetzt und jetzt + delta Tagen liegt.
 
 ## Kategorie
 
-Date
+Datum
 
 ## Funktionssyntax
 
@@ -32,7 +32,7 @@ Date
 
 | Parameter | Typ |
 |-----------|------------------|
-| Datum | dateTime |
+| Datum/Uhrzeit | dateTime |
 | delta | integer |
 
 ## Signaturen und zurückgegebener Typ
@@ -45,4 +45,4 @@ Gibt einen booleschen Wert zurück.
 
 `inNextDays(toDateTime('2010-12-12T01:11:00Z'), 4)`
 
-Gibt TRUE zurück.
+Gibt „true“ zurück.
