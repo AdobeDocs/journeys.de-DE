@@ -1,6 +1,6 @@
 ---
-title: Informationen zur Reiseorganisation
-description: Mehr über die Reiseorganisation
+title: Informationen zur Orchestrierung der Customer Journey
+description: Erfahren Sie mehr über die Orchestrierung der Customer Journey
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -8,44 +8,44 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fed6fd8d8ee497ec47727f7297dc72f319fabe27
 
 ---
 
 
-# Informationen zur Reiseorganisation{#concept_nd3_mqt_52b}
+# Informationen zur Orchestrierung der Customer Journey{#concept_nd3_mqt_52b}
 
-Erstellen Sie in Echtzeit-Orchesteringanwendungsfällen mithilfe von Kontextdaten, die in Ereignissen oder Datenquellen gespeichert werden.
+Erstellen Sie Anwendungsfälle für Echtzeit-Orchestrierung mithilfe von Kontextdaten, die in Ereignissen oder Datenquellen gespeichert sind.
 
-Journey Orchestration ist ein in die Experience Platform integrierter Applikationsservice.
+Die Orchestrierung der Customer Journey ist ein mit Experience Platform integrierter Anwendungs-Service.
 
 ![](../assets/journeydiagram.png)
 
-Mit dem Journey Orchestration können Sie Echtzeit-Orchester auf Basis von Kontextdaten zu Ereignissen, Informationen aus der Adobe Experience Platform oder Daten aus API-Diensten von Drittanbietern organisieren. Sie können eine benutzerdefinierte Aktion konfigurieren, wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden. Wenn Sie über Adobe Campaign Standard verfügen, können Sie E-Mails, Push-Benachrichtigungen und SMS mit den [Transaktionsnachrichten](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)von Adobe Campaign Standard senden.
+Die Orchestrierung der Customer Journey erlaubt eine Echtzeit-Orchestrierung auf Basis von Kontextdaten aus Ereignissen, Informationen aus Adobe Experience Platform oder Daten aus API-Diensten von Drittanbietern. Wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden, können Sie eine benutzerdefinierte Aktion einrichten. Wenn Sie über Adobe Campaign Standard verfügen, können Sie mit den [Funktionen für Transaktionsnachrichten](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) von Adobe Campaign Standard E-Mails, Push-Benachrichtigungen und SMS versenden.
 
-Auf der Registerkarte &quot;Ereigniskonfiguration&quot;konfiguriert ein **technischer Benutzer** die Ereignisse, die während der Fahrten erwartet werden. Die Daten der eingehenden Ereignisse werden nach dem Adobe Experience Data Model (XDM) normalisiert. Ereignisse stammen von Streaming Ingestion APIs für authentifizierte und nicht authentifizierte Ereignisse (z. B. Adobe Mobile SDK-Ereignisse).
+Auf dem Tab „Ereigniskonfiguration“ richtet ein **technischer Anwender** die Ereignisse ein, die bei einer Journey erwartet werden. Die Daten eingehender Ereignisse werden mit dem Adobe Experience Data Model (XDM) normalisiert. Ereignisse kommen aus Streaming-Erfassungs-APIs für authentifizierte und nicht authentifizierte Ereignisse (z. B. Adobe Mobile SDK-Ereignisse).
 
-Auf der Registerkarte &quot;Konfiguration der Datenquelle&quot;konfiguriert ein **technischer Benutzer** Folgendes:
+Auf dem Tab „Datenquellenkonfiguration“ richtet ein **technischer Anwender** Folgendes ein:
 
-* Die verschiedenen Felder, die im Reisedesigner von der Adobe Experience Platform zur Erstellung von Bedingungen und zur Personalisierung offen gelegt werden.
-* Die zusätzlichen benutzerspezifischen Datenquellen, die Sie im Reisedesigner nutzen. Benutzerspezifische Datenquellen sind Verbindungen zwischen dem Journey Orchestration und Drittanbietersystemen oder -diensten über API. Sie können ein Drittanbietersystem, z. B. ein Treuesystem, verbinden. Dienste von Drittanbietern können beispielsweise eine Wetter-API sein.
+* die verschiedenen Felder, die im Journey-Designer von Adobe Experience Platform zur Erstellung von Bedingungen und Personalisierung offen gelegt werden
+* die zusätzlichen benutzerdefinierten Datenquellen, die Sie im Journey-Designer nutzen Benutzerdefinierte Datenquellen sind Verbindungen zwischen der Orchestrierung der Customer Journey und Drittanbietersystemen oder -diensten via API. So können Sie z. B. Drittanbietersysteme wie ein Treueprogramm anbinden. Dienste von Drittanbietern können beispielsweise aus einer Wetter-API bestehen.
 
-Mit dem Reisedesigner kann ein **Geschäftsbenutzer** ein Einstiegsereignis einfach per Drag &amp; Drop verschieben, Bedingungen hinzufügen und die auszuführende Aktion festlegen.
+Mit dem Journey-Designer kann ein **Business-Anwender** ein Einstiegsereignis ganz einfach per Drag-and-Drop verschieben, Bedingungen hinzufügen und die auszuführende Aktion festlegen.
 
 Anschließend erstellen Sie Bedingungen basierend auf:
 
-* time
-* Daten aus der Ereignisnutzlast
+* Zeit
+* Daten aus der Ereignis-Payload
 * Informationen aus Datenquellen: Echtzeit-Kundenprofildatenquelle oder benutzerdefinierte Datenquellen
 
-Sie können die geteilte Bedingung verwenden, um Personen auf der Reise in verschiedene Richtungen zu senden.
+Sie können die Split-Bedingung verwenden, um Personen in der Journey in verschiedene Richtungen zu senden.
 
-Mithilfe von Aktionsaktivitäten können Sie dann eine Nachricht über ein Drittanbietersystem senden. Wenn Sie über Adobe Campaign Standard verfügen, senden Sie personalisierte SMS, Push-Benachrichtigungen oder E-Mails in Echtzeit.
+Mithilfe von Aktionsaktivitäten können Sie dann eine Nachricht über ein Drittanbietersystem senden. Wenn Sie über Adobe Campaign Standard verfügen, können Sie in Echtzeit personalisierte SMS, Push-Benachrichtigungen oder E-Mails senden.
 
-Da das Journey Orchestration mehrteilig ist, können Sie erweiterte Szenarien erstellen. Beispielsweise können Sie nach einem ersten Ereignis und einer ersten Aktion andere Ereignisse ziehen. Anschließend können Sie eine zweite Aktion hinzufügen, eine Warteaktivität platzieren, die auf einige Zeit wartet, eine geteilte Bedingung hinzufügen, um Benutzer auf zwei verschiedene Pfade zu verschieben und dann verschiedene Nachrichten zu senden.
+Da die Orchestrierung der Customer Journey mehrere Schritte umfasst, lassen sich erweiterte Szenarien erstellen. Beispielsweise können Sie nach einem ersten Ereignis und einer ersten Aktion weitere Ereignisse ablegen. Anschließend können Sie eine zweite Aktion hinzufügen, eine Warteaktivität zum Warten platzieren, eine Split-Bedingung hinzufügen, um Benutzer auf zwei verschiedene Pfade zu senden, und anschließend verschiedene Nachrichten senden.
 
 >[!NOTE]
 >
->Diese Dokumentation wird häufig aktualisiert, um die jüngsten Änderungen am Produkt widerzuspiegeln. Einige Screenshots unterscheiden sich jedoch geringfügig von der Benutzeroberfläche des Produkts.
+>Die vorliegende Dokumentation wird regelmäßig aktualisiert, um aktuelle Änderungen am Produkt widerzuspiegeln. Manche Screenshots können sich jedoch geringfügig von der Benutzeroberfläche des Produkts unterscheiden.
 
