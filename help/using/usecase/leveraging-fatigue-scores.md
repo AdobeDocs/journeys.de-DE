@@ -1,6 +1,6 @@
 ---
 title: Nutzen von Ermüdungswerten
-description: Erfahren Sie, wie Sie Ermüdungswerte auf Reisen nutzen können
+description: Erfahren Sie, wie Sie in Journeys Ermüdungswerte nutzen
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 
 ---
@@ -18,48 +18,48 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 
 # Nutzen von Ermüdungswerten {#concept_dsh_1ry_wfb}
 
-Dieser Anwendungsfall zeigt Ihnen, wie Sie Ermüdungswerte nutzen können, um zu vermeiden, dass Ihre Kunden bei Ihren Reisen übermäßig belohnen.
+Dieser Anwendungsfall zeigt, wie Sie Ermüdungswerte verwenden können, um zu verhindern, dass Sie Kunden bei Journeys überfordern.
 
 >[!CAUTION]
 >
->Die Funktion zum Prädiktiven Ermüdungsergebnis steht nur Kunden zur Verfügung, die die Funktion Adobe Campaign Standard Data Service verwenden.
+>Die Funktion für prädiktive Ermüdungswerte steht nur Kunden zur Verfügung, die die Funktion Adobe Campaign Standard Data Service verwenden.
 
 ## Konfigurieren des Ereignisses {#section_ptb_ws1_ffb}
 
-Befolgen Sie die unter [](../event/about-events.md).
+Befolgen Sie die Schritte unter [](../event/about-events.md).
 
-## Datenquelle konfigurieren {#section_o3n_4yy_wfb}
+## Konfigurieren der Datenquelle {#section_o3n_4yy_wfb}
 
-Führen Sie die folgenden Schritte aus, um die Felder für das Ermüdungsergebnis in der integrierten Datenquelle auszuwählen:
+Führen Sie folgende Schritte aus, um die Ermüdungswertfelder in der integrierten Datenquelle auszuwählen:
 
-1. Klicken Sie im oberen Menü auf die Registerkarte **[!UICONTROL Datenquellen]**und wählen Sie die integrierte Experience Platform-Datenquelle.
+1. Klicken Sie im oberen Menü auf den Tab **[!UICONTROL Datenquellen]** und wählen Sie die integrierte Experience Platform-Datenquelle.
 
    ![](../assets/journey23.png)
 
 1. Vergewissern Sie sich, dass die für Ihre Anwendungsfälle erforderlichen Felder ausgewählt sind.
-1. Klicken Sie auf Neue Feldgruppe ****hinzufügen, wählen Sie das**[!UICONTROL  Profilmodell]** aus und fügen Sie die Felder **[!UICONTROL Ermüdungsgrad]**und**[!UICONTROL  ErmüdungsgradErgebnis]** hinzu (unter _AI > emailScore > Ermüdung_).
+1. Klicken Sie auf **[!UICONTROL Neue Feldergruppe hinzufügen]**, wählen Sie das Modell **[!UICONTROL Profil]** und fügen Sie die Felder **[!UICONTROL fatigueLevel]** und **[!UICONTROL fatigueScore]** hinzu (unter _journeyAI > emailScore > fatigue_).
 
    ![](../assets/journeyuc3_1.png)
 
-1. Wählen Sie **[!UICONTROL Speichern]**aus.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-## Aufbau der Reise {#section_uzm_pyy_wfb}
+## Erstellen der Journey {#section_uzm_pyy_wfb}
 
-Gehen Sie wie unter [](../building-journeys/journey.md)beschrieben vor, um eine Reise zu erstellen, zu validieren und zu veröffentlichen.
+Gehen Sie wie in [](../building-journeys/journey.md) beschrieben vor, um eine Journey zu erstellen, zu validieren und zu veröffentlichen.
 
-In unserem Anwendungsfall nutzen wir das Feld **[!UICONTROL müdigkeitLevel]**. Sie können auch das Feld**[!UICONTROL  fatigueScore]** verwenden.
+In unserem Anwendungsfall nutzen wir das Feld **[!UICONTROL fatigueLevel]**. Sie können auch das Feld **[!UICONTROL fatigueScore]** verwenden.
 
-Führen Sie die folgenden Schritte aus, um die Ermüdungsebene Ihrer Reise zu nutzen:
+Führen Sie folgende Schritte aus, um den Ermüdungsgrad Ihrer Journey zu nutzen:
 
-1. Fügen Sie Ihrer Reise eine Veranstaltung und eine Bedingung hinzu.
+1. Fügen Sie Ihrer Journey ein Ereignis und eine Bedingung hinzu.
 
    ![](../assets/journeyuc2_14.png)
 
-1. Wählen Sie den **[!UICONTROL Datenquellenbedingungstyp]**aus und klicken Sie auf das Feld**[!UICONTROL  Ausdruck]** .
+1. Wählen Sie den Typ **[!UICONTROL Bedingung der Datenquelle]** und klicken Sie auf das Feld **[!UICONTROL Ausdruck]**.
 
    ![](../assets/journeyuc3_2.png)
 
-1. Suchen Sie mithilfe des einfachen Ausdrucks-Editors nach dem Feld **[!UICONTROL fatigueLevel]**(_ExperiencePlatformDataSource > JourneyAIScores > Profile >travelAI > emailScore > Müdigkeit_), legen Sie es nach rechts ab und erstellen Sie die folgende Bedingung: &quot;fatigueLevel&quot;ist gleich &quot;Low&quot;. Bestätigen Sie die Aktion mit der Schaltfläche**[!UICONTROL  OK]**.
+1. Suchen Sie mithilfe des einfachen Ausdruckseditors nach dem Feld **[!UICONTROL fatigueLevel]** (_ExperiencePlatformDataSource > JourneyAIScores > Profile >travelAI > emailScore > fatigue_), legen Sie es rechts ab und erstellen Sie folgende Bedingung: „Ermüdungsgrad ist gleich ‚Gering‘“. Bestätigen Sie die Aktion mit der Schaltfläche **[!UICONTROL OK]**.
 
    ![](../assets/journeyuc3_3.png)
 
@@ -69,10 +69,10 @@ Führen Sie die folgenden Schritte aus, um die Ermüdungsebene Ihrer Reise zu nu
    #{ExperiencePlatformDataSource.JourneyAIScores.Profile.journeyAI.emailScore.fatigue.fatigueLevel} == "low"
    ```
 
-1. Erstellen Sie in der Bedingung zwei weitere Pfade für mittlere und hohe Ermüdungsgrade.
+1. Erstellen Sie in der Bedingung zwei weitere Pfade für einen mittleren und hohen Ermüdungsgrad.
 
    ![](../assets/journeyuc3_4.png)
 
-1. Sie können jetzt für jede Ermüdungsebene verschiedene Aktionen hinzufügen.
+1. Jetzt können Sie für jeden Ermüdungsgrad andere Aktionen hinzufügen.
 
    ![](../assets/journeyuc3_5.png)
