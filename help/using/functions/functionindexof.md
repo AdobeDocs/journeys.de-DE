@@ -1,6 +1,6 @@
 ---
 title: indexOf
-description: Erfahren Sie mehr über die Funktion indexOf
+description: Erfahren Sie mehr über die Funktion „indexOf“
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 
 ---
@@ -18,11 +18,11 @@ source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 
 # indexOf {#indexOf}
 
-Überprüft, ob die erste Argumentzeichenfolge mit einer bestimmten Zeichenfolge endet (zweite Argumentzeichenfolge). Wenn die Zeichenfolge nicht gefunden wird, geben Sie -1 zurück.
+Überprüft, ob die erste Argumentzeichenfolge mit einer bestimmten Zeichenfolge endet (zweite Argumentzeichenfolge). Wenn die Zeichenfolge nicht gefunden wird, wird -1 zurückgegeben.
 
 ## Kategorie
 
-String
+Zeichenfolge
 
 ## Funktionssyntax
 
@@ -32,10 +32,10 @@ String
 
 | Parameter | Typ |
 |-----------|------------------|
-| string | String |
-| angegebener Wert | String |
+| string | Zeichenfolge |
+| angegebener Wert | Zeichenfolge |
 
-## Unterschrift und zurückgegebener Typ
+## Signatur und zurückgegebener Typ
 
 `indexOf(<string>,<string>)`
 
@@ -49,4 +49,4 @@ Gibt 2 zurück.
 
 Erklärung:
 
-In &quot;Hello&quot;befindet sich das erste Vorkommen von &quot;l&quot;an Position 2.
+In „Hello“ befindet sich das erste Auftreten von „l“ an Position 2.
