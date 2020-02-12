@@ -1,6 +1,6 @@
 ---
-title: Datenquelle konfigurieren
-description: Erfahren Sie, wie Sie die Datenquelle für den einfachen Anwendungsfall konfigurieren
+title: 'Konfigurieren der Datenquelle '
+description: Erfahren Sie, wie Sie die Datenquelle für die Journey mit dem einfachen Anwendungsfall konfigurieren können
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,19 +10,19 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 
 ---
 
 
-# Datenquelle konfigurieren{#concept_ax3_bcy_w2b}
+# Konfigurieren der Datenquelle{#concept_ax3_bcy_w2b}
 
-In unserem Anwendungsfall möchten wir Personalisierungsdaten für unsere Nachrichten verwenden. Wir müssen auch überprüfen, ob die Person eine Frau ist. Diese Informationen werden in der Echtzeit-Kundenprofildatenbank gespeichert. Der **technische Benutzer** muss überprüfen, ob diese Felder in der integrierten Experience Platform-Datenquelle definiert sind.
+In unserem Anwendungsfall möchten wir für unsere Nachrichten Personalisierungsdaten verwenden. Außerdem wollen wir überprüfen, ob die Person weiblich ist. Diese Informationen sind in der Echtzeit-Kundenprofildatenbank gespeichert. Der **technische Anwender** muss prüfen, ob diese Felder in der integrierten Experience Platform-Datenquelle definiert sind.
 
 Weitere Informationen zur Datenquellenkonfiguration finden Sie unter [](../datasource/about-data-sources.md).
 
-1. Klicken Sie im oberen Menü auf die Registerkarte **[!UICONTROL Datenquellen]**und wählen Sie die integrierte Experience Platform-Datenquelle.
+1. Klicken Sie im oberen Menü auf den Tab **[!UICONTROL Datenquellen]** und wählen Sie die integrierte Experience Platform-Datenquelle.
 
    ![](../assets/journey23.png)
 
@@ -33,6 +33,6 @@ Weitere Informationen zur Datenquellenkonfiguration finden Sie unter [](../datas
    * _person > gender_
    * _personalEmail > address_
 
-1. Wählen Sie **[!UICONTROL Speichern]**aus.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-Die Datenquelle ist jetzt konfiguriert und kann auf Ihrer Reise verwendet werden.
+Die Datenquelle ist jetzt konfiguriert und kann in Ihrer Journey verwendet werden.
