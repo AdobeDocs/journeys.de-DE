@@ -1,6 +1,6 @@
 ---
-title: Zeitzonen
-description: Informationen zum Zeitzonenmanagement
+title: Zeitzonen-Management
+description: Erfahren Sie mehr über das Zeitzonen-Management
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,31 +10,31 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f57cc43d8f2a223c04cc4ccccb3b3c3e0bcadfc1
 
 ---
 
 
 
-# Zeitzonen {#timezone_management}
+# Zeitzonen-Management {#timezone_management}
 
-Die Definition der Zeitzone ist in den folgenden Aktivitäten verfügbar:
+Die Definition von Zeitzonen ist in den folgenden Aktivitäten verfügbar:
 
 * [](../building-journeys/condition-activity.md#time_condition)
 * [](../building-journeys/condition-activity.md#date_condition)
 * [](../building-journeys/wait-activity.md#custom)
 * [](../building-journeys/wait-activity.md#fixed_date)
 
-Wenn das Einstiegsereignis der Reise einen Namespace hat, d. h. die Reise kann den Echtzeitkundenprofildienst der Datenplattform erreichen, wird die Zeitzone mit der im Profil des einzelnen, auf der Reise ablaufenden Benutzers festgelegten Zeitzone vordefiniert. Wenn das Profil des Benutzers keine Zeitzone enthält, wird die Zeitzone der Instanz verwendet. Wenden Sie sich an Ihren Administrator, um die Zeitzone der Instanz zu erfahren.
+Wenn das Eintrittsereignis der Journey einen Namespace hat, d. h. die Journey kann den Echtzeit-Kundenprofildienst der Datenplattform erreichen, wird die Zeitzone mit jener im Profil des Kontakts vordefiniert, der sich in der Journey befindet. Wenn das Profil des Kontakts keine Zeitzone enthält, wird die Zeitzone der Instanz verwendet. Wenden Sie sich an Ihren Administrator, um die Zeitzone der Instanz zu erfragen.
 
 ![](../assets/journey73.png)
 
-Die Zeitzone kann auch festgelegt werden. Löschen Sie die vordefinierte Zeitzone und wählen Sie eine aus der Dropdownliste aus. Wenn Sie eine feste Zeitzone verwenden, ist diese für alle Personen gleich, die die Reise beginnen.
+Die Zeitzone kann auch fest definiert werden. Löschen Sie die vordefinierte Zeitzone und wählen Sie eine aus der Dropdown-Liste aus. Wenn Sie eine feste Zeitzone verwenden, ist diese für alle Kontakte gleich, die die Journey beginnen.
 
 ![](../assets/journey72.png)
 
-Schließlich kann die Zeitzone für jede Person, die den Schritt betritt, dynamisch sein. In diesem Fall verwenden Sie den Ausdruckseditor, um auszuwählen, wo das System diese Informationen abrufen soll (sie können von einem Ereignis oder einer Datenquelle stammen). Näheres wird im Abschnitt [](../expression/expressionadvanced.md) beschrieben.
+Schließlich kann die Zeitzone für jede Person, die den Schritt betritt, dynamisch sein. In diesem Fall verwenden Sie den Ausdruckseditor, um auszuwählen, wo das System diese Informationen abrufen soll (sie können von einem Ereignis oder einer Datenquelle stammen). Siehe [](../expression/expressionadvanced.md).
 
 
-Start- und Enddaten einer Reise können nicht mit einer bestimmten Zeitzone verknüpft werden. Sie werden automatisch der Zeitzone der Instanz zugeordnet.
+Das Start- und Enddatum einer Journey kann nicht mit einer bestimmten Zeitzone verknüpft werden. Es wird automatisch mit der Zeitzone der Instanz verbunden.
