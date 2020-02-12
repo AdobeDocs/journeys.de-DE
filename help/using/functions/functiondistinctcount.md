@@ -1,6 +1,6 @@
 ---
-title: differentCount
-description: Erfahren Sie mehr über die Funktion differentCount
+title: distinctCount
+description: Erfahren Sie mehr über die Funktion „distinctCount“
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,15 +10,15 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 ---
 
 
-# differentCount{#distinctCount}
+# distinctCount{#distinctCount}
 
-Zählt die Anzahl verschiedener Werte, die die Nullwerte ignorieren.
+Zählt die Anzahl verschiedener Werte, wobei Nullwerte ignoriert werden.
 
 ## Kategorie
 
@@ -40,7 +40,7 @@ Aggregation
 | Liste | listDateTime |
 | Liste | listDateTimeOnly |
 
-## Unterschrift und zurückgegebener Typ
+## Signatur und zurückgegebener Typ
 
 `distinctCount(<listAny>)`
 
