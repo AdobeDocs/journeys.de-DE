@@ -1,6 +1,6 @@
 ---
 title: isEmpty
-description: Erfahren Sie mehr über die Funktion isEmpty
+description: Erfahren Sie mehr über die Funktion „isEmpty“
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 ---
@@ -18,11 +18,11 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 # isEmpty {#isEmpty}
 
-Gibt TRUE zurück, wenn die Zeichenfolge im Parameter kein Zeichen enthält.
+Gibt „true“ zurück, wenn die Zeichenfolge im Parameter keine Zeichen enthält.
 
 ## Kategorie
 
-String
+Zeichenfolge
 
 ## Funktionssyntax
 
@@ -32,7 +32,7 @@ String
 
 * string
 
-## Unterschrift und zurückgegebener Typ
+## Signatur und zurückgegebener Typ
 
 `isEmpty(<string>)`
 
@@ -42,8 +42,8 @@ Gibt einen booleschen Wert zurück.
 
 `isEmpty("")`
 
-Gibt TRUE zurück.
+Gibt „true“ zurück.
 
 `isEmpty("Hello World")`
 
-Gibt false zurück.
+Gibt „false“ zurück.
