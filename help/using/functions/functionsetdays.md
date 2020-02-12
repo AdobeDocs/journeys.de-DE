@@ -1,6 +1,6 @@
 ---
 title: setDays
-description: Erfahren Sie mehr über die Funktion setDays
+description: Erfahren Sie mehr über die Funktion „setDays“
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 
 ---
@@ -18,11 +18,11 @@ source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 
 # setDays {#setDays}
 
-Legt nur den Tag einer Datums- oder Datumseingabe fest. Wenn Sie beispielsweise bis zu einem bestimmten Tag des Monats warten möchten, können Sie den Tag erzwingen.
+Legt den Tag eines Datum/Uhrzeit-Werts oder Datum/Uhrzeit-Werts ohne Zeitzone fest. Wenn Sie beispielsweise bis zu einem bestimmten Tag des Monats warten möchten, können Sie den Tag erzwingen.
 
 ## Kategorie
 
-Date
+Datum
 
 ## Funktionssyntax
 
@@ -32,19 +32,19 @@ Date
 
 | Parameter | Typ |
 |--- |--- |
-| Datum | dateTime |
-| Zeitdauer ohne Berücksichtigung der Zeitzone | dateTimeOnly |
-| Tage | integer |
+| Datum/Uhrzeit | dateTime |
+| Datum/Uhrzeit ohne Berücksichtigung der Zeitzone | dateTimeOnly |
+| Tage | Ganzzahl |
 
 ## Signaturen und zurückgegebener Typ
 
 `setDays(<dateTime>,<days>)`
 
-Gibt eine Uhrzeit zurück.
+Gibt einen Datum/Uhrzeit-Wert zurück.
 
 `setDays(<dateTimeOnly>,<days>)`
 
-Gibt eine Uhrzeit ohne Berücksichtigung der Zeitzone zurück.
+Gibt einen Datum/Uhrzeit-Wert ohne Berücksichtigung der Zeitzone zurück.
 
 ## Beispiele
 
