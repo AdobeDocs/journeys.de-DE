@@ -1,6 +1,6 @@
 ---
-title: Informationen zum Reiseaufbau
-description: Erfahren Sie, wie Sie eine Reise bauen
+title: Informationen zum Erstellen von Journeys
+description: Erfahren Sie, wie Sie eine Journey erstellen
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,36 +10,36 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
 
 ---
 
 
 
-# Eine Reise erstellen {#concept_gq5_sqt_52b}
+# Erstellen einer Journey {#concept_gq5_sqt_52b}
 
-Dieser Schritt wird vom **Geschäftsbenutzer** ausgeführt. Hier kreieren Sie Ihre Reisen. Kombinieren Sie die verschiedenen Ereignis-, Orchestrierungs- und Aktionsaktivitäten, um Ihre mehrstufigen kanalübergreifenden Szenarien zu erstellen.
+Dieser Schritt wird vom **Business-Anwender** ausgeführt. Hier erstellen Sie Ihre Journeys. Kombinieren Sie die verschiedenen Ereignis-, Orchestrierungs- und Aktionsaktivitäten, um Ihre mehrstufigen kanalübergreifenden Szenarien zu erstellen.
 
-Die Benutzeroberfläche für die Reise ermöglicht Ihnen, Aktivitäten einfach von der Palette in die Arbeitsfläche zu ziehen. Sie können auch auf eine Aktivität doppelklicken, um sie im nächsten verfügbaren Schritt auf der Arbeitsfläche hinzuzufügen. Jede Aktivität hat eine bestimmte Rolle und einen bestimmten Platz im Prozess. Die Aktivitäten werden sequenziert. Nach Abschluss einer Aktivität wird der Fluss fortgesetzt und die nächste Aktivität verarbeitet usw.
+Die Benutzeroberfläche für die Journey ermöglicht es Ihnen, Aktivitäten einfach von der Palette in die Arbeitsfläche zu ziehen. Sie können auch auf eine Aktivität doppelklicken, um sie im nächsten verfügbaren Schritt der Arbeitsfläche hinzuzufügen. Jede Aktivität hat eine bestimmte Rolle und eine bestimmte Position im Prozess. Die Aktivitäten werden sequenziert. Nach Abschluss einer Aktivität wird der Fluss fortgesetzt und die nächste Aktivität verarbeitet usw.
 
-Pro Fahrt ist nur ein Namespace zulässig. Wenn Sie das erste Ereignis abbrechen, werden Ereignisse mit unterschiedlichen Namespaces grau dargestellt. Wenn das erste Ereignis keinen Namespace hat, werden alle Ereignisse mit einem Namespace grau ausgeblendet. Näheres wird im Abschnitt [](../event/selecting-the-namespace.md) beschrieben. Außerdem werden Feldgruppen für Erlebnisplattformen ausgegraut, wenn die Reise Ereignisse ohne Namespace enthält. Und schließlich müssen mehrere Ereignisse auf derselben Reise denselben Namespace verwenden.
+Pro Journey ist nur ein Namespace zulässig. Wenn Sie das erste Ereignis ablegen, werden Ereignisse mit unterschiedlichen Namespaces grau dargestellt. Wenn das erste Ereignis keinen Namespace hat, werden alle Ereignisse mit einem Namespace grau dargestellt. Siehe [](../event/selecting-the-namespace.md). Außerdem werden die Feldergruppen für Experience Platform grau dargestellt, wenn die Journey Ereignisse ohne Namespace enthält. Wenn Sie mehrere Ereignisse in derselben Journey verwenden, müssen diese denselben Namespace verwenden.
 
-## Quickstart {#creating_journey}
+## Schnellstart {#creating_journey}
 
-Hier sind die wichtigsten Schritte, um eine Reise zu erstellen und zu veröffentlichen.
+Hier finden Sie die wichtigsten Schritte für das Erstellen und Veröffentlichen einer Journey.
 
-1. Klicken Sie im oberen Menü auf die Registerkarte **[!UICONTROL Start]**.
+1. Klicken Sie oben im Menü auf den Tab **[!UICONTROL Startseite]**.
 
-   Die Liste der Reisen wird angezeigt. Weitere Informationen [](../building-journeys/using-the-journey-designer.md) zur Benutzeroberfläche finden Sie unter .
+   Die Liste der Journeys wird angezeigt. Weitere Informationen zur Benutzeroberfläche finden Sie unter [](../building-journeys/using-the-journey-designer.md).
 
    ![](../assets/journey30.png)
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**, um eine neue Reise zu erstellen.
+1. Klicken Sie auf **[!UICONTROL Erstellen]**, um eine neue Journey zu erstellen.
 
    ![](../assets/journey31.png)
 
-1. Bearbeiten Sie die Eigenschaften der Reise im Konfigurationsbereich auf der rechten Seite. Näheres wird im Abschnitt [](../building-journeys/changing-properties.md) beschrieben.
+1. Bearbeiten Sie im Konfigurationsbereich auf der rechten Seite die Eigenschaften der Journey. Siehe [](../building-journeys/changing-properties.md).
 
    ![](../assets/journey32.png)
 
@@ -48,20 +48,20 @@ Hier sind die wichtigsten Schritte, um eine Reise zu erstellen und zu veröffent
 
    ![](../assets/journey33.png)
 
-1. Ziehen Sie Ihre anderen Aktivitäten per Drag &amp; Drop und konfigurieren Sie sie. See [](../building-journeys/event-activities.md), [](../building-journeys/about-orchestration-activities.md) and [](../building-journeys/about-action-activities.md).
+1. Ziehen Sie Ihre anderen Aktivitäten per Drag-and-Drop und konfigurieren Sie sie. Siehe [](../building-journeys/event-activities.md), [](../building-journeys/about-orchestration-activities.md) und [](../building-journeys/about-action-activities.md).
 
    ![](../assets/journey34.png)
 
-1. Ihre Reise wird automatisch gespeichert. Testen Sie Ihre Reise und veröffentlichen Sie sie. Siehe [](../building-journeys/testing-the-journey.md) und [](../building-journeys/publishing-the-journey.md).
+1. Ihre Journey wird automatisch gespeichert. Testen und veröffentlichen Sie Ihre Journey. Siehe [](../building-journeys/testing-the-journey.md) und [](../building-journeys/publishing-the-journey.md).
 
    ![](../assets/journey36.png)
 
-## Ende einer Reise{#ending_a_journey}
+## Beenden einer Journey{#ending_a_journey}
 
-Es gibt zwei Möglichkeiten, eine Reise zu beenden:
+Es gibt zwei Möglichkeiten, eine Journey zu beenden:
 
-* Die Person kommt bei der letzten Aktivität eines Pfades an. Diese letzte Aktivität kann eine Endaktivität oder eine andere Aktivität sein. Es besteht keine Verpflichtung, einen Pfad mit einer Endaktivität zu beenden. Näheres wird im Abschnitt [](../building-journeys/end-activity.md) beschrieben.
-* Die Person gelangt zu einer Bedingungsaktivität (oder einer Warteaktivität mit einer Bedingung) und erfüllt keine der Bedingungen.
+* Die Person kommt bei der letzten Aktivität eines Pfades an. Diese letzte Aktivität kann eine Endaktivität oder eine andere Aktivität sein. Sie müssen einen Pfad nicht mit einer Endaktivität beenden. Siehe [](../building-journeys/end-activity.md).
+* Die Person kommt bei einer Bedingungsaktivität (oder einer Warteaktivität mit einer Bedingung) an und erfüllt keine der Bedingungen.
 
-Die Person kann dann wieder in die Reise einreisen, wenn der Wiedereintritt erlaubt ist. Näheres wird im Abschnitt [](../building-journeys/changing-properties.md) beschrieben.
+Die Person kann dann wieder in die Journey eintreten, wenn der erneute Zutritt erlaubt ist. Siehe [](../building-journeys/changing-properties.md).
 
