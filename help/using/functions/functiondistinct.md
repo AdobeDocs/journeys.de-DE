@@ -1,6 +1,6 @@
 ---
-title: unterscheide
-description: Erfahren Sie mehr über die Funktionsmerkmale
+title: distinct
+description: Erfahren Sie mehr über die Funktion „distinct“
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,15 +10,15 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 ---
 
 
-# unterscheide {#distinct}
+# distinct {#distinct}
 
-Gibt die eindeutigen Werte der Liste ohne Null-Werte zurück.
+Gibt die eindeutigen Werte der Liste ohne Nullwerte zurück.
 
 ## Kategorie
 
@@ -48,7 +48,7 @@ Gibt eine Liste mit Ganzzahlen zurück.
 
 `distinct(<listDecimal>)`
 
-Gibt eine Liste mit Dezimalstellen zurück.
+Gibt eine Liste mit Dezimalzahlen zurück.
 
 `distinct(<listString>)`
 
@@ -56,15 +56,15 @@ Gibt eine Liste mit Zeichenfolgen zurück.
 
 `distinct(<listDateTimeOnly>)`
 
-Gibt eine Liste der Datenzeiten ohne Berücksichtigung der Zeitzone zurück.
+Gibt eine Liste mit Datum/Uhrzeit-Werten ohne Berücksichtigung der Zeitzone zurück.
 
 `distinct(<listDateTime>)`
 
-Gibt eine Liste der Datenzeiten zurück.
+Gibt eine Liste mit Datum/Uhrzeit-Werten zurück.
 
 `distinct(<listBoolean>)`
 
-Gibt eine Liste der Booleschen Elemente zurück.
+Gibt eine Liste mit booleschen Werten zurück.
 
 `distinct(<listDuration>)`
 
@@ -74,4 +74,4 @@ Gibt eine Liste der Dauer zurück.
 
 `distinct([10,2,10,null])`
 
-Gibt zurück `[10, 2]`.
+Gibt `[10, 2]` zurück.
