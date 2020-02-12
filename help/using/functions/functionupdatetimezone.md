@@ -1,6 +1,6 @@
 ---
 title: updateTimeZone
-description: Informationen zur Funktion updateTimeZone
+description: Erfahren Sie mehr über die Funktion „updateTimeZone“
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 ---
@@ -18,11 +18,11 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 # updateTimeZone {#updateTimeZone}
 
-Gibt eine neue Datumseingabe mit einer neuen Zeitzone am selben Zeitpunkt zurück.
+Gibt einen neuen Datum/Uhrzeit-Wert mit einer neuen Zeitzone zum selben Moment zurück.
 
 ## Kategorie
 
-Date
+Datum
 
 ## Funktionssyntax
 
@@ -30,14 +30,14 @@ Date
 
 ## Parameter
 
-* Zeitzone-ID: string
+* time zone id: string
 * dateTime
 
-## Unterschrift und zurückgegebener Typ
+## Signatur und zurückgegebener Typ
 
 `updateTimeZone(<dateTime>,<timeZone id>)`
 
-Gibt eine Uhrzeit zurück.
+Gibt einen Datum/Uhrzeit-Wert zurück.
 
 ## Beispiel
 
