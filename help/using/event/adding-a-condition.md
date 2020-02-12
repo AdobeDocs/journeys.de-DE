@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5df2fecc56d2d2d081d952f17aadf103f2f0140a
 
 ---
@@ -19,12 +19,12 @@ source-git-commit: 5df2fecc56d2d2d081d952f17aadf103f2f0140a
 
 # Hinzufügen einer Bedingung {#concept_rbg_gqt_52b}
 
-Mit der Ereignisbedingung kann das System die Verarbeitung von Ereignissen filtern. Wenn die Bedingung &quot;true&quot;ist, wird das Ereignis verarbeitet. Wenn die Bedingung nicht wahr ist, wird das Ereignis ignoriert.
+Mit der Ereignisbedingung kann das System die Verarbeitung von Ereignissen filtern. Wenn die Bedingung wahr ist, wird das Ereignis verarbeitet. Wenn die Bedingung nicht wahr ist, wird das Ereignis ignoriert.
 
-Die Bedingung für Ereignisse kann nur auf Daten basieren, die in der Ereignisnutzlast übergeben werden. Die auf Ereignisebene definierte Bedingung kann von einem Marketingspezialisten auf der Arbeitsfläche nicht geändert werden. Der Zweck besteht darin, diese Bedingung zu härten, wenn dieses Ereignis verwendet wird. Wenn Sie beispielsweise nie möchten, dass Marketingexperten Warenkorbereignisse verwenden, wenn der Warenkorbwert zu klein ist, können Sie eine Bedingung für das Ereignisfeld &quot;Warenkorbwert&quot;erstellen und einen Wert über 100 Dollar festlegen.
+Die Bedingung für Ereignisse kann nur auf Daten basieren, die in der Ereignis-Payload übergeben werden. Die auf Ereignisebene definierte Bedingung kann von einem Marketing-Experten auf der Arbeitsfläche nicht geändert werden. Der Zweck besteht darin, diese Bedingung zu härten, wenn dieses Ereignis verwendet wird. Wenn Sie beispielsweise nicht möchten, dass Marketing-Experten bei zu geringem Warenkorbwert Transaktionsabbruchsereignisse verwenden, können Sie eine Bedingung für das Ereignisfeld „Warenkorbwert“ erstellen und einen Wert über 100 US-Dollar festlegen.
 
-Sie können den einfachen Ausdruckseditor oder den erweiterten Ausdruckseditor verwenden, um Bedingungen für Ereignisse einzurichten. Näheres wird im Abschnitt [](../expression/expressionadvanced.md) beschrieben.
+Sie können den einfachen Ausdruckseditor oder den erweiterten Ausdruckseditor verwenden, um Bedingungen für Ereignisse einzurichten. Siehe [](../expression/expressionadvanced.md).
 
-Sie können beispielsweise eine Bedingung definieren, die nur die Ereignisse eines bestimmten Ereignistyps verarbeitet und die anderen Typen ignoriert. Wenn es sich bei Ihrem Ereignis um einen Warenkorbabbruch handelt und die Nutzlast das Feld für den Wert des Einkaufswagens enthält, können Sie eine Ereignisbedingung definieren, um die Ereignisse nur dann zu verarbeiten, wenn der Wert des Einkaufswagens größer als 100 Dollar ist.
+Sie können beispielsweise eine Bedingung definieren, die nur die Ereignisse eines bestimmten Ereignistyps verarbeitet und die anderen Typen ignoriert. Wenn es sich bei Ihrem Ereignis um einen Transaktionsabbruch handelt und die Payload das Feld für den Warenkorbwert enthält, können Sie eine Ereignisbedingung definieren, um die Ereignisse nur dann zu verarbeiten, wenn der Wert des Warenkorbs größer als 100 US-Dollar ist.
 
 ![](../assets/journey78.png)
