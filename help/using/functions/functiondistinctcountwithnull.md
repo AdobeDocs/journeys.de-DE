@@ -1,6 +1,6 @@
 ---
-title: differentCountWithNull
-description: Erfahren Sie mehr über die Funktion differentCountWithNull
+title: distinctCountWithNull
+description: Erfahren Sie mehr über die Funktion „distinctCountWithNull“
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,13 +10,13 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 ---
 
 
-# differentCountWithNull {#distinctCountWithNull}
+# distinctCountWithNull {#distinctCountWithNull}
 
 Zählt die Anzahl verschiedener Werte einschließlich der Nullwerte.
 
@@ -40,7 +40,7 @@ Aggregation
 | Liste | listDateTime |
 | Liste | listDateTimeOnly |
 
-## Unterschrift und zurückgegebener Typ
+## Signatur und zurückgegebener Typ
 
 `distinctCountwithNull(<listAny>)`
 
