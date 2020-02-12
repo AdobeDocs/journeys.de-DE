@@ -1,6 +1,6 @@
 ---
-title: Adobe Campaign-Aktionen verwenden
-description: Informationen zu Adobe Campaign-Aktionen
+title: Verwenden von Adobe Campaign-Aktionen
+description: Erfahren Sie mehr über Adobe Campaign-Aktionen
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,55 +10,55 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
 
 ---
 
 
-# Adobe Campaign-Aktionen verwenden {#using_campaign_action}
+# Verwenden von Adobe Campaign-Aktionen {#using_campaign_action}
 
-Wenn Sie über Adobe Campaign Standard verfügen, stehen die folgenden vordefinierten Aktionsaktivitäten zur Verfügung: **[!UICONTROL E-Mail]**,**[!UICONTROL  Push]** und **[!UICONTROL SMS]**.
+Wenn Sie über Adobe Campaign Standard verfügen, stehen die folgenden vordefinierten Aktionsaktivitäten zur Verfügung: **[!UICONTROL E-Mail]**, **[!UICONTROL Push]** und **[!UICONTROL SMS]**.
 
 >[!NOTE]
 >
->Dazu müssen Sie die integrierte Aktion konfigurieren. Siehe Abschnitt [](../action/working-with-adobe-campaign.md).
+>Dazu müssen Sie die integrierte Aktion konfigurieren. Siehe [](../action/working-with-adobe-campaign.md).
 
-Für jeden dieser Kanäle wählen Sie eine Adobe Campaign Standard- **Vorlage** für Transaktionsnachrichten aus. Tatsächlich ist das Journey Orchestration keine Botschaft, die eine Lösung darstellt. Für die integrierten E-Mail-, SMS- und Push-Kanäle setzen wir auf Transaktionsnachrichten, um das Senden von Nachrichten auszuführen. Das bedeutet, dass Sie, wenn Sie eine bestimmte Nachrichtenvorlage auf Ihren Reisen verwenden möchten, diese in Adobe Campaign Standard veröffentlichen müssen. Auf dieser [Seite](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) erfahren Sie, wie Sie diese Funktion verwenden.
+Für jeden dieser Kanäle wählen Sie eine Adobe Campaign Standard-**Transaktionsnachrichtenvorlage** aus. In der Tat ist die Orchestrierung der Customer Journey keine Lösung für das Senden von Nachrichten. Für die integrierten E-Mail-, SMS- und Push-Kanäle setzen wir auf Transaktionsnachrichten, um das Senden von Nachrichten auszuführen. Das bedeutet, dass Sie, wenn Sie eine bestimmte Nachrichtenvorlage in Ihren Journeys verwenden möchten, diese in Adobe Campaign Standard veröffentlichen müssen. Auf dieser [Seite](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) erfahren Sie, wie Sie diese Funktion verwenden.
 
 ![](../assets/journey59.png)
 
-Sie können ein Ereignis (auch als Echtzeit bezeichnet) oder eine Vorlage für Profiltransaktionsmeldungen verwenden.
+Sie können eine ereignisbasierte (oder Echtzeit-) oder eine profilbasierte Transaktionsnachrichtenvorlage verwenden.
 
 >[!NOTE]
 >
->Wenn wir Echtzeit-Transaktionsmeldungen (rtEvent) senden oder Nachrichten mit einem Drittanbietersystem über eine benutzerdefinierte Aktion weiterleiten, ist ein spezifisches Setup für Ermüdung, Blacklist oder Abmeldung erforderlich. Wenn beispielsweise ein Attribut &quot;Blacklist&quot;oder &quot;unsubscribe&quot;in der Plattform oder in einem Drittanbietersystem gespeichert ist, muss vor dem Senden der Nachricht eine Bedingung hinzugefügt werden, um diese Bedingung zu überprüfen.
+>Wenn wir Echtzeit-Transaktionsnachrichten (rtEvent) senden oder Nachrichten über eine benutzerdefinierte Aktion mit einem Drittanbietersystem weiterleiten, ist eine spezifische Einrichtung für die Verwaltung von Ermüdung, Blacklist oder Abmeldung erforderlich. Wenn beispielsweise ein Attribut „blacklist“ oder „unsubscribe“ in der Plattform oder in einem Drittanbietersystem gespeichert ist, muss vor dem Senden der Nachricht eine Bedingung hinzugefügt werden, um diese Bedingung zu überprüfen.
 
-Wenn Sie eine Vorlage auswählen, werden alle Felder, die in der Nutzlast der Nachricht erwartet werden, im Aktivitätskonfigurationsbereich unter **[!UICONTROL Adresse]**und**[!UICONTROL  Personalisierungsdaten]**angezeigt. Sie müssen jedes dieser Felder dem zu verwendenden Feld zuordnen, entweder aus dem Ereignis oder aus der Datenquelle. Sie können auch den erweiterten Ausdruckseditor verwenden, um einen Wert manuell zu übergeben, Datenbearbeitung bei abgerufenen Informationen durchzuführen (z. B. eine Zeichenfolge in Großbuchstaben zu konvertieren) oder Funktionen wie &quot;if, then, else&quot;zu verwenden. Näheres wird im Abschnitt [](../expression/expressionadvanced.md) beschrieben.
+Wenn Sie eine Vorlage auswählen, werden alle Felder, die in der Payload der Nachricht erwartet werden, im Konfigurationsbereich der Aktivität unter **[!UICONTROL Adresse]** und **[!UICONTROL Personalisierungsdaten]** angezeigt. Sie müssen jedes dieser Felder dem zu verwendenden Feld zuordnen, entweder aus dem Ereignis oder aus der Datenquelle. Sie können auch den erweiterten Ausdruckseditor verwenden, um einen Wert manuell zu übergeben, Datenmanipulationen an abgerufenen Informationen vorzunehmen (z. B. eine Zeichenfolge in Großbuchstaben zu konvertieren) oder Funktionen wie „if, then, else“ zu verwenden. Siehe [](../expression/expressionadvanced.md).
 
 ![](../assets/journey60.png)
 
 ## E-Mail und SMS {#section_asc_51g_nhb}
 
-Für **[!UICONTROL E-Mail]**und**[!UICONTROL  SMS]**sind die Parameter identisch.
+Für **[!UICONTROL E-Mail]** und **[!UICONTROL SMS]** sind die Parameter identisch.
 
 >[!NOTE]
 >
->Wenn Sie für E-Mails eine Profiltransaktionsvorlage verwenden, wird der Abmeldungsmechanismus standardmäßig von Campaign Standard verarbeitet. Fügen Sie der Vorlage einfach einen Inhaltsblock für den Link **[!UICONTROL zum]**Abmelden hinzu ([weitere Informationen](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)). Wenn Sie eine ereignisbasierte Vorlage (rtEvent) verwenden, müssen Sie der Nachricht einen Link hinzufügen, über den die E-Mail der Person im URL-Parameter übergeben wird und auf eine Einstiegsseite zum Rückgängigmachen des Abonnements verwiesen wird. Sie müssen diese Einstiegsseite erstellen und sicherstellen, dass die Entscheidung der Person, sich abzumelden, an Adobe übermittelt wird.
+>Wenn Sie für E-Mails eine profilbasierte Transaktionsvorlage verwenden, wird der Abmeldungsmechanismus standardmäßig von Campaign Standard durchgeführt. Fügen Sie der Vorlage einfach einen Inhaltsblock für den **[!UICONTROL Link zum Abmelden]** hinzu ([weitere Informationen](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)). Wenn Sie eine ereignisbasierte Vorlage (rtEvent) verwenden, müssen Sie der Nachricht einen Link hinzufügen, über den die E-Mail-Adresse der Person im URL-Parameter übergeben wird und auf eine Landingpage zum Abmelden verwiesen wird. Sie müssen diese Landingpage erstellen und sicherstellen, dass die Entscheidung der Person, sich abzumelden, an Adobe übermittelt wird.
 
-Zuerst müssen Sie eine Transaktionsnachrichtenvorlage auswählen. Näheres wird im Abschnitt [](../building-journeys/about-action-activities.md) beschrieben.
+Zuerst müssen Sie eine Transaktionsnachrichtenvorlage auswählen. Siehe [](../building-journeys/about-action-activities.md).
 
-Es stehen zwei Kategorien zur Verfügung: Daten **[!UICONTROL zur Adresse]**und**[!UICONTROL  Personalisierung]**.
+Es stehen zwei Kategorien zur Verfügung: **[!UICONTROL Adresse]** und **[!UICONTROL Personalisierungsdaten]**.
 
-Sie können auf einfache Weise definieren, wo die **[!UICONTROL Adresse]**oder die**[!UICONTROL  Personalisierungsdaten]** abgerufen werden sollen. Sie können durch Ereignisse und verfügbare Datenquellen-Felder navigieren. Sie können den erweiterten Ausdruckseditor auch für erweiterte Anwendungsfälle verwenden, z. B. für die Verwendung einer Datenquelle, die die Übermittlung von Parametern oder die Durchführung von Manipulationen erfordert. Näheres wird im Abschnitt [](../expression/expressionadvanced.md) beschrieben.
+Über die Benutzeroberfläche können Sie einfach festlegen, wo die **[!UICONTROL Adresse]** oder die **[!UICONTROL Personalisierungsdaten]** abgerufen werden sollen. Sie können Ereignisse und Felder der verfügbaren Datenquellen durchsuchen. Sie können den erweiterten Ausdruckseditor auch für erweiterte Anwendungsfälle verwenden, z. B. für die Verwendung einer Datenquelle, die die Übermittlung von Parametern oder die Durchführung von Manipulationen erfordert. Siehe [](../expression/expressionadvanced.md).
 
 **[!UICONTROL Adresse]**
 
 >[!NOTE]
 >
->Diese Kategorie ist nur sichtbar, wenn Sie eine Transaktionsmeldung &quot;event&quot;auswählen. Bei &quot;Profilmeldungen&quot;wird das Feld &quot; **[!UICONTROL Adresse]**&quot;vom System automatisch aus Adobe Campaign Standard abgerufen.
+>Diese Kategorie ist nur sichtbar, wenn Sie eine ereignisbasierte Transaktionsnachricht auswählen. Bei profilbasierten Nachrichten wird das Feld **[!UICONTROL Adresse]** vom System automatisch aus Adobe Campaign Standard abgerufen.
 
-Dies sind die Felder, die das System benötigt, um zu wissen, wo die Nachricht zu senden. Bei einer E-Mail-Vorlage ist dies die E-Mail-Adresse. Für eine SMS ist es die Handynummer.
+Dies sind die Felder, die das System benötigt, um zu wissen, wohin die Nachricht gesendet werden soll. Bei einer E-Mail-Vorlage ist dies die E-Mail-Adresse. Bei einer SMS ist es die Mobiltelefonnummer.
 
 ![](../assets/journey61.png)
 
@@ -66,31 +66,31 @@ Dies sind die Felder, die das System benötigt, um zu wissen, wo die Nachricht z
 
 >[!NOTE]
 >
->Eine Sammlung in Personalisierungsdaten kann nicht übergeben werden. Wenn die transaktionale E-Mail oder SMS Sammlungen erwartet, funktioniert sie nicht. Beachten Sie außerdem, dass die Personalisierungsdaten ein erwartetes Format haben (Beispiel: Zeichenfolge, Dezimalzahl usw.) Sie müssen darauf achten, dass diese erwarteten Formate eingehalten werden.
+>Sie können keine Kollektionen in Personalisierungsdaten übergeben. Wenn die Transaktions-E-Mail oder -SMS Kollektionen erwartet, funktioniert dies nicht. Beachten Sie außerdem, dass die Personalisierungsdaten ein erwartetes Format haben (Beispiel: Zeichenfolge, Dezimalzahl usw.). Sie müssen darauf achten, dass diese erwarteten Formate eingehalten werden.
 
-Diese Felder werden von der Adobe Campaign Standard-Meldung erwartet. Diese Felder können verwendet werden, um die Nachricht zu personalisieren, eine bedingte Formatierung anzuwenden oder eine bestimmte Meldungsvariante auszuwählen.
+Dies sind die Felder, die von der Adobe Campaign Standard-Nachricht erwartet werden. Diese Felder können verwendet werden, um die Nachricht zu personalisieren, eine bedingte Formatierung anzuwenden oder eine bestimmte Nachrichtenvariante auszuwählen.
 
 ![](../assets/journey62.png)
 
 ## Push-Benachrichtigung {#section_im3_hvf_nhb}
 
-Vor der Verwendung der Push-Aktivität muss Ihre mobile App zusammen mit Campaign Standard konfiguriert werden, um Push-Benachrichtigungen zu senden. Verwenden Sie diesen [Artikel](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) , um die erforderlichen Implementierungsschritte für Mobilgeräte zu unternehmen.
+Vor der Verwendung der Push-Aktivität muss Ihre App mit Campaign Standard konfiguriert werden, um Push-Benachrichtigungen zu senden. Verwenden Sie diesen [Artikel](https://helpx.adobe.com/de/campaign/kb/integrate-mobile-sdk.html), um die erforderlichen Implementierungsschritte für Mobilgeräte auszuführen.
 
-Zuerst müssen Sie eine mobile App aus der Dropdownliste und eine Transaktionsnachricht auswählen. Näheres wird im Abschnitt [](../building-journeys/about-action-activities.md) beschrieben.
+Zuerst müssen Sie eine App aus der Dropdown-Liste und eine Transaktionsnachricht auswählen. Siehe [](../building-journeys/about-action-activities.md).
 
 ![](../assets/journey62bis.png)
 
-Es stehen zwei Kategorien zur Verfügung: **[!UICONTROL Target]**- und**[!UICONTROL  Personalisierungsdaten]**.
+Es stehen zwei Kategorien zur Verfügung: **[!UICONTROL Zielgruppe]** und **[!UICONTROL Personalisierungsdaten]**.
 
 **[!UICONTROL Zielgruppe]**
 
 >[!NOTE]
 >
->Diese Kategorie ist nur sichtbar, wenn Sie eine Ereignismeldung auswählen. Bei Profilmeldungen werden die **[!UICONTROL Target]**-Felder automatisch vom System unter Verwendung der von Adobe Campaign Standard durchgeführten Abstimmung abgerufen.
+>Diese Kategorie ist nur sichtbar, wenn Sie eine ereignisbasierte Nachricht auswählen. Bei profibasierten Nachrichten werden die **[!UICONTROL Zielgruppenfelder]** automatisch vom System unter Verwendung der von Adobe Campaign Standard durchgeführten Abstimmung abgerufen.
 
-In diesem Abschnitt müssen Sie die **[!UICONTROL Push-Plattform]**definieren. In der Dropdownliste können Sie**[!UICONTROL  Apple Push Notification Server]** (iOS) oder **[!UICONTROL Firebase Cloud Messaging]**(Android) auswählen. Sie können alternativ ein bestimmtes Feld aus einem Ereignis oder einer Datenquelle auswählen oder einen erweiterten Ausdruck definieren.
+In diesem Abschnitt müssen Sie die **[!UICONTROL Push-Plattform]** definieren. In der Dropdown-Liste können Sie **[!UICONTROL Apple Push Notification Server]** (iOS) oder **[!UICONTROL Firebase Cloud Messaging]** (Android) auswählen. Sie können alternativ ein bestimmtes Feld aus einem Ereignis oder einer Datenquelle auswählen oder einen erweiterten Ausdruck definieren.
 
-Sie müssen auch das **[!UICONTROL Registrierungstoken]**definieren. Der Ausdruck hängt davon ab, wie das Token in der Nutzlast des Ereignisses oder in anderen Informationen zur Reiseorganisation definiert wird. Es kann sich um ein einfaches Feld oder einen komplexeren Ausdruck handeln, wenn das Token beispielsweise in einer Sammlung definiert ist:
+Sie müssen auch das **[!UICONTROL Anmeldetoken]** definieren. Der Ausdruck hängt davon ab, wie das Token in der Payload des Ereignisses oder in anderen Informationen zur Orchestrierung der Customer Journey definiert wird. Es kann sich um ein einfaches Feld oder einen komplexeren Ausdruck handeln, wenn das Token beispielsweise in einer Kollektion definiert ist:
 
 ```
 @{Event_push._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
@@ -100,6 +100,6 @@ Sie müssen auch das **[!UICONTROL Registrierungstoken]**definieren. Der Ausdruc
 
 >[!NOTE]
 >
->Eine Sammlung in Personalisierungsdaten kann nicht übergeben werden. Wenn der transaktionale Push Sammlungen erwartet, funktioniert er nicht. Beachten Sie außerdem, dass die Personalisierungsdaten ein erwartetes Format haben (Beispiel: Zeichenfolge, Dezimalzahl usw.) Sie müssen darauf achten, dass diese erwarteten Formate eingehalten werden.
+>Sie können keine Kollektionen in Personalisierungsdaten übergeben. Wenn die Transaktions-Push-Benachrichtigung Kollektionen erwartet, funktioniert dies nicht. Beachten Sie außerdem, dass die Personalisierungsdaten ein erwartetes Format haben (Beispiel: Zeichenfolge, Dezimalzahl usw.). Sie müssen darauf achten, dass diese erwarteten Formate eingehalten werden.
 
-Dies sind die Felder, die von der Transaktionsvorlage erwartet werden, die in Ihrer Adobe Campaign Standard-Meldung verwendet wird. Mit diesen Feldern können Sie Ihre Nachricht personalisieren, bedingte Formatierungen anwenden oder eine bestimmte Meldungsvariante auswählen.
+Dies sind die Felder, die von der in Ihrer Adobe Campaign Standard-Nachricht verwendeten Transaktionsvorlage erwartet werden. Sie können diese Felder verwenden, um Ihre Nachricht zu personalisieren, eine bedingte Formatierung anzuwenden oder eine bestimmte Nachrichtenvariante auszuwählen.
