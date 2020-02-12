@@ -1,6 +1,6 @@
 ---
 title: serializeList
-description: Informationen zur Funktion serializeList
+description: Erfahren Sie mehr über die Funktion „serializeList“
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 # serializeList {#serializeList}
 
-Konvertiert die im ersten Parameter angegebene Liste (jeden Typ) in eine Zeichenfolge. Der zweite Parameter stellt das zu verwendende Trennzeichen dar. Der dritte Parameter ist ein boolescher Wert, der angibt, ob jedes Element des Ausdrucks Anführungszeichen enthalten soll.
+Konvertiert die im ersten Parameter angegebene Liste (beliebiger Typ) in eine Zeichenfolge. Der zweite Parameter stellt das zu verwendende Trennzeichen dar. Der dritte Parameter ist ein boolescher Wert, der angibt, ob die einzelnen Elemente des Ausdrucks Anführungszeichen umfassen sollen.
 
 ## Kategorie
 
@@ -32,7 +32,7 @@ Liste
 
 | Parameter | Typ |
 |-----------|------------------|
-| String | String |
+| Zeichenfolge | Zeichenfolge |
 | Boolesch | Boolesch |
 | DateTimeOnly | DateTimeOnly |
 | Liste | listString |
@@ -43,7 +43,7 @@ Liste
 | Liste | listDateTime |
 | Liste | listDateTimeOnly |
 
-## Unterschrift und zurückgegebener Typ
+## Signatur und zurückgegebener Typ
 
 `serializeList(<listInteger>,<string>,<boolean>)`
 
@@ -67,8 +67,8 @@ Gibt eine Zeichenfolge zurück.
 
 `serializeList(["Hello","World"], " ", false)`
 
-Gibt &quot;Hello World&quot;zurück.
+Gibt „Hello World“ zurück.
 
 `serializeList(["Hello", "World"], ",", true)`
 
-Gibt &quot;Hello&quot;,&quot;World&quot;zurück.
+Gibt &quot;&quot;Hello&quot;,&quot;World&quot;&quot; zurück.
