@@ -23,19 +23,53 @@ Sie können auch den Abschnitt [Aktualisierungen der Dokumentation](../release-n
 
 ## Version Q1 - Februar 2019 {#q1-release---february-2019}
 
-* Eine kontextabhängige Hilfefunktion ist jetzt in den verschiedenen Bildschirmen der Journey Orchestration verfügbar. Dadurch können Sie mit einem einzigen Klick direkt auf die Dokumentation über die aktuell von Ihnen verwendete Funktion zugreifen. Um die kontextbezogene Hilfe anzuzeigen, klicken Sie auf das Symbol &quot;i&quot;in der oberen rechten Ecke des Bildschirms. Diese Funktion ist derzeit in den Listenbildschirmen &quot;Startseite&quot;, &quot;Datenquellen&quot;, &quot;Ereignisse&quot;und &quot;Aktionen&quot;verfügbar.
+**Zeitzonenmanagement**
 
-* Im Testmodus sind alle Warteaktivitäten jetzt automatisch auf 5 Sekunden eingestellt. So können Sie schnell auf die Testergebnisse zugreifen.
+Zeitzonen werden jetzt auf Reiseebene verwaltet. In den Reiseeigenschaften wurden zwei Parameter hinzugefügt:
 
-* APIs
+![](../assets/rn-timezone.png)
 
-* Kopieren/Einfügen von Aktivitäten auf Reisen?
+* Mit der Dropdownliste **Zeitzone** können Sie eine bestimmte Zeitzone auswählen. Standardmäßig wird die Zeitzone des Browsers verwendet.
 
-* Filtern von Ereignissen auf Reisen
+* Mit dem Kontrollkästchen **Profilzeitzone** können Sie die Profilzeitzone der Erlebnisplattform der Person verwenden, die die Reise beginnt, sofern verfügbar. Andernfalls wird die in der Dropdown-Liste definierte Zeitzone verwendet. Diese Funktion ist nicht mit Reisen ohne Namespace kompatibel.
 
-* Mehrere Regionen?
+**Kontexthilfe**
 
-* Multievent testen
+Eine kontextabhängige Hilfefunktion ist jetzt in den verschiedenen Bildschirmen der Journey Orchestration verfügbar. Dadurch können Sie mit einem einzigen Klick direkt auf die Dokumentation über die aktuell von Ihnen verwendete Funktion zugreifen.
+
+Um die kontextbezogene Hilfe anzuzeigen, klicken Sie auf das Symbol &quot;i&quot;in der oberen rechten Ecke des Bildschirms.
+
+Diese Funktion ist derzeit in den Listenbildschirmen &quot;Startseite&quot;, &quot;Datenquellen&quot;, &quot;Ereignisse&quot;und &quot;Aktionen&quot;verfügbar.
+
+**Sonstige Änderungen**
+
+* Im Testmodus können Sie mit einem neuen Parameter den Zeitpeafiner definieren.  Aktivitäten mit Wartezeiten können dauern. So können Sie schnell auf die Testergebnisse zugreifen.
+
+* Im Testmodus können Sie jetzt alle Ereignisse der Reise auslösen.
+
+
+* Mit einem neuen Parameter können Sie den Zeitpeafiner definieren.  Aktivitäten mit Wartezeiten können dauern. So können Sie schnell auf die Testergebnisse zugreifen.
+
+* Journeys Orchestration ist jetzt in EMEA erhältlich.
+
+* Neues Symbol in der Palette, um nicht verfügbare Elemente anzuzeigen. sans-Namespace. par default.
+
+* Canvas, Abschaltung, Petenton Icone, Qui dit getrennt Knoten.
+
+* Kurzschnitt C ttes les listes
+
+* Benutzeroberfläche der Palette, Suchergebnisse
+
+* Pouvoir capper les call a des APIS extern (Datenquellen oder Aktionen). marque n&#39;accept te que 500 Calls par seconde, elle pourra mettre un capping a 500 call seconds qui evite de surcharger system de loyalty tiers
+
+* logs du test log. Avant status = error. quand auf appalle Systeme. Möglichkeit des Erregers des Codes qu&#39;à renvoyé le systeme. -> ds un test en cas d&#39;erreur, systeme tiers, error code, error response.
+
+* Anhalten der Löschung
+
+* Reise: Version 1 il te met ist die neueste
+
+1er Mars.
+
 
 ## GA-Version - Dezember 2019 {#ga-release---december-2019}
 
