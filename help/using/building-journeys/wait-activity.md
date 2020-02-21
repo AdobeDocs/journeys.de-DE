@@ -37,7 +37,7 @@ Sie können eine Bedingung definieren, wenn Sie die Wartezeit auf eine bestimmte
 >
 >Die maximale Wartezeit beträgt 30 Tage.
 >
->Im Testmodus können Sie mit dem Parameter **Wartezeit im Test** die Dauer jeder Warteaktivität festlegen. Die Standardzeit beträgt 10 Sekunden. Dadurch erhalten Sie die Testergebnisse schnell. Siehe [](../building-journeys/testing-the-journey.md)
+>Im Testmodus werden alle Warteaktivitäten automatisch auf 5 Sekunden eingestellt. So können Sie schnell auf die Testergebnisse zugreifen.
 
 ## Wartezeit mit Dauer{#duration}
 
