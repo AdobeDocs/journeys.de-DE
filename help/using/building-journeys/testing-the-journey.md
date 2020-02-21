@@ -22,6 +22,10 @@ Bevor Sie Ihre Journey testen können, müssen Sie alle eventuellen Fehler beheb
 
 Sie können Ihre Journey vor der Veröffentlichung mit Testprofilen testen. Auf diese Weise können Sie analysieren, wie sich Kontakte in der Journey bewegen, und Fehler vor der Veröffentlichung beheben.
 
+>[!NOTE]
+>
+>Im Testmodus werden alle Warteaktivitäten automatisch auf 5 Sekunden eingestellt. So können Sie schnell auf die Testergebnisse zugreifen.
+
 Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 
 1. Bevor Sie Ihre Journey testen, überprüfen Sie, ob sie gültig ist und keine Fehler vorliegen. Fehlerbehaftete Journeys können nicht getestet werden. Siehe [](../about/troubleshooting.md#section_h3q_kqk_fhb). Bei Fehlern wird ein Warnsymbol angezeigt.
@@ -29,10 +33,6 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 1. Um den Testmodus zu aktivieren, klicken Sie in der rechten oberen Ecke auf den Umschalter **[!UICONTROL Test]**.
 
    ![](../assets/journeytest1.png)
-
-1. Verwenden Sie den Parameter **Wartezeit im Test** -Parameter in der unteren linken Ecke, um die Dauer jeder Warteaktivität im Testmodus festzulegen. Die Standardzeit beträgt 10 Sekunden. Dadurch erhalten Sie die Testergebnisse schnell. Dieser Parameter wird nur angezeigt, wenn Sie eine oder mehrere Warteaktivitäten auf Ihrer Reise abgebrochen haben.
-
-   ![](../assets/journeytest_wait.png)
 
 1. Klicken Sie auf , **[!UICONTROL Trigger an event]** um Ereignisse zu konfigurieren und an die Reise zu senden. Vergewissern Sie sich, dass Ereignisse im Zusammenhang mit Testprofilen gesendet werden. Siehe [Auslösen Ihrer Ereignisse](#firing_events).
 
@@ -60,7 +60,7 @@ The **[!UICONTROL Trigger an event]** button allows you to configure an event th
 
 Als Voraussetzung müssen Sie wissen, welche Profile in der Datenplattform als Testprofile gekennzeichnet sind. Der Testmodus lässt nur diese Profile in der Journey zu und das Ereignis muss eine ID enthalten. Die erwartete ID hängt von der Ereigniskonfiguration ab. Sie kann beispielsweise eine ECID sein.
 
-Wenn Ihre Reise mehrere Ereignisse enthält, verwenden Sie die Dropdownliste, um ein Ereignis auszuwählen. Konfigurieren Sie dann für jedes Ereignis die weitergeleiteten Felder und die Ausführung des Ereignisses. Die Oberfläche hilft Ihnen, die richtigen Informationen in der Ereignis-Payload weiterzugeben und sicherzustellen, dass der Informationstyp korrekt ist. Der Testmodus speichert die zuletzt in einer Testsitzung verwendeten Parameter zur späteren Verwendung.
+In diesem Bildschirm können Sie die im Ereignis übergebenen Felder und die Ausführung des Ereignisversands konfigurieren. Die Oberfläche hilft Ihnen, die richtigen Informationen in der Ereignis-Payload weiterzugeben und sicherzustellen, dass der Informationstyp korrekt ist. Der Testmodus speichert die zuletzt in einer Testsitzung verwendeten Parameter zur späteren Verwendung.
 
 ![](../assets/journeytest4.png)
 
@@ -75,10 +75,6 @@ Ein technischer Anwender kann diese Oberfläche auch verwenden, um Payloads für
 The **[!UICONTROL Show log]** button allows you to view the test results. Auf dieser Seite werden die aktuellen Informationen der Journey im JSON-Format angezeigt. Mit einer Schaltfläche können Sie ganze Knoten kopieren. Sie müssen die Seite manuell aktualisieren, um die Testergebnisse der Journey zu aktualisieren.
 
 ![](../assets/journeytest3.png)
-
->[!NOTE]
->
->In den Testprotokollen werden bei einem Fehler beim Aufrufen eines Drittanbietersystems (Datenquelle oder Aktion) der Fehlercode und die Fehlerantwort angezeigt.
 
 Die Anzahl der Kontakte (technisch gesehen handelt es sich um Instanzen), die sich derzeit innerhalb der Journey befinden, wird angezeigt. Hier finden Sie nützliche Informationen, die für jeden Kontakt angezeigt werden:
 
