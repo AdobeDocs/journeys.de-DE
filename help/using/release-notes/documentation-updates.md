@@ -1,6 +1,6 @@
 ---
 title: Aktualisierungen der Dokumentation
-description: Informationen zu Aktualisierungen der Dokumentation
+description: Erfahren Sie mehr über die Aktualisierungen der Dokumentation
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,29 +11,43 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6e7d89f4a9cb56b7b87cfc73ad7a9c7c4dc323a3
+source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 
 ---
 
 
 # Aktualisierungen der Dokumentation
 
-Diese Seite listet alle Aktualisierungen der Dokumentation für das Journey Orchestration auf.
-You can also consult the Journey Orchestration [Release Notes](../release-notes/release-notes.md).
+Auf dieser Seite werden alle Aktualisierungen der Dokumentation für die Orchestrierung der Customer Journey aufgelistet.
+Lesen Sie auch die [Versionshinweise](../release-notes/release-notes.md) zur Orchestrierung der Customer Journey.
 
-## January 2020 {#january-2020}
+## March 2020 {#march-2020}
+
+* Die Auslösung mehrerer Ereignisse wurde dem Abschnitt Testmodus hinzugefügt [Mehr lesen](../building-journeys/testing-the-journey.md#firing_events)
+* Der Abschnitt Testmodus wurde hinsichtlich des neuen Parameters **Wartezeit im Test** aktualisiert. [Mehr dazu](../building-journeys/testing-the-journey.md)
+* Der Abschnitt Testprotokoll wurde mit Fehlercodes und Antworten für externe Aufrufe aktualisiert. [Mehr dazu](../building-journeys/testing-the-journey.md#viewing_logs)
+* Das Zeitzonenmanagement ist jetzt im Bereich der Reiseeigenschaften zentralisiert. Mehr [hier](../building-journeys/changing-properties.md#timezone) und [hier](../building-journeys/timezone-management.md)
+* Der Abschnitt &quot;Journey-Designer&quot;wurde aktualisiert, um die jüngsten Verbesserungen widerzuspiegeln. [Mehr dazu](../building-journeys/using-the-journey-designer.md)
+* Die Beschreibung der Benutzeroberfläche wurde mit Informationen zur kontextbezogenen Hilfe aktualisiert. [Mehr dazu](../about/user-interface.md#section_ksq_zr1_ffb)
+* Beim Durchsuchen von **XDM-Feldern** wird nun der Anzeigename angezeigt. Verwandte Abschnitte wurden aktualisiert. [Mehr dazu](../event/defining-the-payload-fields.md)
+
+## February 2020 {#february-2020}
+
+* Der Abschnitt zum Verknüpfen wurde aktualisiert. Mit dem **C** -Tastaturbefehl können Sie ein neues Element in allen Listenbildschirmen erstellen. [Mehr dazu](../about/user-interface.md#section_ksq_zr1_ffb)
+
+## Januar 2020 {#january-2020}
 
 * Für [Erlebnisereignisse](../datasource/adobe-experience-platform-data-source.md) und [Segmente](../functions/functioninsegment.md)wurden Einschränkungen hinzugefügt.
 * Die Dokumentation [zu getBestSendTime wurde aktualisiert](../functions/functiongetbestsendtime.md) .
 
-## December 2019 {#december-2019}
+## Dezember 2019 {#december-2019}
 
-* Alle Screenshots wurden aktualisiert, um Änderungen an der Benutzeroberfläche widerzuspiegeln.
-* Der Abschnitt Testmodus wurde aktualisiert. [mehr dazu](../building-journeys/testing-the-journey.md)
-* Eine Warnung wurde in den Abschnitten [E-Mail-Zeitoptimierung](../building-journeys/wait-activity.md) und [Prognostizierte Ermüdungswerte](../usecase/leveraging-fatigue-scores.md) hinzugefügt. Diese Funktionen stehen nur Kunden zur Verfügung, die die Adobe Campaign Standard Data Service-Funktion verwenden.
-* Gestoppte Fahrten können nun gelöscht werden. Verwandte Dokumentationsseiten wurden aktualisiert.
-* Wenn Probleme während einer Reise erkannt werden, werden nun zwei Farben angezeigt. Rot für Fehler und orange für Warnungen. [mehr dazu](../about/troubleshooting.md)
-* Der Abschnitt zum erweiterten Ausdruckseditor wurde aktualisiert. [mehr dazu](../expression/expressionadvanced.md)
-* [Die Abschnitte &quot;Bedingte Anweisungen](../expression/conditional-instruction.md) &quot;und &quot; [Sammlungsverwaltung](../expression/collection-management-functions.md) &quot;wurden verschoben und aktualisiert.
+* Alle Screenshots wurden entsprechend den Änderungen der Benutzeroberfläche aktualisiert.
+* Der Abschnitt „Testmodus“ wurde aktualisiert. [Mehr dazu](../building-journeys/testing-the-journey.md)
+* In den Bereichen [Versandzeitoptimierung der E-Mail](../building-journeys/wait-activity.md) und [Prädiktive Ermüdungswerte](../usecase/leveraging-fatigue-scores.md) wurde eine Warnung hinzugefügt. Diese Funktionen stehen nur Kunden zur Verfügung, die die Funktion Adobe Campaign Standard Data Service verwenden.
+* Angehaltene Journeys können nun gelöscht werden. Die entsprechenden Seiten in der Dokumentation wurden aktualisiert.
+* Wenn in einer Journey Probleme erkannt werden, werden nun zwei Farben angezeigt. Rot steht für Fehler und orange für Warnungen. [Mehr dazu](../about/troubleshooting.md)
+* Der Abschnitt zum erweiterten Ausdruckseditor wurde aktualisiert. [Mehr dazu](../expression/expressionadvanced.md).
+* Die Abschnitte [Bedingte Anweisung](../expression/conditional-instruction.md) und [Verwaltung von Kollektionen](../expression/collection-management-functions.md) wurden verschoben und aktualisiert.
 * Der Abschnitt [Funktionen](../expression/functions.md) wurde um neue Beispiele ergänzt.
-* Die Dokumentation [zur Funktion](../functions/functiontodatetime.md) toDateTime wurde aktualisiert, um Änderungen der Zeitzonensyntax widerzuspiegeln.
+* Die Dokumentation für die Funktion [toDateTime](../functions/functiontodatetime.md) wurde aktualisiert, um Änderungen an der Zeitzonensyntax widerzuspiegeln.
