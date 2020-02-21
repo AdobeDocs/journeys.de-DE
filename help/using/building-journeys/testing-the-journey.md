@@ -10,8 +10,8 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a0ab3528b090e34867d54174421741c689e378e7
+translation-type: tm+mt
+source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 
 ---
 
@@ -22,10 +22,6 @@ Bevor Sie Ihre Journey testen können, müssen Sie alle eventuellen Fehler beheb
 
 Sie können Ihre Journey vor der Veröffentlichung mit Testprofilen testen. Auf diese Weise können Sie analysieren, wie sich Kontakte in der Journey bewegen, und Fehler vor der Veröffentlichung beheben.
 
->[!NOTE]
->
->Im Testmodus werden alle Warteaktivitäten automatisch auf 5 Sekunden eingestellt. So können Sie schnell auf die Testergebnisse zugreifen.
-
 Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 
 1. Bevor Sie Ihre Journey testen, überprüfen Sie, ob sie gültig ist und keine Fehler vorliegen. Fehlerbehaftete Journeys können nicht getestet werden. Siehe [](../about/troubleshooting.md#section_h3q_kqk_fhb). Bei Fehlern wird ein Warnsymbol angezeigt.
@@ -34,11 +30,15 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 
    ![](../assets/journeytest1.png)
 
-1. Klicken Sie auf **[!UICONTROL Ereignis auslösen]**, um Ereignisse zu konfigurieren und an die Journey zu senden. Vergewissern Sie sich, dass Ereignisse im Zusammenhang mit Testprofilen gesendet werden. Siehe [Auslösen Ihrer Ereignisse](#firing_events).
+1. Verwenden Sie den Parameter **Wartezeit im Test** -Parameter in der unteren linken Ecke, um die Dauer jeder Warteaktivität im Testmodus festzulegen. Die Standardzeit beträgt 10 Sekunden. Dadurch erhalten Sie die Testergebnisse schnell. Dieser Parameter wird nur angezeigt, wenn Sie eine oder mehrere Warteaktivitäten auf Ihrer Reise abgebrochen haben.
+
+   ![](../assets/journeytest_wait.png)
+
+1. Klicken Sie auf , **[!UICONTROL Trigger an event]** um Ereignisse zu konfigurieren und an die Reise zu senden. Vergewissern Sie sich, dass Ereignisse im Zusammenhang mit Testprofilen gesendet werden. Siehe [Auslösen Ihrer Ereignisse](#firing_events).
 
    ![](../assets/journeyuctest1.png)
 
-1. Nachdem die Ereignisse eingegangen sind, klicken Sie auf die Schaltfläche **[!UICONTROL Protokoll anzeigen]**, um das Testergebnis anzuzeigen und zu überprüfen. Siehe [Anzeigen der Protokolle](#viewing_logs).
+1. After the events are received, click the **[!UICONTROL Show log]** button to view the test result and verify them. Siehe [Anzeigen der Protokolle](#viewing_logs).
 
    ![](../assets/journeyuctest2.png)
 
@@ -56,15 +56,15 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 
 ## Auslösen Ihrer Ereignisse {#firing_events}
 
-Mit der Schaltfläche **[!UICONTROL Ereignis auslösen]** können Sie ein Ereignis konfigurieren, das eine Person zum Zutritt zur Journey veranlasst.
+The **[!UICONTROL Trigger an event]** button allows you to configure an event that will make a person enter the journey.
 
 Als Voraussetzung müssen Sie wissen, welche Profile in der Datenplattform als Testprofile gekennzeichnet sind. Der Testmodus lässt nur diese Profile in der Journey zu und das Ereignis muss eine ID enthalten. Die erwartete ID hängt von der Ereigniskonfiguration ab. Sie kann beispielsweise eine ECID sein.
 
-In diesem Bildschirm können Sie die im Ereignis übergebenen Felder und die Ausführung des Ereignisversands konfigurieren. Die Oberfläche hilft Ihnen, die richtigen Informationen in der Ereignis-Payload weiterzugeben und sicherzustellen, dass der Informationstyp korrekt ist. Der Testmodus speichert die zuletzt in einer Testsitzung verwendeten Parameter zur späteren Verwendung.
+Wenn Ihre Reise mehrere Ereignisse enthält, verwenden Sie die Dropdownliste, um ein Ereignis auszuwählen. Konfigurieren Sie dann für jedes Ereignis die weitergeleiteten Felder und die Ausführung des Ereignisses. Die Oberfläche hilft Ihnen, die richtigen Informationen in der Ereignis-Payload weiterzugeben und sicherzustellen, dass der Informationstyp korrekt ist. Der Testmodus speichert die zuletzt in einer Testsitzung verwendeten Parameter zur späteren Verwendung.
 
 ![](../assets/journeytest4.png)
 
-Über die Oberfläche können Sie einfache Ereignisparameter übergeben. Wenn Sie Kollektionen oder andere erweiterte Objekte in dem Ereignis weitergeben möchten, können Sie auf **[!UICONTROL Codeansicht]** klicken, um den gesamten Code der Payload anzuzeigen und ihn zu ändern. Beispielsweise können Sie die von einem technischen Anwender erstellten Ereignisinformationen kopieren und einfügen.
+Über die Oberfläche können Sie einfache Ereignisparameter übergeben. If you want to pass collections or other advanced objects in the event, you can click on **[!UICONTROL Code View]** to see the entire code of the payload and modify it. Beispielsweise können Sie die von einem technischen Anwender erstellten Ereignisinformationen kopieren und einfügen.
 
 ![](../assets/journeytest5.png)
 
@@ -72,9 +72,13 @@ Ein technischer Anwender kann diese Oberfläche auch verwenden, um Payloads für
 
 ## Anzeigen der Protokolle {#viewing_logs}
 
-Mit der Schaltfläche **[!UICONTROL Protokoll anzeigen]** können Sie die Testergebnisse anzeigen. Auf dieser Seite werden die aktuellen Informationen der Journey im JSON-Format angezeigt. Mit einer Schaltfläche können Sie ganze Knoten kopieren. Sie müssen die Seite manuell aktualisieren, um die Testergebnisse der Journey zu aktualisieren.
+The **[!UICONTROL Show log]** button allows you to view the test results. Auf dieser Seite werden die aktuellen Informationen der Journey im JSON-Format angezeigt. Mit einer Schaltfläche können Sie ganze Knoten kopieren. Sie müssen die Seite manuell aktualisieren, um die Testergebnisse der Journey zu aktualisieren.
 
 ![](../assets/journeytest3.png)
+
+>[!NOTE]
+>
+>In den Testprotokollen werden bei einem Fehler beim Aufrufen eines Drittanbietersystems (Datenquelle oder Aktion) der Fehlercode und die Fehlerantwort angezeigt.
 
 Die Anzahl der Kontakte (technisch gesehen handelt es sich um Instanzen), die sich derzeit innerhalb der Journey befinden, wird angezeigt. Hier finden Sie nützliche Informationen, die für jeden Kontakt angezeigt werden:
 
