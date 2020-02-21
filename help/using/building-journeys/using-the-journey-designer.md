@@ -22,7 +22,7 @@ Im Startseitenmenü der Journey können Sie die **Liste der Journeys** anzeigen.
 
 ## Die Liste der Journeys {#journey_list}
 
-Die **Liste der Journeys** ermöglicht es Ihnen, alle Ihre Journeys gleichzeitig anzuzeigen, deren Status zu sehen und grundlegende Aktionen durchzuführen. Sie können Ihre Journeys duplizieren, anhalten oder löschen. Je nach Journey stehen bestimmte Aktionen möglicherweise nicht zur Verfügung. Sie können beispielsweise eine abgeschlossene Reise nicht anhalten oder löschen. Sie können auch die Suchleiste verwenden, um nach einer Journey zu suchen.
+Die **Liste der Journeys** ermöglicht es Ihnen, alle Ihre Journeys gleichzeitig anzuzeigen, deren Status zu sehen und grundlegende Aktionen durchzuführen. Sie können Ihre Journeys duplizieren, anhalten oder löschen. Je nach Journey stehen bestimmte Aktionen möglicherweise nicht zur Verfügung. Sie können zum Beispiel eine angehaltene Journey nicht anhalten. Sie können auch die Suchleiste verwenden, um nach einer Journey zu suchen.
 
 The **[!UICONTROL Filters]** can be accessed by clicking on the filter icon on the top left of the list. Mit dem Filtermenü können Sie die angezeigten Journeys nach verschiedenen Kriterien filtern (Status, von Ihnen erstellte, in den letzten 30 Tagen geänderte, neueste Versionen usw.). Sie können auch festlegen, dass nur die Journeys angezeigt werden, die ein bestimmtes Ereignis, eine bestimmte Feldergruppe oder eine bestimmte Aktion verwenden. Die in der Liste angezeigten Spalten können konfiguriert werden. Alle Filter und Spalten werden pro Anwender gespeichert.
 
@@ -45,12 +45,6 @@ Die **Palette** befindet sich auf der linken Bildschirmseite. All available acti
 >Beachten Sie, dass beim Einrichten einer Journey Regeln gelten. Eine nicht zulässige Konfiguration wird verworfen. Beispielsweise können Sie keine Aktionen parallel platzieren, eine Aktivität nicht mit einem vorherigen Schritt verknüpfen, um eine Schleife zu erstellen, eine Journey nicht mit etwas anderem als einem Ereignis starten usw.
 
 ![](../assets/journey38.png)
-
-Mit dem Symbol &quot;Deaktivierte Elemente **** anzeigen&quot;in der oberen linken Ecke können Sie nicht verfügbare Elemente in der Palette ein- oder ausblenden, z. B. Ereignisse, die einen anderen Namespace verwenden als die während der Reise verwendeten. Standardmäßig werden nicht verfügbare Elemente ausgeblendet. Wenn Sie sie anzeigen möchten, erscheinen sie grau.
-
-Wenn Sie das Feld **Suchen** verwenden, wird die Anzahl der Ergebnisse für jede Aktivitätskategorie auf der Arbeitsfläche angezeigt.
-
-![](../assets/palette-filter.png)
 
 ## Die Arbeitsfläche {#canvas}
 
@@ -85,7 +79,3 @@ Wir empfehlen, beim Überwachen eines Ereignisses nicht auf unbestimmte Zeit auf
 To delete the path, place your cursor on it and click the **[!UICONTROL Delete arrow]** icon.
 
 ![](../assets/journey42ter.png)
-
-Wenn auf der Arbeitsfläche zwei Aktivitäten getrennt sind, wird eine Warnung angezeigt. Platzieren Sie den Cursor auf das Warnsymbol, um die Fehlermeldung anzuzeigen. Um das Problem zu beheben, verschieben Sie einfach die nicht verbundene Aktivität und stellen Sie eine Verbindung zur vorherigen Aktivität her.
-
-![](../assets/canvas-disconnected.png)
