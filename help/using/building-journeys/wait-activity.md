@@ -10,15 +10,15 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+translation-type: tm+mt
+source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 
 ---
 
 
 # Warteaktivität{#section_rlm_nft_dgb}
 
-Wenn Sie warten möchten, bevor Sie die nächste Aktivität im Pfad ausführen, können Sie eine **[!UICONTROL Warteaktivität]** verwenden. Sie können den Zeitpunkt festlegen, zu dem die nächste Aktivität ausgeführt wird. Es stehen vier Optionen zur Verfügung:
+If you want to wait before executing the next activity in the path, you can use a **[!UICONTROL Wait]** activity. Sie können den Zeitpunkt festlegen, zu dem die nächste Aktivität ausgeführt wird. Es stehen vier Optionen zur Verfügung:
 
 * [Dauer](#duration)
 * [Festgelegtes Datum](#fixed_date)
@@ -37,7 +37,7 @@ Sie können eine Bedingung definieren, wenn Sie die Wartezeit auf eine bestimmte
 >
 >Die maximale Wartezeit beträgt 30 Tage.
 >
->Im Testmodus werden alle Warteaktivitäten automatisch auf 5 Sekunden eingestellt. So können Sie schnell auf die Testergebnisse zugreifen.
+>Im Testmodus können Sie mit dem Parameter **Wartezeit im Test** die Dauer jeder Warteaktivität festlegen. Die Standardzeit beträgt 10 Sekunden. Dadurch erhalten Sie die Testergebnisse schnell. Siehe [](../building-journeys/testing-the-journey.md)
 
 ## Wartezeit mit Dauer{#duration}
 
@@ -75,10 +75,10 @@ Diese Art des Wartens verwendet einen in der Plattform berechneten Wert. Der Wer
 >
 >Das erste Ereignis Ihrer Journey muss über einen Namespace verfügen.
 >
->Diese Funktion steht erst nach einer **[!UICONTROL E-Mail]**-Aktivität zur Verfügung. Sie benötigen Adobe Campaign Standard.
+>Diese Funktion steht erst nach einer **[!UICONTROL Email]**-Aktivität zur Verfügung. Sie benötigen Adobe Campaign Standard.
 
-1. Legen Sie im Feld **[!UICONTROL Dauer]** die Anzahl der Stunden fest, die zur Optimierung des E-Mail-Versands berücksichtigt werden sollen.
-1. Wählen Sie im Feld **[!UICONTROL Optimierungstyp]** aus, ob die Optimierung die Klicks oder Öffnungen steigern soll.
+1. In the **[!UICONTROL Amount of time]** field, define the number of hours to consider to optimize email sending.
+1. In the **[!UICONTROL Optimization type]** field, choose if the optimization should increase clicks or opens.
 1. Legen Sie im Feld **Standardzeit** die standardmäßige Wartezeit fest, wenn der Wert für die Versandzeitpunkt-Prognose nicht verfügbar ist.
 
    >[!NOTE]
