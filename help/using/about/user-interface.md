@@ -20,7 +20,7 @@ source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 >[!CONTEXTUALHELP]
 >id=&quot;jo_home&quot;
 >title=&quot;Info zur Reiseliste&quot;
->abstract=&quot;Die Reiseliste ermöglicht Ihnen, alle Ihre Reisen gleichzeitig anzuzeigen, ihren Status zu sehen und grundlegende Aktionen durchzuführen. Sie können Ihre Journeys duplizieren, anhalten oder löschen. Je nach Journey stehen bestimmte Aktionen möglicherweise nicht zur Verfügung. Sie können beispielsweise eine abgeschlossene Reise nicht anhalten oder löschen. Sie können auch die Suchleiste verwenden, um nach einer Journey zu suchen.&quot;
+>abstract=&quot;Die Reiseliste ermöglicht Ihnen, alle Ihre Reisen gleichzeitig anzuzeigen, ihren Status zu sehen und grundlegende Aktionen durchzuführen. Sie können Ihre Journeys duplizieren, anhalten oder löschen. Je nach Journey stehen bestimmte Aktionen möglicherweise nicht zur Verfügung. Sie können beispielsweise eine angehaltene Reise nicht anhalten oder löschen. Sie können auch die Suchleiste verwenden, um nach einer Journey zu suchen.&quot;
 >additional-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;Demovideo ansehen&quot;
 
 
@@ -40,13 +40,9 @@ You can also access Journey Orchestration from the Experience Cloud home page, i
 
 ![](../assets/journey1bis.png)
 
-Die Hauptmenüs ermöglichen Ihnen die Navigation durch die verschiedenen Funktionen der Reiseorchestrierung: **[!UICONTROL Home]**(Fahrten),**[!UICONTROL Data Sources]****[!UICONTROL Events]**, **[!UICONTROL Actions]**.
+The top menus allows you to navigate through the different functionalities of Journey Orchestration: **[!UICONTROL Home]**(the journeys),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
 
 ![](../assets/journey2.png)
-
-Klicken Sie auf das ![](../assets/icon-context.png) Symbol in der oberen rechten Ecke des Bildschirms, um die Kontexthilfe anzuzeigen. Es ist über die verschiedenen Bildschirm der Liste der Reisebegleiter (Reisen, Veranstaltungen, Aktionen und Datenquellen) verfügbar. Auf diese Weise können Sie eine kurze Beschreibung der aktuellen Funktion anzeigen und auf zugehörige Artikel und Videos zugreifen.
-
-![](../assets/journey2bis.png)
 
 ## Suchen und Filtern{#section_lgm_hpz_pgb}
 
