@@ -1,5 +1,5 @@
 ---
-source-git-commit: 5476f47904ddbd3e9480ab05c43180e93d642ada
+source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 translation-type: tm+mt
 
 ---
@@ -20,7 +20,7 @@ Beginnen Sie damit, ein Problem zu melden. Die vorhandenen Committer an diesem P
 
 ## Mitarbeiter-Lizenzvereinbarung
 
-Alle Beiträge Dritter zu diesem Projekt müssen mit einer unterzeichneten Lizenzvereinbarung einhergehen. Dadurch erhält Adobe die Erlaubnis, Ihre Beiträge im Rahmen des Projekts zu veröffentlichen. [Unterschreiben Sie unsere CLA](http://opensource.adobe.com/cla.html). Sie müssen nur einmal eine Adobe CLA einreichen. Wenn Sie also bereits eine CLA eingereicht haben, sollten Sie diese einreichen!
+Alle Beiträge Dritter zu diesem Projekt müssen mit einer unterzeichneten Lizenzvereinbarung einhergehen. Dadurch erhält Adobe die Erlaubnis, Ihre Beiträge im Rahmen des Projekts zu veröffentlichen. [Unterschreiben Sie unsere CLA](https://opensource.adobe.com/cla.html). Sie müssen nur einmal eine Adobe CLA einreichen. Wenn Sie also bereits eine CLA eingereicht haben, sollten Sie diese einreichen!
 
 ## Codeüberprüfungen
 
