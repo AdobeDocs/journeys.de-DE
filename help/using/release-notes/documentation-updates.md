@@ -21,20 +21,6 @@ source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 Auf dieser Seite werden alle Aktualisierungen der Dokumentation für die Orchestrierung der Customer Journey aufgelistet.
 Lesen Sie auch die [Versionshinweise](../release-notes/release-notes.md) zur Orchestrierung der Customer Journey.
 
-## March 2020 {#march-2020}
-
-* Die Auslösung mehrerer Ereignisse wurde dem Abschnitt Testmodus hinzugefügt [Mehr lesen](../building-journeys/testing-the-journey.md#firing_events)
-* Der Abschnitt Testmodus wurde hinsichtlich des neuen Parameters **Wartezeit im Test** aktualisiert. [Mehr dazu](../building-journeys/testing-the-journey.md)
-* Der Abschnitt Testprotokoll wurde mit Fehlercodes und Antworten für externe Aufrufe aktualisiert. [Mehr dazu](../building-journeys/testing-the-journey.md#viewing_logs)
-* Das Zeitzonenmanagement ist jetzt im Bereich der Reiseeigenschaften zentralisiert. Mehr [hier](../building-journeys/changing-properties.md#timezone) und [hier](../building-journeys/timezone-management.md)
-* Der Abschnitt &quot;Journey-Designer&quot;wurde aktualisiert, um die jüngsten Verbesserungen widerzuspiegeln. [Mehr dazu](../building-journeys/using-the-journey-designer.md)
-* Die Beschreibung der Benutzeroberfläche wurde mit Informationen zur kontextbezogenen Hilfe aktualisiert. [Mehr dazu](../about/user-interface.md#section_ksq_zr1_ffb)
-* Beim Durchsuchen von **XDM-Feldern** wird nun der Anzeigename angezeigt. Verwandte Abschnitte wurden aktualisiert. [Mehr dazu](../event/defining-the-payload-fields.md)
-
-## February 2020 {#february-2020}
-
-* Der Abschnitt zum Verknüpfen wurde aktualisiert. Mit dem **C** -Tastaturbefehl können Sie ein neues Element in allen Listenbildschirmen erstellen. [Mehr dazu](../about/user-interface.md#section_ksq_zr1_ffb)
-
 ## Januar 2020 {#january-2020}
 
 * Für [Erlebnisereignisse](../datasource/adobe-experience-platform-data-source.md) und [Segmente](../functions/functioninsegment.md)wurden Einschränkungen hinzugefügt.
