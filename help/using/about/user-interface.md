@@ -1,6 +1,6 @@
 ---
 title: Die Benutzeroberfläche
-description: Weitere Informationen zur Benutzeroberfläche
+description: Erfahren Sie mehr über die Benutzeroberfläche
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -9,110 +9,114 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
+source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 
 ---
 
 
-# User interface {#concept_rcq_lqt_52b}
+# Benutzeroberfläche {#concept_rcq_lqt_52b}
 
 
 >[!CONTEXTUALHELP]
 >id=&quot;jo_home&quot;
 >title=&quot;Info zur Reiseliste&quot;
->abstract=&quot;Die Reiseliste ermöglicht Ihnen, alle Ihre Reisen gleichzeitig anzuzeigen, ihren Status zu sehen und grundlegende Aktionen durchzuführen. Sie können Ihre Reisen duplizieren, beenden oder löschen. Je nach Reise stehen bestimmte Aktionen möglicherweise nicht zur Verfügung. Sie können beispielsweise eine angehaltene Reise nicht anhalten oder löschen. Sie können auch die Suchleiste verwenden, um nach einer Reise zu suchen.&quot;
+>abstract=&quot;Die Reiseliste ermöglicht Ihnen, alle Ihre Reisen gleichzeitig anzuzeigen, ihren Status zu sehen und grundlegende Aktionen durchzuführen. Sie können Ihre Journeys duplizieren, anhalten oder löschen. Je nach Journey stehen bestimmte Aktionen möglicherweise nicht zur Verfügung. Sie können beispielsweise eine abgeschlossene Reise nicht anhalten oder löschen. Sie können auch die Suchleiste verwenden, um nach einer Journey zu suchen.&quot;
 >additional-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;Demovideo ansehen&quot;
 
 
 >[!NOTE]
 >
->Um das Beste aus dem Journey Orchestration zu holen, empfehlen wir Chrome als Ihren Internetbrowser.
+>Um die Orchestrierung der Customer Journey optimal zu nutzen, empfehlen wir die Verwendung von Chrome als Internetbrowser.
 >
->Diese Dokumentation wird häufig aktualisiert, um die jüngsten Änderungen am Produkt widerzuspiegeln. Einige Screenshots unterscheiden sich jedoch geringfügig von der Benutzeroberfläche des Produkts.
+>Die vorliegende Dokumentation wird regelmäßig aktualisiert, um aktuelle Änderungen am Produkt widerzuspiegeln. Manche Screenshots können sich jedoch geringfügig von der Benutzeroberfläche des Produkts unterscheiden.
 
-## Benutzeroberfläche{#section_jsq_zr1_ffb}
+## Kennenlernen der Benutzeroberfläche{#section_jsq_zr1_ffb}
 
-Klicken Sie auf das Symbol **[!UICONTROL App-Auswahl]**oben rechts, um die Benutzeroberfläche des Reisezeichens aufzurufen. Klicken Sie dann auf**[!UICONTROL  Journey Orchestration]**, rechts unter &quot;Experience Platform&quot;.
+To access the Journey Orchestration&#39;s interface, click the **[!UICONTROL App Selector]** icon, in the top right. Then click **[!UICONTROL Journey Orchestration]**, on the right side, below &quot;Experience Platform&quot;.
 
 ![](../assets/journey1.png)
 
-Sie können auch über die Experience Cloud-Homepage im Abschnitt **[!UICONTROL Schnellzugriff]**auf die Journey Orchestration zugreifen.
+You can also access Journey Orchestration from the Experience Cloud home page, in the **[!UICONTROL Quick access]** section.
 
 ![](../assets/journey1bis.png)
 
-Die Hauptmenüs ermöglichen Ihnen die Navigation durch die verschiedenen Funktionen der Reiseorchestrierung: **[!UICONTROL Home]**(die Reisen),**[!UICONTROL  Data Sources]**, **[!UICONTROL Ereignisse]**,**[!UICONTROL  Aktionen]**.
+Die Hauptmenüs ermöglichen Ihnen die Navigation durch die verschiedenen Funktionen der Reiseorchestrierung: **[!UICONTROL Home]**(Fahrten),**[!UICONTROL Data Sources]****[!UICONTROL Events]**, **[!UICONTROL Actions]**.
 
 ![](../assets/journey2.png)
 
+Klicken Sie auf das ![](../assets/icon-context.png) Symbol in der oberen rechten Ecke des Bildschirms, um die Kontexthilfe anzuzeigen. Es ist über die verschiedenen Bildschirm der Liste der Reisebegleiter (Reisen, Veranstaltungen, Aktionen und Datenquellen) verfügbar. Auf diese Weise können Sie eine kurze Beschreibung der aktuellen Funktion anzeigen und auf zugehörige Artikel und Videos zugreifen.
+
+![](../assets/journey2bis.png)
+
 ## Suchen und Filtern{#section_lgm_hpz_pgb}
 
-In der Liste **[!UICONTROL Startseite]**,**[!UICONTROL  Datenquellen]**, **[!UICONTROL Ereignisse]**und**[!UICONTROL  Aktionen]** können Sie in einer Suchleiste nach einem Element suchen.
+In den **[!UICONTROL Home]**,**[!UICONTROL Data Sources]****[!UICONTROL Events]** und **[!UICONTROL Actions]** Listen können Sie in einer Suchleiste nach einem Element suchen.
 
-Auf die **[!UICONTROL Filter]**können Sie durch Klicken auf das Filtersymbol oben links in der Liste zugreifen. Mit dem Menü &quot;Filter&quot;können Sie die angezeigten Elemente nach unterschiedlichen Kriterien filtern. Sie können festlegen, dass nur die Elemente eines bestimmten Typs oder Status, die von Ihnen erstellten oder die in den letzten 30 Tagen geänderten Elemente angezeigt werden.
+The **[!UICONTROL Filters]** can be accessed by clicking on the filter icon on the top left of the list. Mit dem Filtermenü können Sie die angezeigten Elemente anhand unterschiedlicher Kriterien filtern. Sie können festlegen, dass nur die Elemente eines bestimmten Typs oder Status, die von Ihnen erstellten Elemente oder die in den letzten 30 Tagen geänderten Elemente angezeigt werden sollen.
 
-Verwenden Sie in den Listen **[!UICONTROL Data Sources]**,**[!UICONTROL  Ereignisse]** und **[!UICONTROL Aktionen]**die** Erstellungsfilter **, um nach Erstellungsdatum und Benutzer zu filtern. Sie können beispielsweise festlegen, dass nur die Ereignisse angezeigt werden, die Sie in den letzten 30 Tagen erstellt haben.
+In the **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** and **[!UICONTROL Actions]** lists, use the **Creation filters** to filter on the creation date and user. Sie können beispielsweise festlegen, dass nur die Ereignisse angezeigt werden sollen, die Sie in den letzten 30 Tagen erstellt haben.
 
-In der Reiseliste (unter &quot; **[!UICONTROL Home]**&quot;) können Sie zusätzlich zu den**[!UICONTROL  Erstellungsfiltern]**auch die angezeigten Reisen nach Status und Version (**[!UICONTROL Status- und Versionsfilter]**) filtern. Sie können auch festlegen, dass nur die Reisen angezeigt werden, die ein bestimmtes Ereignis, eine bestimmte Feldgruppe oder eine bestimmte Aktion (**[!UICONTROL  Aktivitätsfilter]** und **[!UICONTROL Datenfilter]**) verwenden. Mit den**[!UICONTROL  Veröffentlichungsfiltern]** können Sie ein Veröffentlichungsdatum oder einen Benutzer auswählen. Sie können beispielsweise festlegen, dass nur die neuesten Versionen der gestern veröffentlichten Live-Reisen angezeigt werden. Näheres wird im Abschnitt [](../building-journeys/using-the-journey-designer.md) beschrieben.
+In the journey list (under **[!UICONTROL Home]**), in addition to the **[!UICONTROL Creation filters]**, you can also filter the displayed journeys according to their status and version (**[!UICONTROL Status and version filters]**). You can also choose to only display the journeys that use a particular event, field group or action (**[!UICONTROL Activity filters]** and **[!UICONTROL Data filters]**). The **[!UICONTROL Publication filters]** let you select a publication date or user. Sie können beispielsweise entscheiden, dass nur die neuesten Versionen von Live-Journeys, die am Vortag veröffentlicht wurden, angezeigt werden sollen. Siehe [](../building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
->Beachten Sie, dass die angezeigten Spalten mithilfe der Konfigurationsschaltfläche oben rechts in den Listen personalisiert werden können. Die Personalisierung wird für jeden Benutzer gespeichert.
+>Beachten Sie, dass angezeigte Spalten mithilfe der Konfigurationsschaltfläche oben rechts in den Listen personalisiert werden können. Personalisierung wird für jeden Benutzer individuell gespeichert.
 
 ![](../assets/journey74.png)
 
-In den Konfigurationsbereichen für die Datenquelle und Aktion zeigt das Feld **[!UICONTROL Verwendet in]**die Anzahl der Reisen an, die dieses bestimmte Ereignis, diese Feldgruppe oder diese Aktion verwenden. Sie können auf die Schaltfläche**[!UICONTROL  Fahrten]** anzeigen klicken, um die Liste der entsprechenden Fahrten anzuzeigen.
+In the event, data source and action configuration panes, the **[!UICONTROL Used in]** field displays the number of journeys that use that particular event, field group or action. You can click the **[!UICONTROL View journeys]** button to display the list of corresponding journeys.
 
 ![](../assets/journey3bis.png)
 
-In den verschiedenen Listen können Sie grundlegende Aktionen für jedes Element durchführen. Sie können beispielsweise ein Element duplizieren oder löschen.
+In den verschiedenen Listen können Sie grundlegende Aktionen für einzelne Elemente durchführen. Sie können Elemente beispielsweise duplizieren oder löschen.
 
 ![](../assets/journey4.png)
 
 ## Verwenden der verschiedenen Tastaturbefehle{#section_ksq_zr1_ffb}
 
-Hier finden Sie die verschiedenen Tastaturbefehle, die in der Benutzeroberfläche des Journey Orchestration verfügbar sind.
+Hier finden Sie die verschiedenen Tastaturbefehle, die in der Benutzeroberfläche der Orchestrierung der Customer Journey verfügbar sind.
 
-_In der Liste der Fahrten, Aktionen, Datenquellen oder Ereignisse:_
+_In der Liste der Journeys, Aktionen, Datenquellen oder Ereignisse:_
 
-* Drücken Sie **c** , um eine neue Reise, Aktion, Datenquelle oder ein neues Ereignis zu erstellen.
+* Drücken Sie **c**, um eine neue Journey, Aktion, Datenquelle oder ein neues Ereignis zu erstellen.
 
-_Beim Konfigurieren einer Aktivität auf einer Reise:_
+_Beim Konfigurieren einer Aktivität in einer Journey:_
 
-Die Arbeitsfläche wird automatisch gespeichert. Oben links auf der Arbeitsfläche sehen Sie den Speicherstatus.
+Die Arbeitsfläche wird automatisch gespeichert. Oben links in der Arbeitsfläche sehen Sie den Speicherstatus.
 
-* Drücken Sie **Esc** , um den Konfigurationsbereich zu schließen und die vorgenommenen Änderungen zu verwerfen. Dies entspricht der Schaltfläche **[!UICONTROL Abbrechen]**.
-* Drücken Sie die **[!UICONTROL Eingabetaste]**oder klicken Sie außerhalb des Bereichs, um den Konfigurationsbereich zu schließen. Änderungen werden gespeichert. Dies entspricht der Schaltfläche**[!UICONTROL  OK]** .
-* Wenn Sie die Taste **[!UICONTROL Löschen]**oder** Rücktaste **drücken, können Sie den Löschvorgang durch Drücken der**[!UICONTROL  Eingabetaste]** bestätigen.
+* Drücken Sie **Esc**, um den Konfigurationsbereich zu schließen und die vorgenommenen Änderungen zu verwerfen. Dies entspricht der Schaltfläche **[!UICONTROL Cancel]**.
+* Press **[!UICONTROL Enter]** or click outside the pane to close the configuration pane. Änderungen werden gespeichert. Dies entspricht der Schaltfläche **[!UICONTROL Ok]**.
+* If you press **[!UICONTROL Delete]** or **backspace**, you can then press **[!UICONTROL Enter]** to confirm the deletion.
 
 _In Popups:_
 
-* Drücken Sie **Esc** , um es zu schließen (entspricht der Schaltfläche **Abbrechen** ).
-* Drücken Sie **[!UICONTROL die Eingabetaste]**, um zu speichern oder zu bestätigen (entspricht der Schaltfläche**[!UICONTROL  OK]** oder **[!UICONTROL Speichern]**).
+* Drücken Sie **Esc**, um sie zu schließen (entspricht der Schaltfläche **Abbrechen**).
+* Press **[!UICONTROL Enter]** to save or confirm (equivalent of the **[!UICONTROL Ok]** or **[!UICONTROL Save]** button).
 
-_Im Ereigniskonfigurationsbereich, in der Datenquelle- oder Aktionskonfiguration:_
+_Im Ereignis-, Datenquellen- oder Aktionskonfigurationsbereich:_
 
-* Drücken Sie **Esc** , um den Konfigurationsbereich ohne Speichern zu schließen.
-* Drücken Sie die **[!UICONTROL Eingabetaste]**, um Änderungen zu speichern und den Konfigurationsbereich zu schließen.
-* Drücken Sie die **Tabulatortaste** , um zwischen den verschiedenen Feldern zu wechseln, die konfiguriert werden sollen.
+* Drücken Sie **Esc**, um den Konfigurationsbereich ohne Speichern zu schließen.
+* Press **[!UICONTROL Enter]** to save modifications and close the configuration pane.
+* Drücken Sie die **Tabulatortaste**, um zwischen den verschiedenen zu konfigurierenden Feldern zu wechseln.
 
-_Im Editor für einfache Ausdrücke_
+_Im einfachen Ausdruckseditor:_
 
-* Doppelklicken Sie auf ein Feld auf der linken Seite, um eine Abfrage hinzuzufügen (entsprechend dem Drag &amp; Drop).
+* Doppelklicken Sie links auf ein Feld, um eine Abfrage hinzuzufügen (entspricht Drag-and-Drop).
 
 _Beim Durchsuchen von XDM-Feldern:_
 
-* Wenn Sie eine &quot;Node&quot; überprüfen, werden alle Felder des Knotens ausgewählt.
+* Bei Aktivierung eines „Knotens“ werden alle Felder des Knotens ausgewählt.
 
 _In allen Textbereichen:_
 
-* Verwenden Sie die Tastenkombination **Strg/Befehl + A** , um den Text auszuwählen. In der Payload-Vorschau wird die Nutzlast ausgewählt.
+* Verwenden Sie die Tastenkombination **Strg-Taste/Befehlstaste+A**, um den Text auszuwählen. In der Payload-Vorschau wird die Payload ausgewählt.
 
 _In einem Bildschirm mit einer Suchleiste:_
 
-* Verwenden Sie die Tastenkombination **Strg/Befehl + F** , um die Suchleiste auszuwählen.
+* Verwenden Sie die Tastenkombination **Strg-Taste/Befehlstaste+F**, um die Suchleiste auszuwählen.
 
-_Auf der Arbeitsfläche einer Reise:_
+_In der Arbeitsfläche einer Journey:_
 
-* Verwenden Sie die Tastenkombination **Strg/Befehl + A** , um alle Aktivitäten auszuwählen.
-* Wenn eine oder mehrere Aktivitäten ausgewählt sind, drücken Sie die **[!UICONTROL Entf]**- oder die** Rücktaste **, um sie zu löschen. Dann können Sie die**[!UICONTROL  Eingabetaste]** drücken, um dies im Bestätigungs-Popup zu bestätigen.
+* Verwenden Sie die Tastenkombination **Strg-Taste/Befehlstaste+A**, um alle Aktivitäten auszuwählen.
+* When one or several activities are selected, press **[!UICONTROL Delete]** or **backspace** to delete them. Then you can press **[!UICONTROL Enter]** to confirm in the confirmation pop-up.
 * Doppelklicken Sie auf eine Aktivität in der linken Palette, um sie an der ersten verfügbaren Position (von oben nach unten) hinzuzufügen.
