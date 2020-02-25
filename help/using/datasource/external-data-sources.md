@@ -73,7 +73,7 @@ Für den Parametersatz „long/lat“ erstellen wir eine Feldergruppe mit den fo
 * **[!UICONTROL Verwendet in]**: zeigt die Anzahl der Journeys an, die eine Feldergruppe verwenden. Sie können auf **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der Journeys mit dieser Feldergruppe anzuzeigen.
 * **[!UICONTROL Methode]**: Wählen Sie die POST- oder GET-Methode aus. In unserem Fall wählen wir die GET-Methode.
 * **[!UICONTROL Aufbewahrungsfrist im Cache]**: In unserem Fall möchten wir, dass das Wetter 10 Minuten lang zwischengespeichert wird.
-* **[!UICONTROL Antwort-Payload]**: Klicken Sie in das Feld **[!UICONTROL Payload]** und fügen Sie ein Beispiel der vom Aufruf zurückgegebenen Payload ein. Für unser Beispiel haben wir eine Payload verwendet, die auf einer Wetter-API-Website gefunden wurde. Überprüfen Sie, ob die Feldtypen korrekt sind. Jedes Mal, wenn die API aufgerufen wird, ruft das System alle im Payload-Beispiel enthaltenen Felder ab. Beachten Sie, dass Sie auf **[!UICONTROL Fügen Sie einen neuen Payload ein]** klicken können, wenn Sie die aktuell übergebene Payload ändern möchten.
+* **[!UICONTROL Antwort-Payload]**: Klicken Sie in das Feld **[!UICONTROL Payload]** und fügen Sie ein Beispiel der vom Aufruf zurückgegebenen Payload ein. Für unser Beispiel haben wir eine Payload verwendet, die auf einer Wetter-API-Website gefunden wurde. Überprüfen Sie, ob die Feldtypen korrekt sind. Jedes Mal, wenn die API aufgerufen wird, ruft das System alle im Payload-Beispiel enthaltenen Felder ab. Beachten Sie, dass Sie auf **[!UICONTROL Fügen Sie eine neue Payload ein]** klicken können, wenn Sie die aktuell übergebene Payload ändern möchten.
 * **[!UICONTROL Dynamische Werte]**: Geben Sie die verschiedenen Parameter getrennt durch ein Komma ein, in unserem Beispiel „long,lat“. Da die Parameterwerte vom Ausführungskontext abhängen, werden sie in den Journeys definiert. Siehe [](../expression/expressionadvanced.md).
 * **[!UICONTROL Gesendete Payload]**: Dieses Feld wird nicht in unserem Beispiel angezeigt. Es ist nur verfügbar, wenn Sie die POST-Methode auswählen. Fügen Sie die Payload ein, die an das Drittanbietersystem gesendet wird.
 
@@ -115,7 +115,7 @@ Die Definition des Endpunkts, der aufgerufen werden soll, um das Zugriffstoken z
 
 * endpoint: URL zum Generieren des Endpunkts
 * Methode der HTTP-Anfrage am Endpunkt (GET oder POST)
-* headers: Schlüssel/Wert-Paare, die bei Bedarf als Header in diesen Aufruf eingefügt werden sollen
+* headers: Schlüssel/Wert-Paare, die bei Bedarf als Kopfzeilen in diesen Aufruf eingefügt werden sollen
 * body: beschreibt den Hauptteil des Aufrufs, wenn die Methode POST ist. Für den Hauptteil unterstützen wir eine begrenzte Struktur, die in bodyParams definiert ist (Schlüssel/Wert-Paare). Der bodyType beschreibt Format und Kodierung des Hauptteils (body) im Aufruf:
    * &#39;form&#39;: bedeutet, dass der Inhaltstyp application/x-www-form-urlencoded (Zeichensatz UTF-8) lautet und die Schlüssel/Wert-Paare wie folgt serialisiert werden: Schlüssel1=Wert1&amp;Schlüssel2=Wert2&amp; ...
    * &#39;json&#39;: bedeutet, dass der Inhaltstyp application/json (Zeichensatz UTF-8) ist und die Schlüssel/Wert-Paare wie folgt als JSON-Objekt serialisiert werden: _{ &quot;Schlüssel1&quot;: &quot;Wert1&quot;, &quot;Schlüssel2&quot;: &quot;Wert2&quot;, ...}_
@@ -124,8 +124,8 @@ Die Definition der Art und Weise, wie das Zugriffstoken in die HTTP-Anfrage der 
 
 * authorizationType: definiert, wie das generierte Zugriffstoken in den HTTP-Aufruf für die Aktion eingefügt werden muss. Die möglichen Werte sind:
 
-   * bearer: gibt an, dass das Zugriffstoken in den Autorisierungs-Header eingefügt werden muss, z. B.: _Autorisierung: bearer &lt;Zugriffstoken>_
-   * header: gibt an, dass das Zugriffstoken als Header eingefügt werden muss, der Header-Name wird von der Eigenschaft tokenTarget definiert. Wenn tokenTarget beispielsweise myHeader ist, wird das Zugriffstoken als Header wie folgt eingefügt: _myHeader: &lt;Zugriffstoken>_
+   * bearer: gibt an, dass das Zugriffstoken in die Autorisierungskopfzeile eingefügt werden muss, z. B.: _Autorisierung: bearer &lt;Zugriffstoken>_
+   * header: gibt an, dass das Zugriffstoken als Kopfzeile eingefügt werden muss, der Kopfzeilenname wird von der Eigenschaft tokenTarget definiert. Wenn tokenTarget beispielsweise myHeader ist, wird das Zugriffstoken als Kopfzeile wie folgt eingefügt: _myHeader: &lt;Zugriffstoken>_
    * queryParam: gibt an, dass das Zugriffstoken als queryParam eingefügt werden muss, der queryParam-Name wird von der Eigenschaft tokenTarget definiert. Wenn tokenTarget beispielsweise myQueryParam ist, lautet die URL des Aktionsaufrufs wie folgt: _&lt;URL>?myQueryParam=&lt;Zugriffstoken>_
 
 * tokenInResponse: zeigt an, wie das Zugriffstoken aus dem Authentifizierungsaufruf extrahiert wird. Diese Eigenschaft kann Folgendes sein:
