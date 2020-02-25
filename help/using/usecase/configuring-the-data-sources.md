@@ -1,6 +1,6 @@
 ---
 title: Konfigurieren von Datenquellen
-description: Erfahren Sie, wie Sie die Datenquelle für die Journey mit dem erweiterten Anwendungsfall konfigurieren
+description: Erfahren Sie, wie Sie die Datenquelle für eine Journey in einem erweiterten Anwendungsfall konfigurieren
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -44,7 +44,7 @@ Weitere Informationen zur Datenquellenkonfiguration finden Sie unter [](../datas
 
 Zudem muss geprüft werden, ob die Person im Hotelreservierungssystem über eine Buchung verfügt. Der **technische Anwender** muss eine zweite Datenquelle konfigurieren, damit sich dieses Feld abrufen lässt.
 
-1. Klicken Sie in der Liste der Datenquellen auf **[!UICONTROL Hinzufügen]** , um eine neue externe Datenquelle hinzuzufügen und die Verbindung zum Hotelreservierungssystem festzulegen.
+1. Klicken Sie in der Liste der Datenquellen auf **[!UICONTROL Hinzufügen]**, um eine neue externe Datenquelle hinzuzufügen und die Verbindung zum Hotelreservierungssystem zu definieren.
 
    ![](../assets/journeyuc2_9.png)
 
