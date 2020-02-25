@@ -9,14 +9,14 @@ source-git-commit: 22569d66acb1637efc346f77864302b9e2cb6070
 ---
 
 
-# Hilfe für die Orchestrierung der Customer Journey {#using}
+# Hilfe für Journey Orchestration {#using}
 
 + [Produktdokumentation](journey-orchestration-home.md)
 + Neue Funktionen {#release-notes}
    + [Versionshinweise](using/release-notes/release-notes.md)
    + [Aktualisierungen der Dokumentation](using/release-notes/documentation-updates.md)
-+ Erste Schritte mit der Orchestrierung der Customer Journey {#starting-with-journeys}
-   + [Informationen zur Orchestrierung der Customer Journey](using/about/about-journey-orchestration.md)
++ Erste Schritte mit Journey Orchestration {#starting-with-journeys}
+   + [Informationen zu Journey Orchestration](using/about/about-journey-orchestration.md)
    + [Erste Schritte](using/about/get-started.md)
    + [Benutzeroberfläche](using/about/user-interface.md)
    + [Zugriffsverwaltung](using/about/access-management.md)
@@ -48,7 +48,7 @@ source-git-commit: 22569d66acb1637efc346f77864302b9e2cb6070
       + [Verwenden des Journey-Designers](using/building-journeys/using-the-journey-designer.md)
       + [Ändern von Eigenschaften](using/building-journeys/changing-properties.md)
       + [Journey-Versionen](using/building-journeys/journey-versions.md)
-      + [Einstellen einer Journey](using/building-journeys/terminating-a-journey.md)
+      + [Abbrechen einer Journey](using/building-journeys/terminating-a-journey.md)
       + [Zeitzonen-Management](using/building-journeys/timezone-management.md)
    + Aktivitäten {#about-journey-building}
       + [Ereignisaktivitäten](using/building-journeys/event-activities.md)
@@ -59,7 +59,7 @@ source-git-commit: 22569d66acb1637efc346f77864302b9e2cb6070
          + [Warteaktivität](using/building-journeys/wait-activity.md)
       + Aktionsaktivitäten {#action-activities}
          + [Informationen zu Aktionsaktivitäten](using/building-journeys/about-action-activities.md)
-         + [Vewenden von Adobe Campaign-Aktionen](using/building-journeys/using-adobe-campaign-actions.md)
+         + [Verwenden von Adobe Campaign-Aktionen](using/building-journeys/using-adobe-campaign-actions.md)
          + [Verwenden benutzerdefinierter Aktionen](using/building-journeys/using-custom-actions.md)
    + [Testen der Journey](using/building-journeys/testing-the-journey.md)
    + [Veröffentlichen der Journey](using/building-journeys/publishing-the-journey.md)
@@ -70,7 +70,7 @@ source-git-commit: 22569d66acb1637efc346f77864302b9e2cb6070
       + [Bedingte Anweisung](using/expression/conditional-instruction.md)
       + [Datentypen](using/expression/data-types.md)
       + [Feldverweise](using/expression/field-references.md)
-      + [Funktionen zur Verwaltung von Kollektionen](using/expression/collection-management-functions.md)
+      + [Funktionen zur Verwaltung von Sammlungen](using/expression/collection-management-functions.md)
       + [Operatoren](using/expression/operators.md)
    + Funktionen {#main-functions-journey}
       + [Hauptfunktionen](using/expression/functions.md)
