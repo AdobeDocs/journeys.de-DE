@@ -40,7 +40,7 @@ Im Folgenden finden Sie die wichtigsten Schritte, um der integrierten Datenquell
 
    ![](../assets/journey24.png)
 
-1. Wählen Sie ein Schema aus der Dropdown-Liste **[!UICONTROL Schema]** aus. In diesem Feld werden die in der Plattform verfügbaren Profil- und Erlebnisereignisschemata aufgelistet. Die Schemaerstellung wird nicht in der Orchestrierung der Customer Journey durchgeführt. Sie wird in der Datenplattform durchgeführt.
+1. Wählen Sie ein Schema aus der Dropdown-Liste **[!UICONTROL Schema]** aus. In diesem Feld werden die in der Plattform verfügbaren Profil- und Erlebnisereignisschemata aufgelistet. Die Schemaerstellung wird nicht in Journey Orchestration durchgeführt. Sie wird in der Datenplattform durchgeführt.
 1. Wählen Sie die Felder aus, die Sie verwenden möchten.
 1. Definieren Sie die Aufbewahrungsfrist im Cache.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
