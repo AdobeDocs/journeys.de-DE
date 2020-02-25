@@ -22,6 +22,6 @@ Wenn Sie eine benutzerdefinierte Aktion verwenden, werden die im Konfigurationsb
 
 >[!NOTE]
 >
->Eine Kollektion kann nicht in benutzerdefinierten Aktionsparametern übergeben werden. Wenn die benutzerdefinierte Aktion Kollektionen erwartet, funktioniert dies nicht. Beachten Sie außerdem, dass die Parameter ein erwartetes Format haben (Beispiel: Zeichenfolge, Dezimalzahl usw.). Sie müssen darauf achten, dass diese erwarteten Formate eingehalten werden.
+>Eine Sammlung kann nicht in benutzerdefinierten Aktionsparametern übergeben werden. Wenn die benutzerdefinierte Aktion Sammlungen erwartet, funktioniert dies nicht. Beachten Sie außerdem, dass die Parameter ein erwartetes Format haben (Beispiel: Zeichenfolge, Dezimalzahl usw.). Sie müssen darauf achten, dass diese erwarteten Formate eingehalten werden.
 
 Im Abschnitt **[!UICONTROL Aktionsparameter]** sehen Sie die Nachrichtenparameter, die als _Variable_ definiert sind. Für diese Parameter können Sie festlegen, wo diese Informationen abgerufen werden sollen (Beispiel: Ereignisse, Datenquellen), Werte manuell übergeben oder den erweiterten Ausdruckseditor für erweiterte Anwendungsfälle verwenden. Erweiterte Anwendungsfälle können Datenmanipulationen und andere Funktionen sein. Siehe [](../expression/expressionadvanced.md)
