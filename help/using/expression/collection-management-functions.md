@@ -1,6 +1,6 @@
 ---
-title: Funktionen zur Verwaltung von Kollektionen
-description: Erfahren Sie mehr über die Datentypen in den Funktionen zur Verwaltung von Kollektionen
+title: Funktionen zur Verwaltung von Sammlungen
+description: Erfahren Sie mehr über die Datentypen in den Funktionen zur Verwaltung von Sammlungen
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -16,11 +16,11 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 ---
 
 
-# Funktionen zur Verwaltung von Kollektionen {#collection-management-functions}
+# Funktionen zur Verwaltung von Sammlungen {#collection-management-functions}
 
-Die Ausdruckssprache bietet auch eine Reihe von Funktionen zum Abfragen von Kollektionen.
+Die Ausdruckssprache bietet auch eine Reihe von Funktionen zum Abfragen von Sammlungen.
 
-Diese Funktionen werden nachfolgend erläutert. In den folgenden Beispielen verwenden wir die Ereignis-Payload, die eine Kollektion enthält:
+Diese Funktionen werden nachfolgend erläutert. In den folgenden Beispielen verwenden wir die Ereignis-Payload, die eine Sammlung enthält:
 
 ```
                 { 
@@ -64,15 +64,15 @@ Diese Funktionen werden nachfolgend erläutert. In den folgenden Beispielen verw
 
 **Die Funktion „all(`<condition>`)“**
 
-Die Funktion **[!UICONTROL all]** ermöglicht mithilfe eines booleschen Ausdrucks die Definition eines Filters für eine bestimmte Kollektion.
+Die Funktion **[!UICONTROL all]** ermöglicht mithilfe eines booleschen Ausdrucks die Definition eines Filters für eine bestimmte Sammlung.
 
 ```
 <listExpression>.all(<condition>)
 ```
 
-Beispielsweise können Sie von allen App-Anwendern diejenigen erhalten, die iOS 13 verwenden (boolescher Ausdruck „app used == iOS 13“). Das Ergebnis dieser Funktion ist die gefilterte Liste mit Elementen, die dem booleschen Ausdruck entsprechen (Beispiel: App-Anwender 1, App-Anwender 34, App-Anwender 432).
+Beispielsweise können Sie von allen App-Anwendern diejenigen abfragen, die iOS 13 verwenden (boolescher Ausdruck „app used == iOS 13“). Das Ergebnis dieser Funktion ist die gefilterte Liste mit Elementen, die dem booleschen Ausdruck entsprechen (Beispiel: App-Anwender 1, App-Anwender 34, App-Anwender 432).
 
-In einer Aktivität des Typs „Bedingung der Datenquelle“ können Sie überprüfen, ob das Ergebnis der Funktion **[!UICONTROL all]** null ist. Sie können diese Funktion **[!UICONTROL all]** auch mit anderen Funktionen wie **[!UICONTROL count]** kombinieren. Weitere Informationen finden Sie unter [Aktivität „Bedingung der Datenquelle“](../building-journeys/condition-activity.md#data_source_condition).
+In einer Aktivität des Typs „Bedingung der Datenquelle“ können Sie überprüfen, ob das Ergebnis der Funktion **[!UICONTROL all]** null ist. Sie können die Funktion **[!UICONTROL all]** auch mit anderen Funktionen wie **[!UICONTROL count]** kombinieren. Weitere Informationen finden Sie unter [Aktivität „Bedingung der Datenquelle“](../building-journeys/condition-activity.md#data_source_condition).
 
 **Beispiel 1:**
 
@@ -86,7 +86,7 @@ Das Ergebnis ist wahr.
 
 **Beispiel 2:**
 
-Hier verwenden wir die Funktion **[!UICONTROL count]**, um zu überprüfen, ob in der Kollektion Push-Benachrichtigungstoken vorhanden sind.
+Hier verwenden wir die Funktion **[!UICONTROL count]**, um zu überprüfen, ob in der Sammlung Push-Benachrichtigungstoken vorhanden sind.
 
 ```
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) > 0
@@ -119,7 +119,7 @@ earlier timestamp) in order to only consider prior events.-->
 
 >[!NOTE]
 >
->Wenn die Filterbedingung in der Funktion **all()** leer ist, gibt der Filter alle Elemente in der Liste zurück. **Um jedoch die Anzahl der Elemente einer Kollektion zu zählen, ist die Funktion „all“ nicht erforderlich.**
+>Wenn die Filterbedingung in der Funktion **all()** leer ist, gibt der Filter alle Elemente in der Liste zurück. **Um jedoch die Anzahl der Elemente einer Sammlung zu zählen, ist die Funktion „all“ nicht erforderlich.**
 
 
 ```
@@ -130,7 +130,7 @@ Das Ergebnis des Ausdrucks ist **3**.
 
 **Beispiel 3:**
 
-Hier prüfen wir, ob ein Kontakt innerhalb der letzten 24 Stunden keine Mitteilungen erhalten hat. Wir filtern die Kollektion von Erlebnisereignissen, die aus der Experience Platform-Datenquelle abgerufen wurden, mithilfe von zwei Ausdrücken, die auf zwei Elementen der Kollektion basieren. Insbesondere wird der Zeitstempel des Ereignisses mit dem von der Funktion **[!UICONTROL nowWithDelta]** zurückgegebenen Wert „dateTime“ verglichen.
+Hier prüfen wir, ob ein Kontakt innerhalb der letzten 24 Stunden keine Mitteilungen erhalten hat. Wir filtern die Sammlung von Erlebnisereignissen, die aus der Experience Platform-Datenquelle abgerufen wurden, mithilfe von zwei Ausdrücken, die auf zwei Elementen der Sammlung basieren. Insbesondere wird der Zeitstempel des Ereignisses mit dem von der Funktion **[!UICONTROL nowWithDelta]** zurückgegebenen Wert „dateTime“ verglichen.
 
 ```
 count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
@@ -142,7 +142,7 @@ Das Ergebnis ist wahr, wenn es kein Erlebnisereignis gibt, das den beiden Beding
 
 **Beispiel 4:**
 
-Hier möchten wir überprüfen, ob ein Kontakt in den letzten 7 Tagen mindestens einmal eine App gestartet hat, um z. B. eine Push-Benachrichtigung auszulösen, die sie zum Start eines Tutorials einlädt.
+Hier möchten wir überprüfen, ob ein Kontakt in den letzten 7 Tagen mindestens einmal eine App gestartet hat, um z. B. eine Push-Benachrichtigung auszulösen, die den Kontakt zum Start eines Tutorials einlädt.
 
 ```
 count(
@@ -171,14 +171,14 @@ The result will be:
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]** ist nur verfügbar, wenn Ereigniskollektionen bearbeitet werden, und **currentDataPackField**,
->wenn Datenquellenkollektionen bearbeitet werden. Bei der Verarbeitung von Kollektionen mit **[!UICONTROL all]**, **[!UICONTROL first]** und **[!UICONTROL last]** wird
->jedes Element der Kollektion einzeln durchlaufen. **[!UICONTROL currentEventField]** und **currentDataPackField**
+>**[!UICONTROL currentEventField]** ist nur verfügbar, wenn Ereignissammlungen bearbeitet werden, und **currentDataPackField**,
+>wenn Datenquellensammlungen bearbeitet werden. Bei der Verarbeitung von Sammlungen mit **[!UICONTROL all]**, **[!UICONTROL first]** und **[!UICONTROL last]** wird
+>jedes Element der Sammlung einzeln durchlaufen. **[!UICONTROL currentEventField]** und **currentDataPackField**
 >entsprechen dem Element, das in der Schleife verarbeitet wird.
 
 **Die Funktionen „first(`<condition>`)“ und „last(`<condition>`)“**
 
-Die Funktionen **[!UICONTROL first]** und **[!UICONTROL last]** ermöglichen auch die Definition eines Filters für die Kollektion, wobei das erste/letzte Element der Liste zurückgegeben wird, das dem Filter entspricht.
+Die Funktionen **[!UICONTROL first]** und **[!UICONTROL last]** ermöglichen auch die Definition eines Filters für die Sammlung, wobei das erste/letzte Element der Liste zurückgegeben wird, das dem Filter entspricht.
 
 _`<listExpression>.first(<condition>)`_
 
@@ -206,8 +206,8 @@ Das Ergebnis ist „token_2“.
 
 >[!NOTE]
 >
->Die Erlebnisereignisse werden von Experience Platform als Kollektion in umgekehrter chronologischer Reihenfolge abgerufen. Entsprechend gilt:
->* Die Funktion **[!UICONTROL first]** gibt das neueste Ereignis zurück
+>Die Erlebnisereignisse werden von Experience Platform als Sammlung in umgekehrter chronologischer Reihenfolge abgerufen. Entsprechend gilt:
+>* Die Funktion **[!UICONTROL first]** gibt das neueste Ereignis zurück.
 >* Die Funktion **[!UICONTROL last]** gibt das älteste zurück.
 
 
@@ -222,8 +222,8 @@ currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
 
 **Die Funktion „at(`<index>`)“**
 
-Mit der Funktion **[!UICONTROL at]** können Sie anhand eines Index auf ein bestimmtes Element in einer Kollektion verweisen.
-Der Index „0“ ist der erste Index der Kollektion.
+Mit der Funktion **[!UICONTROL at]** können Sie anhand eines Index auf ein bestimmtes Element in einer Sammlung verweisen.
+Der Index „0“ ist der erste Index der Sammlung.
 
 _`<listExpression>`.at(`<index>`)_
 
