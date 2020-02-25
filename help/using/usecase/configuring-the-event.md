@@ -54,4 +54,4 @@ Weitere Informationen zur Ereigniskonfiguration finden Sie unter [](../event/abo
 
    ![](../assets/journeyuc1_7.png)
 
-   Das Ereignis kann nun in Ihrer Journey genutzt werden. Jetzt müssen Sie die App so konfigurieren, dass sie die erwartete Payload an den Endpunkt der Streaming-Erfassungs-APIs senden kann. Siehe [](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+   Das Ereignis kann nun in Ihrer Journey genutzt werden. Jetzt müssen Sie die App so konfigurieren, dass sie die erwartete Payload an den Endpunkt der Streaming-Aufnahme-APIs senden kann. Siehe [](../event/additional-steps-to-send-events-to-journey-orchestration.md).
