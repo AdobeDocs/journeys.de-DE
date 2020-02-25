@@ -127,7 +127,7 @@ Nach der Bedingung werden zwei Pfade erstellt:
 
    ![](../assets/journeyuc2_22.png)
 
-1. Definieren Sie die **[!UICONTROL Zielfelder]**, die vom System zum Senden der Push-Benachrichtigung benötigt werden.
+1. Definieren Sie die **[!UICONTROL Zielgruppenfelder]**, die vom System zum Senden der Push-Benachrichtigung benötigt werden.
 
    * **[!UICONTROL Push-Plattform]**: Wählen Sie die Plattform: **[!UICONTROL Apple Push Notification Server]** (Apple) oder **[!UICONTROL Firebase Cloud Messaging]** (Android).
    * **[!UICONTROL Anmeldetoken]**: Fügen Sie im erweiterten Modus den folgenden Ausdruck hinzu (basierend auf dem konfigurierten Ereignis):
