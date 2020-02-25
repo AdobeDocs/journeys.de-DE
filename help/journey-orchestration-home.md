@@ -1,7 +1,7 @@
 ---
 keywords: Journeys;home;popular topics
 solution: Journeys
-title: Produktdokumentation für die Orchestrierung der Customer Journey
+title: Produktdokumentation für Journey Orchestration
 topic: Premium
 translation-type: ht
 source-git-commit: 3b448258ef6c4a1fb6876693dac26268481bd0c4
@@ -15,13 +15,13 @@ source-git-commit: 3b448258ef6c4a1fb6876693dac26268481bd0c4
 
 ## Erste Schritte
 
-* **[Was ist Journey-Orchestrierung?](using/action/working-with-adobe-campaign.md)**<br/>Weitere Informationen zur Orchestrierung der Customer Journey.
+* **[Was ist Journey Orchestration?](using/action/working-with-adobe-campaign.md)**<br/>Weitere Informationen zu Journey Orchestration.
 
-* **[Erstellen Ihrer ersten Journey](using/about/get-started.md)**<br/>Entdecken Sie die wichtigsten Schritte zur Einrichtung der Orchestrierung der Customer Journey und zur Erstellung Ihrer ersten Journey.
+* **[Erstellen Ihrer ersten Journey](using/about/get-started.md)**<br/>Entdecken Sie die wichtigsten Schritte zur Einrichtung von Journey Orchestration und zur Erstellung Ihrer ersten Journey.
 
 * **[Konfigurieren eines Ereignisses](using/event/about-events.md#section_tbk_5qt_pgb)**<br/>Erfahren Sie, wie Sie die Ereignisse konfigurieren, auf die Ihre Journeys reagieren.
 
-* **[Gewähren von Zugriff auf die Orchestrierung der Customer Journey](using/about/access-management.md)**<br/>Erfahren Sie, wie Sie den Zugriff Ihrer Anwender mit Produktprofilen und -rechten verwalten.
+* **[Gewähren von Zugriff auf die Journey Orchestration](using/about/access-management.md)**<br/>Erfahren Sie, wie Sie den Zugriff Ihrer Anwender mit Produktprofilen und -rechten verwalten.
 
 ## Wichtigste Seiten
 
@@ -66,5 +66,5 @@ source-git-commit: 3b448258ef6c4a1fb6876693dac26268481bd0c4
 * [Echtzeit-Kundenprofil](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/unified_profile_architectural_overview/unified_profile_architectural_overview.md)
 * [Experience Cloud-XDM-Felddefinition](https://www.adobe.io/apis/cloudplatform/dataservices/xdm.html)
 * [Identity Namespace](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/identity_namespace_overview/identity_namespace_overview.md)
-* [Streaming-Erfassungs-APIs](https://www.adobe.io/apis/cloudplatform/dataservices/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md)
+* [Streaming-Aufnahme-APIs](https://www.adobe.io/apis/cloudplatform/dataservices/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md)
 * [Transaktionsnachrichten in Adobe Campaign Standard](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
