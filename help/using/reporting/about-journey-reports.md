@@ -72,7 +72,7 @@ Für jede Tabelle werden Zusammenfassungen und Grafiken erstellt. Die Darstellun
 
 Die folgenden KPIs stehen oben im Bericht zur Verfügung:
 
-* **[!UICONTROL Journey - Eingestiegen]**: Gesamtzahl der Kontakte, die das Einstiegsereignis der Journey erreicht haben.
+* **[!UICONTROL Journey - Eingestiegen]**: Gesamtzahl der Kontakte, die das Eintrittsereignis der Journey erreicht haben.
 * **[!UICONTROL Journey - Abschlussrate]**: Gesamtzahl der Kontakte, die das Ende der Journey erreicht haben (oder der Kontakte, die keiner Bedingung entsprechen), in Bezug auf die Gesamtzahl der Kontakte, die in die Journey eingestiegen sind.
 * **[!UICONTROL Journey - Aktuell]**: Gesamtzahl der Kontakte, die sich derzeit in der Journey befinden.
 * **[!UICONTROL Journey - Fehlerrate]**: Gesamtzahl der Journeys, die nicht erfolgreich durchgeführt wurden, in Bezug auf die Zahl der ausgeführten Journeys .
@@ -83,13 +83,13 @@ Die folgenden KPIs stehen oben im Bericht zur Verfügung:
 * **[!UICONTROL Versand - Öffnungsrate]**: Gesamtzahl der geöffneten Nachrichten in Bezug auf die Zahl der zugestellten Nachrichten.
 * **[!UICONTROL Versand - Klickrate]**: Gesamtzahl der Klicks in einem Versand in Bezug auf die Zahl der zugestellten Nachrichten.
 
-Mit der Visualisierung des Journey-Flusses können Sie den Pfad Ihrer Zielprofile durch Ihre Journey Schritt für Schritt anzeigen. Diese Option ist nur verfügbar, wenn Sie eine Journey als Ziel ausgewählt haben. Sie wird automatisch generiert und kann nicht geändert werden.
+Mit der Visualisierung des Journey Flow können Sie den Pfad Ihrer Zielprofile durch Ihre Journey Schritt für Schritt anzeigen. Diese Option ist nur verfügbar, wenn Sie eine Journey als Ziel ausgewählt haben. Sie wird automatisch generiert und kann nicht geändert werden.
 
 ![](../assets/dynamic_report_journey_10.png)
 
 Die Tabelle **[!UICONTROL Journey-Zusammenfassung]** enthält die für Ihre Journey verfügbaren Daten, z. B.:
 
-* **[!UICONTROL Eingestiegen]**: Gesamtzahl der Kontakte, die das Einstiegsereignis der Journey erreicht haben.
+* **[!UICONTROL Eingestiegen]**: Gesamtzahl der Kontakte, die das Eintrittsereignis der Journey erreicht haben.
 * **[!UICONTROL Abschlussrate]**: Gesamtzahl der Kontakte, die die Flusskontrolle am Ende der Journey erreicht haben, in Bezug auf die Gesamtzahl der Kontakte, die in die Journey eingestiegen sind.
 * **[!UICONTROL Aktuell]**: Gesamtzahl der Kontakte, die sich derzeit in der Journey befinden.
 * **[!UICONTROL Fehlgeschlagen]**: Gesamtzahl der Journeys, die nicht erfolgreich ausgeführt wurden.
