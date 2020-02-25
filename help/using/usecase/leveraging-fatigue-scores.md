@@ -59,7 +59,7 @@ Führen Sie folgende Schritte aus, um den Ermüdungsgrad Ihrer Journey zu nutzen
 
    ![](../assets/journeyuc3_2.png)
 
-1. Suchen Sie mithilfe des einfachen Ausdruckseditors nach dem Feld **[!UICONTROL fatigueLevel]** (_ExperiencePlatformDataSource > JourneyAIScores > Profile >travelAI > emailScore > fatigue_), legen Sie es rechts ab und erstellen Sie folgende Bedingung: „Ermüdungsgrad ist gleich ‚Gering‘“. Bestätigen Sie die Aktion mit der Schaltfläche **[!UICONTROL OK]**.
+1. Suchen Sie mithilfe des einfachen Ausdruckseditors nach dem Feld **[!UICONTROL fatigueLevel]** (_ExperiencePlatformDataSource > JourneyAIScores > Profile > journeyAI > emailScore > fatigue_), legen Sie es rechts ab und erstellen Sie folgende Bedingung: „fatigueLevel ist gleich &quot;Gering&quot;“. Bestätigen Sie die Aktion mit der Schaltfläche **[!UICONTROL OK]**.
 
    ![](../assets/journeyuc3_3.png)
 
