@@ -36,10 +36,10 @@ Wenn Sie eine Live-Journey ändern müssen, müssen Sie eine neue Version Ihrer 
 
    ![](../assets/journeyversions3.png)
 
-Ab dem Zeitpunkt der Veröffentlichung der Journey nehmen Kontakte an der neuen Version der Journey teil. Personen, die bereits an einer früheren Version teilnehmen, bleiben bis zum Ende der Journey darin. Wenn sie später wieder in dieselbe Journey eintreten, wechseln sie in die neueste Version.
+Ab dem Zeitpunkt der Veröffentlichung der Journey nehmen Kontakte an der neuen Version der Journey teil. Personen, die bereits an einer früheren Version teilnehmen, bleiben in ihr, bis sie die Journey beenden. Wenn sie später wieder in dieselbe Journey eintreten, wechseln sie in die neueste Version.
 
-Journey-Versionen können einzeln angehalten werden. Alle Versionen von Journeys haben denselben Namen.
+Journey-Versionen können einzeln gestoppt werden. Alle Versionen von Journeys haben denselben Namen.
 
 >[!NOTE]
 >
->Wenn Sie mehrere Live-Versionen haben und die neueste Version anhalten, greifen die Anwender nicht auf eine frühere Live-Version zurück. Es findet kein Zutritt zur Journey statt.
+>Wenn Sie mehrere Live-Versionen haben und die neueste Version stoppen, greifen die Anwender nicht auf eine frühere Live-Version zurück. Es findet kein Zutritt zur Journey statt.
