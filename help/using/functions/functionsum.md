@@ -33,7 +33,7 @@ Aggregation
 * listInteger
 * listDecimal
 * duration
-* Ganzzahl
+* integer
 * decimal
 
 ## Signaturen und zurückgegebene Typen
