@@ -61,9 +61,9 @@ Ein Standardwert kann mit einem Feldnamen verknüpft werden. Die Syntax sieht fo
 >
 >Der Feldtyp und der Standardwert müssen übereinstimmen. Beispiel: @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} ist ungültig, da der Standardwert eine Ganzzahl ist, während der erwartete Wert eine Zeichenfolge ist.
 
-**Verweis auf ein Feld in Kollektionen**
+**Verweis auf ein Feld in Sammlungen**
 
-Die in Kollektionen definierten Elemente werden mit den speziellen Funktionen (alle, zuerst und zuletzt) referenziert. Lesen Sie für weiterführende Informationen den Abschnitt [](../expression/collection-management-functions.md).
+Die in Sammlungen definierten Elemente werden mit den speziellen Funktionen (alle, zuerst und zuletzt) referenziert. Lesen Sie für weiterführende Informationen den Abschnitt [](../expression/collection-management-functions.md).
 
 Beispiel:
 
@@ -78,7 +78,7 @@ Um ein Element in einer Zuordnung abzurufen, nutzen wir die Eingabefunktion mit 
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-In diesem Ausdruck erhalten wir den Eintrag für den Schlüssel „E-Mail“ des Felds „IdentityMap“ eines Ereignisses. Der Eintrag „E-Mail“ ist eine Kollektion, aus der wir mithilfe von „first()“ die „ID“ im ersten Element verwenden. Lesen Sie für weiterführende Informationen den Abschnitt [](../expression/collection-management-functions.md).
+In diesem Ausdruck erhalten wir den Eintrag für den Schlüssel „E-Mail“ des Felds „IdentityMap“ eines Ereignisses. Der Eintrag „E-Mail“ ist eine Sammlung, aus der wir mithilfe von „first()“ die „ID“ im ersten Element verwenden. Lesen Sie für weiterführende Informationen den Abschnitt [](../expression/collection-management-functions.md).
 
 **Parameterwerte einer Datenquelle (von Datenquelle abhängige Werte)**
 
