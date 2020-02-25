@@ -18,7 +18,7 @@ source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
 
 # Informationen zur Konfiguration einer benutzerdefinierten Aktion {#concept_sxy_bzs_dgb}
 
-Wenn Sie zum Senden von Nachrichten ein Drittanbietersystem verwenden oder möchten, dass die Orchestrierung der Customer Journey API-Aufrufe an ein Drittanbietersystem sendet, konfigurieren Sie hier die Verbindung zur Orchestrierung der Customer Journey. Die von technischen Anwendern definierte Aktion steht dann in der linken Palette Ihrer Journey in der Kategorie **[!UICONTROL Aktion]** zur Verfügung (siehe [](../building-journeys/about-action-activities.md)). Im Folgenden finden Sie Beispiele für Systeme, mit denen Sie über benutzerdefinierte Aktionen eine Verbindung herstellen können: Epsilon, Facebook, Adobe.io, Firebase usw.
+Wenn Sie zum Senden von Nachrichten ein Drittanbietersystem verwenden oder möchten, dass Journey Orchestration API-Aufrufe an ein Drittanbietersystem sendet, konfigurieren Sie hier die Verbindung zu Journey Orchestration. Die von technischen Anwendern definierte Aktion steht dann in der linken Palette Ihrer Journey in der Kategorie **[!UICONTROL Aktion]** zur Verfügung (siehe [](../building-journeys/about-action-activities.md)). Im Folgenden finden Sie Beispiele für Systeme, mit denen Sie über benutzerdefinierte Aktionen eine Verbindung herstellen können: Epsilon, Facebook, Adobe.io, Firebase usw.
 Einschränkungen sind hier aufgeführt: [](../action/custom-action-limitations.md).
 
 Im Folgenden werden die wichtigsten Schritte beschrieben, die zum Konfigurieren einer benutzerdefinierten Aktion ausgeführt werden müssen:
