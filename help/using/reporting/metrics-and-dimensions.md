@@ -1,6 +1,6 @@
 ---
 title: Metriken und Dimensionen
-description: Erfahren Sie mehr über Dimensionen und Metriken, die bei der Orchestrierung der Customer Journey verfügbar sind.
+description: Erfahren Sie mehr über Dimensionen und Metriken, die bei Journey Orchestration verfügbar sind.
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -39,7 +39,7 @@ In der Tabelle unten finden Sie eine Liste der Dimensionen, die in Journey-Beric
 | **[!UICONTROL Ereignis]** | Liste aller Ereignisse (**Ereignisname - Ereignisbezeichnung**), die in Journeys zum Einsatz kommen (z. B. Geometrixx-Ereignis - Geometrixx-Checkout). |
 | **Feldergruppe** | Liste der Feldergruppen (**Feldergruppenname**), die in Journeys zur Datenanreicherung verwendet werden (z. B. Profilfeldgruppe, Geometrixx-Reservierungssystem). |
 | **Journey** | Liste aller Journeys (**Journey-Name**), die im Testmodus und live sind (z. B. Transaktionsabbruch, Benachrichtigung zu Hotelreservierung). |
-| **Journey-Version** | Liste aller publizierten Journey-Versionen (**Journey-Name + Nummer der Version**), z. B. Transaktionsabbruch v1, Benachrichtigung zu Hotelreservierung v2. |
+| **Journey-Version** | Liste aller veröffentlichten Journey-Versionen (**Journey-Name + Nummer der Version**), z. B. Transaktionsabbruch v1, Benachrichtigung zu Hotelreservierung v2. |
 | **Orchestrierung** | Liste aller Orchestrierungsaktivitäten (**Bedingung, Ende, Warten**), die definiert sind und in Journeys verwendet werden. |
 
 ## Versanddimensionen {#delivery-dimensions}
