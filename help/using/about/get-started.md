@@ -1,6 +1,6 @@
 ---
 title: Erste Schritte
-description: Erste Schritte mit der Orchestrierung der Customer Journey
+description: Erste Schritte mit Journey Orchestration
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -16,9 +16,9 @@ source-git-commit: fed6fd8d8ee497ec47727f7297dc72f319fabe27
 
 # Erste Schritte{#concept_y4b_4qt_52b}
 
-Bei der Orchestrierung der Customer Journey gibt es zwei Arten von Benutzern, die jeweils eigene Aufgaben erledigen: den **technischen Anwender** und den **Business-Anwender**. Der Benutzerzugriff wird mithilfe von Produktprofilen und Berechtigungen verwaltet. Informationen zum Konfigurieren des Benutzerzugriffs finden Sie unter [](../about/access-management.md).
+Bei Journey Orchestration gibt es zwei Arten von Benutzern, die jeweils eigene Aufgaben erledigen: den **technischen Anwender** und den **Business-Anwender**. Der Benutzerzugriff wird mithilfe von Produktprofilen und Berechtigungen verwaltet. Informationen zum Konfigurieren des Benutzerzugriffs finden Sie unter [](../about/access-management.md).
 
-Im Folgenden finden Sie die wichtigsten Schritte zum Konfigurieren und Verwenden der Orchestrierung der Customer Journey:
+Im Folgenden finden Sie die wichtigsten Schritte zum Konfigurieren und Verwenden von Journey Orchestration:
 
 1. **Ereignis konfigurieren**
 
@@ -38,7 +38,7 @@ Im Folgenden finden Sie die wichtigsten Schritte zum Konfigurieren und Verwenden
 
 1. **Konfigurieren einer Aktion**
 
-   Wenn Sie zum Versand Ihrer Nachrichten ein Drittanbietersystem verwenden möchten, müssen Sie dessen Verbindung zur Orchestrierung der Customer Journey konfigurieren. Siehe [](../action/about-custom-action-configuration.md).
+   Wenn Sie zum Versand Ihrer Nachrichten ein Drittanbietersystem verwenden möchten, müssen Sie dessen Verbindung zu Journey Orchestration konfigurieren. Siehe [](../action/about-custom-action-configuration.md).
 
    Wenn Sie Adobe Campaign Standard zum Senden von Nachrichten verwenden möchten, müssen Sie die integrierte Aktion konfigurieren. Siehe [](../action/working-with-adobe-campaign.md).
 
