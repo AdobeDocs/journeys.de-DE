@@ -20,7 +20,7 @@ source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
 
 Mit den Transaktionsnachrichten von Adobe Campaign Standard können Sie E-Mails, Push-Benachrichtigungen und SMS senden.
 
-Für die Orchestrierung der Customer Journey steht eine vordefinierte Aktion zur Verfügung, die die Verbindung mit Adobe Campaign Standard ermöglicht. Im Folgenden werden die Konfigurationsschritte beschrieben:
+Für Journey Orchestration steht eine vordefinierte Aktion zur Verfügung, die die Verbindung mit Adobe Campaign Standard ermöglicht. Im Folgenden werden die Konfigurationsschritte beschrieben:
 
 1. Klicken Sie in der Liste **[!UICONTROL Aktionen]** auf die integrierte Aktion **[!UICONTROL AdobeCampaignStandard]**. Der Bereich für die Konfiguration der Aktion wird auf der rechten Seite des Bildschirms geöffnet.
 
