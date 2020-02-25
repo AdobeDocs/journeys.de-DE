@@ -38,15 +38,15 @@ In der Admin Console können Sie Ihren Benutzern eines der folgenden vordefinier
    * Journeys verwalten und ausführen
    * Berichte verwalten
 
-Sie können [hier](../assets/do-not-localize/acs_rights_journeys.pdf) die Kompatibilität zwischen Berechtigungen und den verschiedenen Funktionen bei der Orchestrierung der Customer Journey ermitteln.
+Sie können [hier](../assets/do-not-localize/acs_rights_journeys.pdf) die Kompatibilität zwischen Berechtigungen und den verschiedenen Funktionen bei Journey Orchestration ermitteln.
 
 ## Zuweisen eines Produktprofils {#assigning-product-profile}
 
 Produktprofile werden in der Admin Console verwaltet. Weiterführende Informationen dazu finden Sie in der [Dokumentation zur Admin Console](https://helpx.adobe.com/de/enterprise/managing/user-guide.html).
 
-So weisen Sie einem Benutzer ein Produktprofil für den Zugriff auf die Orchestrierung der Customer Journey zu:
+So weisen Sie einem Benutzer ein Produktprofil für den Zugriff auf Journey Orchestration zu:
 
-1. Wählen Sie in der Admin Console die Option **[!UICONTROL Orchestrierung der Customer Journey]**.
+1. Wählen Sie in der Admin Console die Option **[!UICONTROL Journey Orchestration]**.
 
    ![](../assets/user_management.png)
 
@@ -64,4 +64,4 @@ So weisen Sie einem Benutzer ein Produktprofil für den Zugriff auf die Orchestr
 
    ![](../assets/user_management_4.png)
 
-Ihr Benutzer sollte dann eine E-Mail mit Umleitung zur Instanz der Orchestrierung der Customer Journey erhalten.
+Ihr Benutzer sollte dann eine E-Mail mit Umleitung zur Instanz von Journey Orchestration erhalten.
