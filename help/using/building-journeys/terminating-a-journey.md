@@ -1,6 +1,6 @@
 ---
-title: Einstellen einer Journey
-description: Erfahren Sie, wie Sie eine Journey einstellen
+title: Abbrechen einer Journey
+description: Erfahren Sie, wie Sie eine Journey abbrechen
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -16,50 +16,50 @@ source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
 ---
 
 
-# Einstellen einer Journey
+# Abbrechen einer Journey
 
-Mit den Optionen **[!UICONTROL Anhalten]** und **[!UICONTROL Abschließen]** können Sie **live geschaltete** Journeys einstellen. Das Einstellen einer Journey bedeutet, **dass die Ankunft neuer Kunden in der Journey blockiert wird** und dass die Kunden, die bereits an der Journey teilnehmen, diese bis zum Ende durchführen können. Dies ist die empfohlene Art und Weise, eine Journey zu beenden, da sie für die Kunden das beste Erlebnis bietet. Das Anhalten einer Journey bedeutet, dass Personen, die bereits an der Journey teilnehmen, in ihrem Fortschritt angehalten werden. Die Journey ist im Grunde abgeschaltet.
+Um eine **aktive** Journey abzubrechen, stehen Ihnen die Optionen **[!UICONTROL Stoppen]** und **[!UICONTROL Beenden]** zur Verfügung. Wenn Sie eine Journey beenden, wird **der Einstieg neuer Kunden in die Journey blockiert** und die bereits in der Journey befindlichen Kunden können diese bis zum Ende durchlaufen. Dies ist die empfohlene Art, eine Journey zu beenden, da sie für die Kunden das beste Erlebnis bietet. Wenn Sie hingegen eine Journey stoppen, wird die Reise der bereits in der Journey befindlichen Personen abgebrochen. Die Journey wird praktisch deaktiviert.
 
 >[!NOTE]
 >
->Beachten Sie, dass Sie eine abgeschlossene oder angehaltene Journey nicht fortsetzen können.
+>Beachten Sie, dass Sie eine beendete oder gestoppte Journey nicht fortsetzen können.
 
-## Abschließen einer Journey
+## Beenden einer Journey
 
-Sie können eine Journey manuell abschließen, um sicherzustellen, dass Kunden, die bereits an der Journey teilnehmen, ihren Pfad zwar abschließen können, neue Anwender jedoch nicht auf die Journey zugreifen können.
+Sie können eine Journey manuell beenden. In diesem Fall können sich Kunden, die sich bereits in der Journey befinden, ihren Pfad bis zum Ende verfolgen, neue Anwender können jedoch nicht in die Journey eintreten.
 
-Eine abgeschlossene Journey-Version kann nicht neu gestartet oder gelöscht werden. Sie können eine neue Version davon erstellen oder sie duplizieren.
+Eine beendete Journey-Version kann weder neu gestartet noch gelöscht werden. Stattdessen können Sie eine neue Version davon erstellen oder sie duplizieren.
 
-Sie können eine Journey anhalten, indem Sie auf **[!UICONTROL Abschließen]** klicken, während Sie mit der Maus in der Liste der Journeys auf eine Journey zeigen.
+Wenn Sie eine Journey stoppen möchten, klicken Sie auf **[!UICONTROL Beenden]**, während Sie die Maus über die jeweilige Journey in der Liste der Journeys bewegen.
 
 ![](../assets/do-not-localize/journey-finish-quick-action.png)
 
-Außerdem haben Sie folgende Möglichkeiten:
+Alternativ können Sie auch folgendermaßen vorgehen:
 
-1. Klicken Sie auf der **[!UICONTROL Startseite]** auf die Journey, die Sie abschließen möchten.
+1. Klicken Sie auf der **[!UICONTROL Startseite]** auf die Journey, die Sie beenden möchten.
 1. Klicken Sie oben rechts auf den Abwärtspfeil.
 
    ![](../assets/finish_drop_down_list.png)
 
-1. Klicken Sie auf **[!UICONTROL Abschließen]**. Ein Dialogfeld wird angezeigt.
-1. Klicken Sie zur Bestätigung auf **[!UICONTROL Abschließen]**.
+1. Klicken Sie auf **[!UICONTROL Beenden]**. Ein Dialogfeld wird angezeigt.
+1. Klicken Sie zur Bestätigung auf **[!UICONTROL Beenden]**.
 
-## Anhalten einer Journey
+## Stoppen einer Journey
 
-Sie können eine Journey anhalten, wenn ein Notfall aufgetreten ist und die Verarbeitung in der Journey sofort beendet werden muss.
+Sie können eine Journey stoppen, wenn ein unerwartetes Ereignis eintritt und die gesamte Verarbeitung der Journey unverzüglich abgebrochen werden muss.
 
-Eine angehaltene Journey-Version kann nicht neu gestartet werden.
+Eine gestoppte Journey-Version kann nicht nochmals gestartet werden.
 
-Sie können eine Journey anhalten, wenn ein Notfall eintritt (z. B. wenn ein Marketing-Experte erkennt, dass die Journey auf die falsche Audience ausgerichtet ist, oder wenn eine benutzerdefinierte Aktion, mit der Nachrichten gesendet werden sollen, nicht richtig funktioniert usw.), indem Sie auf **[!UICONTROL Anhalten]** klicken, während Sie mit der Maus in der Liste der Journeys auf eine Journey zeigen.
+Ein unerwartetes Ereignis tritt z. B. ein, wenn ein Marketing-Experte erkennt, dass die Journey auf die falsche Audience ausgerichtet ist, oder wenn eine benutzerdefinierte Aktion, mit der Nachrichten gesendet werden sollen, nicht richtig funktioniert. Wenn Sie eine Journey stoppen möchten, klicken Sie auf **[!UICONTROL Stoppen]**, während Sie die Maus über die jeweilige Journey in der Liste der Journeys bewegen.
 
 ![](../assets/do-not-localize/journey-stop-quick-action.png)
 
-Außerdem haben Sie folgende Möglichkeiten:
+Alternativ können Sie auch folgendermaßen vorgehen:
 
-1. Klicken Sie auf der **[!UICONTROL Startseite]** auf die Journey, die Sie anhalten möchten.
+1. Klicken Sie auf der **[!UICONTROL Startseite]** auf die Journey, die Sie stoppen möchten.
 1. Klicken Sie oben rechts auf den Abwärtspfeil.
 
 ![](../assets/finish_drop_down_list.png)
 
-1. Klicken Sie auf **[!UICONTROL Anhalten]**. Ein Dialogfeld wird angezeigt.
-1. Klicken Sie zur Bestätigung auf **[!UICONTROL Anhalten]**.
+1. Klicken Sie auf **[!UICONTROL Stoppen]**. Ein Dialogfeld wird angezeigt.
+1. Klicken Sie zur Bestätigung auf **[!UICONTROL Stoppen]**.
