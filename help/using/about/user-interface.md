@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 3efe73dbfee331e2cc42ec737f0258f482171998
+source-git-commit: 891216a489b79fe4b168ecdb6120f5d9f3e107d0
 
 ---
 
@@ -73,18 +73,15 @@ In den verschiedenen Listen können Sie grundlegende Aktionen für einzelne Elem
 
 ![](../assets/journey4.png)
 
-## XDM-Feldnamen werden angezeigt{#friendly-names-display}
+## Durchsuchen von Datenplattformfeldern {#friendly-names-display}
 
-XDM-Feldnamen werden in Schemata unter Feldnamen und Anzeigenamen definiert, wenn [Ereignisnutzdaten](../event/defining-the-payload-fields.md), [Feldgruppen-Nutzlast](../datasource/field-groups.md) und Felder im [Ausdruckseditor](../expression/expressionadvanced.md)definiert werden.
-Bei der Auswahl eines Felds wird der technische Name des Feldes sowie ein benutzerfreundlicherer Name des Feldes angezeigt.
+Beim Definieren der [Ereignisnutzlast](../event/defining-the-payload-fields.md), der [Feldgruppen-Nutzlast](../datasource/field-groups.md) und der Auswahl von Feldern im [Ausdruckseditor](../expression/expressionadvanced.md)wird der Anzeigename zusätzlich zum Feldnamen angezeigt. Diese Informationen werden aus der Schemadefinition im Erlebnisdatenmodell abgerufen.
 
-Sie können beim Einrichten von Schemata Deskriptoren wie &quot;xdm:alternativeDisplayInfo&quot;angeben, um Anzeigenamen zu definieren, die Anzeigenamen ersetzen. Sie können auch die Werte &quot;title&quot;und &quot;description&quot;der Schemafelder ändern.
-
-Wenn ein benutzerfreundlicher Name verfügbar ist, wird das Feld wie `<friendly-name>(<name>)`. Ist kein Anzeigename verfügbar, wird der Anzeigename angezeigt, z. B. `<display-name>(<name>)`. Wenn keiner von ihnen definiert ist, wird nur der technische Name des Felds angezeigt `<name>`.
-
-Sie können Anzeigenamendeskriptoren über einen API-Aufruf konfigurieren. Weitere Informationen finden Sie im Entwicklerhandbuch für die [Schemabegistrierung](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md).
+Wenn beim Einrichten von Schemata Deskriptoren wie &quot;xdm:alternativeDisplayInfo&quot;angegeben werden, ersetzen die benutzerfreundlichen Namen die Anzeigenamen. Dies ist besonders beim Arbeiten mit &quot;eVars&quot;und generischen Feldern nützlich. Sie können Anzeigenamendeskriptoren über einen API-Aufruf konfigurieren. Weitere Informationen finden Sie im Entwicklerhandbuch für die [Schemabegistrierung](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md).
 
 ![](../assets/xdm-from-descriptors.png)
+
+Wenn ein benutzerfreundlicher Name verfügbar ist, wird das Feld wie `<friendly-name>(<name>)`. Ist kein Anzeigename verfügbar, wird der Anzeigename angezeigt, z. B. `<display-name>(<name>)`. Wenn keiner von ihnen definiert ist, wird nur der technische Name des Felds angezeigt `<name>`.
 
 >[!NOTE]
 >
