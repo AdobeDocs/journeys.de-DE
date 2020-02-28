@@ -8,8 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: ht
-source-git-commit: fed6fd8d8ee497ec47727f7297dc72f319fabe27
+translation-type: tm+mt
+source-git-commit: 891216a489b79fe4b168ecdb6120f5d9f3e107d0
 
 ---
 
@@ -22,7 +22,7 @@ Dies ist ein in Experience Platform integrierter Anwendungs-Service.
 
 ![](../assets/journeydiagram.png)
 
-Journey Orchestration bietet die Möglichkeit, Kontextdaten in Echtzeit zu orchestrieren, die aus Ereignissen, Informationen von Adobe Experience Platform oder aus API-Diensten von Drittanbietern stammen. Wenn Sie für den Nachrichtenversand ein Drittanbietersystem verwenden, können Sie eine benutzerdefinierte Aktion einrichten. Falls Sie Adobe Campaign Standard verwenden, können Sie E-Mails, Push-Benachrichtigungen und SMS mit den nativen [Funktionen für Transaktionsnachrichten](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) versenden.
+Journey Orchestration bietet die Möglichkeit, Kontextdaten in Echtzeit zu orchestrieren, die aus Ereignissen, Informationen von Adobe Experience Platform oder aus API-Diensten von Drittanbietern stammen. Wenn Sie für den Nachrichtenversand ein Drittanbietersystem verwenden, können Sie eine benutzerdefinierte Aktion einrichten. Falls Sie Adobe Campaign Standard verwenden, können Sie E-Mails, Push-Benachrichtigungen und SMS mit den nativen [Funktionen für Transaktionsnachrichten](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) versenden.
 
 Zu diesem Zweck muss ein **technischer Anwender** im Tab „Ereigniskonfiguration“ Ereignisse für die Journeys konfigurieren. Die eingehenden Ereignisdaten werden mit dem Experience-Datenmodell (XDM) von Adobe normalisiert. Die Ereignisse stammen von Streaming-Aufnahme-APIs für authentifizierte und nicht authentifizierte Ereignisse (z. B. Adobe Mobile SDK-Ereignisse).
 
@@ -48,4 +48,3 @@ Da Journey Orchestration mehrere Schritte umfasst, lassen sich erweiterte Szenar
 >[!NOTE]
 >
 >Die vorliegende Dokumentation wird entsprechend den Produktänderungen regelmäßig aktualisiert. Manche Screenshots können jedoch geringfügig von der Benutzeroberfläche des Produkts abweichen.
-
