@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
+source-git-commit: 25715e66b5495347e0c5ee2b1d75d44aa9cd3125
 
 ---
 
@@ -20,11 +20,15 @@ In diesem Abschnitt erfahren Sie, wie Sie Probleme bei Journeys vor dem Testen o
 
 ## Fehlersuche vor dem Testen{#section_h3q_kqk_fhb}
 
-Überprüfen Sie vor dem Testen und Publizieren Ihrer Journey, ob alle Aktivitäten ordnungsgemäß konfiguriert sind. Es können keine Tests oder Veröffentlichungen vorgenommen werden, solange das System noch Fehler findet.
+Überprüfen Sie vor dem Testen und Veröffentlichen Ihrer Journey, ob alle Aktivitäten ordnungsgemäß konfiguriert sind. Es können keine Tests oder Veröffentlichungen vorgenommen werden, solange das System noch Fehler findet.
 
 Fehler werden in der Arbeitsfläche mit einem Warnsymbol auf den Aktivitäten selbst angezeigt. Platzieren Sie den Cursor auf dem Ausrufezeichen, um die entsprechende Fehlermeldung anzuzeigen. Wenn Sie auf die Aktivität klicken, sollte die fehlerhafte Zeile mit einer Warnung angezeigt werden. Beispielsweise wird ein Fehler angezeigt, wenn ein Pflichtfeld leer ist.
 
 ![](../assets/journey63.png)
+
+Wenn in der Arbeitsfläche beispielsweise zwei Aktivitäten getrennt sind, wird eine Warnung angezeigt.
+
+![](../assets/canvas-disconnected.png)
 
 Next to the **[!UICONTROL Test]** toggle and the **[!UICONTROL Publish]** button, a warning sign can be displayed. Dieses Warnzeichen weist auf Fehler hin, die vom System erkannt wurden, und verhindert die Aktivierung des Testmodus oder die Veröffentlichung der Journey. In den meisten Fällen sind vom System erkannte Fehler mit Fehlern verbunden, die in den Aktivitäten sichtbar sind, gelegentlich aber auch mit anderen Problemen. In diesem Fall können Sie sie anzeigen und versuchen, das Problem anhand der Fehlerbeschreibung zu ermitteln. Gelingt es Ihnen nicht, das Problem zu identifizieren, können Sie die Details kopieren und an den Administrator oder den Support senden. Beachten Sie, dass Fehler, die den Test blockieren, und Fehler, die die Veröffentlichung blockieren, ähnlich sind.
 
@@ -42,11 +46,11 @@ Der Ausgangspunkt einer Journey ist stets ein Ereignis. Sie können mithilfe von
 
 Sie können prüfen, ob der API-Aufruf, den Sie über diese Tools versenden, richtig gesendet wurde oder nicht. Wenn Sie einen Fehler erhalten, bedeutet das, dass es bei Ihrem Aufruf zu einem Fehler kommt. Überprüfen Sie erneut die Payload, die Kopfzeile (insbesondere die Organisations-ID) sowie die Ziel-URL. Sie können Ihren Administrator nach der richtigen URL fragen.
 
-Ereignisse werden von der Quelle nicht direkt an die Orchestrierung der Customer Journey weitergeleitet. Zur Orchestrierung der Customer Journey werden Streaming-Erfassungs-APIs von Experience Platform benötigt. Darum können Sie bei Problemen mit Ereignissen auf dieser [Seite](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/streaming_ingestion_FAQ.md) die Fehlerbehebung für Streaming-Erfassungs-APIs aufrufen.
+Ereignisse werden von der Quelle nicht direkt an Journey Orchestration weitergeleitet. Zu Journey Orchestration werden Streaming-Aufnahme-APIs von Experience Platform benötigt. Darum können Sie bei Problemen mit Ereignissen auf dieser [Seite](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/streaming_ingestion_FAQ.md) die Fehlerbehebung für Streaming-Aufnahme-APIs aufrufen.
 
 ## Überprüfen, ob Personen in die Journey einsteigen{#section_x4v_zzs_dgb}
 
-Berichte zur Orchestrierung der Customer Journey messen den Einstieg von Personen in eine Journey auf Echtzeitbasis.
+Berichte zu Journey Orchestration messen den Einstieg von Personen in eine Journey auf Echtzeitbasis.
 
 Wenn Sie das Ereignis erfolgreich versenden, aber keinen Einstieg in die Journey erkennen können, bedeutet das, dass es zwischen dem Senden und Empfangen des Ereignisses in der Journey zu Problemen kommt.
 
@@ -56,7 +60,7 @@ Im Folgenden sind einige Faktoren aufgeführt, die der Administrator überprüfe
 * Haben Sie das Ereignis gespeichert, bevor Sie die Payload aus der Payload-Vorschau kopiert haben?
 * Enthält die Payload des Ereignisses eine Ereignis-ID?
 * Haben Sie die richtige URL aufgerufen?
-* Haben Sie die Payload-Struktur der Streaming-Erfassungs-APIs mithilfe der Payload-Strukturvorschau im Ereigniskonfigurationsbereich beachtet? Siehe [](../event/previewing-the-payload.md).
+* Haben Sie die Payload-Struktur der Streaming-Aufnahme-APIs mithilfe der Payload-Strukturvorschau im Ereigniskonfigurationsbereich beachtet? Siehe [](../event/previewing-the-payload.md).
 * Haben Sie in der Kopfzeile die richtigen Schlüssel/Wert-Paare Ihres Ereignisses verwendet?
 
    ```
@@ -66,7 +70,7 @@ Im Folgenden sind einige Faktoren aufgeführt, die der Administrator überprüfe
 
 ## Überprüfen, wie Personen durch die Journey navigieren{#section_l5y_yzs_dgb}
 
-Berichte zur Orchestrierung der Customer Journey messen den Fortschritt von Personen innerhalb einer Journey. So können Sie leicht ermitteln, wo und warum eine Person ausgestiegen ist.
+Berichte zu Journey Orchestration messen den Fortschritt von Personen innerhalb einer Journey. So können Sie leicht ermitteln, wo und warum eine Person gestoppt wurde.
 
 Prüfen Sie folgende Punkte:
 
