@@ -10,8 +10,8 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+translation-type: tm+mt
+source-git-commit: d5c013ed6031e8138a8e2c099fc28af82966d3ec
 
 ---
 
@@ -29,13 +29,13 @@ Pro Journey ist nur ein Namespace zulässig. Wenn Sie das erste Ereignis ablegen
 
 Hier finden Sie die wichtigsten Schritte für das Erstellen und Veröffentlichen einer Journey.
 
-1. Klicken Sie oben im Menü auf den Tab **[!UICONTROL Startseite]**.
+1. In the top menu, click the **[!UICONTROL Home]** tab.
 
    Die Liste der Journeys wird angezeigt. Weitere Informationen zur Benutzeroberfläche finden Sie unter [](../building-journeys/using-the-journey-designer.md).
 
    ![](../assets/journey30.png)
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**, um eine neue Journey zu erstellen.
+1. Click **[!UICONTROL Create]** to create a new journey.
 
    ![](../assets/journey31.png)
 
@@ -44,7 +44,6 @@ Hier finden Sie die wichtigsten Schritte für das Erstellen und Veröffentlichen
    ![](../assets/journey32.png)
 
 1. Ziehen Sie zuerst eine Ereignisaktivität aus der Palette in die Arbeitsfläche. Sie können auch auf eine Aktivität doppelklicken, um sie der Arbeitsfläche hinzuzufügen.
-
 
    ![](../assets/journey33.png)
 
@@ -56,7 +55,7 @@ Hier finden Sie die wichtigsten Schritte für das Erstellen und Veröffentlichen
 
    ![](../assets/journey36.png)
 
-## Beenden einer Journey{#ending_a_journey}
+## Beenden einer Journey {#ending_a_journey}
 
 Es gibt zwei Möglichkeiten, eine Journey zu beenden:
 
@@ -64,4 +63,3 @@ Es gibt zwei Möglichkeiten, eine Journey zu beenden:
 * Die Person kommt bei einer Bedingungsaktivität (oder einer Warteaktivität mit einer Bedingung) an und erfüllt keine der Bedingungen.
 
 Die Person kann dann wieder in die Journey eintreten, wenn der erneute Zutritt erlaubt ist. Siehe [](../building-journeys/changing-properties.md).
-
