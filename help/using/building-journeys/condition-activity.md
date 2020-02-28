@@ -10,8 +10,8 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4871550d1608f4ffdee3b56d38b08f808eb2281c
+translation-type: tm+mt
+source-git-commit: 538b350165365479caef499a74346381643033d5
 
 ---
 
@@ -29,7 +29,7 @@ Es stehen vier Bedingungstypen zur Verfügung:
 
 ## Informationen zu Bedingungsaktivitäten {#about_condition}
 
-Klicken Sie auf **[!UICONTROL Pfad hinzufügen]**, wenn Sie mehrere Bedingungen definieren möchten. Für jede Bedingung wird der Arbeitsfläche nach der Aktivität ein neuer Pfad hinzugefügt.
+Klicken Sie auf **[!UICONTROL Add a path]** , wenn Sie mehrere Bedingungen definieren möchten. Für jede Bedingung wird der Arbeitsfläche nach der Aktivität ein neuer Pfad hinzugefügt.
 
 ![](../assets/journey47.png)
 
@@ -37,7 +37,7 @@ Beachten Sie, dass die Gestaltung der Journeys funktionelle Auswirkungen hat. We
 
 ![](../assets/journey48.png)
 
-Sie können einen anderen Pfad für Audiences erstellen, für die die definierten Bedingungen nicht gelten, indem Sie die Option **[!UICONTROL Pfad für andere Fälle als die obigen zeigen]** aktivieren. Beachten Sie, dass diese Option in Bedingungen für die Aufspaltung nicht verfügbar ist. Siehe [Prozentuale Aufspaltung](#percentage_split).
+Sie können einen anderen Pfad für Zielgruppen erstellen, die nicht zu den definierten Bedingungen berechtigt sind, indem Sie die Option aktivieren **[!UICONTROL Show path for other cases than the one(s) above]**. Beachten Sie, dass diese Option in Bedingungen für die Aufspaltung nicht verfügbar ist. Siehe [Prozentuale Aufspaltung](#percentage_split).
 
 Im einfachen Modus können Sie einfache Abfragen anhand einer Kombination von Feldern durchführen. Alle verfügbaren Felder werden auf der linken Seite des Bildschirms angezeigt. Ziehen Sie Felder per Drag-and-Drop in den Hauptbereich. Um die verschiedenen Elemente zu kombinieren, verschachteln Sie diese, um Gruppen und/oder Gruppenebenen zu erstellen. Definieren Sie dann einen logischen Operator zwischen Elementen desselben Niveaus:
 
@@ -58,7 +58,11 @@ Auf diese Weise können Sie eine Bedingung basierend auf Feldern aus den Datenqu
 
 ## Bedingung für die Uhrzeit{#time_condition}
 
-Auf diese Weise können Sie je nach Tageszeit und/oder Wochentag unterschiedliche Aktionen durchführen. So können Sie beispielsweise entscheiden, an Werktagen tagsüber SMS-Nachrichten und nachts E-Mails zu versenden. Sie können eine bestimmte Zeitzone für diese Bedingung definieren. Siehe [](../building-journeys/timezone-management.md).
+Auf diese Weise können Sie je nach Tageszeit und/oder Wochentag unterschiedliche Aktionen durchführen. So können Sie beispielsweise entscheiden, an Werktagen tagsüber SMS-Nachrichten und nachts E-Mails zu versenden.
+
+>[!NOTE]
+>
+>Die Zeitzone ist nicht mehr spezifisch für eine Bedingung und wird jetzt auf der Ebene der Reise in den Reiseeigenschaften definiert. Siehe [](../building-journeys/timezone-management.md).
 
 ![](../assets/journey51.png)
 
@@ -75,6 +79,10 @@ Mit dieser Option können Sie die Audience nach dem Zufallsprinzip aufspalten, u
 
 ## Bedingung für das Datum {#date_condition}
 
-Auf diese Weise können Sie basierend auf dem Datum einen anderen Fluss definieren. Wenn die Person beispielsweise während des „Verkaufszeitraums“ den Schritt aufruft, senden Sie ihr eine bestimmte Nachricht. Den Rest des Jahres senden Sie eine andere Nachricht. Wenn Sie eine Bedingung für das Datum definieren, müssen Sie eine Zeitzone angeben. Siehe [](../building-journeys/timezone-management.md).
+Auf diese Weise können Sie basierend auf dem Datum einen anderen Fluss definieren. Wenn die Person beispielsweise während des „Verkaufszeitraums“ den Schritt aufruft, senden Sie ihr eine bestimmte Nachricht. Den Rest des Jahres senden Sie eine andere Nachricht.
+
+>[!NOTE]
+>
+>Die Zeitzone ist nicht mehr spezifisch für eine Bedingung und wird jetzt auf der Ebene der Reise in den Reiseeigenschaften definiert. Siehe [](../building-journeys/timezone-management.md).
 
 ![](../assets/journey53.png)
