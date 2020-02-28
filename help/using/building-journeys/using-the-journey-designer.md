@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
+source-git-commit: 25715e66b5495347e0c5ee2b1d75d44aa9cd3125
 
 ---
 
@@ -22,7 +22,7 @@ Im Startseitenmenü der Journey können Sie die **Liste der Journeys** anzeigen.
 
 ## Die Liste der Journeys {#journey_list}
 
-Die **Liste der Journeys** ermöglicht es Ihnen, alle Ihre Journeys gleichzeitig anzuzeigen, deren Status zu sehen und grundlegende Aktionen durchzuführen. Sie können Ihre Journeys duplizieren, anhalten oder löschen. Je nach Journey stehen bestimmte Aktionen möglicherweise nicht zur Verfügung. Sie können zum Beispiel eine angehaltene Journey nicht anhalten. Sie können auch die Suchleiste verwenden, um nach einer Journey zu suchen.
+Die **Liste der Journeys** ermöglicht es Ihnen, alle Ihre Journeys gleichzeitig anzuzeigen, deren Status zu sehen und grundlegende Aktionen durchzuführen. Sie können Ihre Journeys duplizieren, stoppen oder löschen. Je nach Journey stehen bestimmte Aktionen möglicherweise nicht zur Verfügung. Sie können beispielsweise eine abgeschlossene Reise nicht anhalten oder löschen. Sie können auch die Suchleiste verwenden, um nach einer Journey zu suchen.
 
 The **[!UICONTROL Filters]** can be accessed by clicking on the filter icon on the top left of the list. Mit dem Filtermenü können Sie die angezeigten Journeys nach verschiedenen Kriterien filtern (Status, von Ihnen erstellte, in den letzten 30 Tagen geänderte, neueste Versionen usw.). Sie können auch festlegen, dass nur die Journeys angezeigt werden, die ein bestimmtes Ereignis, eine bestimmte Feldergruppe oder eine bestimmte Aktion verwenden. Die in der Liste angezeigten Spalten können konfiguriert werden. Alle Filter und Spalten werden pro Anwender gespeichert.
 
@@ -46,6 +46,12 @@ Die **Palette** befindet sich auf der linken Bildschirmseite. All available acti
 
 ![](../assets/journey38.png)
 
+Mit dem Symbol &quot;Deaktivierte Elemente **** anzeigen&quot;in der oberen linken Ecke können Sie nicht verfügbare Elemente in der Palette ein- oder ausblenden, z. B. Ereignisse, die einen anderen Namespace verwenden als die während der Reise verwendeten. Standardmäßig werden nicht verfügbare Elemente ausgeblendet. Wenn Sie sie anzeigen möchten, erscheinen sie grau.
+
+Wenn Sie das Feld **Suchen** verwenden, wird die Anzahl der Ergebnisse für jede Aktivitätskategorie auf der Arbeitsfläche angezeigt.
+
+![](../assets/palette-filter.png)
+
 ## Die Arbeitsfläche {#canvas}
 
 Die **Arbeitsfläche** ist der zentrale Bereich im Journey-Designer. In diesem Bereich können Sie Ihre Aktivitäten ablegen und konfigurieren. Klicken Sie auf eine Aktivität auf der Arbeitsfläche, um sie zu konfigurieren. Dadurch wird der Konfigurationsbereich für die Aktivität auf der rechten Seite geöffnet. Mit den Schaltflächen „+“ und „-“ oben rechts können Sie ein- und auszoomen. In the canvas, all activities allow you to add a next step after them, except **[!UICONTROL End]** activities (see [](../building-journeys/end-activity.md)).
@@ -56,13 +62,13 @@ Die **Arbeitsfläche** ist der zentrale Bereich im Journey-Designer. In diesem B
 
 Der **Konfigurationsbereich für die Aktivität** wird angezeigt, wenn Sie auf eine Aktivität in der Palette klicken. Füllen Sie die erforderlichen Felder aus. Click on the **[!UICONTROL Delete]** icon to delete the activity. Click on **[!UICONTROL Cancel]** to cancel the modifications or **[!UICONTROL Ok]** to confirm. Um Aktivitäten zu löschen, können Sie auch eine Aktivität (oder mehrere) auswählen und die Rücktaste drücken. Durch Drücken der Esc-Taste wird der Konfigurationsbereich für die Aktivität geschlossen.
 
-Auf der Arbeitsfläche werden Ihre Aktions- und Ereignisaktivitäten durch ein Symbol mit dem Namen des Ereignisses oder der Aktion dargestellt. In the activity configuration pane, you can use the **[!UICONTROL Label]** field to add a suffix to the activity name. Diese Titel helfen Ihnen dabei, die Verwendung von Ereignissen und Aktionen in einen Zusammenhang zu stellen, insbesondere wenn Sie dasselbe Ereignis oder dieselbe Aktion mehrmals in Ihrer Journey verwenden. Sie können auch die Titel sehen, die Sie im Reporting für die Orchestrierung der Customer Journey hinzugefügt haben.
+Auf der Arbeitsfläche werden Ihre Aktions- und Ereignisaktivitäten durch ein Symbol mit dem Namen des Ereignisses oder der Aktion dargestellt. In the activity configuration pane, you can use the **[!UICONTROL Label]** field to add a suffix to the activity name. Diese Titel helfen Ihnen dabei, die Verwendung von Ereignissen und Aktionen in einen Zusammenhang zu stellen, insbesondere wenn Sie dasselbe Ereignis oder dieselbe Aktion mehrmals in Ihrer Journey verwenden. Sie können auch die Titel sehen, die Sie im Reporting für Journey Orchestration hinzugefügt haben.
 
 ![](../assets/journey59bis.png)
 
 ## Die Aktionen in der oberen Leiste {#top_actions}
 
-Depending on the journey&#39;s status, you can perform different actions on your journey using the buttons available in the top right corner: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. Diese Schaltflächen werden angezeigt, wenn keine Aktivität ausgewählt ist. Einige Schaltflächen werden kontextuell angezeigt. Die Protokollschaltfläche für den Testmodus wird angezeigt, wenn der Testmodus aktiviert ist (siehe [](../building-journeys/testing-the-journey.md)). Die Reporting-Schaltfläche wird angezeigt, wenn die Journey live, angehalten oder abgeschlossen ist.
+Depending on the journey&#39;s status, you can perform different actions on your journey using the buttons available in the top right corner: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. Diese Schaltflächen werden angezeigt, wenn keine Aktivität ausgewählt ist. Einige Schaltflächen werden kontextuell angezeigt. Die Protokollschaltfläche für den Testmodus wird angezeigt, wenn der Testmodus aktiviert ist (siehe [](../building-journeys/testing-the-journey.md)). Die Reporting-Schaltfläche wird angezeigt, wenn die Journey live, gestoppt oder beendet ist.
 
 ![](../assets/journey41.png)
 
@@ -79,3 +85,7 @@ Wir empfehlen, beim Überwachen eines Ereignisses nicht auf unbestimmte Zeit auf
 To delete the path, place your cursor on it and click the **[!UICONTROL Delete arrow]** icon.
 
 ![](../assets/journey42ter.png)
+
+Wenn auf der Arbeitsfläche zwei Aktivitäten getrennt sind, wird eine Warnung angezeigt. Platzieren Sie den Cursor auf das Warnsymbol, um die Fehlermeldung anzuzeigen. Um das Problem zu beheben, verschieben Sie einfach die nicht verbundene Aktivität und stellen Sie eine Verbindung zur vorherigen Aktivität her.
+
+![](../assets/canvas-disconnected.png)
