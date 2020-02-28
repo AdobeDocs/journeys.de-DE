@@ -3,15 +3,15 @@ keywords: Journeys;home;popular topics
 solution: Journeys
 title: Produktdokumentation für Journey Orchestration
 topic: Premium
-translation-type: ht
-source-git-commit: 3b448258ef6c4a1fb6876693dac26268481bd0c4
+translation-type: tm+mt
+source-git-commit: 39e3ad1fe9f846b63cc210c809d4cdc9594fe3f2
 
 ---
 
 
 # Hilfe {#journeys-documentation}
 
-![](using/assets/bannerjourney.png)
+![](using/assets/do-not-localize/bannerjourney.png)
 
 ## Erste Schritte
 
@@ -62,9 +62,9 @@ source-git-commit: 3b448258ef6c4a1fb6876693dac26268481bd0c4
 
 ## Zusätzliche Ressourcen
 
-* [Experience Platform](https://www.adobe.com/de/experience-platform/documentation-and-developer-resources.html)
+* [Experience Platform](https://www.adobe.com/experience-platform/documentation-and-developer-resources.html)
 * [Echtzeit-Kundenprofil](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/unified_profile_architectural_overview/unified_profile_architectural_overview.md)
 * [Experience Cloud-XDM-Felddefinition](https://www.adobe.io/apis/cloudplatform/dataservices/xdm.html)
 * [Identity Namespace](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/identity_namespace_overview/identity_namespace_overview.md)
 * [Streaming-Aufnahme-APIs](https://www.adobe.io/apis/cloudplatform/dataservices/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md)
-* [Transaktionsnachrichten in Adobe Campaign Standard](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
+* [Transaktionsnachrichten in Adobe Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
