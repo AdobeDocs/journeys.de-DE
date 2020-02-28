@@ -10,8 +10,8 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
+translation-type: tm+mt
+source-git-commit: 690f8c1732c7d54c234e9ba633a2cf014492f423
 
 ---
 
@@ -23,14 +23,12 @@ source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
 >title=&quot;Informationen zu Datenquellen&quot;
 >abstract=&quot;Die Konfiguration von Datenquellen wird immer von einem technischen Anwender durchgeführt. Mit der Datenquellenkonfiguration können Sie eine Verbindung zu einem System definieren, um zusätzliche Informationen abzurufen, die in Ihren Journeys verwendet werden. Damit können Sie Bedingungen definieren, Parameter- und Personalisierungsdaten in Aktionen verwenden sowie die Wartezeit und die Zeitzone definieren.&quot;
 
-Die Konfiguration von Datenquellen wird immer von einem **technischen Anwender** durchgeführt.
-
 Mit der Datenquellenkonfiguration können Sie eine Verbindung zu einem System definieren, um zusätzliche Informationen abzurufen, die in Ihren Journeys verwendet werden, zum Beispiel für:
 
-* Definition von Bedingungen
-* Parameter- und Personalisierungsdaten in Aktionen
-* Definition benutzerdefinierter Wartezeiten
-* Definition benutzerdefinierter Zeitzonen
+* [Definition von Bedingungen](../building-journeys/condition-activity.md)
+* parameter and personalization data in [actions](../action/action.md)
+* [Definition benutzerdefinierter Wartezeiten](../building-journeys/wait-activity.md#custom)
+* [Definition benutzerdefinierter Zeitzonen](../building-journeys/timezone-management.md)
 
 Diese Konfiguration ist nicht erforderlich, wenn Ihre Journeys nur lokale Daten aus einer Ereignis-Payload nutzen. Wenn Ihre Journey beispielsweise aus einem Ereignis und einer E-Mail-Aktivität besteht, die nur Daten aus dem Ereignis verwendet, müssen Sie keine Datenquelle konfigurieren.
 
@@ -39,11 +37,17 @@ Es gibt zwei Arten von Datenquellen:
 * Die vorkonfigurierte Datenquelle von Experience Platform, die die Verbindung zum Echtzeit-Kundenprofildienst definiert. Dies ist eine integrierte Datenquelle. Siehe [](../datasource/adobe-experience-platform-data-source.md).
 * Die externen Datenquellen, mit denen Sie eine Verbindung zu externen Systemen definieren können. Diese können Sie erstellen. Siehe [](../datasource/external-data-sources.md).
 
-Für jede Datenquelle definieren Sie die Informationen, die mit Feldergruppen abgerufen werden sollen. Siehe [](../datasource/field-groups.md).
+Für jede Datenquelle definieren Sie die Informationen, die mit Feldergruppen abgerufen werden sollen. Feldgruppen sind Gruppen von Feldern, die aus einer Datenquelle abgerufen werden können. Siehe [](../datasource/field-groups.md).
+
+Weitere Informationen zum Konfigurieren einer Experience Platform-Datenquelle und einer externen Datenquelle sowie zum Suchen und Verwenden von Daten während einer Reise finden Sie in diesem [Lernvideo](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-data-sources.html).
 
 Im Folgenden finden Sie die wichtigsten Schritte zur Konfiguration der Datenquelle:
 
-1. Klicken Sie oben im Menü auf den Tab **[!UICONTROL Datenquellen]**.
+>[!NOTE]
+>
+>Die Konfiguration von Datenquellen wird immer von einem **technischen Anwender** durchgeführt.
+
+1. In the top menu, click the **[!UICONTROL Data Sources]** tab.
 
    Die Liste der Datenquellen wird angezeigt. Weitere Informationen zur Benutzeroberfläche finden Sie unter [](../about/user-interface.md).
 
@@ -53,6 +57,6 @@ Im Folgenden finden Sie die wichtigsten Schritte zur Konfiguration der Datenquel
 
    ![](../assets/journey23.png)
 
-1. Klicken Sie auf **[!UICONTROL Speichern]**.
+1. Klicks **[!UICONTROL Save]**.
 
    Die Datenquelle ist jetzt konfiguriert und kann in Ihren Journeys verwendet werden.
