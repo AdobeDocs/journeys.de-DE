@@ -10,8 +10,8 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+translation-type: tm+mt
+source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
 
 ---
 
@@ -152,7 +152,6 @@ count(
 )._id}) > 0
 ```
 
-
 <!--**"All + Count" example 4:** here we use the count function in a boolean expression to see if there is push notification tokens in the collection.
 
 `count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().application.name}) > 0`
@@ -172,7 +171,7 @@ The result will be:
 >[!NOTE]
 >
 >**[!UICONTROL currentEventField]** ist nur verfügbar, wenn Ereignissammlungen bearbeitet werden, und **currentDataPackField**,
->wenn Datenquellensammlungen bearbeitet werden. Bei der Verarbeitung von Sammlungen mit **[!UICONTROL all]**, **[!UICONTROL first]** und **[!UICONTROL last]** wird
+>wenn Datenquellensammlungen bearbeitet werden. When processing collections with **[!UICONTROL all]**, **[!UICONTROL first]** and **[!UICONTROL last]**, we
 >jedes Element der Sammlung einzeln durchlaufen. **[!UICONTROL currentEventField]** und **currentDataPackField**
 >entsprechen dem Element, das in der Schleife verarbeitet wird.
 
