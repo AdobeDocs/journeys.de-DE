@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 73f1a503ea2c8b3494460c666a05078ed914e58b
+source-git-commit: d331454b0ad351a1967ec57d0b3f24a675f10f2a
 
 ---
 
@@ -79,7 +79,7 @@ Sie können auch den Abschnitt [Aktualisierungen der Dokumentation](../release-n
 <td>
 <p>Die <strong>Palette</strong>"Reise"auf der linken Seite des Reisedesigners wurde erweitert:</p>
 <ul>
-<li>Mit einem neuen Symbol neben der Leiste **Suche** können Sie nicht verfügbare Elemente in der Palette ein- oder ausblenden, z. B. Ereignisse, die einen anderen Namespace als die während der Reise verwendeten verwenden. Standardmäßig werden nicht verfügbare Elemente ausgeblendet.</li>
+<li>Mit einem neuen Symbol neben der <strong>Suchleiste</strong> können Sie nicht verfügbare Elemente in der Palette ein- oder ausblenden, z. B. Ereignisse, die einen anderen Namespace verwenden als die während der Reise verwendeten. Standardmäßig werden nicht verfügbare Elemente ausgeblendet.</li>
 <li>Wenn Sie das Feld <strong>Suchen</strong> verwenden, wird nun die Anzahl der Ergebnisse für jede Arbeitsflächenaktivitätskategorie angezeigt.</li>
 <li>Die Navigation zwischen den verschiedenen Aktivitätskategorien wurde verbessert.</li>
 </ul>
