@@ -10,8 +10,8 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 8be9cd1803ab2f7093934424c36fcd7407a4a20a
+translation-type: tm+mt
+source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
 
 ---
 
@@ -47,7 +47,6 @@ Es wird eine Syntaxfarbe verwendet, um die Ereignisfelder (grün) optisch von Fe
 
 Ein Standardwert kann mit einem Feldnamen verknüpft werden. Die Syntax sieht folgendermaßen aus:
 
-
 ```
 // event field
 @{<event name>.<XDM path to the field>, defaultValue: <default value expression>}
@@ -71,8 +70,9 @@ Beispiel:
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
 ```
 
-**Verweis auf ein in einer Zuordnung definiertes Feld**
-Um ein Element in einer Zuordnung abzurufen, nutzen wir die Eingabefunktion mit einem bestimmten Schlüssel. Sie wird beispielsweise beim Definieren des Schlüssels eines Ereignisses je nach ausgewähltem Namespace verwendet. Siehe „Auswählen des Namespace“. Lesen Sie für weiterführende Informationen den Abschnitt [](../event/selecting-the-namespace.md).
+**Verweis auf ein in einer Map definiertes Feld**
+
+Um ein Element in einer Zuordnung abzurufen, verwenden wir die Eintragsfunktion mit einem bestimmten Schlüssel. Sie wird beispielsweise beim Definieren des Schlüssels eines Ereignisses je nach ausgewähltem Namespace verwendet. Siehe „Auswählen des Namespace“. Lesen Sie für weiterführende Informationen den Abschnitt [](../event/selecting-the-namespace.md).
 
 ```
 @{MyEvent.identityMap.entry('Email').first().id}
