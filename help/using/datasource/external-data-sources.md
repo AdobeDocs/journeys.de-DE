@@ -10,8 +10,8 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+translation-type: tm+mt
+source-git-commit: a0db4d65218861b71d35f83ccf2d15e25a1597e8
 
 ---
 
@@ -34,7 +34,7 @@ Der Aufruf besteht aus einer Haupt-URL (_https://api.adobeweather.org/weather_),
 
 Im Folgenden werden die wichtigsten Schritte zum Erstellen und Konfigurieren einer neuen externen Datenquelle beschrieben:
 
-1. Klicken Sie in der Liste der Datenquellen auf **[!UICONTROL Hinzufügen]**, um eine neue externe Datenquelle zu erstellen.
+1. From the list of data sources, Click **[!UICONTROL Add]** to create a new external data source.
 
    ![](../assets/journey25.png)
 
@@ -57,38 +57,38 @@ Im Folgenden werden die wichtigsten Schritte zum Erstellen und Konfigurieren ein
 
    ![](../assets/journey27.png)
 
-1. Konfigurieren Sie die Authentifizierung je nach Konfiguration des externen Dienstes: **[!UICONTROL Keine Authentifizierung]**, **[!UICONTROL Einfach]**, **[!UICONTROL Benutzerdefiniert]** oder **[!UICONTROL API-Schlüssel]**. Weitere Informationen zum benutzerdefinierten Authentifizierungsmodus finden Sie unter [](../datasource/external-data-sources.md#section_wjp_nl5_nhb). In unserem Beispiel wählen wir:
+1. Konfigurieren Sie die Authentifizierung je nach Konfiguration des externen Dienstes: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** oder **[!UICONTROL API key]**. Weitere Informationen zum benutzerdefinierten Authentifizierungsmodus finden Sie unter [](../datasource/external-data-sources.md#section_wjp_nl5_nhb). In unserem Beispiel wählen wir:
 
 
-   * **[!UICONTROL Typ]**: „API-Schlüssel“
-   * **[!UICONTROL Wert]**: „1234“ (dies ist der Wert unseres API-Schlüssels)
+   * **[!UICONTROL Type]**: &quot;API-Schlüssel&quot;
+   * **[!UICONTROL Value]**: &quot;1234&quot;(dies ist der Wert unseres API-Schlüssels)
    * **[!UICONTROL Name]**: „appid“ (dies ist der Name des API-Schlüsselparameters)
-   * **[!UICONTROL Position]**: „Abfrageparameter“ (der API-Schlüssel befindet sich in der URL)
+   * **[!UICONTROL Location]**: &quot;Abfrageparameter&quot;(der API-Schlüssel befindet sich in der URL)
    ![](../assets/journey28.png)
 
-1. Fügen Sie für jeden API-Parametersatz eine neue Feldergruppe hinzu, indem Sie auf **[!UICONTROL Neue Feldergruppe hinzufügen]** klicken. Verwenden Sie keine Leerzeichen oder Sonderzeichen im Namen der Feldergruppe. In unserem Beispiel müssen wir zwei Feldergruppen erstellen, eine für jeden Parametersatz („city“ und „lang/lat“).
+1. Fügen Sie für jeden API-Parametersatz eine neue Feldgruppe hinzu, indem Sie auf **[!UICONTROL Add a New Field Group]**. Verwenden Sie keine Leerzeichen oder Sonderzeichen im Namen der Feldergruppe. In unserem Beispiel müssen wir zwei Feldergruppen erstellen, eine für jeden Parametersatz („city“ und „lang/lat“).
 
 Für den Parametersatz „long/lat“ erstellen wir eine Feldergruppe mit den folgenden Informationen:
 
-* **[!UICONTROL Verwendet in]**: zeigt die Anzahl der Journeys an, die eine Feldergruppe verwenden. Sie können auf **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der Journeys mit dieser Feldergruppe anzuzeigen.
-* **[!UICONTROL Methode]**: Wählen Sie die POST- oder GET-Methode aus. In unserem Fall wählen wir die GET-Methode.
-* **[!UICONTROL Aufbewahrungsfrist im Cache]**: In unserem Fall möchten wir, dass das Wetter 10 Minuten lang zwischengespeichert wird.
-* **[!UICONTROL Antwort-Payload]**: Klicken Sie in das Feld **[!UICONTROL Payload]** und fügen Sie ein Beispiel der vom Aufruf zurückgegebenen Payload ein. Für unser Beispiel haben wir eine Payload verwendet, die auf einer Wetter-API-Website gefunden wurde. Überprüfen Sie, ob die Feldtypen korrekt sind. Jedes Mal, wenn die API aufgerufen wird, ruft das System alle im Payload-Beispiel enthaltenen Felder ab. Beachten Sie, dass Sie auf **[!UICONTROL Fügen Sie eine neue Payload ein]** klicken können, wenn Sie die aktuell übergebene Payload ändern möchten.
-* **[!UICONTROL Dynamische Werte]**: Geben Sie die verschiedenen Parameter getrennt durch ein Komma ein, in unserem Beispiel „long,lat“. Da die Parameterwerte vom Ausführungskontext abhängen, werden sie in den Journeys definiert. Siehe [](../expression/expressionadvanced.md).
-* **[!UICONTROL Gesendete Payload]**: Dieses Feld wird nicht in unserem Beispiel angezeigt. Es ist nur verfügbar, wenn Sie die POST-Methode auswählen. Fügen Sie die Payload ein, die an das Drittanbietersystem gesendet wird.
+* **[!UICONTROL Used in]**: zeigt die Anzahl der Reisen an, die eine Feldgruppe verwenden. You can click the **[!UICONTROL View journeys]** icon to display the list of journeys using this field group.
+* **[!UICONTROL Method]**: wählen Sie die POST- oder GET-Methode. In unserem Fall wählen wir die GET-Methode.
+* **[!UICONTROL Cache duration]**: in unserem Fall möchten wir, dass das Wetter 10 Minuten lang zwischengespeichert wird.
+* **[!UICONTROL Response Payload]**: Klicken Sie in das **[!UICONTROL Payload]** Feld und fügen Sie ein Beispiel der vom Aufruf zurückgegebenen Nutzlast ein. Für unser Beispiel haben wir eine Payload verwendet, die auf einer Wetter-API-Website gefunden wurde. Überprüfen Sie, ob die Feldtypen korrekt sind. Jedes Mal, wenn die API aufgerufen wird, ruft das System alle im Payload-Beispiel enthaltenen Felder ab. Note that you can click on **[!UICONTROL Paste a new payload]** if you want to change the payload currently passed.
+* **[!UICONTROL Dynamic Values]**: Geben Sie die verschiedenen Parameter getrennt durch ein Koma ein, &quot;long,lat&quot; in unserem Beispiel. Da die Parameterwerte vom Ausführungskontext abhängen, werden sie in den Journeys definiert. Siehe [](../expression/expressionadvanced.md).
+* **[!UICONTROL Sent Payload]**: Dieses Feld wird nicht in unserem Beispiel angezeigt. Es ist nur verfügbar, wenn Sie die POST-Methode auswählen. Fügen Sie die Payload ein, die an das Drittanbietersystem gesendet wird.
 
-Bei einem GET-Aufruf, der Parameter erfordert, geben Sie die Parameter in das Feld **[!UICONTROL Parameter]** ein und sie werden automatisch am Ende des Aufrufs hinzugefügt. Bei einem POST-Aufruf müssen Sie:
+In case of a GET call requiring parameter(s), you enter the parameter(s) in the **[!UICONTROL Parameters]** field and they are automatically added at the end of the call. Bei einem POST-Aufruf müssen Sie:
 
-* die beim Aufruf zu übergebenden Parameter im Feld **[!UICONTROL Parameter]** auflisten (im Beispiel unten: „identifier“).
+* die beim Aufruf zu übergebenden im Feld **[!UICONTROL Parameter]** Parameter auflisten (im Beispiel unten: „identifier“).
 * diese auch mit exakt derselben Syntax im Hauptteil der gesendeten Payload angeben. Dazu müssen Sie Folgendes hinzufügen: „param“: „Name Ihres Parameters“ (im folgenden Beispiel: „identifier“). Folgen Sie der Syntax unten:
 
    ```
-   {“id”:{“param”:“identifier”}}
+   {"id":{"param":"identifier"}}
    ```
 
 ![](../assets/journey29.png)
 
-Klicken Sie auf **[!UICONTROL Speichern]**.
+Klicks **[!UICONTROL Save]**.
 
 Die Datenquelle ist jetzt konfiguriert und kann in Ihren Journeys verwendet werden, z. B. in Ihren Bedingungen oder zur Personalisierung einer E-Mail. Wenn die Temperatur über 30° C liegt, können Sie sich entscheiden, eine bestimmte Mitteilung zu senden.
 
@@ -141,7 +141,7 @@ Das Format dieser Authentifizierung ist:
     (optional, mandatory if authorizationType is 'header' or 'queryParam') "tokenTarget": "<name of the header or queryParam if the authorizationType is 'header' or 'queryParam'>",
     "endpoint": "<URL of the authentication endpoint>",
     "method": "<HTTP method to call the authentication endpoint, in 'GET' or 'POST'>",
-    (optional) "headers: {
+    (optional) "headers": {
         "<header name>": "<header value>",
         ...
     },
