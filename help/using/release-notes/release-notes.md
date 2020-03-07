@@ -23,7 +23,7 @@ Sie können auch den Abschnitt [Aktualisierungen der Dokumentation](../release-n
 
 ## Q1 Version - März 2020 {#q1-release---march-2020}
 
-**Neue Funktionen?**
+**Neue Funktionen**
 
 <table>
 <thead>
@@ -36,10 +36,10 @@ Sie können auch den Abschnitt [Aktualisierungen der Dokumentation](../release-n
 <td>
 <p>Folgende Verbesserungen wurden am Testmodus vorgenommen:</p>
 <ul>
-<li>Wenn eine Reise mehrere Ereignisse verwendet, können Sie jetzt jede einzelne von ihnen aus einer Dropdown-Liste im Testmodus im Bildschirm <strong>Ereigniskonfiguration</strong> auslösen. <a href="../building-journeys/testing-the-journey.md#firing_events">Mehr dazu</a></p></li>
-<li><p>Wenn eine oder mehrere Aktivitäten zum <strong>Warten</strong> auf einer Reise verwendet werden, können Sie jetzt festlegen, wie lange diese Aktivitäten im Testmodus dauern sollen. Die Standardzeit beträgt 10 Sekunden. Sie können dies mithilfe des Parameters <strong>Wartezeit im Test</strong> unten links ändern. <a href="../building-journeys/testing-the-journey.md">Mehr dazu</a></p><img src="../assets/rn-test.png"/>
+<li>Wenn eine Reise mehrere Ereignisse verwendet, können Sie jetzt jede einzelne von ihnen aus einer Dropdown-Liste im Testmodus im Bildschirm <strong>Ereigniskonfiguration</strong> auslösen. <a href="../building-journeys/testing-the-journey.md#firing_events">mehr dazu</a></p></li>
+<li><p>Wenn eine oder mehrere Aktivitäten zum <strong>Warten</strong> auf einer Reise verwendet werden, können Sie jetzt festlegen, wie lange diese Aktivitäten im Testmodus dauern sollen. Die Standardzeit beträgt 10 Sekunden. Sie können dies mithilfe des Parameters <strong>Wartezeit im Test</strong> unten links ändern. <a href="../building-journeys/testing-the-journey.md">mehr dazu</a></p><img src="../assets/rn-test.png"/>
 </li>
-<li>In den <strong>Testprotokollen</strong>werden bei einem Fehler beim Aufruf eines Drittanbietersystems (Datenquelle oder Aktion) nun der Fehlercode und die Fehlerantwort angezeigt. <a href="../building-journeys/testing-the-journey.md#viewing_logs">Mehr dazu</a>
+<li>In den <strong>Testprotokollen</strong>werden bei einem Fehler beim Aufruf eines Drittanbietersystems (Datenquelle oder Aktion) nun der Fehlercode und die Fehlerantwort angezeigt. <a href="../building-journeys/testing-the-journey.md#viewing_logs">mehr dazu</a>
 </li>
 </ul>
 </td>
@@ -115,11 +115,11 @@ Sie können auch den Abschnitt [Aktualisierungen der Dokumentation](../release-n
 
 * Experience League ist jetzt in das Produkt integriert. Dadurch wird der Zugriff auf verwandte Inhalte vereinfacht und Sie können die Vorteile der Experience Cloud optimal nutzen. Direkter Zugriff auf die Dokumentation für die Reisebegleitung finden Sie unten auf der Registerkarte Hilfe. Klicken Sie außerdem auf Hilfe > Feedback, um Probleme zu melden oder Ihre Ideen mit Adobe zu teilen.
 
-* Der **C** -Tastaturbefehl, mit dem Sie ein neues Element erstellen können, ist jetzt in allen Listenbildschirmen verfügbar: Reisen, Datenquellen, Aktionen und Ereignisse. [Mehr dazu](../about/user-interface.md#section_ksq_zr1_ffb)
+* Der **C** -Tastaturbefehl, mit dem Sie ein neues Element erstellen können, ist jetzt in allen Listenbildschirmen verfügbar: Reisen, Datenquellen, Aktionen und Ereignisse. [mehr dazu](../about/user-interface.md#section_ksq_zr1_ffb)
 
 * Sie können jetzt gestoppte Fahrten **löschen** . Berichte zu diesen gelöschten Fahrten stehen nicht zur Verfügung.
 
-* Beim Durchsuchen von **Datenplattformfeldern** (XDM-Format) wird nun neben dem Feldnamen der Anzeigename angezeigt. Diese Informationen werden aus der Schemadefinition im Erlebnisdatenmodell abgerufen. Wenn verfügbar, wird der alternative Anzeigename angezeigt. Diese benutzerfreundliche Beschreibung, besonders nützlich bei eVar-Feldern, ermöglicht Ihnen die leichtere Identifizierung Ihrer Felder. [Mehr dazu](../about/user-interface.md#friendly-names-display)
+* Beim Durchsuchen von **Datenplattformfeldern** (XDM-Format) wird nun neben dem Feldnamen der Anzeigename angezeigt. Diese Informationen werden aus der Schemadefinition im Erlebnisdatenmodell abgerufen. Wenn verfügbar, wird der alternative Anzeigename angezeigt. Diese benutzerfreundliche Beschreibung, besonders nützlich bei eVar-Feldern, ermöglicht Ihnen die leichtere Identifizierung Ihrer Felder. [mehr dazu](../about/user-interface.md#friendly-names-display)
 
 ## GA-Version - Dezember 2019 {#ga-release---december-2019}
 
