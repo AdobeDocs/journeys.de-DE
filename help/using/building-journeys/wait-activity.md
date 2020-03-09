@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f8f7eb34a11f0ff87ed3c55e7294b5bdbfb9383
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 3f8f7eb34a11f0ff87ed3c55e7294b5bdbfb9383
 
 # Warteaktivität{#section_rlm_nft_dgb}
 
-If you want to wait before executing the next activity in the path, you can use a **[!UICONTROL Wait]** activity. Sie können den Zeitpunkt festlegen, zu dem die nächste Aktivität ausgeführt wird. Es stehen vier Optionen zur Verfügung:
+Wenn Sie warten möchten, bevor Sie die nächste Aktivität im Pfad ausführen, können Sie eine **[!UICONTROL Warteaktivität]** verwenden. Sie können den Zeitpunkt festlegen, zu dem die nächste Aktivität ausgeführt wird. Es stehen vier Optionen zur Verfügung:
 
 * [Dauer](#duration)
 * [Festgelegtes Datum](#fixed_date)
@@ -37,7 +37,7 @@ Sie können eine Bedingung definieren, wenn Sie die Wartezeit auf eine bestimmte
 >
 >Die maximale Wartezeit beträgt 30 Tage.
 >
->Im Testmodus können Sie mit dem Parameter **Wartezeit im Test** die Dauer jeder Warteaktivität festlegen. Die Standardzeit beträgt 10 Sekunden. Dadurch erhalten Sie die Testergebnisse schnell. Siehe [](../building-journeys/testing-the-journey.md)
+>Im Testmodus können Sie mit dem Parameter **Wartezeit im Test** die Dauer jeder Warteaktivität festlegen. Die Standardzeit beträgt 10 Sekunden. Dadurch erhalten Sie die Testergebnisse schnell. Siehe [](../building-journeys/testing-the-journey.md)
 
 ## Wartezeit mit Dauer{#duration}
 
@@ -53,13 +53,13 @@ Wählen Sie das Datum für die Ausführung der nächsten Aktivität aus.
 
 ## Benutzerdefinierte Wartezeit{#custom}
 
-Mit dieser Option können Sie ein benutzerdefiniertes Datum definieren, z. B. den 12. Juli 2020 um 17 Uhr, wobei Sie einen erweiterten Ausdruck verwenden, der auf einem von einem Ereignis oder einer Datenquelle stammenden Feld basiert. Sie können keine benutzerdefinierte Dauer (z. B. 7 Tage) festlegen. Der Ausdruck im Ausdruckseditor sollte ein „dateTimeOnly“-Format aufweisen. Siehe [](../expression/expressionadvanced.md). Weitere Informationen zum „dateTimeOnly“-Format finden Sie unter [](../expression/data-types.md) .
+Mit dieser Option können Sie ein benutzerdefiniertes Datum definieren, z. B. den 12. Juli 2020 um 17 Uhr, wobei Sie einen erweiterten Ausdruck verwenden, der auf einem von einem Ereignis oder einer Datenquelle stammenden Feld basiert. Sie können keine benutzerdefinierte Dauer (z. B. 7 Tage) festlegen. Der Ausdruck im Ausdruckseditor sollte ein „dateTimeOnly“-Format aufweisen. Siehe [](../expression/expressionadvanced.md). Weitere Informationen zum „dateTimeOnly“-Format finden Sie unter [](../expression/data-types.md).
 
 >[!NOTE]
 >
 >Sie können einen „dateTimeOnly“-Ausdruck nutzen oder eine Funktion zur Konvertierung in ein „dateTimeOnly“-Format verwenden. Beispiel: toDateTimeOnly(@{Event.offerOpened.activity.endTime}). Das Feld im Ereignis hat die folgende Form: 2016-08-12T09:46:06.
 >
->Die **Zeitzone** wird in den Eigenschaften Ihrer Reise erwartet. Aus diesem Grund ist es heute nicht möglich, von der Oberfläche direkt auf eine Zeitstempelmischzeit nach ISO-8601 und einen Zeitzonenversatz (z. B. 2016-08-12T09:46:06.982-05) zu verweisen. Siehe [](../building-journeys/timezone-management.md).
+>Die Angabe der **Zeitzone** ist für die Eigenschaften Ihrer Journey erforderlich. Aus diesem Grund ist es heute nicht möglich, von der Oberfläche direkt auf eine Zeitstempelmischzeit nach ISO-8601 und einen Zeitzonenversatz (z. B. 2016-08-12T09:46:06.982-05) zu verweisen. Siehe [](../building-journeys/timezone-management.md).
 
 ![](../assets/journey57.png)
 
@@ -69,16 +69,16 @@ Mit dieser Option können Sie ein benutzerdefiniertes Datum definieren, z. B. de
 >
 >Die Funktion zur Versandzeitoptimierung der E-Mail steht nur Kunden zur Verfügung, die den Datendienst von Adobe Campaign Standard verwenden.
 
-Diese Art des Wartens verwendet einen in der Plattform berechneten Wert. Der Wert berechnet basierend auf dem bisherigen Verhalten die Neigung, in Zukunft auf eine E-Mail zu klicken oder diese zu öffnen. Beachten Sie, dass der Algorithmus zur Berechnung des Werts eine bestimmte Datenmenge benötigt, um zu funktionieren. Wenn nicht genügend Daten vorhanden sind, wird die Standardwartezeit angewendet. Zum Zeitpunkt der Veröffentlichung wird Ihnen mitgeteilt, dass die Standardzeit gilt.
+Diese Art des Wartens verwendet einen in Platform berechneten Wert. Der Wert berechnet basierend auf dem bisherigen Verhalten die Neigung, in Zukunft auf eine E-Mail zu klicken oder diese zu öffnen. Beachten Sie, dass der Algorithmus zur Berechnung des Werts eine bestimmte Datenmenge benötigt, um zu funktionieren. Wenn nicht genügend Daten vorhanden sind, wird die Standardwartezeit angewendet. Zum Zeitpunkt der Veröffentlichung wird Ihnen mitgeteilt, dass die Standardzeit gilt.
 
 >[!NOTE]
 >
 >Das erste Ereignis Ihrer Journey muss über einen Namespace verfügen.
 >
->Diese Funktion steht erst nach einer **[!UICONTROL Email]**-Aktivität zur Verfügung. Sie benötigen Adobe Campaign Standard.
+>Diese Funktion steht erst nach einer **[!UICONTROL E-Mail]**-Aktivität zur Verfügung. Sie benötigen Adobe Campaign Standard.
 
-1. In the **[!UICONTROL Amount of time]** field, define the number of hours to consider to optimize email sending.
-1. In the **[!UICONTROL Optimization type]** field, choose if the optimization should increase clicks or opens.
+1. Legen Sie im Feld **[!UICONTROL Dauer]** die Anzahl der Stunden fest, die zur Optimierung des E-Mail-Versands berücksichtigt werden sollen.
+1. Wählen Sie im Feld **[!UICONTROL Optimierungstyp]** aus, ob die Optimierung die Klicks oder Öffnungen steigern soll.
 1. Legen Sie im Feld **Standardzeit** die standardmäßige Wartezeit fest, wenn der Wert für die Versandzeitpunkt-Prognose nicht verfügbar ist.
 
    >[!NOTE]
