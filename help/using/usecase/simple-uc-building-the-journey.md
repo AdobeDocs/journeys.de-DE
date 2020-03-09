@@ -51,7 +51,7 @@ Weitere Informationen zum Erstellen einer Journey finden Sie unter [](../buildin
 
    ![](../assets/journeyuc1_11.png)
 
-1. Suchen Sie mit dem einfachen Ausdruckseditor nach dem Feld für das Geschlecht (_person > gender_) und legen Sie es rechts ab, um folgende Bedingung zu erstellen: „Geschlecht ist gleich ‚Weiblich‘“.
+1. Suchen Sie mit dem einfachen Ausdruckseditor nach dem Feld für das Geschlecht (_person > gender_) und legen Sie es rechts ab, um folgende Bedingung zu erstellen: „Geschlecht ist gleich ‚Frau‘“.
 
    ![](../assets/journeyuc1_12.png)
 
