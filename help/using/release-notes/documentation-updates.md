@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 73f1a503ea2c8b3494460c666a05078ed914e58b
 
 ---
@@ -21,20 +21,20 @@ source-git-commit: 73f1a503ea2c8b3494460c666a05078ed914e58b
 Auf dieser Seite werden alle Aktualisierungen der Dokumentation für Journey Orchestration aufgelistet.
 Lesen Sie auch die [Versionshinweise](../release-notes/release-notes.md) zu Journey Orchestration.
 
-## March 2020 {#march-2020}
+## März 2020 {#march-2020}
 
-* Die Auslösung mehrerer Ereignisse wurde dem Abschnitt Testmodus hinzugefügt [Mehr lesen](../building-journeys/testing-the-journey.md#firing_events)
-* Der Abschnitt Testmodus wurde hinsichtlich des neuen Parameters **Wartezeit im Test** aktualisiert. [Mehr dazu](../building-journeys/testing-the-journey.md)
-* Der Abschnitt Testprotokoll wurde mit Fehlercodes und Antworten für externe Aufrufe aktualisiert. [Mehr dazu](../building-journeys/testing-the-journey.md#viewing_logs)
-* Das Zeitzonenmanagement ist jetzt im Bereich der Reiseeigenschaften zentralisiert. Mehr [hier](../building-journeys/changing-properties.md#timezone) und [hier](../building-journeys/timezone-management.md)
-* Der Abschnitt &quot;Journey-Designer&quot;wurde aktualisiert, um die jüngsten Verbesserungen widerzuspiegeln. [Mehr dazu](../building-journeys/using-the-journey-designer.md)
-* Die Beschreibung der Benutzeroberfläche wurde mit Informationen zur kontextbezogenen Hilfe aktualisiert. [Mehr dazu](../about/user-interface.md#section_ksq_zr1_ffb)
-* Beim Durchsuchen von **XDM-Feldern** wird nun der Anzeigename angezeigt. Verwandte Abschnitte wurden aktualisiert. [Mehr dazu](../about/user-interface.md#friendly-names-display)
+* Die Auslösung mehrerer Ereignisse wurde dem Abschnitt „Testmodus“ hinzugefügt. [Mehr dazu](../building-journeys/testing-the-journey.md#firing_events)
+* Der Abschnitt „Testmodus“ wurde hinsichtlich des neuen Parameters **Wartezeit im Test** aktualisiert. [Mehr dazu](../building-journeys/testing-the-journey.md)
+* Der Abschnitt „Testprotokoll“ wurde mit Fehlercodes und Antworten für externe Aufrufe aktualisiert. [Mehr dazu](../building-journeys/testing-the-journey.md#viewing_logs)
+* Das Zeitzonen-Management ist jetzt gebündelt im Fenster der Journey-Eigenschaften verfügbar. Mehr dazu [hier](../building-journeys/changing-properties.md#timezone) und [hier](../building-journeys/timezone-management.md)
+* Der Abschnitt „Journey-Designer“ wurde aktualisiert, um die jüngsten Verbesserungen widerzuspiegeln. [Mehr dazu](../building-journeys/using-the-journey-designer.md)
+* Die Beschreibung der Benutzeroberfläche wurde mit Informationen zur Kontexthilfe aktualisiert. [Mehr dazu](../about/user-interface.md#section_ksq_zr1_ffb)
+* Beim Durchsuchen von **XDM-Feldern** wird jetzt der Benutzername angezeigt. Die entsprechenden Abschnitte wurden aktualisiert. [Mehr dazu](../about/user-interface.md#friendly-names-display)
 
 
-## February 2020 {#february-2020}
+## Februar 2020 {#february-2020}
 
-* Der Abschnitt zum Verknüpfen wurde aktualisiert. Mit dem **C** -Tastaturbefehl können Sie ein neues Element in allen Listenbildschirmen erstellen. [Mehr dazu](../about/user-interface.md#section_ksq_zr1_ffb)
+* Der Abschnitt mit den Tastaturbefehlen wurde aktualisiert. Mit dem Tastaturbefehl **C** können Sie in allen Listenbildschirmen ein neues Element erstellen. [Mehr dazu](../about/user-interface.md#section_ksq_zr1_ffb)
 
 ## Januar 2020 {#january-2020}
 
