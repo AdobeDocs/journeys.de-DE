@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 538b350165365479caef499a74346381643033d5
 
 ---
@@ -29,7 +29,7 @@ Es stehen vier Bedingungstypen zur Verfügung:
 
 ## Informationen zu Bedingungsaktivitäten {#about_condition}
 
-Klicken Sie auf **[!UICONTROL Add a path]** , wenn Sie mehrere Bedingungen definieren möchten. Für jede Bedingung wird der Arbeitsfläche nach der Aktivität ein neuer Pfad hinzugefügt.
+Klicken Sie auf **[!UICONTROL Pfad hinzufügen]**, wenn Sie mehrere Bedingungen definieren möchten. Für jede Bedingung wird der Arbeitsfläche nach der Aktivität ein neuer Pfad hinzugefügt.
 
 ![](../assets/journey47.png)
 
@@ -37,7 +37,7 @@ Beachten Sie, dass die Gestaltung der Journeys funktionelle Auswirkungen hat. We
 
 ![](../assets/journey48.png)
 
-Sie können einen anderen Pfad für Zielgruppen erstellen, die nicht zu den definierten Bedingungen berechtigt sind, indem Sie die Option aktivieren **[!UICONTROL Show path for other cases than the one(s) above]**. Beachten Sie, dass diese Option in Bedingungen für die Aufspaltung nicht verfügbar ist. Siehe [Prozentuale Aufspaltung](#percentage_split).
+Sie können einen anderen Pfad für Audiences erstellen, für die die definierten Bedingungen nicht gelten, indem Sie die Option **[!UICONTROL Pfad für andere Fälle als die obigen zeigen]** aktivieren. Beachten Sie, dass diese Option in Bedingungen für die Aufspaltung nicht verfügbar ist. Siehe [Prozentuale Aufspaltung](#percentage_split).
 
 Im einfachen Modus können Sie einfache Abfragen anhand einer Kombination von Feldern durchführen. Alle verfügbaren Felder werden auf der linken Seite des Bildschirms angezeigt. Ziehen Sie Felder per Drag-and-Drop in den Hauptbereich. Um die verschiedenen Elemente zu kombinieren, verschachteln Sie diese, um Gruppen und/oder Gruppenebenen zu erstellen. Definieren Sie dann einen logischen Operator zwischen Elementen desselben Niveaus:
 
@@ -62,7 +62,7 @@ Auf diese Weise können Sie je nach Tageszeit und/oder Wochentag unterschiedlich
 
 >[!NOTE]
 >
->Die Zeitzone ist nicht mehr spezifisch für eine Bedingung und wird jetzt auf der Ebene der Reise in den Reiseeigenschaften definiert. Siehe [](../building-journeys/timezone-management.md).
+>Die Zeitzone hängt nicht mehr von einer Bedingung ab und wird jetzt auf Journey-Ebene in den Eigenschaften der Journey festgelegt. Siehe [](../building-journeys/timezone-management.md).
 
 ![](../assets/journey51.png)
 
@@ -83,6 +83,6 @@ Auf diese Weise können Sie basierend auf dem Datum einen anderen Fluss definier
 
 >[!NOTE]
 >
->Die Zeitzone ist nicht mehr spezifisch für eine Bedingung und wird jetzt auf der Ebene der Reise in den Reiseeigenschaften definiert. Siehe [](../building-journeys/timezone-management.md).
+>Die Zeitzone hängt nicht mehr von einer Bedingung ab und wird jetzt auf Journey-Ebene in den Eigenschaften der Journey festgelegt. Siehe [](../building-journeys/timezone-management.md).
 
 ![](../assets/journey53.png)
