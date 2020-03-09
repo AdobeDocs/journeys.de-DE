@@ -1,40 +1,40 @@
 ---
 source-git-commit: 25715e66b5495347e0c5ee2b1d75d44aa9cd3125
-translation-type: tm+mt
+translation-type: ht
 
 ---
-# Beitrag
+# Beitrag leisten
 
-Danke, dass du dich für einen Beitrag entschieden hast!
+Vielen Dank, dass Sie sich entschieden haben, zu diesem Projekt beizutragen!
 
-Im Folgenden sind einige Leitlinien aufgeführt, die bei der Mitarbeit an diesem Projekt befolgt werden müssen.
+Im Folgenden finden Sie eine Reihe von Richtlinien, die Sie bei der Mitarbeit an diesem Projekt befolgen müssen.
 
 ## Verhaltenskodex
 
-Dieses Projekt unterliegt dem [Verhaltenskodex](code-of-conduct.md) von Adobe. Durch Ihre Teilnahme wird von Ihnen erwartet, diesen Verhaltenskodex einzuhalten. Please report unacceptable behavior to
+Dieses Projekt unterliegt dem [Verhaltenskodex](code-of-conduct.md) von Adobe. Durch Ihre Teilnahme wird von Ihnen erwartet, diesen Verhaltenskodex einzuhalten. Melden Sie bitte inakzeptables Verhalten an
 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
-## Haben Sie eine Frage?
+## Sie haben eine Frage?
 
-Beginnen Sie damit, ein Problem zu melden. Die vorhandenen Committer an diesem Projekt arbeiten daran, einen Konsens über die Projektrichtung und Problemlösungen innerhalb von Problemfäden zu erreichen (sofern angemessen).
+Melden Sie zunächst das Problem. Die Projektverantwortlichen versuchen, eine Einigkeit über die Richtung des Projekts zu erzielen und Problemlösungen in den Themen-Threads bereitzustellen (falls zutreffend).
 
-## Mitarbeiter-Lizenzvereinbarung
+## Lizenzvereinbarung für Teilnehmer (Contributor License Agreement, CLA)
 
-Alle Beiträge Dritter zu diesem Projekt müssen mit einer unterzeichneten Lizenzvereinbarung einhergehen. Dadurch erhält Adobe die Erlaubnis, Ihre Beiträge im Rahmen des Projekts zu veröffentlichen. [Unterschreiben Sie unsere CLA](https://opensource.adobe.com/cla.html). Sie müssen nur einmal eine Adobe CLA einreichen. Wenn Sie also bereits eine CLA eingereicht haben, sollten Sie diese einreichen!
+Für alle Drittanbieter-Beiträge zu diesem Projekt muss eine unterzeichnete CLA vorliegen. Dadurch erhält Adobe die Erlaubnis, Ihre Beiträge im Rahmen des Projekts zu veröffentlichen. [CLA unterschreiben](https://opensource.adobe.com/cla.html). Eine Adobe CLA muss nur einmal eingereicht werden. Wenn Sie also schon einmal eine CLA eingereicht haben, müssen Sie nichts mehr unternehmen.
 
 ## Codeüberprüfungen
 
-Alle Einsendungen sollten in Form von Pull-Anfragen erfolgen und müssen von Projektverantwortlichen geprüft werden. Weitere Informationen zum Senden von Pull-Anfragen finden Sie in der [Dokumentation zu Pull Requests von GitHub](https://help.github.com/articles/about-pull-requests/).
+Alle Einsendungen sollten in Form von Pull-Anfragen erfolgen und müssen von den Projektverantwortlichen geprüft werden. Weitere Informationen zum Senden von Pull-Anfragen finden Sie in der [Dokumentation zu Pull-Anfragen von GitHub](https://help.github.com/articles/about-pull-requests/).
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
 submitting a pull request!
 -->
 
-## Von &quot;Mitarbeiter&quot;zu &quot;Ausschuss&quot;
+## Vom Teilnehmer zum Projektverantwortlichen
 
-Wir lieben Beiträge von unserer Community! Wenn Sie einen Schritt weiter gehen möchten als Mitarbeiter und ein Committer mit vollem Schreibzugriff und Mitspracherecht im Projekt werden möchten, müssen Sie zum Projekt eingeladen werden. Die bestehenden Committer setzen einen internen Nominierungsprozess ein, der zu einem faulen Konsens führen muss (Schweigen ist Zustimmung), bevor Einladungen veröffentlicht werden. Wenn Sie das Gefühl haben, dass Sie qualifiziert sind und stärker involviert sein möchten, können Sie sich jederzeit an bestehende Committer wenden, um darüber zu sprechen.
+Wir wissen Beiträge von unserer Community zu schätzen! Wenn Sie einen Schritt weiter gehen und vom Teilnehmer zum Projektverantwortlichen mit vollem Schreibzugriff und Mitspracherecht im Projekt werden möchten, müssen Sie zuerst zum Projekt eingeladen werden. Die bestehenden Projektverantwortlichen wenden bei der Ausstellung von Einladungen einen internen Nominierungsprozess der stillschweigenden Zustimmung an (Schweigen bedeutet Zustimmung). Wenn Sie das Gefühl haben, dass Sie qualifiziert sind, und sich stärker engagieren möchten, wenden Sie sich an die aktuellen Projektverantwortlichen.
 
 ## Sicherheitsprobleme
 
-Sicherheitsprobleme sollten bei diesem Problem-Tracker nicht gemeldet werden. Stattdessen [stellen Sie ein Problem bei unseren Sicherheitsexperten ein](https://helpx.adobe.com/security/alertus.html)
+Sicherheitsprobleme sollten nicht über diesen Problem-Tracker gemeldet werden. [Melden Sie Probleme stattdessen unseren Sicherheitsexperten](https://helpx.adobe.com/de/security/alertus.html).
