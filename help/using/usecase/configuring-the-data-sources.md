@@ -32,7 +32,7 @@ Weitere Informationen zur Datenquellenkonfiguration finden Sie unter [](../datas
    * _person > name > lastName_
    * _personalEmail > address_
 
-1. Klicken Sie auf **[!UICONTROL Neue Feldergruppe hinzufügen]****[!UICONTROL , wählen Sie ein Profilschema]** aus und fügen Sie das Feld **Mitglied des Treueprogramms** unserer Bedingung hinzu. Das Feld **Mitglied des Treueprogramms** ist ein benutzerdefiniertes Feld und wurde in XDM hinzugefügt: _customer > marlton > loyaltyMember
+1. Klicken Sie auf **[!UICONTROL Neue Feldergruppe hinzufügen]**, wählen Sie ein **[!UICONTROL Profilschema]** aus und fügen Sie das Feld **Mitglied des Treueprogramms** unserer Bedingung hinzu. Das Feld **Mitglied des Treueprogramms** ist ein benutzerdefiniertes Feld und wurde in XDM hinzugefügt: _customer > marlton > loyaltyMember
 
    ![](../assets/journeyuc2_6.png)
 
