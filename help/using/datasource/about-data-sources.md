@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 690f8c1732c7d54c234e9ba633a2cf014492f423
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: 690f8c1732c7d54c234e9ba633a2cf014492f423
 Mit der Datenquellenkonfiguration können Sie eine Verbindung zu einem System definieren, um zusätzliche Informationen abzurufen, die in Ihren Journeys verwendet werden, zum Beispiel für:
 
 * [Definition von Bedingungen](../building-journeys/condition-activity.md)
-* parameter and personalization data in [actions](../action/action.md)
+* Parameter- und Personalisierungsdaten in [Aktionen](../action/action.md)
 * [Definition benutzerdefinierter Wartezeiten](../building-journeys/wait-activity.md#custom)
 * [Definition benutzerdefinierter Zeitzonen](../building-journeys/timezone-management.md)
 
@@ -37,9 +37,9 @@ Es gibt zwei Arten von Datenquellen:
 * Die vorkonfigurierte Datenquelle von Experience Platform, die die Verbindung zum Echtzeit-Kundenprofildienst definiert. Dies ist eine integrierte Datenquelle. Siehe [](../datasource/adobe-experience-platform-data-source.md).
 * Die externen Datenquellen, mit denen Sie eine Verbindung zu externen Systemen definieren können. Diese können Sie erstellen. Siehe [](../datasource/external-data-sources.md).
 
-Für jede Datenquelle definieren Sie die Informationen, die mit Feldergruppen abgerufen werden sollen. Feldgruppen sind Gruppen von Feldern, die aus einer Datenquelle abgerufen werden können. Siehe [](../datasource/field-groups.md).
+Für jede Datenquelle definieren Sie die Informationen, die mit Feldergruppen abgerufen werden sollen. Feldergruppen sind Gruppen von Feldern, die aus einer Datenquelle abgerufen werden können. Siehe [](../datasource/field-groups.md).
 
-Weitere Informationen zum Konfigurieren einer Experience Platform-Datenquelle und einer externen Datenquelle sowie zum Suchen und Verwenden von Daten während einer Reise finden Sie in diesem [Lernvideo](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-data-sources.html).
+Weitere Informationen zum Konfigurieren einer Experience Platform-Datenquelle und einer externen Datenquelle sowie zum Suchen und Verwenden von Daten in einer Journey finden Sie in diesem [Anleitungsvideo](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-data-sources.html).
 
 Im Folgenden finden Sie die wichtigsten Schritte zur Konfiguration der Datenquelle:
 
@@ -47,7 +47,7 @@ Im Folgenden finden Sie die wichtigsten Schritte zur Konfiguration der Datenquel
 >
 >Die Konfiguration von Datenquellen wird immer von einem **technischen Anwender** durchgeführt.
 
-1. In the top menu, click the **[!UICONTROL Data Sources]** tab.
+1. Klicken Sie oben im Menü auf den Tab **[!UICONTROL Datenquellen]**.
 
    Die Liste der Datenquellen wird angezeigt. Weitere Informationen zur Benutzeroberfläche finden Sie unter [](../about/user-interface.md).
 
@@ -57,6 +57,6 @@ Im Folgenden finden Sie die wichtigsten Schritte zur Konfiguration der Datenquel
 
    ![](../assets/journey23.png)
 
-1. Klicks **[!UICONTROL Save]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
    Die Datenquelle ist jetzt konfiguriert und kann in Ihren Journeys verwendet werden.
