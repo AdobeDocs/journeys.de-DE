@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d5c013ed6031e8138a8e2c099fc28af82966d3ec
 
 ---
@@ -29,13 +29,13 @@ Pro Journey ist nur ein Namespace zulässig. Wenn Sie das erste Ereignis ablegen
 
 Hier finden Sie die wichtigsten Schritte für das Erstellen und Veröffentlichen einer Journey.
 
-1. In the top menu, click the **[!UICONTROL Home]** tab.
+1. Klicken Sie oben im Menü auf den Tab **[!UICONTROL Startseite]**.
 
    Die Liste der Journeys wird angezeigt. Weitere Informationen zur Benutzeroberfläche finden Sie unter [](../building-journeys/using-the-journey-designer.md).
 
    ![](../assets/journey30.png)
 
-1. Click **[!UICONTROL Create]** to create a new journey.
+1. Klicken Sie auf **[!UICONTROL Erstellen]**, um eine neue Journey zu erstellen.
 
    ![](../assets/journey31.png)
 
