@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d331454b0ad351a1967ec57d0b3f24a675f10f2a
 
 ---
@@ -21,25 +21,25 @@ source-git-commit: d331454b0ad351a1967ec57d0b3f24a675f10f2a
 Auf dieser Seite werden alle neuen Funktionen und Verbesserungen bei Journey Orchestration aufgelistet.
 Sie können auch den Abschnitt [Aktualisierungen der Dokumentation](../release-notes/documentation-updates.md) lesen.
 
-## Q1 Version - März 2020 {#q1-release---march-2020}
+## Version 1. Quartal – März 2020 {#q1-release---march-2020}
 
 **Neue Funktionen**
 
 <table>
 <thead>
 <tr>
-<th><strong>Verbesserungen im Testmodus</strong><br/></th>
+<th><strong>Verbesserungen am Testmodus</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Folgende Verbesserungen wurden am Testmodus vorgenommen:</p>
+<p>Die folgenden Verbesserungen wurden am Testmodus vorgenommen:</p>
 <ul>
-<li>Wenn eine Reise mehrere Ereignisse verwendet, können Sie jetzt jede einzelne von ihnen aus einer Dropdown-Liste im Testmodus im Bildschirm <strong>Ereigniskonfiguration</strong> auslösen. <a href="../building-journeys/testing-the-journey.md#firing_events">mehr dazu</a></p></li>
-<li><p>Wenn eine oder mehrere Aktivitäten zum <strong>Warten</strong> auf einer Reise verwendet werden, können Sie jetzt festlegen, wie lange diese Aktivitäten im Testmodus dauern sollen. Die Standardzeit beträgt 10 Sekunden. Sie können dies mithilfe des Parameters <strong>Wartezeit im Test</strong> unten links ändern. <a href="../building-journeys/testing-the-journey.md">mehr dazu</a></p><img src="../assets/rn-test.png"/>
+<li>Wenn in einer Journey mehrere Ereignisse verwendet werden, können diese jetzt einzeln ausgelöst werden, indem Sie sie im Testmodus im Bildschirm <strong>Ereigniskonfiguration</strong> aus einer Dropdown-Liste auswählen. <a href="../building-journeys/testing-the-journey.md#firing_events">Mehr dazu</a></p></li>
+<li><p>Wenn in einer Journey eine oder mehrere <strong>Warteaktivitäten</strong> verwendet werden, können Sie jetzt festlegen, wie lange diese Aktivitäten im Testmodus dauern sollen. Die standardmäßige Dauer beträgt 10 Sekunden. Sie können diese mithilfe des Parameters <strong>Wartezeit im Test</strong> unten links ändern. <a href="../building-journeys/testing-the-journey.md">Mehr dazu</a></p><img src="../assets/rn-test.png"/>
 </li>
-<li>In den <strong>Testprotokollen</strong>werden bei einem Fehler beim Aufruf eines Drittanbietersystems (Datenquelle oder Aktion) nun der Fehlercode und die Fehlerantwort angezeigt. <a href="../building-journeys/testing-the-journey.md#viewing_logs">mehr dazu</a>
+<li>In den <strong>Testprotokollen</strong> werden bei einem Fehler beim Aufrufen eines Drittanbietersystems (Datenquelle oder Aktion) der Fehlercode und die Fehlerantwort angezeigt. <a href="../building-journeys/testing-the-journey.md#viewing_logs">Mehr dazu</a>
 </li>
 </ul>
 </td>
@@ -50,19 +50,19 @@ Sie können auch den Abschnitt [Aktualisierungen der Dokumentation](../release-n
 <table>
 <thead>
 <tr>
-<th><strong>Zentrales Zeitzonenmanagement</strong><br/></th>
+<th><strong>Zentrales Zeitzonen-Management</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr> 
 <td>
-<p>Das Zeitzonenmanagement ist jetzt im Bereich der Reiseeigenschaften zentralisiert. In den Reiseeigenschaften wurden zwei Parameter hinzugefügt:</p>
+<p>Das Zeitzonen-Management ist jetzt im Eigenschaften-Bereich der Journey gebündelt. In den Eigenschaften der Journey wurden zwei Parameter hinzugefügt:</p>
 <img src="../assets/rn-timezone.png"/>
 <ul>
-<li>In der Dropdownliste <strong>Zeitzone</strong> können Sie eine bestimmte Zeitzone auswählen. Standardmäßig wird die Zeitzone des Browsers verwendet.</li>
-<li>Mit dem Kontrollkästchen <strong>Profilzeitzone</strong> können Sie die Profilzeitzone der Erlebnisplattform der Person verwenden, die die Reise beginnt, sofern verfügbar. Andernfalls wird die in der Dropdownliste definierte Zeitzone verwendet. Diese Funktion ist nicht mit Reisen kompatibel, die Ereignisse ohne Namespace verwenden.</li>
+<li>In der Dropdown-Liste <strong>Zeitzone</strong> können Sie eine bestimmte Zeitzone auswählen. Standardmäßig wird die Zeitzone des Browsers verwendet.</li>
+<li>Sofern verfügbar, können Sie mit dem Kontrollkästchen <strong>Zeitzone des Profils</strong> die Zeitzone des Experience Platform-Profils der Person verwenden, die in die Journey eintritt. Andernfalls wird die in der Dropdown-Liste definierte Zeitzone verwendet. Diese Funktion ist nicht mit Journeys kompatibel, die Ereignisse ohne Namespace verwenden.</li>
 </ul>
-<p>Weitere Informationen finden Sie in den Abschnitten <a href="../building-journeys/changing-properties.md#timezone">Eigenschaften</a> ändern und <a href="../building-journeys/timezone-management.md">Zeitzonenverwaltung</a> .</p>
+<p>Weitere Informationen finden Sie in den Abschnitten <a href="../building-journeys/changing-properties.md#timezone">Ändern von Eigenschaften</a> und <a href="../building-journeys/timezone-management.md">Zeitzonen-Management</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -71,20 +71,20 @@ Sie können auch den Abschnitt [Aktualisierungen der Dokumentation](../release-n
 <table>
 <thead>
 <tr>
-<th><strong>Verbesserungen beim Journey-Designer</strong><br/></th>
+<th><strong>Verbesserungen am Journey-Designer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr> 
 <td>
-<p>Die <strong>Palette</strong>"Reise"auf der linken Seite des Reisedesigners wurde erweitert:</p>
+<p>Die <strong>Palette</strong> „Journey“ auf der linken Seite im Journey-Designer wurde erweitert:</p>
 <ul>
-<li>Mit einem neuen Symbol neben der <strong>Suchleiste</strong> können Sie nicht verfügbare Elemente in der Palette ein- oder ausblenden, z. B. Ereignisse, die einen anderen Namespace verwenden als die während der Reise verwendeten. Standardmäßig werden nicht verfügbare Elemente ausgeblendet.</li>
-<li>Wenn Sie das Feld <strong>Suchen</strong> verwenden, wird nun die Anzahl der Ergebnisse für jede Arbeitsflächenaktivitätskategorie angezeigt.</li>
+<li>Mit einem neuen Symbol neben der <strong>Suchleiste</strong> können Sie nicht verfügbare Elemente in der Palette ein- oder ausblenden (z. B. Ereignisse, die einen anderen Namespace als den in Ihrer Journey verwenden). Standardmäßig werden nicht verfügbare Elemente ausgeblendet.</li>
+<li>Wenn Sie das Feld <strong>Suchen</strong> verwenden, wird jetzt die Anzahl der Ergebnisse für jede Aktivitätskategorie der Arbeitsfläche angezeigt.</li>
 <li>Die Navigation zwischen den verschiedenen Aktivitätskategorien wurde verbessert.</li>
 </ul>
-<p>Im Reisedesigner können Sie jetzt überprüfen, ob Sie auf die neueste Version der Reise zugreifen. Diese Informationen werden neben der Versionsnummer angezeigt.</p>
-<p>Wenn auf der <strong>Arbeitsfläche</strong>der Reise zwei Aktivitäten getrennt sind, wird jetzt eine Warnmeldung angezeigt.</p>
+<p>Im Journey-Designer können Sie jetzt feststellen, ob Sie auf die neueste Version der Journey zugreifen. Diese Information wird neben der Versionsnummer angezeigt.</p>
+<p>Wenn zwei Aktivitäten auf der <strong>Arbeitsfläche</strong> einer Journey getrennt werden, wird jetzt eine Warnmeldung angezeigt.</p>
 <img src="../assets/rn-canvas.png"/>
 <p>Weitere Informationen finden Sie im <a href="../building-journeys/using-the-journey-designer.md">entsprechenden Handbuch</a>.</p>
 </td>
@@ -101,8 +101,8 @@ Sie können auch den Abschnitt [Aktualisierungen der Dokumentation](../release-n
 <tbody>
 <tr>
 <td>
-<p>Eine kontextbezogene Hilfe steht nun über die verschiedenen Listenbildschirme für die Journey Orchestrierung (Reisen, Veranstaltungen, Aktionen und Datenquellen) zur Verfügung. Auf diese Weise können Sie eine kurze Beschreibung der aktuellen Funktion anzeigen und auf zugehörige Artikel und Videos zugreifen.</p>
-<p>Um die kontextbezogene Hilfe anzuzeigen, klicken Sie auf das <img src="../assets/icon-context.png"/> Symbol in der oberen rechten Ecke des Bildschirms. </p>
+<p>In den verschiedenen Listenbildschirmen (Journeys, Ereignisse, Aktionen und Datenquellen) von Journey Orchestration ist jetzt eine Kontexthilfe verfügbar. Auf diese Weise können Sie eine kurze Beschreibung der aktuellen Funktion anzeigen und auf zugehörige Artikel und Videos zugreifen.</p>
+<p>Durch Anklicken des <img src="../assets/icon-context.png"/>-Symbols oben rechts im Bildschirm können Sie die Kontexthilfe anzeigen. </p>
 <img src="../assets/rn-context.png"/>
 </td>
 </tr>
@@ -111,15 +111,15 @@ Sie können auch den Abschnitt [Aktualisierungen der Dokumentation](../release-n
 
 **Sonstige Verbesserungen**
 
-* Zusätzlich zu den USA ist das Journeys Orchestration jetzt auch in der **EMEA** erhältlich. Der Antrag und die Dokumentation sind in französischer und deutscher Sprache verfügbar.
+* Journeys Orchestration ist jetzt neben den USA auch in der Region **EMEA** verfügbar. Die Anwendung und die Dokumentation sind in Französisch und Deutsch verfügbar.
 
-* Experience League ist jetzt in das Produkt integriert. Dadurch wird der Zugriff auf verwandte Inhalte vereinfacht und Sie können die Vorteile der Experience Cloud optimal nutzen. Direkter Zugriff auf die Dokumentation für die Reisebegleitung finden Sie unten auf der Registerkarte Hilfe. Klicken Sie außerdem auf Hilfe > Feedback, um Probleme zu melden oder Ihre Ideen mit Adobe zu teilen.
+* Experience League ist jetzt in das Produkt integriert. Dies vereinfacht den Zugriff auf verwandte Inhalte und hilft Ihnen, Experience Cloud optimal zu nutzen. Unten im Tab „Hilfe“ können Sie direkt auf die Dokumentation für Journey Orchestration zugreifen. Sie können auch auf „Hilfe > Feedback“ klicken, um Adobe Probleme oder Anregungen mitzuteilen.
 
-* Der **C** -Tastaturbefehl, mit dem Sie ein neues Element erstellen können, ist jetzt in allen Listenbildschirmen verfügbar: Reisen, Datenquellen, Aktionen und Ereignisse. [mehr dazu](../about/user-interface.md#section_ksq_zr1_ffb)
+* Der Tastaturbefehl **C**, mit dem Sie ein neues Element erstellen können, ist jetzt in allen Listenbildschirmen verfügbar: Journeys, Datenquellen, Aktionen und Ereignisse. [Mehr dazu](../about/user-interface.md#section_ksq_zr1_ffb)
 
-* Sie können jetzt gestoppte Fahrten **löschen** . Berichte zu diesen gelöschten Fahrten stehen nicht zur Verfügung.
+* Sie können jetzt gestoppte Journeys **löschen**. Berichte für diese gelöschten Journeys werden nicht mehr verfügbar sein.
 
-* Beim Durchsuchen von **Datenplattformfeldern** (XDM-Format) wird nun neben dem Feldnamen der Anzeigename angezeigt. Diese Informationen werden aus der Schemadefinition im Erlebnisdatenmodell abgerufen. Wenn verfügbar, wird der alternative Anzeigename angezeigt. Diese benutzerfreundliche Beschreibung, besonders nützlich bei eVar-Feldern, ermöglicht Ihnen die leichtere Identifizierung Ihrer Felder. [mehr dazu](../about/user-interface.md#friendly-names-display)
+* Beim Durchsuchen von **Datenplattformfeldern** (XDM-Format) wird nun neben dem Feldnamen der Anzeigename angezeigt. Diese Informationen werden aus der Schemadefinition im Experience-Datenmodell abgerufen. Wenn verfügbar, wird der alternative Anzeigename angezeigt. Mit dieser benutzerfreundlichen Beschreibung, die insbesondere bei eVar-Feldern nützlich ist, können Sie Ihre Felder leichter wiedererkennen. [Mehr dazu](../about/user-interface.md#friendly-names-display)
 
 ## GA-Version - Dezember 2019 {#ga-release---december-2019}
 
@@ -134,4 +134,4 @@ Journey Orchestration erlaubt eine Echtzeit-Orchestrierung auf Basis von Kontext
 Zusätzliche Ressourcen:
 
 * [Tutorials](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
-* [Community](https://www.adobe.com/go/journeyorchestrationcommunity)
+* [Community](https://www.adobe.com/go/journeyorchestrationcommunity_de)
