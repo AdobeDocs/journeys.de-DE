@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
 
 ---
@@ -70,9 +70,9 @@ Beispiel:
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
 ```
 
-**Verweis auf ein in einer Map definiertes Feld**
+**Verweis auf ein in einer Zuordnung definiertes Feld**
 
-Um ein Element in einer Zuordnung abzurufen, verwenden wir die Eintragsfunktion mit einem bestimmten Schlüssel. Sie wird beispielsweise beim Definieren des Schlüssels eines Ereignisses je nach ausgewähltem Namespace verwendet. Siehe „Auswählen des Namespace“. Lesen Sie für weiterführende Informationen den Abschnitt [](../event/selecting-the-namespace.md).
+Um ein Element in einer Zuordnung abzurufen, verwenden Sie die Eingabefunktion mit einem bestimmten Schlüssel. Sie wird beispielsweise beim Definieren des Schlüssels eines Ereignisses je nach ausgewähltem Namespace verwendet. Siehe „Auswählen des Namespace“. Lesen Sie für weiterführende Informationen den Abschnitt [](../event/selecting-the-namespace.md).
 
 ```
 @{MyEvent.identityMap.entry('Email').first().id}
