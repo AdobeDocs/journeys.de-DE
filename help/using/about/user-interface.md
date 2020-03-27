@@ -8,38 +8,39 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: ht
-source-git-commit: 891216a489b79fe4b168ecdb6120f5d9f3e107d0
+translation-type: tm+mt
+source-git-commit: bc5b29eefa4d787cd448352252823a616489d8c8
 
 ---
 
 
 # Benutzeroberfläche{#concept_rcq_lqt_52b}
 
-
->[!CONTEXTUALHELP]
->id=&quot;jo_home&quot;
->title=&quot;Über die Liste der Journeys&quot;
->abstract=&quot;Die Liste der Journeys ermöglicht es Ihnen, alle Ihre Journeys gleichzeitig anzuzeigen, deren Status zu prüfen und grundlegende Aktionen durchzuführen. Sie können Ihre Journeys duplizieren, stoppen oder löschen. Je nach Journey stehen bestimmte Aktionen möglicherweise nicht zur Verfügung. Sie können beispielsweise eine beendete Journey nicht stoppen oder löschen. Sie können auch die Suchleiste verwenden, um nach einer Journey zu suchen.&quot;
->additional-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;Demovideo ansehen&quot;
-
 >[!NOTE]
 >
 >Um Journey Orchestration optimal zu nutzen, empfehlen wir die Verwendung von Chrome als Internetbrowser.
 >
->Die vorliegende Dokumentation wird regelmäßig aktualisiert, um aktuelle Änderungen am Produkt widerzuspiegeln. Manche Screenshots können sich jedoch geringfügig von der Benutzeroberfläche des Produkts unterscheiden.
+>Die vorliegende Dokumentation wird regelmäßig aktualisiert, um aktuelle Änderungen am Produkt widerzuspiegeln. Manche Screenshots können jedoch geringfügig von der Benutzeroberfläche des Produkts abweichen.
 
-## Kennenlernen der Benutzeroberfläche{#section_jsq_zr1_ffb}
+## Zugang zur Reiseorganisation{#accessing_journey_orchestration}
 
-Klicken Sie oben rechts auf das Symbol **[!UICONTROL App-Auswahl]**, um die Benutzeroberfläche zu Journey Orchestration aufzurufen. Klicken Sie dann rechts unter „Experience Platform“ auf **[!UICONTROL Journey Orchestration]**.
+To access the Journey Orchestration&#39;s interface, click the **[!UICONTROL App Selector]** icon, in the top right. Klicken Sie dann rechts unter „Experience Platform“ auf **[!UICONTROL Journey Orchestration]**.
 
 ![](../assets/journey1.png)
 
-Alternativ können Sie über die Experience Cloud-Startseite im Bereich **[!UICONTROL Schnellzugriff]** auf Journey Orchestration zugreifen.
+You can also access Journey Orchestration from the Experience Cloud home page, in the **[!UICONTROL Quick access]** section.
 
 ![](../assets/journey1bis.png)
 
-Die Menüs am oberen Seitenrand bieten Zugriff auf die verschiedenen Funktionen von Journey Orchestration: **[!UICONTROL Startseite]** (die Journeys), **[!UICONTROL Datenquellen]**, **[!UICONTROL Ereignisse]**, **[!UICONTROL Aktionen]**.
+## Kennenlernen der Benutzeroberfläche{#section_jsq_zr1_ffb}
+
+>[!CONTEXTUALHELP]
+>id=&quot;jo_home&quot;
+>title=&quot;Über die Liste der Journeys&quot;
+>abstract=&quot;Die Liste der Journeys ermöglicht es Ihnen, alle Ihre Journeys gleichzeitig anzuzeigen, deren Status zu prüfen und grundlegende Aktionen durchzuführen. Sie können Ihre Journeys duplizieren, stoppen oder löschen. Je nach Journey stehen bestimmte Aktionen möglicherweise nicht zur Verfügung. Sie können beispielsweise eine abgeschlossene Reise nicht löschen oder neu starten. Sie können daraus eine neue Version erstellen oder diese Duplikat erstellen. Sie können auch die Suchleiste verwenden, um nach einer Journey zu suchen.&quot;
+>additional-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;Demovideo ansehen&quot;
+
+The top menus allow you to navigate through the different functionalities of Journey Orchestration: **[!UICONTROL Home]**(the journeys),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
 
 ![](../assets/journey2.png)
 
@@ -49,23 +50,23 @@ Klicken Sie auf das ![](../assets/icon-context.png)-Symbol oben rechts im Bildsc
 
 ## Suchen und Filtern{#section_lgm_hpz_pgb}
 
-In den Listen **[!UICONTROL Startseite]**, **[!UICONTROL Datenquellen]**, **[!UICONTROL Ereignisse]** und **[!UICONTROL Aktionen]** können Sie über eine Suchleiste nach einem Element suchen.
+In den **[!UICONTROL Home]**,**[!UICONTROL Data Sources]****[!UICONTROL Events]** und **[!UICONTROL Actions]** Listen können Sie in einer Suchleiste nach einem Element suchen.
 
-Sie können auf die **[!UICONTROL Filter]** zugreifen, indem Sie auf das Filtersymbol links oben in der Liste klicken. Mit dem Filtermenü können Sie die angezeigten Elemente anhand unterschiedlicher Kriterien filtern. Sie können festlegen, dass nur die Elemente eines bestimmten Typs oder Status, die von Ihnen erstellten Elemente oder die in den letzten 30 Tagen geänderten Elemente angezeigt werden sollen.
+The **[!UICONTROL Filters]** can be accessed by clicking on the filter icon on the top left of the list. Mit dem Filtermenü können Sie die angezeigten Elemente anhand unterschiedlicher Kriterien filtern. Sie können festlegen, dass nur die Elemente eines bestimmten Typs oder Status, die von Ihnen erstellten Elemente oder die in den letzten 30 Tagen geänderten Elemente angezeigt werden sollen.
 
-Verwenden Sie in den Listen **[!UICONTROL Datenquellen]**, **[!UICONTROL Ereignisse]** und **[!UICONTROL Aktionen]** die **Erstellungsfilter**, um nach dem Erstellungsdatum und Anwender zu filtern. Sie können beispielsweise festlegen, dass nur die Ereignisse angezeigt werden sollen, die Sie in den letzten 30 Tagen erstellt haben.
+In the **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** and **[!UICONTROL Actions]** lists, use the **Creation filters** to filter on the creation date and user. Sie können beispielsweise festlegen, dass nur die Ereignisse angezeigt werden sollen, die Sie in den letzten 30 Tagen erstellt haben.
 
-In der Journey-Liste (unter **[!UICONTROL Startseite]**) können Sie die angezeigten Journeys zusätzlich zu den **[!UICONTROL Erstellungsfiltern]** auch nach Status und Version filtern (**[!UICONTROL Status- und Versionsfilter]**). Sie können auch festlegen, dass nur die Journeys angezeigt werden, die ein bestimmtes Ereignis, eine bestimmte Feldergruppe oder eine bestimmte Aktion verwenden (**[!UICONTROL Aktivitätsfilter]** und **[!UICONTROL Datenfilter]**). Mit den **[!UICONTROL Veröffentlichungsfiltern]** können Sie ein Veröffentlichungsdatum oder einen bestimmten Benutzer auswählen. Sie können beispielsweise entscheiden, dass nur die neuesten Versionen von Live-Journeys, die am Vortag veröffentlicht wurden, angezeigt werden sollen. Siehe [](../building-journeys/using-the-journey-designer.md).
+In the journey list (under **[!UICONTROL Home]**), in addition to the **[!UICONTROL Creation filters]**, you can also filter the displayed journeys according to their status and version (**[!UICONTROL Status and version filters]**). You can also choose to only display the journeys that use a particular event, field group or action (**[!UICONTROL Activity filters]** and **[!UICONTROL Data filters]**).The **[!UICONTROL Publication filters]** let you select a publication date or user. Sie können beispielsweise entscheiden, dass nur die neuesten Versionen von Live-Journeys, die am Vortag veröffentlicht wurden, angezeigt werden sollen. Siehe [](../building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
 >Beachten Sie, dass angezeigte Spalten mithilfe der Konfigurationsschaltfläche oben rechts in den Listen personalisiert werden können. Personalisierung wird für jeden Benutzer individuell gespeichert.
 
-Mit den Spalten **[!UICONTROL Letzte Aktualisierung]** und **[!UICONTROL Letzte Aktualisierung von]** können Sie anzeigen, wann und durch wen Ihre Journeys zuletzt aktualisiert wurden.
+The **[!UICONTROL Last update]** and **[!UICONTROL Last update by]** columns allow you to display when has the last update of your journeys occured and which user operated it.
 
 ![](../assets/journey74.png)
 
-In den Konfigurationsbereichen für Ereignis, Datenquelle und Aktion zeigt das Feld **[!UICONTROL Verwendet in]** die Zahl der Journeys an, die dieses bestimmte Ereignis, diese Feldergruppe oder diese Aktion verwenden. Sie können auf die Schaltfläche **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der entsprechenden Journeys zu öffnen.
+In the event, data source and action configuration panes, the **[!UICONTROL Used in]** field displays the number of journeys that use that particular event, field group or action. You can click the **[!UICONTROL View journeys]** button to display the list of corresponding journeys.
 
 ![](../assets/journey3bis.png)
 
@@ -99,19 +100,19 @@ _Beim Konfigurieren einer Aktivität in einer Journey:_
 
 Die Arbeitsfläche wird automatisch gespeichert. Oben links in der Arbeitsfläche sehen Sie den Speicherstatus.
 
-* Drücken Sie **Esc**, um den Konfigurationsbereich zu schließen und die vorgenommenen Änderungen zu verwerfen. Dies entspricht der Schaltfläche **[!UICONTROL Abbrechen]**.
-* Drücken Sie die **[!UICONTROL Eingabetaste]** oder klicken Sie außerhalb des Bereichs, um den Konfigurationsbereich zu schließen. Änderungen werden gespeichert. Dies entspricht der Schaltfläche **[!UICONTROL OK]**.
-* Wenn Sie die Taste **[!UICONTROL Löschen]** oder die **Rücktaste** drücken, können Sie den Löschvorgang durch anschließendes Drücken der **[!UICONTROL Eingabetaste]** bestätigen.
+* Drücken Sie **Esc**, um den Konfigurationsbereich zu schließen und die vorgenommenen Änderungen zu verwerfen. Dies entspricht der Schaltfläche **[!UICONTROL Cancel]**.
+* Press **[!UICONTROL Enter]** or click outside the pane to close the configuration pane. Änderungen werden gespeichert. Dies entspricht der Schaltfläche **[!UICONTROL Ok]**.
+* If you press **[!UICONTROL Delete]** or **backspace**, you can then press **[!UICONTROL Enter]** to confirm the deletion.
 
 _In Popups:_
 
 * Drücken Sie **Esc**, um sie zu schließen (entspricht der Schaltfläche **Abbrechen**).
-* Drücken Sie zum Speichern oder Bestätigen die **[!UICONTROL Eingabetaste]** (entspricht der Schaltfläche **[!UICONTROL OK]** oder **[!UICONTROL Speichern]**).
+* Press **[!UICONTROL Enter]** to save or confirm (equivalent of the **[!UICONTROL Ok]** or **[!UICONTROL Save]** button).
 
 _Im Ereignis-, Datenquellen- oder Aktionskonfigurationsbereich:_
 
 * Drücken Sie **Esc**, um den Konfigurationsbereich ohne Speichern zu schließen.
-* Drücken Sie die **[!UICONTROL Eingabetaste]**, wenn Sie Änderungen speichern und den Konfigurationsbereich schließen möchten.
+* Press **[!UICONTROL Enter]** to save modifications and close the configuration pane.
 * Drücken Sie die **Tabulatortaste**, um zwischen den verschiedenen zu konfigurierenden Feldern zu wechseln.
 
 _Im einfachen Ausdruckseditor:_
@@ -133,5 +134,5 @@ _In einem Bildschirm mit einer Suchleiste:_
 _In der Arbeitsfläche einer Journey:_
 
 * Verwenden Sie die Tastenkombination **Strg-Taste/Befehlstaste+A**, um alle Aktivitäten auszuwählen.
-* Wenn eine oder mehrere Aktivitäten ausgewählt sind, drücken Sie die Taste **[!UICONTROL Entf]** oder die **Rücktaste**, um diese Aktivitäten zu löschen. Dann können Sie die **[!UICONTROL Eingabetaste]** drücken, um den Vorgang im Bestätigungs-Popup zu bestätigen.
+* When one or several activities are selected, press **[!UICONTROL Delete]** or **backspace** to delete them. Then you can press **[!UICONTROL Enter]** to confirm in the confirmation pop-up.
 * Doppelklicken Sie auf eine Aktivität in der linken Palette, um sie an der ersten verfügbaren Position (von oben nach unten) hinzuzufügen.
