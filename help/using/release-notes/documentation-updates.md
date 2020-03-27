@@ -10,8 +10,8 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 73f1a503ea2c8b3494460c666a05078ed914e58b
+translation-type: tm+mt
+source-git-commit: 18f5d56e77958fc33c8e5e7e9d450943207a6017
 
 ---
 
@@ -23,6 +23,10 @@ Lesen Sie auch die [Versionshinweise](../release-notes/release-notes.md) zu Jour
 
 ## März 2020 {#march-2020}
 
+* Die Beschränkungen für benutzerdefinierte Aktionen, die für eine Reise verwendet werden, wurden aktualisiert. Sie können auch das Feld **URL** und die Parameter **Authentifizierung** ändern. [mehr dazu](../action/about-custom-action-configuration.md)
+* Es wurden neue Einträge für die kontextuelle Hilfe hinzugefügt. Der Bereich für die Nutzlast der benutzerdefinierten Authentifizierung (in Aktionen und Datenquellen) enthält jetzt ein Hilfesymbol, das zu diesem [Abschnitt](../datasource/external-data-sources.md#section_wjp_nl5_nhb)führt. Das Hilfesymbol zur Liste der Reise enthält jetzt auch Links zu diesem [Abschnitt](../building-journeys/using-the-journey-designer.md#journey_list).
+* Fertige Fahrten können jetzt gestoppt werden. [mehr dazu](../building-journeys/using-the-journey-designer.md)
+* Der Abschnitt &quot;Schnittstellenbeschreibung&quot;wurde neu organisiert. [mehr dazu](../about/user-interface.md)
 * Die Auslösung mehrerer Ereignisse wurde dem Abschnitt „Testmodus“ hinzugefügt. [Mehr dazu](../building-journeys/testing-the-journey.md#firing_events)
 * Der Abschnitt „Testmodus“ wurde hinsichtlich des neuen Parameters **Wartezeit im Test** aktualisiert. [Mehr dazu](../building-journeys/testing-the-journey.md)
 * Der Abschnitt „Testprotokoll“ wurde mit Fehlercodes und Antworten für externe Aufrufe aktualisiert. [Mehr dazu](../building-journeys/testing-the-journey.md#viewing_logs)
