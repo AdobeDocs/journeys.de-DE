@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c34ce9723168db3a35e3c5de122eae3462b83c0
+source-git-commit: e53ecd96bbb308fe109843de6f64cde4cba5e246
 
 ---
 
@@ -44,4 +44,4 @@ Im Folgenden werden die wichtigsten Schritte beschrieben, die zum Konfigurieren 
 
    >[!NOTE]
    >
-   >Wird eine benutzerdefinierte Aktion in einer Journey-Version verwendet, sind die meisten Parameter schreibgeschützt. Sie können nur die **[!UICONTROL Name]**-, **[!UICONTROL Description]**-, **[!UICONTROL URL]** - und den **[!UICONTROL Authentication]** -Abschnitt ändern.
+   >Wenn eine benutzerdefinierte Aktion in einer Reise verwendet wird, sind die meisten Parameter schreibgeschützt. Sie können nur die **[!UICONTROL Name]**-, **[!UICONTROL Description]**-, **[!UICONTROL URL]** - und den **[!UICONTROL Authentication]** -Abschnitt ändern.
