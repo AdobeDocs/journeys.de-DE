@@ -10,8 +10,8 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: d331454b0ad351a1967ec57d0b3f24a675f10f2a
+translation-type: tm+mt
+source-git-commit: 66e4acb339e9190cf2877c0ab1824ca5f41c8a6d
 
 ---
 
@@ -59,7 +59,7 @@ Sie können auch den Abschnitt [Aktualisierungen der Dokumentation](../release-n
 <p>Das Zeitzonen-Management ist jetzt im Eigenschaften-Bereich der Journey gebündelt. In den Eigenschaften der Journey wurden zwei Parameter hinzugefügt:</p>
 <img src="../assets/rn-timezone.png"/>
 <ul>
-<li>In der Dropdown-Liste <strong>Zeitzone</strong> können Sie eine bestimmte Zeitzone auswählen. Standardmäßig wird die Zeitzone des Browsers verwendet.</li>
+<li>In der Dropdown-Liste <strong>Zeitzone</strong> können Sie eine bestimmte Zeitzone auswählen. Standardmäßig wird die Zeitzone des Browsers verwendet. </li>
 <li>Sofern verfügbar, können Sie mit dem Kontrollkästchen <strong>Zeitzone des Profils</strong> die Zeitzone des Experience Platform-Profils der Person verwenden, die in die Journey eintritt. Andernfalls wird die in der Dropdown-Liste definierte Zeitzone verwendet. Diese Funktion ist nicht mit Journeys kompatibel, die Ereignisse ohne Namespace verwenden.</li>
 </ul>
 <p>Weitere Informationen finden Sie in den Abschnitten <a href="../building-journeys/changing-properties.md#timezone">Ändern von Eigenschaften</a> und <a href="../building-journeys/timezone-management.md">Zeitzonen-Management</a>.</p>
@@ -134,4 +134,4 @@ Journey Orchestration erlaubt eine Echtzeit-Orchestrierung auf Basis von Kontext
 Zusätzliche Ressourcen:
 
 * [Tutorials](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
-* [Community](https://www.adobe.com/go/journeyorchestrationcommunity_de)
+* [Community](https://www.adobe.com/go/journeyorchestrationcommunity)
