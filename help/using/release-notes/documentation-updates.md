@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6f196f22d4f5b03973bead78d3fe5454f109734d
+source-git-commit: 0bf8ce5974b7be684a156d5c5445dca122213237
 
 ---
 
@@ -23,7 +23,7 @@ Lesen Sie auch die [Versionshinweise](../release-notes/release-notes.md) zu Jour
 
 ## März 2020 {#march-2020}
 
-* Parameterbeschreibungen für _actionExecutionErrors_ und _fetchErrors_ wurden im Abschnitt Testprotokolle hinzugefügt. [mehr dazu](../action/testing-the-journey.md#viewing_logs)
+* Parameterbeschreibungen für _actionExecutionErrors_ und _fetchErrors_ wurden im Abschnitt Testprotokolle hinzugefügt. [mehr dazu](../building-journeys/testing-the-journey.md#viewing_logs)
 * Die Beschränkungen für benutzerdefinierte Aktionen, die für eine Reise verwendet werden, wurden aktualisiert. Sie können auch das Feld **URL** und die Parameter **Authentifizierung** ändern. [mehr dazu](../action/about-custom-action-configuration.md)
 * Es wurden neue Einträge für die kontextuelle Hilfe hinzugefügt. Der Bereich für die Nutzlast der benutzerdefinierten Authentifizierung (in Aktionen und Datenquellen) enthält jetzt ein Hilfesymbol, das zu diesem [Abschnitt](../datasource/external-data-sources.md#section_wjp_nl5_nhb)führt.
 * Fertige Fahrten können jetzt gestoppt werden. [mehr dazu](../building-journeys/using-the-journey-designer.md)
