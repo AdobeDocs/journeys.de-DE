@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: bc5b29eefa4d787cd448352252823a616489d8c8
+source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
 
 ---
 
@@ -35,10 +35,10 @@ You can also access Journey Orchestration from the Experience Cloud home page, i
 ## Kennenlernen der Benutzeroberfläche{#section_jsq_zr1_ffb}
 
 >[!CONTEXTUALHELP]
->id=&quot;jo_home&quot;
->title=&quot;Über die Liste der Journeys&quot;
->abstract=&quot;Die Liste der Journeys ermöglicht es Ihnen, alle Ihre Journeys gleichzeitig anzuzeigen, deren Status zu prüfen und grundlegende Aktionen durchzuführen. Sie können Ihre Journeys duplizieren, stoppen oder löschen. Je nach Journey stehen bestimmte Aktionen möglicherweise nicht zur Verfügung. Sie können beispielsweise eine abgeschlossene Reise nicht löschen oder neu starten. Sie können daraus eine neue Version erstellen oder diese Duplikat erstellen. Sie können auch die Suchleiste verwenden, um nach einer Journey zu suchen.&quot;
->additional-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;Demovideo ansehen&quot;
+>id="jo_home"
+>title="Informationen zur Liste von Reisen"
+>abstract="Die Liste der Journeys ermöglicht es Ihnen, alle Ihre Journeys gleichzeitig anzuzeigen, deren Status zu sehen und grundlegende Aktionen durchzuführen. Sie können Ihre Journeys duplizieren, stoppen oder löschen. Je nach Journey stehen bestimmte Aktionen möglicherweise nicht zur Verfügung. Sie können beispielsweise eine abgeschlossene Reise nicht löschen oder neu starten. Sie können daraus eine neue Version erstellen oder diese Duplikat erstellen. Sie können auch die Suchleiste verwenden, um nach einer Journey zu suchen."
+>additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Demovideo ansehen"
 
 The top menus allow you to navigate through the different functionalities of Journey Orchestration: **[!UICONTROL Home]**(the journeys),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
 
@@ -78,7 +78,7 @@ In den verschiedenen Listen können Sie grundlegende Aktionen für einzelne Elem
 
 Bei der Definition von [Ereignis-Payload](../event/defining-the-payload-fields.md), [Feldgruppen-Payload](../datasource/field-groups.md) und der Auswahl von Feldern im [Ausdruckseditor](../expression/expressionadvanced.md) wird der Anzeigename zusätzlich zum Feldnamen angezeigt. Diese Informationen werden aus der Schemadefinition im Experience-Datenmodell abgerufen.
 
-Wenn beim Einrichten von Schemata Deskriptoren wie „xdm:alternativeDisplayInfo“ angegeben werden, werden die Anzeigenamen durch benutzerfreundliche Namen ersetzt. Dies ist besonders bei der Verwendung von eVars und generischen Feldern nützlich. Deskriptoren für benutzerfreundliche Namen können über einen API-Aufruf konfiguriert werden. Weitere Informationen finden Sie im [Entwicklerhandbuch zur Schema Registry](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md).
+Wenn beim Einrichten von Schemata Deskriptoren wie „xdm:alternativeDisplayInfo“ angegeben werden, werden die Anzeigenamen durch benutzerfreundliche Namen ersetzt. Dies ist besonders bei der Verwendung von eVars und generischen Feldern nützlich. Deskriptoren für benutzerfreundliche Namen können über einen API-Aufruf konfiguriert werden. Weitere Informationen finden Sie im [Entwicklerhandbuch zur Schema Registry](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html).
 
 ![](../assets/xdm-from-descriptors.png)
 
