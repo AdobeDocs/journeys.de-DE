@@ -3,8 +3,8 @@ keywords: Journeys;home;popular topics
 solution: Journeys
 title: Produktdokumentation für Journey Orchestration
 topic: Premium
-translation-type: ht
-source-git-commit: 94826cde0d8de196f9f8dfcece417df8d593b40e
+translation-type: tm+mt
+source-git-commit: 504d19f151863378ea8d0a84978d7df4304d6614
 
 ---
 
@@ -22,6 +22,8 @@ source-git-commit: 94826cde0d8de196f9f8dfcece417df8d593b40e
 * **[Konfigurieren eines Ereignisses](using/event/about-events.md#section_tbk_5qt_pgb)**<br/>Erfahren Sie, wie Sie die Ereignisse konfigurieren, auf die Ihre Journeys reagieren.
 
 * **[Gewähren von Zugriff auf die Journey Orchestration](using/about/access-management.md)**<br/>Erfahren Sie, wie Sie den Zugriff Ihrer Anwender mit Produktprofilen und -rechten verwalten.
+
+* **[Entdecken Sie die Neuerungen](using/release-notes/release-notes.md)**<br/>Erfahren Sie mehr über die neuesten Versionen.
 
 ## Wichtigste Seiten
 
@@ -62,9 +64,9 @@ source-git-commit: 94826cde0d8de196f9f8dfcece417df8d593b40e
 
 ## Zusätzliche Ressourcen
 
-* [Experience Platform](https://www.adobe.com/de/experience-platform/documentation-and-developer-resources.html)
-* [Echtzeit-Kundenprofil](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/unified_profile_architectural_overview/unified_profile_architectural_overview.md)
-* [Experience Cloud-XDM-Felddefinition](https://www.adobe.io/apis/cloudplatform/dataservices/xdm.html)
-* [Identity Namespace](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/identity_namespace_overview/identity_namespace_overview.md)
-* [Streaming-Aufnahme-APIs](https://www.adobe.io/apis/cloudplatform/dataservices/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md)
-* [Transaktionsnachrichten in Adobe Campaign Standard](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
+* [Dokumentation zu Experience Platform](https://www.adobe.com/de/experience-platform/documentation-and-developer-resources.html)
+* [Dokumentation zum Profil von Kunden in Echtzeit](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
+* [Experience Cloud-XDM-Felddefinition](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html)
+* [Dokumentation zu Identitäts-Namensraum](https://docs.adobe.com/content/help/en/experience-platform/identity/home.html)
+* [Streaming-Aufnahme-APIs](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/overview.html)
+* [Dokumentation zu Transaktionsnachrichten von Campaign Standards](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
