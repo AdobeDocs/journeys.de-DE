@@ -10,15 +10,15 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 7e69b19f2b7099e5c015dd1052a58728cf143ffa
+translation-type: tm+mt
+source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
 
 ---
 
 
 # Datenquelle von Adobe Experience Platform {#concept_zrb_nqt_52b}
 
-Die Datenquelle von Experience Platform definiert die Verbindung zum Echtzeit-Kundenprofildienst. Diese Datenquelle ist integriert und vorkonfiguriert. Sie kann nicht gelöscht werden. Diese Datenquelle dient zum Abrufen und Verwenden von Daten aus dem Echtzeit-Kundenprofildienst (überprüfen Sie beispielsweise, ob es sich bei der Person, die an einer Journey teilnimmt, um eine Frau handelt). Sie ermöglicht Ihnen die Verwendung von Profildaten und Erlebnisereignisdaten. Weitere Informationen zum Echtzeit-Kundenprofildienst finden Sie auf dieser [Seite](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/unified_profile_architectural_overview/unified_profile_architectural_overview.md).
+Die Datenquelle von Experience Platform definiert die Verbindung zum Echtzeit-Kundenprofildienst. Diese Datenquelle ist integriert und vorkonfiguriert. Sie kann nicht gelöscht werden. Diese Datenquelle dient zum Abrufen und Verwenden von Daten aus dem Echtzeit-Kundenprofildienst (überprüfen Sie beispielsweise, ob es sich bei der Person, die an einer Journey teilnimmt, um eine Frau handelt). Sie ermöglicht Ihnen die Verwendung von Profildaten und Erlebnisereignisdaten. Weitere Informationen zum Echtzeit-Kundenprofildienst finden Sie auf dieser [Seite](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html).
 
 >[!NOTE]
 >
@@ -36,13 +36,13 @@ Im Folgenden finden Sie die wichtigsten Schritte, um der integrierten Datenquell
 
    ![](../assets/journey23.png)
 
-1. Klicken Sie auf **[!UICONTROL Neue Feldergruppe hinzufügen]**, um eine neue Reihe von Feldern zum Abrufen zu definieren. Siehe [](../datasource/field-groups.md).
+1. Klicken Sie auf **[!UICONTROL Add a New Field Group]** , um eine neue Reihe von Feldern zum Abrufen zu definieren. Siehe [](../datasource/field-groups.md).
 
    ![](../assets/journey24.png)
 
-1. Wählen Sie ein Schema aus der Dropdown-Liste **[!UICONTROL Schema]** aus. In diesem Feld werden die in der Plattform verfügbaren Profil- und Erlebnisereignisschemata aufgelistet. Die Schemaerstellung wird nicht in Journey Orchestration durchgeführt. Sie wird in der Datenplattform durchgeführt.
+1. Wählen Sie ein aus der Dropdown-Liste **[!UICONTROL Schema]** Schema aus. In diesem Feld werden die in der Plattform verfügbaren Profil- und Erlebnisereignisschemata aufgelistet. Die Schemaerstellung wird nicht in Journey Orchestration durchgeführt. Sie wird in der Datenplattform durchgeführt.
 1. Wählen Sie die Felder aus, die Sie verwenden möchten.
 1. Definieren Sie die Aufbewahrungsfrist im Cache.
-1. Klicken Sie auf **[!UICONTROL Speichern]**.
+1. Klicken Sie auf **[!UICONTROL Save]**.
 
-Wenn Sie den Cursor auf dem Namen einer Feldergruppe platzieren, werden rechts zwei Symbole angezeigt. Damit können Sie die Feldergruppe löschen und duplizieren. Beachten Sie, dass das Symbol **[!UICONTROL Löschen]** nur verfügbar ist, wenn die Feldergruppe in keiner Live- oder Entwurfs-Journey verwendet wird (die Information wird im Feld **[!UICONTROL Verwendet in]** angezeigt).
+Wenn Sie den Cursor auf dem Namen einer Feldergruppe platzieren, werden rechts zwei Symbole angezeigt. Damit können Sie die Feldergruppe löschen und duplizieren. Note that the **[!UICONTROL Delete]** icon is only available if the field group is not used in any live or draft journey (information displayed in the **[!UICONTROL Used in]** field).
