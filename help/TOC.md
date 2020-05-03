@@ -1,10 +1,10 @@
 ---
 product: Journeys
 audience: end-user
-user-guide-title: Journey Orchestration Help
+user-guide-title: Hilfe für Journey Orchestration
 index: true
-translation-type: ht
-source-git-commit: 22569d66acb1637efc346f77864302b9e2cb6070
+translation-type: tm+mt
+source-git-commit: ea891b40633378843a00a3ac56c6703f792d39e1
 
 ---
 
@@ -23,6 +23,7 @@ source-git-commit: 22569d66acb1637efc346f77864302b9e2cb6070
    + [Problembehebung](using/about/troubleshooting.md)
 + Konfigurieren eines Ereignisses {#events-journeys}
    + [Informationen zu Ereignissen](using/event/about-events.md)
+   + [Info zu ExperienceEvent-Schemas](using/event/experience-event-schema.md)
    + [Definieren der Payload-Felder](using/event/defining-the-payload-fields.md)
    + [Auswählen des Namespace](using/event/selecting-the-namespace.md)
    + [Definieren des Ereignisschlüssels](using/event/defining-the-event-key.md)
@@ -72,6 +73,7 @@ source-git-commit: 22569d66acb1637efc346f77864302b9e2cb6070
       + [Feldverweise](using/expression/field-references.md)
       + [Funktionen zur Verwaltung von Sammlungen](using/expression/collection-management-functions.md)
       + [Operatoren](using/expression/operators.md)
+      + [Beispiele](using/expression/advanced-editor-use-cases.md)
    + Funktionen {#main-functions-journey}
       + [Hauptfunktionen](using/expression/functions.md)
       + Adobe Experience Platform {#adobe-experience-platform}
