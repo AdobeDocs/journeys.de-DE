@@ -10,8 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 87910a9f3dbf2c34776a8d2ab1f00426e8b0704c
+workflow-type: tm+mt
+source-wordcount: '291'
+ht-degree: 100%
 
 ---
 
@@ -19,9 +22,9 @@ source-git-commit: 87910a9f3dbf2c34776a8d2ab1f00426e8b0704c
 # Informationen zu Aktionen {#about_actions}
 
 >[!CONTEXTUALHELP]
->id=&quot;jo_actions&quot;
->title=&quot;Informationen zu Aktionen&quot;
->abstract=&quot;Hier definieren Sie die Verbindung zum System, das Nachrichten senden soll. Die hier definierten Aktionen stehen dann in der linken Palette Ihrer Journey in der Kategorie „Aktion“ zur Verfügung. &quot;
+>id="jo_actions"
+>title="Informationen zu Aktionen"
+>abstract="Hier definieren Sie die Verbindung zum System, das Nachrichten senden soll. Die hier definierten Aktionen stehen dann in der linken Palette Ihrer Journey in der Kategorie „Aktion“ zur Verfügung. "
 
 Aktionen sind Verbindungen, über die Sie Kunden personalisierte Echtzeit-Erlebnisse bereitstellen können. Dies sind z. B. Push-Benachrichtigungen, E-Mails, SMS oder andere digitale Interaktionen, die Sie in Ihrem Unternehmen verwenden. 
 
