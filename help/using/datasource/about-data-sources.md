@@ -10,8 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 690f8c1732c7d54c234e9ba633a2cf014492f423
+workflow-type: tm+mt
+source-wordcount: '359'
+ht-degree: 100%
 
 ---
 
@@ -19,9 +22,9 @@ source-git-commit: 690f8c1732c7d54c234e9ba633a2cf014492f423
 # Informationen zu Datenquellen {#concept_s1s_dqt_52b}
 
 >[!CONTEXTUALHELP]
->id=&quot;jo_datasources&quot;
->title=&quot;Informationen zu Datenquellen&quot;
->abstract=&quot;Die Konfiguration von Datenquellen wird immer von einem technischen Anwender durchgeführt. Mit der Datenquellenkonfiguration können Sie eine Verbindung zu einem System definieren, um zusätzliche Informationen abzurufen, die in Ihren Journeys verwendet werden. Damit können Sie Bedingungen definieren, Parameter- und Personalisierungsdaten in Aktionen verwenden sowie die Wartezeit und die Zeitzone definieren.&quot;
+>id="jo_datasources"
+>title="Informationen zu Datenquellen"
+>abstract="Die Konfiguration von Datenquellen wird immer von einem technischen Anwender durchgeführt. Mit der Datenquellenkonfiguration können Sie eine Verbindung zu einem System definieren, um zusätzliche Informationen abzurufen, die in Ihren Journeys verwendet werden. Damit können Sie Bedingungen definieren, Parameter- und Personalisierungsdaten in Aktionen verwenden sowie die Wartezeit und die Zeitzone definieren."
 
 Mit der Datenquellenkonfiguration können Sie eine Verbindung zu einem System definieren, um zusätzliche Informationen abzurufen, die in Ihren Journeys verwendet werden, zum Beispiel für:
 
