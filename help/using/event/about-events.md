@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
+workflow-type: tm+mt
+source-wordcount: '742'
+ht-degree: 98%
 
 ---
 
@@ -45,11 +48,11 @@ Die Pipeline filtert Ereignisse mit einer Payload, die eventIDs von Journey Orch
 
 Im Folgenden finden Sie die wichtigsten Schritte zum Konfigurieren eines neuen Ereignisses:
 
-1. In the top menu, click on the **[!UICONTROL Events]** tab. Die Liste der Ereignisse wird angezeigt. Weitere Informationen zur Benutzeroberfläche finden Sie unter [](../about/user-interface.md).
+1. Klicken Sie oben im Menü auf den Tab **[!UICONTROL Ereignisse]**. Die Liste der Ereignisse wird angezeigt. Weitere Informationen zur Benutzeroberfläche finden Sie unter [](../about/user-interface.md).
 
    ![](../assets/journey5.png)
 
-1. Click **[!UICONTROL Add]** to create a new event. Der Bereich für die Ereigniskonfiguration wird auf der rechten Seite des Bildschirms geöffnet.
+1. Klicken Sie auf **[!UICONTROL Hinzufügen]**, um ein neues Ereignis zu erstellen. Der Bereich für die Ereigniskonfiguration wird auf der rechten Seite des Bildschirms geöffnet.
 
    ![](../assets/journey6.png)
 
@@ -61,11 +64,11 @@ Im Folgenden finden Sie die wichtigsten Schritte zum Konfigurieren eines neuen E
 
 1. Fügen Sie Ihrem Ereignis eine Beschreibung hinzu. Dieser Schritt ist optional.
 1. Definieren Sie das Schema und die Payload-Felder: Hier wählen Sie die Ereignisinformationen aus (normalerweise als Payload bezeichnet), die von Journey Orchestration erwartet werden. Anschließend können Sie diese Informationen in Ihrer Journey verwenden. Siehe [](../event/defining-the-payload-fields.md).
-1. The number of journeys that use this event is displayed in the **[!UICONTROL Used in]** field. You can click the **[!UICONTROL View journeys]** icon to display the list of journeys using this event.
+1. Die Anzahl der Journeys, die dieses Ereignis verwenden, wird im Feld **[!UICONTROL Verwendet in]** angezeigt. Sie können auf **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der Journeys mit diesem Ereignis anzuzeigen.
 1. Fügen Sie einen Namespace hinzu. Dieser Schritt ist optional, wird jedoch empfohlen, da das Hinzufügen eines Namespace es Ihnen ermöglicht, die im Echtzeit-Kundenprofildienst gespeicherten Informationen zu nutzen. Er definiert den Typ des Schlüssels, den das Ereignis hat. Siehe [](../event/selecting-the-namespace.md).
 1. Definieren Sie den Schlüssel: Wählen Sie ein Feld aus Ihren Payload-Feldern aus oder definieren Sie eine Formel, um die mit dem Ereignis verbundene Person zu identifizieren. Dieser Schlüssel wird automatisch eingerichtet (kann aber weiterhin bearbeitet werden), wenn Sie einen Namespace auswählen. Journey Orchestration wählt den Schlüssel aus, der dem Namespace entsprechen soll (wenn Sie beispielsweise einen E-Mail-Namespace auswählen, wird der E-Mail-Schlüssel ausgewählt). Siehe [](../event/defining-the-event-key.md).
 1. Fügen Sie eine Bedingung hinzu. Dieser Schritt ist optional. Dadurch kann das System nur die Ereignisse verarbeiten, die die Bedingung erfüllen. Die Bedingung kann nur auf den im Ereignis enthaltenen Informationen basieren. Siehe [](../event/adding-a-condition.md).
-1. Klicks **[!UICONTROL Save]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
    ![](../assets/journey7.png)
 
