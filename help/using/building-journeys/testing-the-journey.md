@@ -10,8 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e53ecd96bbb308fe109843de6f64cde4cba5e246
+workflow-type: ht
+source-wordcount: '916'
+ht-degree: 100%
 
 ---
 
@@ -34,17 +37,17 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 
    ![](../assets/journeytest_wait.png)
 
-1. Klicken Sie auf **[!UICONTROL Trigger an event]** , um Ereignis zu konfigurieren und zur Reise zu senden. Vergewissern Sie sich, dass Ereignisse gesendet werden, die im Zusammenhang mit Testprofilen stehen. Siehe [Auslösen Ihrer Ereignisse](#firing_events).
+1. Klicken Sie auf **[!UICONTROL Ereignis auslösen]**, um Ereignisse zu konfigurieren und an die Journey zu senden. Vergewissern Sie sich, dass Ereignisse gesendet werden, die im Zusammenhang mit Testprofilen stehen. Siehe [Auslösen Ihrer Ereignisse](#firing_events).
 
    ![](../assets/journeyuctest1.png)
 
-1. After the events are received, click the **[!UICONTROL Show log]** button to view the test result and verify them. Siehe [Anzeigen der Protokolle](#viewing_logs).
+1. Nachdem die Ereignisse eingegangen sind, klicken Sie auf die Schaltfläche **[!UICONTROL Protokoll anzeigen]**, um das Testergebnis anzuzeigen und zu überprüfen. Siehe [Anzeigen der Protokolle](#viewing_logs).
 
    ![](../assets/journeyuctest2.png)
 
 1. Wenn ein Fehler auftritt, deaktivieren Sie den Testmodus, ändern Sie Ihre Journey und testen Sie sie erneut. Wenn der Test abgeschlossen ist, können Sie Ihre Journey veröffentlichen. Siehe [](../building-journeys/publishing-the-journey.md).
 
-## Wichtige Hinweise    {#important_notes}
+## Wichtige Hinweise      {#important_notes}
 
 * Es wird eine Benutzeroberfläche bereitgestellt, über die Ereignisse für die getestete Journey ausgelöst werden können. Ereignisse können aber auch von Drittanbietersystemen wie Postman gesendet werden.
 * Nur Kontakte, die im Echtzeit-Kundenprofil als „Testprofile“ gekennzeichnet sind, dürfen an der getesteten Journey teilnehmen. Der Prozess zum Erstellen eines Testprofils entspricht dem Vorgang zum Erstellen eines Profils in der Datenplattform. Sie müssen nur sicherstellen, dass die Testprofilmarkierung aktiviert ist. Sie können den Abschnitt „Segmente“ in der Benutzeroberfläche der Datenplattform verwenden, um ein Segment mit Testprofilen in Ihrer Datenplattform zu erstellen und eine Liste anzuzeigen, die nicht vollständig ist. Die vollständige Liste kann zu diesem Zeitpunkt nicht angezeigt werden.
@@ -56,7 +59,7 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 
 ## Auslösen Ihrer Ereignisse {#firing_events}
 
-The **[!UICONTROL Trigger an event]** button allows you to configure an event that will make a person enter the journey.
+Mit der Schaltfläche **[!UICONTROL Ereignis auslösen]** können Sie ein Ereignis konfigurieren, das eine Person zum Zutritt zur Journey veranlasst.
 
 Als Voraussetzung müssen Sie wissen, welche Profile in der Datenplattform als Testprofile gekennzeichnet sind. Der Testmodus lässt nur diese Profile in der Journey zu und das Ereignis muss eine ID enthalten. Die erwartete ID hängt von der Ereigniskonfiguration ab. Sie kann beispielsweise eine ECID sein.
 
@@ -64,7 +67,7 @@ Wenn Ihre Journey mehrere Ereignisse enthält, wählen Sie ein Ereignis aus der 
 
 ![](../assets/journeytest4.png)
 
-Über die Benutzeroberfläche können Sie einfache Ereignisparameter übergeben. If you want to pass collections or other advanced objects in the event, you can click on **[!UICONTROL Code View]** to see the entire code of the payload and modify it. Beispielsweise können Sie die von einem technischen Anwender erstellten Ereignisinformationen kopieren und einfügen.
+Über die Benutzeroberfläche können Sie einfache Ereignisparameter übergeben. Wenn Sie Sammlungen oder andere erweiterte Objekte in dem Ereignis verwenden möchten, können Sie auf **[!UICONTROL Codeansicht]** klicken, um den gesamten Code der Payload anzuzeigen und zu ändern. Beispielsweise können Sie die von einem technischen Anwender erstellten Ereignisinformationen kopieren und einfügen.
 
 ![](../assets/journeytest5.png)
 
@@ -72,7 +75,7 @@ Ein technischer Anwender kann diese Benutzeroberfläche auch verwenden, um Paylo
 
 ## Anzeigen der Protokolle {#viewing_logs}
 
-The **[!UICONTROL Show log]** button allows you to view the test results. Auf dieser Seite werden die aktuellen Informationen der Journey im JSON-Format angezeigt. Mit einer Schaltfläche können Sie ganze Knoten kopieren. Sie müssen die Seite manuell aktualisieren, um die Testergebnisse der Journey zu aktualisieren.
+Mit der Schaltfläche **[!UICONTROL Protokoll anzeigen]** können Sie die Testergebnisse anzeigen. Auf dieser Seite werden die aktuellen Informationen der Journey im JSON-Format angezeigt. Mit einer Schaltfläche können Sie ganze Knoten kopieren. Sie müssen die Seite manuell aktualisieren, um die Testergebnisse der Journey zu aktualisieren.
 
 ![](../assets/journeytest3.png)
 
@@ -90,5 +93,5 @@ Die Anzahl der Kontakte (technisch gesehen handelt es sich um Instanzen), die si
 * _externalKeys_: der Wert für die im Ereignis definierte Schlüsselformel.
 * _enrichedData_: die Daten, die die Journey abgerufen hat, falls sie Datenquellen verwendet hat.
 * _transitionHistory_: die Schritte, denen der betreffende Kontakt folgte. Bei Ereignissen wird die Payload angezeigt.
-* _actionExecutionErrors_ : Informationen zu den aufgetretenen Fehlern.
+* _actionExecutionErrors_: Informationen zu den aufgetretenen Fehlern.
 
