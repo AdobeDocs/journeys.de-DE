@@ -10,8 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0bf8ce5974b7be684a156d5c5445dca122213237
+workflow-type: ht
+source-wordcount: '383'
+ht-degree: 100%
 
 ---
 
@@ -23,11 +26,11 @@ Lesen Sie auch die [Versionshinweise](../release-notes/release-notes.md) zu Jour
 
 ## März 2020 {#march-2020}
 
-* Parameterbeschreibungen für _actionExecutionErrors_ und _fetchErrors_ wurden im Abschnitt Testprotokolle hinzugefügt. [mehr dazu](../building-journeys/testing-the-journey.md#viewing_logs)
-* Die Beschränkungen für benutzerdefinierte Aktionen, die für eine Reise verwendet werden, wurden aktualisiert. Sie können auch das Feld **URL** und die Parameter **Authentifizierung** ändern. [mehr dazu](../action/about-custom-action-configuration.md)
-* Es wurden neue Einträge für die kontextuelle Hilfe hinzugefügt. Der Bereich für die Nutzlast der benutzerdefinierten Authentifizierung (in Aktionen und Datenquellen) enthält jetzt ein Hilfesymbol, das zu diesem [Abschnitt](../datasource/external-data-sources.md#section_wjp_nl5_nhb)führt.
-* Fertige Fahrten können jetzt gestoppt werden. [mehr dazu](../building-journeys/using-the-journey-designer.md)
-* Der Abschnitt &quot;Schnittstellenbeschreibung&quot;wurde neu organisiert. [mehr dazu](../about/user-interface.md)
+* Parameterbeschreibungen für _actionExecutionErrors_ und _fetchErrors_ wurden im Abschnitt über Testprotokolle hinzugefügt – [mehr dazu](../building-journeys/testing-the-journey.md#viewing_logs)
+* Die Beschränkungen für in Journeys verwendete benutzerdefinierte Aktionen wurden aktualisiert. Sie können auch das **URL-Feld** und die **Authentifizierungsparameter** ändern – [mehr dazu](../action/about-custom-action-configuration.md)
+* Es wurden neue Einträge für die kontextuelle Hilfe hinzugefügt. Der Payload-Bereich für die benutzerdefinierte Authentifizierung (in Aktionen und Datenquellen) enthält jetzt ein Hilfesymbol, das auf diesen [Abschnitt](../datasource/external-data-sources.md#section_wjp_nl5_nhb) verweist.
+* Beendete Journeys können jetzt gestoppt werden – [mehr dazu](../building-journeys/using-the-journey-designer.md)
+* Der Abschnitt zur Beschreibung der Benutzeroberfläche wurde neu angeordnet. [mehr dazu](../about/user-interface.md)
 * Die Auslösung mehrerer Ereignisse wurde dem Abschnitt „Testmodus“ hinzugefügt. [Mehr dazu](../building-journeys/testing-the-journey.md#firing_events)
 * Der Abschnitt „Testmodus“ wurde hinsichtlich des neuen Parameters **Wartezeit im Test** aktualisiert. [Mehr dazu](../building-journeys/testing-the-journey.md)
 * Der Abschnitt „Testprotokoll“ wurde mit Fehlercodes und Antworten für externe Aufrufe aktualisiert. [Mehr dazu](../building-journeys/testing-the-journey.md#viewing_logs)
