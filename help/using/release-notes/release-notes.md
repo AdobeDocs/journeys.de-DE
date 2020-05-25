@@ -10,8 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 66e4acb339e9190cf2877c0ab1824ca5f41c8a6d
+workflow-type: ht
+source-wordcount: '758'
+ht-degree: 100%
 
 ---
 
@@ -134,4 +137,4 @@ Journey Orchestration erlaubt eine Echtzeit-Orchestrierung auf Basis von Kontext
 Zusätzliche Ressourcen:
 
 * [Tutorials](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
-* [Community](https://www.adobe.com/go/journeyorchestrationcommunity)
+* [Community](https://www.adobe.com/go/journeyorchestrationcommunity_de)
