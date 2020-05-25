@@ -3,8 +3,11 @@ keywords: Journeys;home;popular topics
 solution: Journeys
 title: Produktdokumentation für Journey Orchestration
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 504d19f151863378ea8d0a84978d7df4304d6614
+workflow-type: ht
+source-wordcount: '195'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: 504d19f151863378ea8d0a84978d7df4304d6614
 
 * **[Gewähren von Zugriff auf die Journey Orchestration](using/about/access-management.md)**<br/>Erfahren Sie, wie Sie den Zugriff Ihrer Anwender mit Produktprofilen und -rechten verwalten.
 
-* **[Entdecken Sie die Neuerungen](using/release-notes/release-notes.md)**<br/>Erfahren Sie mehr über die neuesten Versionen.
+* **[Entdecken Sie die neuen Funktionen](using/release-notes/release-notes.md)**<br/>Erfahren Sie mehr über die neuesten Versionen.
 
 ## Wichtigste Seiten
 
@@ -65,8 +68,8 @@ source-git-commit: 504d19f151863378ea8d0a84978d7df4304d6614
 ## Zusätzliche Ressourcen
 
 * [Dokumentation zu Experience Platform](https://www.adobe.com/de/experience-platform/documentation-and-developer-resources.html)
-* [Dokumentation zum Profil von Kunden in Echtzeit](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
-* [Experience Cloud-XDM-Felddefinition](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html)
-* [Dokumentation zu Identitäts-Namensraum](https://docs.adobe.com/content/help/en/experience-platform/identity/home.html)
-* [Streaming-Aufnahme-APIs](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/overview.html)
-* [Dokumentation zu Transaktionsnachrichten von Campaign Standards](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
+* [Dokumentation zum Echtzeit-Kundenprofil](https://docs.adobe.com/content/help/de-DE/experience-platform/profile/home.html)
+* [Experience Cloud-XDM-Felddefinition](https://docs.adobe.com/content/help/de-DE/experience-platform/xdm/home.html)
+* [Dokumentation zum Identitäts-Namespace](https://docs.adobe.com/content/help/de-DE/experience-platform/identity/home.html)
+* [Streaming-Aufnahme-APIs](https://docs.adobe.com/content/help/de-DE/experience-platform/ingestion/streaming/overview.html)
+* [Dokumentation zu Transaktionsnachrichten von Campaign Standard](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
