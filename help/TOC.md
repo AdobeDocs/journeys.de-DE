@@ -3,8 +3,11 @@ product: Journeys
 audience: end-user
 user-guide-title: Hilfe für Journey Orchestration
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ea891b40633378843a00a3ac56c6703f792d39e1
+workflow-type: ht
+source-wordcount: '307'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: ea891b40633378843a00a3ac56c6703f792d39e1
    + [Problembehebung](using/about/troubleshooting.md)
 + Konfigurieren eines Ereignisses {#events-journeys}
    + [Informationen zu Ereignissen](using/event/about-events.md)
-   + [Info zu ExperienceEvent-Schemas](using/event/experience-event-schema.md)
+   + [Informationen zu ExperienceEvent-Schemata](using/event/experience-event-schema.md)
    + [Definieren der Payload-Felder](using/event/defining-the-payload-fields.md)
    + [Auswählen des Namespace](using/event/selecting-the-namespace.md)
    + [Definieren des Ereignisschlüssels](using/event/defining-the-event-key.md)
