@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a1c4eed8360efcbfcaa5e54c8831e1a4b2ecc02e
 workflow-type: tm+mt
 source-wordcount: '1251'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -100,7 +100,7 @@ Die Datenquelle ist jetzt konfiguriert und kann in Ihren Journeys verwendet werd
 >[!CONTEXTUALHELP]
 >id="jo_authentication_payload"
 >title="Informationen zur benutzerdefinierten Authentifizierung"
->abstract="Der benutzerdefinierte Authentifizierungsmodus wird für die komplexe Authentifizierung verwendet, um API-Umbruchprotokolle wie OAuth2 aufzurufen. Die Aktionsausführung erfolgt in zwei Schritten. Zunächst wird ein Aufruf an den Endpunkt ausgeführt, um das Zugriffstoken zu generieren. Anschließend wird das Zugriffstoken in die HTTP-Anforderung der Aktion eingefügt."
+>abstract="Der benutzerdefinierte Authentifizierungsmodus wird für die komplexe Authentifizierung verwendet, um API-Wrapping-Protokolle wie OAuth2 aufzurufen. Die Aktionsausführung erfolgt in zwei Schritten. Zunächst wird der Endpunkt aufgerufen, um das Zugriffs-Token zu generieren. Anschließend wird das Zugriffs-Token in die HTTP-Anfrage der Aktion eingefügt."
 
 Dieser Authentifizierungsmodus wird für die komplexe Authentifizierung verwendet, die häufig zum Aufrufen von API-Wrapping-Protokollen wie OAuth2 verwendet wird, um ein Zugriffstoken abzurufen, das in die eigentliche HTTP-Anfrage für die Aktion eingefügt werden soll.
 
