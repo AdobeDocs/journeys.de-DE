@@ -10,8 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 76369cd714c513e0038278ad058bf1ba43fcd240
+translation-type: tm+mt
+source-git-commit: 20ffc07586ba34d94b2b2369b23be867d8488363
+workflow-type: tm+mt
+source-wordcount: '486'
+ht-degree: 97%
 
 ---
 
@@ -29,7 +32,7 @@ Wenn Sie ein Administrator sind, können Sie den Namen der Journey ändern, eine
 
 Standardmäßig ist bei neuen Journeys der erneute Zutritt erlaubt. Sie können die Option für „einmalige“ Journeys deaktivieren, z. B. wenn Sie ein einmaliges Geschenk anbieten möchten, wenn eine Person einen Shop betritt. In diesem Fall möchten Sie nicht, dass der Kunde die Journey erneut betreten und das Angebot erneut wahrnehmen kann.
 
-Wenn eine Journey „endet“, weist sie den Status **[!UICONTROL Beendet]** auf. Die Journey erlaubt den Zutritt neuer Kontakte nicht mehr. Personen, die sich bereits in der Journey befinden, beenden die Journey wie gewohnt.
+When a journey &quot;ends&quot;, it will have the status **[!UICONTROL Closed (no entrance)]**. Die Journey erlaubt den Zutritt neuer Kontakte nicht mehr. Personen, die sich bereits in der Journey befinden, beenden die Journey wie gewohnt.
 
 ## Zeitüberschreitung und Fehler bei Journey-Aktivitäten {#timeout_and_error}
 
