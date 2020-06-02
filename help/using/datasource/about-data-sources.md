@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 690f8c1732c7d54c234e9ba633a2cf014492f423
+source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 100%
+source-wordcount: '357'
+ht-degree: 88%
 
 ---
 
@@ -24,14 +24,14 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="jo_datasources"
 >title="Informationen zu Datenquellen"
->abstract="Die Konfiguration von Datenquellen wird immer von einem technischen Anwender durchgeführt. Mit der Datenquellenkonfiguration können Sie eine Verbindung zu einem System definieren, um zusätzliche Informationen abzurufen, die in Ihren Journeys verwendet werden. Damit können Sie Bedingungen definieren, Parameter- und Personalisierungsdaten in Aktionen verwenden sowie die Wartezeit und die Zeitzone definieren."
+>abstract="Die Konfiguration von Datenquellen wird immer von einem technischen Anwender durchgeführt. Mit der Datenquellenkonfiguration können Sie eine Verbindung zu einem System definieren, um zusätzliche Informationen abzurufen, die auf Ihren Reisen verwendet werden, z. B.: Bedingungsdefinition, Parameter- und Personalisierungsdaten in Aktionen, benutzerdefinierte Wartedefinition, Zeitzonendefinition."
 
 Mit der Datenquellenkonfiguration können Sie eine Verbindung zu einem System definieren, um zusätzliche Informationen abzurufen, die in Ihren Journeys verwendet werden, zum Beispiel für:
 
 * [Definition von Bedingungen](../building-journeys/condition-activity.md)
 * Parameter- und Personalisierungsdaten in [Aktionen](../action/action.md)
 * [Definition benutzerdefinierter Wartezeiten](../building-journeys/wait-activity.md#custom)
-* [Definition benutzerdefinierter Zeitzonen](../building-journeys/timezone-management.md)
+* [Zeitzonendefinition](../building-journeys/timezone-management.md)
 
 Diese Konfiguration ist nicht erforderlich, wenn Ihre Journeys nur lokale Daten aus einer Ereignis-Payload nutzen. Wenn Ihre Journey beispielsweise aus einem Ereignis und einer E-Mail-Aktivität besteht, die nur Daten aus dem Ereignis verwendet, müssen Sie keine Datenquelle konfigurieren.
 
