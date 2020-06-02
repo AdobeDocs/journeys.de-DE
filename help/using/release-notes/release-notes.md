@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 66e4acb339e9190cf2877c0ab1824ca5f41c8a6d
-workflow-type: ht
-source-wordcount: '758'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 796eff7751941720fc069dd8c7bed5c1f0e4a8fe
+workflow-type: tm+mt
+source-wordcount: '1080'
+ht-degree: 72%
 
 ---
 
@@ -23,6 +23,72 @@ ht-degree: 100%
 
 Auf dieser Seite werden alle neuen Funktionen und Verbesserungen bei Journey Orchestration aufgelistet.
 Sie können auch den Abschnitt [Aktualisierungen der Dokumentation](../release-notes/documentation-updates.md) lesen.
+
+## Q2-Version - Juni 2020 {#q2-release---june-2020}
+
+<table>
+<thead>
+<tr>
+<th><strong>Verbesserungen der Adobe Experience Platform-Integration</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Die folgenden Plattformintegrationsverbesserungen wurden vorgenommen:</p>
+<ul>
+<li><p>Eine neue Aktivität ermöglicht das Listening von Eingängen/Ausstiegen in Plattformsegmenten, um Menschen dazu zu bewegen, in eine Reise einzusteigen oder sich vorwärts zu bewegen. <a href="../building-journeys/event-activities.md#segment-qualification">mehr dazu</a></p>
+<img src="../assets/rn-segment7.png"/>
+</li>
+<li><p>Plattformsegmente können jetzt erstellt und bearbeitet werden, ohne die Benutzeroberfläche für die Journey-Orchestrierung zu verlassen, dank einer neuen Registerkarte " <strong>Segmente</strong> ". Wirksame Verfügbarkeit: 15. Juni 2020. <a href="../segment/about-segments.md">mehr dazu</a></p>
+<img src="../assets/rn-segment1.png"/>
+</li>
+<li><p>Im einfachen Ausdruck-Editor werden Plattformsegmente jetzt direkt in der Navigationsstruktur aufgeführt, um eine einfache Einrichtung von Bedingungen wie "Gehört diese Person zu Segment A?"zu ermöglichen. <a href="../segment/using-a-segment.md">mehr dazu</a></p>
+<img src="../assets/rn-segment4.png"/>
+</li>
+<li><p>Die Journey Orchestration leitet nun automatisch die Schritte, die Individuen auf Reisen befolgen, an die Adobe-Datenplattform weiter. Dazu gehören potenzielle Fehler. Diese Informationen können für Analysen- oder Segmentierungszwecke verwendet werden. <a href="../building-journeys/sharing-overview.md">mehr dazu</a></p>
+<img src="../assets/rn-sharing.png"/>
+</li>
+<li><p>Die Journey Orchestration kann jetzt mit der Plattform Sandbox für Produktion und Nicht-Produktion verbunden werden. Wirksame Verfügbarkeit: 15. Juni 2020. <a href="../about/access-management.md#sandboxes">mehr dazu</a></p>
+</li>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Verbesserungen beim Reisedesigner und Testmodus</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Die folgenden Verbesserungen wurden beim Reisedesigner und im Testmodus vorgenommen:</p>
+<ul>
+<li><p>Sie können jetzt Aktivitäten aus dem Einfügen von einer Reise in eine andere kopieren und eine oder N-Reise-Aktivität auswählen. <a href="../building-journeys/using-the-journey-designer.md#copy-paste">mehr dazu</a></p>
+<img src="../assets/rn-copy-paste1.png"/>
+</li>
+<li><p>Nachdem Sie ein Ereignis ausgelöst haben, um ein Profil auf eine Reise zu bringen, können Sie nun anhand eines farbigen Sichtablaufs den Verlauf der Reise sehen. Bei Fehlern auf der Reise werden auch Details zu Fehlern angezeigt. <a href="../building-journeys/testing-the-journey.md#firing_events">mehr dazu</a></p>
+<img src="../assets/rn-journeytest6.png"/>
+</li>
+<li>Der Status " <strong>Fertig</strong> "wurde in " <strong>geschlossen (kein Eingang)</strong> "umbenannt, um besser widerzuspiegeln, was dieser Status bedeutet.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+**Sonstige Verbesserungen**
+
+Um zu viele API-Aufrufe an Drittanbietersysteme zu vermeiden, führen wir eine neue öffentliche API ein, um &quot;Capping&quot;-Regeln einzurichten. Durch die Begrenzung können Sie eine maximale Anzahl von Aufrufen an einen API-Endpunkt pro Millisekunden definieren. [mehr dazu](../api/capping.md)
+
+Zugriffskontrolle ermöglicht nun eine größere Granularität bei der Verwaltung des Benutzerzugriffs. Wirksame Verfügbarkeit: 15. Juni 2020. [mehr dazu](../about/access-management.md#create-product-profile)
+
+Journey Orchestration ist jetzt in APAC (Australisches Rechenzentrum) erhältlich. Wirksame Verfügbarkeit: 15. Juni 2020
+
+Die Benutzeroberfläche für die Journey-Orchestrierung ist auf Japanisch verfügbar.
 
 ## Version 1. Quartal – März 2020 {#q1-release---march-2020}
 
