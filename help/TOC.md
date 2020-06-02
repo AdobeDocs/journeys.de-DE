@@ -3,11 +3,11 @@ product: Journeys
 audience: end-user
 user-guide-title: Hilfe für Journey Orchestration
 index: true
-translation-type: ht
-source-git-commit: ea891b40633378843a00a3ac56c6703f792d39e1
-workflow-type: ht
-source-wordcount: '307'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b199c8c2d0940b5ba3b0093cf8a654739249263d
+workflow-type: tm+mt
+source-wordcount: '354'
+ht-degree: 87%
 
 ---
 
@@ -46,6 +46,10 @@ ht-degree: 100%
       + [Einschränkungen für benutzerdefinierte Aktionen](using/action/custom-action-limitations.md)
       + [URL-Konfiguration](using/action/url-configuration.md)
       + [Definieren der Nachrichtenparameter](using/action/defining-the-message-parameters.md)
++ Verwenden von Plaform-Segmenten {#configuring-segment}
+   + [Grundlagen zu Mustersegmenten](using/segment/about-segments.md)
+   + [Erstellen eines Segments](using/segment/creating-a-segment.md)
+   + [Segmente in Bedingungen verwenden](using/segment/using-a-segment.md)
 + Erstellen der Journey {#building-journeys}
    + Informationen zum Erstellen von Journeys {#about-journey-building}
       + [Erstellen einer Journey ](using/building-journeys/journey.md)
@@ -67,6 +71,13 @@ ht-degree: 100%
          + [Verwenden benutzerdefinierter Aktionen](using/building-journeys/using-custom-actions.md)
    + [Testen der Journey](using/building-journeys/testing-the-journey.md)
    + [Veröffentlichen der Journey](using/building-journeys/publishing-the-journey.md)
+   + Freigeben von Reiseschritten mit Plattform {#sharing-journey-steps}
+      + [Übersicht über die schrittweise Freigabe für Reisen](using/building-journeys/sharing-overview.md)
+      + [JourneySchritte Ereignis - gemeinsame Felder](using/building-journeys/sharing-common-fields.md)
+      + [Aktionsausführungsfelder für Ereignis von &quot;travelStep&quot;](using/building-journeys/sharing-execution-fields.md)
+      + [JourneyStep-Ereignisse - Datenabruf von Feldern](using/building-journeys/sharing-fetch-fields.md)
+      + [travelStep Ereignis-Identitätsfelder](using/building-journeys/sharing-identity-fields.md)
+      + [Reisefelder](using/building-journeys/sharing-journey-fields.md)
 + Verwenden des erweiterten Ausdruckseditors {#building-advanced-conditions-journeys}
    + [Informationen zum erweiterten Ausdruckseditor](using/expression/expressionadvanced.md)
    + Syntax {#syntax}
@@ -163,4 +174,6 @@ ht-degree: 100%
       + [Konfigurieren von Datenquellen](using/usecase/configuring-the-data-sources.md)
       + [Erstellen der Journey](using/usecase/building-the-journey.md)
    + [Nutzen von Ermüdungswerten](using/usecase/leveraging-fatigue-scores.md)
++ Arbeiten mit APIs{#working-with-apis}
+   + [APIs sperren](using/api/capping.md)
 
