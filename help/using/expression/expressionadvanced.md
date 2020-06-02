@@ -10,8 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+translation-type: tm+mt
+source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
+workflow-type: tm+mt
+source-wordcount: '511'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +33,6 @@ _Die Benutzeroberfläche des erweiterten Ausdruckseditors_
 Der erweiterte Ausdruckseditor kann für folgende Aufgaben verwendet werden:
 
 * Erstellen von [erweiterten Bedingungen](../building-journeys/condition-activity.md#about_condition) für Datenquellen und Ereignisinformationen
-* Definieren von benutzerdefinierten [Zeitzonen](../building-journeys/timezone-management.md) in Datumsbedingungen, Warteaktivitäten mit festgelegtem Datum und benutzerdefinierten Warteaktivitäten
 * Definieren von benutzerdefinierten [Warteaktivitäten](../building-journeys/wait-activity.md#custom)
 * Definieren der Zuordnung von Aktionsparametern
 
@@ -50,7 +52,7 @@ Sie können den erweiterten Ausdruckseditor auf verschiedene Weise aufrufen:
 
    ![](../assets/journeyuc2_33.png)
 
-* Wenn Sie eine benutzerdefinierte Zeitzone oder einen benutzerdefinierten Timer erstellen, wird direkt der erweiterte Ausdruckseditor angezeigt.
+* Wenn Sie einen benutzerdefinierten Timer erstellen, wird der erweiterte Editor direkt angezeigt.
 * Wenn Sie Aktionsparameter zuordnen, klicken Sie auf **[!UICONTROL Erweiterter Modus]**.
 
 ## Kennenlernen der Benutzeroberfläche{#section_otq_tnj_cjb}
