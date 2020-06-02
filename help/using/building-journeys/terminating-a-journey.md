@@ -10,39 +10,42 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+translation-type: tm+mt
+source-git-commit: 72a3fd98b7911a1b8f23ccfeb55b884926f795ce
+workflow-type: tm+mt
+source-wordcount: '327'
+ht-degree: 43%
 
 ---
 
 
 # Abbrechen einer Journey
 
-Um eine **aktive** Journey abzubrechen, stehen Ihnen die Optionen **[!UICONTROL Stoppen]** und **[!UICONTROL Beenden]** zur Verfügung. Wenn Sie eine Journey beenden, wird **der Einstieg neuer Kunden in die Journey blockiert** und die bereits in der Journey befindlichen Kunden können diese bis zum Ende durchlaufen. Dies ist die empfohlene Art, eine Journey zu beenden, da sie für die Kunden das beste Erlebnis bietet. Wenn Sie hingegen eine Journey stoppen, wird die Reise der bereits in der Journey befindlichen Personen abgebrochen. Die Journey wird praktisch deaktiviert.
+Mit den **[!UICONTROL Optionen &quot;Stopp]** &quot;und &quot; **[!UICONTROL Nahe an neuen Eingängen]** &quot;können Sie **Live** -Reisen beenden. Closing a journey involves **that the arrival of new customers in the journey is blocked** and that the customers who already entered in the journey are able to experience it to the end. Dies ist die empfohlene Art, eine Journey zu beenden, da sie für die Kunden das beste Erlebnis bietet. Wenn Sie hingegen eine Journey stoppen, wird die Reise der bereits in der Journey befindlichen Personen abgebrochen. Die Journey wird praktisch deaktiviert.
 
 >[!NOTE]
 >
->Beachten Sie, dass Sie eine beendete oder gestoppte Journey nicht fortsetzen können.
+>Beachten Sie, dass Sie eine geschlossene oder angehaltene Reise nicht fortsetzen können.
 
-## Beenden einer Journey
+## Schließen einer Reise
 
-Sie können eine Journey manuell beenden. In diesem Fall können sich Kunden, die sich bereits in der Journey befinden, ihren Pfad bis zum Ende verfolgen, neue Anwender können jedoch nicht in die Journey eintreten.
+Sie können eine Reise manuell schließen, um sicherzustellen, dass Kunden, die bereits auf die Reise gelangt sind, ihren Pfad zwar beenden können, neue Benutzer jedoch nicht auf die Reise zugreifen können.
 
-Eine beendete Journey-Version kann weder neu gestartet noch gelöscht werden. Stattdessen können Sie eine neue Version davon erstellen oder sie duplizieren.
+Eine Version für geschlossene Fahrten kann nicht neu gestartet oder gelöscht werden. Stattdessen können Sie eine neue Version davon erstellen oder sie duplizieren.
 
-Wenn Sie eine Journey stoppen möchten, klicken Sie auf **[!UICONTROL Beenden]**, während Sie die Maus über die jeweilige Journey in der Liste der Journeys bewegen.
+You can close a journey by clicking **[!UICONTROL Close to new entrances]** while hovering over a journey in the list of journeys.
 
 ![](../assets/do-not-localize/journey-finish-quick-action.png)
 
 Alternativ können Sie auch folgendermaßen vorgehen:
 
-1. Klicken Sie auf der **[!UICONTROL Startseite]** auf die Journey, die Sie beenden möchten.
+1. In **[!UICONTROL Home]**, click on the journey you want to close.
 1. Klicken Sie oben rechts auf den Abwärtspfeil.
 
    ![](../assets/finish_drop_down_list.png)
 
-1. Klicken Sie auf **[!UICONTROL Beenden]**. Ein Dialogfeld wird angezeigt.
-1. Klicken Sie zur Bestätigung auf **[!UICONTROL Beenden]**.
+1. Click **[!UICONTROL Close to new entrances]**. Ein Dialogfeld wird angezeigt.
+1. Klicken Sie zur Bestätigung auf **[!UICONTROL Schließen an neue Eingänge]** .
 
 ## Stoppen einer Journey
 
@@ -50,7 +53,7 @@ Sie können eine Journey stoppen, wenn ein unerwartetes Ereignis eintritt und di
 
 Eine gestoppte Journey-Version kann nicht nochmals gestartet werden.
 
-Ein unerwartetes Ereignis tritt z. B. ein, wenn ein Marketing-Experte erkennt, dass die Journey auf die falsche Audience ausgerichtet ist, oder wenn eine benutzerdefinierte Aktion, mit der Nachrichten gesendet werden sollen, nicht richtig funktioniert. Wenn Sie eine Journey stoppen möchten, klicken Sie auf **[!UICONTROL Stoppen]**, während Sie die Maus über die jeweilige Journey in der Liste der Journeys bewegen.
+You can stop a journey (for example if a marketer realizes that the journey targets the wrong audience or a custom action supposed to deliver messages is not working correctly…) by clicking **[!UICONTROL Stop]** while hovering over a journey in the list of journeys.
 
 ![](../assets/do-not-localize/journey-stop-quick-action.png)
 
