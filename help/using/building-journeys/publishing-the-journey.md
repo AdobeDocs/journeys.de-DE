@@ -10,8 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+translation-type: tm+mt
+source-git-commit: ffcb0bd7c6b94a412878bae16ac9ffd1742d34d2
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 100%
 
 ---
 
@@ -30,10 +33,3 @@ Wenn Sie eine Journey stoppen, wird sie dauerhaft angehalten. Alle Personen, die
    ![](../assets/journeyuc1_18.png)
 
 Nachdem die Journey veröffentlicht wurde, ist sie schreibgeschützt.
-
-Hier eine Liste der verschiedenen Status der Journey eines Kontakts:
-
-* _Läuft_: der Kontakt befindet sich derzeit in der Journey.
-* _Beendet_: der Kontakt befindet sich am Ende der Journey.
-* _Fehler_: der Kontakt wird aufgrund eines Fehlers in der Journey gestoppt.
-* _Zeitüberschreitung_: der Kontakt wird aufgrund eines Schritts, der zu viel Zeit in Anspruch genommen hat, in der Journey gestoppt.
