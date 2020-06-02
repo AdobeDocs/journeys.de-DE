@@ -10,8 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+translation-type: tm+mt
+source-git-commit: 957e72de7feccb33684523e26b2bdccb2074e4ca
+workflow-type: tm+mt
+source-wordcount: '971'
+ht-degree: 77%
 
 ---
 
@@ -62,6 +65,38 @@ Im Folgenden werden die verschiedenen Schritte zum Konfigurieren der Reaktionser
 >[!CAUTION]
 >
 >E-Mail-Clients wie Gmail erlauben die Blockierung von Bildern. Das Öffnen von E-Mails wird anhand eines in der E-Mail enthaltenen 0-Pixel-Bildes nachverfolgt. Wenn Bilder blockiert werden, wird das Öffnen von E-Mails nicht berücksichtigt.
+
+## Ereignisse zur Segmentqualifizierung {#segment-qualification}
+
+Diese Aktivität ermöglicht es Ihnen, die Ein- und Ausgänge von Profilen in Plattformsegmenten anzuhören, um Einzelpersonen dazu zu bewegen, in eine Reise einzusteigen oder sich vorwärts zu bewegen. For more information on segment creation, refer to this [section](../segment/about-segments.md).
+
+Nehmen wir einmal an, Sie haben ein Segment &quot;Silber-Kunde&quot;. Mit dieser Aktivität können Sie alle Neukunden auf eine Reise bringen und ihnen eine Reihe personalisierter Nachrichten senden.
+
+Diese Art von Ereignis kann als erster Schritt oder später auf der Reise positioniert werden.
+
+Wenn das Segment mit der Option &quot;Hochfrequente Audiencen&quot;der Plattform gestreamt wird, werden Einstiegs- und Ausstiege in Echtzeit überwacht. Wenn das Segment nicht gestreamt wird, werden Ein- und Ausstiege bei der Segmentberechnung berücksichtigt.
+
+1. Entpacken Sie die Kategorie der **Ereignis** und legen Sie eine Aktivität für die **Segmentqualifizierung** auf Ihrer Arbeitsfläche ab.
+
+   ![](../assets/segment5.png)
+
+1. Add a **Label** to the activity. Dieser Schritt ist optional.
+
+1. Klicken Sie in das Feld **Segment** und wählen Sie die Segmente aus, die Sie nutzen möchten.
+
+   ![](../assets/segment6.png)
+
+1. Wählen Sie im Feld &quot; **Verhalten** &quot;aus, ob Sie die Segmenteingänge, -ausstiege oder beides überwachen möchten.
+
+1. Namensraum auswählen. Dies ist nur dann erforderlich, wenn das Ereignis als erster Reiseschritt positioniert ist.
+
+   ![](../assets/segment7.png)
+
+Die Payload enthält die folgenden Kontextinformationen, die Sie in Bedingungen und Aktionen verwenden können:
+
+* Verhalten (Eingang, Ausgang)
+* Zeitstempel der Qualifikation
+* die Segment-ID
 
 ## Erweiterte Verwendung: Ereignisse mit paralleler Wartezeit{#section_vxv_h25_pgb}
 
