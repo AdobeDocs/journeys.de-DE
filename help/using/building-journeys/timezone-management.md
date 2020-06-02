@@ -10,8 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f4f41428b19f611da15b20a1788b240fadfd49fa
+translation-type: tm+mt
+source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
+workflow-type: tm+mt
+source-wordcount: '259'
+ht-degree: 100%
 
 ---
 
@@ -53,7 +56,5 @@ Aktivieren Sie dazu in den **[!UICONTROL Eigenschaften]** die Option **[!UICONTR
 ![](../assets/journey72.png)
 
 ## Verwenden von Zeitzonen in Ausdrücken {#timezone-in-expressions}
-
-Zeitzonen werden verwendet, um Ausdrücke mit dem erweiterten Ausdruckseditor zu erstellen. In diesem Fall wählen Sie über den Ausdruckseditor aus, wo das System diese Informationen abrufen soll. Siehe [](../expression/expressionadvanced.md).
 
 Das Start- und Enddatum einer Journey kann nicht mit einer bestimmten Zeitzone verknüpft werden. Es wird automatisch mit der Zeitzone der Instanz verbunden.
