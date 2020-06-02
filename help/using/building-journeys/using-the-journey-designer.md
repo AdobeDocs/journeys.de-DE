@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e53ecd96bbb308fe109843de6f64cde4cba5e246
-workflow-type: ht
-source-wordcount: '1047'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 7bdba1be0b5fe95417038c0d6788e76b155104aa
+workflow-type: tm+mt
+source-wordcount: '1372'
+ht-degree: 74%
 
 ---
 
@@ -25,7 +25,7 @@ Im Startseitenmenü der Journey können Sie die **Liste der Journeys** anzeigen.
 
 ## Die Liste der Journeys {#journey_list}
 
-Die **Liste der Journeys** ermöglicht es Ihnen, alle Ihre Journeys gleichzeitig anzuzeigen, deren Status zu sehen und grundlegende Aktionen durchzuführen. Sie können Ihre Journeys duplizieren, stoppen oder löschen. Je nach Journey stehen bestimmte Aktionen möglicherweise nicht zur Verfügung. Sie können beispielsweise eine beendete Journey nicht löschen oder erneut starten. Stattdessen können Sie eine neue Version davon erstellen, sie duplizieren oder stoppen. Sie können auch die Suchleiste verwenden, um nach einer Journey zu suchen.
+Die **Liste der Journeys** ermöglicht es Ihnen, alle Ihre Journeys gleichzeitig anzuzeigen, deren Status zu sehen und grundlegende Aktionen durchzuführen. Sie können Ihre Journeys duplizieren, stoppen oder löschen. Je nach Journey stehen bestimmte Aktionen möglicherweise nicht zur Verfügung. Sie können beispielsweise eine geschlossene Reise weder löschen noch neu starten. Stattdessen können Sie eine neue Version davon erstellen, sie duplizieren oder stoppen. Sie können auch die Suchleiste verwenden, um nach einer Journey zu suchen.
 
 Sie können auf die **[!UICONTROL Filter]** zugreifen, indem Sie auf das Filtersymbol links oben in der Liste klicken. Mit dem Filtermenü können Sie die angezeigten Journeys nach verschiedenen Kriterien filtern (Status, von Ihnen erstellte, in den letzten 30 Tagen geänderte, neueste Versionen usw.). Sie können auch festlegen, dass nur die Journeys angezeigt werden, die ein bestimmtes Ereignis, eine bestimmte Feldergruppe oder eine bestimmte Aktion verwenden. Die in der Liste angezeigten Spalten können konfiguriert werden. Alle Filter und Spalten werden pro Anwender gespeichert.
 
@@ -71,7 +71,7 @@ Auf der Arbeitsfläche werden Ihre Aktions- und Ereignisaktivitäten durch ein S
 
 ## Die Aktionen in der oberen Leiste {#top_actions}
 
-Abhängig vom Status der Journey können Sie mithilfe der Schaltflächen oben rechts verschiedene Aktionen für Ihre Journey ausführen: **[!UICONTROL Veröffentlichen]**, **[!UICONTROL Duplizieren]**, **[!UICONTROL Löschen]**, **[!UICONTROL Eigenschaften der Journey]**, **[!UICONTROL Test]**. Diese Schaltflächen werden angezeigt, wenn keine Aktivität ausgewählt ist. Einige Schaltflächen werden kontextuell angezeigt. Die Protokollschaltfläche für den Testmodus wird angezeigt, wenn der Testmodus aktiviert ist (siehe [](../building-journeys/testing-the-journey.md)). Die Reporting-Schaltfläche wird angezeigt, wenn die Journey live, gestoppt oder beendet ist.
+Abhängig vom Status der Journey können Sie mithilfe der Schaltflächen oben rechts verschiedene Aktionen für Ihre Journey ausführen: **[!UICONTROL Veröffentlichen]**, **[!UICONTROL Duplizieren]**, **[!UICONTROL Löschen]**, **[!UICONTROL Eigenschaften der Journey]**, **[!UICONTROL Test]**. Diese Schaltflächen werden angezeigt, wenn keine Aktivität ausgewählt ist. Einige Schaltflächen werden kontextuell angezeigt. Die Protokollschaltfläche für den Testmodus wird angezeigt, wenn der Testmodus aktiviert ist (siehe [](../building-journeys/testing-the-journey.md)). Die Schaltfläche &quot;Berichte&quot;wird angezeigt, wenn die Reise live, gestoppt oder geschlossen ist.
 
 ![](../assets/journey41.png)
 
@@ -92,3 +92,28 @@ Um den Pfad zu löschen, platzieren Sie den Cursor darauf und klicken Sie auf da
 Wenn zwei Aktivitäten auf der Arbeitsfläche getrennt werden, wird eine Warnung angezeigt. Platzieren Sie den Cursor auf das Warnsymbol, um die entsprechende Fehlermeldung anzuzeigen. Um das Problem zu beheben, verschieben Sie einfach die getrennte Aktivität und verbinden Sie sie mit der vorherigen Aktivität.
 
 ![](../assets/canvas-disconnected.png)
+
+## Kopieren und Einfügen von Aktivitäten {#copy-paste}
+
+Sie können eine oder mehrere Aktivitäten einer Reise kopieren und sie entweder auf derselben oder auf einer anderen Reise einfügen. Auf diese Weise sparen Sie Zeit, wenn Sie zahlreiche Aktivitäten wiederverwenden möchten, die bereits auf einer vorherigen Reise konfiguriert wurden.
+
+**Wichtige Hinweise**
+
+* Sie können die Datei über verschiedene Registerkarten und Browser hinweg kopieren und einfügen. Sie können nur Aktivitäten innerhalb derselben Instanz kopieren/einfügen.
+* Sie können ein Ereignis nicht kopieren/einfügen, wenn die Zielreise über ein Ereignis verfügt, das einen anderen Namensraum verwendet.
+* Eingefügte Aktivitäten können auf Daten verweisen, die auf der Zielreise nicht vorhanden sind, z. B. wenn Sie über verschiedene Sandboxen kopieren/einfügen. Überprüfen Sie immer nach Fehlern und nehmen Sie die erforderlichen Anpassungen vor.
+* Beachten Sie, dass Sie eine Aktion nicht rückgängig machen können. Um eingefügte Aktivitäten zu löschen, müssen Sie sie auswählen und löschen. Wählen Sie daher vor dem Kopieren nur die gewünschten Aktivitäten aus.
+* Sie können Aktivitäten von jeder Reise kopieren, auch solche, die schreibgeschützt sind.
+* Sie können eine beliebige Aktivität auswählen, auch solche, die nicht verknüpft sind. Verknüpfte Aktivitäten bleiben nach dem Einfügen verknüpft.
+
+Im Folgenden werden die Schritte zum Kopieren/Einfügen von Aktivitäten beschrieben:
+
+1. Mach eine Reise auf.
+1. Wählen Sie die Aktivitäten aus, die Sie kopieren möchten, indem Sie die Maus beim Klicken bewegen. Sie können auch auf jede Aktivität klicken und gleichzeitig die **Strg-/Befehlstaste** drücken. Verwenden Sie **Strg/Befehl + A** , wenn Sie alle Aktivitäten auswählen möchten.
+   ![](../assets/copy-paste1.png)
+1. Drücken Sie **Strg/Befehl + C**.
+Wenn Sie nur eine Aktivität kopieren möchten, können Sie darauf klicken und das Symbol &quot; **Kopieren** &quot;oben links im Konfigurationsbereich der Aktivität verwenden.
+   ![](../assets/copy-paste2.png)
+1. Drücken Sie auf jeder Reise die **Strg-/Befehlstaste + V** , um die Aktivitäten ohne Verknüpfung mit einem vorhandenen Knoten einzufügen. Eingefügte Aktivitäten werden in derselben Reihenfolge angeordnet. Nach dem Einfügen bleiben die Aktivitäten ausgewählt, damit Sie sie einfach verschieben können. Sie können den Cursor auch auf einen leeren Platzhalter setzen und **Strg/Befehl + V**drücken. Eingefügte Aktivitäten werden mit dem Knoten verknüpft.
+   ![](../assets/copy-paste3.png)
+
