@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
+source-git-commit: 817df02d78c4b9d213895cd7201ab1c2c883b188
 workflow-type: tm+mt
-source-wordcount: '1049'
-ht-degree: 100%
+source-wordcount: '1075'
+ht-degree: 96%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Um Journey Orchestration optimal zu nutzen, empfehlen wir die Verwendung von Chrome als Internetbrowser.
+>Um Journey Orchestration optimal zu nutzen, empfehlen wir die Verwendung von Chrome als Internetbrowser. Die Benutzeroberfläche wird in der in IMS definierten Sprache angezeigt. Wenn Ihre IMS-Sprache nicht von der Journey Orchestration unterstützt wird, wird die Oberfläche in Englisch angezeigt.
 >
->Die vorliegende Dokumentation wird regelmäßig aktualisiert, um aktuelle Änderungen am Produkt widerzuspiegeln. Manche Screenshots können jedoch geringfügig von der Benutzeroberfläche des Produkts abweichen.
+>Die vorliegende Dokumentation wird entsprechend den Produktänderungen regelmäßig aktualisiert. Manche Screenshots können jedoch geringfügig von der Benutzeroberfläche des Produkts abweichen.
 
 ## Zugriff auf Journey Orchestration{#accessing_journey_orchestration}
 
@@ -40,7 +40,7 @@ Alternativ können Sie über die Experience Cloud-Startseite im Bereich **[!UICO
 >[!CONTEXTUALHELP]
 >id="jo_home"
 >title="Informationen zur Liste der Journeys"
->abstract="Die Liste der Journeys ermöglicht es Ihnen, alle Ihre Journeys gleichzeitig anzuzeigen, deren Status zu sehen und allgemeine Aktionen durchzuführen. Sie können Ihre Journeys duplizieren, stoppen oder löschen. Je nach Journey stehen bestimmte Aktionen möglicherweise nicht zur Verfügung. Sie können beispielsweise eine beendete Journey nicht löschen oder erneut starten. Stattdessen können Sie eine neue Version davon erstellen oder sie duplizieren. Sie können auch die Suchleiste verwenden, um nach einer Journey zu suchen."
+>abstract="Die Liste der Journeys ermöglicht es Ihnen, alle Ihre Journeys gleichzeitig anzuzeigen, deren Status zu sehen und allgemeine Aktionen durchzuführen. Sie können Ihre Journeys duplizieren, stoppen oder löschen. Je nach Journey stehen bestimmte Aktionen möglicherweise nicht zur Verfügung. Sie können beispielsweise eine geschlossene Reise weder löschen noch neu starten. Stattdessen können Sie eine neue Version davon erstellen oder sie duplizieren. Sie können auch die Suchleiste verwenden, um nach einer Journey zu suchen."
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Demovideo ansehen"
 
 Die Menüs am oberen Seitenrand bieten Zugriff auf die verschiedenen Funktionen von Journey Orchestration: **[!UICONTROL Startseite]** (die Journeys), **[!UICONTROL Datenquellen]**, **[!UICONTROL Ereignisse]**, **[!UICONTROL Aktionen]**.
