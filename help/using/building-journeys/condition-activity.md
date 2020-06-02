@@ -10,8 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 538b350165365479caef499a74346381643033d5
+translation-type: tm+mt
+source-git-commit: 11c266b035bc1bb83cccf4e3958e54e1eb00e9f4
+workflow-type: tm+mt
+source-wordcount: '690'
+ht-degree: 96%
 
 ---
 
@@ -45,6 +48,9 @@ Im einfachen Modus können Sie einfache Abfragen anhand einer Kombination von Fe
 * ODER bildet die Vereinigungsmenge aus zwei Kriterien. Elemente, die wenigstens einem der Kriterien entsprechen, werden berücksichtigt.
 
 ![](../assets/journey64.png)
+
+Wenn Sie den [Plattformsegmentierungsdienst](https://docs.adobe.com/content/help/de-DE/experience-platform/segmentation/home.html) verwenden, um Ihre Segmente zu erstellen, können Sie diese in Ihren Reisebedingungen nutzen. Siehe [Verwenden von Segmenten unter Bedingungen](../segment/using-a-segment.md).
+
 
 >[!NOTE]
 >
