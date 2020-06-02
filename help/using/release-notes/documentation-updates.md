@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0bf8ce5974b7be684a156d5c5445dca122213237
-workflow-type: ht
-source-wordcount: '383'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3b19e771b6fa3a679a36398c12417b190ee7ff18
+workflow-type: tm+mt
+source-wordcount: '500'
+ht-degree: 77%
 
 ---
 
@@ -24,12 +24,24 @@ ht-degree: 100%
 Auf dieser Seite werden alle Aktualisierungen der Dokumentation für Journey Orchestration aufgelistet.
 Lesen Sie auch die [Versionshinweise](../release-notes/release-notes.md) zu Journey Orchestration.
 
+## June 2020 {#june-2020}
+
+* Es wurden Informationen zum Ändern der Cachedauer des Tokens für eine benutzerdefinierte Authentifizierungsdatenquelle hinzugefügt. [mehr dazu](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
+* Screenshots und Text wurden aktualisiert, um die Umbenennung des Status &quot; **Fertig** &quot;widerzuspiegeln, der in &quot; **geschlossen&quot;(kein Eingang)** geändert wurde.
+* Es wurden Informationen darüber hinzugefügt, wie die Sprache für die Schnittstelle definiert wird. [mehr dazu](../about/user-interface.md)
+* Die Liste der Statusangaben einer einzelnen Reise wurde in den Bereich [Testmodusprotokolle](../building-journeys/testing-the-journey.md#viewing_logs) verschoben.
+
+## April 2020 {#april-2020}
+
+* Es wurde ein neuer Abschnitt zur Experience Ereignis Schema-Definition hinzugefügt, der Benutzern bei der Konfiguration ihres ersten Ereignisses hilft. [mehr dazu](../event/experience-event-schema.md)
+* Die Dokumentation zur Startseite für die Journey-Orchestrierung wurde um weitere nützliche Links ergänzt. [mehr dazu](../../journey-orchestration-home.md)
+
 ## März 2020 {#march-2020}
 
 * Parameterbeschreibungen für _actionExecutionErrors_ und _fetchErrors_ wurden im Abschnitt über Testprotokolle hinzugefügt – [mehr dazu](../building-journeys/testing-the-journey.md#viewing_logs)
 * Die Beschränkungen für in Journeys verwendete benutzerdefinierte Aktionen wurden aktualisiert. Sie können auch das **URL-Feld** und die **Authentifizierungsparameter** ändern – [mehr dazu](../action/about-custom-action-configuration.md)
 * Es wurden neue Einträge für die kontextuelle Hilfe hinzugefügt. Der Payload-Bereich für die benutzerdefinierte Authentifizierung (in Aktionen und Datenquellen) enthält jetzt ein Hilfesymbol, das auf diesen [Abschnitt](../datasource/external-data-sources.md#section_wjp_nl5_nhb) verweist.
-* Beendete Journeys können jetzt gestoppt werden – [mehr dazu](../building-journeys/using-the-journey-designer.md)
+* Abgeschlossene Fahrten können jetzt gestoppt werden. [mehr dazu](../building-journeys/using-the-journey-designer.md)
 * Der Abschnitt zur Beschreibung der Benutzeroberfläche wurde neu angeordnet. [mehr dazu](../about/user-interface.md)
 * Die Auslösung mehrerer Ereignisse wurde dem Abschnitt „Testmodus“ hinzugefügt. [Mehr dazu](../building-journeys/testing-the-journey.md#firing_events)
 * Der Abschnitt „Testmodus“ wurde hinsichtlich des neuen Parameters **Wartezeit im Test** aktualisiert. [Mehr dazu](../building-journeys/testing-the-journey.md)
@@ -39,10 +51,10 @@ Lesen Sie auch die [Versionshinweise](../release-notes/release-notes.md) zu Jour
 * Die Beschreibung der Benutzeroberfläche wurde mit Informationen zur Kontexthilfe aktualisiert. [Mehr dazu](../about/user-interface.md#section_ksq_zr1_ffb)
 * Beim Durchsuchen von **XDM-Feldern** wird jetzt der Benutzername angezeigt. Die entsprechenden Abschnitte wurden aktualisiert. [Mehr dazu](../about/user-interface.md#friendly-names-display)
 
-
 ## Februar 2020 {#february-2020}
 
 * Der Abschnitt mit den Tastaturbefehlen wurde aktualisiert. Mit dem Tastaturbefehl **C** können Sie in allen Listenbildschirmen ein neues Element erstellen. [Mehr dazu](../about/user-interface.md#section_ksq_zr1_ffb)
+* Die Übersichtsseiten zur [Datenquelle](../datasource/about-data-sources.md) und [Aktion](../action/action.md) wurden verbessert.
 
 ## Januar 2020 {#january-2020}
 
