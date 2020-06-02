@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e53ecd96bbb308fe109843de6f64cde4cba5e246
-workflow-type: ht
-source-wordcount: '916'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 83e0476b8efd779256549788ff73f32531e08934
+workflow-type: tm+mt
+source-wordcount: '1121'
+ht-degree: 86%
 
 ---
 
@@ -73,6 +73,16 @@ Wenn Ihre Journey mehrere Ereignisse enthält, wählen Sie ein Ereignis aus der 
 
 Ein technischer Anwender kann diese Benutzeroberfläche auch verwenden, um Payloads für Ereignisse zu erstellen und Ereignisse auszulösen, ohne ein Tool eines Drittanbieters verwenden zu müssen.
 
+Wenn Sie auf die Schaltfläche **Senden** klicken, beginnt der Test. Die Entwicklung des Individuums auf der Reise wird durch einen visuellen Fluss dargestellt. Der Weg wird immer grüner, wenn sich der Einzelne über die Reise bewegt. Wenn ein Fehler auftritt, wird ein Warnsymbol für den entsprechenden Schritt angezeigt. Sie können den Cursor darauf platzieren, um weitere Informationen zum Fehler anzuzeigen und auf alle Details zuzugreifen (sofern verfügbar).
+
+![](../assets/journeytest6.png)
+
+Wenn Sie im Bildschirm &quot;Ereignis-Konfiguration&quot;ein anderes Profil auswählen und den Test erneut ausführen, wird der visuelle Ablauf geleert und zeigt den Pfad des neuen  an.
+
+Beim Öffnen einer Reise im Test entspricht der angezeigte Pfad dem letzten durchgeführten Test.
+
+Der visuelle Fluss wird nur angezeigt, wenn das Ereignis, das an die Reise gesendet wird, im Bildschirm &quot;Konfiguration des Ereignisses&quot;definiert ist. Wenn das Ereignis extern definiert wird, z. B. mit Postman, wird der visuelle Fluss nicht angezeigt.
+
 ## Anzeigen der Protokolle {#viewing_logs}
 
 Mit der Schaltfläche **[!UICONTROL Protokoll anzeigen]** können Sie die Testergebnisse anzeigen. Auf dieser Seite werden die aktuellen Informationen der Journey im JSON-Format angezeigt. Mit einer Schaltfläche können Sie ganze Knoten kopieren. Sie müssen die Seite manuell aktualisieren, um die Testergebnisse der Journey zu aktualisieren.
@@ -95,3 +105,9 @@ Die Anzahl der Kontakte (technisch gesehen handelt es sich um Instanzen), die si
 * _transitionHistory_: die Schritte, denen der betreffende Kontakt folgte. Bei Ereignissen wird die Payload angezeigt.
 * _actionExecutionErrors_: Informationen zu den aufgetretenen Fehlern.
 
+Hier eine Liste der verschiedenen Status der Journey eines Kontakts:
+
+* _Läuft_: der Kontakt befindet sich derzeit in der Journey.
+* _Beendet_: der Kontakt befindet sich am Ende der Journey.
+* _Fehler_: der Kontakt wird aufgrund eines Fehlers in der Journey gestoppt.
+* _Zeitüberschreitung_: der Kontakt wird aufgrund eines Schritts, der zu viel Zeit in Anspruch genommen hat, in der Journey gestoppt.
