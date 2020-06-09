@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b238c1851ae640b3146b8457931e1c416387c76a
+source-git-commit: 2f0d235ce1808f632b731fc2077b10a31a178e4b
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 10%
+source-wordcount: '141'
+ht-degree: 12%
 
 ---
 
@@ -22,9 +22,7 @@ ht-degree: 10%
 
 # Erstellen eines Segments {#creating-a-segment}
 
->Die Segmentregisterkarte und die Erstellung/Änderung von Segmenten im Journey Orchestration sind am 15. Juni verfügbar.
-
-Sie können entweder ein Segment mithilfe des [Plattformsegmentierungsdiensts](https://docs.adobe.com/content/help/de-DE/experience-platform/segmentation/home.html) erstellen oder Sie können direkt in der Journey Orchestration darauf zugreifen und es erstellen.
+Sie können entweder ein Segment mit dem [Plattformsegmentierungsdienst](https://docs.adobe.com/content/help/de-DE/experience-platform/segmentation/home.html) erstellen oder Sie können direkt in zugreifen und es erstellen [!DNL Journey Orchestration].
 
 1. In the top menu, click on the **[!UICONTROL Segments]** tab. Die Liste der Plattformsegmente wird angezeigt. Sie können nach einem bestimmten Segment in der Liste suchen.
 
