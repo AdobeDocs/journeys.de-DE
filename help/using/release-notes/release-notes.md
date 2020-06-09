@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a4e2e5737e5d22775e45038f296be2131ac9f54f
+source-git-commit: 4e850db61aa55c9bff448a0280f79810928cb6ec
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 71%
+source-wordcount: '1098'
+ht-degree: 70%
 
 ---
 
@@ -40,16 +40,17 @@ Sie können auch den Abschnitt [Aktualisierungen der Dokumentation](../release-n
 <li><p>Eine neue Aktivität ermöglicht das Listening von Eingängen/Ausstiegen in Plattformsegmenten, um Menschen dazu zu bewegen, in eine Reise einzusteigen oder sich vorwärts zu bewegen. <a href="../building-journeys/event-activities.md#segment-qualification">mehr dazu</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>Plattformsegmente können jetzt erstellt und bearbeitet werden, ohne die Benutzeroberfläche für die Journey-Orchestrierung zu verlassen, dank einer neuen Registerkarte " <strong>Segmente</strong> ". Wirksame Verfügbarkeit: 15. Juni 2020. <a href="../segment/about-segments.md">mehr dazu</a></p>
+<li><p>Plattformsegmente können jetzt erstellt und bearbeitet werden, ohne die Benutzeroberfläche für die Journey-Orchestrierung zu verlassen, dank einer neuen Registerkarte " <strong>Segmente</strong> ".<a href="../segment/about-segments.md">mehr dazu</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>Im einfachen Ausdruck-Editor werden Plattformsegmente jetzt direkt in der Navigationsstruktur aufgeführt, um eine einfache Einrichtung von Bedingungen wie "Gehört diese Person zu Segment A?"zu ermöglichen. <a href="../segment/using-a-segment.md">mehr dazu</a></p>
+<li><p>Im einfachen Ausdruck-Editor werden Plattformsegmente jetzt direkt in der Navigationsstruktur aufgeführt, um eine einfache Einrichtung von Bedingungen wie "Gehört diese Person zu Segment A?"zu ermöglichen.<a href="../segment/using-a-segment.md">mehr dazu</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
 <li><p>Die Journey Orchestration leitet nun automatisch die Schritte, die auf Reisen ausgeführt werden, an die Adobe-Datenplattform weiter. Dazu gehören potenzielle Fehler. Diese Informationen können für die Erzielung von Berichte und Fehlerbehebung verwendet werden, indem Abfragen auf den Ereignissen für Reiseschritte für eine bestimmte Reise oder für alle Reisen ausgeführt werden. <a href="../building-journeys/sharing-overview.md">mehr dazu</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
-<li><p>Die Journey Orchestration kann jetzt mit der Plattform Sandbox für Produktion und Nicht-Produktion verbunden werden. Wirksame Verfügbarkeit: 15. Juni 2020. <a href="../about/access-management.md#sandboxes">mehr dazu</a></p>
+</li>
+<li><p>Die Journey Orchestration kann nun an die Plattform-Sandboxen für Produktion und Nicht-Produktion angeschlossen werden. Beachten Sie, dass Sandboxen eine Beta-Funktion sind. Wirksame Verfügbarkeit: 30. Juni 2020. <a href="../about/access-management.md#sandboxes">mehr dazu</a></p>
 </li>
 </td>
 </tr>
@@ -84,9 +85,9 @@ Sie können auch den Abschnitt [Aktualisierungen der Dokumentation](../release-n
 
 Um zu viele API-Aufrufe an Drittanbietersysteme zu vermeiden, führen wir eine neue öffentliche API ein, um &quot;Capping&quot;-Regeln einzurichten. Durch die Begrenzung können Sie eine maximale Anzahl von Aufrufen an einen API-Endpunkt pro Millisekunden definieren. [mehr dazu](../api/capping.md)
 
-Zugriffskontrolle ermöglicht nun eine größere Granularität bei der Verwaltung des Benutzerzugriffs. Wirksame Verfügbarkeit: 15. Juni 2020. [mehr dazu](../about/access-management.md#create-product-profile)
+Zugriffskontrolle ermöglicht nun eine größere Granularität bei der Verwaltung des Benutzerzugriffs. Wirksame Verfügbarkeit: 30. Juni 2020. [mehr dazu](../about/access-management.md#create-product-profile)
 
-Journey Orchestration ist jetzt in APAC (Australisches Rechenzentrum) erhältlich. Wirksame Verfügbarkeit: 15. Juni 2020
+Journey Orchestration ist jetzt in APAC (Australisches Rechenzentrum) erhältlich. Wirksame Verfügbarkeit: 30. Juni 2020
 
 Die Benutzeroberfläche für die Journey-Orchestrierung ist auf Japanisch verfügbar.
 
