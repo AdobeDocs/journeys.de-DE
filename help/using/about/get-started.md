@@ -8,17 +8,20 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: ht
-source-git-commit: fed6fd8d8ee497ec47727f7297dc72f319fabe27
+translation-type: tm+mt
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 87%
 
 ---
 
 
 # Erste Schritte{#concept_y4b_4qt_52b}
 
-Bei Journey Orchestration gibt es zwei Arten von Benutzern, die jeweils eigene Aufgaben erledigen: den **technischen Anwender** und den **Business-Anwender**. Der Benutzerzugriff wird mithilfe von Produktprofilen und Berechtigungen verwaltet. Informationen zum Konfigurieren des Benutzerzugriffs finden Sie unter [](../about/access-management.md).
+In [!DNL Journey Orchestration], there are two types of users, each of them performing specific tasks: the **technical user** and the **business user**. Der Benutzerzugriff wird mithilfe von Produktprofilen und Berechtigungen verwaltet. Informationen zum Konfigurieren des Benutzerzugriffs finden Sie unter [](../about/access-management.md).
 
-Im Folgenden finden Sie die wichtigsten Schritte zum Konfigurieren und Verwenden von Journey Orchestration:
+Im Folgenden finden Sie die wichtigsten Schritte zum Konfigurieren und Verwenden von [!DNL Journey Orchestration]:
 
 1. **Ereignis konfigurieren**
 
@@ -38,7 +41,7 @@ Im Folgenden finden Sie die wichtigsten Schritte zum Konfigurieren und Verwenden
 
 1. **Konfigurieren einer Aktion**
 
-   Wenn Sie zum Versand Ihrer Nachrichten ein Drittanbietersystem verwenden möchten, müssen Sie dessen Verbindung zu Journey Orchestration konfigurieren. Siehe [](../action/about-custom-action-configuration.md).
+   If you&#39;re using a third-party system to send your messages, you need to configure its connection with [!DNL Journey Orchestration]. Siehe [](../action/about-custom-action-configuration.md).
 
    Wenn Sie Adobe Campaign Standard zum Senden von Nachrichten verwenden möchten, müssen Sie die integrierte Aktion konfigurieren. Siehe [](../action/working-with-adobe-campaign.md).
 
