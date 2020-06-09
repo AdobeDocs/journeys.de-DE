@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a6a98eca551bf5fc46ebd3a6d0d11486e3fbe06b
+source-git-commit: 4e850db61aa55c9bff448a0280f79810928cb6ec
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 # Übersicht über die schrittweise Freigabe für Reisen{#sharing-overview}
 
-Die Journey Orchestration sendet automatisch Daten zur Reiseleistung an die Adobe Experience Platform, damit sie zu Analysen mit anderen Daten kombiniert werden können.
+[!DNL Journey Orchestration] sendet automatisch Daten zur Reiseleistung an die Adobe Experience Platform, damit sie zu Analysen mit anderen Daten kombiniert werden können.
 
-Sie haben beispielsweise eine Reise eingerichtet, die mehrere E-Mails sendet. Mit dieser Funktion können Sie Daten zu Journey Orchestration mit Daten zu nachgelagerten Ereignissen kombinieren, z. B. wie viele Konversionen stattgefunden haben, wie viel Interaktion auf der Website stattgefunden hat oder wie viele Transaktionen im Store stattgefunden haben. Die Fahrteninformationen können mit Daten auf der Plattform kombiniert werden, entweder von anderen digitalen Eigenschaften oder von Offlineinhalten, um eine umfassendere Ansicht der Leistung zu ermöglichen.
+Sie haben beispielsweise eine Reise eingerichtet, die mehrere E-Mails sendet. Mit dieser Funktion können Sie [!DNL Journey Orchestration] Daten mit nachgelagerten Ereignis-Daten kombinieren, z. B. wie viele Konversionen stattgefunden haben, wie viel Interaktion auf der Website stattgefunden hat oder wie viele Transaktionen im Store stattgefunden haben. Die Fahrteninformationen können mit Daten auf der Plattform kombiniert werden, entweder von anderen digitalen Eigenschaften oder von Offlineinhalten, um eine umfassendere Ansicht der Leistung zu ermöglichen.
 
-Die Journey Orchestration erstellt automatisch die erforderlichen Schema und streamt die Daten in die Plattform für jeden Schritt, den ein Individuum auf einer Reise unternimmt. Ein step-Ereignis entspricht einer Person, die während einer Reise von einer Node zu einer anderen wechselt. Beispielsweise werden bei einer Reise mit einem Ereignis, einer Bedingung und einer Aktion drei Ereignis an die Plattform gesendet.
+[!DNL Journey Orchestration] erstellt automatisch die erforderlichen Schema und fließt in Datensätze zur Plattform für jeden Schritt, den ein Einzelner auf einer Reise unternimmt. Ein step-Ereignis entspricht einer Person, die während einer Reise von einer Node zu einer anderen wechselt. Beispielsweise werden bei einer Reise mit einem Ereignis, einer Bedingung und einer Aktion drei Ereignis an die Plattform gesendet.
 
 Die Liste der weitergeleiteten XDM-Felder ist umfassend. Einige enthalten systemgenerierte Codes, andere haben lesbare Anzeigenamen. Beispiele sind die Bezeichnung der Aktivität der Reise oder der Status der Stufe: wie oft eine Aktion abgelaufen ist oder fehlerhaft endete.
 
@@ -45,9 +45,9 @@ Journeys sendet Daten im Streaming-Modus. Sie können diese Daten mit dem Abfrag
 
 Die folgenden Schema werden erstellt:
 
-* Journey Step Profil Ereignis Schema for Journey Orchestration - Erlebnis-Ereignisse für die Schritte, die in einer Reise unternommen werden, zusammen mit einer Identitätskarte, die für die Zuordnung zu einem einzelnen Reiseteilnehmer verwendet wird.
-* Journey Step Ereignis Schema for Journey Orchestration - Journey-Step-Ereignis, das mit einer Journey-Metadaten verknüpft ist.
-* Journey Schema mit Journey Fields for Journey Orchestration - Journey Metadata zur Beschreibung von Journeys.
+* Journey Step Profil Ereignis Schema for [!DNL Journey Orchestration] - Experience Ereignisses für Schritte, die in einer Reise unternommen werden, zusammen mit einer Identitätskarte, die für die Zuordnung zu einem einzelnen Reiseteilnehmer verwendet wird.
+* Journey Step Ereignis Schema for [!DNL Journey Orchestration] - Journey-Step-Ereignis, das mit einer Journey-Metadaten verknüpft ist.
+* Journey Schema mit Journey Fields for [!DNL Journey Orchestration] - Journey Metadata zur Beschreibung von Reisen.
 
 ![](../assets/sharing1.png)
 
@@ -55,7 +55,7 @@ Die folgenden Schema werden erstellt:
 
 Die folgenden Datensätze werden übergeben:
 
-* Journey Step Profil Ereignis Schema for Journey Orchestrierung
+* Profil-Ereignis-Schema für Reisen [!DNL Journey Orchestration]
 * Ereignisse für Reiseschritte
 * Journeys
 
