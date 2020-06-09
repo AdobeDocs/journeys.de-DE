@@ -1,6 +1,6 @@
 ---
-title: Wegeysteps Ereignisse gemeinsame Felder
-description: Wegeysteps Ereignisse gemeinsame Felder
+title: reporneysteps Ereignisse gemeinsame Felder
+description: reporneysteps Ereignisse gemeinsame Felder
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,19 +11,19 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 10402a774bda66629f30869102d5e6ceca267535
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
 
 
-# Wegeysteps Ereignisse gemeinsame Felder {#sharing-common-fields}
+# reporneysteps Ereignisse gemeinsame Felder {#sharing-common-fields}
 
 Dieses Mixin wird von &quot;travelStepEvent&quot;und &quot;travelStepProfileEvent&quot;freigegeben.
 
-Dies sind die gängigen XDM-Felder, die Journey Orchestration an die Adobe-Datenplattform sendet. Gemeinsame Felder werden für jeden Schritt gesendet, der während einer Reise verarbeitet wird. Für benutzerdefinierte Aktionen und Anreicherungen werden spezifischere Felder verwendet.
+Dies sind die gängigen XDM-Felder, die an die Adobe-Datenplattform [!DNL Journey Orchestration] gesendet werden. Gemeinsame Felder werden für jeden Schritt gesendet, der während einer Reise verarbeitet wird. Für benutzerdefinierte Aktionen und Anreicherungen werden spezifischere Felder verwendet.
 
 Einige dieser Felder sind nur in bestimmten Verarbeitungsmustern verfügbar (Aktionsausführung, Datenabruf usw.) um die Größe der Ereignis zu begrenzen.
 
