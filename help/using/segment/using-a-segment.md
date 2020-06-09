@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b238c1851ae640b3146b8457931e1c416387c76a
+source-git-commit: 2f0d235ce1808f632b731fc2077b10a31a178e4b
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,6 @@ ht-degree: 0%
 
 
 # Segmente in Bedingungen verwenden {#using-a-segment}
-
->Die Segmentregisterkarte und die Erstellung/Änderung von Segmenten im Journey Orchestration sind am 15. Juni verfügbar.
 
 In diesem Abschnitt wird erläutert, wie ein Segment in einer Reisebedingung verwendet wird.
 Informationen zur Verwendung eines **Segmentqualifizierungs** -Ereignisses auf Ihrer Reise finden Sie in den Aktivitäten zu [Ereignissen](../building-journeys/event-activities.md#segment-qualification).
