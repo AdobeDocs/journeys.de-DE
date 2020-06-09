@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 26246bd44407a818afba8b80513cb62da9cf6ebd
+source-git-commit: a6a98eca551bf5fc46ebd3a6d0d11486e3fbe06b
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,12 @@ Die Liste der weitergeleiteten XDM-Felder ist umfassend. Einige enthalten system
 >Standardmäßig sind Datensätze für den Echtzeit-Profil-Dienst nicht aktiviert. Wenn Sie einen Datensatz im Profil-Dienst verwenden möchten, müssen Sie ihn aktivieren (**Profil** -Umschalter). Achten Sie darauf, dass eine große Anzahl von Ereignissen die Datenspeicherung Ihrer Quote in Anspruch nehmen wird. Bitte gehen Sie vor der Aktivierung eines Datensatzes für Profil sorgfältig vor
 >
 >![](../assets/sharing4.png)
+
+>[!]
+>
+>Reisen haben auch die Möglichkeit, das Journey Step Profil Ereignis an eine Plattform zu schicken oder nicht.  Journeys unterhält ein Techoggle, um dies zu entscheiden.
+>
+>![](../assets/techtoggle.png)
 
 Journeys sendet Daten im Streaming-Modus. Sie können diese Daten mit dem Abfrage-Dienst Abfrage werden. Sie können eine Verbindung zu Customer Journey Analytics oder anderen BI-Tools herstellen, um Daten zur Ansicht dieser Schritte zu erhalten.
 
