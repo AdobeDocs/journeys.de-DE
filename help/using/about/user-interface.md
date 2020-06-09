@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 817df02d78c4b9d213895cd7201ab1c2c883b188
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '1075'
-ht-degree: 96%
+source-wordcount: '1061'
+ht-degree: 88%
 
 ---
 
@@ -21,17 +21,17 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->Um Journey Orchestration optimal zu nutzen, empfehlen wir die Verwendung von Chrome als Internetbrowser. Die Benutzeroberfläche wird in der in IMS definierten Sprache angezeigt. Wenn Ihre IMS-Sprache nicht von der Journey Orchestration unterstützt wird, wird die Oberfläche in Englisch angezeigt.
+>To get the best out of [!DNL Journey Orchestration], we recommend using Chrome as your Internet browser. Die Benutzeroberfläche wird in der in IMS definierten Sprache angezeigt. Wenn Ihre IMS-Sprache von nicht unterstützt wird, wird [!DNL Journey Orchestration]die Oberfläche in Englisch angezeigt.
 >
 >Die vorliegende Dokumentation wird entsprechend den Produktänderungen regelmäßig aktualisiert. Manche Screenshots können jedoch geringfügig von der Benutzeroberfläche des Produkts abweichen.
 
-## Zugriff auf Journey Orchestration{#accessing_journey_orchestration}
+## Zugriff [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-Klicken Sie oben rechts auf das Symbol **[!UICONTROL App-Auswahl]**, um die Benutzeroberfläche zu Journey Orchestration aufzurufen. Klicken Sie dann rechts unter „Experience Platform“ auf **[!UICONTROL Journey Orchestration]**.
+To access the [!DNL Journey Orchestration]&#39;s interface, click the **[!UICONTROL App Selector]** icon, in the top right. Klicken Sie dann rechts unter „Experience Platform“ auf **[!UICONTROL Journey Orchestration]**.
 
 ![](../assets/journey1.png)
 
-Alternativ können Sie über die Experience Cloud-Startseite im Bereich **[!UICONTROL Schnellzugriff]** auf Journey Orchestration zugreifen.
+You can also access [!DNL Journey Orchestration] from the Experience Cloud home page, in the **[!UICONTROL Quick access]** section.
 
 ![](../assets/journey1bis.png)
 
@@ -43,11 +43,11 @@ Alternativ können Sie über die Experience Cloud-Startseite im Bereich **[!UICO
 >abstract="Die Liste der Journeys ermöglicht es Ihnen, alle Ihre Journeys gleichzeitig anzuzeigen, deren Status zu sehen und allgemeine Aktionen durchzuführen. Sie können Ihre Journeys duplizieren, stoppen oder löschen. Je nach Journey stehen bestimmte Aktionen möglicherweise nicht zur Verfügung. Sie können beispielsweise eine geschlossene Reise weder löschen noch neu starten. Stattdessen können Sie eine neue Version davon erstellen oder sie duplizieren. Sie können auch die Suchleiste verwenden, um nach einer Journey zu suchen."
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Demovideo ansehen"
 
-Die Menüs am oberen Seitenrand bieten Zugriff auf die verschiedenen Funktionen von Journey Orchestration: **[!UICONTROL Startseite]** (die Journeys), **[!UICONTROL Datenquellen]**, **[!UICONTROL Ereignisse]**, **[!UICONTROL Aktionen]**.
+The top menus allow you to navigate through the different functionalities of [!DNL Journey Orchestration]: **[!UICONTROL Home]**(the journeys),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
 
 ![](../assets/journey2.png)
 
-Klicken Sie auf das ![](../assets/icon-context.png)-Symbol oben rechts im Bildschirm, um die Kontexthilfe anzuzeigen. Sie ist jetzt in allen Listenbildschirmen (Journeys, Ereignisse, Aktionen und Datenquellen) von Journey Orchestration verfügbar. Auf diese Weise können Sie eine kurze Beschreibung der aktuellen Funktion anzeigen und auf zugehörige Artikel und Videos zugreifen.
+Klicken Sie auf das ![](../assets/icon-context.png)-Symbol oben rechts im Bildschirm, um die Kontexthilfe anzuzeigen. It is available across the different [!DNL Journey Orchestration] list screens (journeys, events, actions and data sources). Auf diese Weise können Sie eine kurze Beschreibung der aktuellen Funktion anzeigen und auf zugehörige Artikel und Videos zugreifen.
 
 ![](../assets/journey2bis.png)
 
@@ -93,7 +93,7 @@ Wenn ein benutzerfreundlicher Name verfügbar ist, wird das Feld als `<friendly-
 
 ## Verwenden der verschiedenen Tastaturbefehle{#section_ksq_zr1_ffb}
 
-Hier finden Sie die verschiedenen Tastaturbefehle, die in der Benutzeroberfläche von Journey Orchestration verfügbar sind.
+Here are the different shortcuts available in the [!DNL Journey Orchestration]&#39;s interface.
 
 _In der Liste der Journeys, Aktionen, Datenquellen oder Ereignisse:_
 
