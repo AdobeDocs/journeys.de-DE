@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 10402a774bda66629f30869102d5e6ceca267535
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ Typ: string
 
 ## fetchOriginErrorCode
 
-Der Fehlercode des Systems Journey Orchestration fragt. Zum Beispiel kann es ein 404, 500 usw. sein.
+Der vom System bereitgestellte Fehlercode [!DNL Journey Orchestration] fragt ab. Zum Beispiel kann es ein 404, 500 usw. sein.
 
 Typ: string
 
