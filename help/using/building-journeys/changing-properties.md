@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20ffc07586ba34d94b2b2369b23be867d8488363
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 97%
+source-wordcount: '482'
+ht-degree: 96%
 
 ---
 
@@ -42,7 +42,7 @@ Die zulässigen Werte liegen zwischen 1 und 30 Sekunden.
 
 Es wird empfohlen, unter **[!UICONTROL Zeitüberschreitung und Fehler]** einen sehr kurzen Wert festzulegen, wenn Ihre Journey zeitkritisch ist (z. B. Reaktion auf den Echtzeit-Standort einer Person), da Sie Ihre Aktion nicht länger als einige Sekunden verzögern können. Wenn Ihre Journey weniger zeitkritisch ist, können Sie einen längeren Wert verwenden, um dem aufgerufenen System mehr Zeit zum Senden einer gültigen Antwort zu geben.
 
-Bei Journey Orchestration wird auch eine globale Zeitüberschreitung verwendet. Siehe [nächster Abschnitt](#global_timeout).
+[!DNL Journey Orchestration] verwendet auch einen globalen Timeout. Siehe [nächster Abschnitt](#global_timeout).
 
 ## Globale Journey-Zeitüberschreitung {#global_timeout}
 
@@ -50,7 +50,7 @@ Zusätzlich zu der in den Journey-Aktivitäten verwendeten [Zeitüberschreitung]
 
 >[!NOTE]
 >
->Journey Orchestration reagiert nicht direkt auf Datenschutz-Opt-out-, Zugriffs- oder Löschanfragen. Die globale Zeitüberschreitung stellt jedoch sicher, dass Kontakte auf keinen Fall länger als 30 Tage in der Journey bleiben.
+>[!DNL Journey Orchestration] reagiert nicht direkt auf Datenschutz-Opt-out-, Zugriffs- oder Löschanfragen. Die globale Zeitüberschreitung stellt jedoch sicher, dass Kontakte auf keinen Fall länger als 30 Tage in der Journey bleiben.
 
 Aufgrund der Journey-Zeitüberschreitung nach 30 Tagen können wir, wenn der erneute Zutritt nicht erlaubt ist, nicht sicherstellen, dass die Sperrung des erneuten Zutritts nach mehr als 30 Tagen erhalten bleibt. Da wir alle Informationen über Personen, die an der Journey teilgenommen haben, 30 Tage nach deren Eintritt entfernen, können wir nicht wissen, dass die Person vor mehr als 30 Tagen bereits Zutritt hatte.
 
