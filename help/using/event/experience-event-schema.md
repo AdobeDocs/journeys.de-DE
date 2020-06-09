@@ -10,35 +10,35 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 9b8d4bebe024e90733cb1ae6d31b36fb6ce4b606
-workflow-type: ht
-source-wordcount: '327'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '313'
+ht-degree: 62%
 
 ---
 
 
 
-# Informationen zu ExperienceEvent-Schemata für Journey Orchestration-Ereignisse
+# Info zu ExperienceEvent-Schemas für [!DNL Journey Orchestration] Ereignis
 
-Journey Orchestration-Ereignisses sind XDM-Erlebnisereignisse, die über die Streaming-Aufnahme an Adobe Experience Platform gesendet werden.
+[!DNL Journey Orchestration] Ereignis sind XDM Experience Ereignis, die über Streaming Ingestion an die Adobe Experience Platform gesendet werden.
 
-Eine wichtige Voraussetzung für das Einrichten von Journey Orchestration-Ereignissen ist daher, dass Sie mit dem Experience-Datenmodell (oder XDM) der Plattform und dem Erstellen von XDM-Erlebnisereignisschemata sowie dem Streamen von XDM-formatierten Daten an die Plattform vertraut sind.
+As such, an important prerequisite for setting up events for [!DNL Journey Orchestration] is that you are familiar with the Platform’s Experience Data Model (or XDM) and how to compose XDM Experience Event schemas, as well as how to stream XDM-formatted data to the Platform.
 
-## Schemaanforderungen für Journey Orchestration-Ereignisse
+## Anforderungen an das Schema von [!DNL Journey Orchestration] Ereignissen
 
-Der erste Schritt beim Einrichten eines Ereignisses für Journey Orchestration besteht darin sicherzustellen, dass Sie ein XDM-Schema zur Darstellung des Ereignisses definiert und einen Datensatz erstellt haben, um Instanzen des Ereignisses auf der Plattform aufzuzeichnen. Es ist nicht unbedingt erforderlich, einen Datensatz für Ihre Ereignisse zu haben. Wenn Sie die Ereignisse jedoch an einen bestimmten Datensatz senden, können Sie den Ereignisverlauf der Benutzer zur späteren Bezugnahme und Analyse aufbewahren. Dies ist daher immer eine gute Idee. Wenn Sie noch kein geeignetes Schema oder keinen geeigneten Datensatz für Ihr Ereignis haben, können Sie beide über die Web-Oberfläche der Plattform erstellen.
+The first step in setting up an event for [!DNL Journey Orchestration] is to ensure that you have an XDM schema defined to represent the event, and a dataset created to record instances of the event on the Platform. Es ist nicht unbedingt erforderlich, einen Datensatz für Ihre Ereignisse zu haben. Wenn Sie die Ereignisse jedoch an einen bestimmten Datensatz senden, können Sie den Ereignisverlauf der Benutzer zur späteren Bezugnahme und Analyse aufbewahren. Dies ist daher immer eine gute Idee. Wenn Sie noch kein geeignetes Schema oder keinen geeigneten Datensatz für Ihr Ereignis haben, können Sie beide über die Web-Oberfläche der Plattform erstellen.
 
 ![](../assets/schema1.png)
 
-Jedes XDM-Schema, das für Journey Orchestration-Ereignisse verwendet wird, sollte die folgenden Anforderungen erfüllen:
+Any XDM schema that will be used for [!DNL Journey Orchestration] events should meet the following requirements:
 
 * Das Schema muss der XDM-ExperienceEvent-Klasse angehören.
 
 ![](../assets/schema2.png)
 
-* Das Schema muss das Orchestration eventID-Mixin enthalten. Journey Orchestration verwendet dieses Feld, um Ereignisse zu identifizieren, die in Journeys verwendet werden.
+* Das Schema muss das Orchestration eventID-Mixin enthalten. [!DNL Journey Orchestration] verwendet dieses Feld, um Ereignisse zu identifizieren, die in Journeys verwendet werden.
 
 ![](../assets/schema3.png)
 
