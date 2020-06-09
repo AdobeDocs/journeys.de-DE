@@ -10,8 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+translation-type: tm+mt
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '134'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
 
 Mit den Transaktionsnachrichten von Adobe Campaign Standard können Sie E-Mails, Push-Benachrichtigungen und SMS senden.
 
-Für Journey Orchestration steht eine vordefinierte Aktion zur Verfügung, die die Verbindung mit Adobe Campaign Standard ermöglicht. Im Folgenden werden die Konfigurationsschritte beschrieben:
+[!DNL Journey Orchestration]Für steht eine vordefinierte Aktion zur Verfügung, die die Verbindung mit Adobe Campaign Standard ermöglicht. Im Folgenden werden die Konfigurationsschritte beschrieben:
 
 1. Klicken Sie in der Liste **[!UICONTROL Aktionen]** auf die integrierte Aktion **[!UICONTROL AdobeCampaignStandard]**. Der Bereich für die Konfiguration der Aktion wird auf der rechten Seite des Bildschirms geöffnet.
 
