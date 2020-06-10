@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4e850db61aa55c9bff448a0280f79810928cb6ec
+source-git-commit: 96c84047952eed8835879b1375bce6326c55fd35
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -35,9 +35,9 @@ Die Liste der weitergeleiteten XDM-Felder ist umfassend. Einige enthalten system
 >
 >![](../assets/sharing4.png)
 
->[!]
+>[!NOTE]
 >
->Reisen haben auch die Möglichkeit, das Journey Step Profil Ereignis an eine Plattform zu schicken oder nicht.  Journeys unterhält ein Techoggle, um dies zu entscheiden.
+>Reisen haben auch die Möglichkeit, das Journey Step Profil Ereignis an Platform zu senden oder nicht. Journeys unterhält ein Techoggle, um dies zu entscheiden.
 >
 >![](../assets/techtoggle.png)
 
