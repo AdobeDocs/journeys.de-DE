@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 83e0476b8efd779256549788ff73f32531e08934
+source-git-commit: be21573973600758cbf13bd25bc3b44ab4cd08ca
 workflow-type: tm+mt
-source-wordcount: '1121'
-ht-degree: 86%
+source-wordcount: '1103'
+ht-degree: 88%
 
 ---
 
@@ -81,7 +81,7 @@ Wenn Sie im Bildschirm &quot;Ereignis-Konfiguration&quot;ein anderes Profil ausw
 
 Beim Öffnen einer Reise im Test entspricht der angezeigte Pfad dem letzten durchgeführten Test.
 
-Der visuelle Fluss wird nur angezeigt, wenn das Ereignis, das an die Reise gesendet wird, im Bildschirm &quot;Konfiguration des Ereignisses&quot;definiert ist. Wenn das Ereignis extern definiert wird, z. B. mit Postman, wird der visuelle Fluss nicht angezeigt.
+Der visuelle Fluss funktioniert unabhängig davon, ob das Ereignis über die Schnittstelle oder extern ausgelöst wird (z. B. mit Postman).
 
 ## Anzeigen der Protokolle {#viewing_logs}
 
