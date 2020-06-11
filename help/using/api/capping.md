@@ -9,9 +9,9 @@ topic-tags: journeys
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: 58495028d41d1d18739a8ea9c7f0622a0cf6ca4d
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1084'
 ht-degree: 25%
 
 ---
@@ -30,11 +30,13 @@ Weitere Informationen zur Aktion oder Datenquellenkonfiguration finden Sie unter
 
 ## Ressourcen
 
-Die [!DNL Journey Orchestration] Capping-API wird in einer Swagger-Datei beschrieben, die [hier](https://adobedocs.github.io/JourneyAPI/docs/)verfügbar ist.
+>[!NOTE]
+>
+>Die [!DNL Journey Orchestration] Capping-API wird in einer Swagger-Datei beschrieben, die [hier](https://adobedocs.github.io/JourneyAPI/docs/)verfügbar ist.
 
 Um diese API mit Ihrer [!DNL Journey Orchestration] Instanz zu verwenden, müssen Sie die AdobeIO-Konsole verwenden. Sie können Beginn ausführen, indem Sie diese [Schritte mit Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) ausführen und dann die Abschnitte auf dieser Seite verwenden.
 
-Um Ihre Integration zu testen und vorzubereiten, steht [hier](https://github.com/AdobeDocs/JourneyAPI/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)eine Postman-Sammlung zur Verfügung.
+Um Ihre Integration zu testen und vorzubereiten, steht [hier](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)eine Postman-Sammlung zur Verfügung.
 
 ## Authentifizierung
 
@@ -44,7 +46,7 @@ Um Ihre Integration zu testen und vorzubereiten, steht [hier](https://github.com
 
 >[!CAUTION]
 >
->Wenn Sie in Adobe I/O Zertifikate verwalten möchten, vergewissern Sie sich, dass Sie in der Admin Console über <b>Systemadministrator</b> -Rechte für das Unternehmen oder ein <a href="https://helpx.adobe.com/enterprise/using/manage-developers.html">Entwicklerkonto</a> verfügen.
+>Wenn Sie in Adobe I/O Zertifikate verwalten möchten, vergewissern Sie sich, dass Sie in der Admin Console über <b>Systemadministrator</b> -Rechte für das Unternehmen oder ein [Entwicklerkonto](https://helpx.adobe.com/de/enterprise/using/manage-developers.html) verfügen.
 
 1. **Überprüfen Sie, ob Sie ein digitales Zertifikat haben**, oder erstellen Sie bei Bedarf eines. Die mit dem Zertifikat bereitgestellten öffentlichen und privaten Schlüssel werden in den folgenden Schritten benötigt.
 1. **[!DNL Journey Orchestration]Erstellen Sie eine neue Integration mit Service** in Adobe I/O und konfigurieren Sie sie. Der Produktzugriff auf das Profil ist für [!DNL Journey Orchestration] und Adobe Experience Platform erforderlich. Dann werden Ihre Zugangsdaten generiert (API-Schlüssel, Client-Geheimnis...).
@@ -167,7 +169,7 @@ Die potenzielle Warnung lautet:
 
 In diesem Abschnitt finden Sie die fünf Hauptverwendungsfälle, die Sie zur Verwaltung Ihrer Deckelkonfiguration in durchführen können [!DNL Journey Orchestration].
 
-Um Ihnen bei Ihren Tests und Konfigurationen behilflich zu sein, steht [hier](https://github.com/AdobeDocs/JourneyAPI/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)eine Postman-Sammlung zur Verfügung.
+Um Ihnen bei Ihren Tests und Konfigurationen behilflich zu sein, steht [hier](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)eine Postman-Sammlung zur Verfügung.
 
 Diese Postman Collection wurde eingerichtet, um die Postman-Variablensammlung freizugeben, die über die Integrationen __[der](https://console.adobe.io/integrations)Adobe I/O-Konsole > Testen Sie sie aus > Für Postman__ herunterladen generiert wurde. Dadurch wird eine Postman-Umgebung mit den ausgewählten Integrationswerten generiert.
 
@@ -175,7 +177,7 @@ Nach dem Herunterladen und Hochladen in Postman müssen Sie zwei Variablen hinzu
 * `{JO_HOST}` : [!DNL Journey Orchestration] Gateway-URL
 * `{BASE_PATH}` : Einstiegspunkt für die API. Der Wert lautet &quot;/authoring&quot;
 
-
+Im folgenden Abschnitt finden Sie die Liste der Rest-API-Aufrufe, die zur Durchführung des Anwendungsfalls angeordnet wurden.
 
 Verwendungsfall Nr. 1: **Erstellen und Bereitstellen einer neuen Konfiguration für die Begrenzung**
 
