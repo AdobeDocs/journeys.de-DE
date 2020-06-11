@@ -10,8 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+translation-type: tm+mt
+source-git-commit: 295112e2d18fd275a0fd2826aa8bd87a8ed12636
+workflow-type: tm+mt
+source-wordcount: '126'
+ht-degree: 84%
 
 ---
 
@@ -20,9 +23,9 @@ source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
 
 Für die Verwendung von benutzerdefinierten Aktionen gelten folgende Einschränkungen:
 
-* Es gibt keine Begrenzung oder Pufferung/Ausgleichung des Sendevolumens.
+* Es gibt keine Pufferung/Glättung des sendenden Volumens.
 * Im Falle eines Fehlers werden systematisch zwei weitere Zustellversuche durchgeführt. Sie können die Anzahl der weiteren Zustellversuche nicht entsprechend der erhaltenen Fehlermeldung anpassen.
-* Mit dem integrierten **[!UICONTROL Reaktionsereignis]** können Sie auf vordefinierte Aktionen reagieren (siehe [](../building-journeys/event-activities.md)). Wenn Sie auf eine Nachricht reagieren möchten, die über eine benutzerdefinierte Aktion gesendet wird, müssen Sie ein spezielles Ereignis konfigurieren.
+* The built-in **[!UICONTROL Reaction]** event allows you to react to out-of-the-box actions (see [](../building-journeys/event-activities.md)). Wenn Sie auf eine Nachricht reagieren möchten, die über eine benutzerdefinierte Aktion gesendet wird, müssen Sie ein spezielles Ereignis konfigurieren.
 * Die URL der benutzerdefinierten Aktion unterstützt keine dynamischen Parameter.
 * Es werden nur POST- und PUT-Aufrufmethoden unterstützt.
 * Der Name des Abfrageparameters oder der Kopfzeile darf nicht mit „.“ oder „$“ beginnen.
