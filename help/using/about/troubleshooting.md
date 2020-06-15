@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
 source-wordcount: '1010'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -49,11 +49,11 @@ Der Ausgangspunkt einer Journey ist stets ein Ereignis. Sie können mithilfe von
 
 Sie können prüfen, ob der API-Aufruf, den Sie über diese Tools versenden, richtig gesendet wurde oder nicht. Wenn Sie einen Fehler erhalten, bedeutet das, dass es bei Ihrem Aufruf zu einem Fehler kommt. Überprüfen Sie erneut die Payload, die Kopfzeile (insbesondere die Organisations-ID) sowie die Ziel-URL. Sie können Ihren Administrator nach der richtigen URL fragen.
 
-Events are not pushed directly from the source to [!DNL Journey Orchestration]. Indeed, [!DNL Journey Orchestration] relies on Experience Platform’s streaming ingestion APIs. Darum können Sie bei Problemen mit Ereignissen auf dieser [Seite](https://docs.adobe.com/content/help/de-DE/experience-platform/ingestion/streaming/troubleshooting.html) die Fehlerbehebung für Streaming-Aufnahme-APIs aufrufen.
+Ereignisse werden von der Quelle nicht direkt an [!DNL Journey Orchestration] weitergeleitet. [!DNL Journey Orchestration] benötigt dazu Streaming-Aufnahme-APIs von Experience Platform. Darum können Sie bei Problemen mit Ereignissen auf dieser [Seite](https://docs.adobe.com/content/help/de-DE/experience-platform/ingestion/streaming/troubleshooting.html) die Fehlerbehebung für Streaming-Aufnahme-APIs aufrufen.
 
 ## Überprüfen, ob Personen in die Journey einsteigen{#section_x4v_zzs_dgb}
 
-[!DNL Journey Orchestration]Berichte zu messen den Einstieg von Personen in eine Journey auf Echtzeitbasis.
+[!DNL Journey Orchestration]-Berichte messen den Eintritt von Personen in eine Journey auf Echtzeitbasis.
 
 Wenn Sie das Ereignis erfolgreich versenden, aber keinen Einstieg in die Journey erkennen können, bedeutet das, dass es zwischen dem Senden und Empfangen des Ereignisses in der Journey zu Problemen kommt.
 
@@ -73,7 +73,7 @@ Im Folgenden sind einige Faktoren aufgeführt, die der Administrator überprüfe
 
 ## Überprüfen, wie Personen durch die Journey navigieren{#section_l5y_yzs_dgb}
 
-[!DNL Journey Orchestration]Berichte zu messen den Fortschritt von Kontakten innerhalb einer Journey. So können Sie leicht ermitteln, wo und warum eine Person gestoppt wurde.
+[!DNL Journey Orchestration]-Berichte messen den Fortschritt von Kontakten innerhalb einer Journey. So können Sie leicht ermitteln, wo und warum eine Person gestoppt wurde.
 
 Prüfen Sie folgende Punkte:
 
