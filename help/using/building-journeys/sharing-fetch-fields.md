@@ -1,6 +1,6 @@
 ---
-title: JourneyStep-Ereignisse - Datenabruf von Feldern
-description: JourneyStep-Ereignisse - Datenabruf von Feldern
+title: Datenabruffelder für journeyStep-Ereignisse
+description: Datenabruffelder für journeyStep-Ereignisse
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,28 +14,28 @@ translation-type: tm+mt
 source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
 source-wordcount: '366'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# JourneyStep-Ereignisse - Datenabruf von Feldern {#sharing-fetch-fields}
+# Datenabruffelder für journeyStep-Ereignisse {#sharing-fetch-fields}
 
-Dieses Mixin wird von &quot;travelStepEvent&quot;und &quot;travelStepProfileEvent&quot;freigegeben.
+Dieses Mixin wird von journeyStepEvent und journeyStepProfileEvent geteilt.
 
-Während einer Schrittverarbeitung können N-Daten für Feldgruppen abgerufen werden.
+Bei einer Schrittverarbeitung kann es N Datenabrufe für Feldergruppen geben.
 
 ## fetchTotalTime
 
-Gesamtdauer, die während der Schrittverarbeitung beim Abrufen von Daten verbracht wurde, in Millisekunden.
+Gesamtdauer, die bei der Schrittverarbeitung für das Abrufen von Daten gebraucht wurde (in Millisekunden).
 
-Typ: long
+Typ: lang
 
 ## fetchTypeInError
 
-Definiert, ob sich der Fehler &quot;Abrufen in&quot;auf der Plattform oder in einer benutzerdefinierten Datenquelle befindet.
+Definiert, ob sich der Abruffehler in der Plattform oder einer benutzerdefinierten Datenquelle befindet.
 
-Typ: string
+Typ: Zeichenfolge
 
 Werte:
 * aep
@@ -45,7 +45,7 @@ Werte:
 
 Fehlertyp, der bei der Verarbeitung des Datenabrufs auftritt.
 
-Typ: string
+Typ: Zeichenfolge
 
 Werte:
 * http
@@ -55,18 +55,18 @@ Werte:
 
 ## fetchErrorCode
 
-Code für den Abruf-Fehler. Wird angezeigt, wenn der Fehler einen Code enthält, z. B. einen HTTP-Code. Wenn beispielsweise actionExecError http lautet, stellt der Code 404 den HTTP 404-Fehler dar.
+Code für den Fehler beim Abrufen. Wird angezeigt, wenn der Fehler einen Code enthält, z. B. HTTP-Code. Wenn der actionExecError beispielsweise http lautet, stellt der Code 404 den HTTP 404-Fehler dar.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## fetchOriginError
 
-Ein Timeout kann in zwei Fällen auftreten:
+Eine Zeitüberschreitung kann in zwei Fällen auftreten:
 
-* beim ersten Versuch die Aktion ausgeführt wird. In diesem Fall ist die Ausführung noch nicht abgeschlossen, sodass kein zugrunde liegender Fehler vorliegt
-* bei einer Wiederholung: In diesem Fall beschreibt der ActionExecOrigError/actionExecOrigErrorCode den Fehler, der beim Versuch vor dem Wiederholen aufgetreten ist.
+* beim ersten Versuch der Ausführung der Aktion; in diesem Fall ist die Ausführung noch nicht abgeschlossen, sodass kein zugrunde liegender Fehler vorliegt.
+* bei einer Wiederholung; in diesem Fall beschreibt der ActionExecOrigError/actionExecOrigErrorCode den Fehler, der beim Versuch vor der Wiederholung aufgetreten ist.
 
-Beispielsweise werden Daten vom Unified Profil Service abgerufen und beim ersten Versuch wird ein HTTP 500-Fehler zurückgegeben. Der Abruf wird erneut versucht, aber die Dauer der 2 Versuche überschreitet den Timeout. Dann wird die Aktionsausführung als Timeout getaggt. Der Aktionsbereich sieht wie folgt aus:
+Beispielsweise werden Daten vom Unified Profil Service abgerufen und wird beim ersten Versuch ein HTTP 500-Fehler zurückgegeben. Der Abruf wird erneut versucht, aber die Dauer der zwei Versuche liegt über der Zeitüberschreitung. Dann wird die Aktionsausführung als Zeitüberschreitung markiert. Der Aktionsteil sieht wie folgt aus:
 
 ```
     ...
@@ -77,40 +77,40 @@ Beispielsweise werden Daten vom Unified Profil Service abgerufen und beim ersten
     "fetchOrigErrorCode": "500"
 ```
 
-Typ: string
+Typ: Zeichenfolge
 
 ## fetchOriginErrorCode
 
-Der vom System bereitgestellte Fehlercode [!DNL Journey Orchestration] fragt ab. Zum Beispiel kann es ein 404, 500 usw. sein.
+Der vom System, das von [!DNL Journey Orchestration] abgefragt wird, bereitgestellte Fehler-Code. Dieser kann zum Beispiel 404, 500 usw. lauten.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## fetchCount
 
 Wie oft die Daten abgerufen werden, unabhängig vom Typ der Quelle.
 
-Typ: long
+Typ: lang
 
 ## fetchPlatformTotalTime
 
-Die Gesamtdauer, die zum Abrufen der Daten von der Datenplattform in Millisekunden benötigt wird. Bemerkung: dieser Zeitraum wird berechnet, wenn die Engine das Ereignis der Anreicherung an den Anreicherung-Dienst sendet und die Antwort erhält.
+Gesamtdauer, die zum Abrufen der Daten von der Datenplattform benötigt wird (in Millisekunden). Hinweis: Diese Dauer berechnet sich vom Zeitpunkt, an dem die Engine das Anreicherungsereignis an den Anreicherungsdienst sendet, bis zu dem Zeitpunkt, an dem die Engine die Antwort erhält.
 
-Typ: long
+Typ: lang
 
 ## fetchPlatformCount
 
-Wie oft die Daten von der Plattform abgerufen werden.
+Wie oft die Daten von Platform abgerufen werden.
 
-Typ: long
+Typ: lang
 
 ## fetchCustomTotalTime
 
-Zeit zum Abrufen der benutzerspezifischen Daten in Millis. Bemerkung: diese Zeitdauer berechnet wird, ab dem die Engine das Ereignis der Anreicherung an den Anreicherung-Dienst sendet und die Antwort erhält
+Dauer des Abrufs der benutzerspezifischen Daten (in Millisekunden). Hinweis: Diese Dauer berechnet sich vom Zeitpunkt, an dem die Engine das Anreicherungsereignis an den Anreicherungsdienst sendet, bis zu dem Zeitpunkt, an dem die Engine die Antwort erhält
 
-Typ: long
+Typ: lang
 
 ## fetchCustomCount
 
 Wie oft die benutzerdefinierten Daten von externen Systemen abgerufen werden.
 
-Typ: long
+Typ: lang
