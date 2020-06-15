@@ -12,14 +12,14 @@ translation-type: tm+mt
 source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 
 # Erste Schritte{#concept_y4b_4qt_52b}
 
-In [!DNL Journey Orchestration], there are two types of users, each of them performing specific tasks: the **technical user** and the **business user**. Der Benutzerzugriff wird mithilfe von Produktprofilen und Berechtigungen verwaltet. Informationen zum Konfigurieren des Benutzerzugriffs finden Sie unter [](../about/access-management.md).
+Bei [!DNL Journey Orchestration] gibt es zwei Arten von Benutzern, die jeweils eigene Aufgaben erledigen: den **technischen Anwender** und den **Business-Anwender**. Der Benutzerzugriff wird mithilfe von Produktprofilen und Berechtigungen verwaltet. Informationen zum Konfigurieren des Benutzerzugriffs finden Sie unter [](../about/access-management.md).
 
 Im Folgenden finden Sie die wichtigsten Schritte zum Konfigurieren und Verwenden von [!DNL Journey Orchestration]:
 
@@ -41,7 +41,7 @@ Im Folgenden finden Sie die wichtigsten Schritte zum Konfigurieren und Verwenden
 
 1. **Konfigurieren einer Aktion**
 
-   If you&#39;re using a third-party system to send your messages, you need to configure its connection with [!DNL Journey Orchestration]. Siehe [](../action/about-custom-action-configuration.md).
+   Wenn Sie zum Versand Ihrer Nachrichten ein Drittanbietersystem verwenden möchten, müssen Sie dessen Verbindung zu [!DNL Journey Orchestration] konfigurieren. Siehe [](../action/about-custom-action-configuration.md).
 
    Wenn Sie Adobe Campaign Standard zum Senden von Nachrichten verwenden möchten, müssen Sie die integrierte Aktion konfigurieren. Siehe [](../action/working-with-adobe-campaign.md).
 
