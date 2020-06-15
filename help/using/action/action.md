@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
 source-wordcount: '287'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Die Aktionen stehen in der linken Palette Ihrer Journey in der Kategorie **[!UIC
 >
 >Die Konfiguration von benutzerdefinierten Aktionen wird immer von einem **technischen Anwender** durchgeführt.
 
-In der Liste der **Aktionen** können Sie auf c drücken, um eine neue Journey, Aktion oder Datenquelle oder ein neues Ereignis zu erstellen. For more information on shortcuts in [!DNL Journey Orchestration], see [](../about/user-interface.md#section_ksq_zr1_ffb).
+In der Liste der **Aktionen** können Sie auf c drücken, um eine neue Journey, Aktion oder Datenquelle oder ein neues Ereignis zu erstellen. Weitere Informationen zu den Tastaturbefehlen in [!DNL Journey Orchestration] finden Sie unter [](../about/user-interface.md#section_ksq_zr1_ffb).
 
 Um die Aktionsliste anzuzeigen oder eine neue Aktion zu konfigurieren, klicken Sie in den oberen Menüs auf **[!UICONTROL Aktionen]**. Die Liste der Aktionen wird angezeigt. Weitere Informationen zur Benutzeroberfläche finden Sie unter [](../about/user-interface.md).
 
@@ -46,4 +46,4 @@ Falls Sie Adobe Campaign Standard verwenden, müssen Sie die vordefinierte Aktio
 
 Wenn Sie ein Drittanbietersystem (z. B. Epsilon, Facebook, Adobe.io, Firebase) zum Senden von Nachrichten verwenden, müssen Sie eine benutzerdefinierte Aktion hinzufügen und konfigurieren. Siehe [](../action/about-custom-action-configuration.md).
 
-For more information on how to configure an Action for [!DNL Journey Orchestration] and how to use it in a journey, watch this [video tutorial](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-actions.html).
+Weitere Informationen zur Konfiguration einer Aktion für [!DNL Journey Orchestration] und zur Verwendung dieser Aktion in einer Journey finden Sie in diesem [Anleitungsvideo](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-actions.html).
