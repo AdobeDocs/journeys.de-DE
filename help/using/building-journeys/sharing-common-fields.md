@@ -1,6 +1,6 @@
 ---
-title: reporneysteps Ereignisse gemeinsame Felder
-description: reporneysteps Ereignisse gemeinsame Felder
+title: Gemeinsame Felder für journeyStep-Ereignisse
+description: Gemeinsame Felder für journeyStep-Ereignisse
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,30 +14,30 @@ translation-type: tm+mt
 source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
 source-wordcount: '581'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# reporneysteps Ereignisse gemeinsame Felder {#sharing-common-fields}
+# Gemeinsame Felder für journeyStep-Ereignisse {#sharing-common-fields}
 
-Dieses Mixin wird von &quot;travelStepEvent&quot;und &quot;travelStepProfileEvent&quot;freigegeben.
+Dieses Mixin wird von journeyStepEvent und journeyStepProfileEvent geteilt.
 
-Dies sind die gängigen XDM-Felder, die an die Adobe-Datenplattform [!DNL Journey Orchestration] gesendet werden. Gemeinsame Felder werden für jeden Schritt gesendet, der während einer Reise verarbeitet wird. Für benutzerdefinierte Aktionen und Anreicherungen werden spezifischere Felder verwendet.
+Dies sind die gängigen XDM-Felder, die [!DNL Journey Orchestration] an Adobe Data Platform sendet. Gemeinsame Felder werden für jeden Schritt gesendet, der während einer Journey verarbeitet wird. Für benutzerdefinierte Aktionen und Anreicherungen werden spezifischere Felder verwendet.
 
-Einige dieser Felder sind nur in bestimmten Verarbeitungsmustern verfügbar (Aktionsausführung, Datenabruf usw.) um die Größe der Ereignis zu begrenzen.
+Einige dieser Felder sind nur bei bestimmten Verarbeitungsmustern verfügbar (Aktionsausführung, Datenabruf usw.), um die Größe von Ereignissen zu begrenzen.
 
-## Eingang
+## entrance
 
-Gibt an, ob der Benutzer die Reise aufgerufen hat. Ist der Wert nicht vorhanden, wird angenommen, dass er &quot;false&quot;ist.
+Gibt an, ob der Benutzer in die Journey eingetreten ist. Wenn nicht vorhanden, wird angenommen, dass der Wert „false“ lautet.
 
 Typ: boolesch
 
 Werte: true/false
 
-## reaktivieren
+## reentrance
 
-Gibt an, ob der Benutzer die Reise mit derselben Instanz erneut aufgerufen hat. Ist der Wert nicht vorhanden, wird angenommen, dass er &quot;false&quot;ist.
+Gibt an, ob der Benutzer in die Journey mit derselben Instanz erneut eingetreten ist. Wenn nicht vorhanden, wird angenommen, dass der Wert „false“ lautet.
 
 Typ: boolesch
 
@@ -51,33 +51,33 @@ Typ: boolesch
 
 ## eventID
 
-Ereignis-ID in der Verarbeitung für die Schrittverarbeitung. Wenn es sich bei dem Ereignis um ein externes Element handelt, ist der Wert eventId. Wenn es sich bei dem Ereignis um ein internes handelt, ist der Wert die interne eventId (wie z. B. geplanteNotificationReceived, executeAction usw.).
+Ereigniskennung in der Verarbeitung für die Schrittverarbeitung. Wenn es sich bei dem Ereignis um ein externes Ereignis handelt, ist der Wert dessen Ereignis-ID eventId. Wenn es sich bei dem Ereignis um ein internes Ereignis handelt, ist der Wert die interne eventId (wie z. B. scheduledNotificationReceived, executedAction).
 
-Typ: string
+Typ: Zeichenfolge
 
 ## nodeID
 
-Client-Knoten-ID (aus der Arbeitsfläche).
+Kennung des Client-Knotens (von der Arbeitsfläche).
 
-Typ: string
+Typ: Zeichenfolge
 
 ## stepID
 
-Eindeutige ID des Schritts, der derzeit verarbeitet wird.
+Eindeutige Kennung des Schritts, der gerade verarbeitet wird.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## stepName
 
-Name des Schritts, der derzeit verarbeitet wird.
+Name des Schritts, der gerade verarbeitet wird.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## stepType
 
-Typ des Schritts.
+Art des Schritts.
 
-Typ: string
+Typ: Zeichenfolge
 
 Mögliche Werte:
 
@@ -88,125 +88,125 @@ Mögliche Werte:
 
 ## stepStatus
 
-Status des Schritts, der den Status des Schritts darstellt, wenn die Verarbeitung abgeschlossen ist (und das step-Ereignis ausgelöst wird).
+Status des Schritts, der den Status des Schritts darstellt, nachdem die Verarbeitung abgeschlossen (und das Schrittereignis ausgelöst) wurde.
 
-Typ: string
+Typ: Zeichenfolge
 
-Der Status kann sein:
+Der Status kann folgendermaßen lauten:
 
-* ended: der Schritt hat keine Transition und seine Verarbeitung wurde erfolgreich beendet.
-* error: bei der Schrittverarbeitung ist ein Fehler aufgetreten.
-* Transitionen: der Schritt wartet, bis ein Ereignis zur Transition zu einem anderen Schritt führt.
-* begrenzt: der Schritt bei einem Capping-Fehler fehlgeschlagen ist, der während einer Aktion oder Anreicherung ausgelöst wurde.
-* timedout: der Schritt bei einem Timeout-Fehler, der während einer Aktion oder Anreicherung ausgelöst wurde, fehlgeschlagen ist.
-* instanceTimeout: der Schritt die Verarbeitung beendet hat, da die Instanz ihren Timeout erreicht hat.
+* ended: Der Schritt weist keine Transition auf und seine Verarbeitung wurde erfolgreich beendet.
+* error: Bei der Schrittverarbeitung ist ein Fehler aufgetreten.
+* transitions: Der Schritt wartet darauf, bis ein Ereignis durch Transition in einen anderen Schritt gelangt.
+* capped: Der Schritt ist aufgrund eines Begrenzungsfehlers fehlgeschlagen, der während einer Aktion oder Anreicherung ausgelöst wurde.
+* timedout: Der Schritt ist aufgrund eines Zeitüberschreitungsfehlers fehlgeschlagen, der während einer Aktion oder Anreicherung ausgelöst wurde.
+* instanceTimeout: Der Schritt hat die Verarbeitung beendet, da die Instanz ihren Zeitüberschreitungswert erreicht hat.
 
-## travelID
+## journeyID
 
-ID der Reise.
+Kennung der Journey.
 
-Typ: string
+Typ: Zeichenfolge
 
-## travelVersionID
+## journeyVersionID
 
-ID der Reiseversion. Diese ID stellt den Identitätsverweis auf die Reise dar, im Fall des &quot;travelStepEvent&quot;.
+Kennung der Journey-Version. Diese Kennung stellt bei journeyStepEvent den Identitätsverweis auf die Journey dar.
 
-Typ: string
+Typ: Zeichenfolge
 
-## travelVersionName
+## journeyVersionName
 
-Name der Reiseversion.
+Name der Journey-Version.
 
-Typ: string
+Typ: Zeichenfolge
 
-## travelVersion
+## journeyVersion
 
-Version der Reiseversion.
+Version der Journey-Version.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## instanceID
 
-Interne ID der Reiseinstanz.
+Interne Kennung der Journey-Instanz.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## externalKey
 
-Externer Schlüssel, der aus dem Ereignis extrahiert wurde, um es zu verarbeiten.
+Externer Schlüssel, der aus dem Ereignis zur Verarbeitung extrahiert wurde.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## parentStepID
 
-Schritt-ID des übergeordneten Elements des aktuellen verarbeiteten Schritts in der Instanz.
+Kennung des übergeordneten Schritts des in der Instanz gerade verarbeiteten Schritts.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## parentStepName
 
-Schrittname des übergeordneten Elements des aktuellen Schritts.
+Name des übergeordneten Schritts des aktuellen Schritts.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## parentTransitionID
 
-ID der Transition, die die Instanz zum verarbeiteten Schritt gebracht hat.
+Kennung der Transition, die die Instanz zum verarbeiteten Schritt geführt hat.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## parentTransitionName
 
-Name der Transition, die die Instanz zum verarbeiteten Schritt gebracht hat.
+Name der Transition, die die Instanz zum verarbeiteten Schritt geführt hat.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## inTest
 
-Angabe, ob sich diese Reise im Prüfmodus befindet oder nicht.
+Gibt an, ob sich die Journey im Testmodus befindet oder nicht.
 
 Typ: boolesch
 
 ## processingTime
 
-Gesamtdauer in Millisekunden vom Instanzschritteingang bis zum Ende der Verarbeitung.
+Gesamtdauer vom Eintritt des Instanzschritts bis zum Ende der Verarbeitung (in Millisekunden).
 
-Typ: long
+Typ: lang
 
 ## instanceType
 
-Gibt den Instanztyp an, wenn es sich um einen Stapel oder eine Einheit handelt.
+Gibt den Instanztyp an (Batch oder unitär).
 
-Typ: string
+Typ: Zeichenfolge
 
-Werte: Batch/Einheit
+Werte: batch/unitary
 
-## referrenceIndex
+## recurrenceIndex
 
-Index der Wiederholung, wenn es sich bei der Reise um einen Stapel und einen wiederkehrenden Vorgang handelt (erste Ausführung hat returnIndex = 1).
+Index des Intervalls, wenn es sich bei der Journey um einen wiederkehrenden Batch-Vorgang handelt (erste Ausführung führt zu recurrenceIndex = 1).
 
-Typ: long
+Typ: lang
 
 ## isBatchToUnitary
 
-Gibt an, ob diese einmalige Instanz von einer Stapelinstanz ausgelöst wurde.
+Gibt an, ob diese unitäre Instanz von einer Batch-Instanz ausgelöst wurde.
 
 Typ: boolesch
 
 ## batchExternalKey
 
-Externer Schlüssel zum Batch-Ereignis.
+Externer Schlüssel für das Batch-Ereignis.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## batchInstanceID
 
-dies ist die ID der Stapelinstanz.
+Dies ist die Kennung der Batch-Instanz.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## batchUnitaryBranchID
 
-wenn die Instanz von einer Stapelinstanz ausgelöst wurde, eine einheitliche Zweig-ID.
+Wenn die Instanz von einer Batch-Instanz ausgelöst wurde, unitäre Verzweigungs-ID.
 
-Typ: string
+Typ: Zeichenfolge
