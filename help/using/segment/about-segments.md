@@ -1,6 +1,6 @@
 ---
-title: Informationen zu Plattformsegmenten
-description: Erfahren Sie, wie Sie ein Plattformsegment konfigurieren
+title: Informationen zu Platform-Segmenten
+description: Erfahren Sie, wie Sie ein Platform-Segment konfigurieren
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,21 +14,21 @@ translation-type: tm+mt
 source-git-commit: 2f0d235ce1808f632b731fc2077b10a31a178e4b
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
 
-# Informationen zu Plattformsegmenten {#about-segments}
+# Informationen zu Platform-Segmenten {#about-segments}
 
-Wenn Sie den [Plattformsegmentierungsdienst](https://docs.adobe.com/content/help/de-DE/experience-platform/segmentation/home.html) verwenden, um Ihre Segmente zu erstellen, können Sie sie in nutzen [!DNL Journey Orchestration]. Dank einer dedizierten Ereignis-Aktivität können Sie Einzelpersonen dazu bringen, auf der Grundlage der Ein- und Ausstiege von Plattformsegmenten in eine Reise einzusteigen oder sich vorwärts zu bewegen. Dadurch können Sie auch komplexe Bedingungen für Ihre Reisen mit dem einfachen oder erweiterten Ausdruck-Editor erstellen.
+Wenn Sie zur Erstellung Ihrer Segmente den [Segmentierungsdienst von Platform](https://docs.adobe.com/content/help/de-DE/experience-platform/segmentation/home.html) verwenden, können Sie die Segmente in [!DNL Journey Orchestration] nutzen. Mit einer speziellen Ereignisaktivität können Sie Kontakte dazu bringen, anhand von Ein- und Austritten in Platform-Segmenten in eine Journey einzutreten oder in einer Journey fortzufahren. Dadurch können Sie mit dem einfachen oder erweiterten Ausdruckseditor auch komplexe Bedingungen für Ihre Journeys erstellen.
 
-Nehmen wir einmal an, Sie haben ein Segment &quot;Silber-Kunde&quot;. Mit dieser Aktivität können Sie alle Neukunden auf eine Reise bringen und ihnen eine Reihe personalisierter Nachrichten senden. Sie können auch einfach Bedingungen auf Basis dieses Segments erstellen.
+Nehmen wir an, Sie verfügen über ein Segment für „Silber-Kunden“. Mit dieser Aktivität können Sie dafür sorgen, dass alle neuen Silber-Kunden eine Journey beginnen, und ihnen eine Reihe personalisierter Nachrichten senden. Auf Grundlage dieses Segments können Sie auch mühelos Bedingungen erstellen.
 
-Im Folgenden finden Sie die Möglichkeiten für ein [!DNL Journey Orchestration] Angebot mit Segmenten:
+Im Folgenden finden Sie die Möglichkeiten von [!DNL Journey Orchestration] bei der Nutzung von Segmenten:
 
-* Greifen Sie auf die Liste von Plattformsegmenten zu. See [Creating a segment](../segment/creating-a-segment.md).
-* Erstellen Sie Segmente direkt auf [!DNL Journey Orchestration] die gleiche Weise wie mit dem Segmentierungsdienst. See [Creating a segment](../segment/creating-a-segment.md).
-* Nutzen Sie Segmente in Ihren Reisebedingungen mit dem einfachen oder erweiterten Ausdruck-Editor. Siehe [Verwenden von Segmenten in Bedingungen](../segment/using-a-segment.md).
-* Hinzufügen Sie ein **Segmentqualifizierungs** -Ereignis auf Ihre Reise, um die Ein- und Ausstiege von Profilen in Plattformsegmenten anzuhören. Siehe Aktivitäten zu [Ereignissen](../building-journeys/event-activities.md#segment-qualification).
+* Zugreifen auf die Liste von Platform-Segmenten. Lesen Sie diesbezüglich auch den Abschnitt [Erstellen eines Segments](../segment/creating-a-segment.md).
+* Erstellen von Segmenten direkt in [!DNL Journey Orchestration] auf gleiche Weise wie mit dem Segmentierungsdienst. Lesen Sie diesbezüglich auch den Abschnitt [Erstellen eines Segments](../segment/creating-a-segment.md).
+* Nutzen von Segmenten in Bedingungen Ihrer Journeys mit dem einfachen oder erweiterten Ausdruckseditor. Siehe [Verwenden von Segmenten in Bedingungen](../segment/using-a-segment.md).
+* Hinzufügen eines Ereignisses vom Typ **Segmentqualifizierung** zu Ihrer Journey, um die Ein- und Austritte von Profilen in Platform-Segmenten zu beobachten. Siehe [Ereignisaktivitäten](../building-journeys/event-activities.md#segment-qualification).
 
