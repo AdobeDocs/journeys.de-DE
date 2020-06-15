@@ -14,34 +14,34 @@ translation-type: tm+mt
 source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
 source-wordcount: '494'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
 
 # Aktualisierungen der Dokumentation
 
-This page lists all the documentation updates for [!DNL Journey Orchestration].
-You can also consult the [!DNL Journey Orchestration] [Release Notes](../release-notes/release-notes.md).
+Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journey Orchestration] aufgelistet.
+Lesen Sie auch die [!DNL Journey Orchestration]-[Versionshinweise](../release-notes/release-notes.md).
 
-## June 2020 {#june-2020}
+## Juni 2020{#june-2020}
 
-* Es wurden Informationen zum Ändern der Cachedauer des Tokens für eine benutzerdefinierte Authentifizierungsdatenquelle hinzugefügt. [mehr dazu](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
-* Screenshots und Text wurden aktualisiert, um die Umbenennung des Status &quot; **Fertig** &quot;widerzuspiegeln, der in &quot; **geschlossen&quot;(kein Eingang)** geändert wurde.
-* Es wurden Informationen darüber hinzugefügt, wie die Sprache für die Schnittstelle definiert wird. [mehr dazu](../about/user-interface.md)
-* Die Liste der Statusangaben einer einzelnen Reise wurde in den Bereich [Testmodusprotokolle](../building-journeys/testing-the-journey.md#viewing_logs) verschoben.
+* Es wurden Informationen darüber hinzugefügt, wie die Aufbewahrungsfrist im Cache des Tokens für eine benutzerdefinierte Authentifizierungsdatenquelle geändert werden kann. [mehr dazu](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
+* Screenshots und Text wurden aktualisiert, um der Umbenennung des Journey-Status **Beendet** Rechnung zu tragen, der nun **Geschlossen (kein Eintritt)** heißt.
+* Es wurden Informationen zur Definition der Sprache der Benutzeroberfläche hinzugefügt. [mehr dazu](../about/user-interface.md)
+* Die Liste der Status der Journey eines Kontakts wurde in den Bereich [Testmodusprotokolle](../building-journeys/testing-the-journey.md#viewing_logs) verschoben.
 
 ## April 2020 {#april-2020}
 
-* Es wurde ein neuer Abschnitt zur Experience Ereignis Schema-Definition hinzugefügt, der Benutzern bei der Konfiguration ihres ersten Ereignisses hilft. [mehr dazu](../event/experience-event-schema.md)
-* Die Startseite für die [!DNL Journey Orchestration] Dokumentation wurde um weitere nützliche Links ergänzt. [mehr dazu](../../journey-orchestration-home.md)
+* Es wurde ein neuer Abschnitt zur Schemadefinition für Erlebnisereignisse hinzugefügt, der Benutzern bei der Konfiguration ihres ersten Ereignisses hilft. [mehr dazu](../event/experience-event-schema.md)
+* Die Startseite für die [!DNL Journey Orchestration]-Dokumentation wurde um weitere nützliche Links ergänzt. [mehr dazu](../../journey-orchestration-home.md)
 
 ## März 2020 {#march-2020}
 
 * Parameterbeschreibungen für _actionExecutionErrors_ und _fetchErrors_ wurden im Abschnitt über Testprotokolle hinzugefügt – [mehr dazu](../building-journeys/testing-the-journey.md#viewing_logs)
 * Die Beschränkungen für in Journeys verwendete benutzerdefinierte Aktionen wurden aktualisiert. Sie können auch das **URL-Feld** und die **Authentifizierungsparameter** ändern – [mehr dazu](../action/about-custom-action-configuration.md)
 * Es wurden neue Einträge für die kontextuelle Hilfe hinzugefügt. Der Payload-Bereich für die benutzerdefinierte Authentifizierung (in Aktionen und Datenquellen) enthält jetzt ein Hilfesymbol, das auf diesen [Abschnitt](../datasource/external-data-sources.md#section_wjp_nl5_nhb) verweist.
-* Abgeschlossene Fahrten können jetzt gestoppt werden. [mehr dazu](../building-journeys/using-the-journey-designer.md)
+* Geschlossene Journeys können jetzt gestoppt werden. [mehr dazu](../building-journeys/using-the-journey-designer.md)
 * Der Abschnitt zur Beschreibung der Benutzeroberfläche wurde neu angeordnet. [mehr dazu](../about/user-interface.md)
 * Die Auslösung mehrerer Ereignisse wurde dem Abschnitt „Testmodus“ hinzugefügt. [Mehr dazu](../building-journeys/testing-the-journey.md#firing_events)
 * Der Abschnitt „Testmodus“ wurde hinsichtlich des neuen Parameters **Wartezeit im Test** aktualisiert. [Mehr dazu](../building-journeys/testing-the-journey.md)
@@ -54,7 +54,7 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 ## Februar 2020 {#february-2020}
 
 * Der Abschnitt mit den Tastaturbefehlen wurde aktualisiert. Mit dem Tastaturbefehl **C** können Sie in allen Listenbildschirmen ein neues Element erstellen. [Mehr dazu](../about/user-interface.md#section_ksq_zr1_ffb)
-* Die Übersichtsseiten zur [Datenquelle](../datasource/about-data-sources.md) und [Aktion](../action/action.md) wurden verbessert.
+* Die Übersichtsseiten für [Datenquellen](../datasource/about-data-sources.md) und [Aktionen](../action/action.md) wurden verbessert.
 
 ## Januar 2020 {#january-2020}
 
