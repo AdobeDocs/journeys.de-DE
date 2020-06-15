@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 5e2e95090df708d72ade6366a62ea42eff3ac7f2
 workflow-type: tm+mt
 source-wordcount: '1307'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -165,7 +165,7 @@ Das Format dieser Authentifizierung ist:
 }
 ```
 
-Sie können die Cachedauer des Tokens für eine benutzerdefinierte Authentifizierungsdatenquelle ändern. Nachstehend finden Sie ein Beispiel für eine benutzerdefinierte Nutzlast für die Authentifizierung. Die Cachedauer wird im Parameter &quot;cacheDuration&quot;definiert. Es gibt die Speicherungsdauer des generierten Tokens im Cache an. Die Einheit kann Millisekunden, Sekunden, Minuten, Stunden, Tage, Monate, Jahre sein.
+Sie können die Aufbewahrungsfrist des Tokens im Cache für eine benutzerdefinierte Authentifizierungsdatenquelle ändern. Nachstehend finden Sie ein Beispiel für eine benutzerdefinierte Authentifizierungs-Payload. Die Aufbewahrungsfrist im Cache wird im Parameter „cacheDuration“ definiert. Sie gibt die Aufbewahrungsdauer des generierten Tokens im Cache an. Die Einheit kann Millisekunden, Sekunden, Minuten, Stunden, Tage, Monate oder Jahre sein.
 
 ```
 "authentication": {
