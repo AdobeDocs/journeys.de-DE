@@ -10,8 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+workflow-type: tm+mt
+source-wordcount: '904'
+ht-degree: 100%
 
 ---
 
@@ -80,7 +83,7 @@ Weitere Informationen zum Erstellen einer Journey finden Sie unter [](../buildin
    >
    >Im zweiten Teil des Ausdrucks ist „Profil“ optional.
 
-1. Wir müssen einen Namespace auswählen. Ein Namespace wird basierend auf Schemaeigenschaften vorab ausgewählt. Sie können die Auswahl beibehalten. Weitere Informationen zu Namespaces finden Sie unter [](../event/selecting-the-namespace.md).
+1. Wir müssen einen Namespace auswählen. Basierend auf Schemaeigenschaften ist schon vorab ein Namespace ausgewählt. Sie können die Auswahl beibehalten. Weitere Informationen zu Namespaces finden Sie unter [](../event/selecting-the-namespace.md).
 
 In unserem Anwendungsfall wollen wir nur auf diese beiden Bedingungen reagieren, sodass wir das Kontrollkästchen **[!UICONTROL Pfad für andere Fälle als die obigen zeigen]** deaktivieren.
 
@@ -121,6 +124,7 @@ Nach der Bedingung werden zwei Pfade erstellt:
 
    * _Kunden, die ein Zimmer gebucht haben_;
    * _Kunden, die kein Zimmer gebucht haben_.
+
    ![](../assets/journeyuc2_21.png)
 
 1. Legen Sie im ersten Pfad (Zimmer gebucht) eine Aktivität vom Typ **[!UICONTROL Push]** ab und wählen Sie Ihre App sowie Ihre „Willkommens“-Vorlage.
