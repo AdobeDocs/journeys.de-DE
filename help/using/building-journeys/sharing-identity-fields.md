@@ -1,6 +1,6 @@
 ---
-title: travelStep Ereignis-Identitätsfelder
-description: travelStep Ereignis-Identitätsfelder
+title: Identitätsfelder für journeyStep-Ereignisse
+description: Identitätsfelder für journeyStep-Ereignisse
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,25 +14,25 @@ translation-type: tm+mt
 source-git-commit: 10402a774bda66629f30869102d5e6ceca267535
 workflow-type: tm+mt
 source-wordcount: '59'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# travelStep Ereignis-Identitätsfelder {#sharing-identity-fields}
+# Identitätsfelder für journeyStep-Ereignisse{#sharing-identity-fields}
 
-Dieses Mixin ist spezifisch für travelStepEvent: Dieses Ereignis bezieht sich auf die Reise und verfügt nicht über die identityMap, die die Identität des Profils beschreibt, sofern vorhanden.
+Dieses Mixin gilt speziell für journeyStepEvent: Das Ereignis bezieht sich auf die Journey und verfügt nicht über die identityMap zur Beschreibung der Profilidentität (sofern vorhanden).
 
-Für &quot;travelStepEvent&quot;müssen wir auch Felder zur Identität hinzufügen:
+Für journeyStepEvent müssen auch Identitätsfelder hinzugefügt werden:
 
 ## profileID
 
-Profil-ID
+Profilkennung
 
-Typ: string
+Typ: Zeichenfolge
 
 ## profileNamespace
 
-Profil-ID-Namensraum
+Namespace der Profilkennung
 
-Typ: string
+Typ: Zeichenfolge
