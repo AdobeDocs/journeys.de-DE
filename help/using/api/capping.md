@@ -1,6 +1,6 @@
 ---
-title: API-Beschreibung für Capping
-description: Weitere Informationen zur Capping-API.
+title: Beschreibung der Capping-API
+description: Erfahren Sie mehr über die Capping-API.
 contentOwner: sauviat
 products: journeys
 audience: audiences
@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 58495028d41d1d18739a8ea9c7f0622a0cf6ca4d
 workflow-type: tm+mt
 source-wordcount: '1084'
-ht-degree: 25%
+ht-degree: 96%
 
 ---
 
@@ -21,37 +21,37 @@ ht-degree: 25%
 
 ## Einleitung
 
-[!DNL Journey Orchestration]Die APIs von &quot;5000 Ereignis/Sekunden&quot;unterstützen einige externe Systeme oder APIs jedoch nicht über einen entsprechenden Durchsatz verfügen. Deshalb [!DNL Journey Orchestration] kommt eine spezielle Funktion namens Capping API zur Überwachung und Begrenzung der Rate, die wir externen Systemen auferlegen.
+Die APIs von [!DNL Journey Orchestration] unterstützen 5.000 Ereignisse/Sekunde, doch manche externe Systeme oder APIs verfügen nicht über den gleichen Durchsatz. Deshalb bietet [!DNL Journey Orchestration] eine spezielle Funktion namens Capping-API zur Überwachung und Begrenzung der Rate, die wir externen Systemen auferlegen.
 
-Während einer Datenquellenkonfiguration definieren Sie eine Verbindung zu einem System, um zusätzliche Informationen abzurufen, die auf Ihren Reisen verwendet werden, oder für eine Aktionsdefinition konfigurieren Sie die Verbindung eines Drittanbietersystems, um Nachrichten oder API-Aufrufe zu senden. Jedes Mal, wenn ein API-Aufruf von Journey ausgeführt wird, wird die Capping-API abgefragt. Der Aufruf erfolgt über die API-Engine. Wenn eine Begrenzung definiert ist, wird der Aufruf abgelehnt und das externe System wird nicht überlastet.
+Bei der Konfiguration von Datenquellen definieren Sie eine Verbindung zu einem System, um zusätzliche Informationen abzurufen, die in Ihren Journeys verwendet werden; für eine Aktionsdefinition konfigurieren Sie eine Verbindung zu einem Drittanbietersystem, um Nachrichten oder API-Aufrufe zu senden. Jedes Mal, wenn eine Journey einen API-Aufruf vornimmt, wird die Capping-API abgefragt, bevor der Aufruf über die API-Engine erfolgt. Wenn eine Begrenzung definiert wurde, wird der Aufruf abgelehnt, damit das externe System nicht überlastet wird.
 
-Weitere Informationen zur Aktion oder Datenquellenkonfiguration finden Sie unter [Aktionen](https://docs.adobe.com/content/help/en/journeys/using/action-journeys/action.html) oder [Grundlagen zu Datenquellen](https://docs.adobe.com/content/help/en/journeys/using/data-source-journeys/about-data-sources.html)
+Weitere Informationen zur Konfiguration von Aktionen oder Datenquellen finden Sie unter [Informationen zu Aktionen](https://docs.adobe.com/content/help/de-DE/journeys/using/action-journeys/action.html) oder [Informationen zu Datenquellen](https://docs.adobe.com/content/help/de-DE/journeys/using/data-source-journeys/about-data-sources.html)
 
 
 ## Ressourcen
 
 >[!NOTE]
 >
->Die [!DNL Journey Orchestration] Capping-API wird in einer Swagger-Datei beschrieben, die [hier](https://adobedocs.github.io/JourneyAPI/docs/)verfügbar ist.
+>Die Capping-API von [!DNL Journey Orchestration] wird in einer Swagger-Datei beschrieben, die [hier](https://adobedocs.github.io/JourneyAPI/docs/)verfügbar ist.
 
-Um diese API mit Ihrer [!DNL Journey Orchestration] Instanz zu verwenden, müssen Sie die AdobeIO-Konsole verwenden. Sie können Beginn ausführen, indem Sie diese [Schritte mit Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) ausführen und dann die Abschnitte auf dieser Seite verwenden.
+Um diese API mit Ihrer [!DNL Journey Orchestration]-Instanz verwenden zu können, müssen Sie die Adobe I/O-Konsole verwenden. Sie können damit beginnen, indem Sie zuerst [Erste Schritte mit Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) und dann die Abschnitte auf dieser Seite befolgen.
 
-Um Ihre Integration zu testen und vorzubereiten, steht [hier](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)eine Postman-Sammlung zur Verfügung.
+Um Ihre Integration zu testen und vorzubereiten, steht Ihnen [hier](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json) eine Postman-Kollektion zur Verfügung.
 
 ## Authentifizierung
 
 ### Einrichten von API-Zugriff
 
-[!DNL Journey Orchestration] Der API-Zugriff wird wie folgt eingerichtet: Jeder dieser Schritte wird in der [Adobe I/O-Dokumentation](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) beschrieben.
+Der API-Zugriff für [!DNL Journey Orchestration] wird wie folgt eingerichtet: Jeder dieser Schritte wird in der [Adobe I/O-Dokumentation](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) beschrieben.
 
 >[!CAUTION]
 >
 >Wenn Sie in Adobe I/O Zertifikate verwalten möchten, vergewissern Sie sich, dass Sie in der Admin Console über <b>Systemadministrator</b> -Rechte für das Unternehmen oder ein [Entwicklerkonto](https://helpx.adobe.com/de/enterprise/using/manage-developers.html) verfügen.
 
 1. **Überprüfen Sie, ob Sie ein digitales Zertifikat haben**, oder erstellen Sie bei Bedarf eines. Die mit dem Zertifikat bereitgestellten öffentlichen und privaten Schlüssel werden in den folgenden Schritten benötigt.
-1. **[!DNL Journey Orchestration]Erstellen Sie eine neue Integration mit Service** in Adobe I/O und konfigurieren Sie sie. Der Produktzugriff auf das Profil ist für [!DNL Journey Orchestration] und Adobe Experience Platform erforderlich. Dann werden Ihre Zugangsdaten generiert (API-Schlüssel, Client-Geheimnis...).
-1. **Erstellen Sie einen JSON-Web-Token (JWT)** aus den zuvor erstellten Anmeldedaten und signieren Sie ihn mit Ihrem privaten Schlüssel. Der JWT kodiert alle Identitäts- und Sicherheitsdaten, die Adobe zum Überprüfen Ihrer Identität und zum Erteilen des Zugriffs auf die API benötigt. Dieser Schritt wird in diesem [Abschnitt beschrieben.](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
-1. **Tauschen Sie Ihre JWT für ein Zugriffstoken** über eine POST-Anforderung oder über die Developer Console-Oberfläche aus. Dieser Zugriffstoken muss in allen Kopfzeilen Ihrer API-Anfragen verwendet werden.
+1. **Erstellen Sie eine neue Integration mit dem[!DNL Journey Orchestration]-Service** in Adobe I/O und konfigurieren Sie sie. Der Produktprofilzugriff wird für [!DNL Journey Orchestration] und Adobe Experience Platform benötigt. Dann werden Ihre Zugangsdaten generiert (API-Schlüssel, Client-Geheimnis...).
+1. **Erstellen Sie einen JSON-Web-Token (JWT)** aus den zuvor erstellten Anmeldedaten und signieren Sie ihn mit Ihrem privaten Schlüssel. Der JWT kodiert alle Identitäts- und Sicherheitsdaten, die Adobe zum Überprüfen Ihrer Identität und zum Erteilen des Zugriffs auf die API benötigt. Dieser Schritt wird in diesem [Abschnitt](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) genau beschrieben.
+1. **Ersetzen Sie Ihr JWT durch einen Zugriffstoken**, und zwar über eine POST-Anfrage oder über die Developer Console-Oberfläche. Dieser Zugriffstoken muss in allen Kopfzeilen Ihrer API-Anfragen verwendet werden.
 
 Um eine sichere Service-to-Service-Adobe I/O-API-Sitzung herzustellen, muss jede Anfrage an einen Adobe-Dienst folgende Informationen in der Autorisierungskopfzeile umfassen.
 
@@ -65,38 +65,37 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 * **&lt;ORGANIZATION>**: Dies ist Ihre persönliche Organisationskennung; von Adobe erhalten Sie für jede Ihrer Instanzen eine Organisationskennung:
 
    * &lt;ORGANIZATION>: Ihre Produktionsinstanz
-
    Wenden Sie sich an Ihren Administrator oder Ihren technischen Ansprechpartner bei Adobe, um den Wert Ihrer Organisationskennung zu erhalten. Sie können sie auch beim Erstellen einer neuen Integration in Adobe I/O abrufen, und zwar in der Lizenzliste (siehe <a href="https://www.adobe.io/authentication.html">Adobe I/O-Dokumentation</a>).
 
-* **&lt;ACCESS_TOKEN>**: Ihr persönliches Zugriffstoken, das beim Austausch Ihrer JWT über eine POST-Anforderung abgerufen wurde.
+* **&lt;ACCESS_TOKEN>**: Ihr persönlicher Zugriffstoken, der beim Austausch Ihres JWT über eine POST-Anfrage abgerufen wurde.
 
-* **&lt;API_KEY>**: Ihr persönlicher API-Schlüssel. It is provided in Adobe I/O after creating a new integration to [!DNL Journey Orchestration] Service.
+* **&lt;API_KEY>**: Ihr persönlicher API-Schlüssel. Er wird in Adobe I/O bereitgestellt, nachdem eine neue Integration mit dem [!DNL Journey Orchestration]-Service erstellt wurde.
 
 
 
-## API-Beschreibung für Capping
+## Beschreibung der Capping-API
 
-Mit der Capping-API können Sie Ihre Capping-Konfigurationen erstellen, konfigurieren und überwachen.
+Mit der Capping-API können Sie Begrenzungskonfigurationen erstellen, konfigurieren und überwachen.
 
 | Vorgehensweise | Pfad | Beschreibung |
 |---|---|---|
-| POST | Liste/endpointConfigs | Liste der Endpunktverschlüsselungskonfigurationen abrufen |
-| POST | /endpointConfigs | Konfiguration für Endpunktbegrenzung erstellen |
-| POST | /endpointConfigs/{uid}/deploy | Konfiguration für Endpunktbegrenzung bereitstellen |
-| POST | /endpointConfigs/{uid}/undeploy | Bereitstellung einer Endpunktverschlüsselungskonfiguration aufheben |
-| POST | /endpointConfigs/{uid}/canDeploy | Überprüfen, ob eine Endpunktzuordnungskonfiguration bereitgestellt werden kann oder nicht |
-| PUT | /endpointConfigs/{uid} | Konfiguration der Endpunktbegrenzung aktualisieren |
-| GET | /endpointConfigs/{uid} | Abrufen einer Endpunktzuordnungskonfiguration |
-| LÖSCHEN | /endpointConfigs/{uid} | Löschen einer Enpoint-Capping-Konfiguration |
+| POST | list/endpointConfigs | Liste der Endpunktbegrenzungskonfigurationen abrufen |
+| POST | /endpointConfigs | Endpunktbegrenzungskonfiguration erstellen |
+| POST | /endpointConfigs/{uid}/deploy | Endpunktbegrenzungskonfiguration bereitstellen |
+| POST | /endpointConfigs/{uid}/undeploy | Bereitstellung einer Endpunktbegrenzungskonfiguration aufheben |
+| POST | /endpointConfigs/{uid}/canDeploy | Überprüfen, ob eine Endpunktbegrenzungskonfiguration bereitgestellt werden kann oder nicht |
+| PUT | /endpointConfigs/{uid} | Endpunktbegrenzungskonfiguration aktualisieren |
+| GET | /endpointConfigs/{uid} | Endpunktbegrenzungskonfiguration abrufen |
+| DELETE | /endpointConfigs/{uid} | Endpunktbegrenzungskonfiguration löschen |
 
-Wenn eine Konfiguration erstellt oder aktualisiert wird, wird automatisch eine Überprüfung durchgeführt, um die Syntax und die Integrität der Nutzlast zu gewährleisten.
-Wenn Probleme auftreten, gibt der Vorgang eine Warnung oder Fehler zurück, die Ihnen bei der Korrektur der Konfiguration helfen.
+Bei der Erstellung oder Aktualisierung einer Konfiguration wird automatisch eine Überprüfung durchgeführt, um die Syntax und Integrität der Payload sicherzustellen.
+Wenn Probleme auftreten, gibt der Vorgang eine Warnung oder Fehler zurück, die Ihnen beim Korrigieren der Konfiguration helfen.
 
 
 
 ## Endpunktkonfiguration
 
-Die Basisstruktur einer Endpunktkonfiguration lautet wie folgt:
+Die grundlegende Struktur einer Endpunktkonfiguration sieht wie folgt aus:
 
 ```
 {
@@ -139,7 +138,7 @@ Die Basisstruktur einer Endpunktkonfiguration lautet wie folgt:
 
 ## Warnung und Fehler
 
-Wenn eine **canDeploy** -Methode aufgerufen wird, validiert der Prozess die Konfiguration und gibt den durch seine eindeutige ID identifizierten Prüfstatus zurück:
+Wenn eine **canDeploy**-Methode aufgerufen wird, validiert der Prozess die Konfiguration und gibt den durch seine eindeutige Kennung identifizierten Validierungsstatus zurück:
 
 ```
 "ok" or "error"
@@ -147,71 +146,71 @@ Wenn eine **canDeploy** -Methode aufgerufen wird, validiert der Prozess die Konf
 
 Mögliche Fehler sind:
 
-* **ERR_ENDPOINTCONFIG_100**: capping config: fehlende oder ungültige URL
-* **ERR_ENDPOINTCONFIG_101**: capping config: fehlerhafte URL
-* **ERR_ENDPOINTCONFIG_102**: capping config: fehlerhafte URL: Platzhalter in URL in Host nicht zulässig:Anschluss
-* **ERR_ENDPOINTCONFIG_103**: capping config: fehlende HTTP-Methoden
-* **ERR_ENDPOINTCONFIG_104**: capping config: keine Call-Bewertung definiert
-* **ERR_ENDPOINTCONFIG_107**: capping config: ungültige Anzahl der max. Aufrufe (maxCallsCount)
-* **ERR_ENDPOINTCONFIG_108**: capping config: ungültige maximale Anzahl von Anrufen (periodInMs)
-* **ERR_ENDPOINTCONFIG_111**: capping config: Endpunktkonfiguration kann nicht erstellt werden: ungültige Nutzlast
-* **ERR_ENDPOINTCONFIG_112**: capping config: Endpunktkonfiguration kann nicht erstellt werden: JSON-Nutzlast erwarten
-* **ERR_AUTHORING_ENDPOINTCONFIG_1**: ungültiger Dienstname <!--<given value>-->: muss &#39;dataSource&#39; oder &#39;action&#39; sein
+* **ERR_ENDPOINTCONFIG_100**: capping config: missing or invalid url
+* **ERR_ENDPOINTCONFIG_101**: capping config: malformed url
+* **ERR_ENDPOINTCONFIG_102**: capping config: malformed url: wildchar in url not allowed in host:port
+* **ERR_ENDPOINTCONFIG_103**: capping config: missing HTTP methods
+* **ERR_ENDPOINTCONFIG_104**: capping config: no call rating defined
+* **ERR_ENDPOINTCONFIG_107**: capping config: invalid max calls count (maxCallsCount)
+* **ERR_ENDPOINTCONFIG_108**: capping config: invalid max calls count (periodInMs)
+* **ERR_ENDPOINTCONFIG_111**: capping config: can&#39;t create endpoint config: invalid payload
+* **ERR_ENDPOINTCONFIG_112**: capping config: can&#39;t create endpoint config: expecting a JSON payload
+* **ERR_AUTHORING_ENDPOINTCONFIG_1**: invalid service name <!--<given value>-->: must be &#39;dataSource&#39; or &#39;action&#39;
 
 
 Die potenzielle Warnung lautet:
 
-**ERR_ENDPOINTCONFIG_106**: capping config: max. HTTP-Verbindungen nicht definiert: keine Einschränkung standardmäßig
+**ERR_ENDPOINTCONFIG_106**: capping config: max HTTP connections not defined: no limitation by default
 
 
 
 ## Anwendungsfälle
 
-In diesem Abschnitt finden Sie die fünf Hauptverwendungsfälle, die Sie zur Verwaltung Ihrer Deckelkonfiguration in durchführen können [!DNL Journey Orchestration].
+In diesem Abschnitt finden Sie die fünf Hauptanwendungsfälle für die Verwaltung Ihrer Begrenzungskonfiguration in [!DNL Journey Orchestration].
 
-Um Ihnen bei Ihren Tests und Konfigurationen behilflich zu sein, steht [hier](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)eine Postman-Sammlung zur Verfügung.
+Um Ihnen bei Tests und der Konfiguration behilflich zu sein, steht Ihnen [hier](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json) eine Postman-Kollektion zur Verfügung.
 
-Diese Postman Collection wurde eingerichtet, um die Postman-Variablensammlung freizugeben, die über die Integrationen __[der](https://console.adobe.io/integrations)Adobe I/O-Konsole > Testen Sie sie aus > Für Postman__ herunterladen generiert wurde. Dadurch wird eine Postman-Umgebung mit den ausgewählten Integrationswerten generiert.
+Diese Postman-Kollektion wurde eingerichtet, um die Postman-Variablenkollektion freizugeben, die über __[Integrationen der Adobe I/O-Konsole](https://console.adobe.io/integrations)> Testen > Für Postman herunterladen__ generiert wurde. Dadurch wird eine Postman-Umgebung mit den ausgewählten Integrationswerten erzeugt.
 
 Nach dem Herunterladen und Hochladen in Postman müssen Sie zwei Variablen hinzufügen: `{JO_HOST}` und `{Base_Path}`.
-* `{JO_HOST}` : [!DNL Journey Orchestration] Gateway-URL
-* `{BASE_PATH}` : Einstiegspunkt für die API. Der Wert lautet &quot;/authoring&quot;
+* `{JO_HOST}` : [!DNL Journey Orchestration]-Gateway-URL
+* `{BASE_PATH}` : Einstiegspunkt für die API. Der Wert lautet „/authoring“
 
 Im folgenden Abschnitt finden Sie die Liste der Rest-API-Aufrufe, die zur Durchführung des Anwendungsfalls angeordnet wurden.
 
-Verwendungsfall Nr. 1: **Erstellen und Bereitstellen einer neuen Konfiguration für die Begrenzung**
+Anwendungsfall 1: **Erstellen und Bereitstellen einer neuen Begrenzungskonfiguration**
 
 1. list
-1. erstellen
+1. create
 1. candeploy
-1. bereitstellen
+1. deploy
 
-Anwendungsfall Nr. 2: **Aktualisieren und Bereitstellen einer noch nicht bereitgestellten Capping-Konfiguration**
+Anwendungsfall 2: **Aktualisieren und Bereitstellen einer noch nicht bereitgestellten Begrenzungskonfiguration**
 
 1. list
 1. get
 1. update
 1. candeploy
-1. bereitstellen
+1. deploy
 
-Anwendungsfall Nr. 3: **Bereitstellung und Löschen einer bereitgestellten Deckelkonfiguration aufheben**
+Anwendungsfall 3: **Aufheben einer Bereitstellung und Löschen einer bereitgestellten Begrenzungskonfiguration**
 
 1. list
 1. undeploy
 1. delete
 
-Anwendungsfall Nr. 4: **Löschen Sie eine bereitgestellte Capping-Konfiguration.**
+Anwendungsfall 4: **Löschen einer bereitgestellten Begrenzungskonfiguration.**
 
-Bei nur einem API-Aufruf können Sie die Bereitstellung aufheben und die Konfiguration mithilfe des forceDelete-Parameters löschen.
+In nur einem API-Aufruf können Sie die Bereitstellung aufheben und die Konfiguration mithilfe des forceDelete-Parameters löschen.
 1. list
 1. delete mit forceDelete-Parameter
 
-Anwendungsfall Nr. 5: **Bereits bereitgestellte Capping-Konfiguration aktualisieren**
+Anwendungsfall 5: **Aktualisieren einer bereits bereitgestellten Begrenzungskonfiguration**
 
 1. list
 1. get
 1. update
 1. undeploy
 1. candeploy
-1. bereitstellen
+1. deploy
 
