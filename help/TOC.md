@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 86%
 + Neue Funktionen {#release-notes}
    + [Versionshinweise](using/release-notes/release-notes.md)
    + [Aktualisierungen der Dokumentation](using/release-notes/documentation-updates.md)
-+ Starting with [!DNL Journey Orchestration] {#starting-with-journeys}
++ Einstieg in [!DNL Journey Orchestration] {#starting-with-journeys}
    + [Info [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [Erste Schritte](using/about/get-started.md)
    + [Benutzeroberfläche](using/about/user-interface.md)
@@ -46,10 +46,10 @@ ht-degree: 86%
       + [Einschränkungen für benutzerdefinierte Aktionen](using/action/custom-action-limitations.md)
       + [URL-Konfiguration](using/action/url-configuration.md)
       + [Definieren der Nachrichtenparameter](using/action/defining-the-message-parameters.md)
-+ Verwenden von Plaform-Segmenten {#configuring-segment}
-   + [Grundlagen zu Mustersegmenten](using/segment/about-segments.md)
++ Verwenden von Platform-Segmenten {#configuring-segment}
+   + [Informationen zu Platform-Segmenten](using/segment/about-segments.md)
    + [Erstellen eines Segments](using/segment/creating-a-segment.md)
-   + [Segmente in Bedingungen verwenden](using/segment/using-a-segment.md)
+   + [Verwenden von Segmenten in Bedingungen](using/segment/using-a-segment.md)
 + Erstellen der Journey {#building-journeys}
    + Informationen zum Erstellen von Journeys {#about-journey-building}
       + [Erstellen einer Journey ](using/building-journeys/journey.md)
@@ -71,13 +71,13 @@ ht-degree: 86%
          + [Verwenden benutzerdefinierter Aktionen](using/building-journeys/using-custom-actions.md)
    + [Testen der Journey](using/building-journeys/testing-the-journey.md)
    + [Veröffentlichen der Journey](using/building-journeys/publishing-the-journey.md)
-   + Freigeben von Reiseschritten mit Plattform {#sharing-journey-steps}
-      + [Übersicht über die schrittweise Freigabe für Reisen](using/building-journeys/sharing-overview.md)
-      + [JourneySchritte Ereignis - gemeinsame Felder](using/building-journeys/sharing-common-fields.md)
-      + [Aktionsausführungsfelder für Ereignis von &quot;travelStep&quot;](using/building-journeys/sharing-execution-fields.md)
-      + [JourneyStep-Ereignisse - Datenabruf von Feldern](using/building-journeys/sharing-fetch-fields.md)
-      + [travelStep Ereignis-Identitätsfelder](using/building-journeys/sharing-identity-fields.md)
-      + [Reisefelder](using/building-journeys/sharing-journey-fields.md)
+   + Freigeben von Journey-Schritten für Platform {#sharing-journey-steps}
+      + [Übersicht über die Freigabe von Journey-Schritten](using/building-journeys/sharing-overview.md)
+      + [Gemeinsame Felder für journeyStep-Ereignisse](using/building-journeys/sharing-common-fields.md)
+      + [Aktionsausführungsfelder für journeyStep-Ereignisse](using/building-journeys/sharing-execution-fields.md)
+      + [Datenabruffelder für journeyStep-Ereignisse](using/building-journeys/sharing-fetch-fields.md)
+      + [Identitätsfelder für journeyStep-Ereignisse](using/building-journeys/sharing-identity-fields.md)
+      + [Journey-Felder](using/building-journeys/sharing-journey-fields.md)
 + Verwenden des erweiterten Ausdruckseditors {#building-advanced-conditions-journeys}
    + [Informationen zum erweiterten Ausdruckseditor](using/expression/expressionadvanced.md)
    + Syntax {#syntax}
@@ -175,5 +175,5 @@ ht-degree: 86%
       + [Erstellen der Journey](using/usecase/building-the-journey.md)
    + [Nutzen von Ermüdungswerten](using/usecase/leveraging-fatigue-scores.md)
 + Arbeiten mit APIs{#working-with-apis}
-   + [APIs sperren](using/api/capping.md)
+   + [Begrenzen von APIs](using/api/capping.md)
 
