@@ -14,19 +14,19 @@ translation-type: tm+mt
 source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 
 
-# Additional steps to send events to [!DNL Journey Orchestration] {#concept_xrz_n1q_y2b}
+# Zusätzliche Schritte zum Senden von Ereignissen an [!DNL Journey Orchestration] {#concept_xrz_n1q_y2b}
 
 >[!NOTE]
 >
->When creating an event, [!DNL Journey Orchestration] automatically generates an ID for this event. Das System, das das Ereignis per Push sendet, sollte keine ID generieren, sondern die ID verwenden, die in der Payload-Vorschau verfügbar ist. Siehe [](../event/previewing-the-payload.md).
+>Beim Erstellen eines Ereignisses generiert [!DNL Journey Orchestration] automatisch eine ID für dieses Ereignis. Das System, das das Ereignis per Push sendet, sollte keine ID generieren, sondern die ID verwenden, die in der Payload-Vorschau verfügbar ist. Siehe [](../event/previewing-the-payload.md).
 
-Um Ereignisse zu konfigurieren, die an **[!UICONTROL Streaming-Aufnahme-APIs]** gesendet und in verwendet werden sollen, müssen Sie die folgenden Schritte ausführen:[!DNL Journey Orchestration]
+Um Ereignisse zu konfigurieren, die an **[!UICONTROL Streaming-Aufnahme-APIs]** gesendet und in [!DNL Journey Orchestration] verwendet werden sollen, müssen Sie die folgenden Schritte ausführen:
 
 1. Rufen Sie die Inlet-URL von den Datenplattform-APIs ab (siehe [Streaming-Aufnahme-APIs](https://docs.adobe.com/content/help/de-DE/experience-platform/ingestion/streaming/overview.html)).
 1. Kopieren Sie die Payload aus der Payload-Vorschau im Menü **[!UICONTROL Ereignis]**. Siehe [](../event/defining-the-payload-fields.md).
@@ -34,7 +34,7 @@ Um Ereignisse zu konfigurieren, die an **[!UICONTROL Streaming-Aufnahme-APIs]** 
 Konfigurieren Sie anschließend das Datensystem, das Ereignisse mithilfe der kopierten Payload an die Streaming-Aufnahme-APIs pusht:
 
 1. Richten Sie einen POST-API-Aufruf zur URL der Streaming-Aufnahme-APIs ein (als Inlet bezeichnet).
-1. Use the payload you copied from [!DNL Journey Orchestration] in the body (&quot;data section&quot;) of the API call to Streaming Ingestion APIs. Unten finden Sie ein Beispiel
+1. Verwenden Sie die Payload, die Sie im Hauptteil („Datenabschnitt“) des API-Aufrufs aus [!DNL Journey Orchestration] zu den Streaming-Aufnahme-APIs kopiert haben. Unten finden Sie ein Beispiel
 1. Legen Sie fest, von wo alle Variablen in der Payload abgerufen werden sollen. Beispiel: Wenn das Ereignis die Adresse vermitteln soll, wird in der eingefügten Payload &quot;address&quot;: &quot;string&quot; angezeigt. „string“ sollte durch die Variable ersetzt werden, die automatisch mit dem richtigen Wert ausgefüllt wird, nämlich mit der E-Mail-Adresse der Person, an die eine Nachricht gesendet werden soll. Beachten Sie, dass in der Payload-Vorschau im Abschnitt **[!UICONTROL Kopfzeile]** viele Werte automatisch ausgefüllt werden, was Ihre Arbeit erleichtern sollte.
 1. Wählen Sie „application/json“ als Typ für den Hauptteil aus.
 1. Übergeben Sie Ihre IMS-ORG-ID in der Kopfzeile mit dem Schlüssel „x-gw-ims-org-id“. Verwenden Sie Ihre IMS-ORG-ID („XXX@AdobeOrg“) für den Wert.
