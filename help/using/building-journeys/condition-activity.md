@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 11c266b035bc1bb83cccf4e3958e54e1eb00e9f4
 workflow-type: tm+mt
 source-wordcount: '690'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Im einfachen Modus können Sie einfache Abfragen anhand einer Kombination von Fe
 
 ![](../assets/journey64.png)
 
-Wenn Sie den [Plattformsegmentierungsdienst](https://docs.adobe.com/content/help/de-DE/experience-platform/segmentation/home.html) verwenden, um Ihre Segmente zu erstellen, können Sie diese in Ihren Reisebedingungen nutzen. Siehe [Verwenden von Segmenten unter Bedingungen](../segment/using-a-segment.md).
+Wenn Sie zur Erstellung Ihrer Segmente den [Segmentierungsdienst von Platform](https://docs.adobe.com/content/help/de-DE/experience-platform/segmentation/home.html) verwenden, können Sie die Segmente in Ihren Journey-Bedingungen nutzen. Siehe [Verwenden von Segmenten in Bedingungen](../segment/using-a-segment.md).
 
 
 >[!NOTE]
