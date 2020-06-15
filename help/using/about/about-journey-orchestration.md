@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
 source-wordcount: '389'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 92%
 
 Journey Orchestration ermöglicht die Erstellung von Anwendungsfällen für die Echtzeit-Orchestrierung mithilfe von Kontextdaten aus Ereignissen oder Datenquellen.
 
-[!DNL Journey Orchestration] ist ein in die Experience Platform integrierter Anwendungsdienst.
+[!DNL Journey Orchestration] ist ein in Experience Platform integrierter Anwendungs-Service.
 
 ![](../assets/journeydiagram.png)
 
@@ -32,7 +32,7 @@ Zu diesem Zweck muss ein **technischer Anwender** im Tab „Ereigniskonfiguratio
 Der **technische Anwender** konfiguriert im Tab „Datenquellenkonfiguration“ Folgendes:
 
 * Die diversen Felder, die von Adobe Experience Platform im Journey-Designer angezeigt werden, um Bedingungen und Personalisierungen zu erstellen
-* Die zusätzlichen im Journey-Designer verwendeten benutzerdefinierten Datenquellen. Custom data sources are connections between [!DNL Journey Orchestration] and third-party systems or services via API. So können Sie z. B. ein Drittanbietersystem wie ein Treueprogramm anbinden. Eine Wetter-API wäre ein Beispiel für einen Drittanbieterdienst.
+* Die zusätzlichen im Journey-Designer verwendeten benutzerdefinierten Datenquellen. Benutzerdefinierte Datenquellen sind die Verbindungsglieder zwischen [!DNL Journey Orchestration] und Drittanbietersystemen oder -diensten in Form von APIs. So können Sie z. B. ein Drittanbietersystem wie ein Treueprogramm anbinden. Eine Wetter-API wäre ein Beispiel für einen Drittanbieterdienst.
 
 Ein **Business-Anwender** kann mithilfe des Journey-Designers einfach per Drag-and-Drop ein Eintrittsereignis einfügen, Bedingungen hinzufügen und die auszuführende Aktion definieren.
 
@@ -46,7 +46,7 @@ Mit einer Aufspaltungsbedingung können Sie den Pfad einer Journey in unterschie
 
 Danach können Sie bei der Verwendung eines Drittanbietersystems Nachrichten mithilfe von Aktionsaktivitäten versenden. Wenn Sie Adobe Campaign Standard verwenden, können Sie in Echtzeit personalisierte SMS, Push-Benachrichtigungen oder E-Mails senden.
 
-As [!DNL Journey Orchestration] is multistep, you can create advanced scenarios. Beispielsweise können Sie nach einem ersten Ereignis und einer ersten Aktion weitere Ereignisse anfügen. Anschließend kann eine zweite Aktion, eine Warteaktivität und eine Aufspaltungsbedingung hinzugefügt werden, um Personen auf zwei verschiedene Pfade zu senden und ihnen unterschiedliche Nachrichten zu senden.
+Da [!DNL Journey Orchestration] mehrere Schritte umfasst, lassen sich erweiterte Szenarien erstellen. Beispielsweise können Sie nach einem ersten Ereignis und einer ersten Aktion weitere Ereignisse anfügen. Anschließend kann eine zweite Aktion, eine Warteaktivität und eine Aufspaltungsbedingung hinzugefügt werden, um Personen auf zwei verschiedene Pfade zu senden und ihnen unterschiedliche Nachrichten zu senden.
 
 >[!NOTE]
 >
