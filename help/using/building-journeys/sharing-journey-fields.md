@@ -1,6 +1,6 @@
 ---
-title: Reisefelder
-description: Reisefelder
+title: Journey-Felder
+description: Journey-Felder
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,41 +14,41 @@ translation-type: tm+mt
 source-git-commit: 10402a774bda66629f30869102d5e6ceca267535
 workflow-type: tm+mt
 source-wordcount: '67'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 
-# Reisefelder {#sharing-journey-fields}
+# Journey-Felder {#sharing-journey-fields}
 
-Dieses Mixin wird im Schema für die Reise verwendet (im Zusammenhang mit travelStepEvent). Es enthält die folgenden Felder:
+Dieses Mixin wird im Journey-Schema verwendet (in Verbindung mit journeyStepEvent). Es enthält die folgenden Felder:
 
-## travelID
+## journeyID
 
-ID der Hauptreise.
+Kennung der Haupt-Journey.
 
-Typ: string
+Typ: Zeichenfolge
 
-## travelVersionID
+## journeyVersionID
 
-ID der Reiseversion. Diese ID stellt die Identität einer Reise dar.
+Kennung der Journey-Version. Diese Kennung stellt die Identität einer Journey dar.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## name
 
-Name der Reise.
+Name der Journey.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## description
 
-Beschreibung der Reise.
+Beschreibung der Journey.
 
-Typ: string
+Typ: Zeichenfolge
 
-## Version
+## version
 
 Version, dargestellt als `major`.`minor`
 
-Typ: string
+Typ: Zeichenfolge
