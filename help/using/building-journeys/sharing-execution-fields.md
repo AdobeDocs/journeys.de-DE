@@ -1,6 +1,6 @@
 ---
-title: Aktionsausführungsfelder für Ereignis von "travelStep"
-description: Aktionsausführungsfelder für Ereignis von "travelStep"
+title: Aktionsausführungsfelder für journeyStep-Ereignisse
+description: Aktionsausführungsfelder für journeyStep-Ereignisse
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,52 +14,52 @@ translation-type: tm+mt
 source-git-commit: 10402a774bda66629f30869102d5e6ceca267535
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# Aktionsausführungsfelder für Ereignis von &quot;travelStep&quot; {#sharing-execution-fields}
+# Aktionsausführungsfelder für journeyStep-Ereignisse {#sharing-execution-fields}
 
-Dieses Mixin wird von &quot;travelStepEvent&quot;und &quot;travelStepProfileEvent&quot;freigegeben.
+Dieses Mixin wird von journeyStepEvent und journeyStepProfileEvent geteilt.
 
-Wenn für den Schritt eine Aktion verarbeitet werden muss, werden diese Felder der Ereignis-Nutzlast hinzugefügt.
+Wenn für den Schritt eine Aktion verarbeitet werden muss, werden diese Felder der Ereignis-Payload hinzugefügt.
 
 ## actionID
 
-ID der ausgeführten Aktion.
+Kennung der ausgeführten Aktion.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## actionName
 
-Name der Aktion. Wenn kein Name festgelegt wurde, wird stepName verwendet.
+Name der Aktion. Wenn kein Name festgelegt wurde, wird der stepName verwendet.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## actionType
 
-Typ der Aktion.
+Art der Aktion.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## actionParameterized
 
-Gibt an, ob die Aktion parametrisiert wurde.
+Gibt an, ob die Aktion parametrisiert wurde oder nicht.
 
 Typ: boolesch
 
 ## actionExecutionTime
 
-Die Zeit (in Millisekunden), die zum Ausführen einer aktuellen Aktion benötigt wird.
+Dauer (in Millisekunden), die zum Ausführen einer aktuellen Aktion benötigt wird.
 
-Typ: long
+Typ: lang
 
 ## actionExecutionError
 
-Fehlertyp, der beim Aufruf der Aktion auftritt.
+Fehlertyp, der beim Aufrufen der Aktion auftritt.
 
-Typ: string
+Typ: Zeichenfolge
 
 Werte:
 * http
@@ -69,18 +69,18 @@ Werte:
 
 ## actionExecutionErrorCode
 
-Code für Aktionsausführungsfehler. Wird angezeigt, wenn der Fehler einen Code enthält, z. B. einen HTTP-Code.
+Code für Fehler bei der Ausführung der Aktion. Wird angezeigt, wenn der Fehler einen Code enthält, z. B. HTTP-Code.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## actionExecutionOriginError
 
-Ein Timeout kann in zwei Fällen auftreten:
+Eine Zeitüberschreitung kann in zwei Fällen auftreten:
 
-* beim ersten Versuch wird eine Aktion ausgeführt. In diesem Fall ist die Ausführung noch nicht abgeschlossen, sodass kein zugrunde liegender Fehler vorliegt
-* bei einer Wiederholung: In diesem Fall beschreibt der ActionExecOrigError/actionExecOrigErrorCode den Fehler, der beim Versuch vor dem Wiederholen aufgetreten ist.
+* beim ersten Versuch der Ausführung einer Aktion; in diesem Fall ist die Ausführung noch nicht abgeschlossen, sodass kein zugrunde liegender Fehler vorliegt.
+* bei einer Wiederholung; in diesem Fall beschreibt der ActionExecOrigError/actionExecOrigErrorCode den Fehler, der beim Versuch vor der Wiederholung aufgetreten ist.
 
-Beispielsweise wird beim ersten Versuch eine E-Mail gesendet und ein HTTP 500-Fehler zurückgegeben. Der Abruf wird erneut versucht, aber die Dauer der 2 Versuche überschreitet den Timeout. Dann wird die Aktionsausführung als Timeout getaggt. Der Aktionsbereich sieht wie folgt aus:
+Beispielsweise wird eine E-Mail gesendet und beim ersten Versuch ein HTTP 500-Fehler zurückgegeben. Der Abruf wird erneut versucht, aber die Dauer der zwei Versuche liegt über der Zeitüberschreitung. Dann wird die Aktionsausführung als Zeitüberschreitung markiert. Der Aktionsteil sieht wie folgt aus:
 
 ```
     ...
@@ -93,13 +93,13 @@ Beispielsweise wird beim ersten Versuch eine E-Mail gesendet und ein HTTP 500-Fe
     "actionExecOrigErrorCode": "500"
 ```
 
-Typ: string
+Typ: Zeichenfolge
 
 ## actionExecutionOriginCode
 
-Fehlercode des actionExecOrigError.
+Fehler-Code von actionExecOrigError.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## actionBusinessType
 
@@ -108,35 +108,35 @@ Gibt die Art der Aktion an.
 Werte:
 
 * builtin
-* ACS-E-Mail
+* ACS Email
 * ACS SMS
 * ACS Push
-* Kunde
+* customer
 * Epsilon
 * ...
 
-Typ: string
+Typ: Zeichenfolge
 
 ## deliveryJobID
 
-Hier wird die Versand-Job-ID für die Batch-Reise beschrieben.
+Beschreibt die Versand-Vorgangskennung für die Batch-Journey.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## batchDeliveryID
 
-Hier wird die Versand-ID für die Batch-Reise beschrieben.
+Beschreibt die Versandkennung für die Batch-Journey.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## fromSegmentTrigger
 
-Dies beschreibt, ob die Batch-Reise aus dem Audience-Segment ausgelöst wird.
+Beschreibt, ob die Batch-Journey im Zielgruppensegment ausgelöst wird.
 
 Typ: boolesch
 
 ## actionSchedulerCount
 
-Anzahl der Planungen-Benachrichtigungsanforderungen, die während der Schrittverarbeitung an den Planung-Dienst gesendet werden.
+Anzahl der Planungs-Benachrichtigungsanfragen, die bei der Schrittverarbeitung an den Planungsdienst gesendet werden.
 
-Typ: long
+Typ: lang
