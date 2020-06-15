@@ -23,7 +23,7 @@ ht-degree: 100%
 
 Mit den Transaktionsnachrichten von Adobe Campaign Standard können Sie E-Mails, Push-Benachrichtigungen und SMS senden.
 
-[!DNL Journey Orchestration]Für steht eine vordefinierte Aktion zur Verfügung, die die Verbindung mit Adobe Campaign Standard ermöglicht. Im Folgenden werden die Konfigurationsschritte beschrieben:
+Für [!DNL Journey Orchestration] steht eine vordefinierte Aktion zur Verfügung, die die Verbindung mit Adobe Campaign Standard ermöglicht. Im Folgenden werden die Konfigurationsschritte beschrieben:
 
 1. Klicken Sie in der Liste **[!UICONTROL Aktionen]** auf die integrierte Aktion **[!UICONTROL AdobeCampaignStandard]**. Der Bereich für die Konfiguration der Aktion wird auf der rechten Seite des Bildschirms geöffnet.
 
