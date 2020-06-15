@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
 workflow-type: tm+mt
 source-wordcount: '357'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -24,14 +24,14 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="jo_datasources"
 >title="Informationen zu Datenquellen"
->abstract="Die Konfiguration von Datenquellen wird immer von einem technischen Anwender durchgeführt. Mit der Datenquellenkonfiguration können Sie eine Verbindung zu einem System definieren, um zusätzliche Informationen abzurufen, die auf Ihren Reisen verwendet werden, z. B.: Bedingungsdefinition, Parameter- und Personalisierungsdaten in Aktionen, benutzerdefinierte Wartedefinition, Zeitzonendefinition."
+>abstract="Die Konfiguration von Datenquellen wird immer von einem technischen Anwender durchgeführt. Mit der Datenquellenkonfiguration können Sie eine Verbindung zu einem System definieren, um zusätzliche Informationen abzurufen, die in Ihren Journeys verwendet werden. Damit können Sie Bedingungen definieren, Parameter- und Personalisierungsdaten in Aktionen verwenden sowie benutzerdefinierte Wartezeiten und die Zeitzone definieren."
 
 Mit der Datenquellenkonfiguration können Sie eine Verbindung zu einem System definieren, um zusätzliche Informationen abzurufen, die in Ihren Journeys verwendet werden, zum Beispiel für:
 
 * [Definition von Bedingungen](../building-journeys/condition-activity.md)
 * Parameter- und Personalisierungsdaten in [Aktionen](../action/action.md)
 * [Definition benutzerdefinierter Wartezeiten](../building-journeys/wait-activity.md#custom)
-* [Zeitzonendefinition](../building-journeys/timezone-management.md)
+* [Definition von Zeitzonen](../building-journeys/timezone-management.md)
 
 Diese Konfiguration ist nicht erforderlich, wenn Ihre Journeys nur lokale Daten aus einer Ereignis-Payload nutzen. Wenn Ihre Journey beispielsweise aus einem Ereignis und einer E-Mail-Aktivität besteht, die nur Daten aus dem Ereignis verwendet, müssen Sie keine Datenquelle konfigurieren.
 
