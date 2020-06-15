@@ -14,24 +14,24 @@ translation-type: tm+mt
 source-git-commit: 2f0d235ce1808f632b731fc2077b10a31a178e4b
 workflow-type: tm+mt
 source-wordcount: '128'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
 
-# Segmente in Bedingungen verwenden {#using-a-segment}
+# Verwenden von Segmenten in Bedingungen {#using-a-segment}
 
-In diesem Abschnitt wird erläutert, wie ein Segment in einer Reisebedingung verwendet wird.
-Informationen zur Verwendung eines **Segmentqualifizierungs** -Ereignisses auf Ihrer Reise finden Sie in den Aktivitäten zu [Ereignissen](../building-journeys/event-activities.md#segment-qualification).
+In diesem Abschnitt wird erläutert, wie sich ein Segment in einer Journey-Bedingung verwenden lässt.
+Informationen zur Nutzung eines Ereignisses vom Typ **Segmentqualifizierung** in Ihrer Journey finden Sie unter [Ereignisaktivitäten](../building-journeys/event-activities.md#segment-qualification).
 
-Gehen Sie wie folgt vor, um ein Segment in einer Reisebedingung zu verwenden:
+Gehen Sie wie folgt vor, um in einer Journey-Bedingung ein Segment zu verwenden:
 
-1. Öffnen Sie eine Reise, legen Sie eine **Bedingungs** -Aktivität ab und wählen Sie die **Datenquelle-Bedingung**.
+1. Öffnen Sie eine Journey, legen Sie eine Aktivität vom Typ **Bedingung** ab und wählen Sie die **Bedingung der Datenquelle**.
    ![](../assets/journey47.png)
-1. Klicken Sie auf **Hinzufügen Pfad** für jeden zusätzlichen Pfad. Klicken Sie für jeden Pfad auf das Feld **Ausdruck** .
+1. Klicken Sie für jeden zusätzlichen Pfad auf **Pfad hinzufügen**. Klicken Sie für jeden Pfad auf das Feld **Ausdruck**.
    ![](../assets/segment3.png)
-1. Blenden Sie auf der linken Seite den Knoten **Segmente** aus. Ziehen Sie das Segment, das Sie für Ihre Bedingung verwenden möchten, per Drag &amp; Drop. Standardmäßig lautet die Bedingung für das Segment true.
+1. Erweitern Sie auf der linken Seite den Knoten **Segmente**. Legen Sie das Segment, das Sie für Ihre Bedingung verwenden möchten, im Arbeitsbereich ab. Standardmäßig lautet die Bedingung für das Segment „true“.
    ![](../assets/segment4.png)
 
-Weitere Informationen zu Reisebedingungen und zur Verwendung des Ausdruck-Editors finden Sie unter [Bedingungsregeln](../building-journeys/condition-activity.md#about_condition).
+Weiterführende Informationen zu Journey-Bedingungen und zur Verwendung des einfachen Ausdruckseditors finden Sie unter [Bedingungsaktivitäten](../building-journeys/condition-activity.md#about_condition).
