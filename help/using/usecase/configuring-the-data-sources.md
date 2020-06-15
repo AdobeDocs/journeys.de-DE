@@ -10,8 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+workflow-type: tm+mt
+source-wordcount: '491'
+ht-degree: 100%
 
 ---
 
@@ -71,6 +74,7 @@ Zudem muss geprüft werden, ob die Person im Hotelreservierungssystem über eine
    ```
 
    * **[!UICONTROL Dynamische Werte]**: Geben Sie den Parameter ein, der dem Schlüssel entspricht, der zur Identifizierung der einzelnen Kunden dient (in unserem Beispiel „id“). Der Wert dieses Parameters wird in der Journey definiert.
+
    ![](../assets/journeyuc2_11.png)
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
