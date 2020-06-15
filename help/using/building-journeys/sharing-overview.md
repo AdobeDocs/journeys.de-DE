@@ -1,6 +1,6 @@
 ---
-title: Übersicht über die schrittweise Freigabe für Reisen
-description: Übersicht über die schrittweise Freigabe für Reisen
+title: Übersicht über die Freigabe von Journey-Schritten
+description: Übersicht über die Freigabe von Journey-Schritten
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,32 +14,32 @@ translation-type: tm+mt
 source-git-commit: c4335cf1f94172fabed1099d3772bc539adb02ef
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 0%
+ht-degree: 94%
 
 ---
 
 
-# Übersicht über die schrittweise Freigabe für Reisen{#sharing-overview}
+# Übersicht über die Freigabe von Journey-Schritten{#sharing-overview}
 
-[!DNL Journey Orchestration] sendet automatisch Daten zur Reiseleistung an die Adobe Experience Platform, damit sie zu Analysen mit anderen Daten kombiniert werden können.
+[!DNL Journey Orchestration] sendet automatisch Daten zur Journey-Performance an Adobe Experience Platform, damit sie zu Analysezwecken mit anderen Daten kombiniert werden können.
 
-Sie haben beispielsweise eine Reise eingerichtet, die mehrere E-Mails sendet. Mit dieser Funktion können Sie [!DNL Journey Orchestration] Daten mit nachgelagerten Ereignis-Daten kombinieren, z. B. wie viele Konversionen stattgefunden haben, wie viel Interaktion auf der Website stattgefunden hat oder wie viele Transaktionen im Store stattgefunden haben. Die Fahrteninformationen können mit Daten auf der Plattform kombiniert werden, entweder von anderen digitalen Eigenschaften oder von Offlineinhalten, um eine umfassendere Ansicht der Leistung zu ermöglichen.
+Sie haben beispielsweise eine Journey eingerichtet, die mehrere E-Mails sendet. Mit dieser Funktion können Sie [!DNL Journey Orchestration]-Daten mit nachgelagerten Ereignisdaten kombinieren (z. B. der Anzahl der Konversionen, der Interaktionen auf der Website oder der Transaktionen im Store). Die Journey-Daten können mit Daten aus Platform kombiniert werden, entweder über andere digitale Eigenschaften oder über Offline-Eigenschaften, um eine genauere Ansicht der Leistung zu ermöglichen.
 
-[!DNL Journey Orchestration] erstellt automatisch die erforderlichen Schema und fließt in Datensätze zur Plattform für jeden Schritt, den ein Einzelner auf einer Reise unternimmt. Ein step-Ereignis entspricht einer Person, die während einer Reise von einer Node zu einer anderen wechselt. Beispielsweise werden bei einer Reise mit einem Ereignis, einer Bedingung und einer Aktion drei Ereignis an die Plattform gesendet.
+[!DNL Journey Orchestration] erstellt für jeden Schritt, den ein Kontakt bei einer Journey unternimmt, automatisch die erforderlichen Schemata und streamt die Daten in Datensätze zu Platform. Ein Schrittereignis entspricht einem Kontakt, die bei einer Journey von einem Knoten zu einem anderen wechselt. Beispielsweise werden bei einer Journey, die über ein Ereignis, eine Bedingung und eine Aktion verfügt, drei Schrittereignisse an Platform gesendet.
 
-Die Liste der weitergeleiteten XDM-Felder ist umfassend. Einige enthalten systemgenerierte Codes, andere haben lesbare Anzeigenamen. Beispiele sind die Bezeichnung der Aktivität der Reise oder der Status der Stufe: wie oft eine Aktion abgelaufen ist oder fehlerhaft endete.
+Die Liste der weitergeleiteten XDM-Felder ist umfassend. Einige enthalten systemgenerierte Codes, andere haben lesbare Anzeigenamen. Beispiele sind die Bezeichnung der Journey-Aktivität und der Schrittstatus: wie oft eine Aktion die Zeit überschritten hat oder fehlerhaft endete.
 
 >[!CAUTION]
 >
 >Für den Echtzeit-Profil-Dienst können keine Datenbestände aktiviert werden. Stellen Sie sicher, dass der Umschalter **Profil** deaktiviert ist.
 
-Journeys sendet Daten im Streaming-Modus. Sie können diese Daten mit dem Abfrage-Dienst Abfrage werden. Sie können eine Verbindung zu Customer Journey Analytics oder anderen BI-Tools herstellen, um Daten zur Ansicht dieser Schritte zu erhalten.
+Journeys sendet Daten direkt im Streaming-Modus. Sie können diese Daten mit dem Query Service abfragen. Sie können eine Verbindung zu Customer Journey Analytics oder anderen BI-Tools herstellen, um Daten anzuzeigen, die mit diesen Schritten in Verbindung stehen.
 
-Die folgenden Schema werden erstellt:
+Die folgenden Schemata werden erstellt:
 
-* Journey Step Profil Ereignis Schema for [!DNL Journey Orchestration] - Experience Ereignisses für Schritte, die in einer Reise unternommen werden, zusammen mit einer Identitätskarte, die für die Zuordnung zu einem einzelnen Reiseteilnehmer verwendet wird.
-* Journey Step Ereignis Schema for [!DNL Journey Orchestration] - Journey-Step-Ereignis, das mit einer Journey-Metadaten verknüpft ist.
-* Journey Schema mit Journey Fields for [!DNL Journey Orchestration] - Journey Metadata zur Beschreibung von Reisen.
+* Journey Step Profile Event-Schema für [!DNL Journey Orchestration] – Erlebnisereignisse für Schritte, die in einer Journey unternommen werden, zusammen mit einer Identitätszuordnung, die der Zuordnung zu einem einzelnen Journey-Teilnehmer dient.
+* Journey Step Event-Schema für [!DNL Journey Orchestration] – Journey-Schrittereignis, das mit Journey-Metadaten verknüpft ist.
+* Journey-Schema mit Journey-Feldern für [!DNL Journey Orchestration] – Journey-Metadaten zur Beschreibung von Journeys.
 
 ![](../assets/sharing1.png)
 
@@ -47,17 +47,17 @@ Die folgenden Schema werden erstellt:
 
 Die folgenden Datensätze werden übergeben:
 
-* Profil-Ereignis-Schema für Reisen [!DNL Journey Orchestration]
-* Ereignisse für Reiseschritte
+* Journey Step Profile Event-Schema für [!DNL Journey Orchestration]
+* Journey-Schrittereignisse
 * Journeys
 
 ![](../assets/sharing3.png)
 
-Die Listen der XDM-Felder, die an die Plattform übergeben werden, sind hier beschrieben:
+Die Listen der XDM-Felder, die an Platform übergeben werden, werden hier beschrieben:
 
-* [JourneySchritte Ereignis - gemeinsame Felder](../building-journeys/sharing-common-fields.md)
-* [Aktionsausführungsfelder für Ereignis von &quot;travelStep&quot;](../building-journeys/sharing-execution-fields.md)
-* [JourneyStep-Ereignisse - Datenabruf von Feldern](../building-journeys/sharing-fetch-fields.md)
-* [travelStep Ereignis-Identitätsfelder](../building-journeys/sharing-identity-fields.md)
-* [Reisefelder](../building-journeys/sharing-journey-fields.md)
+* [Gemeinsame Felder für journeyStep-Ereignisse](../building-journeys/sharing-common-fields.md)
+* [Aktionsausführungsfelder für journeyStep-Ereignisse](../building-journeys/sharing-execution-fields.md)
+* [Datenabruffelder für journeyStep-Ereignisse](../building-journeys/sharing-fetch-fields.md)
+* [Identitätsfelder für journeyStep-Ereignisse](../building-journeys/sharing-identity-fields.md)
+* [Journey-Felder](../building-journeys/sharing-journey-fields.md)
 
