@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 556dbe88d2717a387e5f0ce8795c9fa02a45ac6f
 workflow-type: tm+mt
 source-wordcount: '1098'
-ht-degree: 70%
+ht-degree: 94%
 
 ---
 
@@ -24,33 +24,33 @@ ht-degree: 70%
 Auf dieser Seite werden alle neuen Funktionen und Verbesserungen bei Journey Orchestration aufgelistet.
 Sie können auch den Abschnitt [Aktualisierungen der Dokumentation](../release-notes/documentation-updates.md) lesen.
 
-## Q2-Version - Juni 2020 {#q2-release---june-2020}
+## Version 2. Quartal - Juni 2020 {#q2-release---june-2020}
 
 <table>
 <thead>
 <tr>
-<th><strong>Verbesserungen der Adobe Experience Platform-Integration</strong><br/></th>
+<th><strong>Verbesserungen bei der Adobe Experience Platform-Integration</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Die folgenden Plattformintegrationsverbesserungen wurden vorgenommen:</p>
+<p>An der Platform-Integration wurden folgende Verbesserungen vorgenommen:</p>
 <ul>
-<li><p>Eine neue Aktivität ermöglicht das Listening von Eingängen/Ausstiegen in Plattformsegmenten, um Menschen dazu zu bewegen, in eine Reise einzusteigen oder sich vorwärts zu bewegen. <a href="../building-journeys/event-activities.md#segment-qualification">mehr dazu</a></p>
+<li><p>Eine neue Aktivität ermöglicht das Überwachen von Eintritten/Austritten in Platform-Segmenten, um Personen dazu zu bringen, in eine Journey einzusteigen oder in einer Journey fortzufahren. <a href="../building-journeys/event-activities.md#segment-qualification">mehr dazu</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>Plattformsegmente können jetzt erstellt und bearbeitet werden, ohne die Benutzeroberfläche für die Journey-Orchestrierung zu verlassen, dank einer neuen Registerkarte " <strong>Segmente</strong> ".<a href="../segment/about-segments.md">mehr dazu</a></p>
+<li><p>Platform-Segmente können jetzt erstellt und bearbeitet werden, ohne dass Sie die Benutzeroberfläche von Journey Orchestration verlassen müssen. Dafür sorgt ein neuer <strong>Segmente</strong>-Tab.<a href="../segment/about-segments.md">mehr dazu</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>Im einfachen Ausdruck-Editor werden Plattformsegmente jetzt direkt in der Navigationsstruktur aufgeführt, um eine einfache Einrichtung von Bedingungen wie "Gehört diese Person zu Segment A?"zu ermöglichen.<a href="../segment/using-a-segment.md">mehr dazu</a></p>
+<li><p>Im einfachen Ausdruckseditor werden Platform-Segmente jetzt direkt in der Navigationsstruktur aufgeführt, um eine einfache Einrichtung von Bedingungen wie „Gehört diese Person zu Segment A?“ zu ermöglichen. <a href="../segment/using-a-segment.md">mehr dazu</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Die Journey Orchestration leitet nun automatisch die Schritte, die auf Reisen ausgeführt werden, an die Adobe-Datenplattform weiter. Dazu gehören potenzielle Fehler. Diese Informationen können für die Erzielung von Berichte und Fehlerbehebung verwendet werden, indem Abfragen auf den Ereignissen für Reiseschritte für eine bestimmte Reise oder für alle Reisen ausgeführt werden. <a href="../building-journeys/sharing-overview.md">mehr dazu</a></p>
+<li><p>Die Journey Orchestration übergibt nun automatisch die auf Reisen ausgeführten Schritte an die Adobe Data Platform. Dazu gehören potenziell auch Fehler. Diese Informationen können für die Erzielung von Berichte und Fehlerbehebung verwendet werden, indem Abfragen auf den Ereignissen für Reiseschritte für eine bestimmte Reise oder für alle Reisen ausgeführt werden. <a href="../building-journeys/sharing-overview.md">mehr dazu</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
 </li>
-<li><p>Die Journey Orchestration kann nun an die Plattform-Sandboxen für Produktion und Nicht-Produktion angeschlossen werden. Beachten Sie, dass Sandboxen eine Beta-Funktion sind. Wirksame Verfügbarkeit: 30. Juni 2020. <a href="../about/access-management.md#sandboxes">mehr dazu</a></p>
+<li><p>Journey Orchestration kann jetzt mit Produktions- und Nicht-Platform-Sandboxen verbunden werden. Beachten Sie, dass Sandboxen eine Beta-Funktion sind. Tatsächliche Verfügbarkeit: 30. Juni 2020. <a href="../about/access-management.md#sandboxes">mehr dazu</a></p>
 </li>
 </td>
 </tr>
@@ -60,21 +60,21 @@ Sie können auch den Abschnitt [Aktualisierungen der Dokumentation](../release-n
 <table>
 <thead>
 <tr>
-<th><strong>Verbesserungen beim Reisedesigner und Testmodus</strong><br/></th>
+<th><strong>Verbesserungen beim Journey-Designer und Testmodus</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Die folgenden Verbesserungen wurden beim Reisedesigner und im Testmodus vorgenommen:</p>
+<p>Am Journey-Designer und Testmodus wurden folgende Verbesserungen vorgenommen:</p>
 <ul>
-<li><p>Sie können jetzt Aktivitäten aus dem Einfügen von einer Reise in eine andere kopieren und eine oder N-Reise-Aktivität auswählen. <a href="../building-journeys/using-the-journey-designer.md#copy-paste">mehr dazu</a></p>
+<li><p>Sie können jetzt Aktivitäten aus einer Journey kopieren und in eine andere einfügen, indem Sie eine oder N Journey-Aktivitäten auswählen. <a href="../building-journeys/using-the-journey-designer.md#copy-paste">mehr dazu</a></p>
 <img src="../assets/rn-copy-paste1.png"/>
 </li>
-<li><p>Nachdem Sie ein Ereignis ausgelöst haben, um ein Profil auf eine Reise zu bringen, können Sie nun anhand eines farbigen Sichtablaufs den Verlauf der Reise sehen. Bei Fehlern auf der Reise werden auch Details zu Fehlern angezeigt. <a href="../building-journeys/testing-the-journey.md#firing_events">mehr dazu</a></p>
+<li><p>Nach Auslösung eines Ereignisses, damit ein Testprofil in eine Journey eintritt, können Sie nun anhand eines farbigen Verlaufs den Fortschritt der Journey anzeigen. Bei Fehlern in der Journey werden auch Fehlerdetails angezeigt. <a href="../building-journeys/testing-the-journey.md#firing_events">mehr dazu</a></p>
 <img src="../assets/rn-journeytest6.png"/>
 </li>
-<li>Der Status " <strong>Fertig</strong> "wurde in " <strong>geschlossen (kein Eingang)</strong> "umbenannt, um besser widerzuspiegeln, was dieser Status bedeutet.</li>
+<li>Der Status <strong>Beendet</strong> wurde in <strong>Geschlossen (kein Eintritt)</strong>umbenannt, um besser zu kennzeichnen, was dieser Status bedeutet.</li>
 </ul>
 </td>
 </tr>
@@ -83,13 +83,13 @@ Sie können auch den Abschnitt [Aktualisierungen der Dokumentation](../release-n
 
 **Sonstige Verbesserungen**
 
-Um zu viele API-Aufrufe an Drittanbietersysteme zu vermeiden, führen wir eine neue öffentliche API ein, um &quot;Capping&quot;-Regeln einzurichten. Durch die Begrenzung können Sie eine maximale Anzahl von Aufrufen an einen API-Endpunkt pro Millisekunden definieren. [mehr dazu](../api/capping.md)
+Um ein Senden zu vieler API-Aufrufe an Drittanbietersysteme zu vermeiden, führen wir eine neue öffentliche API für die Einrichtung von Begrenzungsregeln ein. Mit Begrenzungsregeln können Sie eine maximale Anzahl von Aufrufen an einen API-Endpunkt pro Millisekunde festlegen. [mehr dazu](../api/capping.md)
 
-Zugriffskontrolle ermöglicht nun eine größere Granularität bei der Verwaltung des Benutzerzugriffs. Wirksame Verfügbarkeit: 30. Juni 2020. [mehr dazu](../about/access-management.md#create-product-profile)
+Die Zugriffskontrolle ermöglicht nun eine größere Granularität bei der Verwaltung des Benutzerzugriffs. Tatsächliche Verfügbarkeit: 30. Juni 2020. [mehr dazu](../about/access-management.md#create-product-profile)
 
-Journey Orchestration ist jetzt in APAC (Australisches Rechenzentrum) erhältlich. Wirksame Verfügbarkeit: 30. Juni 2020
+Journey Orchestration ist jetzt im Raum APAC verfügbar (australisches Rechenzentrum). Tatsächliche Verfügbarkeit: 30. Juni 2020
 
-Die Benutzeroberfläche für die Journey-Orchestrierung ist auf Japanisch verfügbar.
+Die Benutzeroberfläche von Journey Orchestration ist auf Japanisch verfügbar.
 
 ## Version 1. Quartal – März 2020 {#q1-release---march-2020}
 
