@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
 source-wordcount: '110'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -38,4 +38,4 @@ Mit der Payload-Vorschau können Sie die Payload-Definition validieren.
 
 1. Überprüfen Sie die Vorschau, um die Payload-Definition zu validieren.
 
-1. Anschließend können Sie die Payload-Vorschau für die Person freigeben, die für das Senden des Ereignisses verantwortlich ist. This payload can help him design the setup of an event pushing to [!DNL Journey Orchestration]. Siehe [](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+1. Anschließend können Sie die Payload-Vorschau für die Person freigeben, die für das Senden des Ereignisses verantwortlich ist. Diese Payload kann ihr beim Entwurf eines Ereignisses helfen, das an [!DNL Journey Orchestration] gepusht wird. Siehe [](../event/additional-steps-to-send-events-to-journey-orchestration.md).
