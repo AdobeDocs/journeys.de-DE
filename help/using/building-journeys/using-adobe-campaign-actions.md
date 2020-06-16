@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: c6e7c27865eb34961f8901c9bde2c09527f67f15
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 100%
+source-wordcount: '858'
+ht-degree: 92%
 
 ---
 
@@ -35,7 +35,7 @@ Sie können eine ereignisbasierte (d. h. Echtzeit-) oder eine profilbasierte Tra
 
 >[!NOTE]
 >
->Wenn wir Echtzeit-Transaktionsnachrichten (rtEvent) senden oder Nachrichten über eine benutzerdefinierte Aktion mit einem Drittanbietersystem weiterleiten, ist eine spezifische Einrichtung für die Verwaltung von Ermüdung, Blacklist oder Abmeldung erforderlich. Wenn beispielsweise das Attribut „blacklist“ oder „unsubscribe“ in der Plattform oder in einem Drittanbietersystem gespeichert ist, muss vor dem Senden der Nachricht eine Bedingung hinzugefügt werden, damit diese Bedingung überprüft werden kann.
+>Wenn wir Echtzeit-Transaktionsnachrichten (rtEvent) senden oder Nachrichten mit einem Drittanbietersystem über eine benutzerdefinierte Aktion weiterleiten, ist ein spezifisches Setup für Ermüdung, blockierungsliste- oder Abmeldung-Management erforderlich. Wenn beispielsweise ein &quot;unsubscribe&quot;-Attribut in der Platform oder in einem Drittanbietersystem gespeichert wird, muss vor dem Senden der Nachricht eine Bedingung hinzugefügt werden, um diese Bedingung zu überprüfen.
 
 Wenn Sie eine Vorlage auswählen, werden alle Felder, die in der Payload der Nachricht erwartet werden, im Konfigurationsbereich der Aktivität unter **[!UICONTROL Adresse]** und **[!UICONTROL Personalisierungsdaten]** angezeigt. Sie müssen jedes dieser Felder im Ereignis oder der Datenquelle dem zu verwendenden Feld zuordnen. Sie können auch den erweiterten Ausdruckseditor verwenden, um einen Wert manuell zu übergeben, Datenmanipulationen an abgerufenen Informationen vorzunehmen (z. B. eine Zeichenfolge in Großbuchstaben zu konvertieren) oder Funktionen wie „if, then, else“ zu verwenden. Siehe [](../expression/expressionadvanced.md).
 
