@@ -10,9 +10,9 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5e2e95090df708d72ade6366a62ea42eff3ac7f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1307'
 ht-degree: 100%
 
@@ -67,6 +67,7 @@ Im Folgenden werden die wichtigsten Schritte zum Erstellen und Konfigurieren ein
    * **[!UICONTROL Wert]**: „1234“ (dies ist der Wert unseres API-Schlüssels)
    * **[!UICONTROL Name]**: „appid“ (dies ist der Name des API-Schlüsselparameters)
    * **[!UICONTROL Position]**: „Abfrageparameter“ (der API-Schlüssel befindet sich in der URL)
+
    ![](../assets/journey28.png)
 
 1. Fügen Sie für jeden API-Parametersatz eine neue Feldergruppe hinzu, indem Sie auf **[!UICONTROL Neue Feldergruppe hinzufügen]** klicken. Verwenden Sie keine Leerzeichen oder Sonderzeichen im Namen der Feldergruppe. In unserem Beispiel müssen wir zwei Feldergruppen erstellen, eine für jeden Parametersatz („city“ und „lang/lat“).
