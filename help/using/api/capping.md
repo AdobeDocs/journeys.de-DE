@@ -9,10 +9,10 @@ topic-tags: journeys
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 58495028d41d1d18739a8ea9c7f0622a0cf6ca4d
+source-git-commit: ca4dc447d8ae4ee18e50d7e9a18faf3fa47ae223
 workflow-type: tm+mt
-source-wordcount: '1084'
-ht-degree: 96%
+source-wordcount: '1114'
+ht-degree: 87%
 
 ---
 
@@ -34,7 +34,7 @@ Weitere Informationen zur Konfiguration von Aktionen oder Datenquellen finden Si
 >
 >Die Capping-API von [!DNL Journey Orchestration] wird in einer Swagger-Datei beschrieben, die [hier](https://adobedocs.github.io/JourneyAPI/docs/)verfügbar ist.
 
-Um diese API mit Ihrer [!DNL Journey Orchestration]-Instanz verwenden zu können, müssen Sie die Adobe I/O-Konsole verwenden. Sie können damit beginnen, indem Sie zuerst [Erste Schritte mit Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) und dann die Abschnitte auf dieser Seite befolgen.
+To use this API with your [!DNL Journey Orchestration] instance, you need to use the AdobeI/O Console. Sie können damit beginnen, indem Sie zuerst [Erste Schritte mit Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) und dann die Abschnitte auf dieser Seite befolgen.
 
 Um Ihre Integration zu testen und vorzubereiten, steht Ihnen [hier](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json) eine Postman-Kollektion zur Verfügung.
 
@@ -42,14 +42,14 @@ Um Ihre Integration zu testen und vorzubereiten, steht Ihnen [hier](https://raw.
 
 ### Einrichten von API-Zugriff
 
-Der API-Zugriff für [!DNL Journey Orchestration] wird wie folgt eingerichtet: Jeder dieser Schritte wird in der [Adobe I/O-Dokumentation](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) beschrieben.
+Der API-Zugriff für [!DNL Journey Orchestration] wird wie folgt eingerichtet: Each of these steps is detailed in the [Adobe I/O documentation](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
 
 >[!CAUTION]
 >
->Wenn Sie in Adobe I/O Zertifikate verwalten möchten, vergewissern Sie sich, dass Sie in der Admin Console über <b>Systemadministrator</b> -Rechte für das Unternehmen oder ein [Entwicklerkonto](https://helpx.adobe.com/de/enterprise/using/manage-developers.html) verfügen.
+>To manage certificates in Adobe I/O, make sure you have <b>System administrator</b> rights on the organization or a [developer account](https://helpx.adobe.com/de/enterprise/using/manage-developers.html) in the Admin console.
 
 1. **Überprüfen Sie, ob Sie ein digitales Zertifikat haben**, oder erstellen Sie bei Bedarf eines. Die mit dem Zertifikat bereitgestellten öffentlichen und privaten Schlüssel werden in den folgenden Schritten benötigt.
-1. **Erstellen Sie eine neue Integration mit dem[!DNL Journey Orchestration]-Service** in Adobe I/O und konfigurieren Sie sie. Der Produktprofilzugriff wird für [!DNL Journey Orchestration] und Adobe Experience Platform benötigt. Dann werden Ihre Zugangsdaten generiert (API-Schlüssel, Client-Geheimnis...).
+1. **Erstellen Sie eine neue Integration zu[!DNL Journey Orchestration]Service** in Adobe I/O und konfigurieren Sie sie. Der Produktprofilzugriff wird für [!DNL Journey Orchestration] und Adobe Experience Platform benötigt. Dann werden Ihre Zugangsdaten generiert (API-Schlüssel, Client-Geheimnis...).
 1. **Erstellen Sie einen JSON-Web-Token (JWT)** aus den zuvor erstellten Anmeldedaten und signieren Sie ihn mit Ihrem privaten Schlüssel. Der JWT kodiert alle Identitäts- und Sicherheitsdaten, die Adobe zum Überprüfen Ihrer Identität und zum Erteilen des Zugriffs auf die API benötigt. Dieser Schritt wird in diesem [Abschnitt](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) genau beschrieben.
 1. **Ersetzen Sie Ihr JWT durch einen Zugriffstoken**, und zwar über eine POST-Anfrage oder über die Developer Console-Oberfläche. Dieser Zugriffstoken muss in allen Kopfzeilen Ihrer API-Anfragen verwendet werden.
 
@@ -65,7 +65,8 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 * **&lt;ORGANIZATION>**: Dies ist Ihre persönliche Organisationskennung; von Adobe erhalten Sie für jede Ihrer Instanzen eine Organisationskennung:
 
    * &lt;ORGANIZATION>: Ihre Produktionsinstanz
-   Wenden Sie sich an Ihren Administrator oder Ihren technischen Ansprechpartner bei Adobe, um den Wert Ihrer Organisationskennung zu erhalten. Sie können sie auch beim Erstellen einer neuen Integration in Adobe I/O abrufen, und zwar in der Lizenzliste (siehe <a href="https://www.adobe.io/authentication.html">Adobe I/O-Dokumentation</a>).
+
+   Wenden Sie sich an Ihren Administrator oder Ihren technischen Ansprechpartner bei Adobe, um den Wert Ihrer Organisationskennung zu erhalten. You can also retrieve it into Adobe I/O when creating a new integration, in the licenses list (see the <a href="https://www.adobe.io/authentication.html">Adobe I/O documentation</a>).
 
 * **&lt;ACCESS_TOKEN>**: Ihr persönlicher Zugriffstoken, der beim Austausch Ihres JWT über eine POST-Anfrage abgerufen wurde.
 
@@ -79,14 +80,14 @@ Mit der Capping-API können Sie Begrenzungskonfigurationen erstellen, konfigurie
 
 | Vorgehensweise | Pfad | Beschreibung |
 |---|---|---|
-| POST | list/endpointConfigs | Liste der Endpunktbegrenzungskonfigurationen abrufen |
-| POST | /endpointConfigs | Endpunktbegrenzungskonfiguration erstellen |
-| POST | /endpointConfigs/{uid}/deploy | Endpunktbegrenzungskonfiguration bereitstellen |
-| POST | /endpointConfigs/{uid}/undeploy | Bereitstellung einer Endpunktbegrenzungskonfiguration aufheben |
-| POST | /endpointConfigs/{uid}/canDeploy | Überprüfen, ob eine Endpunktbegrenzungskonfiguration bereitgestellt werden kann oder nicht |
-| PUT | /endpointConfigs/{uid} | Endpunktbegrenzungskonfiguration aktualisieren |
-| GET | /endpointConfigs/{uid} | Endpunktbegrenzungskonfiguration abrufen |
-| DELETE | /endpointConfigs/{uid} | Endpunktbegrenzungskonfiguration löschen |
+| [!DNL POST] | list/endpointConfigs | Liste der Endpunktbegrenzungskonfigurationen abrufen |
+| [!DNL POST] | /endpointConfigs | Endpunktbegrenzungskonfiguration erstellen |
+| [!DNL POST] | /endpointConfigs/{uid}/deploy | Endpunktbegrenzungskonfiguration bereitstellen |
+| [!DNL POST] | /endpointConfigs/{uid}/undeploy | Bereitstellung einer Endpunktbegrenzungskonfiguration aufheben |
+| [!DNL POST] | /endpointConfigs/{uid}/canDeploy | Überprüfen, ob eine Endpunktbegrenzungskonfiguration bereitgestellt werden kann oder nicht |
+| [!DNL PUT] | /endpointConfigs/{uid} | Endpunktbegrenzungskonfiguration aktualisieren |
+| [!DNL GET] | /endpointConfigs/{uid} | Endpunktbegrenzungskonfiguration abrufen |
+| [!DNL DELETE] | /endpointConfigs/{uid} | Endpunktbegrenzungskonfiguration löschen |
 
 Bei der Erstellung oder Aktualisierung einer Konfiguration wird automatisch eine Überprüfung durchgeführt, um die Syntax und Integrität der Payload sicherzustellen.
 Wenn Probleme auftreten, gibt der Vorgang eine Warnung oder Fehler zurück, die Ihnen beim Korrigieren der Konfiguration helfen.
@@ -172,11 +173,12 @@ Um Ihnen bei Tests und der Konfiguration behilflich zu sein, steht Ihnen [hier](
 
 Diese Postman-Kollektion wurde eingerichtet, um die Postman-Variablenkollektion freizugeben, die über __[Integrationen der Adobe I/O-Konsole](https://console.adobe.io/integrations)> Testen > Für Postman herunterladen__ generiert wurde. Dadurch wird eine Postman-Umgebung mit den ausgewählten Integrationswerten erzeugt.
 
-Nach dem Herunterladen und Hochladen in Postman müssen Sie zwei Variablen hinzufügen: `{JO_HOST}` und `{Base_Path}`.
+Once downloaded and uploaded into Postman, you need to add three variables: `{JO_HOST}`,`{Base_Path}` and `{SANDBOX_NAME}`.
 * `{JO_HOST}` : [!DNL Journey Orchestration]-Gateway-URL
 * `{BASE_PATH}` : Einstiegspunkt für die API. Der Wert lautet „/authoring“
+* `{SANDBOX_NAME}` : der Header **x-sandbox-name** (z. B. &quot;prod&quot;), der dem Sandbox-Namen entspricht, in dem die API-Vorgänge stattfinden. Weitere Informationen finden Sie in der [Übersicht](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) zu Sandboxen.
 
-Im folgenden Abschnitt finden Sie die Liste der Rest-API-Aufrufe, die zur Durchführung des Anwendungsfalls angeordnet wurden.
+Im folgenden Abschnitt finden Sie die sortierte Liste der Rest-API-Aufrufe, um den Anwendungsfalls auszuführen.
 
 Anwendungsfall 1: **Erstellen und Bereitstellen einer neuen Begrenzungskonfiguration**
 
