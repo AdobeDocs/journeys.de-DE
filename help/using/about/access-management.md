@@ -8,11 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a3114ffe7c087645e97caf3a77e7649d922945eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '864'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 96%
 
 ## Informationen zur Zugriffsverwaltung {#about-access-management}
 
-[!DNL Journey Orchestration] ermöglicht es Ihnen, Ihren Benutzern eine Reihe von Rechten zuzuweisen, um zu definieren, auf welchen Teil der Oberfläche sie zugreifen können.
+In [!DNL Journey Orchestration] können Sie Ihren Benutzern verschiedene Rechte zuweisen und dadurch festlegen, welchen Teil der Benutzeroberfläche sie verwenden können.
 
 Rollen können von Administratoren verwaltet werden, die Zugriff auf die Admin Console haben. Weitere Informationen zur Admin Console finden Sie in [dieser Dokumentation](https://helpx.adobe.com/de/enterprise/managing/user-guide.html).
 
@@ -36,7 +36,6 @@ In der Admin Console können Sie Ihren Benutzern eines der folgenden vordefinier
    * Journeys veröffentlichen
    * Ereignisse, Datenquellen und Aktionen verwalten
    * Berichte verwalten
-
    >[!NOTE]
    >
    >**[!UICONTROL Administratoren]** ist das einzige Produktprofil, das in Adobe Campaign Standard eine Erstellung, Bearbeitung und Veröffentlichung von Transaktionsnachrichten (oder Nachrichtenvorlagen) ermöglicht. Dieses Produktprofil ist erforderlich, wenn Sie mit Adobe Campaign Standard in Journeys Nachrichten senden möchten.
@@ -87,7 +86,7 @@ So erstellen Sie ein Produktprofil und weisen einen Satz von Berechtigungen und 
 
    >[!NOTE]
    >
-   >Platform Sandbox ist eine Beta-Funktion.
+   >Platform-Sandbox ist eine Beta-Funktion.
    <br>Weiterführende Informationen zu Sandboxes finden Sie in diesem [Abschnitt](../about/access-management.md#sandboxes).
 
 1. Klicken Sie bei Bedarf unter **[!UICONTROL Einbezogene Berechtigungselemente]** auf das X-Symbol, um Berechtigungen für das Produktprofil zu entfernen.
@@ -130,7 +129,7 @@ Ihr Benutzer sollte dann eine E-Mail mit einer Umleitung zur [!DNL Journey Orche
 
 >[!NOTE]
 >
->Platform Sandbox ist eine Beta-Funktion.
+>Platform-Sandbox ist eine Beta-Funktion.
 
 [!DNL Journey Orchestration] ermöglicht es Ihnen, Ihre Instanz in separate virtuelle Umgebungen, so genannte Sandboxes, zu unterteilen.
 Sandboxes werden über Produktprofile in der Admin Console zugewiesen. Weiterführende Informationen zur Zuweisung von Sandboxes finden Sie in [diesem Abschnitt](../about/access-management.md#create-product-profile).
