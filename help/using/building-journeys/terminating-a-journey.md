@@ -10,9 +10,9 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 72a3fd98b7911a1b8f23ccfeb55b884926f795ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '327'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 # Abbrechen einer Journey
 
-Mit den Optionen **[!UICONTROL Stoppen]** und **[!UICONTROL Für neue Zutritte schließen]** können Sie **Live**-Journeys beenden. Wenn Sie eine Journey schließen, wird **der Eintritt neuer Kunden in die Journey blockiert** und die bereits in der Journey befindlichen Kunden können diese bis zum Ende durchlaufen. Dies ist die empfohlene Art, eine Journey zu beenden, da sie für die Kunden das beste Erlebnis bietet. Wenn Sie hingegen eine Journey stoppen, wird die Reise der bereits in der Journey befindlichen Personen abgebrochen. Die Journey wird praktisch deaktiviert.
+Mit den Optionen **[!UICONTROL Stoppen]** und **[!UICONTROL Für neue Eintritte schließen]** können Sie **Live**-Journeys beenden. Wenn Sie eine Journey schließen, wird **der Eintritt neuer Kunden in die Journey blockiert** und die bereits in der Journey befindlichen Kunden können diese bis zum Ende durchlaufen. Dies ist die empfohlene Art, eine Journey zu beenden, da sie für die Kunden das beste Erlebnis bietet. Wenn Sie hingegen eine Journey stoppen, wird die Reise der bereits in der Journey befindlichen Personen abgebrochen. Die Journey wird praktisch deaktiviert.
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ Sie können eine Journey manuell schließen. In diesem Fall können Kunden, die 
 
 Eine geschlossene Journey-Version kann weder neu gestartet noch gelöscht werden. Stattdessen können Sie eine neue Version davon erstellen oder sie duplizieren.
 
-Wenn Sie eine Journey schließen möchten, klicken Sie auf **[!UICONTROL Für neue Zutritte schließen]**, während Sie die Maus über die jeweilige Journey in der Liste der Journeys bewegen.
+Wenn Sie eine Journey schließen möchten, klicken Sie auf **[!UICONTROL Für neue Eintritte schließen]**, während Sie die Maus über die jeweilige Journey in der Liste der Journeys bewegen.
 
 ![](../assets/do-not-localize/journey-finish-quick-action.png)
 
@@ -44,8 +44,8 @@ Alternativ können Sie auch folgendermaßen vorgehen:
 
    ![](../assets/finish_drop_down_list.png)
 
-1. Klicken Sie auf **[!UICONTROL Für neue Zutritte schließen]**. Ein Dialogfeld wird angezeigt.
-1. Klicken Sie zur Bestätigung auf **[!UICONTROL Für neue Zutritte schließen]**.
+1. Klicken Sie auf **[!UICONTROL Für neue Eintritte schließen]**. Ein Dialogfeld wird angezeigt.
+1. Klicken Sie zur Bestätigung auf **[!UICONTROL Für neue Eintritte schließen]**.
 
 ## Stoppen einer Journey
 
