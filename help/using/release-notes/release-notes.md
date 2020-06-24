@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 556dbe88d2717a387e5f0ce8795c9fa02a45ac6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1098'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -46,11 +46,11 @@ Sie können auch den Abschnitt [Aktualisierungen der Dokumentation](../release-n
 <li><p>Im einfachen Ausdruckseditor werden Platform-Segmente jetzt direkt in der Navigationsstruktur aufgeführt, um eine einfache Einrichtung von Bedingungen wie „Gehört diese Person zu Segment A?“ zu ermöglichen. <a href="../segment/using-a-segment.md">mehr dazu</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Die Journey Orchestration übergibt nun automatisch die auf Reisen ausgeführten Schritte an die Adobe Data Platform. Dazu gehören potenziell auch Fehler. Diese Informationen können für die Erzielung von Berichte und Fehlerbehebung verwendet werden, indem Abfragen auf den Ereignissen für Reiseschritte für eine bestimmte Reise oder für alle Reisen ausgeführt werden. <a href="../building-journeys/sharing-overview.md">mehr dazu</a></p>
+<li><p>Journey Orchestration leitet nun die bei den Journeys ausgeführten Schritte automatisch an die Adobe-Datenplattform weiter. Dazu gehören potenziell auch Fehler. Diese Informationen können für die Berichterstellung und Fehlerbehebung verwendet werden, indem Abfragen zu den Journey-Schrittereignissen für eine bestimmte Journey oder für alle Journeys ausgeführt werden. <a href="../building-journeys/sharing-overview.md">mehr dazu</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
 </li>
-<li><p>Journey Orchestration kann jetzt mit Produktions- und Nicht-Platform-Sandboxen verbunden werden. Beachten Sie, dass Sandboxen eine Beta-Funktion sind. Tatsächliche Verfügbarkeit: 30. Juni 2020. <a href="../about/access-management.md#sandboxes">mehr dazu</a></p>
+<li><p>Journey Orchestration kann jetzt mit der Platform-Sandbox für Produktion und Nicht-Produktion verbunden werden. Beachten Sie, dass Sandboxes eine Beta-Funktion sind. Tatsächliche Verfügbarkeit: 30. Juni 2020. <a href="../about/access-management.md#sandboxes">mehr dazu</a></p>
 </li>
 </td>
 </tr>
@@ -74,7 +74,7 @@ Sie können auch den Abschnitt [Aktualisierungen der Dokumentation](../release-n
 <li><p>Nach Auslösung eines Ereignisses, damit ein Testprofil in eine Journey eintritt, können Sie nun anhand eines farbigen Verlaufs den Fortschritt der Journey anzeigen. Bei Fehlern in der Journey werden auch Fehlerdetails angezeigt. <a href="../building-journeys/testing-the-journey.md#firing_events">mehr dazu</a></p>
 <img src="../assets/rn-journeytest6.png"/>
 </li>
-<li>Der Status <strong>Beendet</strong> wurde in <strong>Geschlossen (kein Eintritt)</strong>umbenannt, um besser zu kennzeichnen, was dieser Status bedeutet.</li>
+<li>Der Journey-Status <strong>Beendet</strong> wurde in <strong>Geschlossen (kein Eintritt)</strong>umbenannt, um besser zu kennzeichnen, was dieser Status bedeutet.</li>
 </ul>
 </td>
 </tr>
