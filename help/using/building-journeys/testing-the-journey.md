@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: be21573973600758cbf13bd25bc3b44ab4cd08ca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1103'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 
 1. Wenn ein Fehler auftritt, deaktivieren Sie den Testmodus, ändern Sie Ihre Journey und testen Sie sie erneut. Wenn der Test abgeschlossen ist, können Sie Ihre Journey veröffentlichen. Siehe [](../building-journeys/publishing-the-journey.md).
 
-## Wichtige Hinweise       {#important_notes}
+## Wichtige Hinweise        {#important_notes}
 
 * Es wird eine Benutzeroberfläche bereitgestellt, über die Ereignisse für die getestete Journey ausgelöst werden können. Ereignisse können aber auch von Drittanbietersystemen wie Postman gesendet werden.
 * Nur Kontakte, die im Echtzeit-Kundenprofil als „Testprofile“ gekennzeichnet sind, dürfen an der getesteten Journey teilnehmen. Der Prozess zum Erstellen eines Testprofils entspricht dem Vorgang zum Erstellen eines Profils in der Datenplattform. Sie müssen nur sicherstellen, dass die Testprofilmarkierung aktiviert ist. Sie können den Abschnitt „Segmente“ in der Benutzeroberfläche der Datenplattform verwenden, um ein Segment mit Testprofilen in Ihrer Datenplattform zu erstellen und eine Liste anzuzeigen, die nicht vollständig ist. Die vollständige Liste kann zu diesem Zeitpunkt nicht angezeigt werden.
@@ -81,7 +81,7 @@ Wenn Sie im Bildschirm für die Ereigniskonfiguration ein anderes Profil auswäh
 
 Beim Öffnen einer Journey im Test ist der angezeigte Pfad der des zuletzt durchgeführten Tests
 
-Der visuelle Fluss funktioniert unabhängig davon, ob das Ereignis über die Schnittstelle oder extern ausgelöst wird (z. B. mit Postman).
+Der visuelle Fluss funktioniert unabhängig davon, ob das Ereignis über die Benutzeroberfläche oder extern ausgelöst wird (z. B. mit Postman).
 
 ## Anzeigen der Protokolle {#viewing_logs}
 
