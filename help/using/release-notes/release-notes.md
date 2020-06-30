@@ -10,10 +10,10 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 556dbe88d2717a387e5f0ce8795c9fa02a45ac6f
-workflow-type: ht
-source-wordcount: '1098'
+translation-type: tm+mt
+source-git-commit: eed82450d3fab279add87d0bee7e0efa824d1e8e
+workflow-type: tm+mt
+source-wordcount: '1095'
 ht-degree: 100%
 
 ---
@@ -50,7 +50,7 @@ Sie können auch den Abschnitt [Aktualisierungen der Dokumentation](../release-n
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
 </li>
-<li><p>Journey Orchestration kann jetzt mit der Platform-Sandbox für Produktion und Nicht-Produktion verbunden werden. Beachten Sie, dass Sandboxes eine Beta-Funktion sind. Tatsächliche Verfügbarkeit: 30. Juni 2020. <a href="../about/access-management.md#sandboxes">mehr dazu</a></p>
+<li><p>Journey Orchestration kann jetzt mit der Platform-Sandbox für Produktion und Nicht-Produktion verbunden werden. Beachten Sie, dass Sandboxes eine Beta-Funktion sind. <a href="../about/access-management.md#sandboxes">mehr dazu</a></p>
 </li>
 </td>
 </tr>
