@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: eed82450d3fab279add87d0bee7e0efa824d1e8e
+source-git-commit: c99ff0755a75c9262bf6ebe73172fe76d3f78f48
 workflow-type: tm+mt
 source-wordcount: '852'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -78,7 +78,7 @@ So erstellen Sie ein Produktprofil und weisen einen Satz von Berechtigungen und 
 
 1. Klicken Sie abschließend auf **[!UICONTROL Fertig]**. Ihr neues Produktprofil wurde erstellt.
 
-   ![](../assets/user_management_6.png)
+   ![](../assets/user_management_1.png)
 
 1. Wählen Sie Ihr neues Produktprofil aus, um Berechtigungen zu verwalten. Fügen Sie Ihrem Produktprofil auf dem Tab **[!UICONTROL Benutzer]** Benutzer hinzu. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](../about/access-management.md#assigning-product-profile).
 
@@ -88,7 +88,7 @@ So erstellen Sie ein Produktprofil und weisen einen Satz von Berechtigungen und 
 
    ![](../assets/user_management_7.png)
 
-1. Wählen Sie in der Berechtigungskategorie **[!UICONTROL Sandbox]** die Sandboxes aus, die Sie Ihrem Produktprofil zuweisen möchten. Klicken Sie unter **[!UICONTROL Verfügbare Berechtigungselemente]** auf das Pluszeichen (+), um Ihrem Profil Sandboxes zuzuweisen. Weiterführende Informationen zu Sandboxes finden Sie in diesem [Abschnitt](../about/access-management.md#sandboxes).
+1. In the **[!UICONTROL Sandboxes]** permission category, choose which sandbox(es) to assign to your product profile. Klicken Sie unter **[!UICONTROL Verfügbare Berechtigungselemente]** auf das Pluszeichen (+), um Ihrem Profil Sandboxes zuzuweisen. Weiterführende Informationen zu Sandboxes finden Sie in diesem [Abschnitt](../about/access-management.md#sandboxes).
 
    ![](../assets/user_management_8.png)
 
