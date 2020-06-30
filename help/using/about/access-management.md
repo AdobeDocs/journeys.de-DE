@@ -8,10 +8,10 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: ht
-source-git-commit: a3114ffe7c087645e97caf3a77e7649d922945eb
-workflow-type: ht
-source-wordcount: '864'
+translation-type: tm+mt
+source-git-commit: eed82450d3fab279add87d0bee7e0efa824d1e8e
+workflow-type: tm+mt
+source-wordcount: '852'
 ht-degree: 100%
 
 ---
@@ -70,11 +70,15 @@ So erstellen Sie ein Produktprofil und weisen einen Satz von Berechtigungen und 
 
 1. Wählen Sie in der Admin Console die Option **[!UICONTROL Journey Orchestration]** aus. Klicken Sie auf dem Tab **[!UICONTROL Produktprofile]** auf **[!UICONTROL Neues Profil]**.
 
+   ![](../assets/user_management_5.png)
+
 1. Fügen Sie einen **[!UICONTROL Profilnamen]** und eine **[!UICONTROL Beschreibung]** für Ihr neues Profil hinzu. Wenn Sie möchten, dass der **[!UICONTROL Anzeigename]** Ihres Profils anders lautet, deaktivieren Sie **[!UICONTROL Wie Profilname]** und geben Sie Ihren **[!UICONTROL Anzeigenamen]** ein.
 
 1. Wählen Sie in der Kategorie **[!UICONTROL Benutzerbenachrichtigungen]** aus, ob Benutzer per E-Mail benachrichtigt werden sollen, wenn sie diesem Produktprofil hinzugefügt oder daraus entfernt werden.
 
 1. Klicken Sie abschließend auf **[!UICONTROL Fertig]**. Ihr neues Produktprofil wurde erstellt.
+
+   ![](../assets/user_management_6.png)
 
 1. Wählen Sie Ihr neues Produktprofil aus, um Berechtigungen zu verwalten. Fügen Sie Ihrem Produktprofil auf dem Tab **[!UICONTROL Benutzer]** Benutzer hinzu. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](../about/access-management.md#assigning-product-profile).
 
@@ -82,17 +86,20 @@ So erstellen Sie ein Produktprofil und weisen einen Satz von Berechtigungen und 
 
 1. Wählen Sie auf dem Tab **[!UICONTROL Berechtigungen]** eine der beiden Kategorien (**[!UICONTROL Sandbox]** oder **[!UICONTROL Authoring]**) aus, um die Seite **[!UICONTROL Berechtigungen bearbeiten]** zu öffnen und Berechtigungen zu Ihrem Produktprofil hinzuzufügen oder daraus zu entfernen.
 
-1. Wählen Sie in der Berechtigungskategorie **[!UICONTROL Sandbox]** die Sandboxes aus, die Sie Ihrem Produktprofil zuweisen möchten. Klicken Sie unter **[!UICONTROL Verfügbare Berechtigungselemente]** auf das Pluszeichen (+), um Ihrem Profil Sandboxes zuzuweisen.
+   ![](../assets/user_management_7.png)
 
-   >[!NOTE]
-   >
-   >Platform-Sandbox ist eine Beta-Funktion.
-   <br>Weiterführende Informationen zu Sandboxes finden Sie in diesem [Abschnitt](../about/access-management.md#sandboxes).
+1. Wählen Sie in der Berechtigungskategorie **[!UICONTROL Sandbox]** die Sandboxes aus, die Sie Ihrem Produktprofil zuweisen möchten. Klicken Sie unter **[!UICONTROL Verfügbare Berechtigungselemente]** auf das Pluszeichen (+), um Ihrem Profil Sandboxes zuzuweisen. Weiterführende Informationen zu Sandboxes finden Sie in diesem [Abschnitt](../about/access-management.md#sandboxes).
+
+   ![](../assets/user_management_8.png)
 
 1. Klicken Sie bei Bedarf unter **[!UICONTROL Einbezogene Berechtigungselemente]** auf das X-Symbol, um Berechtigungen für das Produktprofil zu entfernen.
 
+   ![](../assets/user_management_9.png)
+
 1. Führen Sie in der Berechtigungskategorie **[!UICONTROL Authoring]** dieselben Schritte wie oben aus, um Ihrem Produktprofil Berechtigungen hinzuzufügen.
    <br>Weitere Informationen zu Berechtigungen und zur Kompatibilität zwischen Berechtigungen sowie zu den verschiedenen Funktionen von [!DNL Journey Orchestration] finden Sie in diesem [Abschnitt](../about/access-management.md#about-access-management).
+
+   ![](../assets/user_management_10.png)
 
 1. Klicken Sie abschließend auf **[!UICONTROL Speichern]**.
 
@@ -126,10 +133,6 @@ So weisen Sie einem Benutzer ein Produktprofil für den Zugriff auf [!DNL Journe
 Ihr Benutzer sollte dann eine E-Mail mit einer Umleitung zur [!DNL Journey Orchestration]-Instanz erhalten.
 
 ## Verwenden von Sandboxes {#sandboxes}
-
->[!NOTE]
->
->Platform-Sandbox ist eine Beta-Funktion.
 
 [!DNL Journey Orchestration] ermöglicht es Ihnen, Ihre Instanz in separate virtuelle Umgebungen, so genannte Sandboxes, zu unterteilen.
 Sandboxes werden über Produktprofile in der Admin Console zugewiesen. Weiterführende Informationen zur Zuweisung von Sandboxes finden Sie in [diesem Abschnitt](../about/access-management.md#create-product-profile).
