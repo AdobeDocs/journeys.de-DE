@@ -1,0 +1,30 @@
+---
+title: Übersicht über die Alpha-Funktionen
+description: Erfahren Sie mehr über die Alpha-Version der Journey Orchestration.
+page-status-flag: never-activated
+uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
+contentOwner: sauviat
+audience: rns
+content-type: reference
+topic-tags: journeys
+discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 0bede8675f72c7b63da59dc8e0a3ca0fb95de87c
+workflow-type: tm+mt
+source-wordcount: '120'
+ht-degree: 0%
+
+---
+
+
+# Übersicht über die Alpha-Funktionen
+
+Die Funktionen der Alpha-Programm-Angebot, die derzeit von einer begrenzten Kundengruppe getestet werden. Auf diese Weise können wir unser Produkt auf Basis des Feedbacks verbessern. Diese Funktionen stehen nicht allen Journey Orchestrationen zur Verfügung.
+
+Dieser Abschnitt konzentriert sich nur auf die Alpha-Funktionen. Wenn Sie nicht zum Alpha-Programm gehören und mehr über die anderen Funktionen der Journey Orchestration erfahren möchten, lesen Sie die anderen Abschnitte dieser [Dokumentation](../../journey-orchestration-home.md).
+
+Wenn Sie an diesem Alpha-Programm teilnehmen möchten, füllen Sie [dieses Formular](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4RuhNDklrkhHrsBisppjRThURDJTTUxWSTBJQU1OSTBTVjMwUDRIQURDNS4u) aus und wir melden uns bei Ihnen.
+
+
