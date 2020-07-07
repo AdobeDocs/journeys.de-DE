@@ -11,19 +11,19 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: 0bede8675f72c7b63da59dc8e0a3ca0fb95de87c
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 
-# Nutzen von Ermüdungswerten {#concept_dsh_1ry_wfb}
+# Nutzung von Journey AI {#concept_dsh_1ry_wfb}
 
 Dieser Anwendungsfall zeigt, wie Sie Ermüdungswerte verwenden können, um zu verhindern, dass Sie Kunden bei Journeys überfordern.
 
->[!CAUTION]
+>[!NOTE]
 >
 >Die Funktion für prädiktive Ermüdungswerte steht nur Kunden zur Verfügung, die die Funktion Adobe Campaign Standard Data Service verwenden.
 
