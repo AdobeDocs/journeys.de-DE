@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 2f0d235ce1808f632b731fc2077b10a31a178e4b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 14c8828a8c8e223b58b3512f02f2ee06136b98c5
+workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -29,6 +29,6 @@ Im Folgenden finden Sie die Möglichkeiten von [!DNL Journey Orchestration] bei 
 
 * Zugreifen auf die Liste von Platform-Segmenten. Lesen Sie diesbezüglich auch den Abschnitt [Erstellen eines Segments](../segment/creating-a-segment.md).
 * Erstellen von Segmenten direkt in [!DNL Journey Orchestration] auf gleiche Weise wie mit dem Segmentierungsdienst. Lesen Sie diesbezüglich auch den Abschnitt [Erstellen eines Segments](../segment/creating-a-segment.md).
-* Nutzen von Segmenten in Bedingungen Ihrer Journeys mit dem einfachen oder erweiterten Ausdruckseditor. Siehe [Verwenden von Segmenten in Bedingungen](../segment/using-a-segment.md).
+* Nutzen Sie Segmente in den Reisebedingungen mit dem einfachen oder erweiterten Ausdruck-Editor. Siehe [Verwenden von Segmenten in Bedingungen](../segment/using-a-segment.md).
 * Hinzufügen eines Ereignisses vom Typ **Segmentqualifizierung** zu Ihrer Journey, um die Ein- und Austritte von Profilen in Platform-Segmenten zu beobachten. Siehe [Ereignisaktivitäten](../building-journeys/event-activities.md#segment-qualification).
 
