@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
-workflow-type: ht
-source-wordcount: '494'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5d92b9d70a70700026a4715c6cb6a6c4ba565ba5
+workflow-type: tm+mt
+source-wordcount: '649'
+ht-degree: 79%
 
 ---
 
@@ -23,6 +23,18 @@ ht-degree: 100%
 
 Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journey Orchestration] aufgelistet.
 Lesen Sie auch die [!DNL Journey Orchestration]-[Versionshinweise](../release-notes/release-notes.md).
+
+## Juli 2020 {#july-2020}
+
+* Es wurde ein neuer Abschnitt zu den Alpha-Funktionen hinzugefügt, die von einer begrenzten Gruppe von Kunden getestet werden. [Mehr dazu](../alpha/alpha-overview.md)
+* Es wurde ein neuer Abschnitt zur Integration mit Intelligent Services hinzugefügt. [Mehr dazu](../ai-services/ai-services-overview.md)
+* Es wurde ein neuer Abschnitt zur Erstellung des Test-Profils hinzugefügt. [mehr dazu](../building-journeys/testing-the-journey.md#create-test-profile)
+* Es wurden Informationen zur Verwendung des Knotens **SegmentQualification** in einer Reisebedingung oder -aktion hinzugefügt. [mehr dazu](../building-journeys/event-activities.md#segment-qualification)
+* Eine Notiz zur Veröffentlichung von Kampagne Transaktionsnachricht und Ereignis wurde hinzugefügt. Siehe [](../action/working-with-adobe-campaign.md) und [](../building-journeys/using-adobe-campaign-actions.md).
+* Es wurden Informationen zu den Prüfungen hinzugefügt, die beim Testen der URL der Instanz im Campaign Standard durchgeführt werden. [Mehr dazu](../action/working-with-adobe-campaign.md)
+* Es wurden Informationen zur Kompatibilität von Reaktionsservern mit Campaign Standard-Instanzen hinzugefügt, die auf AWS- oder Azurblauch-Ereignissen gehostet werden. [Mehr dazu](../building-journeys/event-activities.md#section_dhx_gss_dgb)
+* Es wurde ein Hinweis hinzugefügt, dass beim Arbeiten mit Campaign Standard-Transaktionsnachrichten eine Capping-Regel eingerichtet werden muss. [Mehr dazu](../action/working-with-adobe-campaign.md)
+* Es wurde eine Notiz zur Generierung von Real Ereignisses hinzugefügt, wenn Ereignis im Testmodus ausgelöst werden. [Mehr dazu](../building-journeys/testing-the-journey.md#firing_events)
 
 ## Juni 2020{#june-2020}
 
@@ -65,7 +77,7 @@ Lesen Sie auch die [!DNL Journey Orchestration]-[Versionshinweise](../release-no
 
 * Alle Screenshots wurden entsprechend den Änderungen der Benutzeroberfläche aktualisiert.
 * Der Abschnitt „Testmodus“ wurde aktualisiert. [Mehr dazu](../building-journeys/testing-the-journey.md)
-* In den Bereichen [Versandzeitoptimierung der E-Mail](../building-journeys/wait-activity.md) und [Prädiktive Ermüdungswerte](../usecase/leveraging-fatigue-scores.md) wurde eine Warnung hinzugefügt. Diese Funktionen stehen nur Kunden zur Verfügung, die die Funktion Adobe Campaign Standard Data Service verwenden.
+* In den Bereichen [Versandzeitoptimierung der E-Mail](../building-journeys/wait-activity.md) und [Prädiktive Ermüdungswerte](../ai-services/leveraging-fatigue-scores.md) wurde eine Warnung hinzugefügt. Diese Funktionen stehen nur Kunden zur Verfügung, die die Funktion Adobe Campaign Standard Data Service verwenden.
 * Gestoppte Journeys können nun gelöscht werden. Die entsprechenden Seiten in der Dokumentation wurden aktualisiert.
 * Wenn in einer Journey Probleme erkannt werden, werden nun zwei Farben angezeigt. Rot steht für Fehler und orange für Warnungen. [Mehr dazu](../about/troubleshooting.md)
 * Der Abschnitt zum erweiterten Ausdruckseditor wurde aktualisiert. [Mehr dazu](../expression/expressionadvanced.md).
