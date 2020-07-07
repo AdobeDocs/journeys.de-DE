@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 957e72de7feccb33684523e26b2bdccb2074e4ca
-workflow-type: ht
-source-wordcount: '971'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3937f92035651fca5ddd7f54c9b650d050f2587f
+workflow-type: tm+mt
+source-wordcount: '1029'
+ht-degree: 94%
 
 ---
 
@@ -45,7 +45,7 @@ Sie können diesen Mechanismus auch verwenden, um eine Aktion auszuführen, wenn
 
 Beachten Sie, dass Sie eine Reaktionsaktivität auf der Arbeitsfläche nur verwenden können, wenn zuvor eine E-Mail-, Push- oder SMS-Aktivität stattgefunden hat.
 
-Siehe [](../building-journeys/about-action-activities.md).
+See [About action activities](../building-journeys/about-action-activities.md).
 
 ![](../assets/journey45.png)
 
@@ -58,11 +58,13 @@ Im Folgenden werden die verschiedenen Schritte zum Konfigurieren der Reaktionser
 
 >[!NOTE]
 >
+>Ereignisse mit Reaktionsfunktionen funktionieren mit Adobe Campaign Standard, unabhängig davon, ob sie auf AWS- oder Azurblauer-Servern bereitgestellt werden.
+>
 >Reaktionsereignisse können keine E-Mail-, SMS- oder Push-Aktionen verfolgen, die in einer anderen Journey stattfinden.
 >
 >Reaktionsereignisse verfolgen Klicks auf Links des Typs „verfolgt“ (siehe diese [Seite](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/designing-content/links.html#about-tracked-urls)). Abmeldungs- und Mirrorseiten-Links werden nicht berücksichtigt.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >E-Mail-Clients wie Gmail erlauben die Blockierung von Bildern. Das Öffnen von E-Mails wird anhand eines in der E-Mail enthaltenen 0-Pixel-Bildes nachverfolgt. Wenn Bilder blockiert werden, wird das Öffnen von E-Mails nicht berücksichtigt.
 
@@ -97,6 +99,12 @@ Die Payload enthält die folgenden Kontextinformationen, die Sie in Bedingungen 
 * Verhalten (Eintritt, Austritt)
 * Zeitstempel der Qualifizierung
 * Segmentkennung
+
+Wenn Sie den Ausdruck-Editor in einer Bedingung oder Aktion verwenden, die einer Aktivität der **Segmentqualifizierung** folgt, haben Sie Zugriff auf den Knoten **Segmentqualifikation** . Sie können zwischen &quot; **Letzte Qualifikationszeit** &quot;und &quot; **Status** &quot;wählen (ein- oder ausgehend).
+
+Siehe Aktivität [zu Bedingungen](../building-journeys/condition-activity.md#about_condition).
+
+![](../assets/segment8.png)
 
 ## Erweiterte Verwendung: Ereignisse mit paralleler Wartezeit{#section_vxv_h25_pgb}
 
