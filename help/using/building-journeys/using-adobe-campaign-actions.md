@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c6e7c27865eb34961f8901c9bde2c09527f67f15
+source-git-commit: d0630be5b82d681a94eebe2e9a7196081717ec9d
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 92%
+source-wordcount: '924'
+ht-degree: 85%
 
 ---
 
@@ -28,6 +28,10 @@ Wenn Sie über Adobe Campaign Standard verfügen, stehen die folgenden vordefini
 >Dazu müssen Sie die integrierte Aktion konfigurieren. Siehe [](../action/working-with-adobe-campaign.md).
 
 Für jeden dieser Kanäle wählen Sie eine Adobe Campaign Standard-**Transaktionsnachrichtenvorlage** aus. [!DNL Journey Orchestration] ist keine Lösung zum Senden von Nachrichten. Für die integrierten E-Mail-, SMS- und Push-Kanäle werden Transaktionsnachrichten verwendet, um den Nachrichtenversand auszuführen. Das bedeutet, dass Sie, wenn Sie eine bestimmte Nachrichtenvorlage in Ihren Journeys verwenden möchten, diese in Adobe Campaign Standard veröffentlichen müssen. Auf dieser [Seite](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) erfahren Sie, wie Sie diese Funktion verwenden.
+
+>[!NOTE]
+>
+>Die Transaktionsnachricht des Campaign Standards und das zugehörige Ereignis müssen veröffentlicht werden, damit sie in der Journey Orchestration verwendet werden können. Wenn das Ereignis veröffentlicht wird, die Meldung jedoch nicht, wird sie nicht in der Benutzeroberfläche der Journey Orchestration angezeigt. Wenn die Nachricht veröffentlicht wird, das zugehörige Ereignis jedoch nicht, wird sie in der Benutzeroberfläche der Journey Orchestration angezeigt, sie kann jedoch nicht verwendet werden.
 
 ![](../assets/journey59.png)
 
