@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5d92b9d70a70700026a4715c6cb6a6c4ba565ba5
+source-git-commit: 18364d6e93b48e065b21bbaddee33e7ba4d9274d
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 79%
+source-wordcount: '657'
+ht-degree: 77%
 
 ---
 
@@ -28,13 +28,13 @@ Lesen Sie auch die [!DNL Journey Orchestration]-[Versionshinweise](../release-no
 
 * Es wurde ein neuer Abschnitt zu den Alpha-Funktionen hinzugefügt, die von einer begrenzten Gruppe von Kunden getestet werden. [Mehr dazu](../alpha/alpha-overview.md)
 * Es wurde ein neuer Abschnitt zur Integration mit Intelligent Services hinzugefügt. [Mehr dazu](../ai-services/ai-services-overview.md)
-* Es wurde ein neuer Abschnitt zur Erstellung des Test-Profils hinzugefügt. [mehr dazu](../building-journeys/testing-the-journey.md#create-test-profile)
-* Es wurden Informationen zur Verwendung des Knotens **SegmentQualification** in einer Reisebedingung oder -aktion hinzugefügt. [mehr dazu](../building-journeys/event-activities.md#segment-qualification)
-* Eine Notiz zur Veröffentlichung von Kampagne Transaktionsnachricht und Ereignis wurde hinzugefügt. Siehe [](../action/working-with-adobe-campaign.md) und [](../building-journeys/using-adobe-campaign-actions.md).
+* Es wurde ein neuer Abschnitt zur Erstellung des Test-Profils hinzugefügt. [Mehr dazu](../building-journeys/testing-the-journey.md#create-test-profile)
+* Es wurden Informationen zur Verwendung des Knotens **SegmentQualification** in einer Reisebedingung oder -aktion hinzugefügt. [Mehr dazu](../building-journeys/event-activities.md#segment-qualification)
+* Eine Notiz zur Veröffentlichung von Kampagne Transaktionsnachricht und Ereignis wurde hinzugefügt. Siehe [Arbeiten mit Adobe Campaign](../action/working-with-adobe-campaign.md) und [Verwenden von Adobe Campaign-Aktionen](../building-journeys/using-adobe-campaign-actions.md).
 * Es wurden Informationen zu den Prüfungen hinzugefügt, die beim Testen der URL der Instanz im Campaign Standard durchgeführt werden. [Mehr dazu](../action/working-with-adobe-campaign.md)
 * Es wurden Informationen zur Kompatibilität von Reaktionsservern mit Campaign Standard-Instanzen hinzugefügt, die auf AWS- oder Azurblauch-Ereignissen gehostet werden. [Mehr dazu](../building-journeys/event-activities.md#section_dhx_gss_dgb)
 * Es wurde ein Hinweis hinzugefügt, dass beim Arbeiten mit Campaign Standard-Transaktionsnachrichten eine Capping-Regel eingerichtet werden muss. [Mehr dazu](../action/working-with-adobe-campaign.md)
-* Es wurde eine Notiz zur Generierung von Real Ereignisses hinzugefügt, wenn Ereignis im Testmodus ausgelöst werden. [Mehr dazu](../building-journeys/testing-the-journey.md#firing_events)
+* Es wurde ein Hinweis zur Generierung echter Ereignis hinzugefügt, wenn Ereignis im Testmodus ausgelöst werden. [Mehr dazu](../building-journeys/testing-the-journey.md#firing_events)
 
 ## Juni 2020{#june-2020}
 
