@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: be21573973600758cbf13bd25bc3b44ab4cd08ca
-workflow-type: ht
-source-wordcount: '1103'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 0c7a9d679e2bf20c58aaea81e134c41b401e11ac
+workflow-type: tm+mt
+source-wordcount: '1164'
+ht-degree: 89%
 
 ---
 
@@ -50,16 +50,74 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 ## Wichtige Hinweise        {#important_notes}
 
 * Es wird eine Benutzeroberfläche bereitgestellt, über die Ereignisse für die getestete Journey ausgelöst werden können. Ereignisse können aber auch von Drittanbietersystemen wie Postman gesendet werden.
-* Nur Kontakte, die im Echtzeit-Kundenprofil als „Testprofile“ gekennzeichnet sind, dürfen an der getesteten Journey teilnehmen. Der Prozess zum Erstellen eines Testprofils entspricht dem Vorgang zum Erstellen eines Profils in der Datenplattform. Sie müssen nur sicherstellen, dass die Testprofilmarkierung aktiviert ist. Sie können den Abschnitt „Segmente“ in der Benutzeroberfläche der Datenplattform verwenden, um ein Segment mit Testprofilen in Ihrer Datenplattform zu erstellen und eine Liste anzuzeigen, die nicht vollständig ist. Die vollständige Liste kann zu diesem Zeitpunkt nicht angezeigt werden.
+* Nur Kontakte, die im Echtzeit-Kundenprofil als „Testprofile“ gekennzeichnet sind, dürfen an der getesteten Journey teilnehmen. Siehe [](../building-journeys/testing-the-journey.md#create-test-profile).
 * Der Testmodus ist nur in Entwurfs-Journeys verfügbar, die einen Namespace verwenden. Der Testmodus muss prüfen, ob eine Person, die die Journey betritt, ein Testprofil ist oder nicht, und muss daher in der Lage sein, die Datenplattform zu erreichen.
 * Die maximale Anzahl von Testprofilen, die während einer Testsitzung auf eine Journey zugreifen können, beträgt 100.
 * Wenn Sie den Testmodus deaktivieren, werden alle Personen, die in der Vergangenheit an der Journey teilgenommen haben oder sich derzeit darin befinden, aus der Journey entfernt.
 * Sie können den Testmodus beliebig oft aktivieren/deaktivieren.
 * Sie können Ihre Journey nicht ändern, wenn der Testmodus aktiviert ist. Im Testmodus können Sie die Journey direkt veröffentlichen, ohne den Testmodus zuvor deaktivieren zu müssen.
 
+## Creating a test profile{#create-test-profile}
+
+Der Vorgang zum Erstellen eines Profils ist identisch mit dem, wenn Sie ein Profil in der Experience Platform erstellen. Sie wird durch API-Aufrufe ausgeführt. See this [page](https://docs.adobe.com/content/help/de-DE/experience-platform/profile/home.html)
+
+Sie müssen ein Profil-Schema verwenden, das das Mixin &quot;Profil-Testdetails&quot;enthält. Tatsächlich ist das Flag testProfile Teil dieser Mischung.
+
+Achten Sie beim Erstellen eines Profils darauf, den Wert zu übergeben: testprofile = true.
+
+Beachten Sie, dass Sie auch ein vorhandenes Profil aktualisieren können, um das Flag testProfile in &quot;true&quot;zu ändern.
+
+Hier ein Beispiel für einen API-Aufruf zum Erstellen eines Test-Profils:
+
+```
+curl -X POST \
+'https://example.adobe.com/collection/xxxxxxxxxxxxxx' \
+-H 'Cache-Control: no-cache' \
+-H 'Content-Type: application/json' \
+-H 'Postman-Token: xxxxx' \
+-H 'cache-control: no-cache' \
+-H 'x-api-key: xxxxx' \
+-H 'x-gw-ims-org-id: xxxxx' \
+-d '{
+"header": {
+"msgType": "xdmEntityCreate",
+"msgId": "xxxxx",
+"msgVersion": "xxxxx",
+"xactionid":"xxxxx",
+"datasetId": "xxxxx",
+"imsOrgId": "xxxxx",
+"source": {
+"name": "Postman"
+},
+"schemaRef": {
+"id": "https://example.adobe.com/mobile/schemas/xxxxx",
+"contentType": "application/vnd.adobe.xed-full+json;version=1"
+}
+},
+"body": {
+"xdmMeta": {
+"schemaRef": {
+"contentType": "application/vnd.adobe.xed-full+json;version=1"
+}
+},
+"xdmEntity": {
+"_id": "xxxxx",
+"_mobile":{
+"ECID": "xxxxx"
+},
+"testProfile":true
+}
+}
+}'
+```
+
 ## Auslösen Ihrer Ereignisse {#firing_events}
 
 Mit der Schaltfläche **[!UICONTROL Ereignis auslösen]** können Sie ein Ereignis konfigurieren, das eine Person zum Zutritt zur Journey veranlasst.
+
+>[!NOTE]
+>
+>Wenn Sie ein Ereignis im Testmodus auslösen, wird ein echtes Ereignis generiert, d. h. es wird auch auf eine andere Reise gestoßen, die dieses Ereignis verfolgt.
 
 Als Voraussetzung müssen Sie wissen, welche Profile in der Datenplattform als Testprofile gekennzeichnet sind. Der Testmodus lässt nur diese Profile in der Journey zu und das Ereignis muss eine ID enthalten. Die erwartete ID hängt von der Ereigniskonfiguration ab. Sie kann beispielsweise eine ECID sein.
 
