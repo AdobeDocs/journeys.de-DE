@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: d0630be5b82d681a94eebe2e9a7196081717ec9d
 workflow-type: tm+mt
 source-wordcount: '924'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Für jeden dieser Kanäle wählen Sie eine Adobe Campaign Standard-**Transaktion
 
 >[!NOTE]
 >
->Die Transaktionsnachricht des Campaign Standards und das zugehörige Ereignis müssen veröffentlicht werden, damit sie in der Journey Orchestration verwendet werden können. Wenn das Ereignis veröffentlicht wird, die Meldung jedoch nicht, wird sie nicht in der Benutzeroberfläche der Journey Orchestration angezeigt. Wenn die Nachricht veröffentlicht wird, das zugehörige Ereignis jedoch nicht, wird sie in der Benutzeroberfläche der Journey Orchestration angezeigt, sie kann jedoch nicht verwendet werden.
+>Die Transaktionsnachricht in Campaign Standard und das zugehörige Ereignis müssen veröffentlicht werden, damit sie in Journey Orchestration verwendet werden können. Wenn das Ereignis veröffentlicht wird, die Nachricht jedoch nicht, wird sie nicht in der Benutzeroberfläche von Journey Orchestration angezeigt. Wenn die Nachricht veröffentlicht wird, das zugehörige Ereignis jedoch nicht, wird sie in der Benutzeroberfläche von Journey Orchestration angezeigt, sie kann jedoch nicht verwendet werden.
 
 ![](../assets/journey59.png)
 
@@ -39,7 +39,7 @@ Sie können eine ereignisbasierte (d. h. Echtzeit-) oder eine profilbasierte Tra
 
 >[!NOTE]
 >
->Wenn wir Echtzeit-Transaktionsnachrichten (rtEvent) senden oder Nachrichten mit einem Drittanbietersystem über eine benutzerdefinierte Aktion weiterleiten, ist ein spezifisches Setup für Ermüdung, blockierungsliste- oder Abmeldung-Management erforderlich. Wenn beispielsweise ein &quot;unsubscribe&quot;-Attribut in der Platform oder in einem Drittanbietersystem gespeichert wird, muss vor dem Senden der Nachricht eine Bedingung hinzugefügt werden, um diese Bedingung zu überprüfen.
+>Wenn wir Echtzeit-Transaktionsnachrichten (rtEvent) senden oder Nachrichten über eine benutzerdefinierte Aktion mit einem Drittanbietersystem weiterleiten, ist eine spezifische Einrichtung für die Verwaltung von Ermüdung, Blockierungsliste oder Abmeldung erforderlich. Wenn beispielsweise ein Attribut oder „unsubscribe“ in der Plattform oder in einem Drittanbietersystem gespeichert ist, muss vor dem Senden der Nachricht eine Bedingung hinzugefügt werden, damit diese Bedingung überprüft werden kann.
 
 Wenn Sie eine Vorlage auswählen, werden alle Felder, die in der Payload der Nachricht erwartet werden, im Konfigurationsbereich der Aktivität unter **[!UICONTROL Adresse]** und **[!UICONTROL Personalisierungsdaten]** angezeigt. Sie müssen jedes dieser Felder im Ereignis oder der Datenquelle dem zu verwendenden Feld zuordnen. Sie können auch den erweiterten Ausdruckseditor verwenden, um einen Wert manuell zu übergeben, Datenmanipulationen an abgerufenen Informationen vorzunehmen (z. B. eine Zeichenfolge in Großbuchstaben zu konvertieren) oder Funktionen wie „if, then, else“ zu verwenden. Siehe [](../expression/expressionadvanced.md).
 
