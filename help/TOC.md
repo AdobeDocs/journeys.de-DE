@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 18cc34f4c2f8f75ec42c70ec9a92784aed4358d9
 workflow-type: tm+mt
 source-wordcount: '370'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -162,10 +162,10 @@ ht-degree: 93%
    + [Informationen zu Journey-Berichten](using/reporting/about-journey-reports.md)
    + [Erstellen von Journey-Berichten](using/reporting/creating-your-journey-reports.md)
    + [Metriken und Dimensionen](using/reporting/metrics-and-dimensions.md)
-+ Integration mit intelligenten Diensten{#use-case-advanced}
-   + [Info zur AI-Integration](using/ai-services/ai-services-overview.md)
-   + [Nutzung von Journey AI](using/ai-services/leveraging-fatigue-scores.md)
-   + [Nutzung der Kundenaktivität](using/ai-services/leveraging-customer-ai.md)
++ Integrieren mit Intelligent Services{#use-case-advanced}
+   + [Informationen zur KI-Integration](using/ai-services/ai-services-overview.md)
+   + [Verwenden von Journey AI](using/ai-services/leveraging-fatigue-scores.md)
+   + [Verwenden von Customer AI](using/ai-services/leveraging-customer-ai.md)
 + Anwendungsfälle{#use-cases-journeys}
    + Einfacher Anwendungsfall{#use-case-simple}
       + [Informationen zum einfachen Anwendungsfall](using/usecase/about-the-simple-use-case.md)
@@ -183,5 +183,5 @@ ht-degree: 93%
    + [Übersicht über die Alpha-Funktionen](using/alpha/alpha-overview.md)
    + [Benutzeroberfläche](using/alpha/alpha-interface.md)
    + [Segmentauslöser-Aktivität](using/alpha/alpha-segment-trigger.md)
-   + [Regelbasierte Ereignis](using/alpha/alpha-events.md)
+   + [Regelbasierte Ereignisse](using/alpha/alpha-events.md)
 
