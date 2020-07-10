@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 0c7a9d679e2bf20c58aaea81e134c41b401e11ac
 workflow-type: tm+mt
 source-wordcount: '1164'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 
 1. Wenn ein Fehler auftritt, deaktivieren Sie den Testmodus, ändern Sie Ihre Journey und testen Sie sie erneut. Wenn der Test abgeschlossen ist, können Sie Ihre Journey veröffentlichen. Siehe [](../building-journeys/publishing-the-journey.md).
 
-## Wichtige Hinweise        {#important_notes}
+## Wichtige Hinweise         {#important_notes}
 
 * Es wird eine Benutzeroberfläche bereitgestellt, über die Ereignisse für die getestete Journey ausgelöst werden können. Ereignisse können aber auch von Drittanbietersystemen wie Postman gesendet werden.
 * Nur Kontakte, die im Echtzeit-Kundenprofil als „Testprofile“ gekennzeichnet sind, dürfen an der getesteten Journey teilnehmen. Siehe [](../building-journeys/testing-the-journey.md#create-test-profile).
@@ -57,17 +57,17 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 * Sie können den Testmodus beliebig oft aktivieren/deaktivieren.
 * Sie können Ihre Journey nicht ändern, wenn der Testmodus aktiviert ist. Im Testmodus können Sie die Journey direkt veröffentlichen, ohne den Testmodus zuvor deaktivieren zu müssen.
 
-## Creating a test profile{#create-test-profile}
+## Erstellen eines Testprofils{#create-test-profile}
 
-Der Vorgang zum Erstellen eines Profils ist identisch mit dem, wenn Sie ein Profil in der Experience Platform erstellen. Sie wird durch API-Aufrufe ausgeführt. See this [page](https://docs.adobe.com/content/help/de-DE/experience-platform/profile/home.html)
+Der Prozess zum Erstellen eines Testprofils entspricht dem Vorgang zum Erstellen eines Profils in Experience Platform. Er wird über API-Aufrufe ausgeführt. Weitere Informationen finden Sie auf dieser [Seite](https://docs.adobe.com/content/help/de-DE/experience-platform/profile/home.html)
 
-Sie müssen ein Profil-Schema verwenden, das das Mixin &quot;Profil-Testdetails&quot;enthält. Tatsächlich ist das Flag testProfile Teil dieser Mischung.
+Sie müssen ein Profilschema verwenden, das das Mixin für Profiltestdetails enthält. Die Markierung „testProfile“ ist Teil dieses Mixins.
 
-Achten Sie beim Erstellen eines Profils darauf, den Wert zu übergeben: testprofile = true.
+Achten Sie beim Erstellen eines Profils darauf, diesen Wert zu übergeben: testprofile = true.
 
-Beachten Sie, dass Sie auch ein vorhandenes Profil aktualisieren können, um das Flag testProfile in &quot;true&quot;zu ändern.
+Beachten Sie, dass Sie auch ein vorhandenes Profil aktualisieren können, um die Markierung „testProfile“ in „true“ zu ändern.
 
-Hier ein Beispiel für einen API-Aufruf zum Erstellen eines Test-Profils:
+Hier sehen Sie ein Beispiel für einen API-Aufruf zum Erstellen eines Testprofils:
 
 ```
 curl -X POST \
@@ -117,7 +117,7 @@ Mit der Schaltfläche **[!UICONTROL Ereignis auslösen]** können Sie ein Ereign
 
 >[!NOTE]
 >
->Wenn Sie ein Ereignis im Testmodus auslösen, wird ein echtes Ereignis generiert, d. h. es wird auch auf eine andere Reise gestoßen, die dieses Ereignis verfolgt.
+>Wenn Sie ein Ereignis im Testmodus auslösen, wird ein reales Ereignis generiert, d. h. es beeinflusst auch andere Journeys, die dieses Ereignis überwachen.
 
 Als Voraussetzung müssen Sie wissen, welche Profile in der Datenplattform als Testprofile gekennzeichnet sind. Der Testmodus lässt nur diese Profile in der Journey zu und das Ereignis muss eine ID enthalten. Die erwartete ID hängt von der Ereigniskonfiguration ab. Sie kann beispielsweise eine ECID sein.
 
