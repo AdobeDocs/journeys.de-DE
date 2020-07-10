@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: c6e7c27865eb34961f8901c9bde2c09527f67f15
 workflow-type: tm+mt
 source-wordcount: '1037'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -94,8 +94,8 @@ In der Tabelle unten finden Sie eine Liste der Metriken, die in Journey-Berichte
 
 | Metrik | Definition |
 |--- |--- |
-| **Bei blockierungsliste** | Zahl der Empfänger, die eine E-Mail als Spam oder Junk gekennzeichnet haben |
-| **Blockierungsliste-Rate** | Gesamtanzahl der Nachrichten auf dem blockierungsliste des  im Vergleich zu den gesendeten Nachrichten. |
+| **Auf Blockierungsliste** | Zahl der Empfänger, die eine E-Mail als Spam oder Junk gekennzeichnet haben |
+| **Blockierungslistenrate** | Gesamtzahl der Nachrichten auf der Blockierungsliste in Bezug auf die gesendeten Nachrichten. |
 | **Bounces + Fehler** | Gesamtzahl der über alle Sendungen hinweg kumulierten Fehler und der automatischen Bounce-Verarbeitung in Bezug auf die Gesamtzahl der gesendeten Nachrichten. |
 | **Bounce + Fehlerrate** | Gesamtzahl der Nachrichten, bei denen es zu einem Bounce gekommen ist, in Bezug auf die gesendeten Nachrichten. |
 | **Klick** | Zahl der Klicks auf einen Inhalt in einem Versand. |
