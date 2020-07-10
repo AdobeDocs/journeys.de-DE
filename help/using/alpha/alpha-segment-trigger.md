@@ -1,6 +1,6 @@
 ---
 title: Segmentauslöser-Aktivität
-description: Lerne xxxx
+description: Erfahren Sie xxxx
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,61 +14,61 @@ translation-type: tm+mt
 source-git-commit: c8d28b51f14ba511a860874e45d341a6977c58fa
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 0%
+ht-degree: 91%
 
 ---
 
 
 # Segmentauslöser-Aktivität {#segment-trigger-activity}
 
-## Aktivität zum Segmentauslöser {#about-segment-trigger-actvitiy}
+## Informationen zur Segmentauslöser-Aktivität {#about-segment-trigger-actvitiy}
 
-Mit der Segmentauslöser-Aktivität können Sie alle Experience Platformen, die zu einem Segmentsegment gehören, in eine Reise einbinden. Eintritt in eine Reise kann einmal oder regelmäßig ausgeführt werden.
+Mit der Segmentauslöser-Aktivität können Sie alle Personen, die zu einem Experience Platform-Segment gehören, in eine Journey eintreten lassen. Der Eintritt in eine Journey kann entweder einmalig oder regelmäßig erfolgen.
 
-Nehmen wir an, Sie haben ein Gold-Kundensegment auf der Experience Platform. Mit der Segmentauslöser-Aktivität können Sie alle dem Gold-Kundensegment angehörenden Personen in eine Reise einbinden und sie zu individuellen Reisen machen, die alle Reisefunktionalitäten nutzen: Bedingungen, Timer, Ereignisse, Aktionen.
+Nehmen wir an, Sie verfügen über ein Segment für „Gold-Kunden“ in Experience Platform. Mit der Segmentauslöser-Aktivität können Sie alle Einzelanwender, die zum Gold-Kundensegment gehören, in eine Journey eintreten lassen und durch individuelle Journeys führen, die alle Journey-Funktionen nutzen: Bedingungen, Timer, Ereignisse, Aktionen.
 
 >[!NOTE]
 >
->Aufgrund von Segmentexportlatenzen ist es nicht möglich, eine segmentbasierte Reise in einem kürzeren Zeitrahmen als 1 Stunde auszulösen.
+>Aufgrund von Latenzen beim Segmentexport ist es nicht möglich, eine segmentbasierte Journey in einem kürzeren Zeitraum als einer Stunde auszulösen.
 
-## Configuring the activity {#configuring-segment-trigger-activity}
+## Konfigurieren der Aktivität {#configuring-segment-trigger-activity}
 
-1. Unfold the **[!UICONTROL Orchestration]** category and drop a **[!UICONTROL Segment Trigger]** activity into your canvas.
+1. Erweitern Sie die Kategorie **[!UICONTROL Orchestrierung]** und legen Sie eine Aktivität vom Typ **[!UICONTROL Segmentauslöser]** auf Ihrer Arbeitsfläche ab.
 
-   Die Aktivität muss als erster Schritt einer Reise positioniert werden.
+   Die Aktivität muss als erster Schritt einer Journey positioniert werden.
 
-1. Konfigurieren Sie den **[!UICONTROL Planung-Typ]** der Aktivität.
+1. Konfigurieren Sie den **[!UICONTROL Planungstyp]** der Aktivität.
 
-   Standardmäßig wird das Segment **[!UICONTROL so bald wie möglich]** in die Reise aufgenommen, d. h. 1 Stunde nach der Veröffentlichung der Reise. Wenn Sie möchten, dass das Segment zu einem bestimmten Datum/zu einer bestimmten Uhrzeit oder wiederholt auf die Reise gelangt, wählen Sie die gewünschte Option in der Liste aus.
+   Standardmäßig tritt das Segment **[!UICONTROL so bald wie möglich]** in die Journey ein, d. h. eine Stunde nach der Veröffentlichung der Journey. Wenn das Segment zu einem bestimmten Datum/zu einer bestimmten Uhrzeit oder wiederholt in die Journey eintreten soll, wählen Sie die gewünschte Option aus der Liste aus.
 
-   Bei wiederkehrenden Reisen können Sie auch den Beginn und das Ende der Reise festlegen.
+   Bei wiederkehrenden Journeys können Sie auch den Beginn und das Ende der Journey festlegen.
 
    ![](../assets/segment-trigger-schedule.png)
 
-1. Wählen Sie im Feld **[!UICONTROL Segment]** das Segmentsegment aus, das die Experience Platform aufrufen soll, und klicken Sie dann auf **[!UICONTROL Speichern]**.
+1. In the **[!UICONTROL Segment]** field, choose the Experience Platform segment that will enter the journey, then click **[!UICONTROL Save]**.
 
    ![](../assets/segment-trigger-segment-selection.png)
 
-1. Wählen Sie im Feld **[!UICONTROL Namensraum]** den Namensraum aus, der zur Identifizierung der Personen verwendet werden soll. For more on namespaces, refer to [this section](../event/selecting-the-namespace.md).
+1. Wählen Sie im Feld **[!UICONTROL Namespace]** den Namespace aus, der zur Identifizierung der Einzelanwender verwendet werden soll. Weitere Informationen zu Namespaces finden Sie in [diesem Abschnitt](../event/selecting-the-namespace.md).
 
    >[!NOTE]
    >
    >Personen, die zu einem Segment gehören, das nicht über die jeweilige Namensraum-ID verfügt, können nicht an der Reise teilnehmen.
 
-1. Click **[!UICONTROL Ok]** to confirm. Sie können dann verfügbare Aktivitäten nutzen, um Ihre Reise zu gestalten.
+1. Wählen Sie zum Bestätigen **[!UICONTROL OK]** aus. Sie können dann die verfügbaren Aktivitäten nutzen, um Ihre Journey zu erstellen.
 
-1. Sobald die Reise fertig ist, können Sie sie potenziell testen (siehe [Testen der Reise](../building-journeys/testing-the-journey.md)).
+1. Sobald die Journey fertig ist, können Sie sie testen (siehe [Testen der Journey](../building-journeys/testing-the-journey.md)).
 
-   Wenn der Testmodus auf einer Reise aktiviert wird, die mit einer **[!UICONTROL Segmentauslöser]** -Aktivität beginnt, werden 100 Profil zufällig unter den für das ausgewählte Segment qualifizierten Profilen ausgewählt. Die Testprotokolle ermöglichen es Ihnen, den Pfad der einzelnen Personen während der Reise und mögliche aufgetretene Fehler anzuzeigen (siehe [Anzeigen der Protokolle](../building-journeys/testing-the-journey.md#viewing_logs)).
+   Wenn der Testmodus in einer Journey aktiviert ist, die mit einer **[!UICONTROL Segmentauslöser]**-Aktivität beginnt, werden 100 Testprofile zufällig aus den für das ausgewählte Segment qualifizierten Profilen ausgewählt. In den Testprotokollen können Sie den Pfad von Einzelanwendern in der Journey und mögliche Fehler anzeigen (siehe [Anzeigen der Protokolle](../building-journeys/testing-the-journey.md#viewing_logs)).
 
    >[!NOTE]
    >
-   >Beachten Sie, dass Sie die 100 Personen, die auf die Reise folgen, nicht mit der visuellen Flussfunktion sehen können, die auf einheitlichen Reisen vorhanden ist.
+   >Beachten Sie, dass Sie die 100 Personen, die dieser Journey folgen, mit der visuellen Flussfunktion, die in auf einheitlichen Ereignissen beruhenden Journeys vorhanden ist, nicht sehen können.
 
-1. Anschließend können Sie Ihre Reise veröffentlichen (siehe [Veröffentlichen der Reise](../building-journeys/publishing-the-journey.md)). Die dem Segment angehörenden Personen treten zu dem in der Planung Segmentauslöser angegebenen Datum/der Uhrzeit in die Aktivität ein.
+1. Anschließend können Sie Ihre Journey veröffentlichen (siehe [Veröffentlichen der Journey](../building-journeys/publishing-the-journey.md)). Einzelanwender, die zum Segment gehören, treten an dem Datum/zu der Uhrzeit in die Journey ein, die in der Planung für die Segmentauslöser-Aktivität angegeben ist.
 
    >[!IMPORTANT]
    >
-   >Beachten Sie, dass Experience Platformen-Segmente entweder einmal täglich (**Stapelsegmente** ) oder in Echtzeit (**Streaming** -Segmente) berechnet werden.
+   >Beachten Sie, dass Experience Platform-Segmente entweder einmal täglich (**Batch**-Segmente) oder in Echtzeit (**gestreamte** Segmente) berechnet werden.
    >
-   >Wenn das ausgewählte Segment gestreamt wird, können die zu diesem Segment gehörenden Personen die Reise möglicherweise in Echtzeit aufrufen. Wenn es sich bei dem Segment um einen Stapel handelt, können Personen, die für dieses Segment neu qualifiziert wurden, möglicherweise die Reise aufrufen, wenn die Segmentberechnung auf der Experience Platform ausgeführt wird.
+   >Wenn das ausgewählte Segment gestreamt wird, betreten die zu diesem Segment gehörenden Einzelanwender die Journey in Echtzeit. Wenn es sich bei dem Segment um ein Batch-Segment handelt, treten für dieses Segment neu qualifizierte Personen in die Journey ein, wenn die Segmentberechnung in Experience Platform ausgeführt wird.
