@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: 18cc34f4c2f8f75ec42c70ec9a92784aed4358d9
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Nutzung von Journey AI {#concept_dsh_1ry_wfb}
+# Verwenden von Journey AI {#concept_dsh_1ry_wfb}
 
 Dieser Anwendungsfall zeigt, wie Sie Ermüdungswerte verwenden können, um zu verhindern, dass Sie Kunden bei Journeys überfordern.
 
