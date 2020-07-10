@@ -1,6 +1,6 @@
 ---
 title: Benutzeroberfläche der Alpha-Version
-description: Erfahren Sie mehr über die neue Benutzeroberfläche der Journey Orchestration.
+description: Weitere Informationen über die neue Benutzeroberfläche von Journey Orchestration.
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,32 +14,32 @@ translation-type: tm+mt
 source-git-commit: 69809da5cb96099baa20ea130a3cf7650b26c094
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
 # Benutzeroberfläche der Alpha-Version {#discovering-alpha-interface}
 
-## Benutzeroberfläche der Alpha-Version {#about-alpha-interface}
+## Informationen zur Benutzeroberfläche der Alpha-Version {#about-alpha-interface}
 
-Die Navigation innerhalb der [!DNL Journey Orchestration] Menüs wurde verbessert, um eine konsistente Benutzeroberfläche mit Adobe Experience Platform zu bieten. Zu den Änderungen gehören:
+Die Navigation innerhalb der [!DNL Journey Orchestration]-Menüs wurde verbessert, um eine konsistente Schnittstelle mit Adobe Experience Platform zu schaffen. Zu den Änderungen gehören:
 
-* Menüs wurden von oben nach links verschoben.
-* Gruppierung von Admin-Funktionen in einem einzigen Dashboard.
+* Die Menüs wurden von der oberen zur linken Seite der Benutzeroberfläche verschoben,
+* Gruppierung der Admin-Funktionen in einem einzigen Dashboard.
 
-Globale Konzepte zur Verwendung und Navigation in der Benutzeroberfläche (Suchen und Filtern, Durchsuchen von Datenfeldfeldern, Tastaturbefehle) werden in [diesem Abschnitt](../about/user-interface.md)vorgestellt.
+In diesem [Abschnitt](../about/user-interface.md) werden globale Konzepte zur Verwendung und Navigation in der Benutzeroberfläche (Suchen und Filtern, Durchsuchen von Datenplattformfeldern, Shortcuts) vorgestellt.
 
-## Zugreifen auf [!DNL Journey Orchestration] Funktionen {#accessing-journey-orchestration-functionalities}
+## Aufrufen von [!DNL Journey Orchestration]-Funktionen {#accessing-journey-orchestration-functionalities}
 
-Wenn Sie auf [!DNL Journey Orchestration]die Seite zugreifen, wird das Menü &quot; **[!UICONTROL Reisen]** &quot;angezeigt, mit dem Sie auf bestehende Reisen zugreifen oder neue Reisen erstellen können. See [Using the journey designer](../building-journeys/using-the-journey-designer.md).
+Wenn Sie [!DNL Journey Orchestration] aufrufen, wird das Menü **[!UICONTROL Journeys]** angezeigt, über das Sie auf bestehende Journeys zugreifen oder neue Journeys erstellen können. Siehe [Verwenden des Journey-Designers](../building-journeys/using-the-journey-designer.md).
 
 ![](../assets/interface-journeys.png)
 
-Im Menü &quot; **[!UICONTROL Segmente]** &quot;können Sie auf Experience Platformen zugreifen und diese erstellen. Siehe [Informationen zu Segmenten](../segment/about-segments.md)der Platform.
+Über das Menü **[!UICONTROL Segmente]** können Sie auf Segmente von Experience Platform zugreifen und neue Segmente erstellen. Siehe [Informationen zu Platform-Segmenten](../segment/about-segments.md).
 
 ![](../assets/interface-segments.png)
 
-Das Menü &quot; **[!UICONTROL Admin]** &quot;steht allen Benutzern mit Administratorrechten zur Verfügung (siehe [Zugriffsverwaltung](../about/access-management.md)). Es bietet ein Dashboard, mit dem Sie [Datenquellen](../datasource/about-data-sources.md), [Ereignis](../event/about-events.md) und [Aktionen](../action/action.md)einrichten können.
+Das Menü **[!UICONTROL Admin]** steht allen Benutzern mit Administratorrechten zur Verfügung (siehe [Zugriffsverwaltung](../about/access-management.md)). Es bietet ein Dashboard, mit dem Sie [Datenquellen](../datasource/about-data-sources.md), [Ereignisse](../event/about-events.md) und [Aktionen](../action/action.md)einrichten können.
 
 ![](../assets/interface-admin-dashboard.png)
