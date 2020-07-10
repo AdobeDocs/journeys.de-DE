@@ -1,6 +1,6 @@
 ---
-title: Nutzung von Kundentreuewerten
-description: Nutzung von Kundentreuewerten
+title: Verwenden von Customer AI-Werten
+description: Verwenden von Customer AI-Werten
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,21 +14,21 @@ translation-type: tm+mt
 source-git-commit: 18cc34f4c2f8f75ec42c70ec9a92784aed4358d9
 workflow-type: tm+mt
 source-wordcount: '105'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# Nutzung der Kundenaktivität {#customer-ai}
+# Verwenden von Customer AI-Werten {#customer-ai}
 
-Kunden-API ist Teil von Intelligent Services. Es hilft vorherzusagen, was ein Kunde wahrscheinlich tun wird. See the [documentation](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/customer-ai/overview.html).
+Customer AI ist Teil von Intelligent Services. Der Service hilft vorauszusagen, was ein Kunde wahrscheinlich tun wird. Weitere Informationen finden Sie in der [Dokumentation](https://docs.adobe.com/content/help/de-DE/experience-platform/intelligent-services/customer-ai/overview.html).
 
-Die Kundentechnik-API ermöglicht es Marken, Kurven- oder Konvertierungsmaschinenerkennungswerte zu erstellen, die als Profil-Attribute in den Experience Platform-Profilen verfügbar sind (Echtzeit-Customer-Profil).
+Mit Customer AI können Marken auf maschinellem Lernen basierende Abwanderungs- oder Konversionswerte erstellen, die anschließend als Profilattribute in den Experience Platform-Profilen (Echtzeit-Kundenprofilen) verfügbar sind.
 
-Daher können sie als alle anderen Profil-Attribute in den Bedingungen der Journey Orchestration (um die besten Entscheidungen zu treffen), Aktionen oder Segmentaufbau verwendet werden.
+Folglich können sie wie jedes andere Profilattribut in den Bedingungen von Journey Orchestration (zum Treffen der besten Entscheidungen), bei Aktionen oder beim Erstellen von Segmenten verwendet werden.
 
 ![](../assets/customer-ai.png)
 
-Beachten Sie, dass die Kundentraining eine gebührenpflichtige Funktion der Experience Platform ist.
+Beachten Sie, dass Customer AI eine gebührenpflichtige Funktion von Experience Platform ist.
 
 
