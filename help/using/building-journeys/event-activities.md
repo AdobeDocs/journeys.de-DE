@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 3937f92035651fca5ddd7f54c9b650d050f2587f
 workflow-type: tm+mt
 source-wordcount: '1029'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -45,7 +45,7 @@ Sie können diesen Mechanismus auch verwenden, um eine Aktion auszuführen, wenn
 
 Beachten Sie, dass Sie eine Reaktionsaktivität auf der Arbeitsfläche nur verwenden können, wenn zuvor eine E-Mail-, Push- oder SMS-Aktivität stattgefunden hat.
 
-See [About action activities](../building-journeys/about-action-activities.md).
+Siehe [Informationen zu Aktionsaktivitäten](../building-journeys/about-action-activities.md).
 
 ![](../assets/journey45.png)
 
@@ -58,7 +58,7 @@ Im Folgenden werden die verschiedenen Schritte zum Konfigurieren der Reaktionser
 
 >[!NOTE]
 >
->Ereignisse mit Reaktionsfunktionen funktionieren mit Adobe Campaign Standard, unabhängig davon, ob sie auf AWS- oder Azurblauer-Servern bereitgestellt werden.
+>Reaktionsereignisse funktionieren mit Adobe Campaign Standard mit Bereitstellung sowohl auf AWS- als auch auf Azure-Servern.
 >
 >Reaktionsereignisse können keine E-Mail-, SMS- oder Push-Aktionen verfolgen, die in einer anderen Journey stattfinden.
 >
@@ -100,7 +100,7 @@ Die Payload enthält die folgenden Kontextinformationen, die Sie in Bedingungen 
 * Zeitstempel der Qualifizierung
 * Segmentkennung
 
-Wenn Sie den Ausdruck-Editor in einer Bedingung oder Aktion verwenden, die einer Aktivität der **Segmentqualifizierung** folgt, haben Sie Zugriff auf den Knoten **Segmentqualifikation** . Sie können zwischen &quot; **Letzte Qualifikationszeit** &quot;und &quot; **Status** &quot;wählen (ein- oder ausgehend).
+Wenn Sie den Ausdruck-Editor in einer Bedingung oder Aktion verwenden, die einer Aktivität der **Segmentqualifizierung** folgt, haben Sie Zugriff auf den Knoten **Segmentqualifikation** . You can choose between the **Last qualification time** and the **status** (enter or exit).
 
 Siehe Aktivität [zu Bedingungen](../building-journeys/condition-activity.md#about_condition).
 
