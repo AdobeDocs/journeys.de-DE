@@ -14,17 +14,17 @@ translation-type: tm+mt
 source-git-commit: 0bede8675f72c7b63da59dc8e0a3ca0fb95de87c
 workflow-type: tm+mt
 source-wordcount: '120'
-ht-degree: 0%
+ht-degree: 76%
 
 ---
 
 
 # Übersicht über die Alpha-Funktionen
 
-Die Funktionen der Alpha-Programm-Angebot, die derzeit von einer begrenzten Kundengruppe getestet werden. Auf diese Weise können wir unser Produkt auf Basis des Feedbacks verbessern. Diese Funktionen stehen nicht allen Journey Orchestrationen zur Verfügung.
+Das Alpha-Programm bietet Funktionen, die derzeit von einer begrenzten Anzahl von Kunden getestet werden. Dies ermöglicht es uns, unser Produkt basierend auf dem erhaltenen Feedback zu verbessern. Diese Funktionen stehen nicht allen Kunden von Journey Orchestration zur Verfügung.
 
-Dieser Abschnitt konzentriert sich nur auf die Alpha-Funktionen. Wenn Sie nicht zum Alpha-Programm gehören und mehr über die anderen Funktionen der Journey Orchestration erfahren möchten, lesen Sie die anderen Abschnitte dieser [Dokumentation](../../journey-orchestration-home.md).
+In diesem Abschnitt werden nur die Alpha-Funktionen beschrieben. If you&#39;re not part of the Alpha program and you want to know more about the other Journey Orchestration features, refer to the other sections of this [documentation](../../journey-orchestration-home.md).
 
-Wenn Sie an diesem Alpha-Programm teilnehmen möchten, füllen Sie [dieses Formular](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4RuhNDklrkhHrsBisppjRThURDJTTUxWSTBJQU1OSTBTVjMwUDRIQURDNS4u) aus und wir melden uns bei Ihnen.
+Wenn Sie an diesem Alpha-Programm teilnehmen möchten, füllen Sie [dieses Formular](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4RuhNDklrkhHrsBisppjRThURDJTTUxWSTBJQU1OSTBTVjMwUDRIQURDNS4u) aus, und wir werden uns bei Ihnen melden.
 
 
