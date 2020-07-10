@@ -1,6 +1,6 @@
 ---
-title: Übersicht über den AI-Dienst
-description: Übersicht über den AI-Dienst
+title: Übersicht über den KI-Service
+description: Übersicht über den KI-Service
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,21 +14,21 @@ translation-type: tm+mt
 source-git-commit: 3c5f1dcf66df31b12237788633704eeb348ddfa2
 workflow-type: tm+mt
 source-wordcount: '91'
-ht-degree: 0%
+ht-degree: 86%
 
 ---
 
 
-# Info zur AI-Integration {#ai-overview}
+# Informationen zur KI-Integration {#ai-overview}
 
-Die Integration mit Intelligent Services ermöglicht es Ihnen, die Leistungsfähigkeit von künstlicher Intelligenz und maschinellem Lernen in Anwendungsfällen mit Kundenerlebnissen zu nutzen. Auf diese Weise können Marketinganalysten mithilfe von Konfigurationen auf Unternehmensebene spezifische Prognosen für die Anforderungen einer Firma erstellen, ohne dass hierfür Fachwissen in der Datenwissenschaft erforderlich ist.
+Die Integration mit Intelligent Services ermöglicht es Ihnen, die Leistungsfähigkeit von künstlicher Intelligenz und maschinellem Lernen in Anwendungsfällen mit Kundenerlebnissen zu nutzen. Auf diese Weise können Marketing-Analysten mithilfe von Konfigurationen auf Unternehmensebene spezifische Prognosen erstellen, die auf die Anforderungen eines Unternehmens zugeschnitten sind, ohne dass datenwissenschaftliches Fachwissen erforderlich ist.
 
-For more information on Intelligent Services, refer to the [documentation](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/home.html).
+Weitere Informationen zu Intelligent Services finden Sie in der [Dokumentation](https://docs.adobe.com/content/help/de-DE/experience-platform/intelligent-services/home.html).
 
-Diese Integration ermöglicht Ihnen Folgendes:
+Diese Integration ermöglicht Ihnen die Nutzung von:
 
-* Kundenprognosen finden Sie unter [Nutzung der Kundenaktivität](../ai-services/leveraging-customer-ai.md)
-* Ermüdungswerte, siehe [Leveraging Journey AI](../ai-services/leveraging-fatigue-scores.md)
+* customer predictions , see [Leveraging Customer AI](../ai-services/leveraging-customer-ai.md)
+* fatigue scores, see [Leveraging Journey AI](../ai-services/leveraging-fatigue-scores.md)
 
 
 
