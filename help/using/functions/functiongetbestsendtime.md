@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 100%
+source-wordcount: '239'
+ht-degree: 95%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 Liefert eine Vorhersage zur besten Versandzeit für eine E-Mail an einen Kontakt.
 
-Diese Funktion nutzt einen Wert, der in der Plattform berechnet wird. Der Wert berechnet basierend auf dem bisherigen Verhalten die Neigung, in Zukunft auf eine E-Mail zu klicken oder diese zu öffnen. Beachten Sie, dass der Algorithmus zur Berechnung des Werts eine bestimmte Datenmenge benötigt, um zu funktionieren. Wenn nicht genügend Daten vorhanden sind, gilt die Standardzeit. Lesen Sie für weiterführende Informationen den Abschnitt [](../building-journeys/wait-activity.md).
+Diese Funktion verwendet einen in der Adobe Experience Platform berechneten Wert. Der Wert berechnet basierend auf dem bisherigen Verhalten die Neigung, in Zukunft auf eine E-Mail zu klicken oder diese zu öffnen. Beachten Sie, dass der Algorithmus zur Berechnung des Werts eine bestimmte Datenmenge benötigt, um zu funktionieren. Wenn nicht genügend Daten vorhanden sind, gilt die Standardzeit. Lesen Sie für weiterführende Informationen den Abschnitt [](../building-journeys/wait-activity.md).
 
 Zur Verwendung dieser Funktion ist ein [Namespace](../event/selecting-the-namespace.md) erforderlich.
 
