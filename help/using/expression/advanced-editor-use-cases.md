@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 28cb56e5f631acd8e2a49cf0bce55e7226892595
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 100%
+source-wordcount: '541'
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ Der erweiterte Ausdruckseditor kann verwendet werden, um Bedingungen zum Filtern
 
 Sie benötigen den erweiterten Ausdruckseditor, um Abfragen zu Zeitreihen wie eine Liste der Käufe oder vergangene Klicks auf Nachrichten durchzuführen. Solche Abfragen können nicht mit dem einfachen Editor ausgeführt werden.
 
-Die Erlebnisereignisse werden von Experience Platform als Sammlung in umgekehrter chronologischer Reihenfolge abgerufen. Entsprechend gilt:
+Die Erlebnis-Ereignis werden aus der Adobe Experience Platform als Sammlung in umgekehrchronologischer Reihenfolge abgerufen. Daher:
 
 * Die Funktion &quot;first&quot; gibt das neueste Ereignis zurück.
 * Die Funktion &quot;last&quot; gibt das älteste zurück.
