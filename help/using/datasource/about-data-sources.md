@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
-workflow-type: ht
-source-wordcount: '357'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+workflow-type: tm+mt
+source-wordcount: '359'
+ht-degree: 86%
 
 ---
 
@@ -37,12 +37,12 @@ Diese Konfiguration ist nicht erforderlich, wenn Ihre Journeys nur lokale Daten 
 
 Es gibt zwei Arten von Datenquellen:
 
-* Die vorkonfigurierte Datenquelle von Experience Platform, die die Verbindung zum Echtzeit-Kundenprofildienst definiert. Dies ist eine integrierte Datenquelle. Siehe [](../datasource/adobe-experience-platform-data-source.md).
+* Die vorkonfigurierte Adobe Experience Platform, die die Verbindung zum Echtzeit-Kundendienst definiert. Dies ist eine integrierte Datenquelle. Siehe [](../datasource/adobe-experience-platform-data-source.md).
 * Die externen Datenquellen, mit denen Sie eine Verbindung zu externen Systemen definieren können. Diese können Sie erstellen. Siehe [](../datasource/external-data-sources.md).
 
 Für jede Datenquelle definieren Sie die Informationen, die mit Feldergruppen abgerufen werden sollen. Feldergruppen sind Gruppen von Feldern, die aus einer Datenquelle abgerufen werden können. Siehe [](../datasource/field-groups.md).
 
-Weitere Informationen zum Konfigurieren einer Experience Platform-Datenquelle und einer externen Datenquelle sowie zum Suchen und Verwenden von Daten in einer Journey finden Sie in diesem [Anleitungsvideo](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-data-sources.html).
+For more information on how to configure an Adobe Experience Platform Data Source and an external data source and how to find and use data in a journey, watch this [tutorial video](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-data-sources.html).
 
 Im Folgenden finden Sie die wichtigsten Schritte zur Konfiguration der Datenquelle:
 
