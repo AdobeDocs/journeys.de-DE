@@ -1,6 +1,6 @@
 ---
-title: Informationen zu Platform-Segmenten
-description: Erfahren Sie, wie Sie ein Platform-Segment konfigurieren
+title: Informationen zu Adobe Experience Platformen
+description: Erfahren Sie, wie Sie ein Adobe Experience Platformen-Segment konfigurieren
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,24 +11,23 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 14c8828a8c8e223b58b3512f02f2ee06136b98c5
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 93%
+source-wordcount: '211'
+ht-degree: 48%
 
 ---
 
 
-# Informationen zu Platform-Segmenten {#about-segments}
+# Informationen zu Adobe Experience Platformen {#about-segments}
 
-Wenn Sie zur Erstellung Ihrer Segmente den [Segmentierungsdienst von Platform](https://docs.adobe.com/content/help/de-DE/experience-platform/segmentation/home.html) verwenden, können Sie die Segmente in [!DNL Journey Orchestration] nutzen. Mit einer speziellen Ereignisaktivität können Sie Kontakte dazu bringen, anhand von Ein- und Austritten in Platform-Segmenten in eine Journey einzutreten oder in einer Journey fortzufahren. Dadurch können Sie mit dem einfachen oder erweiterten Ausdruckseditor auch komplexe Bedingungen für Ihre Journeys erstellen.
+If you&#39;re using the [Adobe Experience Platform Segmentation Service](https://docs.adobe.com/content/help/de-DE/experience-platform/segmentation/home.html) to create your segments, you can leverage them in [!DNL Journey Orchestration]. Dank einer dedizierten Ereignis-Aktivität können Sie Einzelpersonen dazu bringen, auf der Grundlage der Ein- und Ausstiege von Adobe Experience Platformen in eine Reise einzusteigen oder sich vorwärts zu bewegen. Dadurch können Sie mit dem einfachen oder erweiterten Ausdruckseditor auch komplexe Bedingungen für Ihre Journeys erstellen.
 
 Nehmen wir an, Sie verfügen über ein Segment für „Silber-Kunden“. Mit dieser Aktivität können Sie dafür sorgen, dass alle neuen Silber-Kunden eine Journey beginnen, und ihnen eine Reihe personalisierter Nachrichten senden. Auf Grundlage dieses Segments können Sie auch mühelos Bedingungen erstellen.
 
 Im Folgenden finden Sie die Möglichkeiten von [!DNL Journey Orchestration] bei der Nutzung von Segmenten:
 
-* Zugreifen auf die Liste von Platform-Segmenten. Lesen Sie diesbezüglich auch den Abschnitt [Erstellen eines Segments](../segment/creating-a-segment.md).
+* Greifen Sie auf die Liste von Adobe Experience Platformen-Segmenten zu. Lesen Sie diesbezüglich auch den Abschnitt [Erstellen eines Segments](../segment/creating-a-segment.md).
 * Erstellen von Segmenten direkt in [!DNL Journey Orchestration] auf gleiche Weise wie mit dem Segmentierungsdienst. Lesen Sie diesbezüglich auch den Abschnitt [Erstellen eines Segments](../segment/creating-a-segment.md).
 * Nutzen Sie Segmente in den Reisebedingungen mit dem einfachen oder erweiterten Ausdruck-Editor. Siehe [Verwenden von Segmenten in Bedingungen](../segment/using-a-segment.md).
-* Hinzufügen eines Ereignisses vom Typ **Segmentqualifizierung** zu Ihrer Journey, um die Ein- und Austritte von Profilen in Platform-Segmenten zu beobachten. Siehe [Ereignisaktivitäten](../building-journeys/event-activities.md#segment-qualification).
-
+* Add a **[!UICONTROL Segment qualification]** event to your journey in order to listen to the entrances and exits of profiles in Adobe Experience Platform segments. Siehe [Ereignisaktivitäten](../building-journeys/segment-qualification-events.md).
