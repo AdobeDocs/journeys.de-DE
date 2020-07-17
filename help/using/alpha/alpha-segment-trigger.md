@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c8d28b51f14ba511a860874e45d341a6977c58fa
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 91%
+source-wordcount: '473'
+ht-degree: 74%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 91%
 
 ## Informationen zur Segmentauslöser-Aktivität {#about-segment-trigger-actvitiy}
 
-Mit der Segmentauslöser-Aktivität können Sie alle Personen, die zu einem Experience Platform-Segment gehören, in eine Journey eintreten lassen. Der Eintritt in eine Journey kann entweder einmalig oder regelmäßig erfolgen.
+Mit der Segmentauslöser-Aktivität können Sie alle Adobe Experience Platformen, die zu einem Segmentsegment gehören, in eine Reise einbinden. Der Eintritt in eine Journey kann entweder einmalig oder regelmäßig erfolgen.
 
-Nehmen wir an, Sie verfügen über ein Segment für „Gold-Kunden“ in Experience Platform. Mit der Segmentauslöser-Aktivität können Sie alle Einzelanwender, die zum Gold-Kundensegment gehören, in eine Journey eintreten lassen und durch individuelle Journeys führen, die alle Journey-Funktionen nutzen: Bedingungen, Timer, Ereignisse, Aktionen.
+Nehmen wir an, Sie haben ein Gold-Kundensegment auf der Adobe Experience Platform. Mit der Segmentauslöser-Aktivität können Sie alle Einzelanwender, die zum Gold-Kundensegment gehören, in eine Journey eintreten lassen und durch individuelle Journeys führen, die alle Journey-Funktionen nutzen: Bedingungen, Timer, Ereignisse, Aktionen.
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Nehmen wir an, Sie verfügen über ein Segment für „Gold-Kunden“ in Experie
 
    ![](../assets/segment-trigger-schedule.png)
 
-1. In the **[!UICONTROL Segment]** field, choose the Experience Platform segment that will enter the journey, then click **[!UICONTROL Save]**.
+1. In the **[!UICONTROL Segment]** field, choose the Adobe Experience Platform segment that will enter the journey, then click **[!UICONTROL Save]**.
 
    ![](../assets/segment-trigger-segment-selection.png)
 
@@ -69,6 +69,6 @@ Nehmen wir an, Sie verfügen über ein Segment für „Gold-Kunden“ in Experie
 
    >[!IMPORTANT]
    >
-   >Beachten Sie, dass Experience Platform-Segmente entweder einmal täglich (**Batch**-Segmente) oder in Echtzeit (**gestreamte** Segmente) berechnet werden.
+   >Keep in mind that Adobe Experience Platform segments are calculated either once a day (**batch** segments) or in real-time (**streamed** segments).
    >
-   >Wenn das ausgewählte Segment gestreamt wird, betreten die zu diesem Segment gehörenden Einzelanwender die Journey in Echtzeit. Wenn es sich bei dem Segment um ein Batch-Segment handelt, treten für dieses Segment neu qualifizierte Personen in die Journey ein, wenn die Segmentberechnung in Experience Platform ausgeführt wird.
+   >Wenn das ausgewählte Segment gestreamt wird, betreten die zu diesem Segment gehörenden Einzelanwender die Journey in Echtzeit. Wenn es sich bei dem Segment um einen Stapel handelt, können Personen, die für dieses Segment neu qualifiziert wurden, möglicherweise die Reise aufrufen, wenn die Segmentberechnung auf der Adobe Experience Platform ausgeführt wird.
