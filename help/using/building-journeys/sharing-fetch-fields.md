@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
-workflow-type: ht
-source-wordcount: '366'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+workflow-type: tm+mt
+source-wordcount: '371'
+ht-degree: 87%
 
 ---
 
@@ -33,7 +33,7 @@ Typ: lang
 
 ## fetchTypeInError
 
-Definiert, ob sich der Abruffehler in der Plattform oder einer benutzerdefinierten Datenquelle befindet.
+Definiert, ob sich der Fehler &quot;Abrufen in&quot;auf der Adobe Experience Platform oder in einer benutzerdefinierten Datenquelle befindet.
 
 Typ: Zeichenfolge
 
@@ -93,13 +93,13 @@ Typ: lang
 
 ## fetchPlatformTotalTime
 
-Gesamtdauer, die zum Abrufen der Daten von der Datenplattform benötigt wird (in Millisekunden). Hinweis: Diese Dauer berechnet sich vom Zeitpunkt, an dem die Engine das Anreicherungsereignis an den Anreicherungsdienst sendet, bis zu dem Zeitpunkt, an dem die Engine die Antwort erhält.
+Die Gesamtdauer, die zum Abrufen der Daten aus der Adobe Experience Platform in Millisekunden benötigt wird. Hinweis: Diese Dauer berechnet sich vom Zeitpunkt, an dem die Engine das Anreicherungsereignis an den Anreicherungsdienst sendet, bis zu dem Zeitpunkt, an dem die Engine die Antwort erhält.
 
 Typ: lang
 
 ## fetchPlatformCount
 
-Wie oft die Daten von Platform abgerufen werden.
+Wie oft die Daten aus der Adobe Experience Platform abgerufen werden.
 
 Typ: lang
 
