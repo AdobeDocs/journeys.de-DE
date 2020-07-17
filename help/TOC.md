@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Hilfe für Journey Orchestration
 index: true
 translation-type: tm+mt
-source-git-commit: 18cc34f4c2f8f75ec42c70ec9a92784aed4358d9
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 100%
+source-wordcount: '382'
+ht-degree: 97%
 
 ---
 
@@ -59,7 +59,11 @@ ht-degree: 100%
       + [Abbrechen einer Journey](using/building-journeys/terminating-a-journey.md)
       + [Zeitzonen-Management](using/building-journeys/timezone-management.md)
    + Aktivitäten {#about-journey-building}
-      + [Ereignisaktivitäten](using/building-journeys/event-activities.md)
+      + Ereignisaktivitäten {#events-activities}
+         + [Aktivitäten zu Ereignisse](using/building-journeys/event-activities.md)
+         + [Allgemeine Ereignisse](using/building-journeys/general-events.md)
+         + [Reaktionsereignisse](using/building-journeys/reaction-events.md)
+         + [Segmentqualifizierungsereignisse](using/building-journeys/segment-qualification-events.md)
       + Orchestrierungsaktivitäten {#orchestration-activities}
          + [Informationen zu Orchestrierungsaktivitäten](using/building-journeys/about-orchestration-activities.md)
          + [Bedingungsaktivität](using/building-journeys/condition-activity.md)
@@ -71,7 +75,7 @@ ht-degree: 100%
          + [Verwenden benutzerdefinierter Aktionen](using/building-journeys/using-custom-actions.md)
    + [Testen der Journey](using/building-journeys/testing-the-journey.md)
    + [Veröffentlichen der Journey](using/building-journeys/publishing-the-journey.md)
-   + Freigeben von Journey-Schritten für Platform {#sharing-journey-steps}
+   + Freigeben von Reiseschritten mit Adobe Experience Platform {#sharing-journey-steps}
       + [Übersicht über die Freigabe von Journey-Schritten](using/building-journeys/sharing-overview.md)
       + [Gemeinsame Felder für journeyStep-Ereignisse](using/building-journeys/sharing-common-fields.md)
       + [Aktionsausführungsfelder für journeyStep-Ereignisse](using/building-journeys/sharing-execution-fields.md)
