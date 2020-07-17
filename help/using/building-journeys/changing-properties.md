@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
-workflow-type: ht
-source-wordcount: '482'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+workflow-type: tm+mt
+source-wordcount: '483'
+ht-degree: 96%
 
 ---
 
@@ -58,6 +58,6 @@ Aufgrund der Journey-Zeitüberschreitung nach 30 Tagen können wir, wenn der er
 
 Die Zeitzone wird auf Journey-Ebene definiert.
 
-Sie können eine feste Zeitzone eingeben oder Experience Platform-Profile verwenden, um die Zeitzone der Journey festzulegen.
+Sie können eine feste Zeitzone eingeben oder mithilfe von Profilen zur Adobe Experience Platform die Zeitzone der Reise festlegen.
 
 Weitere Informationen zum Zeitzonen-Management finden Sie unter [](../building-journeys/timezone-management.md).
