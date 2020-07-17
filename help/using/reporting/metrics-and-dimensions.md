@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c6e7c27865eb34961f8901c9bde2c09527f67f15
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '1037'
-ht-degree: 100%
+source-wordcount: '1038'
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,7 @@ In der Tabelle unten finden Sie eine Liste der Dimensionen, die in Journey-Beric
 | Dimensionen | Definition |
 |--- |--- |
 | **Aktion** | Liste aller Aktionen (**Aktionsname - Aktionsbezeichnung**), die in Journeys verwendet werden (z. B. Push-Benachrichtigung - Checkout-Bestätigung, E-Mail - Treueprämien). |
-| **Datenquelle** | Liste der Datenquellen (**Datenquellenname**), die in einer Journey zur Datenanreicherung verwendet werden (z. B. Experience Platform, Reservierungssystem). |
+| **Datenquelle** | List of data sources (**data source name**) used to enrich data in a journey e.g. Adobe Experience platform, Reservation system. |
 | **[!UICONTROL Ereignis]** | Liste aller Ereignisse (**Ereignisname - Ereignisbezeichnung**), die in Journeys zum Einsatz kommen (z. B. Geometrixx-Ereignis - Geometrixx-Checkout). |
 | **Feldergruppe** | Liste der Feldergruppen (**Feldergruppenname**), die in Journeys zur Datenanreicherung verwendet werden (z. B. Profilfeldgruppe, Geometrixx-Reservierungssystem). |
 | **Journey** | Liste aller Journeys (**Journey-Name**), die im Testmodus und live sind (z. B. Transaktionsabbruch, Benachrichtigung zu Hotelreservierung). |
