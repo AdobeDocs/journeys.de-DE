@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 69809da5cb96099baa20ea130a3cf7650b26c094
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 100%
+source-wordcount: '159'
+ht-degree: 71%
 
 ---
 
@@ -28,7 +28,7 @@ Die Navigation innerhalb der [!DNL Journey Orchestration]-Menüs wurde verbesser
 * Die Menüs wurden von der oberen zur linken Seite der Benutzeroberfläche verschoben,
 * Gruppierung der Admin-Funktionen in einem einzigen Dashboard.
 
-In diesem [Abschnitt](../about/user-interface.md) werden globale Konzepte zur Verwendung und Navigation in der Benutzeroberfläche (Suchen und Filtern, Durchsuchen von Datenplattformfeldern, Shortcuts) vorgestellt.
+Global concepts on how to use and navigate in the interface (searching and filtering, browsing through Adobe Experience Platform fields, shortcuts) are presented in [this section](../about/user-interface.md).
 
 ## Aufrufen von [!DNL Journey Orchestration]-Funktionen {#accessing-journey-orchestration-functionalities}
 
@@ -36,7 +36,7 @@ Wenn Sie [!DNL Journey Orchestration] aufrufen, wird das Menü **[!UICONTROL Jou
 
 ![](../assets/interface-journeys.png)
 
-Über das Menü **[!UICONTROL Segmente]** können Sie auf Segmente von Experience Platform zugreifen und neue Segmente erstellen. Siehe [Informationen zu Platform-Segmenten](../segment/about-segments.md).
+The **[!UICONTROL Segments]** menu allows you to access and create Adobe Experience Platform segments. Siehe [Informationen zu Segmenten](../segment/about-segments.md)der Adobe Experience Platform.
 
 ![](../assets/interface-segments.png)
 
