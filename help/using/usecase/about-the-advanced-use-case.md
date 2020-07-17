@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 54b54a64ad2822eec96008ac4a2e16c208a4a3ab
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 100%
+source-wordcount: '414'
+ht-degree: 93%
 
 ---
 
@@ -49,7 +49,7 @@ Für diesen Anwendungsfall müssen wir zwei Ereignisse erstellen (siehe [](../us
 
 Es muss eine Verbindung zu zwei Datenquellen konfiguriert werden (siehe [](../usecase/configuring-the-data-sources.md)):
 
-* zur integrierten Experience Platform-Datenquelle zum Abrufen der Informationen für die beiden Bedingungen (Mitgliedschaft im Treueprogramm und Datum des letzten Kontakts) sowie der Informationen für die Personalisierung der Nachricht.
+* Die integrierte Adobe Experience Platform-Datenquelle zum Abrufen der Informationen für unsere beiden Bedingungen (Treuemitgliedschaft und Datum des letzten Kontakts) sowie die Nachrichten-Personalisierung.
 * zum Hotelreservierungssystem zum Abrufen der Informationen über den Reservierungsstatus.
 
 ## Voraussetzungen:    {#prerequisites}
