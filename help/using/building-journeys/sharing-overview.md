@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c4335cf1f94172fabed1099d3772bc539adb02ef
+source-git-commit: b8cfc9de56e879d8812cf3871067252937454e1d
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 100%
+source-wordcount: '404'
+ht-degree: 71%
 
 ---
 
@@ -23,15 +23,15 @@ ht-degree: 100%
 
 [!DNL Journey Orchestration] sendet automatisch Daten zur Journey-Performance an Adobe Experience Platform, damit sie zu Analysezwecken mit anderen Daten kombiniert werden können.
 
-Sie haben beispielsweise eine Journey eingerichtet, die mehrere E-Mails sendet. Mit dieser Funktion können Sie [!DNL Journey Orchestration]-Daten mit nachgelagerten Ereignisdaten kombinieren (z. B. der Anzahl der Konversionen, der Interaktionen auf der Website oder der Transaktionen im Store). Die Journey-Daten können mit Daten aus Platform kombiniert werden, entweder über andere digitale Eigenschaften oder über Offline-Eigenschaften, um eine genauere Ansicht der Leistung zu ermöglichen.
+Sie haben beispielsweise eine Journey eingerichtet, die mehrere E-Mails sendet. Mit dieser Funktion können Sie [!DNL Journey Orchestration]-Daten mit nachgelagerten Ereignisdaten kombinieren (z. B. der Anzahl der Konversionen, der Interaktionen auf der Website oder der Transaktionen im Store). Die Fahrteninformationen können mit Daten auf der Adobe Experience Platform kombiniert werden, entweder von anderen digitalen Eigenschaften oder von Offline-Eigenschaften, um eine umfassendere Ansicht der Leistung zu erhalten.
 
-[!DNL Journey Orchestration] erstellt für jeden Schritt, den ein Kontakt bei einer Journey unternimmt, automatisch die erforderlichen Schemata und streamt die Daten in Datensätze zu Platform. Ein Schrittereignis entspricht einem Kontakt, die bei einer Journey von einem Knoten zu einem anderen wechselt. Beispielsweise werden bei einer Journey, die über ein Ereignis, eine Bedingung und eine Aktion verfügt, drei Schrittereignisse an Platform gesendet.
+[!DNL Journey Orchestration] erstellt automatisch die erforderlichen Schema und fließt in Datensätze zur Adobe Experience Platform für jeden Schritt, den ein Individuum auf einer Reise unternimmt. Ein Schrittereignis entspricht einem Kontakt, die bei einer Journey von einem Knoten zu einem anderen wechselt. Beispielsweise werden bei einer Reise mit einem Ereignis, einer Bedingung und einer Aktion drei Ereignis an die Adobe Experience Platform gesendet.
 
 Die Liste der weitergeleiteten XDM-Felder ist umfassend. Einige enthalten systemgenerierte Codes, andere haben lesbare Anzeigenamen. Beispiele sind die Bezeichnung der Journey-Aktivität und der Schrittstatus: wie oft eine Aktion die Zeit überschritten hat oder fehlerhaft endete.
 
 >[!CAUTION]
 >
->Für den Echtzeit-Profildienst können keine Datensätze aktiviert werden. Stellen Sie sicher, dass der Umschalter **Profil** deaktiviert ist.
+>Für den Echtzeit-Profildienst können keine Datensätze aktiviert werden. Stellen Sie sicher, dass der Umschalter **[!UICONTROL Profil]** deaktiviert ist.
 
 Journeys sendet Daten direkt im Streaming-Modus. Sie können diese Daten mit dem Query Service abfragen. Sie können eine Verbindung zu Customer Journey Analytics oder anderen BI-Tools herstellen, um Daten anzuzeigen, die mit diesen Schritten in Verbindung stehen.
 
@@ -53,7 +53,7 @@ Die folgenden Datensätze werden übergeben:
 
 ![](../assets/sharing3.png)
 
-Die Listen der XDM-Felder, die an Platform übergeben werden, werden hier beschrieben:
+Die Listen der XDM-Felder, die an die Adobe Experience Platform übergeben werden, sind hier aufgeführt:
 
 * [Gemeinsame Felder für journeyStep-Ereignisse](../building-journeys/sharing-common-fields.md)
 * [Aktionsausführungsfelder für journeyStep-Ereignisse](../building-journeys/sharing-execution-fields.md)
@@ -61,3 +61,4 @@ Die Listen der XDM-Felder, die an Platform übergeben werden, werden hier beschr
 * [Identitätsfelder für journeyStep-Ereignisse](../building-journeys/sharing-identity-fields.md)
 * [Journey-Felder](../building-journeys/sharing-journey-fields.md)
 
+Weitere Informationen zu Schritt-Ereignissen Berichte zu Adobe Experience Platform finden Sie in diesem [Lernvideo](https://docs.adobe.com/content/help/en/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html).
