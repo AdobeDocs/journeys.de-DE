@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 18364d6e93b48e065b21bbaddee33e7ba4d9274d
+source-git-commit: 71b5b1ecd20056d0103ae1a8b83a31478449e844
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 84%
+source-wordcount: '725'
+ht-degree: 77%
 
 ---
 
@@ -26,20 +26,24 @@ Lesen Sie auch die [!DNL Journey Orchestration]-[Versionshinweise](../release-no
 
 ## Juli 2020 {#july-2020}
 
+* Es wurde ein Link zu einem neuen Lernvideo zu Schritt-Ereignissen Berichte zu Adobe Experience Platform hinzugefügt. [Mehr dazu](../building-journeys/sharing-overview.md)
+* Der Bereich &quot;Ereignisse-Aktivitäten&quot;wurde für jede Art von Ereignissen in spezifische Unterabschnitte umstrukturiert. [Mehr dazu](../building-journeys/event-activities.md)
+* Es wurden Best Practices hinzugefügt, um eine Überlastung durch Segmentqualifizierung zu vermeiden. [Mehr dazu](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
+* Es wurde ein Hinweis hinzugefügt, der erklärt, wie eine Reise nach einem Fehler in einer Aktion oder Bedingung fortgesetzt werden kann. [Mehr dazu](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * Es wurde ein neuer Abschnitt zu den Alpha-Funktionen hinzugefügt, die von einer begrenzten Gruppe von Kunden getestet werden. [Mehr dazu](../alpha/alpha-overview.md)
 * Es wurde ein neuer Abschnitt zur Integration mit Intelligent Services hinzugefügt. [Mehr dazu](../ai-services/ai-services-overview.md)
 * Es wurde ein neuer Abschnitt zur Erstellung von Testprofilen hinzugefügt. [Mehr dazu](../building-journeys/testing-the-journey.md#create-test-profile)
-* Es wurden Informationen zur Verwendung des Knotens **SegmentQualification** in einer Journey-Bedingung oder Aktion hinzugefügt. [Mehr dazu](../building-journeys/event-activities.md#segment-qualification)
+* Es wurden Informationen zur Verwendung des Knotens **[!UICONTROL SegmentQualification]** in einer Journey-Bedingung oder Aktion hinzugefügt. [Mehr dazu](../building-journeys/segment-qualification-events.md)
 * In der Transaktionsnachricht und Ereignisveröffentlichung in Campaign wurde ein Hinweis hinzugefügt. Siehe [Arbeiten mit Adobe Campaign](../action/working-with-adobe-campaign.md) und [Verwenden von Adobe Campaign-Aktionen](../building-journeys/using-adobe-campaign-actions.md).
 * Es wurden Informationen zu den Prüfungen hinzugefügt, die beim Testen der URL der Instanz im Campaign Standard durchgeführt werden. [Mehr dazu](../action/working-with-adobe-campaign.md)
-* Es wurden Informationen zur Kompatibilität von Reaktionsservern mit Campaign Standard-Instanzen hinzugefügt, die auf AWS- oder Azurblauch-Ereignissen gehostet werden. [Mehr dazu](../building-journeys/event-activities.md#section_dhx_gss_dgb)
+* Es wurden Informationen zur Kompatibilität von Reaktionsservern mit Campaign Standard-Instanzen hinzugefügt, die auf AWS- oder Azurblauch-Ereignissen gehostet werden. [Mehr dazu](../building-journeys/reaction-events.md)
 * Es wurde ein Hinweis hinzugefügt, dass beim Arbeiten mit Campaign Standard-Transaktionsnachrichten eine Capping-Regel eingerichtet werden muss. [Mehr dazu](../action/working-with-adobe-campaign.md)
 * Es wurde ein Hinweis zur Generierung echter Ereignis hinzugefügt, wenn Ereignis im Testmodus ausgelöst werden. [Mehr dazu](../building-journeys/testing-the-journey.md#firing_events)
 
 ## Juni 2020{#june-2020}
 
 * Es wurden Informationen darüber hinzugefügt, wie die Aufbewahrungsfrist im Cache des Tokens für eine benutzerdefinierte Authentifizierungsdatenquelle geändert werden kann. [mehr dazu](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
-* Screenshots und Text wurden aktualisiert, um der Umbenennung des Journey-Status **Beendet** Rechnung zu tragen, der nun **Geschlossen (kein Eintritt)** heißt.
+* Screenshots und Text wurden aktualisiert, um der Umbenennung des Journey-Status **[!UICONTROL Beendet]** Rechnung zu tragen, der nun **[!UICONTROL Geschlossen (kein Eintritt)]** heißt.
 * Es wurden Informationen zur Definition der Sprache der Benutzeroberfläche hinzugefügt. [mehr dazu](../about/user-interface.md)
 * Die Liste der Status der Journey eines Kontakts wurde in den Bereich [Testmodusprotokolle](../building-journeys/testing-the-journey.md#viewing_logs) verschoben.
 
@@ -51,12 +55,12 @@ Lesen Sie auch die [!DNL Journey Orchestration]-[Versionshinweise](../release-no
 ## März 2020 {#march-2020}
 
 * Parameterbeschreibungen für _actionExecutionErrors_ und _fetchErrors_ wurden im Abschnitt über Testprotokolle hinzugefügt – [mehr dazu](../building-journeys/testing-the-journey.md#viewing_logs)
-* Die Beschränkungen für in Journeys verwendete benutzerdefinierte Aktionen wurden aktualisiert. Sie können auch das **URL-Feld** und die **Authentifizierungsparameter** ändern – [mehr dazu](../action/about-custom-action-configuration.md)
+* Die Beschränkungen für in Journeys verwendete benutzerdefinierte Aktionen wurden aktualisiert. Sie können auch das **[!UICONTROL URL-Feld]** und die **[!UICONTROL Authentifizierungsparameter]** ändern – [mehr dazu](../action/about-custom-action-configuration.md)
 * Es wurden neue Einträge für die kontextuelle Hilfe hinzugefügt. Der Payload-Bereich für die benutzerdefinierte Authentifizierung (in Aktionen und Datenquellen) enthält jetzt ein Hilfesymbol, das auf diesen [Abschnitt](../datasource/external-data-sources.md#section_wjp_nl5_nhb) verweist.
 * Geschlossene Journeys können jetzt gestoppt werden. [mehr dazu](../building-journeys/using-the-journey-designer.md)
 * Der Abschnitt zur Beschreibung der Benutzeroberfläche wurde neu angeordnet. [mehr dazu](../about/user-interface.md)
 * Die Auslösung mehrerer Ereignisse wurde dem Abschnitt „Testmodus“ hinzugefügt. [Mehr dazu](../building-journeys/testing-the-journey.md#firing_events)
-* Der Abschnitt „Testmodus“ wurde hinsichtlich des neuen Parameters **Wartezeit im Test** aktualisiert. [Mehr dazu](../building-journeys/testing-the-journey.md)
+* Der Abschnitt „Testmodus“ wurde hinsichtlich des neuen Parameters **[!UICONTROL Wartezeit im Test]** aktualisiert. [Mehr dazu](../building-journeys/testing-the-journey.md)
 * Der Abschnitt „Testprotokoll“ wurde mit Fehlercodes und Antworten für externe Aufrufe aktualisiert. [Mehr dazu](../building-journeys/testing-the-journey.md#viewing_logs)
 * Das Zeitzonen-Management ist jetzt gebündelt im Fenster der Journey-Eigenschaften verfügbar. Mehr dazu [hier](../building-journeys/changing-properties.md#timezone) und [hier](../building-journeys/timezone-management.md)
 * Der Abschnitt „Journey-Designer“ wurde aktualisiert, um die jüngsten Verbesserungen widerzuspiegeln. [Mehr dazu](../building-journeys/using-the-journey-designer.md)
