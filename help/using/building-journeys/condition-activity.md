@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 11c266b035bc1bb83cccf4e3958e54e1eb00e9f4
-workflow-type: ht
-source-wordcount: '690'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
+workflow-type: tm+mt
+source-wordcount: '733'
+ht-degree: 91%
 
 ---
 
@@ -49,12 +49,15 @@ Im einfachen Modus können Sie einfache Abfragen anhand einer Kombination von Fe
 
 ![](../assets/journey64.png)
 
-Wenn Sie zur Erstellung Ihrer Segmente den [Segmentierungsdienst von Platform](https://docs.adobe.com/content/help/de-DE/experience-platform/segmentation/home.html) verwenden, können Sie die Segmente in Ihren Journey-Bedingungen nutzen. Siehe [Verwenden von Segmenten in Bedingungen](../segment/using-a-segment.md).
+If you&#39;re using the [Adobe Experience Platform Segmentation Service](https://docs.adobe.com/content/help/de-DE/experience-platform/segmentation/home.html) to create your segments, you can leverage them in your journey conditions. Siehe [Verwenden von Segmenten in Bedingungen](../segment/using-a-segment.md).
 
 
 >[!NOTE]
 >
 >Mit dem einfachen Editor können Sie keine Abfragen zu Zeitreihen (z. B. zu einer Liste der Käufe oder vergangenen Klicks auf Nachrichten) durchführen. Dazu müssen Sie den erweiterten Editor verwenden. Siehe [](../expression/expressionadvanced.md).
+
+
+Wenn in einer Aktion oder einer Bedingung ein Fehler auftritt, wird die Reise einer einzelnen Person gestoppt. Die einzige Möglichkeit, um den Vorgang fortzusetzen, besteht darin, das Kontrollkästchen **[!UICONTROL Hinzufügen einen alternativen Pfad im Falle eines Timeouts oder eines Fehlers]** zu aktivieren. Siehe [](../building-journeys/using-the-journey-designer.md#paths).
 
 ## Bedingung der Datenquelle {#data_source_condition}
 
