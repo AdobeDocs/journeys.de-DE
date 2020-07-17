@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 18cc34f4c2f8f75ec42c70ec9a92784aed4358d9
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 100%
+source-wordcount: '107'
+ht-degree: 60%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 100%
 
 Customer AI ist Teil von Intelligent Services. Der Service hilft vorauszusagen, was ein Kunde wahrscheinlich tun wird. Weitere Informationen finden Sie in der [Dokumentation](https://docs.adobe.com/content/help/de-DE/experience-platform/intelligent-services/customer-ai/overview.html).
 
-Mit Customer AI können Marken auf maschinellem Lernen basierende Abwanderungs- oder Konversionswerte erstellen, die anschließend als Profilattribute in den Experience Platform-Profilen (Echtzeit-Kundenprofilen) verfügbar sind.
+Die Kundentechnik-API ermöglicht es Marken, Kurven- oder Konvertierungsmaschinenerkennungswerte zu erstellen, die als Profil-Attribute in den Adobe Experience Platform-Profilen verfügbar sind (Echtzeit-Customer-Profil).
 
 Folglich können sie wie jedes andere Profilattribut in den Bedingungen von Journey Orchestration (zum Treffen der besten Entscheidungen), bei Aktionen oder beim Erstellen von Segmenten verwendet werden.
 
 ![](../assets/customer-ai.png)
 
-Beachten Sie, dass Customer AI eine gebührenpflichtige Funktion von Experience Platform ist.
+Beachten Sie, dass die Kundentraining eine gebührenpflichtige Funktion der Adobe Experience Platform ist.
 
 
