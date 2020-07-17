@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 94ef4e30d16b7d23dc029863fcd2d9f34173c433
+source-git-commit: 829f6cdb11aa9b1529607f409e53616a2b809f84
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 74%
+source-wordcount: '921'
+ht-degree: 71%
 
 ---
 
@@ -143,7 +143,7 @@ Ihr Benutzer sollte dann eine E-Mail mit einer Umleitung zur [!DNL Journey Orche
 [!DNL Journey Orchestration] ermöglicht es Ihnen, Ihre Instanz in separate virtuelle Umgebungen, so genannte Sandboxes, zu unterteilen.
 Sandboxes werden über Produktprofile in der Admin Console zugewiesen. Weiterführende Informationen zur Zuweisung von Sandboxes finden Sie in [diesem Abschnitt](../about/access-management.md#create-product-profile).
 
-[!DNL Journey Orchestration] spiegelt die Platform-Sandboxes wider, die für eine bestimmte Organisation erstellt wurden.
-Platform-Sandboxes können über Ihre Adobe Experience Platform-Instanz erstellt oder zurückgesetzt werden. Detaillierte Anweisungen dazu finden Sie im [Sandbox-Benutzerhandbuch](https://docs.adobe.com/content/help/de-DE/experience-platform/sandbox/ui/user-guide.html).
+[!DNL Journey Orchestration] spiegelt die Adobe Experience Platformen-Sandboxen wider, die für eine bestimmte Organisation erstellt wurden.
+Adobe Experience Platform-Sandboxen können von Ihrer Adobe Experience Platform-Instanz erstellt oder zurückgesetzt werden. Detaillierte Anweisungen dazu finden Sie im [Sandbox-Benutzerhandbuch](https://docs.adobe.com/content/help/de-DE/experience-platform/sandbox/ui/user-guide.html).
 
 Das Steuerelement für den Sandbox-Umschalter finden Sie oben links auf Ihrem Bildschirm. Um von einer Sandbox zu einer anderen zu wechseln, klicken Sie im Umschalter auf die derzeit aktive Sandbox und wählen dann in der Dropdown-Liste eine andere Sandbox aus.
