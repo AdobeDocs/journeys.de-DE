@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2f0d235ce1808f632b731fc2077b10a31a178e4b
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 100%
+source-wordcount: '145'
+ht-degree: 78%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 100%
 
 # Erstellen eines Segments {#creating-a-segment}
 
-Sie können ein Segment entweder mit dem [Segmentierungsdienst von Platform](https://docs.adobe.com/content/help/de-DE/experience-platform/segmentation/home.html) erstellen oder direkt in [!DNL Journey Orchestration] aufrufen und einrichten.
+You can either create a segment using the [Adobe Experience Platform Segmentation Service](https://docs.adobe.com/content/help/de-DE/experience-platform/segmentation/home.html) or you can access and create them directly in [!DNL Journey Orchestration].
 
-1. Klicken Sie oben im Menü auf den Tab **[!UICONTROL Segmente]**. Die Liste der Platform-Segmente wird angezeigt. Sie können in der Liste nach einem bestimmten Segment suchen.
+1. Klicken Sie oben im Menü auf den Tab **[!UICONTROL Segmente]**. Die Liste der Adobe Experience Platformen wird angezeigt. Sie können in der Liste nach einem bestimmten Segment suchen.
 
 ![](../assets/segment1.png)
 
@@ -32,4 +32,4 @@ Sie können ein Segment entweder mit dem [Segmentierungsdienst von Platform](htt
 
 ![](../assets/segment2.png)
 
-Ihr Segment kann nun für Journeys verwendet werden, um Bedingungen zu erstellen oder ein Ereignis vom Typ **Segmentqualifizierung** hinzuzufügen. Siehe [Verwenden von Segmenten in Bedingungen](../segment/using-a-segment.md) und [Ereignisaktivitäten](../building-journeys/event-activities.md#segment-qualification).
+Ihr Segment kann nun für Journeys verwendet werden, um Bedingungen zu erstellen oder ein Ereignis vom Typ **[!UICONTROL Segmentqualifizierung]** hinzuzufügen. Siehe [Verwenden von Segmenten in Bedingungen](../segment/using-a-segment.md) und [Ereignisaktivitäten](../building-journeys/segment-qualification-events.md).
