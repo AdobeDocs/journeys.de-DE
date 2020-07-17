@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 100%
+source-wordcount: '186'
+ht-degree: 78%
 
 ---
 
@@ -34,3 +34,5 @@ Wenn Sie benutzerdefinierte Aktionen konfiguriert haben, werden diese hier auch 
 Wenn Sie eine Aktionsaktivität auf der Arbeitsfläche ablegen, können Sie einen **[!UICONTROL Titel]** definieren. Auf diese Weise können Sie dem Aktionsnamen, der unter Ihrer Aktivität auf der Arbeitsfläche angezeigt wird, ein Suffix hinzufügen. Dies ist nützlich, wenn Sie dieselbe Aktion mehrmals in Ihrer Journey verwenden und sie leichter identifizieren möchten. Berichte sind dann auch leichter zu lesen. Sie können auch eine optionale **[!UICONTROL Beschreibung]** hinzufügen.
 
 ![](../assets/journey59bis.png)
+
+Wenn in einer Aktion oder einer Bedingung ein Fehler auftritt, wird die Reise einer einzelnen Person gestoppt. Die einzige Möglichkeit, um den Vorgang fortzusetzen, besteht darin, das Kontrollkästchen **[!UICONTROL Hinzufügen einen alternativen Pfad im Falle eines Timeouts oder eines Fehlers]** zu aktivieren. Siehe [](../building-journeys/using-the-journey-designer.md#paths).
