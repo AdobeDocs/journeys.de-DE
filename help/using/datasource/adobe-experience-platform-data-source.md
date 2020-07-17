@@ -10,18 +10,18 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
-workflow-type: ht
-source-wordcount: '355'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+workflow-type: tm+mt
+source-wordcount: '360'
+ht-degree: 86%
 
 ---
 
 
 # Datenquelle von Adobe Experience Platform {#concept_zrb_nqt_52b}
 
-Die Datenquelle von Experience Platform definiert die Verbindung zum Echtzeit-Kundenprofildienst. Diese Datenquelle ist integriert und vorkonfiguriert. Sie kann nicht gelöscht werden. Diese Datenquelle dient zum Abrufen und Verwenden von Daten aus dem Echtzeit-Kundenprofildienst (überprüfen Sie beispielsweise, ob es sich bei der Person, die an einer Journey teilnimmt, um eine Frau handelt). Sie ermöglicht Ihnen die Verwendung von Profildaten und Erlebnisereignisdaten. Weitere Informationen zum Echtzeit-Kundenprofildienst finden Sie auf dieser [Seite](https://docs.adobe.com/content/help/de-DE/experience-platform/profile/home.html).
+Die Adobe Experience Platform-Datenquelle definiert die Verbindung zum Echtzeit-Kundendienst. Diese Datenquelle ist integriert und vorkonfiguriert. Sie kann nicht gelöscht werden. Diese Datenquelle dient zum Abrufen und Verwenden von Daten aus dem Echtzeit-Kundenprofildienst (überprüfen Sie beispielsweise, ob es sich bei der Person, die an einer Journey teilnimmt, um eine Frau handelt). Sie ermöglicht Ihnen die Verwendung von Profildaten und Erlebnisereignisdaten. Weitere Informationen zum Echtzeit-Kundenprofildienst finden Sie auf dieser [Seite](https://docs.adobe.com/content/help/de-DE/experience-platform/profile/home.html).
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ Sie können die vorkonfigurierte Feldergruppe mit dem Namen „ProfileFieldGroup
 
 Im Folgenden finden Sie die wichtigsten Schritte, um der integrierten Datenquelle Feldergruppen hinzuzufügen.
 
-1. Wählen Sie in der Liste der Datenquellen die integrierte Datenquelle von Experience Platform aus.
+1. Wählen Sie in der Liste der Datenquellen die integrierte Adobe Experience Platform-Datenquelle aus.
 
    Dadurch wird der Konfigurationsbereich für die Datenquellen auf der rechten Seite des Bildschirms geöffnet.
 
@@ -43,7 +43,7 @@ Im Folgenden finden Sie die wichtigsten Schritte, um der integrierten Datenquell
 
    ![](../assets/journey24.png)
 
-1. Wählen Sie ein Schema aus der Dropdown-Liste **[!UICONTROL Schema]** aus. In diesem Feld werden die in der Plattform verfügbaren Profil- und Erlebnisereignisschemata aufgelistet. Die Schemaerstellung wird nicht in [!DNL Journey Orchestration] durchgeführt. Sie wird in der Datenplattform durchgeführt.
+1. Wählen Sie ein Schema aus der Dropdown-Liste **[!UICONTROL Schema]** aus. In diesem Feld werden die in der Adobe Experience Platform verfügbaren Profil- und Experience Ereignisses-Schema Liste. Die Schemaerstellung wird nicht in [!DNL Journey Orchestration] durchgeführt. Er wird in der Adobe Experience Platform ausgeführt.
 1. Wählen Sie die Felder aus, die Sie verwenden möchten.
 1. Definieren Sie die Aufbewahrungsfrist im Cache.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
