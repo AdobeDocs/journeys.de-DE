@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
-workflow-type: ht
-source-wordcount: '259'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+workflow-type: tm+mt
+source-wordcount: '261'
+ht-degree: 75%
 
 ---
 
@@ -45,9 +45,9 @@ Wählen Sie dazu in den **[!UICONTROL Eigenschaften]** eine Zeitzone aus.
 
 ## Verwenden von Profilen zur Definition der Zeitzone einer Journey {#timezone-from-profiles}
 
-Wenn das Eintrittsereignis der Journey einen Namespace hat, d. h. die Journey hat Zugriff auf den Echtzeit-Kundenprofildienst der Datenplattform, wird die Zeitzone mit jener im Profil des Kontakts vordefiniert, der sich in der Journey befindet.
+Wenn das Einstiegsziel der Reise einen Namensraum hat, d. h., dass die Reise den Echtzeit-Kundendienst der Adobe Experience Platform erreichen kann, wird die Zeitzone mit der Zeitzone vordefiniert, die im Profil des Profils des Reisenden angegeben ist.
 
-Wenn eine Zeitzone im Experience Platform-Profil definiert ist, kann sie in der Journey abgerufen werden.
+Wenn eine Zeitzone im Profil Adobe Experience Platform definiert ist, kann sie während der Reise abgerufen werden.
 
 Wenn das Profil des Kontakts keine Zeitzone enthält, wird die im Zeitzonenfeld definierte Zeitzone abgerufen.
 
