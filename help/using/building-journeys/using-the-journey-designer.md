@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
+workflow-type: tm+mt
 source-wordcount: '1370'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ Alle Versionen Ihrer Journeys erscheinen in der Liste mit der Versionsnummer. Si
 
 >[!NOTE]
 >
->Um die Arbeitsfläche einer Journey in einem anderen Browser-Tab zu öffnen, halten Sie die **Strg**- oder **Befehlstaste** gedrückt und klicken Sie auf die Journey.
+>To open a journey&#39;s canvas in a different browser tab, hold the **Control** or **Command** key and click on the journey.
 
 ## Die Palette {#palette}
 
@@ -49,9 +49,9 @@ Die **Palette** befindet sich auf der linken Bildschirmseite. Alle verfügbaren 
 
 ![](../assets/journey38.png)
 
-Mit dem Symbol **Deaktivierte Elemente einblenden** oben links können Sie nicht verfügbare Elemente in der Palette ein- oder ausblenden (z. B. Ereignisse, die einen anderen Namespace als den in Ihrer Journey verwenden). Standardmäßig werden nicht verfügbare Elemente ausgeblendet. Wenn Sie sie anzeigen lassen, werden sie grau dargestellt.
+Mit dem Symbol **[!UICONTROL Deaktivierte Elemente einblenden]** oben links können Sie nicht verfügbare Elemente in der Palette ein- oder ausblenden (z. B. Ereignisse, die einen anderen Namespace als den in Ihrer Journey verwenden). Standardmäßig werden nicht verfügbare Elemente ausgeblendet. Wenn Sie sie anzeigen lassen, werden sie grau dargestellt.
 
-Wenn Sie das Feld **Suchen** verwenden, wird die Anzahl der Ergebnisse für jede Aktivitätskategorie auf der Arbeitsfläche angezeigt.
+Wenn Sie das Feld **[!UICONTROL Suchen]** verwenden, wird die Anzahl der Ergebnisse für jede Aktivitätskategorie auf der Arbeitsfläche angezeigt.
 
 ![](../assets/palette-filter.png)
 
