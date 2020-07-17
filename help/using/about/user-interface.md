@@ -8,11 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: ht
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
-workflow-type: ht
-source-wordcount: '1061'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3c6c20feb2d461a5780dde5539811beee2eb78b7
+workflow-type: tm+mt
+source-wordcount: '1062'
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 ## Zugreifen auf [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-Um die Benutzeroberfläche von [!DNL Journey Orchestration] zu aufzurufen, klicken Sie oben rechts auf das Symbol **[!UICONTROL App-Auswahl]**. Klicken Sie dann rechts unter „Experience Platform“ auf **[!UICONTROL Journey Orchestration]**.
+Um die Benutzeroberfläche von [!DNL Journey Orchestration] zu aufzurufen, klicken Sie oben rechts auf das Symbol **[!UICONTROL App-Auswahl]**. Then click **[!UICONTROL Journey Orchestration]**, on the right side, below **[!UICONTROL Experience Platform]**.
 
 ![](../assets/journey1.png)
 
@@ -57,7 +57,7 @@ In den Listen **[!UICONTROL Startseite]**, **[!UICONTROL Datenquellen]**, **[!UI
 
 Sie können auf die **[!UICONTROL Filter]** zugreifen, indem Sie auf das Filtersymbol links oben in der Liste klicken. Mit dem Filtermenü können Sie die angezeigten Elemente anhand unterschiedlicher Kriterien filtern. Sie können festlegen, dass nur die Elemente eines bestimmten Typs oder Status, die von Ihnen erstellten Elemente oder die in den letzten 30 Tagen geänderten Elemente angezeigt werden sollen.
 
-Verwenden Sie in den Listen **[!UICONTROL Datenquellen]**, **[!UICONTROL Ereignisse]** und **[!UICONTROL Aktionen]** die **Erstellungsfilter**, um nach dem Erstellungsdatum und Anwender zu filtern. Sie können beispielsweise festlegen, dass nur die Ereignisse angezeigt werden sollen, die Sie in den letzten 30 Tagen erstellt haben.
+Verwenden Sie in den Listen **[!UICONTROL Datenquellen]**, **[!UICONTROL Ereignisse]** und **[!UICONTROL Aktionen]** die **[!UICONTROL Erstellungsfilter]**, um nach dem Erstellungsdatum und Anwender zu filtern. Sie können beispielsweise festlegen, dass nur die Ereignisse angezeigt werden sollen, die Sie in den letzten 30 Tagen erstellt haben.
 
 In der Journey-Liste (unter **[!UICONTROL Startseite]**) können Sie die angezeigten Journeys zusätzlich zu den **[!UICONTROL Erstellungsfiltern]** auch nach Status und Version filtern (**[!UICONTROL Status- und Versionsfilter]**). Sie können auch festlegen, dass nur die Journeys angezeigt werden, die ein bestimmtes Ereignis, eine bestimmte Feldergruppe oder eine bestimmte Aktion verwenden (**[!UICONTROL Aktivitätsfilter]** und **[!UICONTROL Datenfilter]**). Mit den **[!UICONTROL Veröffentlichungsfiltern]** können Sie ein Veröffentlichungsdatum oder einen bestimmten Benutzer auswählen. Sie können beispielsweise entscheiden, dass nur die neuesten Versionen von Live-Journeys, die am Vortag veröffentlicht wurden, angezeigt werden sollen. Siehe [](../building-journeys/using-the-journey-designer.md).
 
@@ -77,7 +77,7 @@ In den verschiedenen Listen können Sie grundlegende Aktionen für einzelne Elem
 
 ![](../assets/journey4.png)
 
-## Durchsuchen von Datenplattformfeldern {#friendly-names-display}
+## Durchsuchen von Adobe Experience Platformen {#friendly-names-display}
 
 Bei der Definition von [Ereignis-Payload](../event/defining-the-payload-fields.md), [Feldgruppen-Payload](../datasource/field-groups.md) und der Auswahl von Feldern im [Ausdruckseditor](../expression/expressionadvanced.md) wird der Anzeigename zusätzlich zum Feldnamen angezeigt. Diese Informationen werden aus der Schemadefinition im Experience-Datenmodell abgerufen.
 
@@ -104,18 +104,18 @@ _Beim Konfigurieren einer Aktivität in einer Journey:_
 Die Arbeitsfläche wird automatisch gespeichert. Oben links in der Arbeitsfläche sehen Sie den Speicherstatus.
 
 * Drücken Sie **Esc**, um den Konfigurationsbereich zu schließen und die vorgenommenen Änderungen zu verwerfen. Dies entspricht der Schaltfläche **[!UICONTROL Abbrechen]**.
-* Drücken Sie die **[!UICONTROL Eingabetaste]** oder klicken Sie außerhalb des Bereichs, um den Konfigurationsbereich zu schließen. Änderungen werden gespeichert. Dies entspricht der Schaltfläche **[!UICONTROL OK]**.
-* Wenn Sie die Taste **[!UICONTROL Löschen]** oder die **Rücktaste** drücken, können Sie den Löschvorgang durch anschließendes Drücken der **[!UICONTROL Eingabetaste]** bestätigen.
+* Drücken Sie die **Eingabetaste** oder klicken Sie außerhalb des Bereichs, um den Konfigurationsbereich zu schließen. Änderungen werden gespeichert. Dies entspricht der Schaltfläche **[!UICONTROL OK]**.
+* Wenn Sie die Taste **Löschen** oder die **Rücktaste** drücken, können Sie den Löschvorgang durch anschließendes Drücken der **Eingabetaste** bestätigen.
 
 _In Popups:_
 
-* Drücken Sie **Esc**, um sie zu schließen (entspricht der Schaltfläche **Abbrechen**).
-* Drücken Sie zum Speichern oder Bestätigen die **[!UICONTROL Eingabetaste]** (entspricht der Schaltfläche **[!UICONTROL OK]** oder **[!UICONTROL Speichern]**).
+* Drücken Sie **Esc**, um sie zu schließen (entspricht der Schaltfläche **[!UICONTROL Abbrechen]**).
+* Drücken Sie zum Speichern oder Bestätigen die **Eingabetaste** (entspricht der Schaltfläche **[!UICONTROL OK]** oder **[!UICONTROL Speichern]**).
 
 _Im Ereignis-, Datenquellen- oder Aktionskonfigurationsbereich:_
 
 * Drücken Sie **Esc**, um den Konfigurationsbereich ohne Speichern zu schließen.
-* Drücken Sie die **[!UICONTROL Eingabetaste]**, wenn Sie Änderungen speichern und den Konfigurationsbereich schließen möchten.
+* Drücken Sie die **Eingabetaste**, wenn Sie Änderungen speichern und den Konfigurationsbereich schließen möchten.
 * Drücken Sie die **Tabulatortaste**, um zwischen den verschiedenen zu konfigurierenden Feldern zu wechseln.
 
 _Im einfachen Ausdruckseditor:_
@@ -137,5 +137,5 @@ _In einem Bildschirm mit einer Suchleiste:_
 _In der Arbeitsfläche einer Journey:_
 
 * Verwenden Sie die Tastenkombination **Strg-Taste/Befehlstaste+A**, um alle Aktivitäten auszuwählen.
-* Wenn eine oder mehrere Aktivitäten ausgewählt sind, drücken Sie die Taste **[!UICONTROL Entf]** oder die **Rücktaste**, um diese Aktivitäten zu löschen. Dann können Sie die **[!UICONTROL Eingabetaste]** drücken, um den Vorgang im Bestätigungs-Popup zu bestätigen.
+* Wenn eine oder mehrere Aktivitäten ausgewählt sind, drücken Sie die Taste **Entf** oder die **Rücktaste**, um diese Aktivitäten zu löschen. Dann können Sie die **Eingabetaste** drücken, um den Vorgang im Bestätigungs-Popup zu bestätigen.
 * Doppelklicken Sie auf eine Aktivität in der linken Palette, um sie an der ersten verfügbaren Position (von oben nach unten) hinzuzufügen.
