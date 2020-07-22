@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 48%
+ht-degree: 54%
 
 ---
 
@@ -29,5 +29,5 @@ Im Folgenden finden Sie die Möglichkeiten von [!DNL Journey Orchestration] bei 
 
 * Greifen Sie auf die Liste von Adobe Experience Platformen-Segmenten zu. Lesen Sie diesbezüglich auch den Abschnitt [Erstellen eines Segments](../segment/creating-a-segment.md).
 * Erstellen von Segmenten direkt in [!DNL Journey Orchestration] auf gleiche Weise wie mit dem Segmentierungsdienst. Lesen Sie diesbezüglich auch den Abschnitt [Erstellen eines Segments](../segment/creating-a-segment.md).
-* Nutzen Sie Segmente in den Reisebedingungen mit dem einfachen oder erweiterten Ausdruck-Editor. Siehe [Verwenden von Segmenten in Bedingungen](../segment/using-a-segment.md).
+* Verwenden von Segmenten in Bedingungen Ihrer Journey mit dem einfachen oder erweiterten Ausdruckseditor. Siehe [Verwenden von Segmenten in Bedingungen](../segment/using-a-segment.md).
 * Add a **[!UICONTROL Segment qualification]** event to your journey in order to listen to the entrances and exits of profiles in Adobe Experience Platform segments. Siehe [Ereignisaktivitäten](../building-journeys/segment-qualification-events.md).
