@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 71b5b1ecd20056d0103ae1a8b83a31478449e844
 workflow-type: tm+mt
 source-wordcount: '725'
-ht-degree: 77%
+ht-degree: 91%
 
 ---
 
@@ -30,15 +30,15 @@ Lesen Sie auch die [!DNL Journey Orchestration]-[Versionshinweise](../release-no
 * Der Bereich &quot;Ereignisse-Aktivitäten&quot;wurde für jede Art von Ereignissen in spezifische Unterabschnitte umstrukturiert. [Mehr dazu](../building-journeys/event-activities.md)
 * Es wurden Best Practices hinzugefügt, um eine Überlastung durch Segmentqualifizierung zu vermeiden. [Mehr dazu](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * Es wurde ein Hinweis hinzugefügt, der erklärt, wie eine Reise nach einem Fehler in einer Aktion oder Bedingung fortgesetzt werden kann. [Mehr dazu](../about/troubleshooting.md#section_h3q_kqk_fhb)
-* Es wurde ein neuer Abschnitt zu den Alpha-Funktionen hinzugefügt, die von einer begrenzten Gruppe von Kunden getestet werden. [Mehr dazu](../alpha/alpha-overview.md)
+* Es wurde ein neuer Abschnitt zu den Alpha-Funktionen hinzugefügt, die von einer begrenzten Anzahl von Kunden getestet werden. [Mehr dazu](../alpha/alpha-overview.md)
 * Es wurde ein neuer Abschnitt zur Integration mit Intelligent Services hinzugefügt. [Mehr dazu](../ai-services/ai-services-overview.md)
 * Es wurde ein neuer Abschnitt zur Erstellung von Testprofilen hinzugefügt. [Mehr dazu](../building-journeys/testing-the-journey.md#create-test-profile)
 * Es wurden Informationen zur Verwendung des Knotens **[!UICONTROL SegmentQualification]** in einer Journey-Bedingung oder Aktion hinzugefügt. [Mehr dazu](../building-journeys/segment-qualification-events.md)
 * In der Transaktionsnachricht und Ereignisveröffentlichung in Campaign wurde ein Hinweis hinzugefügt. Siehe [Arbeiten mit Adobe Campaign](../action/working-with-adobe-campaign.md) und [Verwenden von Adobe Campaign-Aktionen](../building-journeys/using-adobe-campaign-actions.md).
-* Es wurden Informationen zu den Prüfungen hinzugefügt, die beim Testen der URL der Instanz im Campaign Standard durchgeführt werden. [Mehr dazu](../action/working-with-adobe-campaign.md)
-* Es wurden Informationen zur Kompatibilität von Reaktionsservern mit Campaign Standard-Instanzen hinzugefügt, die auf AWS- oder Azurblauch-Ereignissen gehostet werden. [Mehr dazu](../building-journeys/reaction-events.md)
-* Es wurde ein Hinweis hinzugefügt, dass beim Arbeiten mit Campaign Standard-Transaktionsnachrichten eine Capping-Regel eingerichtet werden muss. [Mehr dazu](../action/working-with-adobe-campaign.md)
-* Es wurde ein Hinweis zur Generierung echter Ereignis hinzugefügt, wenn Ereignis im Testmodus ausgelöst werden. [Mehr dazu](../building-journeys/testing-the-journey.md#firing_events)
+* Es wurden Informationen zu den Prüfungen hinzugefügt, die beim Testen der URL der Campaign Standard-Instanz durchgeführt werden. [Mehr dazu](../action/working-with-adobe-campaign.md)
+* Es wurden Informationen zur Kompatibilität von Reaktionsereignissen mit den auf AWS- oder Azure-Servern gehosteten Campaign Standard-Instanzen hinzugefügt. [Mehr dazu](../building-journeys/reaction-events.md)
+* Es wurde ein Hinweis hinzugefügt, dass eine Begrenzungsregel eingerichtet werden muss, wenn mit Transaktionsnachrichten von Campaign Standard gearbeitet wird. [Mehr dazu](../action/working-with-adobe-campaign.md)
+* Es wurde ein Hinweis zur Generierung echter Ereignisse hinzugefügt, wenn Ereignisse im Testmodus ausgelöst werden. [Mehr dazu](../building-journeys/testing-the-journey.md#firing_events)
 
 ## Juni 2020{#june-2020}
 
