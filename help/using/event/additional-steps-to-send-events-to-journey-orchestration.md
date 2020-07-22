@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 89%
+ht-degree: 95%
 
 ---
 
@@ -37,7 +37,7 @@ Konfigurieren Sie anschließend das Datensystem, das Ereignisse mithilfe der kop
 1. Verwenden Sie die Payload, die Sie im Hauptteil („Datenabschnitt“) des API-Aufrufs aus [!DNL Journey Orchestration] zu den Streaming-Aufnahme-APIs kopiert haben. Unten finden Sie ein Beispiel
 1. Legen Sie fest, von wo alle Variablen in der Payload abgerufen werden sollen. Beispiel: Wenn das Ereignis die Adresse vermitteln soll, wird in der eingefügten Payload &quot;address&quot;: &quot;string&quot; angezeigt. „string“ sollte durch die Variable ersetzt werden, die automatisch mit dem richtigen Wert ausgefüllt wird, nämlich mit der E-Mail-Adresse der Person, an die eine Nachricht gesendet werden soll. Beachten Sie, dass in der Payload-Vorschau im Abschnitt **[!UICONTROL Kopfzeile]** viele Werte automatisch ausgefüllt werden, was Ihre Arbeit erleichtern sollte.
 1. Wählen Sie „application/json“ als Typ für den Hauptteil aus.
-1. Geben Sie Ihre IMS-Organisations-ID im Header mit dem Schlüssel &quot;x-gw-ims-org-id&quot;weiter. Verwenden Sie für diesen Wert Ihre IMS-Organisations-ID (&quot;XXX@AdobeOrg&quot;).
+1. Übergeben Sie Ihre IMS-Organisations-ID in der Kopfzeile mit dem Schlüssel „x-gw-ims-org-id“. Verwenden Sie für den Wert Ihre IMS-Organisations-ID („XXX@AdobeOrg“).
 
 Im Folgenden finden Sie ein Beispiel für ein Streaming-Aufnahme-API-Ereignis:
 
