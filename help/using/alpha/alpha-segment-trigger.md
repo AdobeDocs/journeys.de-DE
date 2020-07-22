@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '473'
-ht-degree: 74%
+ht-degree: 79%
 
 ---
 
@@ -53,7 +53,7 @@ Nehmen wir an, Sie haben ein Gold-Kundensegment auf der Adobe Experience Platfor
 
    >[!NOTE]
    >
-   >Personen, die zu einem Segment gehören, das nicht über die jeweilige Namensraum-ID verfügt, können nicht an der Reise teilnehmen.
+   >Einzelanwender, die zu einem Segment gehören, das nicht die ausgewählte Identität (den ausgewählten Namespace) hat, können nicht in die Journey eintreten.
 
 1. Wählen Sie zum Bestätigen **[!UICONTROL OK]** aus. Sie können dann die verfügbaren Aktivitäten nutzen, um Ihre Journey zu erstellen.
 
