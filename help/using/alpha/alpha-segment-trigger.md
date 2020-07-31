@@ -1,6 +1,6 @@
 ---
 title: Segmentauslöser-Aktivität
-description: Erfahren Sie xxxx
+description: Weitere Informationen zum Segmentauslöser
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b66cdb31b62b4627ff7378e48879ffadfedda5cb
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 79%
+source-wordcount: '536'
+ht-degree: 69%
 
 ---
 
@@ -23,15 +23,19 @@ ht-degree: 79%
 
 ## Informationen zur Segmentauslöser-Aktivität {#about-segment-trigger-actvitiy}
 
+>[!NOTE]
+>
+>Wenn zur Aktivierung der Veröffentlichungszeit oder des Testmodus eine Out-of-the-Box-Aktivität eines Adobe Campaign Standards auf der Arbeitsfläche vorhanden ist, wird die Fahrt bei 13 Eingängen pro Sekunde gedrosselt. <br>Wenn zum Zeitpunkt der Veröffentlichung oder zur Aktivierung des Testmodus keine standardmäßige Aktionsoption für Adobe Campaign Standard auf der Arbeitsfläche vorhanden ist, wird die Aktivität um 1000 Ereignis pro Sekunde gedrosselt.
+
 Mit der Segmentauslöser-Aktivität können Sie alle Adobe Experience Platformen, die zu einem Segmentsegment gehören, in eine Reise einbinden. Der Eintritt in eine Journey kann entweder einmalig oder regelmäßig erfolgen.
 
 Nehmen wir an, Sie haben ein Gold-Kundensegment auf der Adobe Experience Platform. Mit der Segmentauslöser-Aktivität können Sie alle Einzelanwender, die zum Gold-Kundensegment gehören, in eine Journey eintreten lassen und durch individuelle Journeys führen, die alle Journey-Funktionen nutzen: Bedingungen, Timer, Ereignisse, Aktionen.
 
+## Konfigurieren der Aktivität {#configuring-segment-trigger-activity}
+
 >[!NOTE]
 >
 >Aufgrund von Latenzen beim Segmentexport ist es nicht möglich, eine segmentbasierte Journey in einem kürzeren Zeitraum als einer Stunde auszulösen.
-
-## Konfigurieren der Aktivität {#configuring-segment-trigger-activity}
 
 1. Erweitern Sie die Kategorie **[!UICONTROL Orchestrierung]** und legen Sie eine Aktivität vom Typ **[!UICONTROL Segmentauslöser]** auf Ihrer Arbeitsfläche ab.
 
