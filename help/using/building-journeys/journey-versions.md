@@ -45,4 +45,4 @@ Journey-Versionen können einzeln gestoppt werden. Alle Versionen von Journeys h
 
 >[!NOTE]
 >
->Wenn Sie mehrere Live-Versionen haben und die neueste Version stoppen, greifen die Anwender nicht auf eine frühere Live-Version zurück. Es findet kein Zutritt zur Journey statt.
+>Wenn Sie mehrere Live-Versionen haben und die neueste Version stoppen, greifen die Anwender nicht auf eine frühere Live-Version zurück. Es findet kein Eintritt zur Journey statt.
