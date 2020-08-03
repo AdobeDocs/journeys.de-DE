@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 78c486c3e43b0bbda666afba9cf36ba34b362a03
 workflow-type: tm+mt
 source-wordcount: '658'
-ht-degree: 26%
+ht-degree: 32%
 
 ---
 
@@ -53,9 +53,9 @@ Die Payload enthält die folgenden Kontextinformationen, die Sie in Bedingungen 
 * Zeitstempel der Qualifizierung
 * Segmentkennung
 
-Wenn Sie den Ausdruck-Editor in einer Bedingung oder Aktion verwenden, die einer Aktivität der **[!UICONTROL Segmentqualifizierung]** folgt, haben Sie Zugriff auf den Knoten **[!UICONTROL Segmentqualifikation]** . You can choose between the **[!UICONTROL Last qualification time]** and the **[!UICONTROL status]** (enter or exit).
+Wenn Sie den Ausdruckseditor in einer Bedingung oder Aktion verwenden, die einer Aktivität vom Typ **[!UICONTROL Segmentqualifikation]** folgt, können Sie auf den Knoten **[!UICONTROL Segmentqualifikation]** zugreifen. Sie können zwischen der **[!UICONTROL letzten Qualifikationszeit]** und dem **[!UICONTROL Status]** (Einstieg oder Ausstieg) wählen.
 
-Siehe Aktivität [zu Bedingungen](../building-journeys/condition-activity.md#about_condition).
+Siehe [Bedingungsaktivität](../building-journeys/condition-activity.md#about_condition).
 
 ![](../assets/segment8.png)
 
