@@ -25,11 +25,11 @@ ht-degree: 69%
 
 >[!NOTE]
 >
->Wenn zur Aktivierung der Veröffentlichungszeit oder des Testmodus eine Out-of-the-Box-Aktivität eines Adobe Campaign Standards auf der Arbeitsfläche vorhanden ist, wird die Fahrt bei 13 Eingängen pro Sekunde gedrosselt. <br>Wenn zum Zeitpunkt der Veröffentlichung oder zur Aktivierung des Testmodus keine standardmäßige Aktionsoption für Adobe Campaign Standard auf der Arbeitsfläche vorhanden ist, wird die Aktivität um 1000 Ereignis pro Sekunde gedrosselt.
+>Wenn zum Zeitpunkt der Veröffentlichung oder zur Aktivierung des Testmodus eine Out-of-the-Box-Aktion-Aktivität von Adobe Campaign Standard auf der Arbeitsfläche vorhanden ist, wird die Fahrt bei 13 Eingängen pro Sekunde gedrosselt. <br>Wenn zum Zeitpunkt der Veröffentlichung oder zur Aktivierung des Testmodus keine vordefinierte Adobe Campaign Standard-Aktionsoption auf der Arbeitsfläche vorhanden ist, wird die Aktivität um 1000 Ereignis pro Sekunde gedrosselt.
 
-Mit der Segmentauslöser-Aktivität können Sie alle Adobe Experience Platformen, die zu einem Segmentsegment gehören, in eine Reise einbinden. Der Eintritt in eine Journey kann entweder einmalig oder regelmäßig erfolgen.
+Mit der Segmentauslöser-Aktivität können Sie alle Personen, die zu einem Adobe Experience Platform-Segment gehören, in eine Reise einbinden. Der Eintritt in eine Journey kann entweder einmalig oder regelmäßig erfolgen.
 
-Nehmen wir an, Sie haben ein Gold-Kundensegment auf der Adobe Experience Platform. Mit der Segmentauslöser-Aktivität können Sie alle Einzelanwender, die zum Gold-Kundensegment gehören, in eine Journey eintreten lassen und durch individuelle Journeys führen, die alle Journey-Funktionen nutzen: Bedingungen, Timer, Ereignisse, Aktionen.
+Nehmen wir an, Sie haben ein Gold-Kundensegment auf Adobe Experience Platform. Mit der Segmentauslöser-Aktivität können Sie alle Einzelanwender, die zum Gold-Kundensegment gehören, in eine Journey eintreten lassen und durch individuelle Journeys führen, die alle Journey-Funktionen nutzen: Bedingungen, Timer, Ereignisse, Aktionen.
 
 ## Konfigurieren der Aktivität {#configuring-segment-trigger-activity}
 
@@ -75,4 +75,4 @@ Nehmen wir an, Sie haben ein Gold-Kundensegment auf der Adobe Experience Platfor
    >
    >Keep in mind that Adobe Experience Platform segments are calculated either once a day (**batch** segments) or in real-time (**streamed** segments).
    >
-   >Wenn das ausgewählte Segment gestreamt wird, betreten die zu diesem Segment gehörenden Einzelanwender die Journey in Echtzeit. Wenn es sich bei dem Segment um einen Stapel handelt, können Personen, die für dieses Segment neu qualifiziert wurden, möglicherweise die Reise aufrufen, wenn die Segmentberechnung auf der Adobe Experience Platform ausgeführt wird.
+   >Wenn das ausgewählte Segment gestreamt wird, betreten die zu diesem Segment gehörenden Einzelanwender die Journey in Echtzeit. Wenn es sich bei dem Segment um einen Stapel handelt, können Personen, die für dieses Segment neu qualifiziert wurden, möglicherweise die Reise aufrufen, wenn die Segmentberechnung auf dem Adobe Experience Platform ausgeführt wird.
