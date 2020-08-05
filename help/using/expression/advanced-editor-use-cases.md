@@ -31,7 +31,7 @@ Der erweiterte Ausdruckseditor kann verwendet werden, um Bedingungen zum Filtern
 
 Sie benötigen den erweiterten Ausdruckseditor, um Abfragen zu Zeitreihen wie eine Liste der Käufe oder vergangene Klicks auf Nachrichten durchzuführen. Solche Abfragen können nicht mit dem einfachen Editor ausgeführt werden.
 
-Die Erlebnis-Ereignis werden aus der Adobe Experience Platform als Sammlung in umgekehrchronologischer Reihenfolge abgerufen. Daher:
+Die Erlebnis-Ereignis werden aus der Adobe Experience Platform in umgekehrter chronologischer Reihenfolge abgerufen. Daher:
 
 * Die Funktion &quot;first&quot; gibt das neueste Ereignis zurück.
 * Die Funktion &quot;last&quot; gibt das älteste zurück.
