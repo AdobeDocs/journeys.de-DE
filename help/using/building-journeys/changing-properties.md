@@ -58,6 +58,6 @@ Aufgrund der Journey-Zeitüberschreitung nach 30 Tagen können wir, wenn der er
 
 Die Zeitzone wird auf Journey-Ebene definiert.
 
-Sie können eine feste Zeitzone eingeben oder mithilfe von Profilen zur Adobe Experience Platform die Zeitzone der Reise festlegen.
+Sie können eine feste Zeitzone eingeben oder mithilfe von Adobe Experience Platform-Profilen die Zeitzone der Reise festlegen.
 
 Weitere Informationen zum Zeitzonen-Management finden Sie unter [](../building-journeys/timezone-management.md).
