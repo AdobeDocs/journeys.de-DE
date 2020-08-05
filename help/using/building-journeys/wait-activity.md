@@ -72,7 +72,7 @@ Mit dieser Option können Sie ein benutzerdefiniertes Datum definieren, z. B. de
 >
 >Die Funktion zur Versandzeitoptimierung der E-Mail steht nur Kunden zur Verfügung, die den Datendienst von Adobe Campaign Standard verwenden.
 
-Dieser Warentyp verwendet eine in der Adobe Experience Platform berechnete Punktzahl. Der Wert berechnet basierend auf dem bisherigen Verhalten die Neigung, in Zukunft auf eine E-Mail zu klicken oder diese zu öffnen. Beachten Sie, dass der Algorithmus zur Berechnung des Werts eine bestimmte Datenmenge benötigt, um zu funktionieren. Wenn nicht genügend Daten vorhanden sind, wird die Standardwartezeit angewendet. Zum Zeitpunkt der Veröffentlichung wird Ihnen mitgeteilt, dass die Standardzeit gilt.
+Bei diesem Warentyp wird ein im Adobe Experience Platform berechneter Wert verwendet. Der Wert berechnet basierend auf dem bisherigen Verhalten die Neigung, in Zukunft auf eine E-Mail zu klicken oder diese zu öffnen. Beachten Sie, dass der Algorithmus zur Berechnung des Werts eine bestimmte Datenmenge benötigt, um zu funktionieren. Wenn nicht genügend Daten vorhanden sind, wird die Standardwartezeit angewendet. Zum Zeitpunkt der Veröffentlichung wird Ihnen mitgeteilt, dass die Standardzeit gilt.
 
 >[!NOTE]
 >
