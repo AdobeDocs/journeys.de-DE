@@ -23,13 +23,13 @@ ht-degree: 32%
 
 ## About segment qualification events{#about-segment-qualification}
 
-Diese Aktivität ermöglicht es Ihrer Reise, die Ein- und Ausgänge von Profilen in Adobe Experience Platformen anzuhören, um Einzelpersonen dazu zu bewegen, in eine Reise einzutreten oder sich vorwärts zu bewegen. Weiterführende Informationen zur Erstellung von Segmenten finden Sie in [diesem Abschnitt](../segment/about-segments.md).
+Diese Aktivität ermöglicht es Ihnen, die Ein- und Ausstiege von Profilen in Adobe Experience Platform zu hören, um Einzelpersonen in eine Reise einzusteigen oder sich vorwärts zu bewegen. Weiterführende Informationen zur Erstellung von Segmenten finden Sie in [diesem Abschnitt](../segment/about-segments.md).
 
 Nehmen wir an, Sie verfügen über ein Segment für „Silber-Kunden“. Mit dieser Aktivität können Sie dafür sorgen, dass alle neuen Silber-Kunden eine Journey beginnen, und ihnen eine Reihe personalisierter Nachrichten senden.
 
 Diese Art von Ereignis kann als erster Schritt oder auch später in der Journey positioniert werden.
 
-Wenn das Segment mit der Option &quot;Audiencen mit hoher Frequenz&quot;der Adobe Experience Platform gestreamt wird, werden Einstiegs- und Ausstiege in Echtzeit überwacht. Wenn das Segment nicht gestreamt wird, werden Ein- und Austritte zum Zeitpunkt der Segmentberechnung berücksichtigt.
+Wenn das Segment mit der Option &quot;Audiencen mit hoher Frequenz&quot;von Adobe Experience Platform gestreamt wird, werden die Ein- und Ausstiege in Echtzeit überwacht. Wenn das Segment nicht gestreamt wird, werden Ein- und Austritte zum Zeitpunkt der Segmentberechnung berücksichtigt.
 
 1. Erweitern Sie die Kategorie **[!UICONTROL Ereignisse]** und legen Sie eine Aktivität vom Typ **[!UICONTROL Segmentqualifizierung]** auf Ihrer Arbeitsfläche ab.
 
@@ -61,7 +61,7 @@ Siehe [Bedingungsaktivität](../building-journeys/condition-activity.md#about_co
 
 ## Bewährte Verfahren für Segmente {#best-practices-segments}
 
-Die **[!UICONTROL Segmentqualifizierungs]** -Aktivität ermöglicht den sofortigen Eintritt in Reisen von Personen, die sich aus einem Adobe Experience Platformen-Segment qualifizieren oder disqualifiziert haben.
+Die **[!UICONTROL Segmentqualifizierungs]** -Aktivität ermöglicht den sofortigen Eintritt in Reisen von Personen, die sich aus einem Adobe Experience Platform-Segment qualifizieren oder disqualifiziert haben.
 
 Die Empfangsgeschwindigkeit dieser Informationen ist hoch. Die durchgeführten Messungen zeigen eine Geschwindigkeit von 10 000 Ereignissen pro Sekunde. Daher sollten Sie sich vergewissern, dass Sie verstehen, wie die Spitzen des Eintritts passieren können, wie sie vermieden werden können und wie Sie Ihre Reise darauf vorbereiten können.
 
@@ -77,7 +77,7 @@ Bei der Verwendung der Segmentqualifikation für Streaming-Segmente besteht aufg
 
 ### Vermeidung von Überladungen{#overloads-speed-segment-qualification}
 
-Im Folgenden finden Sie einige Best Practices, die helfen, Überlastungssysteme zu vermeiden, die auf Reisen genutzt werden (Datenquellen, benutzerdefinierte Aktionen, Adobe Campaign Standard-Aktionen).
+Im Folgenden finden Sie einige bewährte Verfahren, die helfen, Überlastungssysteme zu vermeiden, die auf Reisen genutzt werden (Datenquellen, benutzerdefinierte Aktionen, Adobe Campaign Standard-Aktionen).
 
 Verwenden Sie in einer **[!UICONTROL Segmentqualifizierungs]** -Aktivität kein Stapelsegment unmittelbar nach der Erstellung. Dadurch wird der erste Berechnungsgipfel vermieden. Beachten Sie, dass es eine gelbe Warnung auf der Arbeitsfläche der Reise geben wird, wenn Sie im Begriff sind, ein Segment zu verwenden, das noch nie berechnet wurde.
 
@@ -85,6 +85,6 @@ Verwenden Sie in einer **[!UICONTROL Segmentqualifizierungs]** -Aktivität kein 
 
 Legen Sie eine Deckelungsregel für Datenquellen und Aktionen fest, die bei Fahrten verwendet werden, um eine Überlastung zu vermeiden (siehe [Abschnitt](../api/capping.md)). Beachten Sie, dass die Deckelregel nicht erneut versucht wird. Wenn Sie es erneut versuchen müssen, müssen Sie einen alternativen Pfad auf der Reise verwenden, indem Sie das Kästchen **[!UICONTROL Hinzufügen einem alternativen Pfad im Falle eines Timeouts oder eines Fehlers]** bei Bedingungen oder Aktionen markieren.
 
-Bevor Sie das Segment auf einer Produktionsreise verwenden, sollten Sie immer zuerst das Volumen der Personen auswerten, die sich täglich für dieses Segment qualifizieren. Dazu können Sie den Abschnitt **[!UICONTROL Segmente]** in der Adobe Experience Platform überprüfen und das Diagramm auf der rechten Seite betrachten.
+Bevor Sie das Segment auf einer Produktionsreise verwenden, sollten Sie immer zuerst das Volumen der Personen auswerten, die sich täglich für dieses Segment qualifizieren. Dazu können Sie den Abschnitt **[!UICONTROL Segmente]** im Adobe Experience Platform überprüfen und das Diagramm auf der rechten Seite betrachten.
 
 ![](../assets/segment-overload.png)
