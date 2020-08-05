@@ -26,7 +26,7 @@ Lesen Sie auch die [!DNL Journey Orchestration]-[Versionshinweise](../release-no
 
 ## Juli 2020 {#july-2020}
 
-* Es wurde ein Link zu einem neuen Lernvideo zu Schritt-Ereignissen Berichte zu Adobe Experience Platform hinzugefügt. [Mehr dazu](../building-journeys/sharing-overview.md)
+* Es wurde ein Link zu einem neuen Tutorial-Video zum Berichte von Step-Ereignisse zu Adobe Experience Platform hinzugefügt. [Mehr dazu](../building-journeys/sharing-overview.md)
 * Der Bereich &quot;Ereignisse-Aktivitäten&quot;wurde für jede Art von Ereignissen in spezifische Unterabschnitte umstrukturiert. [Mehr dazu](../building-journeys/event-activities.md)
 * Es wurden Best Practices hinzugefügt, um eine Überlastung durch Segmentqualifizierung zu vermeiden. [Mehr dazu](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * Es wurde ein Hinweis hinzugefügt, der erklärt, wie eine Reise nach einem Fehler in einer Aktion oder Bedingung fortgesetzt werden kann. [Mehr dazu](../about/troubleshooting.md#section_h3q_kqk_fhb)
