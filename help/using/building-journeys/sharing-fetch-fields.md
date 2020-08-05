@@ -33,7 +33,7 @@ Typ: lang
 
 ## fetchTypeInError
 
-Definiert, ob sich der Fehler &quot;Abrufen in&quot;auf der Adobe Experience Platform oder in einer benutzerdefinierten Datenquelle befindet.
+Definiert, ob sich der Fehler &quot;Abrufen&quot;auf dem Adobe Experience Platform oder einer benutzerdefinierten Datenquelle befindet.
 
 Typ: Zeichenfolge
 
@@ -93,13 +93,13 @@ Typ: lang
 
 ## fetchPlatformTotalTime
 
-Die Gesamtdauer, die zum Abrufen der Daten aus der Adobe Experience Platform in Millisekunden benötigt wird. Hinweis: Diese Dauer berechnet sich vom Zeitpunkt, an dem die Engine das Anreicherungsereignis an den Anreicherungsdienst sendet, bis zu dem Zeitpunkt, an dem die Engine die Antwort erhält.
+Die Gesamtdauer, die zum Abrufen der Daten aus Adobe Experience Platform in Millisekunden benötigt wird. Hinweis: Diese Dauer berechnet sich vom Zeitpunkt, an dem die Engine das Anreicherungsereignis an den Anreicherungsdienst sendet, bis zu dem Zeitpunkt, an dem die Engine die Antwort erhält.
 
 Typ: lang
 
 ## fetchPlatformCount
 
-Wie oft die Daten aus der Adobe Experience Platform abgerufen werden.
+Wie oft die Daten von Adobe Experience Platform abgerufen werden.
 
 Typ: lang
 
