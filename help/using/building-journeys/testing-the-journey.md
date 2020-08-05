@@ -51,7 +51,7 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 
 * Es wird eine Benutzeroberfläche bereitgestellt, über die Ereignisse für die getestete Journey ausgelöst werden können. Ereignisse können aber auch von Drittanbietersystemen wie Postman gesendet werden.
 * Nur Kontakte, die im Echtzeit-Kundenprofil als „Testprofile“ gekennzeichnet sind, dürfen an der getesteten Journey teilnehmen. Siehe [](../building-journeys/testing-the-journey.md#create-test-profile).
-* Der Testmodus ist nur in Entwurfs-Journeys verfügbar, die einen Namespace verwenden. Der Prüfmodus muss prüfen, ob es sich bei einer auf die Reise eintretenden Person um ein Profil der Prüfung handelt, und muss daher in der Lage sein, die Adobe Experience Platform zu erreichen.
+* Der Testmodus ist nur in Entwurfs-Journeys verfügbar, die einen Namespace verwenden. Der Testmodus muss prüfen, ob eine Person, die in die Reise eintritt, ein Profil ist oder nicht, und muss daher in der Lage sein, das Adobe Experience Platform zu erreichen.
 * Die maximale Anzahl von Testprofilen, die während einer Testsitzung auf eine Journey zugreifen können, beträgt 100.
 * Wenn Sie den Testmodus deaktivieren, werden alle Personen, die in der Vergangenheit an der Journey teilgenommen haben oder sich derzeit darin befinden, aus der Journey entfernt. Es löscht auch den Berichte.
 * Sie können den Testmodus beliebig oft aktivieren/deaktivieren.
@@ -59,7 +59,7 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 
 ## Erstellen eines Testprofils{#create-test-profile}
 
-Der Vorgang zum Erstellen eines Profils ist identisch mit dem, wenn Sie ein Profil in der Adobe Experience Platform erstellen. Er wird über API-Aufrufe ausgeführt. Weitere Informationen finden Sie auf dieser [Seite](https://docs.adobe.com/content/help/de-DE/experience-platform/profile/home.html)
+Das Erstellen eines Testprozesses erfolgt auf dieselbe Weise wie das Erstellen eines Profils in der Adobe Experience Platform. Er wird über API-Aufrufe ausgeführt. Weitere Informationen finden Sie auf dieser [Seite](https://docs.adobe.com/content/help/de-DE/experience-platform/profile/home.html)
 
 Sie müssen ein Profilschema verwenden, das das Mixin für Profiltestdetails enthält. Das Flag testProfile ist Teil dieser Mischung.
 
@@ -119,7 +119,7 @@ Mit der Schaltfläche **[!UICONTROL Ereignis auslösen]** können Sie ein Ereign
 >
 >Wenn Sie ein Ereignis im Testmodus auslösen, wird ein reales Ereignis generiert, d. h. es beeinflusst auch andere Journeys, die dieses Ereignis überwachen.
 
-Als Voraussetzung müssen Sie wissen, welche Profil in der Adobe Experience Platform als Test-Profil gekennzeichnet werden. Der Testmodus lässt nur diese Profile in der Journey zu und das Ereignis muss eine ID enthalten. Die erwartete ID hängt von der Ereigniskonfiguration ab. Sie kann beispielsweise eine ECID sein.
+Voraussetzung ist, dass Sie wissen müssen, welche Profil in der Adobe Experience Platform als Profil gekennzeichnet werden. Der Testmodus lässt nur diese Profile in der Journey zu und das Ereignis muss eine ID enthalten. Die erwartete ID hängt von der Ereigniskonfiguration ab. Sie kann beispielsweise eine ECID sein.
 
 Wenn Ihre Journey mehrere Ereignisse enthält, wählen Sie ein Ereignis aus der Dropdown-Liste aus. Konfigurieren Sie dann für jedes Ereignis die weitergeleiteten Felder und die Ausführung des Ereignisversands. Über die Benutzeroberfläche können Sie die richtigen Informationen in der Ereignis-Payload angeben und prüfen, ob der Informationstyp korrekt ist. Der Testmodus speichert die zuletzt in einer Testsitzung verwendeten Parameter zur späteren Verwendung.
 
