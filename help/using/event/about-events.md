@@ -36,7 +36,7 @@ Wenn Sie ein Ereignis bearbeiten, das in einer Entwurfs- oder Live-Journey verwe
 
 ## Allgemeine Funktionsweise {#section_r1f_xqt_pgb}
 
-Ereignisse sind POST-API-Aufrufe. Ereignis werden über Streaming Ingestion APIs an die Adobe Experience Platform gesendet. Das URL-Ziel von Ereignissen, die über Transaktionsnachrichten-APIs gesendet werden, wird als „Inlet“ bezeichnet. Die Payload der Ereignisse verwendet die XDM-Formatierung.
+Ereignisse sind POST-API-Aufrufe. Ereignis werden über Streaming Ingestion APIs an das Adobe Experience Platform gesendet. Das URL-Ziel von Ereignissen, die über Transaktionsnachrichten-APIs gesendet werden, wird als „Inlet“ bezeichnet. Die Payload der Ereignisse verwendet die XDM-Formatierung.
 
 Die Payload enthält Informationen, die von Streaming-Aufnahme-APIs benötigt werden, um zu funktionieren (in der Kopfzeile), Informationen, die [!DNL Journey Orchestration] benötigt, um zu funktionieren (die Ereignis-ID, Teil des Payload-Hauptteils), und Informationen, die in Journeys verwendet werden (im Hauptteil z. B. der Betrag eines Transaktionsabbruchs). Es gibt zwei Modi für die Streaming-Aufnahme: authentifiziert und nicht authentifiziert. Weitere Informationen zu Streaming-Aufnahme-APIs finden Sie unter [diesem Link](https://docs.adobe.com/content/help/de-DE/experience-platform/xdm/api/getting-started.html).
 
