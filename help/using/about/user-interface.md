@@ -77,7 +77,7 @@ In den verschiedenen Listen können Sie grundlegende Aktionen für einzelne Elem
 
 ![](../assets/journey4.png)
 
-## Durchsuchen von Adobe Experience Platformen {#friendly-names-display}
+## Durchsuchen der Adobe Experience Platform-Felder {#friendly-names-display}
 
 Bei der Definition von [Ereignis-Payload](../event/defining-the-payload-fields.md), [Feldgruppen-Payload](../datasource/field-groups.md) und der Auswahl von Feldern im [Ausdruckseditor](../expression/expressionadvanced.md) wird der Anzeigename zusätzlich zum Feldnamen angezeigt. Diese Informationen werden aus der Schemadefinition im Experience-Datenmodell abgerufen.
 
