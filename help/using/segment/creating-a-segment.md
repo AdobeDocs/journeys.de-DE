@@ -24,7 +24,7 @@ ht-degree: 78%
 
 You can either create a segment using the [Adobe Experience Platform Segmentation Service](https://docs.adobe.com/content/help/de-DE/experience-platform/segmentation/home.html) or you can access and create them directly in [!DNL Journey Orchestration].
 
-1. Klicken Sie oben im Menü auf den Tab **[!UICONTROL Segmente]**. Die Liste der Adobe Experience Platformen wird angezeigt. Sie können in der Liste nach einem bestimmten Segment suchen.
+1. Klicken Sie oben im Menü auf den Tab **[!UICONTROL Segmente]**. Die Liste der Adobe Experience Platform-Segmente wird angezeigt. Sie können in der Liste nach einem bestimmten Segment suchen.
 
 ![](../assets/segment1.png)
 
