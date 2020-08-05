@@ -49,7 +49,7 @@ Für diesen Anwendungsfall müssen wir zwei Ereignisse erstellen (siehe [](../us
 
 Es muss eine Verbindung zu zwei Datenquellen konfiguriert werden (siehe [](../usecase/configuring-the-data-sources.md)):
 
-* Die integrierte Adobe Experience Platform-Datenquelle zum Abrufen der Informationen für unsere beiden Bedingungen (Treuemitgliedschaft und Datum des letzten Kontakts) sowie die Nachrichten-Personalisierung.
+* Die integrierte Adobe Experience Platform-Datenquelle zum Abrufen der Informationen zu unseren beiden Bedingungen (Treuemitgliedschaft und Datum des letzten Kontakts) sowie die Nachrichten-Personalisierung.
 * zum Hotelreservierungssystem zum Abrufen der Informationen über den Reservierungsstatus.
 
 ## Voraussetzungen:    {#prerequisites}
