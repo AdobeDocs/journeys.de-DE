@@ -37,7 +37,7 @@ Diese Konfiguration ist nicht erforderlich, wenn Ihre Journeys nur lokale Daten 
 
 Es gibt zwei Arten von Datenquellen:
 
-* Die vorkonfigurierte Adobe Experience Platform, die die Verbindung zum Echtzeit-Kundendienst definiert. Dies ist eine integrierte Datenquelle. Siehe [](../datasource/adobe-experience-platform-data-source.md).
+* Die vorkonfigurierte Adobe Experience Platform-Datenquelle, die die Verbindung zum Echtzeit-Kundendienst definiert. Dies ist eine integrierte Datenquelle. Siehe [](../datasource/adobe-experience-platform-data-source.md).
 * Die externen Datenquellen, mit denen Sie eine Verbindung zu externen Systemen definieren können. Diese können Sie erstellen. Siehe [](../datasource/external-data-sources.md).
 
 Für jede Datenquelle definieren Sie die Informationen, die mit Feldergruppen abgerufen werden sollen. Feldergruppen sind Gruppen von Feldern, die aus einer Datenquelle abgerufen werden können. Siehe [](../datasource/field-groups.md).
