@@ -35,22 +35,22 @@ Sie können auch den Abschnitt [Aktualisierungen der Dokumentation](../release-n
 <tbody>
 <tr>
 <td>
-<p>Die folgenden Integrationsverbesserungen für Adobe Experience Platformen wurden vorgenommen:</p>
+<p>Die folgenden Adobe Experience Platform-Integrationsverbesserungen wurden vorgenommen:</p>
 <ul>
-<li><p>Eine neue Aktivität ermöglicht das Listening von Adobe Experience Platform-Segmenteingängen/Ausstiegen, um Menschen dazu zu bewegen, in eine Reise einzusteigen oder sich vorwärts zu bewegen. <a href="../building-journeys/segment-qualification-events.md">Mehr dazu</a></p>
+<li><p>Eine neue Aktivität ermöglicht das Listening von Adobe Experience Platform-Segmenteingängen/-ausstiegen, um Menschen dazu zu bewegen, in eine Reise einzusteigen oder sich vorwärts zu bewegen. <a href="../building-journeys/segment-qualification-events.md">Mehr dazu</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
 <li><p>Adobe Experience Platform segments can now be created and edited without leaving the Journey Orchestration interface, thanks to a new <strong>Segments</strong> tab.<a href="../segment/about-segments.md">Mehr dazu</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>Im einfachen Ausdruck-Editor werden nun Adobe Experience Platformen direkt in der Navigationsstruktur aufgelistet, um eine einfache Einrichtung von Bedingungen wie "Gehört diese Person zu Segment A?"zu ermöglichen.<a href="../segment/using-a-segment.md">Mehr dazu</a></p>
+<li><p>Im einfachen Ausdruck-Editor werden Adobe Experience Platform-Segmente jetzt direkt in der Navigationsstruktur aufgeführt, um eine einfache Einrichtung von Bedingungen wie "Gehört diese Person zu Segment A?"zu ermöglichen.<a href="../segment/using-a-segment.md">Mehr dazu</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
 <li><p>Die Journey Orchestration übergibt nun automatisch die auf Reisen ausgeführten Schritte an die Adobe Experience Platform. Dazu gehören potenziell auch Fehler. Diese Informationen können für die Berichterstellung und Fehlerbehebung verwendet werden, indem Abfragen zu den Journey-Schrittereignissen für eine bestimmte Journey oder für alle Journeys ausgeführt werden. <a href="../building-journeys/sharing-overview.md">mehr dazu</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
 </li>
-<li><p>Journey Orchestration kann jetzt mit Produktions- und Nicht-Adobe Experience Platform-Sandboxen verbunden werden. Beachten Sie, dass Sandboxes eine Beta-Funktion sind. <a href="../about/access-management.md#sandboxes">mehr dazu</a></p>
+<li><p>Journey Orchestration kann jetzt an Adobe Experience Platform-Sandboxen für Produktion und Nicht-Produktion angeschlossen werden. Beachten Sie, dass Sandboxes eine Beta-Funktion sind. <a href="../about/access-management.md#sandboxes">mehr dazu</a></p>
 </li>
 </td>
 </tr>
