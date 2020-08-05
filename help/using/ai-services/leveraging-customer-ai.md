@@ -29,6 +29,6 @@ Folglich können sie wie jedes andere Profilattribut in den Bedingungen von Jour
 
 ![](../assets/customer-ai.png)
 
-Beachten Sie, dass die Kundentraining eine gebührenpflichtige Funktion der Adobe Experience Platform ist.
+Beachten Sie, dass die Kundentraining eine gebührenpflichtige Funktion des Adobe Experience Platform ist.
 
 
