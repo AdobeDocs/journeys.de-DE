@@ -23,7 +23,7 @@ ht-degree: 95%
 
 Liefert eine Vorhersage zur besten Versandzeit für eine E-Mail an einen Kontakt.
 
-Diese Funktion verwendet einen in der Adobe Experience Platform berechneten Wert. Der Wert berechnet basierend auf dem bisherigen Verhalten die Neigung, in Zukunft auf eine E-Mail zu klicken oder diese zu öffnen. Beachten Sie, dass der Algorithmus zur Berechnung des Werts eine bestimmte Datenmenge benötigt, um zu funktionieren. Wenn nicht genügend Daten vorhanden sind, gilt die Standardzeit. Lesen Sie für weiterführende Informationen den Abschnitt [](../building-journeys/wait-activity.md).
+Diese Funktion verwendet eine im Adobe Experience Platform berechnete Punktzahl. Der Wert berechnet basierend auf dem bisherigen Verhalten die Neigung, in Zukunft auf eine E-Mail zu klicken oder diese zu öffnen. Beachten Sie, dass der Algorithmus zur Berechnung des Werts eine bestimmte Datenmenge benötigt, um zu funktionieren. Wenn nicht genügend Daten vorhanden sind, gilt die Standardzeit. Lesen Sie für weiterführende Informationen den Abschnitt [](../building-journeys/wait-activity.md).
 
 Zur Verwendung dieser Funktion ist ein [Namespace](../event/selecting-the-namespace.md) erforderlich.
 
