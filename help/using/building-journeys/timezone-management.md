@@ -45,9 +45,9 @@ Wählen Sie dazu in den **[!UICONTROL Eigenschaften]** eine Zeitzone aus.
 
 ## Verwenden von Profilen zur Definition der Zeitzone einer Journey {#timezone-from-profiles}
 
-Wenn das Einstiegsziel der Reise einen Namensraum hat, d. h., dass die Reise den Echtzeit-Kundendienst der Adobe Experience Platform erreichen kann, wird die Zeitzone mit der Zeitzone vordefiniert, die im Profil des Profils des Reisenden angegeben ist.
+Wenn das Einstiegsziel der Reise einen Namensraum hat, d. h., dass die Reise zum Echtzeit-Kundendienst des Adobe Experience Platforms gelangen kann, wird die Zeitzone mit der im Profil des Reisenden angegebenen Zeitzone vorgegeben.
 
-Wenn eine Zeitzone im Profil Adobe Experience Platform definiert ist, kann sie während der Reise abgerufen werden.
+Wenn eine Zeitzone im Adobe Experience Platform-Profil definiert ist, kann sie während der Fahrt abgerufen werden.
 
 Wenn das Profil des Kontakts keine Zeitzone enthält, wird die im Zeitzonenfeld definierte Zeitzone abgerufen.
 
