@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 78c486c3e43b0bbda666afba9cf36ba34b362a03
+source-git-commit: 2ef3ce546a816f1d7d0398acc418a20803886a20
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 100%
+source-wordcount: '686'
+ht-degree: 95%
 
 ---
 
@@ -39,7 +39,17 @@ Wenn das Segment mit der Adobe Experience Platform-Option für Audiences mit hoh
 
 1. Klicken Sie in das Feld **[!UICONTROL Segment]** und wählen Sie die gewünschten Segmente aus.
 
+   >[!NOTE]
+   >
+   >Beachten Sie, dass Sie die in der Liste angezeigten Spalten anpassen und sortieren können.
+
    ![](../assets/segment6.png)
+
+   Nachdem das Segment hinzugefügt wurde, können Sie mit der Schaltfläche &quot; **[!UICONTROL Kopieren]** &quot;dessen Namen und ID kopieren:
+
+   `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
+
+   ![](../assets/segment-copy.png)
 
 1. Wählen Sie im Feld **[!UICONTROL Verhalten]** aus, ob Sie Segmenteintritte, -austritte oder beides überwachen möchten.
 
@@ -59,7 +69,7 @@ Siehe [Bedingungsaktivität](../building-journeys/condition-activity.md#about_co
 
 ![](../assets/segment8.png)
 
-## Best Practices für Segmente {#best-practices-segments}
+## Best Practices {#best-practices-segments}
 
 Mit der Aktivität **[!UICONTROL Segmentqualifikation]** wird der sofortige Eintritt in Journeys von Personen möglich, die über ein Adobe Experience Platform-Segment qualifiziert oder disqualifiziert werden.
 
