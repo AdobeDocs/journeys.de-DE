@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 771b2b35e0aba412e4eb9e12a5d57de3d4c7068c
 workflow-type: tm+mt
 source-wordcount: '905'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Weitere Informationen zum Erstellen einer Journey finden Sie unter [](../buildin
 
    ![](../assets/journeyuc2_15.png)
 
-1. Click **[!UICONTROL Advanced mode]** and define the following condition based on the &quot;timestamp&quot; and &quot;directMarketing.sends.value&quot; fields coming from the Adobe Experience Platform data source. Die Syntax des Ausdrucks lautet:
+1. Klicken Sie auf **[!UICONTROL Erweiterter Modus]** und definieren Sie die folgende Bedingung basierend auf den Feldern „timestamp“ und „directMarketing.send.value“, die aus der Adobe Experience Platform-Datenquelle kommen. Die Syntax des Ausdrucks lautet:
 
    ```
    count(#{ExperiencePlatformDataSource.MarltonExperience.experienceevent.all(
