@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Der erweiterte Ausdruckseditor kann verwendet werden, um Bedingungen zum Filtern
 
 Sie benötigen den erweiterten Ausdruckseditor, um Abfragen zu Zeitreihen wie eine Liste der Käufe oder vergangene Klicks auf Nachrichten durchzuführen. Solche Abfragen können nicht mit dem einfachen Editor ausgeführt werden.
 
-Die Erlebnis-Ereignis werden aus der Adobe Experience Platform in umgekehrter chronologischer Reihenfolge abgerufen. Daher:
+Die Erlebnisereignisse werden von Adobe Experience Platform als Sammlung in umgekehrter chronologischer Reihenfolge abgerufen. Entsprechend gilt:
 
 * Die Funktion &quot;first&quot; gibt das neueste Ereignis zurück.
 * Die Funktion &quot;last&quot; gibt das älteste zurück.
@@ -150,4 +150,4 @@ Mit dem folgenden Ausdruck können Sie die CRM-ID in einem Feld zur Aktionsperso
 
 Erläuterung: In diesem Beispiel werden die `substr`- und `lastIndexOf`-Funktionen verwendet, um geschweifte Klammern zu entfernen, die die CRM-ID einschließen, die bei einem App-Startereignis übergeben wurde.
 
-Weitere Informationen zur Verwendung des erweiterten Ausdruckseditors finden Sie in [diesem Video](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/create-a-journey.html).
+Weitere Informationen zur Verwendung des erweiterten Ausdruckseditors finden Sie in [diesem Video](https://docs.adobe.com/content/help/de-DE/journey-orchestration-learn/tutorials/create-a-journey.html).
