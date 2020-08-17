@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '186'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -35,4 +35,4 @@ Wenn Sie eine Aktionsaktivität auf der Arbeitsfläche ablegen, können Sie eine
 
 ![](../assets/journey59bis.png)
 
-Wenn in einer Aktion oder einer Bedingung ein Fehler auftritt, wird die Reise einer einzelnen Person gestoppt. Die einzige Möglichkeit, um den Vorgang fortzusetzen, besteht darin, das Kontrollkästchen **[!UICONTROL Hinzufügen einen alternativen Pfad im Falle eines Timeouts oder eines Fehlers]** zu aktivieren. Siehe [](../building-journeys/using-the-journey-designer.md#paths).
+Wenn in einer Aktion oder einer Bedingung ein Fehler auftritt, wird die Journey der Person gestoppt. Die einzige Möglichkeit zum Fortsetzen des Vorgangs besteht darin, das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** zu aktivieren. Siehe [](../building-journeys/using-the-journey-designer.md#paths).
