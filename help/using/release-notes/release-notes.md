@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: 8641b577e91492c86e6fc8e201acd6a208e5e38b
 workflow-type: tm+mt
 source-wordcount: '1107'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -181,7 +181,7 @@ Die Benutzeroberfläche von Journey Orchestration ist auf Japanisch verfügbar.
 
 **Sonstige Verbesserungen**
 
-* Journeys Orchestration ist jetzt neben den USA auch in der Region **EMEA** verfügbar. Die Anwendung und die Dokumentation sind in Französisch und Deutsch verfügbar.
+* In addition to US, Journey Orchestration is now available in **EMEA**. Die Anwendung und die Dokumentation sind in Französisch und Deutsch verfügbar.
 
 * Experience League ist jetzt in das Produkt integriert. Dies vereinfacht den Zugriff auf verwandte Inhalte und hilft Ihnen, Experience Cloud optimal zu nutzen. Unten im Tab „Hilfe“ können Sie direkt auf die Dokumentation für Journey Orchestration zugreifen. Sie können auch auf „Hilfe > Feedback“ klicken, um Adobe Probleme oder Anregungen mitzuteilen.
 
