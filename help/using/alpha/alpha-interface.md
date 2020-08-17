@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: 10c6406adb1473dcd150b43b5b5c8b178376f3ed
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 100%
+source-wordcount: '199'
+ht-degree: 79%
 
 ---
 
@@ -32,6 +32,10 @@ In diesem [Abschnitt](../about/user-interface.md) werden globale Konzepte zur Ve
 
 ## Aufrufen von [!DNL Journey Orchestration]-Funktionen {#accessing-journey-orchestration-functionalities}
 
+Die Menüleiste auf der linken Seite gibt Ihnen Zugang zu den verschiedenen Funktionen. Klicken Sie auf ein Symbol, um das entsprechende Menü aufzurufen. Sie können auf den Pfeil unten links klicken, um die Menüleiste zu erweitern oder zu reduzieren.
+
+![](../assets/interface-journeys2.png)
+
 Wenn Sie [!DNL Journey Orchestration] aufrufen, wird das Menü **[!UICONTROL Journeys]** angezeigt, über das Sie auf bestehende Journeys zugreifen oder neue Journeys erstellen können. Siehe [Verwenden des Journey-Designers](../building-journeys/using-the-journey-designer.md).
 
 ![](../assets/interface-journeys.png)
@@ -43,3 +47,4 @@ Wenn Sie [!DNL Journey Orchestration] aufrufen, wird das Menü **[!UICONTROL Jou
 Das Menü **[!UICONTROL Admin]** steht allen Benutzern mit Administratorrechten zur Verfügung (siehe [Zugriffsverwaltung](../about/access-management.md)). Es bietet ein Dashboard, mit dem Sie [Datenquellen](../datasource/about-data-sources.md), [Ereignisse](../event/about-events.md) und [Aktionen](../action/action.md)einrichten können.
 
 ![](../assets/interface-admin-dashboard.png)
+
