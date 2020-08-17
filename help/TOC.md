@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '382'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 97%
       + [Zeitzonen-Management](using/building-journeys/timezone-management.md)
    + Aktivitäten {#about-journey-building}
       + Ereignisaktivitäten {#events-activities}
-         + [Aktivitäten zu Ereignisse](using/building-journeys/event-activities.md)
+         + [Über Ereignisaktivitäten](using/building-journeys/event-activities.md)
          + [Allgemeine Ereignisse](using/building-journeys/general-events.md)
          + [Reaktionsereignisse](using/building-journeys/reaction-events.md)
          + [Segmentqualifizierungsereignisse](using/building-journeys/segment-qualification-events.md)
@@ -75,7 +75,7 @@ ht-degree: 97%
          + [Verwenden benutzerdefinierter Aktionen](using/building-journeys/using-custom-actions.md)
    + [Testen der Journey](using/building-journeys/testing-the-journey.md)
    + [Veröffentlichen der Journey](using/building-journeys/publishing-the-journey.md)
-   + Freigeben von Reiseschritten mit Adobe Experience Platform {#sharing-journey-steps}
+   + Freigabe von Journey-Schritten mit Adobe Experience Platform {#sharing-journey-steps}
       + [Übersicht über die Freigabe von Journey-Schritten](using/building-journeys/sharing-overview.md)
       + [Gemeinsame Felder für journeyStep-Ereignisse](using/building-journeys/sharing-common-fields.md)
       + [Aktionsausführungsfelder für journeyStep-Ereignisse](using/building-journeys/sharing-execution-fields.md)
