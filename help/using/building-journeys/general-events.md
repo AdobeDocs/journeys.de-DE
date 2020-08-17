@@ -1,6 +1,6 @@
 ---
 title: Allgemeine Ereignisse
-description: Allgemeine Ereignisse
+description: Erfahren Sie mehr über allgemeine Ereignisse
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 787b203c00b821e1e86360a13612136bec6c549b
 workflow-type: tm+mt
 source-wordcount: '38'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
