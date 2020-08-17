@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 5a480ba736b642485f2078a6e6c40c28a11f38a3
 workflow-type: tm+mt
 source-wordcount: '921'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -21,22 +21,22 @@ ht-degree: 71%
 
 ## Informationen zur Zugriffsverwaltung {#about-access-management}
 
-[!DNL Journey Orchestration] ermöglicht es Ihnen, Ihren Benutzern eine Reihe von Berechtigungen zuzuweisen, um zu definieren, auf welchen Teil der Oberfläche sie zugreifen können.
+In [!DNL Journey Orchestration] können Sie Ihren Benutzern verschiedene Rechte zuweisen und dadurch festlegen, welchen Teil der Benutzeroberfläche sie verwenden können.
 
 Rollen können von Administratoren verwaltet werden, die Zugriff auf die Admin Console haben. Weitere Informationen zur Admin Console finden Sie in [dieser Dokumentation](https://helpx.adobe.com/de/enterprise/managing/user-guide.html).
 
-Um Zugriff [!DNL Journey Orchestration]zu haben, muss ein Benutzer:
+Um Zugriff auf [!DNL Journey Orchestration] zu erhalten, muss ein Benutzer:
 
-* Teil eines [!DNL Journey Orchestration] Profils **[!UICONTROL , das mit]** [!DNL Journey Orchestration] Berechtigungen verknüpft ist.
-* Teil eines [!DNL Adobe Experience Platform] Profils ****. Es ist keine zwingende Erlaubnis erforderlich. Der Benutzer sollte über die Berechtigung zum **[!UICONTROL Profil-Management]** verfügen, um Plattformsegmente über die [!DNL Journey Orchestration] Oberfläche erstellen und bearbeiten zu können. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://docs.adobe.com/content/help/en/experience-platform/access-control/home.html#adobe-admin-console).
+* Teil eines [!DNL Journey Orchestration]-**[!UICONTROL Produktprofils]** sein, das mit [!DNL Journey Orchestration]-Berechtigungen verknüpft ist.
+* Teil eines [!DNL Adobe Experience Platform]-**[!UICONTROL Produktprofils]** sein. Es ist keine zwingende Berechtigung erforderlich. Der Benutzer sollte über die Berechtigung **[!UICONTROL Profil-Management]** verfügen, um Plattformsegmente über die [!DNL Journey Orchestration]-Oberfläche erstellen und bearbeiten zu können. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://docs.adobe.com/content/help/de-DE/experience-platform/access-control/home.html#adobe-admin-console).
 
 In der Admin Console können Sie Ihren Benutzern eines der folgenden vordefinierten Produktprofile zuweisen:
 
-* **[!UICONTROL Benutzer mit eingeschränktem Zugriff]**: Benutzer mit schreibgeschütztem Zugriff auf Journeys und Berichte. Dieses Profil umfasst die folgenden Berechtigungen:
+* **[!UICONTROL Benutzer mit eingeschränktem Zugriff]**: Benutzer mit schreibgeschütztem Zugriff auf Journeys und Berichte. Dieses Produktprofil umfasst folgende Berechtigungen:
    * Journeys lesen
    * Berichte lesen
 
-* **[!UICONTROL Administratoren]**: Benutzer mit Zugriff auf die Verwaltungsmenüs und mit der Fähigkeit, Journeys, Ereignisse und Berichte zu verwalten. Dieses Profil umfasst die folgenden Berechtigungen:
+* **[!UICONTROL Administratoren]**: Benutzer mit Zugriff auf die Verwaltungsmenüs und mit der Fähigkeit, Journeys, Ereignisse und Berichte zu verwalten. Dieses Produktprofil umfasst folgende Berechtigungen:
    * Journeys verwalten
    * Journeys veröffentlichen
    * Ereignisse, Datenquellen und Aktionen verwalten
@@ -46,13 +46,13 @@ In der Admin Console können Sie Ihren Benutzern eines der folgenden vordefinier
    >
    >**[!UICONTROL Administratoren]** ist das einzige Produktprofil, das in Adobe Campaign Standard eine Erstellung, Bearbeitung und Veröffentlichung von Transaktionsnachrichten (oder Nachrichtenvorlagen) ermöglicht. Dieses Produktprofil ist erforderlich, wenn Sie mit Adobe Campaign Standard in Journeys Nachrichten senden möchten.
 
-* **[!UICONTROL Standardbenutzer]**: Benutzer mit Basiszugriff, wie z. B. Verwaltung von Journeys. Dieses Profil umfasst die folgenden Berechtigungen:
+* **[!UICONTROL Standardbenutzer]**: Benutzer mit Basiszugriff, wie z. B. Verwaltung von Journeys. Dieses Produktprofil umfasst folgende Berechtigungen:
    * Journeys verwalten
    * Journeys veröffentlichen
    * Berichte verwalten
 
 Wenn die nativen Profile für Ihre Anforderungen nicht ausreichend sind, können Sie auch eigene Produktprofile erstellen.
-Benutzer müssen immer mit einem Produkt-Profil verknüpft sein, damit Sie ihnen spezifische Buildberechtigungen zuweisen können, z. B.:
+Benutzer müssen stets mit einem Produktprofil verknüpft sein, damit Sie ihnen bestimmte native Berechtigungen zuweisen können, z. B.:
 
 * **[!UICONTROL Journeys lesen]**
 * **[!UICONTROL Berichte lesen]**
@@ -62,17 +62,17 @@ Benutzer müssen immer mit einem Produkt-Profil verknüpft sein, damit Sie ihnen
 * **[!UICONTROL Journeys veröffentlichen]**
 * **[!UICONTROL Berichte verwalten]**
 
-You can find below the compatibility between permissions and [!DNL Journey Orchestration]&#39;s different functionalities.
+Sie können hier die Kompatibilität zwischen Berechtigungen und den verschiedenen Funktionen bei [!DNL Journey Orchestration] ermitteln.
 
 ![](../assets/do-not-localize/journey_permission.png)
 
 ## Erstellen eines Produktprofils {#create-product-profile}
 
-[!DNL Journey Orchestration] ermöglicht es Ihnen, Ihre eigenen Profil zu erstellen und Ihren Benutzern eine Reihe von Berechtigungen und Sandboxen zuzuweisen. Mit Produktprofilen können Sie Zugriff auf bestimmte Funktionen oder Objekte in der Benutzeroberfläche zulassen oder verweigern.
+[!DNL Journey Orchestration] ermöglicht Ihnen, eigene Produktprofile zu erstellen und Ihren Benutzern eine Reihe von Berechtigungen und Sandboxes zuzuweisen. Mit Produktprofilen können Sie Zugriff auf bestimmte Funktionen oder Objekte in der Benutzeroberfläche zulassen oder verweigern.
 
 Weitere Informationen zum Erstellen und Verwalten von Sandboxes finden Sie in der [Dokumentation zu Adobe Experience Platform](https://docs.adobe.com/content/help/de-DE/experience-platform/sandbox/ui/user-guide.html).
 
-So erstellen Sie ein Produkt-Profil und weisen einen Satz von Berechtigungen und Sandboxen zu:
+So erstellen Sie ein Produktprofil und weisen einen Satz von Berechtigungen und Sandboxes zu:
 
 1. Wählen Sie in der Admin Console die Option **[!UICONTROL Journey Orchestration]** aus. Klicken Sie auf dem Tab **[!UICONTROL Produktprofile]** auf **[!UICONTROL Neues Profil]**.
 
@@ -102,8 +102,8 @@ So erstellen Sie ein Produkt-Profil und weisen einen Satz von Berechtigungen und
 
    ![](../assets/do-not-localize/user_management_9.png)
 
-1. From the **[!UICONTROL Authoring]** permission category, carry out the same steps as above to add permissions to your product profile.
-   <br>Weitere Informationen zu Berechtigungen und Kompatibilität zwischen Berechtigungen und [!DNL Journey Orchestration]den verschiedenen Funktionen finden Sie in diesem [Abschnitt](../about/access-management.md#about-access-management).
+1. Führen Sie in der Berechtigungskategorie **[!UICONTROL Authoring]** dieselben Schritte wie oben aus, um Ihrem Produktprofil Berechtigungen hinzuzufügen.
+   <br>Weitere Informationen zu Berechtigungen und zur Kompatibilität zwischen Berechtigungen sowie zu den verschiedenen Funktionen von [!DNL Journey Orchestration] finden Sie in diesem [Abschnitt](../about/access-management.md#about-access-management).
 
    ![](../assets/do-not-localize/user_management_10.png)
 
@@ -113,8 +113,8 @@ Ihr Profil wurde erstellt und konfiguriert. Anwender, die mit diesem Profil verk
 
 ## Zuweisen eines Produktprofils {#assigning-product-profile}
 
-Produktberechtigungen werden einer Reihe von Profilen zugewiesen, die innerhalb Ihres Unternehmens dieselben Berechtigungen besitzen.
-Die Liste aller vordefinierten Profil mit zugewiesenen Berechtigungen finden Sie in diesem Abschnitt.
+Produktprofile werden einer Reihe von Benutzern zugewiesen, die innerhalb Ihres Unternehmens dieselben Rechte haben.
+Die Liste aller nativen Produktprofile mit zugewiesenen Berechtigungen finden Sie in diesem Abschnitt.
 
 So weisen Sie einem Benutzer ein Produktprofil für den Zugriff auf [!DNL Journey Orchestration] zu:
 
@@ -143,7 +143,7 @@ Ihr Benutzer sollte dann eine E-Mail mit einer Umleitung zur [!DNL Journey Orche
 [!DNL Journey Orchestration] ermöglicht es Ihnen, Ihre Instanz in separate virtuelle Umgebungen, so genannte Sandboxes, zu unterteilen.
 Sandboxes werden über Produktprofile in der Admin Console zugewiesen. Weiterführende Informationen zur Zuweisung von Sandboxes finden Sie in [diesem Abschnitt](../about/access-management.md#create-product-profile).
 
-[!DNL Journey Orchestration] spiegelt die für eine bestimmte Organisation erstellten Adobe Experience Platform-Sandboxen wider.
-Adobe Experience Platform-Sandboxen können von Ihrer Adobe Experience Platform-Instanz erstellt oder zurückgesetzt werden. Detaillierte Anweisungen dazu finden Sie im [Sandbox-Benutzerhandbuch](https://docs.adobe.com/content/help/de-DE/experience-platform/sandbox/ui/user-guide.html).
+[!DNL Journey Orchestration] spiegelt die Adobe Experience Platform-Sandboxes wider, die für eine bestimmte Organisation erstellt wurden.
+Adobe Experience Platform-Sandboxes können über Ihre Adobe Experience Platform-Instanz erstellt oder zurückgesetzt werden. Detaillierte Anweisungen dazu finden Sie im [Sandbox-Benutzerhandbuch](https://docs.adobe.com/content/help/de-DE/experience-platform/sandbox/ui/user-guide.html).
 
 Das Steuerelement für den Sandbox-Umschalter finden Sie oben links auf Ihrem Bildschirm. Um von einer Sandbox zu einer anderen zu wechseln, klicken Sie im Umschalter auf die derzeit aktive Sandbox und wählen dann in der Dropdown-Liste eine andere Sandbox aus.
