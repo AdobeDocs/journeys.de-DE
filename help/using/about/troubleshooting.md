@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '1052'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Auf dem Zeichen neben dem Umschalter **[!UICONTROL Testen]** und der Schaltfläc
 
 Fehler und Warnungen, die die gesamte Journey betreffen, werden in der Liste zuerst aufgeführt. Fehler und Warnungen, die einzelne Aktivitäten betreffen, werden danach aufgeführt (anhand der Aktivitätsreihenfolge oder des Auftretens in der Journey von links nach rechts). Mit der Schaltfläche **[!UICONTROL Details kopieren]** lassen sich technische Informationen zur Journey kopieren, die dem Support-Team bei der Problembehebung helfen.
 
-Wenn in einer Aktion oder einer Bedingung ein Fehler auftritt, wird die Reise einer einzelnen Person gestoppt. Die einzige Möglichkeit, um den Vorgang fortzusetzen, besteht darin, das Kontrollkästchen **[!UICONTROL Hinzufügen einen alternativen Pfad im Falle eines Timeouts oder eines Fehlers]** zu aktivieren. Siehe [](../building-journeys/using-the-journey-designer.md#paths).
+Wenn in einer Aktion oder einer Bedingung ein Fehler auftritt, wird die Journey der Person gestoppt. Die einzige Möglichkeit zum Fortsetzen des Vorgangs besteht darin, das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** zu aktivieren. Siehe [](../building-journeys/using-the-journey-designer.md#paths).
 
 ## Überprüfen, ob Ereignisse ordnungsgemäß gesendet werden{#section_rqz_11t_dgb}
 
@@ -51,7 +51,7 @@ Der Ausgangspunkt einer Journey ist stets ein Ereignis. Sie können mithilfe von
 
 Sie können prüfen, ob der API-Aufruf, den Sie über diese Tools versenden, richtig gesendet wurde oder nicht. Wenn Sie einen Fehler erhalten, bedeutet das, dass es bei Ihrem Aufruf zu einem Fehler kommt. Überprüfen Sie erneut die Payload, die Kopfzeile (insbesondere die Organisations-ID) sowie die Ziel-URL. Sie können Ihren Administrator nach der richtigen URL fragen.
 
-Ereignisse werden von der Quelle nicht direkt an [!DNL Journey Orchestration] weitergeleitet. Indeed, [!DNL Journey Orchestration] relies on Adobe Experience Platform’s streaming ingestion APIs. Darum können Sie bei Problemen mit Ereignissen auf dieser [Seite](https://docs.adobe.com/content/help/de-DE/experience-platform/ingestion/streaming/troubleshooting.html) die Fehlerbehebung für Streaming-Aufnahme-APIs aufrufen.
+Ereignisse werden von der Quelle nicht direkt an [!DNL Journey Orchestration] weitergeleitet. [!DNL Journey Orchestration] benötigt dazu Streaming-Aufnahme-APIs von Adobe Experience Platform. Darum können Sie bei Problemen mit Ereignissen auf dieser [Seite](https://docs.adobe.com/content/help/de-DE/experience-platform/ingestion/streaming/troubleshooting.html) die Fehlerbehebung für Streaming-Aufnahme-APIs aufrufen.
 
 ## Überprüfen, ob Personen in die Journey einsteigen{#section_x4v_zzs_dgb}
 
