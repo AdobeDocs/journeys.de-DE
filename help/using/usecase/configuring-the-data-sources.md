@@ -14,18 +14,18 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
 # Konfigurieren von Datenquellen {#concept_vml_hdy_w2b}
 
-In unserem Anwendungsfall möchten wir für unsere Nachrichten Personalisierungsdaten verwenden. Außerdem müssen wir überprüfen, ob die Person Mitglied des Treueprogramms ist und in den letzten 24 Stunden nicht kontaktiert wurde. Diese Informationen sind in der Echtzeit-Kundenprofildatenbank gespeichert. The **technical user** needs to configure the Adobe Experience Platform data source to retrieve those fields.
+In unserem Anwendungsfall möchten wir für unsere Nachrichten Personalisierungsdaten verwenden. Außerdem müssen wir überprüfen, ob die Person Mitglied des Treueprogramms ist und in den letzten 24 Stunden nicht kontaktiert wurde. Diese Informationen sind in der Echtzeit-Kundenprofildatenbank gespeichert. Der **technische Anwender** muss die Adobe Experience Platform-Datenquelle konfigurieren, damit sich diese Felder abrufen lassen.
 
 Weitere Informationen zur Datenquellenkonfiguration finden Sie unter [](../datasource/about-data-sources.md).
 
-1. In the top menu, click the **[!UICONTROL Data Sources]** tab and select the build-in Adobe Experience Platform data source.
+1. Klicken Sie im oberen Menü auf den Tab **[!UICONTROL Datenquellen]** und wählen Sie die integrierte Adobe Experience Platform-Datenquelle aus.
 
    ![](../assets/journey23.png)
 
