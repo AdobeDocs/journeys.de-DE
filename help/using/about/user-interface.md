@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 3c6c20feb2d461a5780dde5539811beee2eb78b7
 workflow-type: tm+mt
 source-wordcount: '1062'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 98%
 
 ## Zugreifen auf [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-Um die Benutzeroberfläche von [!DNL Journey Orchestration] zu aufzurufen, klicken Sie oben rechts auf das Symbol **[!UICONTROL App-Auswahl]**. Then click **[!UICONTROL Journey Orchestration]**, on the right side, below **[!UICONTROL Experience Platform]**.
+Um die Benutzeroberfläche von [!DNL Journey Orchestration] zu aufzurufen, klicken Sie oben rechts auf das Symbol **[!UICONTROL App-Auswahl]**. Klicken Sie dann rechts unter **[!UICONTROL Experience Platform]** auf **[!UICONTROL Journey Orchestration]**.
 
 ![](../assets/journey1.png)
 
@@ -77,11 +77,11 @@ In den verschiedenen Listen können Sie grundlegende Aktionen für einzelne Elem
 
 ![](../assets/journey4.png)
 
-## Durchsuchen der Adobe Experience Platform-Felder {#friendly-names-display}
+## Durchsuchen von Adobe Experience Platform-Feldern {#friendly-names-display}
 
 Bei der Definition von [Ereignis-Payload](../event/defining-the-payload-fields.md), [Feldgruppen-Payload](../datasource/field-groups.md) und der Auswahl von Feldern im [Ausdruckseditor](../expression/expressionadvanced.md) wird der Anzeigename zusätzlich zum Feldnamen angezeigt. Diese Informationen werden aus der Schemadefinition im Experience-Datenmodell abgerufen.
 
-Wenn beim Einrichten von Schemata Deskriptoren wie „xdm:alternativeDisplayInfo“ angegeben werden, werden die Anzeigenamen durch benutzerfreundliche Namen ersetzt. Dies ist besonders bei der Verwendung von eVars und generischen Feldern nützlich. Deskriptoren für benutzerfreundliche Namen können über einen API-Aufruf konfiguriert werden. Weitere Informationen finden Sie im [Entwicklerhandbuch zur Schema Registry](https://docs.adobe.com/content/help/de-DE/experience-platform/xdm/api/getting-started.html).
+Wenn beim Einrichten von Schemata Deskriptoren wie „xdm:alternateDisplayInfo“ angegeben werden, werden die Anzeigenamen durch benutzerfreundliche Namen ersetzt. Dies ist besonders bei der Verwendung von eVars und generischen Feldern nützlich. Deskriptoren für benutzerfreundliche Namen können über einen API-Aufruf konfiguriert werden. Weitere Informationen finden Sie im [Entwicklerhandbuch zur Schema Registry](https://docs.adobe.com/content/help/de-DE/experience-platform/xdm/api/getting-started.html).
 
 ![](../assets/xdm-from-descriptors.png)
 
