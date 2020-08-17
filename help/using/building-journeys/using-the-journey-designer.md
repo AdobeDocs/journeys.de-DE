@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '1370'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Alle Versionen Ihrer Journeys erscheinen in der Liste mit der Versionsnummer. Si
 
 >[!NOTE]
 >
->To open a journey&#39;s canvas in a different browser tab, hold the **Control** or **Command** key and click on the journey.
+>Um die Arbeitsfläche einer Journey in einem anderen Browser-Tab zu öffnen, halten Sie die **Strg**- oder **Befehlstaste** gedrückt und klicken Sie auf die Journey.
 
 ## Die Palette {#palette}
 
