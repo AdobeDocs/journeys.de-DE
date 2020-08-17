@@ -1,5 +1,5 @@
 ---
-title: Aktivitäten zu Ereignisse
+title: Über Ereignisaktivitäten
 description: Erfahren Sie mehr über Ereignisaktivitäten
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -14,14 +14,14 @@ translation-type: tm+mt
 source-git-commit: 71b5b1ecd20056d0103ae1a8b83a31478449e844
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 
-# Aktivitäten zu Ereignisse {#concept_rws_1rt_52b}
+# Über Ereignisaktivitäten{#concept_rws_1rt_52b}
 
-The events configured by the technical user (see [](../event/about-events.md)) are all displayed in the first category of the palette, on the left side of the screen.
+Die vom technischen Anwender konfigurierten Ereignisse (siehe [](../event/about-events.md)) werden alle in der ersten Kategorie der Palette auf der linken Seite des Bildschirms angezeigt.
 
 ![](../assets/journey43.png)
 
