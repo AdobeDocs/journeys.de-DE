@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 78%
 
 # Erstellen eines Segments {#creating-a-segment}
 
-You can either create a segment using the [Adobe Experience Platform Segmentation Service](https://docs.adobe.com/content/help/de-DE/experience-platform/segmentation/home.html) or you can access and create them directly in [!DNL Journey Orchestration].
+Sie können ein Segment entweder mit dem [Segmentierungsdienst von Adobe Experience Platform](https://docs.adobe.com/content/help/de-DE/experience-platform/segmentation/home.html) erstellen oder direkt in [!DNL Journey Orchestration] aufrufen und einrichten.
 
 1. Klicken Sie oben im Menü auf den Tab **[!UICONTROL Segmente]**. Die Liste der Adobe Experience Platform-Segmente wird angezeigt. Sie können in der Liste nach einem bestimmten Segment suchen.
 
