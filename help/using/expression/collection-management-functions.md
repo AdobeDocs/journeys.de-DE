@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '599'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -208,7 +208,7 @@ Das Ergebnis ist „token_2“.
 
 >[!NOTE]
 >
->Die Erlebnis-Ereignis werden aus der Adobe Experience Platform als Sammlung in umgekehrter chronologischer Reihenfolge abgerufen. Daher:
+>Die Erlebnisereignisse werden von Adobe Experience Platform als Sammlung in umgekehrter chronologischer Reihenfolge abgerufen. Entsprechend gilt:
 >* Die Funktion **[!UICONTROL first]** gibt das neueste Ereignis zurück.
 >* Die Funktion **[!UICONTROL last]** gibt das älteste zurück.
 
