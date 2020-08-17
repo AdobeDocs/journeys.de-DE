@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Im Folgenden finden Sie die wichtigsten Schritte zum Konfigurieren und Verwenden
 
 1. **Konfigurieren der Datenquelle**
 
-   Sie müssen eine Verbindung zu einem System definieren, um zusätzliche Informationen abrufen zu können, die bei Ihren Journeys verwendet werden (z. B. in Ihren Bedingungen). Eine integrierte Adobe Experience Platform-Datenquelle wird auch zur Bereitstellungszeit konfiguriert. Dieser Schritt ist nicht erforderlich, wenn Sie ausschließlich Daten aus den Ereignissen Ihrer Journey nutzen. Dieser Schritt wird von einem **technischen Anwender** ausgeführt.
+   Sie müssen eine Verbindung zu einem System definieren, um zusätzliche Informationen abrufen zu können, die bei Ihren Journeys verwendet werden (z. B. in Ihren Bedingungen). Außerdem wird zur Bereitstellungszeit eine integrierte Adobe Experience Platform-Datenquelle konfiguriert. Dieser Schritt ist nicht erforderlich, wenn Sie ausschließlich Daten aus den Ereignissen Ihrer Journey nutzen. Dieser Schritt wird von einem **technischen Anwender** ausgeführt.
 
    Weitere Informationen hierzu finden Sie im Abschnitt [](../datasource/about-data-sources.md).
 
