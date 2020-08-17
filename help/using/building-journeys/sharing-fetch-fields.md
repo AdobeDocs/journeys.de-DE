@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Typ: lang
 
 ## fetchTypeInError
 
-Definiert, ob sich der Fehler &quot;Abrufen&quot;auf dem Adobe Experience Platform oder einer benutzerdefinierten Datenquelle befindet.
+Definiert, ob sich der Abruffehler in Adobe Experience Plattform oder einer benutzerdefinierten Datenquelle befindet.
 
 Typ: Zeichenfolge
 
@@ -93,7 +93,7 @@ Typ: lang
 
 ## fetchPlatformTotalTime
 
-Die Gesamtdauer, die zum Abrufen der Daten aus Adobe Experience Platform in Millisekunden benötigt wird. Hinweis: Diese Dauer berechnet sich vom Zeitpunkt, an dem die Engine das Anreicherungsereignis an den Anreicherungsdienst sendet, bis zu dem Zeitpunkt, an dem die Engine die Antwort erhält.
+Gesamtdauer, die zum Abrufen der Daten von Adobe Experience Platform benötigt wird (in Millisekunden). Hinweis: Diese Dauer berechnet sich vom Zeitpunkt, an dem die Engine das Anreicherungsereignis an den Anreicherungsdienst sendet, bis zu dem Zeitpunkt, an dem die Engine die Antwort erhält.
 
 Typ: lang
 
