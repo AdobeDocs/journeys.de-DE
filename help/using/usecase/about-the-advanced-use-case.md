@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '414'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -49,10 +49,10 @@ Für diesen Anwendungsfall müssen wir zwei Ereignisse erstellen (siehe [](../us
 
 Es muss eine Verbindung zu zwei Datenquellen konfiguriert werden (siehe [](../usecase/configuring-the-data-sources.md)):
 
-* Die integrierte Adobe Experience Platform-Datenquelle zum Abrufen der Informationen zu unseren beiden Bedingungen (Treuemitgliedschaft und Datum des letzten Kontakts) sowie die Nachrichten-Personalisierung.
+* zur integrierten Adobe Experience Platform-Datenquelle zum Abrufen der Informationen für die beiden Bedingungen (Mitgliedschaft im Treueprogramm und Datum des letzten Kontakts) sowie der Informationen für die Personalisierung der Nachricht.
 * zum Hotelreservierungssystem zum Abrufen der Informationen über den Reservierungsstatus.
 
-## Voraussetzungen:    {#prerequisites}
+## Voraussetzungen:     {#prerequisites}
 
 Für unseren Anwendungsfall haben wir mit Adobe Campaign Standard drei Transaktionsnachrichtenvorlagen entwickelt. Wir nutzen Transaktionsnachrichtenvorlagen für Ereignisse. Mehr dazu erfahren Sie auf [dieser Seite](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
 
