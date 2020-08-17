@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b66cdb31b62b4627ff7378e48879ffadfedda5cb
+source-git-commit: 76c2f4c1f459bb7bb21101708340137ae5f89ae0
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 87%
+source-wordcount: '576'
+ht-degree: 83%
 
 ---
 
@@ -41,6 +41,8 @@ Nehmen wir an, Sie verfügen über ein Segment für „Gold-Kunden“ in Adobe E
 
    Die Aktivität muss als erster Schritt einer Journey positioniert werden.
 
+1. Fügen Sie der Aktivität einen **[!UICONTROL Titel]** hinzu. Dieser Schritt ist optional.
+
 1. Konfigurieren Sie den **[!UICONTROL Planungstyp]** der Aktivität.
 
    Standardmäßig tritt das Segment **[!UICONTROL so bald wie möglich]** in die Journey ein, d. h. eine Stunde nach der Veröffentlichung der Journey. Wenn das Segment zu einem bestimmten Datum/zu einer bestimmten Uhrzeit oder wiederholt in die Journey eintreten soll, wählen Sie die gewünschte Option aus der Liste aus.
@@ -51,7 +53,17 @@ Nehmen wir an, Sie verfügen über ein Segment für „Gold-Kunden“ in Adobe E
 
 1. Wählen Sie im Feld **[!UICONTROL Segment]** das Adobe Experience Platform-Segment aus, das in die Journey eintreten soll, und klicken Sie dann auf **[!UICONTROL Speichern]**.
 
+   >[!NOTE]
+   >
+   >Beachten Sie, dass Sie die in der Liste angezeigten Spalten anpassen und sortieren können.
+
    ![](../assets/segment-trigger-segment-selection.png)
+
+   Nachdem das Segment hinzugefügt wurde, können Sie mit der Schaltfläche &quot; **[!UICONTROL Kopieren]** &quot;dessen Namen und ID kopieren:
+
+   `{"name":"Gold customers,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
+
+   ![](../assets/segment-trigger-copy.png)
 
 1. Wählen Sie im Feld **[!UICONTROL Namespace]** den Namespace aus, der zur Identifizierung der Einzelanwender verwendet werden soll. Weitere Informationen zu Namespaces finden Sie in [diesem Abschnitt](../event/selecting-the-namespace.md).
 
