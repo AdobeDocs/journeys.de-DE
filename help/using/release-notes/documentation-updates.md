@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 71b5b1ecd20056d0103ae1a8b83a31478449e844
+source-git-commit: 2155bfc1c9f253be19b93a3d77e0e6d5a108f689
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 100%
+source-wordcount: '782'
+ht-degree: 91%
 
 ---
 
@@ -23,6 +23,12 @@ ht-degree: 100%
 
 Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journey Orchestration] aufgelistet.
 Lesen Sie auch die [!DNL Journey Orchestration]-[Versionshinweise](../release-notes/release-notes.md).
+
+## August 2020 {#august-2020}
+
+* Added information on how to sort and choose the columns to display in the segments list. [Mehr dazu](../building-journeys/segment-qualification-events.md)
+* Es wurden Informationen zum Kopieren des Segmentnamens und der Segmentkennung nach Auswahl hinzugefügt. [Mehr dazu](../building-journeys/segment-qualification-events.md)
+* Occurences of Experience Platform have been harmonized accross the different pages.
 
 ## Juli 2020 {#july-2020}
 
@@ -81,7 +87,7 @@ Lesen Sie auch die [!DNL Journey Orchestration]-[Versionshinweise](../release-no
 
 * Alle Screenshots wurden entsprechend den Änderungen der Benutzeroberfläche aktualisiert.
 * Der Abschnitt „Testmodus“ wurde aktualisiert. [Mehr dazu](../building-journeys/testing-the-journey.md)
-* In den Bereichen [Versandzeitoptimierung der E-Mail](../building-journeys/wait-activity.md) und [Prädiktive Ermüdungswerte](../ai-services/leveraging-fatigue-scores.md) wurde eine Warnung hinzugefügt. Diese Funktionen stehen nur Kunden zur Verfügung, die die Funktion Adobe Campaign Standard Data Service verwenden.
+* In den Bereichen [Versandzeitoptimierung der E-Mail](../building-journeys/wait-activity.md) und [Prädiktive Ermüdungswerte](../ai-services/leveraging-fatigue-scores.md) wurde eine Warnung hinzugefügt. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
 * Gestoppte Journeys können nun gelöscht werden. Die entsprechenden Seiten in der Dokumentation wurden aktualisiert.
 * Wenn in einer Journey Probleme erkannt werden, werden nun zwei Farben angezeigt. Rot steht für Fehler und orange für Warnungen. [Mehr dazu](../about/troubleshooting.md)
 * Der Abschnitt zum erweiterten Ausdruckseditor wurde aktualisiert. [Mehr dazu](../expression/expressionadvanced.md).
