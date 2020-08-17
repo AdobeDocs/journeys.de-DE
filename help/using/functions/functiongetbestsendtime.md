@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 95%
 
 Liefert eine Vorhersage zur besten Versandzeit für eine E-Mail an einen Kontakt.
 
-Diese Funktion verwendet eine im Adobe Experience Platform berechnete Punktzahl. Der Wert berechnet basierend auf dem bisherigen Verhalten die Neigung, in Zukunft auf eine E-Mail zu klicken oder diese zu öffnen. Beachten Sie, dass der Algorithmus zur Berechnung des Werts eine bestimmte Datenmenge benötigt, um zu funktionieren. Wenn nicht genügend Daten vorhanden sind, gilt die Standardzeit. Lesen Sie für weiterführende Informationen den Abschnitt [](../building-journeys/wait-activity.md).
+Diese Funktion verwendet einen in Adobe Experience Platform berechneten Wert. Der Wert berechnet basierend auf dem bisherigen Verhalten die Neigung, in Zukunft auf eine E-Mail zu klicken oder diese zu öffnen. Beachten Sie, dass der Algorithmus zur Berechnung des Werts eine bestimmte Datenmenge benötigt, um zu funktionieren. Wenn nicht genügend Daten vorhanden sind, gilt die Standardzeit. Lesen Sie für weiterführende Informationen den Abschnitt [](../building-journeys/wait-activity.md).
 
 Zur Verwendung dieser Funktion ist ein [Namespace](../event/selecting-the-namespace.md) erforderlich.
 
