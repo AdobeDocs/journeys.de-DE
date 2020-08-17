@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: 92bd110c4c91c459c8074184bdb486733ab5f3d7
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 100%
+source-wordcount: '264'
+ht-degree: 89%
 
 ---
 
@@ -25,7 +25,7 @@ Dieser Anwendungsfall zeigt, wie Sie Ermüdungswerte verwenden können, um zu ve
 
 >[!CAUTION]
 >
->Die Funktion für prädiktive Ermüdungswerte steht nur Kunden zur Verfügung, die die Funktion Adobe Campaign Standard Data Service verwenden.
+>The predictive fatigue score capability is only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
 
 ## Konfigurieren des Ereignisses {#section_ptb_ws1_ffb}
 
