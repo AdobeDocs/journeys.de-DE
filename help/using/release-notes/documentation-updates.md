@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 71b5b1ecd20056d0103ae1a8b83a31478449e844
 workflow-type: tm+mt
 source-wordcount: '725'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -26,10 +26,10 @@ Lesen Sie auch die [!DNL Journey Orchestration]-[Versionshinweise](../release-no
 
 ## Juli 2020 {#july-2020}
 
-* Es wurde ein Link zu einem neuen Tutorial-Video zum Berichte von Step-Ereignisse zu Adobe Experience Platform hinzugefügt. [Mehr dazu](../building-journeys/sharing-overview.md)
-* Der Bereich &quot;Ereignisse-Aktivitäten&quot;wurde für jede Art von Ereignissen in spezifische Unterabschnitte umstrukturiert. [Mehr dazu](../building-journeys/event-activities.md)
-* Es wurden Best Practices hinzugefügt, um eine Überlastung durch Segmentqualifizierung zu vermeiden. [Mehr dazu](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
-* Es wurde ein Hinweis hinzugefügt, der erklärt, wie eine Reise nach einem Fehler in einer Aktion oder Bedingung fortgesetzt werden kann. [Mehr dazu](../about/troubleshooting.md#section_h3q_kqk_fhb)
+* Es wurde ein Link zu einem neuen Anleitungsvideo für Schrittereignis-Berichte zu Adobe Experience Platform hinzugefügt. [Mehr dazu](../building-journeys/sharing-overview.md)
+* Der Bereich „Ereignisaktivitäten“ wurde für jede Art von Ereignis in spezifische Unterbereiche umstrukturiert. [Mehr dazu](../building-journeys/event-activities.md)
+* Es wurden Best Practices hinzugefügt, um eine Überlastung durch Segmentqualifikation zu vermeiden. [Mehr dazu](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
+* Es wurde ein Hinweis hinzugefügt, der erklärt, wie eine Journey nach einem Fehler in einer Aktion oder Bedingung fortgesetzt werden kann. [Mehr dazu](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * Es wurde ein neuer Abschnitt zu den Alpha-Funktionen hinzugefügt, die von einer begrenzten Anzahl von Kunden getestet werden. [Mehr dazu](../alpha/alpha-overview.md)
 * Es wurde ein neuer Abschnitt zur Integration mit Intelligent Services hinzugefügt. [Mehr dazu](../ai-services/ai-services-overview.md)
 * Es wurde ein neuer Abschnitt zur Erstellung von Testprofilen hinzugefügt. [Mehr dazu](../building-journeys/testing-the-journey.md#create-test-profile)
@@ -50,7 +50,7 @@ Lesen Sie auch die [!DNL Journey Orchestration]-[Versionshinweise](../release-no
 ## April 2020 {#april-2020}
 
 * Es wurde ein neuer Abschnitt zur Schemadefinition für Erlebnisereignisse hinzugefügt, der Benutzern bei der Konfiguration ihres ersten Ereignisses hilft. [mehr dazu](../event/experience-event-schema.md)
-* Die Startseite für die [!DNL Journey Orchestration]-Dokumentation wurde um weitere nützliche Links ergänzt. [mehr dazu](../../journey-orchestration-home.md)
+* Die Startseite für die [!DNL Journey Orchestration]-Dokumentation wurde um weitere nützliche Links ergänzt. [Mehr dazu](../../journey-orchestration-home.md)
 
 ## März 2020 {#march-2020}
 
