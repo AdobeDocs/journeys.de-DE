@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 92bd110c4c91c459c8074184bdb486733ab5f3d7
+source-git-commit: 9e264f0794bff859d1e1db0b8fc2c66ab19fdec7
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 95%
+source-wordcount: '382'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,8 @@ Wenn Sie warten möchten, bevor Sie die nächste Aktivität im Pfad ausführen, 
 * [Dauer](#duration)
 * [Festgelegtes Datum](#fixed_date)
 * [Benutzerdefiniert](#custom)
-* [Versandzeitoptimierung der E-Mail](#email_send_time_optimization)
+
+<!--* [Email send time optimization](#email_send_time_optimization)-->
 
 ## Informationen zur Warteaktivität{#about_wait}
 
@@ -66,26 +67,26 @@ Mit dieser Option können Sie ein benutzerdefiniertes Datum definieren, z. B. de
 
 ![](../assets/journey57.png)
 
-## Versandzeitoptimierung der E-Mail{#email_send_time_optimization}
+<!--## Email send time optimization{#email_send_time_optimization}
 
 >[!CAUTION]
 >
 >The email send time optimization capability is only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
 
-Diese Art des Wartens verwendet einen in Adobe Experience Platform berechneten Wert. Der Wert berechnet basierend auf dem bisherigen Verhalten die Neigung, in Zukunft auf eine E-Mail zu klicken oder diese zu öffnen. Beachten Sie, dass der Algorithmus zur Berechnung des Werts eine bestimmte Datenmenge benötigt, um zu funktionieren. Wenn nicht genügend Daten vorhanden sind, wird die Standardwartezeit angewendet. Zum Zeitpunkt der Veröffentlichung wird Ihnen mitgeteilt, dass die Standardzeit gilt.
+This type of wait uses a score calculated in the Adobe Experience Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default wait time will apply. At publication time, you’ll be notified that the default time applies.
 
 >[!NOTE]
 >
->Das erste Ereignis Ihrer Journey muss über einen Namespace verfügen.
+>The first event of your journey must have a namespace.
 >
->Diese Funktion steht erst nach einer **[!UICONTROL E-Mail]**-Aktivität zur Verfügung. Sie benötigen Adobe Campaign Standard.
+>This capability is only available after an **[!UICONTROL Email]** activity. You need to have Adobe Campaign Standard.
 
-1. Legen Sie im Feld **[!UICONTROL Dauer]** die Anzahl der Stunden fest, die zur Optimierung des E-Mail-Versands berücksichtigt werden sollen.
-1. Wählen Sie im Feld **[!UICONTROL Optimierungstyp]** aus, ob die Optimierung die Klicks oder Öffnungen steigern soll.
-1. Legen Sie im Feld **[!UICONTROL Standardzeit]** die standardmäßige Wartezeit fest, wenn der Wert für die Versandzeitpunkt-Prognose nicht verfügbar ist.
+1. In the **[!UICONTROL Amount of time]** field, define the number of hours to consider to optimize email sending.
+1. In the **[!UICONTROL Optimization type]** field, choose if the optimization should increase clicks or opens.
+1. In the **[!UICONTROL Default time]** field, define the default time to wait if the predictive send time score is not available.
 
-   >[!NOTE]
-   >
-   >Beachten Sie, dass der Wert für den Versandzeitpunkt möglicherweise nicht verfügbar ist, da nicht genügend Daten für die Berechnung vorhanden sind. In diesem Fall werden Sie zum Zeitpunkt der Veröffentlichung darüber informiert, dass die Standardzeit gilt.
+    >[!NOTE]
+    >
+    >Note that the send time score can be unavailable because there is not enough data to perform the calculation. In this case, you will be informed, at publication time, that the default time applies.
 
-![](../assets/journey57bis.png)
+![](../assets/journey57bis.png)-->
