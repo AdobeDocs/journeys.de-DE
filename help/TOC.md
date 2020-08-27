@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Hilfe für Journey Orchestration
 index: true
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: 10d4fd57e9a801dab2310b2b511bf99cf1d9170a
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '378'
 ht-degree: 100%
 
 ---
@@ -95,7 +95,6 @@ ht-degree: 100%
    + Funktionen {#main-functions-journey}
       + [Hauptfunktionen](using/expression/functions.md)
       + Adobe Experience Platform {#adobe-experience-platform}
-         + [getBestSendTime](using/functions/functiongetbestsendtime.md)
          + [inSegment](using/functions/functioninsegment.md)
       + Aggregation {#aggregation}
          + [avg](using/functions/functionavg.md)
@@ -168,7 +167,6 @@ ht-degree: 100%
    + [Metriken und Dimensionen](using/reporting/metrics-and-dimensions.md)
 + Integrieren mit Intelligent Services{#use-case-advanced}
    + [Informationen zur KI-Integration](using/ai-services/ai-services-overview.md)
-   + [Verwenden von Journey AI](using/ai-services/leveraging-fatigue-scores.md)
    + [Verwenden von Customer AI](using/ai-services/leveraging-customer-ai.md)
 + Anwendungsfälle{#use-cases-journeys}
    + Einfacher Anwendungsfall{#use-case-simple}
