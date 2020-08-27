@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3c5f1dcf66df31b12237788633704eeb348ddfa2
+source-git-commit: 9e264f0794bff859d1e1db0b8fc2c66ab19fdec7
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 100%
+source-wordcount: '85'
+ht-degree: 85%
 
 ---
 
@@ -25,10 +25,6 @@ Die Integration mit Intelligent Services ermöglicht es Ihnen, die Leistungsfäh
 
 Weitere Informationen zu Intelligent Services finden Sie in der [Dokumentation](https://docs.adobe.com/content/help/de-DE/experience-platform/intelligent-services/home.html).
 
-Diese Integration ermöglicht Ihnen die Nutzung von:
+Diese Integration ermöglicht es Ihnen, Kundenprognosen zu nutzen. Weitere Informationen finden Sie unter [Nutzung der Kundenaktivität.](../ai-services/leveraging-customer-ai.md)
 
-* Kundenprognosen, siehe [Verwenden von Customer AI](../ai-services/leveraging-customer-ai.md),
-* Ermüdungswerte, siehe [Verwenden von Journey AI](../ai-services/leveraging-fatigue-scores.md).
-
-
-
+<!--* fatigue scores, see [Leveraging Journey AI](../ai-services/leveraging-fatigue-scores.md)-->
