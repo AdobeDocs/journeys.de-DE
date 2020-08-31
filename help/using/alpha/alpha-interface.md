@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 10c6406adb1473dcd150b43b5b5c8b178376f3ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '199'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ In diesem [Abschnitt](../about/user-interface.md) werden globale Konzepte zur Ve
 
 ## Aufrufen von [!DNL Journey Orchestration]-Funktionen {#accessing-journey-orchestration-functionalities}
 
-Die Menüleiste auf der linken Seite gibt Ihnen Zugang zu den verschiedenen Funktionen. Klicken Sie auf ein Symbol, um das entsprechende Menü aufzurufen. Sie können auf den Pfeil unten links klicken, um die Menüleiste zu erweitern oder zu reduzieren.
+Über die Menüleiste auf der linken Seite haben Sie Zugriff auf die verschiedenen Funktionen. Klicken Sie auf ein Symbol, um auf das entsprechende Menü zuzugreifen. Sie können auf den Pfeil unten links klicken, um die Menüleiste zu erweitern oder zu reduzieren.
 
 ![](../assets/interface-journeys2.png)
 
