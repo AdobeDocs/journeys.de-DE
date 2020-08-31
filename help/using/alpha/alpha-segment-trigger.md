@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 76c2f4c1f459bb7bb21101708340137ae5f89ae0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '576'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 83%
 
 >[!NOTE]
 >
->Wenn zum Zeitpunkt der Veröffentlichung oder zur Aktivierung des Testmodus eine Out-of-the-Box-Aktion-Aktivität von Adobe Campaign Standard auf der Arbeitsfläche vorhanden ist, wird die Fahrt bei 13 Eingängen pro Sekunde gedrosselt. <br>Wenn zum Zeitpunkt der Veröffentlichung oder zur Aktivierung des Testmodus keine vordefinierte Adobe Campaign Standard-Aktionsoption auf der Arbeitsfläche vorhanden ist, wird die Aktivität um 1000 Ereignis pro Sekunde gedrosselt.
+>Wenn zum Zeitpunkt der Veröffentlichung oder der Aktivierung des Testmodus eine native Aktionsaktivität von Adobe Campaign Standard auf der Arbeitsfläche vorhanden ist, wird die Journey auf 13 Eintritte pro Sekunde gedrosselt. <br>Wenn zum Zeitpunkt der Veröffentlichung oder der Aktivierung des Testmodus keine native Aktionsaktivität von Adobe Campaign Standard auf der Arbeitsfläche vorhanden ist, wird die Journey auf 1.000 Ereignisse pro Sekunde gedrosselt.
 
 Mit der Segmentauslöser-Aktivität können Sie alle Personen, die zu einem Adobe Experience Platform-Segment gehören, in eine Journey eintreten lassen. Der Eintritt in eine Journey kann entweder einmalig oder regelmäßig erfolgen.
 
@@ -59,7 +59,7 @@ Nehmen wir an, Sie verfügen über ein Segment für „Gold-Kunden“ in Adobe E
 
    ![](../assets/segment-trigger-segment-selection.png)
 
-   Nachdem das Segment hinzugefügt wurde, können Sie mit der Schaltfläche &quot; **[!UICONTROL Kopieren]** &quot;dessen Namen und ID kopieren:
+   Nachdem das Segment hinzugefügt wurde, können Sie mit der Schaltfläche **[!UICONTROL Kopieren]** dessen Namen und ID kopieren:
 
    `{"name":"Gold customers,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
