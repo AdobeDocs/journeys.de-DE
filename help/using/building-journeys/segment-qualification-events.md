@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2ef3ce546a816f1d7d0398acc418a20803886a20
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '686'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Wenn das Segment mit der Adobe Experience Platform-Option für Audiences mit hoh
 
    ![](../assets/segment6.png)
 
-   Nachdem das Segment hinzugefügt wurde, können Sie mit der Schaltfläche &quot; **[!UICONTROL Kopieren]** &quot;dessen Namen und ID kopieren:
+   Nachdem das Segment hinzugefügt wurde, können Sie mit der Schaltfläche **[!UICONTROL Kopieren]** dessen Namen und ID kopieren:
 
    `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
