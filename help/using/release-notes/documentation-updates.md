@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 10d4fd57e9a801dab2310b2b511bf99cf1d9170a
+source-git-commit: 94989635814c9b2f035d736647ae78324d2c4f2a
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -26,9 +26,9 @@ Lesen Sie auch die [!DNL Journey Orchestration]-[Versionshinweise](../release-no
 
 ## August 2020 {#august-2020}
 
-* Es wurden Informationen zum Sortieren und Auswählen der Spalten hinzugefügt, die in der Segmentspalten-Liste angezeigt werden sollen. [mehr dazu](../building-journeys/segment-qualification-events.md)
-* Es wurden Informationen zum Kopieren des Segmentnamens und der Segmentkennung nach Auswahl hinzugefügt. [mehr dazu](../building-journeys/segment-qualification-events.md)
-* Die Vorkommen von Experience Platformen wurden auf den verschiedenen Seiten harmonisiert.
+* Es wurden Informationen zum Sortieren und Auswählen der Spalten hinzugefügt, die in der Segmentliste angezeigt werden sollen – [mehr dazu](../building-journeys/segment-qualification-events.md)
+* Es wurden Informationen zum Kopieren des Namens und der ID eines Segments hinzugefügt, nachdem es ausgewählt wurde – [mehr dazu](../building-journeys/segment-qualification-events.md)
+* Die Vorfälle der Experience Platform wurden auf den verschiedenen Seiten harmonisiert.
 
 ## Juli 2020 {#july-2020}
 
