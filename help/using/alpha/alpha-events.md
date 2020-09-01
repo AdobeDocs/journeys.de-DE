@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
+source-git-commit: 9c3b8f2d88646372e69ae4f24a5dbb5d45721c55
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 100%
+source-wordcount: '648'
+ht-degree: 58%
 
 ---
 
@@ -26,6 +26,30 @@ Die Einrichtung von Erlebnisereignissen wurde vereinfacht. Bei der neuen Methode
 Dieser neue Ereignistyp generiert keine eventID. Mit dem einfachen Ausdruckseditor definieren Sie jetzt einfach eine Regel, anhand derer das System die relevanten Ereignisse identifiziert, die Ihre Journeys auslösen. Diese Regel kann auf einem beliebigen Feld basieren, das in der Ereignis-Payload verfügbar ist, z. B. dem Standort des Profils oder der Anzahl der Artikel, die dem Warenkorb des Profils hinzugefügt wurden.
 
 Diese neue Methode ist für Benutzer weitgehend transparent. Die einzige Änderung ist ein neues Feld im Bildschirm zur Ereignisdefinition.
+
+## Nutzung von Adobe Analytics-Daten{#analytics-data}
+
+>[!NOTE]
+>
+>Dieser Abschnitt gilt nur für Kunden, die Adobe Analytics-Daten verwenden müssen.
+
+Sie können alle Adobe Analytics-Verhaltensdaten nutzen, die Sie bereits erfassen und an die Plattform streamen, um Reisen auszulösen und Erlebnisse für Ihre Ereignis zu automatisieren.
+
+Damit dies funktioniert, müssen Sie in Adobe Experience Platform die Report Suite aktivieren, die Sie nutzen möchten:
+
+1. Wählen Sie in Adobe Experience Platform **[!UICONTROL Quellen]** und dann **[!UICONTROL Hinzufügen Daten]** im Abschnitt Adobe Analytics. Die Liste der verfügbaren Adobe Analytics Report Suites wird angezeigt.
+
+1. Wählen Sie die zu aktivierende Report Suite aus, klicken Sie auf **[!UICONTROL Weiter]** und dann auf **[!UICONTROL Fertig stellen]**.
+
+1. Geben Sie die Quelldaten-ID für Ihren Alpha-Programm-Kontaktpunkt frei.
+
+Dadurch wird der Analytics-Quell-Connector für diese Report Suite aktiviert. Sobald die Daten eingehen, werden sie in ein Experience Ereignis umgewandelt und an Adobe Experience Platform gesendet.
+
+![](../assets/alpha-event9.png)
+
+Weitere Informationen zum Adobe Analytics-Quellanschluss finden Sie in der [Dokumentation](https://docs.adobe.com/help/en/experience-platform/sources/connectors/adobe-applications/analytics.html) und im [Tutorial](https://docs.adobe.com/content/help/en/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html).
+
+## Regelbasiertes Ereignis konfigurieren{#configuring-rule-based}
 
 1. Klicken Sie im linken Menü auf das Symbol **[!UICONTROL Admin]** und dann auf **[!UICONTROL Ereignis]**. Die Liste der Ereignisse wird angezeigt.
 
@@ -68,4 +92,14 @@ Diese neue Methode ist für Benutzer weitgehend transparent. Die einzige Änderu
 Die anderen Schritte für die Ereigniskonfiguration und Journey-Erstellung bleiben unverändert.
 
 Das Ereignis ist jetzt konfiguriert und kann wie jedes andere Ereignis in einer Journey abgelegt werden. Jedes Mal, wenn ein Ereignis, das der Regel entspricht, an das System gesendet wird, wird es an Journey Orchestration übergeben, um Ihre Journeys auszulösen.
+
+## Testmodus für regelbasierte Ereignis{#test-rule-based}
+
+Der Testmodus ist auch für Fahrten mit einem regelbasierten Ereignis verfügbar.
+
+Beim Auslösen eines Ereignisses können Sie im Bildschirm &quot; **Ereignis-Konfiguration** &quot;die Ereignis-Parameter definieren, die der Test bestehen soll. Sie können die Ereignis-ID-Bedingung durch Klicken auf das QuickInfo-Symbol oben rechts Ansicht werden. Neben jedem Feld, das Teil der Regelauswertung ist, steht auch eine QuickInfo zur Verfügung.
+
+![](../assets/alpha-event8.png)
+
+For more information on how to use the test mode, refer to [](../building-journeys/testing-the-journey.md).
 
