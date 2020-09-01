@@ -10,10 +10,10 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 92bd110c4c91c459c8074184bdb486733ab5f3d7
-workflow-type: ht
-source-wordcount: '1173'
+translation-type: tm+mt
+source-git-commit: ed0934f141ade1e558131e9fad609844800dd46a
+workflow-type: tm+mt
+source-wordcount: '1169'
 ht-degree: 100%
 
 ---
@@ -122,10 +122,6 @@ Mit der Schaltfläche **[!UICONTROL Ereignis auslösen]** können Sie ein Ereign
 Als Voraussetzung müssen Sie wissen, welche Profile in Adobe Experience Platform als Testprofile gekennzeichnet sind. Der Testmodus lässt nur diese Profile in der Journey zu und das Ereignis muss eine ID enthalten. Die erwartete ID hängt von der Ereigniskonfiguration ab. Sie kann beispielsweise eine ECID sein.
 
 Wenn Ihre Journey mehrere Ereignisse enthält, wählen Sie ein Ereignis aus der Dropdown-Liste aus. Konfigurieren Sie dann für jedes Ereignis die weitergeleiteten Felder und die Ausführung des Ereignisversands. Über die Benutzeroberfläche können Sie die richtigen Informationen in der Ereignis-Payload angeben und prüfen, ob der Informationstyp korrekt ist. Der Testmodus speichert die zuletzt in einer Testsitzung verwendeten Parameter zur späteren Verwendung.
-
->[!NOTE]
->
->Beachten Sie, dass der **[!UICONTROL ZEITSTEMPEL]**
 
 ![](../assets/journeytest4.png)
 
