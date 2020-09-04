@@ -10,9 +10,9 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54b54a64ad2822eec96008ac4a2e16c208a4a3ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '175'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Wir wollen nur dann eine Nachricht senden, wenn die Person weiblich ist. Die Nac
 
 ![](../assets/journeyuc1_16.png)
 
-## Voraussetzungen:    {#prerequisites}
+## Voraussetzungen:     {#prerequisites}
 
 Für unseren Anwendungsfall haben wir in Adobe Campaign Standard eine Transaktionsnachrichtenvorlage in Form einer E-Mail entwickelt. Wir verwenden eine Transaktionsnachrichtenvorlage für Ereignisse. Mehr dazu erfahren Sie auf [dieser Seite](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
 
