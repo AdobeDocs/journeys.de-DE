@@ -10,9 +10,9 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b87de729f48c4624554eb19b6d418cb3cf70b805
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '899'
 ht-degree: 100%
 
@@ -79,7 +79,7 @@ In diesen Bedienfeldern können Sie nach Bedarf Ihre Berichte erstellen. Sie kö
 
 Dann können Sie eine Freiformtabelle in Ihr Bedienfeld einfügen, um mit der Datensuche zu beginnen.
 
-### Freiformtabelle hinzufügen    {#adding-a-freeform-table}
+### Freiformtabelle hinzufügen     {#adding-a-freeform-table}
 
 Mit Freiformtabellen kann eine Tabelle erstellt werden, in der Daten unter Verwendung der unterschiedlichen Messwerte und Dimensionen im Bereich **[!UICONTROL Komponente]** analysiert werden.
 
