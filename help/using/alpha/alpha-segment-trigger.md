@@ -1,6 +1,6 @@
 ---
-title: Aktivität zum Lesen von Segmenten
-description: Erfahren Sie mehr über die Aktivität zum Lesen von Segmenten.
+title: Aktivität „Segment lesen“
+description: Erfahren Sie mehr über die Aktivität „Segment lesen“.
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,26 +10,26 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 967f453145dcf9af0e3efc5d52854d0c5c68c54f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '589'
-ht-degree: 39%
+ht-degree: 100%
 
 ---
 
 
-# Aktivität zum Lesen von Segmenten {#segment-trigger-activity}
+# Aktivität „Segment lesen“ {#segment-trigger-activity}
 
-## Aktivität zum Lesen von Segmenten {#about-segment-trigger-actvitiy}
+## Über die Aktivität „Segment lesen“ {#about-segment-trigger-actvitiy}
 
 >[!NOTE]
 >
->Wenn zum Zeitpunkt der Veröffentlichung oder der Aktivierung des Testmodus eine native Aktionsaktivität von Adobe Campaign Standard auf der Arbeitsfläche vorhanden ist, wird die Journey auf 13 Eintritte pro Sekunde gedrosselt. Andernfalls wird die Reise um 1000 Ereignis pro Sekunde gedrosselt.
+>Wenn zum Zeitpunkt der Veröffentlichung oder der Aktivierung des Testmodus eine native Aktionsaktivität von Adobe Campaign Standard auf der Arbeitsfläche vorhanden ist, wird die Journey auf 13 Eintritte pro Sekunde gedrosselt. Andernfalls wird die Journey auf 1000 Ereignisse pro Sekunde gedrosselt.
 
-Mit der Aktivität zum Lesen von Segmenten können Sie alle Personen, die zu einem Adobe Experience Platform-Segment gehören, in eine Reise einbinden. Der Eintritt in eine Journey kann entweder einmalig oder regelmäßig erfolgen.
+Mit der Aktivität „Segment-Lesen“ können Sie alle Kontakte, die zu einem Adobe Experience Platform-Segment gehören, in eine Journey eintreten lassen. Der Eintritt in eine Journey kann entweder einmalig oder regelmäßig erfolgen.
 
-Nehmen wir an, Sie verfügen über ein Segment für „Gold-Kunden“ in Adobe Experience Platform. Mit der Aktivität &quot;Segment lesen&quot;können Sie alle Personen, die dem Gold-Kundensegment angehören, auf eine Reise bringen und sie in individuelle Reisen einmünden lassen, die alle Reisefunktionalitäten nutzen: Bedingungen, Timer, Ereignisse, Aktionen.
+Nehmen wir an, Sie verfügen über ein Segment für „Gold-Kunden“ in Adobe Experience Platform. Mit der Aktivität „Segment lesen“ können Sie alle Kontakte, die zum Gold-Kundensegment gehören, in eine Journey eintreten lassen und durch individuelle Journeys führen, die alle Journey-Funktionen nutzen: Bedingungen, Timer, Ereignisse, Aktionen.
 
 ## Konfigurieren der Aktivität {#configuring-segment-trigger-activity}
 
@@ -37,11 +37,11 @@ Nehmen wir an, Sie verfügen über ein Segment für „Gold-Kunden“ in Adobe E
 >
 >Aufgrund von Latenzen beim Segmentexport ist es nicht möglich, eine segmentbasierte Journey in einem kürzeren Zeitraum als einer Stunde auszulösen.
 
-1. Unfold the **[!UICONTROL Orchestration]** category and drop a **[!UICONTROL Read Segment]** activity into your canvas.
+1. Erweitern Sie die Kategorie **[!UICONTROL Orchestrierung]** und legen Sie eine Aktivität vom Typ **[!UICONTROL Segment lesen]** auf Ihrer Arbeitsfläche ab.
 
    Die Aktivität muss als erster Schritt einer Journey positioniert werden.
 
-1. Add a **[!UICONTROL Label]** to the activity (optional).
+1. Fügen Sie der Aktivität einen **[!UICONTROL Titel]** hinzu (optional).
 
 1. Wählen Sie im Feld **[!UICONTROL Segment]** das Adobe Experience Platform-Segment aus, das in die Journey eintreten soll, und klicken Sie dann auf **[!UICONTROL Speichern]**.
 
@@ -63,34 +63,34 @@ Nehmen wir an, Sie verfügen über ein Segment für „Gold-Kunden“ in Adobe E
    >
    >Einzelanwender, die zu einem Segment gehören, das nicht die ausgewählte Identität (den ausgewählten Namespace) hat, können nicht in die Journey eintreten.
 
-1. Mit der Aktivität zum **[!UICONTROL Lesen von Segmenten]** können Sie den Zeitpunkt angeben, zu dem das Segment in die Reise eintreten wird. Klicken Sie dazu auf den Link Fahrplan **** bearbeiten, um auf die Eigenschaften der Reise zuzugreifen, und konfigurieren Sie dann das Feld **[!UICONTROL Planung Typ]** .
+1. Mit der Aktivität **[!UICONTROL Segment lesen]** können Sie den Zeitpunkt festlegen, zu dem das Segment in die Journey eintreten wird. Klicken Sie dazu auf den Link **[!UICONTROL Journey-Planung bearbeiten]**, um auf die Eigenschaften der Journey zuzugreifen, und konfigurieren Sie dann das Feld **[!UICONTROL Planungstyp]**.
 
    ![](../assets/segment-trigger-schedule.png)
 
-   By default, segments enter the journey **[!UICONTROL As soon as possible]**, meaning 1 hour after the journey is published. Wenn Sie möchten, dass das Segment zu einem bestimmten Datum/zu einer bestimmten Uhrzeit oder wiederholt auf die Reise gelangt, wählen Sie den gewünschten Wert aus der Liste aus.
+   Standardmäßig treten Segmente **[!UICONTROL so bald wie möglich]** in die Journey ein, d. h. eine Stunde nach der Veröffentlichung der Journey. Wenn das Segment zu einem bestimmten Datum/zu einer bestimmten Uhrzeit oder wiederholt in die Journey eintreten soll, wählen Sie den gewünschten Wert aus der Liste aus.
 
    >[!NOTE]
    >
-   >Beachten Sie, dass der Abschnitt **[!UICONTROL Zeitplan]** nur verfügbar ist, wenn eine Aktivität zum **[!UICONTROL Lesen von Segmenten]** auf der Arbeitsfläche abgelegt wurde.
+   >Beachten Sie, dass der Bereich **[!UICONTROL Plan]** nur verfügbar ist, wenn eine **[!UICONTROL Segment lesen]**-Aktivität auf der Arbeitsfläche abgelegt wurde.
 
    ![](../assets/segment-trigger-properties.png)
 
-## Testen und Veröffentlichen der Reise {#testing-publishing}
+## Testen und Veröffentlichen der Journey {#testing-publishing}
 
-Mit der Aktivität zum **[!UICONTROL Segmentlesen]** können Sie die Reise entweder auf einem einheitlichen Profil oder auf 100 zufällig ausgewählten Profilen unter den für das Segment qualifizierten Profilen testen.
+Mit der Aktivität **[!UICONTROL Segment lesen]** können Sie die Journey entweder auf einem unitären Profil oder auf 100 Testprofilen testen, die per Zufallsauswahl aus den für das Segment qualifizierten Profilen entnommen werden.
 
 Aktivieren Sie dazu den Testmodus und wählen Sie dann im linken Bereich die gewünschte Option aus.
 
 ![](../assets/segment-trigger-test-modes.png)
 
-Anschließend können Sie den Testmodus wie gewohnt konfigurieren. Ausführliche Anweisungen zum Testen einer Reise finden Sie in [diesem Abschnitt](../building-journeys/testing-the-journey.md).
+Anschließend können Sie den Testmodus wie gewohnt konfigurieren. Ausführliche Anweisungen zum Testen einer Journey finden Sie in [diesem Abschnitt](../building-journeys/testing-the-journey.md).
 
-Beachten Sie, dass das Testen der Reise mit bis zu 100 Profilen auf einmal den Fortschritt der einzelnen Personen auf der Reise mithilfe des visuellen Datenflusses nicht nachverfolgen kann.
+Beachten Sie, dass beim Testen der Journey mit bis zu 100 Profilen auf einmal der Fortschritt der einzelnen in der Journey enthaltenen Kontakte nicht über den visuellen Verlauf nachverfolgt werden kann.
 
-Sobald die Tests erfolgreich sind, können Sie Ihre Reise veröffentlichen (siehe [Veröffentlichen der Reise](../building-journeys/publishing-the-journey.md)). Individuals belonging to the segment will enter the journey on the date/time specified in the journey&#39;s properties **[!UICONTROL Scheduler]** section.
+Nach erfolgreichem Abschluss der Tests können Sie Ihre Journey veröffentlichen (siehe [Veröffentlichen der Journey](../building-journeys/publishing-the-journey.md)). Kontakte, die zum Segment gehören, treten an dem Datum/zu der Uhrzeit in die Journey ein, das bzw. die im Bereich **[!UICONTROL Planung]** der Eigenschaften der Journey festgelegt ist.
 
 >[!IMPORTANT]
 >
 >Beachten Sie, dass Adobe Experience Platform-Segmente entweder einmal täglich (**Batch**-Segmente) oder in Echtzeit (**gestreamte** Segmente) berechnet werden.
 >
->Wenn das ausgewählte Segment gestreamt wird, können die zu diesem Segment gehörenden Personen die Reise möglicherweise in Echtzeit aufrufen. Wenn es sich bei dem Segment um ein Batch-Segment handelt, treten für dieses Segment neu qualifizierte Personen in die Journey ein, wenn die Segmentberechnung in Adobe Experience Platform ausgeführt wird.
+>Wenn das ausgewählte Segment gestreamt wird, treten die zu diesem Segment gehörenden Kontakte in Echtzeit in die Journey ein. Wenn es sich bei dem Segment um ein Batch-Segment handelt, treten für dieses Segment neu qualifizierte Personen in die Journey ein, wenn die Segmentberechnung in Adobe Experience Platform ausgeführt wird.
