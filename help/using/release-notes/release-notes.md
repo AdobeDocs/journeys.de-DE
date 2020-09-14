@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 619f05137bfad573a5de23ceda5448180dad2d6a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1527'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -24,15 +24,15 @@ ht-degree: 83%
 Auf dieser Seite werden alle neuen Funktionen und Verbesserungen bei Journey Orchestration aufgelistet.
 Sie können auch den Abschnitt [Aktualisierungen der Dokumentation](../release-notes/documentation-updates.md) lesen.
 
-## August 2020 Release {#august-release}
+## Version August 2020 {#august-release}
 
-### GA-Updates{#august-ga-update}
+### Allgemein verfügbare Updates{#august-ga-update}
 
-Die Nutzlast von Segmentqualifizierungs-Ereignissen enthält jetzt die folgenden Kontextinformationen, die Sie in Bedingungen und Aktionen verwenden können: Verhalten (Eingang, Ausstieg), Zeitstempel der Qualifikation und Segment-ID. [mehr dazu](../building-journeys/segment-qualification-events.md)
+Die Payload von Segmentqualifkationsereignissen enthält jetzt die folgenden in Bedingungen und Aktionen verwendbaren Kontextinformationen: Verhalten (Eintreten, Verlassen), Zeitstempel der Qualifikation und Segmentkennung – [mehr dazu](../building-journeys/segment-qualification-events.md)
 
 ### Alpha-Updates{#august-alpha-update}
 
-Informationen zum Umfang des Alpha-Elements finden Sie in diesem [Abschnitt](../alpha/alpha-overview.md).
+Informationen zum Geltungsbereich des Alpha-Programms finden Sie in diesem [Abschnitt](../alpha/alpha-overview.md).
 
 <table>
 <thead>
@@ -46,11 +46,11 @@ Informationen zum Umfang des Alpha-Elements finden Sie in diesem [Abschnitt](../
 <p>Folgende Verbesserungen wurden an der Segmentauslöser-Aktivität vorgenommen:
 </p>
 <ul>
-<li><p>Der Name der Aktivität wurde in "Segment lesen"geändert. </p>
+<li><p>Der Name der Aktivität wurde in „Segment lesen“ geändert. </p>
 </li>
-<li><p>Die Konfiguration der Planung der Reise wurde aus den Eigenschaften der Aktivität entfernt. Es ist jetzt direkt von den Eigenschaften der Reise aus zugänglich, in einem speziellen Abschnitt, der angezeigt wird, wenn eine Aktivität zum Lesen des Segments auf der Arbeitsfläche abgelegt wurde. </p>
+<li><p>Die Konfiguration der Journey-Planung wurde aus den Eigenschaften der Aktivität entfernt. Sie ist jetzt direkt über die Eigenschaften der Journey in einem eigenen Bereich aufrufbar, der angezeigt wird, wenn eine „Segment lesen“-Aktivität auf der Arbeitsfläche abgelegt wurde. </p>
 </li>
-<li><p>Sie können nun die Reise auf einem einheitlichen Profil testen und den Verlauf der Reise mithilfe des visuellen Flusses verfolgen.</p>
+<li><p>Sie können die Journey jetzt auf einem unitären Profil testen und den Fortschritt der Journey über den visuellen Verlauf verfolgen.</p>
 </li>
 </ul>
 <p>Weitere Informationen finden Sie im <a href="../alpha/alpha-segment-trigger.md">entsprechenden Handbuch</a>.</p>
@@ -71,11 +71,11 @@ Informationen zum Umfang des Alpha-Elements finden Sie in diesem [Abschnitt](../
 <p>Die folgenden Verbesserungen wurden an regelbasierten Ereignissen vorgenommen:
 </p>
 <ul>
-<li><p>Sie können jetzt alle Adobe Analytics-Verhaltensdaten nutzen, die Sie bereits erfassen und an die Plattform streamen, um Reisen auszulösen und Erlebnisse für Ihre Ereignis zu automatisieren. <a href="../alpha/alpha-events.md#analytics-data">mehr dazu</a></p>
+<li><p>Sie können jetzt alle verhaltensbezogenen Ereignisdaten, die Sie in Adobe Analytics bereits erfassen und an Platform streamen, zum Auslösen von Journeys und zur Automatisierung von Erlebnissen für Ihre Kunden nutzen – <a href="../alpha/alpha-events.md#analytics-data">mehr dazu</a></p>
 </li>
-<li><p>Beim Auslösen eines regelbasierten Ereignisses im Testmodus können Sie jetzt die Ereignis-ID-Bedingung direkt Ansicht haben. Neben jedem Feld, das Teil der Regelbewertung ist, wurde eine QuickInfo hinzugefügt. <a href="../alpha/alpha-events.md#configuring-rule-based">mehr dazu</a></p>
+<li><p>Beim Auslösen eines regelbasierten Ereignisses im Testmodus können Sie jetzt die Ereignis-ID-Bedingung direkt anzeigen. Außerdem ist jetzt neben jedem Feld, das Teil der Regelauswertung ist, eine QuickInfo verfügbar – <a href="../alpha/alpha-events.md#configuring-rule-based">mehr dazu</a></p>
 </li>
-<li><p>Der Regelbasierte Bildschirm zur Definition von Ereignissen wurde neu organisiert, um ein besseres Erlebnis zu erzielen. <a href="../alpha/alpha-events.md#test-rule-based">mehr dazu</a></p>
+<li><p>Der Bildschirm zur Definition regelbasierter Ereignisse wurde zur Optimierung der Benutzerumgebung neu organisiert – <a href="../alpha/alpha-events.md#test-rule-based">mehr dazu</a></p>
 </li>
 </ul>
 </td>
@@ -83,11 +83,11 @@ Informationen zum Umfang des Alpha-Elements finden Sie in diesem [Abschnitt](../
 </tbody>
 </table>
 
-## Alpha-Version - Juli 2020 {#alpha-release---july-2020}
+## Alpha-Version – Juli 2020 {#alpha-release---july-2020}
 
 Das Alpha-Programm bietet Funktionen, die derzeit von einer begrenzten Anzahl von Kunden getestet werden. Dies ermöglicht es uns, unser Produkt basierend auf dem erhaltenen Feedback zu verbessern. Diese Funktionen stehen nicht allen Kunden von Journey Orchestration zur Verfügung.
 
-Diese Funktionen werden in einem speziellen [Abschnitt](../alpha/alpha-overview.md)beschrieben.
+Diese Funktionen werden in einem eigenen [Abschnitt](../alpha/alpha-overview.md) erläutert.
 
 <table>
 <thead>
@@ -98,7 +98,7 @@ Diese Funktionen werden in einem speziellen [Abschnitt](../alpha/alpha-overview.
 <tbody>
 <tr>
 <td>
-<p>Die Navigation innerhalb der Menüs der Journey Orchestration wurde verbessert, um eine einheitliche Benutzeroberfläche mit Adobe Experience Platform zu bieten:
+<p>Die Navigation innerhalb der Menüs von Journey Orchestration wurde dahingehend verbessert, dass sie an die Benutzeroberfläche von Adobe Experience Platform angeglichen wurde:
 </p>
 <ul>
 <li><p>Die Menüs wurden von der oberen zur linken Seite der Benutzeroberfläche verschoben. </p>
