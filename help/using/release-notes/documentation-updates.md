@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 94989635814c9b2f035d736647ae78324d2c4f2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '735'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Lesen Sie auch die [!DNL Journey Orchestration]-[Versionshinweise](../release-no
 
 * Es wurden Informationen zum Sortieren und Auswählen der Spalten hinzugefügt, die in der Segmentliste angezeigt werden sollen – [mehr dazu](../building-journeys/segment-qualification-events.md)
 * Es wurden Informationen zum Kopieren des Namens und der ID eines Segments hinzugefügt, nachdem es ausgewählt wurde – [mehr dazu](../building-journeys/segment-qualification-events.md)
-* Die Vorfälle der Experience Platform wurden auf den verschiedenen Seiten harmonisiert.
+* Die Vorkommen von Experience Platform wurden auf den verschiedenen Seiten harmonisiert.
 
 ## Juli 2020 {#july-2020}
 
