@@ -10,9 +10,9 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: db16f947e8c885167d289484cc2269dcee3bd646
+workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 100%
 
@@ -32,8 +32,6 @@ Weitere Informationen zur Ereigniskonfiguration finden Sie unter [](../event/abo
 1. Wir geben den Namen ohne Leer- oder Sonderzeichen ein: „SpaBeacon“.
 
    ![](../assets/journeyuc1_2.png)
-
-   <!--li>Select the **[!UICONTROL Mobile - Streaming Ingestion APIs]** event type. Events are sent from the customers' mobile phone through the Mobile SDK.![](../assets/journeyuc1_4.png" placement="break" width="800" id="image_qgr_2mn_z2b"/></li-->
 
 1. Anschließend wählen wir das Schema aus und definieren die für das Ereignis erwartete Payload. Wir wählen die erforderlichen Felder aus dem mit XDM normalisierten Modell. Wir benötigen die Experience Cloud-ID, um die Person in der Echtzeit-Kundenprofildatenbank zu identifizieren: _endUserIDs > _experience > mcid > id_. Für dieses Ereignis wird automatisch eine ID generiert. Die ID wird im Feld **[!UICONTROL eventID]** gespeichert (_experience > campaign > orchestration > eventID_). Das System, das das Ereignis per Push sendet, sollte keine ID generieren. Es sollte die ID verwenden, die in der Payload-Vorschau verfügbar ist. In unserem Anwendungsfall dient diese ID zur Identifizierung des Beacon-Standorts. Jedes Mal, wenn eine Person den Spa-Beacon passiert, wird ein Ereignis mit dieser spezifischen Ereignis-ID gesendet. So kann das System erkennen, welcher Beacon das Senden des Ereignisses ausgelöst hat.
 
