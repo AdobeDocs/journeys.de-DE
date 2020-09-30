@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
-workflow-type: ht
-source-wordcount: '733'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 25d3c3062bca2151faf10d11e9636799c1331f24
+workflow-type: tm+mt
+source-wordcount: '755'
+ht-degree: 93%
 
 ---
 
@@ -32,11 +32,15 @@ Es stehen vier Bedingungstypen zur Verfügung:
 
 ## Informationen zu Bedingungsaktivitäten {#about_condition}
 
+Wenn Sie mehrere Bedingungen auf einer Reise verwenden, können Sie für jede dieser Bedingungen Bezeichnungen definieren, um sie leichter zu identifizieren.
+
 Klicken Sie auf **[!UICONTROL Pfad hinzufügen]**, wenn Sie mehrere Bedingungen definieren möchten. Für jede Bedingung wird der Arbeitsfläche nach der Aktivität ein neuer Pfad hinzugefügt.
 
 ![](../assets/journey47.png)
 
-Beachten Sie, dass die Gestaltung der Journeys funktionelle Auswirkungen hat. Wenn mehrere Pfade nach einer Bedingung definiert werden, wird nur der erste infrage kommende Pfad ausgeführt. Das bedeutet, dass Sie die Priorisierung von Pfaden ändern können, indem Sie sie über- oder untereinander platzieren. Beispiel: Die Bedingung des ersten Pfades lautet „Die Person ist ein VIP“ und des zweiten Pfades „Die Person ist männlich“. Wenn eine Person, die beide Bedingungen erfüllt (ein männlicher VIP) diesen Schritt durchläuft, wird der erste Pfad ausgewählt, auch wenn die Person ebenfalls für den zweiten Pfad infrage kommt, da der erste Pfad „über“ dem zweiten steht. Um diese Priorität zu ändern, verschieben Sie Ihre Aktivitäten in eine andere vertikale Reihenfolge.
+Beachten Sie, dass die Gestaltung der Journeys funktionelle Auswirkungen hat. Wenn mehrere Pfade nach einer Bedingung definiert werden, wird nur der erste infrage kommende Pfad ausgeführt. Das bedeutet, dass Sie die Priorisierung von Pfaden ändern können, indem Sie sie über- oder untereinander platzieren.
+
+Nehmen wir beispielsweise das Beispiel eines ersten Pfads &quot;Die Person ist eine VIP&quot; und eines zweiten Pfads &quot;Die Person ist ein Mann&quot;. Wenn eine Person, die beide Bedingungen erfüllt (ein männlicher VIP) diesen Schritt durchläuft, wird der erste Pfad ausgewählt, auch wenn die Person ebenfalls für den zweiten Pfad infrage kommt, da der erste Pfad „über“ dem zweiten steht. Um diese Priorität zu ändern, verschieben Sie Ihre Aktivitäten in eine andere vertikale Reihenfolge.
 
 ![](../assets/journey48.png)
 
