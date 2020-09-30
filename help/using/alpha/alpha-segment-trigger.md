@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 967f453145dcf9af0e3efc5d52854d0c5c68c54f
-workflow-type: ht
-source-wordcount: '589'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b068429a0eb72c585de27faefe51ea2889be28f1
+workflow-type: tm+mt
+source-wordcount: '661'
+ht-degree: 78%
 
 ---
 
@@ -83,14 +83,20 @@ Aktivieren Sie dazu den Testmodus und wählen Sie dann im linken Bereich die gew
 
 ![](../assets/segment-trigger-test-modes.png)
 
-Anschließend können Sie den Testmodus wie gewohnt konfigurieren. Ausführliche Anweisungen zum Testen einer Journey finden Sie in [diesem Abschnitt](../building-journeys/testing-the-journey.md).
+Anschließend können Sie den Testmodus wie gewohnt konfigurieren und ausführen. Ausführliche Anweisungen zum Testen einer Journey finden Sie in [diesem Abschnitt](../building-journeys/testing-the-journey.md).
 
-Beachten Sie, dass beim Testen der Journey mit bis zu 100 Profilen auf einmal der Fortschritt der einzelnen in der Journey enthaltenen Kontakte nicht über den visuellen Verlauf nachverfolgt werden kann.
+Sobald der Test ausgeführt wird, können Sie mit der Schaltfläche Protokolle **[!UICONTROL anzeigen]** die Testergebnisse entsprechend der ausgewählten Testoption anzeigen:
+
+* **[!UICONTROL Einzelnes Profil gleichzeitig]**: Die Testprotokolle zeigen dieselben Informationen an wie bei Verwendung des einheitlichen Testmodus. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../building-journeys/testing-the-journey.md#viewing_logs)
+
+* **[!UICONTROL Bis zu 100 Profil gleichzeitig]**: Mithilfe der Testprotokolle können Sie den Verlauf des Segmentexports aus Adobe Experience Platform sowie den individuellen Fortschritt aller Personen, die die Reise betreten haben, verfolgen.
+
+   Beachten Sie, dass beim Testen der Journey mit bis zu 100 Profilen auf einmal der Fortschritt der einzelnen in der Journey enthaltenen Kontakte nicht über den visuellen Verlauf nachverfolgt werden kann.
+
+   ![](../assets/read-segment-log.png)
 
 Nach erfolgreichem Abschluss der Tests können Sie Ihre Journey veröffentlichen (siehe [Veröffentlichen der Journey](../building-journeys/publishing-the-journey.md)). Kontakte, die zum Segment gehören, treten an dem Datum/zu der Uhrzeit in die Journey ein, das bzw. die im Bereich **[!UICONTROL Planung]** der Eigenschaften der Journey festgelegt ist.
 
->[!IMPORTANT]
+>[!NOTE]
 >
->Beachten Sie, dass Adobe Experience Platform-Segmente entweder einmal täglich (**Batch**-Segmente) oder in Echtzeit (**gestreamte** Segmente) berechnet werden.
->
->Wenn das ausgewählte Segment gestreamt wird, treten die zu diesem Segment gehörenden Kontakte in Echtzeit in die Journey ein. Wenn es sich bei dem Segment um ein Batch-Segment handelt, treten für dieses Segment neu qualifizierte Personen in die Journey ein, wenn die Segmentberechnung in Adobe Experience Platform ausgeführt wird.
+>Bei einer neuen Version einer segmentbasierten Reise, die nicht wiederholt wird (sobald wie möglich beginnt oder &quot;einmal&quot;), geben alle Personen, die die Reise zuvor besucht haben, ihre neue Version nicht erneut ein, wenn sie sie veröffentlichen. Wenn Sie ihnen erlauben möchten, wieder einzureisen, sollten Sie die Reise Duplikat nehmen.
