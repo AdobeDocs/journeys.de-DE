@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 619f05137bfad573a5de23ceda5448180dad2d6a
-workflow-type: ht
-source-wordcount: '1527'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fe53855bed7d437232280a9f0e38a0d2e085c10e
+workflow-type: tm+mt
+source-wordcount: '1653'
+ht-degree: 93%
 
 ---
 
@@ -23,6 +23,54 @@ ht-degree: 100%
 
 Auf dieser Seite werden alle neuen Funktionen und Verbesserungen bei Journey Orchestration aufgelistet.
 Sie können auch den Abschnitt [Aktualisierungen der Dokumentation](../release-notes/documentation-updates.md) lesen.
+
+## September 2020 Release {#september-release}
+
+### Allgemein verfügbare Updates{#september-ga-update}
+
+<table>
+<thead>
+<tr>
+<th><strong>Verbesserungen bei der Aktivität von Bedingungen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Wenn Sie Bedingungen zu Ihrer Reise hinzufügen, können Sie jetzt eine Beschriftung definieren. Wenn Sie mehrere Bedingungen auf einer Reise verwenden, können Sie diese leichter identifizieren.
+</p>
+<p>Weitere Informationen finden Sie im <a href="../building-journeys/condition-activity.md#about_condition">entsprechenden Handbuch</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Alpha-Updates{#september-alpha-update}
+
+Informationen zum Geltungsbereich des Alpha-Programms finden Sie in diesem [Abschnitt](../alpha/alpha-overview.md).
+
+<table>
+<thead>
+<tr>
+<th><strong>Verbesserte Aktivität von Segmenten lesen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The following improvements have been made to the <strong>Read segment</strong> activity:
+</p>
+<ul>
+<li><p>Segmentbasierte Fahrten zeigen nun über der Arbeitsfläche eine Erinnerung an den Fahrplantyp. Sie können auf diese Erinnerung klicken, um das Menü für die Konfiguration des Zeitplans aufzurufen.</p>
+</li>
+<li><p>Die Granularität der Testmodusprotokolle wurde verbessert, um den Status des Segmentexports anzuzeigen.</p>
+</li>
+</ul>
+<p>Weitere Informationen zur <strong>Aktivität zum Lesen von Segmenten</strong> finden Sie in der <a href="../alpha/alpha-segment-trigger.md">ausführlichen Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Version August 2020 {#august-release}
 
