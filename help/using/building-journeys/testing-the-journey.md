@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ed0934f141ade1e558131e9fad609844800dd46a
-workflow-type: ht
-source-wordcount: '1169'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 7cac949f2428f29bef1d01122e152429a93d0b1b
+workflow-type: tm+mt
+source-wordcount: '1357'
+ht-degree: 86%
 
 ---
 
@@ -169,3 +169,18 @@ Hier eine Liste der verschiedenen Status der Journey eines Kontakts:
 * _Beendet_: der Kontakt befindet sich am Ende der Journey.
 * _Fehler_: der Kontakt wird aufgrund eines Fehlers in der Journey gestoppt.
 * _Zeitüberschreitung_: der Kontakt wird aufgrund eines Schritts, der zu viel Zeit in Anspruch genommen hat, in der Journey gestoppt.
+
+Wenn ein Ereignis im Testmodus ausgelöst wird, wird automatisch ein Datensatz mit dem Namen der Quelle generiert.
+
+Wenn ein Ereignis im Testmodus ausgelöst wird, wird automatisch ein Datensatz mit dem Namen der Quelle generiert.
+
+Der Testmodus erstellt automatisch ein Experience Ereignis und sendet es an Adobe Experience Platform. Der Name der Quelle für dieses Erlebnis-Ereignis lautet &quot;Journey Orchestration Test Ereignisses&quot;.
+
+Bei mehreren Ereignissen, die von mehreren Reisen ausgelöst werden
+
+Es gibt ein Szenario, bei dem mehrere Ereignis von mehreren Reisen gesendet werden, die unterschiedliche Schema haben. Kann ein Schema einem Datensatz zugeordnet werden? Andernfalls werden mehrere Datensätze benötigt.
+
+Wenn kein Zieldataset im Experience-Ereignis enthalten ist, werden diese Datensätze automatisch erstellt und benannt. Deshalb sehen wir heute den &quot;Automatisch erstellten Datensatz für die Reise&quot;.
+
+Die Benennung unserer Quelle führt zur automatischen Erstellung. Wenn wir mehrere Ereignis haben, sollten wir verketten und es &quot;Journey Orchestration Test Ereignis - NAME DES SCHEMAS&quot; sein. Dies wird automatisch zu &quot;Automatisch generierter Datensatz für Journey Orchestration Test Ereignis - NAME DES SCHEMAS&quot;.
+
