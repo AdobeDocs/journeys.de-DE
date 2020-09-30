@@ -8,11 +8,11 @@ content-type: reference
 topic-tags: journeys
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ca4dc447d8ae4ee18e50d7e9a18faf3fa47ae223
-workflow-type: ht
-source-wordcount: '1114'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6656c3a9b62f13d0cbffa3ac97c0a5314cb050a4
+workflow-type: tm+mt
+source-wordcount: '1108'
+ht-degree: 99%
 
 ---
 
@@ -82,12 +82,12 @@ Mit der Capping-API können Sie Begrenzungskonfigurationen erstellen, konfigurie
 |---|---|---|
 | [!DNL POST] | list/endpointConfigs | Liste der Endpunktbegrenzungskonfigurationen abrufen |
 | [!DNL POST] | /endpointConfigs | Endpunktbegrenzungskonfiguration erstellen |
-| [!DNL POST] | /endpointConfigs/{uid}/deploy | Endpunktbegrenzungskonfiguration bereitstellen |
-| [!DNL POST] | /endpointConfigs/{uid}/undeploy | Bereitstellung einer Endpunktbegrenzungskonfiguration aufheben |
-| [!DNL POST] | /endpointConfigs/{uid}/canDeploy | Überprüfen, ob eine Endpunktbegrenzungskonfiguration bereitgestellt werden kann oder nicht |
-| [!DNL PUT] | /endpointConfigs/{uid} | Endpunktbegrenzungskonfiguration aktualisieren |
-| [!DNL GET] | /endpointConfigs/{uid} | Endpunktbegrenzungskonfiguration abrufen |
-| [!DNL DELETE] | /endpointConfigs/{uid} | Endpunktbegrenzungskonfiguration löschen |
+| [!DNL POST] | /endpointConfigs/`{uid}`/deploy | Endpunktbegrenzungskonfiguration bereitstellen |
+| [!DNL POST] | /endpointConfigs/`{uid}`/undeploy | Bereitstellung einer Endpunktbegrenzungskonfiguration aufheben |
+| [!DNL POST] | /endpointConfigs/`{uid}`/canDeploy | Überprüfen, ob eine Endpunktbegrenzungskonfiguration bereitgestellt werden kann oder nicht |
+| [!DNL PUT] | /endpointConfigs/`{uid}` | Endpunktbegrenzungskonfiguration aktualisieren |
+| [!DNL GET] | /endpointConfigs/`{uid}` | Endpunktbegrenzungskonfiguration abrufen |
+| [!DNL DELETE] | /endpointConfigs/`{uid}` | Endpunktbegrenzungskonfiguration löschen |
 
 Bei der Erstellung oder Aktualisierung einer Konfiguration wird automatisch eine Überprüfung durchgeführt, um die Syntax und Integrität der Payload sicherzustellen.
 Wenn Probleme auftreten, gibt der Vorgang eine Warnung oder Fehler zurück, die Ihnen beim Korrigieren der Konfiguration helfen.
@@ -156,7 +156,7 @@ Mögliche Fehler sind:
 * **ERR_ENDPOINTCONFIG_108**: capping config: invalid max calls count (periodInMs)
 * **ERR_ENDPOINTCONFIG_111**: capping config: can&#39;t create endpoint config: invalid payload
 * **ERR_ENDPOINTCONFIG_112**: capping config: can&#39;t create endpoint config: expecting a JSON payload
-* **ERR_AUTHORING_ENDPOINTCONFIG_1**: invalid service name <!--<given value>-->: must be &#39;dataSource&#39; or &#39;action&#39;
+* **ERR_AUTHORING_ENDPOINTCONFIG_1**: invalid service name `<!--<given value>-->`: must be &#39;dataSource&#39; or &#39;action&#39;
 
 
 Die potenzielle Warnung lautet:
