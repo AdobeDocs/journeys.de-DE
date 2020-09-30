@@ -10,9 +10,9 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: db16f947e8c885167d289484cc2269dcee3bd646
+workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 100%
 
@@ -32,8 +32,6 @@ Weitere Informationen zur Ereigniskonfiguration finden Sie unter [](../event/abo
 1. Geben Sie den Namen ohne Leer- oder Sonderzeichen ein: „LobbyBeacon“.
 
    ![](../assets/journeyuc2_1.png)
-
-<!--li>Select the **[!UICONTROL Mobile - Streaming Ingestion APIs]** event type. Events are sent from the customers' mobile phone through the Mobile SDK.![](../assets/journeyuc2_3.png" placement="break" width="800" id="image_is5_2sn_z2b"/></li-->
 
 1. Wählen Sie anschließend das Schema aus und definieren Sie die für das Ereignis erwartete Payload. Wählen Sie die erforderlichen Felder aus dem mit XDM normalisierten Modell. Sie benötigen die Experience Cloud-ID, um die Person in der Echtzeit-Kundenprofildatenbank zu identifizieren: endUserIDs > _experience > mcid > id.
 
