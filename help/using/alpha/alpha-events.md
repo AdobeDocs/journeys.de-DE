@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 9c3b8f2d88646372e69ae4f24a5dbb5d45721c55
-workflow-type: ht
-source-wordcount: '648'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9cdaa673dbe9247aa1e9c9aef58cfa003d014786
+workflow-type: tm+mt
+source-wordcount: '685'
+ht-degree: 94%
 
 ---
 
@@ -26,6 +26,10 @@ Die Einrichtung von Erlebnisereignissen wurde vereinfacht. Bei der neuen Methode
 Dieser neue Ereignistyp generiert keine eventID. Mit dem einfachen Ausdruckseditor definieren Sie jetzt einfach eine Regel, anhand derer das System die relevanten Ereignisse identifiziert, die Ihre Journeys auslösen. Diese Regel kann auf einem beliebigen Feld basieren, das in der Ereignis-Payload verfügbar ist, z. B. dem Standort des Profils oder der Anzahl der Artikel, die dem Warenkorb des Profils hinzugefügt wurden.
 
 Diese neue Methode ist für Benutzer weitgehend transparent. Die einzige Änderung ist ein neues Feld im Bildschirm zur Ereignisdefinition.
+
+>[!CAUTION]
+>
+>Für regelbasierte Ereignis wird eine Deckelungsregel definiert. Die Anzahl der qualifizierten Ereignis, die eine Reise verarbeiten kann, wird auf 400.000 pro Minute begrenzt. Für weitere Informationen wenden Sie sich bitte an Ihren Ansprechpartner bei Ihrem Alpha Programm.
 
 ## Nutzung von Adobe Analytics-Daten{#analytics-data}
 
