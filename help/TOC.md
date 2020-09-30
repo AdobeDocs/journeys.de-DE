@@ -3,11 +3,11 @@ product: Journeys
 audience: end-user
 user-guide-title: Handbuch zur Journey Orchestration
 index: true
-translation-type: ht
-source-git-commit: ad892948c866c8c5cda16c17a33cb225ee7edb33
-workflow-type: ht
-source-wordcount: '378'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fe53855bed7d437232280a9f0e38a0d2e085c10e
+workflow-type: tm+mt
+source-wordcount: '380'
+ht-degree: 97%
 
 ---
 
@@ -168,13 +168,13 @@ ht-degree: 100%
 + Integrieren mit Intelligent Services{#use-case-advanced}
    + [Informationen zur KI-Integration](using/ai-services/ai-services-overview.md)
    + [Verwenden von Customer AI](using/ai-services/leveraging-customer-ai.md)
-+ Anwendungsfälle{#use-cases-journeys}
-   + Einfacher Anwendungsfall{#use-case-simple}
++ Anwendungsbeispiele{#use-cases-journeys}
+   + Sending a personalized email{#use-case-simple}
       + [Informationen zum einfachen Anwendungsfall](using/usecase/about-the-simple-use-case.md)
       + [Konfigurieren des Ereignisses](using/usecase/configuring-the-event.md)
       + [Konfigurieren der Datenquelle](using/usecase/configuring-the-data-source.md)
       + [Erstellen der Journey](using/usecase/simple-uc-building-the-journey.md)
-   + Erweiterter Anwendungsfall{#use-case-advanced}
+   + Building a cross-channel journey{#use-case-advanced}
       + [Informationen zum erweiterten Anwendungsfall](using/usecase/about-the-advanced-use-case.md)
       + [Konfigurieren der Ereignisse](using/usecase/configuring-the-events.md)
       + [Konfigurieren von Datenquellen](using/usecase/configuring-the-data-sources.md)
