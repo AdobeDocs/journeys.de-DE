@@ -10,9 +10,9 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a0db4d65218861b71d35f83ccf2d15e25a1597e8
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70bc6653a8cdd552a0441f4b661341d3f095b112
+workflow-type: tm+mt
 source-wordcount: '47'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 # now {#now}
 
-Gibt das aktuelle Datum im Datum/Uhrzeit-Format zurück. Weitere Informationen zu Datentypen finden Sie unter [](../expression/data-types.md).
+Gibt das aktuelle Datum im Datum/Uhrzeit-Format zurück. Weiterführende Informationen finden Sie im Abschnitt [](../expression/data-types.md).
 
 ## Kategorie
 
