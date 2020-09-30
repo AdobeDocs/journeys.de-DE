@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 2ef3ce546a816f1d7d0398acc418a20803886a20
-workflow-type: ht
-source-wordcount: '686'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 69427556476b5a51e4557307227433cff25f4856
+workflow-type: tm+mt
+source-wordcount: '722'
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,12 @@ Nehmen wir an, Sie verfügen über ein Segment für „Silber-Kunden“. Mit die
 
 Diese Art von Ereignis kann als erster Schritt oder auch später in der Journey positioniert werden.
 
-Wenn das Segment mit der Adobe Experience Platform-Option für Audiences mit hoher Häufigkeit gestreamt wird, werden Eintritte und Austritte in Echtzeit überwacht. Wenn das Segment nicht gestreamt wird, werden Ein- und Austritte zum Zeitpunkt der Segmentberechnung berücksichtigt.
+>[!IMPORTANT]
+>
+>Denken Sie daran, dass Adobe Experience Platform-Segmente entweder einmal täglich (**Stapelsegmente** ) oder in Echtzeit (**Streaming** -Segmente, unter Verwendung der Option &quot;Audiencen mit hoher Häufigkeit&quot;von Adobe Experience Platform) berechnet werden.
+>
+>Wenn das ausgewählte Segment gestreamt wird, treten die zu diesem Segment gehörenden Kontakte in Echtzeit in die Journey ein. Wenn es sich bei dem Segment um ein Batch-Segment handelt, treten für dieses Segment neu qualifizierte Personen in die Journey ein, wenn die Segmentberechnung in Adobe Experience Platform ausgeführt wird.
+
 
 1. Erweitern Sie die Kategorie **[!UICONTROL Ereignisse]** und legen Sie eine Aktivität vom Typ **[!UICONTROL Segmentqualifizierung]** auf Ihrer Arbeitsfläche ab.
 
