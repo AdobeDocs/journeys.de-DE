@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '685'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Diese neue Methode ist für Benutzer weitgehend transparent. Die einzige Änderu
 
 >[!CAUTION]
 >
->Für regelbasierte Ereignis wird eine Deckelungsregel definiert. Die Anzahl der qualifizierten Ereignis, die eine Reise verarbeiten kann, wird auf 400.000 pro Minute begrenzt. Für weitere Informationen wenden Sie sich bitte an Ihren Ansprechpartner bei Ihrem Alpha Programm.
+>Für regelbasierte Ereignisse wird eine Deckelungsregel definiert. Die Anzahl der qualifizierten Ereignisse, die eine Journey verarbeiten kann, wird auf 400.000 pro Minute begrenzt. Für weitere Informationen wenden Sie sich an Ihren Ansprechpartner bei Ihrem Alpha-Programm.
 
 ## Nutzung von Adobe Analytics-Daten{#analytics-data}
 
