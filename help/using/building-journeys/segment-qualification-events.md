@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '722'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Diese Art von Ereignis kann als erster Schritt oder auch später in der Journey 
 
 >[!IMPORTANT]
 >
->Denken Sie daran, dass Adobe Experience Platform-Segmente entweder einmal täglich (**Stapelsegmente** ) oder in Echtzeit (**Streaming** -Segmente, unter Verwendung der Option &quot;Audiencen mit hoher Häufigkeit&quot;von Adobe Experience Platform) berechnet werden.
+>Denken Sie daran, dass Adobe Experience Platform-Segmente entweder einmal täglich (**Batch**-Segmente) oder in Echtzeit (**Streaming**-Segmente, unter Verwendung der Option „Zielgruppen mit hoher Häufigkeit“ von Adobe Experience Platform) berechnet werden.
 >
 >Wenn das ausgewählte Segment gestreamt wird, treten die zu diesem Segment gehörenden Kontakte in Echtzeit in die Journey ein. Wenn es sich bei dem Segment um ein Batch-Segment handelt, treten für dieses Segment neu qualifizierte Personen in die Journey ein, wenn die Segmentberechnung in Adobe Experience Platform ausgeführt wird.
 
@@ -74,15 +74,15 @@ Siehe [Bedingungsaktivität](../building-journeys/condition-activity.md#about_co
 
 ## Best Practices {#best-practices-segments}
 
-Mit der Aktivität **[!UICONTROL Segmentqualifikation]** wird der sofortige Eintritt in Journeys von Personen möglich, die über ein Adobe Experience Platform-Segment qualifiziert oder disqualifiziert werden.
+Mit der Aktivität **[!UICONTROL Segmentqualifikation]** wird der sofortige Eintritt in Journeys von Kontakten möglich, die über ein Adobe Experience Platform-Segment qualifiziert oder disqualifiziert werden.
 
 Die Empfangsgeschwindigkeit dieser Daten ist hoch. Durchgeführte Messungen zeigen eine Geschwindigkeit von 10.000 empfangenen Ereignissen pro Sekunde. Daher sollten Sie wissen, wie Eintrittsspitzen auftreten können, wie sie sich vermeiden lassen und wie Sie Ihre Journey darauf vorbereiten können.
 
 ### Batch-Segmente{#batch-speed-segment-qualification}
 
-Beachten Sie bei Verwendung der Segmentqualifikation für ein Batch-Segment, dass zum Zeitpunkt der täglichen Berechnung eine Eintrittsspitze auftritt. Der Umfang der Spitze hängt von der Zahl der Personen ab, die in das Segment täglich eintreten (bzw. austreten).
+Beachten Sie bei Verwendung der Segmentqualifikation für ein Batch-Segment, dass zum Zeitpunkt der täglichen Berechnung eine Eintrittsspitze auftritt. Der Umfang der Spitze hängt von der Zahl der Kontakte ab, die in das Segment täglich eintreten (bzw. austreten).
 
-Wenn das Batch-Segment neu erstellt und in einer Journey unmittelbar verwendet wird, kann der erste Berechnungs-Batch außerdem dazu führen, dass sehr viele Personen in die Journey eintreten.
+Wenn das Batch-Segment neu erstellt und in einer Journey unmittelbar verwendet wird, kann der erste Berechnungs-Batch außerdem dazu führen, dass sehr viele Kontakte in die Journey eintreten.
 
 ### Streaming-Segmente{#streamed-speed-segment-qualification}
 
@@ -98,6 +98,6 @@ Verwenden Sie in einer Aktivität vom Typ **[!UICONTROL Segmentqualifikation]** 
 
 Legen Sie eine Begrenzungsregel für Datenquellen und Aktionen fest, die in Journeys verwendet werden, um eine Überlastung zu vermeiden (siehe diesen [Abschnitt](../api/capping.md)). Beachten Sie, dass die Begrenzungsregel nicht erneut versucht wird. Für einen erneuten Versuch müssen Sie einen alternativen Pfad in der Journey verwenden, indem Sie in Bedingungen oder Aktionen das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** aktivieren.
 
-Bevor Sie das Segment in einer Produktions-Journey verwenden, sollten Sie immer zuerst das Volumen der Personen auswerten, die sich für dieses Segment täglich qualifizieren. Dazu können Sie den Abschnitt **[!UICONTROL Segmente]** in Adobe Experience Platform lesen und sich das Diagramm auf der rechten Seite ansehen.
+Bevor Sie das Segment in einer Produktions-Journey verwenden, sollten Sie immer zuerst das Volumen der Kontakte auswerten, die sich für dieses Segment täglich qualifizieren. Dazu können Sie den Abschnitt **[!UICONTROL Segmente]** in Adobe Experience Platform lesen und sich das Diagramm auf der rechten Seite ansehen.
 
 ![](../assets/segment-overload.png)
