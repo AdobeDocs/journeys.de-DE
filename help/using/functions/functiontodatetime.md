@@ -39,7 +39,7 @@ Konversion
 
 >[!NOTE]
 >
->Die Zeitzonen-ID muss eine Zeichenfolgenkonstante sein. Sie darf weder ein Feldverweis noch ein Ausdruck sein. Weiterführende Informationen finden Sie im Abschnitt [](../expression/data-types.md).
+>Die Zeitzonen-ID muss eine Zeichenfolgenkonstante sein. Sie darf weder ein Feldverweis noch ein Ausdruck sein. Weiterführende Informationen zu Datentypen finden Sie im Abschnitt [](../expression/data-types.md).
 
 ## Signaturen und zurückgegebene Typen
 
