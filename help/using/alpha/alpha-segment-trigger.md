@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '661'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -55,11 +55,11 @@ Nehmen wir an, Sie verfügen über ein Segment für „Gold-Kunden“ in Adobe E
 
    ![](../assets/segment-trigger-copy.png)
 
-1. Wählen Sie im Feld **[!UICONTROL Namespace]** den Namespace aus, der zur Identifizierung der Einzelanwender verwendet werden soll. Weitere Informationen zu Namespaces finden Sie in [diesem Abschnitt](../event/selecting-the-namespace.md).
+1. Wählen Sie im Feld **[!UICONTROL Namespace]** den Namespace aus, der zur Identifizierung der Kontakte verwendet werden soll. Weitere Informationen zu Namespaces finden Sie in [diesem Abschnitt](../event/selecting-the-namespace.md).
 
    >[!NOTE]
    >
-   >Einzelanwender, die zu einem Segment gehören, das nicht die ausgewählte Identität (den ausgewählten Namespace) hat, können nicht in die Journey eintreten.
+   >Kontakte, die zu einem Segment gehören, das nicht die ausgewählte Identität (den ausgewählten Namespace) hat, können nicht in die Journey eintreten.
 
 1. Mit der Aktivität **[!UICONTROL Segment lesen]** können Sie den Zeitpunkt festlegen, zu dem das Segment in die Journey eintreten wird. Klicken Sie dazu auf den Link **[!UICONTROL Journey-Planung bearbeiten]**, um auf die Eigenschaften der Journey zuzugreifen, und konfigurieren Sie dann das Feld **[!UICONTROL Planungstyp]**.
 
@@ -85,9 +85,9 @@ Anschließend können Sie den Testmodus wie gewohnt konfigurieren und ausführen
 
 Sobald der Test ausgeführt wird, können Sie mit der Schaltfläche Protokolle **[!UICONTROL anzeigen]** die Testergebnisse entsprechend der ausgewählten Testoption anzeigen:
 
-* **[!UICONTROL Einzelnes Profil gleichzeitig]**: Die Testprotokolle zeigen dieselben Informationen an wie bei Verwendung des einheitlichen Testmodus. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../building-journeys/testing-the-journey.md#viewing_logs)
+* **[!UICONTROL Jeweils ein Einzelprofil]**: Die Testprotokolle zeigen dieselben Informationen an wie bei Verwendung des einheitlichen Testmodus. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../building-journeys/testing-the-journey.md#viewing_logs)
 
-* **[!UICONTROL Bis zu 100 Profil gleichzeitig]**: Mithilfe der Testprotokolle können Sie den Verlauf des Segmentexports aus Adobe Experience Platform sowie den individuellen Fortschritt aller Personen, die die Reise betreten haben, verfolgen.
+* **[!UICONTROL Bis zu 100 Profile gleichzeitig]**: Mithilfe der Testprotokolle können Sie den Verlauf des Segmentexports aus Adobe Experience Platform sowie den individuellen Fortschritt aller Personen, die die Journey begonnen haben, verfolgen.
 
    Beachten Sie, dass beim Testen der Journey mit bis zu 100 Profilen auf einmal der Fortschritt der einzelnen in der Journey enthaltenen Kontakte nicht über den visuellen Verlauf nachverfolgt werden kann.
 
@@ -97,4 +97,4 @@ Nach erfolgreichem Abschluss der Tests können Sie Ihre Journey veröffentlichen
 
 >[!NOTE]
 >
->Bei einer neuen Version einer segmentbasierten Reise, die nicht wiederholt wird (sobald wie möglich beginnt oder &quot;einmal&quot;), geben alle Personen, die die Reise zuvor besucht haben, ihre neue Version nicht erneut ein, wenn sie sie veröffentlichen. Wenn Sie ihnen erlauben möchten, wieder einzureisen, sollten Sie die Reise Duplikat nehmen.
+>Wenn Sie eine neue Version einer nicht wiederkehrenden (so bald wie möglich beginnenden oder „einmaligen“) segmentbasierten Journey erstellen, werden alle Kontakte, die zuvor an der Journey teilgenommen haben, nicht wieder in die neue Version eintreten, wenn Sie sie veröffentlichen. Wenn Sie ihnen erlauben möchten, wieder einzutreten, sollten Sie die Journey duplizieren.
