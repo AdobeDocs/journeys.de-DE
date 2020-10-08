@@ -2,11 +2,11 @@
 keywords: Journeys;home;popular topics
 title: Produktdokumentation für Journey Orchestration
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d5a2538859d0438d8536c1e359f981d6ac179f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '190'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 93%
 
 * **[Entdecken Sie die neuen Funktionen](using/release-notes/release-notes.md)**<br/>Erfahren Sie mehr über die neuesten Versionen.
 
-* **[Alpha-Funktionen](using/alpha/alpha-overview.md)**<br/>Discover enthält die Funktionen, die derzeit über das Alpha-Programm verfügbar sind.
+* **[Alpha-Funktionen](using/alpha/alpha-overview.md)**<br/>Entdecken Sie die Funktionen, die derzeit über das Alpha-Programm verfügbar sind.
 
 ## Wichtigste Seiten
 
@@ -69,6 +69,6 @@ ht-degree: 93%
 * [Dokumentation zu Experience Platform](https://www.adobe.com/de/experience-platform/documentation-and-developer-resources.html)
 * [Dokumentation zum Echtzeit-Kundenprofil](https://docs.adobe.com/content/help/de-DE/experience-platform/profile/home.html)
 * [Experience Cloud-XDM-Felddefinition](https://docs.adobe.com/content/help/de-DE/experience-platform/xdm/home.html)
-* [Dokumentation zum Identitäts-Namespace](https://docs.adobe.com/content/help/de-DE/experience-platform/identity/home.html)
+* [Dokumentation zum Identity-Namespace](https://docs.adobe.com/content/help/de-DE/experience-platform/identity/home.html)
 * [Streaming-Aufnahme-APIs](https://docs.adobe.com/content/help/de-DE/experience-platform/ingestion/streaming/overview.html)
 * [Dokumentation zu Transaktionsnachrichten von Campaign Standard](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
