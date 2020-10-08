@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '1357'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 
 1. Wenn ein Fehler auftritt, deaktivieren Sie den Testmodus, ändern Sie Ihre Journey und testen Sie sie erneut. Wenn der Test abgeschlossen ist, können Sie Ihre Journey veröffentlichen. Siehe [](../building-journeys/publishing-the-journey.md).
 
-## Wichtige Hinweise              {#important_notes}
+## Wichtige Hinweise               {#important_notes}
 
 * Es wird eine Benutzeroberfläche bereitgestellt, über die Ereignisse für die getestete Journey ausgelöst werden können. Ereignisse können aber auch von Drittanbietersystemen wie Postman gesendet werden.
 * Nur Kontakte, die im Echtzeit-Kundenprofil als „Testprofile“ gekennzeichnet sind, dürfen an der getesteten Journey teilnehmen. Siehe [](../building-journeys/testing-the-journey.md#create-test-profile).
@@ -172,13 +172,13 @@ Wenn ein Ereignis im Testmodus ausgelöst wird, wird automatisch ein Datensatz m
 
 Wenn ein Ereignis im Testmodus ausgelöst wird, wird automatisch ein Datensatz mit dem Namen der Quelle generiert.
 
-Der Testmodus erstellt automatisch ein Experience Ereignis und sendet es an Adobe Experience Platform. Der Name der Quelle für dieses Erlebnis-Ereignis lautet &quot;Journey Orchestration Test Ereignisses&quot;.
+Der Testmodus erstellt automatisch ein Erlebnis-Ereignis und sendet es an Adobe Experience Platform. Der Name der Quelle für dieses Erlebnis-Ereignis lautet „Journey Orchestration Test-Ereignisse“.
 
-Bei mehreren Ereignissen, die von mehreren Reisen ausgelöst werden
+Wenn mehrere Ereignisse von mehreren Journeys ausgelöst werden
 
-Es gibt ein Szenario, bei dem mehrere Ereignis von mehreren Reisen gesendet werden, die unterschiedliche Schema haben. Kann ein Schema einem Datensatz zugeordnet werden? Andernfalls werden mehrere Datensätze benötigt.
+Es gibt ein Szenario, bei dem mehrere Ereignisse von mehreren Journeys gesendet werden, die unterschiedliche Schemas haben. Können n Schemas zu 1 Datensatz zugeordnet werden? Wenn nicht, werden mehrere Datensätze benötigt.
 
-Wenn kein Zieldataset im Experience-Ereignis enthalten ist, werden diese Datensätze automatisch erstellt und benannt. Deshalb sehen wir heute den &quot;Automatisch erstellten Datensatz für die Reise&quot;.
+Wenn ein Zieldatensatz nicht in dem Erlebnis-Ereignis enthalten ist, werden diese Datensätze automatisch erstellt und benannt. Deshalb sehen wir heute den „Automatisch erstellten Datensatz für Journey“.
 
-Die Benennung unserer Quelle führt zur automatischen Erstellung. Wenn wir mehrere Ereignis haben, sollten wir verketten und es &quot;Journey Orchestration Test Ereignis - NAME DES SCHEMAS&quot; sein. Dies wird automatisch zu &quot;Automatisch generierter Datensatz für Journey Orchestration Test Ereignis - NAME DES SCHEMAS&quot;.
+Die Benennung unserer Quelle führt zur automatischen Erstellung. Wenn wir mehrere Ereignisse haben, sollten wir verketten und es „Journey Orchestration Test-Ereignis – NAME DES SCHEMAS“ nennen. Dies wird sich automatisch in „Automatisch generierter Datensatz für Journey Orchestration Test-Ereignis – NAME DES SCHEMAS“ ändern.
 
