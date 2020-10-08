@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '1653'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -22,20 +22,20 @@ ht-degree: 93%
 Auf dieser Seite werden alle neuen Funktionen und Verbesserungen bei Journey Orchestration aufgelistet.
 Sie können auch den Abschnitt [Aktualisierungen der Dokumentation](../release-notes/documentation-updates.md) lesen.
 
-## September 2020 Release {#september-release}
+## Version September 2020 {#september-release}
 
 ### Allgemein verfügbare Updates{#september-ga-update}
 
 <table>
 <thead>
 <tr>
-<th><strong>Verbesserungen bei der Aktivität von Bedingungen</strong><br/></th>
+<th><strong>Verbesserungen bei der Bedingungsaktivität</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Wenn Sie Bedingungen zu Ihrer Reise hinzufügen, können Sie jetzt eine Beschriftung definieren. Wenn Sie mehrere Bedingungen auf einer Reise verwenden, können Sie diese leichter identifizieren.
+<p>Wenn Sie Bedingungen zu Ihrer Journey hinzufügen, können Sie jetzt einen Titel definieren. Wenn Sie mehrere Bedingungen in einer Journey verwenden, können Sie diese so leichter identifizieren.
 </p>
 <p>Weitere Informationen finden Sie im <a href="../building-journeys/condition-activity.md#about_condition">entsprechenden Handbuch</a>.</p>
 </td>
@@ -50,21 +50,21 @@ Informationen zum Geltungsbereich des Alpha-Programms finden Sie in diesem [Absc
 <table>
 <thead>
 <tr>
-<th><strong>Verbesserte Aktivität von Segmenten lesen</strong><br/></th>
+<th><strong>Verbesserungen bei der Segment-Lese-Aktivität</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>The following improvements have been made to the <strong>Read segment</strong> activity:
+<p>Folgende Verbesserungen wurden an der Aktivität <strong>Segment lesen</strong> vorgenommen:
 </p>
 <ul>
-<li><p>Segmentbasierte Fahrten zeigen nun über der Arbeitsfläche eine Erinnerung an den Fahrplantyp. Sie können auf diese Erinnerung klicken, um das Menü für die Konfiguration des Zeitplans aufzurufen.</p>
+<li><p>Segmentbasierte Journeys zeigen nun über der Arbeitsfläche eine Erinnerung an den Zeitplantyp der Journey an. Sie können auf diese Erinnerung klicken, um das Menü für die Konfiguration des Zeitplans aufzurufen.</p>
 </li>
-<li><p>Die Granularität der Testmodusprotokolle wurde verbessert, um den Status des Segmentexports anzuzeigen.</p>
+<li><p>Die Granularität der Testmodusprotokolle wurde verbessert, um den Fortschrittsstatus des Segmentexports anzuzeigen.</p>
 </li>
 </ul>
-<p>Weitere Informationen zur <strong>Aktivität zum Lesen von Segmenten</strong> finden Sie in der <a href="../alpha/alpha-segment-trigger.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen zur Aktivität <strong>Segment lesen</strong> finden Sie in der <a href="../alpha/alpha-segment-trigger.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -167,7 +167,7 @@ Diese Funktionen werden in einem eigenen [Abschnitt](../alpha/alpha-overview.md)
 <tbody>
 <tr>
 <td>
-<p>Mit der Segmentauslöser-Aktivität können Sie alle Personen, die zu einem Adobe Experience Platform-Segment gehören, in eine Journey eintreten lassen. Der Eintritt in eine Journey kann entweder einmalig oder regelmäßig erfolgen. <a href="../alpha/alpha-segment-trigger.md">mehr dazu</a>
+<p>Mit der Segmentauslöser-Aktivität können Sie alle Kontakte, die zu einem Adobe Experience Platform-Segment gehören, in eine Journey eintreten lassen. Der Eintritt in eine Journey kann entweder einmalig oder regelmäßig erfolgen. <a href="../alpha/alpha-segment-trigger.md">mehr dazu</a>
 </p>
 </td>
 </tr>
@@ -320,7 +320,7 @@ Die Benutzeroberfläche von Journey Orchestration ist auf Japanisch verfügbar.
 <li>Wenn Sie das Feld <strong>Suchen</strong> verwenden, wird jetzt die Anzahl der Ergebnisse für jede Aktivitätskategorie der Arbeitsfläche angezeigt.</li>
 <li>Die Navigation zwischen den verschiedenen Aktivitätskategorien wurde verbessert.</li>
 </ul>
-<p>Im Journey-Designer können Sie jetzt feststellen, ob Sie auf die neueste Version der Journey zugreifen. Diese Information wird neben der Versionsnummer angezeigt.</p>
+<p>Im Journey-Designer können Sie jetzt feststellen, ob Sie auf die aktuelle Version der Journey zugreifen. Diese Information wird neben der Versionsnummer angezeigt.</p>
 <p>Wenn zwei Aktivitäten auf der <strong>Arbeitsfläche</strong> einer Journey getrennt werden, wird jetzt eine Warnmeldung angezeigt.</p>
 <img src="../assets/rn-canvas.png"/>
 <p>Weitere Informationen finden Sie im <a href="../building-journeys/using-the-journey-designer.md">entsprechenden Handbuch</a>.</p>
