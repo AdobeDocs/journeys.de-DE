@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '766'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,8 +24,8 @@ Lesen Sie auch die [!DNL Journey Orchestration]-[Versionshinweise](../release-no
 
 ## September 2020 {#september-2020}
 
-* Der Abschnitt &quot;Beschreibung der Benutzeroberfläche&quot;wurde aktualisiert, um das neue Menü &quot; **Alle Auswahl** &quot;anzuzeigen. [Mehr dazu](../about/user-interface.md)
-* Es wurde ein Hinweis zu den neuen Versionen segmentbasierter Reisen hinzugefügt, die nicht wiederholt werden. [Mehr dazu](../alpha/alpha-segment-trigger.md)
+* Der Abschnitt mit der Beschreibung der Benutzeroberfläche wurde aktualisiert, um das neue Menü **App Selector** anzuzeigen. [Mehr dazu](../about/user-interface.md)
+* Es wurde eine Notiz zu den neuen, nicht wiederkehrenden Versionen von segmentbasierten Journeys hinzugefügt. [Mehr dazu](../alpha/alpha-segment-trigger.md)
 
 ## August 2020 {#august-2020}
 
