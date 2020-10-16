@@ -1,6 +1,6 @@
 ---
 title: Informationen zum Erstellen von Journeys
-description: Erfahren Sie, wie Sie als Geschäftsbenutzer Ereignis-, Orchester- und Action-Aktivitäten kombinieren, um eine Reise zu gestalten.
+description: Erfahren Sie, wie Sie als Business-Anwender Ereignis-, Orchestrierungs- und Aktions-Aktivitäten kombinieren, um eine Journey zu gestalten.
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
