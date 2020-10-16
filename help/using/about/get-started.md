@@ -1,6 +1,6 @@
 ---
 title: Erste Schritte
-description: Entdecken Sie die wichtigsten Schritte zum Einrichten der Journey Orchestration und zum Aufbau Ihrer ersten Reise.
+description: Entdecken Sie die wichtigsten Schritte zum Einrichten von Journey Orchestration und zum Aufbau Ihrer ersten Journey.
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 38b555e19b9c3a0757962cbedbf3587e64f69add
 workflow-type: tm+mt
 source-wordcount: '300'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
