@@ -24,7 +24,7 @@ ht-degree: 100%
    + [Erste Schritte](using/about/get-started.md)
    + [Benutzeroberfläche](using/about/user-interface.md)
    + [Zugriffsverwaltung](using/about/access-management.md)
-   + [Problembehebung](using/about/troubleshooting.md)
+   + [Fehlerbehebung](using/about/troubleshooting.md)
 + Konfigurieren eines Ereignisses {#events-journeys}
    + [Informationen zu Ereignissen](using/event/about-events.md)
    + [Informationen zu ExperienceEvent-Schemata](using/event/experience-event-schema.md)
