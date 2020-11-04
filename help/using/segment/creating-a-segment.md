@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: c7bfe162783ef558ae86edb87ba01bb6d793246b
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 100%
@@ -24,10 +24,10 @@ Sie können ein Segment entweder mit dem [Segmentierungsdienst von Adobe Experie
 
 1. Klicken Sie oben im Menü auf den Tab **[!UICONTROL Segmente]**. Die Liste der Adobe Experience Platform-Segmente wird angezeigt. Sie können in der Liste nach einem bestimmten Segment suchen.
 
-![](../assets/segment1.png)
+   ![](../assets/segment1.png)
 
 1. Klicken Sie auf **[!UICONTROL Hinzufügen]**, um ein neues Segment zu erstellen. Im Bildschirm für die Segmentdefinition können Sie alle erforderlichen Felder konfigurieren, um Ihr Segment einzurichten. Die Konfiguration verläuft genauso wie beim Segmentierungsdienst. Weiterführende Informationen finden Sie im [Benutzerhandbuch zu Segment Builder](https://docs.adobe.com/content/help/de-DE/experience-platform/segmentation/ui/overview.html).
 
-![](../assets/segment2.png)
+   ![](../assets/segment2.png)
 
 Ihr Segment kann nun für Journeys verwendet werden, um Bedingungen zu erstellen oder ein Ereignis vom Typ **[!UICONTROL Segmentqualifizierung]** hinzuzufügen. Siehe [Verwenden von Segmenten in Bedingungen](../segment/using-a-segment.md) und [Ereignisaktivitäten](../building-journeys/segment-qualification-events.md).
