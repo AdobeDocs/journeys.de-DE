@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: c7bfe162783ef558ae86edb87ba01bb6d793246b
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 100%
@@ -34,24 +34,24 @@ Jedes XDM-Schema, das für [!DNL Journey Orchestration]-Ereignisse verwendet wir
 
 * Das Schema muss der XDM-ExperienceEvent-Klasse angehören.
 
-![](../assets/schema2.png)
+   ![](../assets/schema2.png)
 
 * Das Schema muss das Orchestration eventID-Mixin enthalten. [!DNL Journey Orchestration] verwendet dieses Feld, um Ereignisse zu identifizieren, die in Journeys verwendet werden.
 
-![](../assets/schema3.png)
+   ![](../assets/schema3.png)
 
 * Deklarieren Sie ein Identitätsfeld zur Identifizierung des Themas des Ereignisses. Wenn keine Identität angegeben ist, kann eine Identitätszuordnung (identityMap) verwendet werden. Dies wird nicht empfohlen.
 
-![](../assets/schema4.png)
+   ![](../assets/schema4.png)
 
 * Damit diese Daten später in einer Journey zur Suche verfügbar sind, markieren Sie das Schema und den Datensatz für das Profil.
 
-![](../assets/schema5.png)
+   ![](../assets/schema5.png)
 
-![](../assets/schema6.png)
+   ![](../assets/schema6.png)
 
 * Sie können auch Datenfelder einschließen, um andere Kontextdaten zu erfassen, die Sie in das Ereignis aufnehmen möchten, z. B. Informationen zum Benutzer, zum Gerät, von dem das Ereignis generiert wurde, zum Ort oder andere aussagekräftige Umstände in Zusammenhang mit dem Ereignis.
 
-![](../assets/schema7.png)
+   ![](../assets/schema7.png)
 
-![](../assets/schema8.png)
+   ![](../assets/schema8.png)
