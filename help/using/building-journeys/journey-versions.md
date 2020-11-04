@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: 09bebf62cda32e357f5f8b795e6702a69edb83a7
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 100%
+source-wordcount: '236'
+ht-degree: 86%
 
 ---
 
@@ -43,4 +43,4 @@ Journey-Versionen können einzeln gestoppt werden. Alle Versionen von Journeys h
 
 >[!NOTE]
 >
->Wenn Sie mehrere Live-Versionen haben und die neueste Version stoppen, greifen die Anwender nicht auf eine frühere Live-Version zurück. Es findet kein Eintritt zur Journey statt.
+>Wenn Sie eine neue Version einer Reise veröffentlichen, endet die vorherige Version automatisch und wechselt zum Status &quot; **Geschlossen** &quot;. Es findet kein Eintritt zur Journey statt. Auch wenn Sie die neueste Version beenden, bleibt die vorherige Version geschlossen.
