@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: ac2ca77e2ba7c56217199dbd487f57cfe207f7d7
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '167'
 ht-degree: 100%
 
 ---
@@ -31,63 +31,63 @@ Im Folgenden finden Sie eine Liste der unterstützten Funktionen.
 
 | Kategorie | Funktion |
 |-------------|-----------------------|
-| Adobe Experience Platform | [](../functions/functioninsegment.md) |
-| Aggregation | [](../functions/functionavg.md) |
-| Aggregation | [](../functions/functioncount.md) |
-| Aggregation | [](../functions/functioncountonlynull.md) |
-| Aggregation | [](../functions/functioncountwithnull.md) |
-| Aggregation | [](../functions/functiondistinctcount.md) |
-| Aggregation | [](../functions/functiondistinctcountwithnull.md) |
-| Aggregation | [](../functions/functionmax.md) |
-| Aggregation | [](../functions/functionmin.md) |
-| Aggregation | [](../functions/functionsum.md) |
-| Konversion | [](../functions/functiontobool.md) |
-| Konversion | [](../functions/functiontodatetime.md) |
-| Konversion | [](../functions/functiontodatetimeonly.md) |
-| Konversion | [](../functions/functiontodecimal.md) |
-| Konversion | [](../functions/functiontoduration.md) |
-| Konversion | [](../functions/functiontointeger.md) |
-| Konversion | [](../functions/functiontostring.md) |
-| Datum | [](../functions/functioncurrenttimeinmillis.md) |
-| Datum | [](../functions/functioninlastdays.md) |
-| Datum | [](../functions/functioninlasthours.md) |
-| Datum | [](../functions/functioninlastmonths.md) |
-| Datum | [](../functions/functioninlastyears.md) |
-| Datum | [](../functions/functioninnextdays.md) |
-| Datum | [](../functions/functioninnexthours.md) |
-| Datum | [](../functions/functioninnextmonths.md) |
-| Datum | [](../functions/functioninnextyears.md) |
-| Datum | [](../functions/functionnow.md) |
-| Datum | [](../functions/functionnowwithdelta.md) |
-| Datum | [](../functions/functionsethours.md) |
-| Datum | [](../functions/functionsetdays.md) |
-| Liste | [](../functions/functiondistinct.md) |
-| Liste | [](../functions/functiondistinctcount.md) |
-| Liste | [](../functions/functionin.md) |
-| Liste | [](../functions/functionlistsize.md) |
-| Liste | [](../functions/functionserializelist.md) |
-| Liste | [](../functions/functionsort.md) |
-| Mathematisch | [](../functions/functionrandom.md) |
-| Mathematisch | [](../functions/functionround.md) |
-| Zeichenfolge | [](../functions/functionconcat.md) |
-| Zeichenfolge | [](../functions/functioncontain.md) |
-| Zeichenfolge | [](../functions/functioncontainwithignorecase.md) |
-| Zeichenfolge | [](../functions/functionendwith.md) |
-| Zeichenfolge | [](../functions/functionendwithignorecase.md) |
-| Zeichenfolge | [](../functions/functionequalignorecase.md) |
-| Zeichenfolge | [](../functions/functionindexof.md) |
-| Zeichenfolge | [](../functions/functionisempty.md) |
-| Zeichenfolge | [](../functions/functionisnotempty.md) |
-| Zeichenfolge | [](../functions/functionlastindexof.md) |
-| Zeichenfolge | [](../functions/functionlength.md) |
-| Zeichenfolge | [](../functions/functionlower.md) |
-| Zeichenfolge | [](../functions/functionmatchregexp.md) |
-| Zeichenfolge | [](../functions/functionnotequalignorecase.md) |
-| Zeichenfolge | [](../functions/functionreplace.md) |
-| Zeichenfolge | [](../functions/functionreplaceall.md) |
-| Zeichenfolge | [](../functions/functionstartwith.md) |
-| Zeichenfolge | [](../functions/functionstartwithignorecase.md) |
-| Zeichenfolge | [](../functions/functionsubstr.md) |
-| Zeichenfolge | [](../functions/functiontrim.md) |
-| Zeichenfolge | [](../functions/functionupper.md) |
-| Zeichenfolge | [](../functions/functionuuid.md) |
+| Adobe Experience Platform | [inSegment](../functions/functioninsegment.md) |
+| Aggregation | [avg](../functions/functionavg.md) |
+| Aggregation | [count](../functions/functioncount.md) |
+| Aggregation | [countOnlyNull](../functions/functioncountonlynull.md) |
+| Aggregation | [countWithNull](../functions/functioncountwithnull.md) |
+| Aggregation | [distinctCount](../functions/functiondistinctcount.md) |
+| Aggregation | [distinctCountWithNull](../functions/functiondistinctcountwithnull.md) |
+| Aggregation | [max](../functions/functionmax.md) |
+| Aggregation | [min](../functions/functionmin.md) |
+| Aggregation | [sum](../functions/functionsum.md) |
+| Konversion | [toBool](../functions/functiontobool.md) |
+| Konversion | [toDateTime](../functions/functiontodatetime.md) |
+| Konversion | [toDateTimeOnly](../functions/functiontodatetimeonly.md) |
+| Konversion | [toDecimal](../functions/functiontodecimal.md) |
+| Konversion | [toDuration](../functions/functiontoduration.md) |
+| Konversion | [toInteger](../functions/functiontointeger.md) |
+| Konversion | [toString](../functions/functiontostring.md) |
+| Datum | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md) |
+| Datum | [inLastDays](../functions/functioninlastdays.md) |
+| Datum | [inLastHours](../functions/functioninlasthours.md) |
+| Datum | [inLastMonths](../functions/functioninlastmonths.md) |
+| Datum | [inLastYears](../functions/functioninlastyears.md) |
+| Datum | [inNextDays](../functions/functioninnextdays.md) |
+| Datum | [inNextHours](../functions/functioninnexthours.md) |
+| Datum | [inNextMonths](../functions/functioninnextmonths.md) |
+| Datum | [inNextYears](../functions/functioninnextyears.md) |
+| Datum | [now](../functions/functionnow.md) |
+| Datum | [nowWithDelta](../functions/functionnowwithdelta.md) |
+| Datum | [setHours](../functions/functionsethours.md) |
+| Datum | [setDays](../functions/functionsetdays.md) |
+| Liste | [distinct](../functions/functiondistinct.md) |
+| Liste | [distinctCount](../functions/functiondistinctcount.md) |
+| Liste | [in](../functions/functionin.md) |
+| Liste | [listSize](../functions/functionlistsize.md) |
+| Liste | [serializeList](../functions/functionserializelist.md) |
+| Liste | [sort](../functions/functionsort.md) |
+| Mathematisch | [random](../functions/functionrandom.md) |
+| Mathematisch | [round](../functions/functionround.md) |
+| String   | [concat](../functions/functionconcat.md) |
+| String   | [contain](../functions/functioncontain.md) |
+| String   | [containWithIgnoreCase](../functions/functioncontainwithignorecase.md) |
+| String   | [endWith](../functions/functionendwith.md) |
+| String   | [endWithIgnoreCase](../functions/functionendwithignorecase.md) |
+| String   | [equalWithIgnoreCase](../functions/functionequalignorecase.md) |
+| String   | [indexOf](../functions/functionindexof.md) |
+| String   | [isEmpty](../functions/functionisempty.md) |
+| String   | [isNotEmpty](../functions/functionisnotempty.md) |
+| String   | [lastIndexOf](../functions/functionlastindexof.md) |
+| String   | [length](../functions/functionlength.md) |
+| String   | [lower](../functions/functionlower.md) |
+| String   | [matchRegExp](../functions/functionmatchregexp.md) |
+| String   | [notEqualWithIgnoreCase](../functions/functionnotequalignorecase.md) |
+| String   | [replace](../functions/functionreplace.md) |
+| String   | [replaceAll](../functions/functionreplaceall.md) |
+| String   | [startWith](../functions/functionstartwith.md) |
+| String   | [startWithIgnoreCase](../functions/functionstartwithignorecase.md) |
+| String   | [substr](../functions/functionsubstr.md) |
+| String   | [trim](../functions/functiontrim.md) |
+| String   | [upper](../functions/functionupper.md) |
+| String   | [uuid](../functions/functionuuid.md) |
