@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '38'
+source-wordcount: '40'
 ht-degree: 100%
 
 ---
@@ -19,6 +19,6 @@ ht-degree: 100%
 
 # Allgemeine Ereignisse {#section_ofg_jss_dgb}
 
-Für diesen Ereignistyp können Sie nur einen Titel und eine Beschreibung hinzufügen. Der Rest der Konfiguration kann nicht bearbeitet werden. Dies wurde vom technischen Anwender durchgeführt. Siehe [](../event/about-events.md).
+Für diesen Ereignistyp können Sie nur einen Titel und eine Beschreibung hinzufügen. Der Rest der Konfiguration kann nicht bearbeitet werden. Dies wurde vom technischen Anwender durchgeführt. Weiterführende Informationen finden Sie auf [dieser Seite](../event/about-events.md).
 
 ![](../assets/general-events.png)
