@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 09bebf62cda32e357f5f8b795e6702a69edb83a7
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '238'
 ht-degree: 86%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 86%
 
 # Journey-Versionen{#concept_ldc_k55_zgb}
 
-In der Liste der Journeys werden alle Journey-Versionen mit der Versionsnummer angezeigt. Siehe [](../building-journeys/using-the-journey-designer.md). Wenn Sie nach einer Journey suchen, werden beim ersten Öffnen der Anwendung die neuesten Versionen oben in der Liste angezeigt. Anschließend können Sie die gewünschte Sortierung definieren und die Anwendung behält sie als Benutzervoreinstellung bei. Die Version der Journey wird auch oben auf der Benutzeroberfläche zum Bearbeiten der Journey (oberhalb der Arbeitsfläche) angezeigt.
+In der Liste der Journeys werden alle Journey-Versionen mit der Versionsnummer angezeigt. Weiterführende Informationen finden Sie auf [dieser Seite](../building-journeys/using-the-journey-designer.md). Wenn Sie nach einer Journey suchen, werden beim ersten Öffnen der Anwendung die neuesten Versionen oben in der Liste angezeigt. Anschließend können Sie die gewünschte Sortierung definieren und die Anwendung behält sie als Benutzervoreinstellung bei. Die Version der Journey wird auch oben auf der Benutzeroberfläche zum Bearbeiten der Journey (oberhalb der Arbeitsfläche) angezeigt.
 
 ![](../assets/journeyversions1.png)
 
