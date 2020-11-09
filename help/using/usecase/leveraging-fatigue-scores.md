@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 100%
+source-wordcount: '268'
+ht-degree: 92%
 
 ---
 
@@ -27,7 +27,7 @@ Dieser Anwendungsfall zeigt, wie Sie Ermüdungswerte verwenden können, um zu ve
 
 ## Konfigurieren des Ereignisses {#section_ptb_ws1_ffb}
 
-Befolgen Sie die Schritte unter [](../event/about-events.md).
+Führen Sie die auf [dieser Seite](../event/about-events.md)beschriebenen Schritte aus.
 
 ## Konfigurieren der Datenquelle {#section_o3n_4yy_wfb}
 
@@ -46,7 +46,7 @@ Führen Sie folgende Schritte aus, um die Ermüdungswertfelder in der integriert
 
 ## Erstellen der Journey {#section_uzm_pyy_wfb}
 
-Gehen Sie wie in [](../building-journeys/journey.md) beschrieben vor, um eine Journey zu erstellen, zu validieren und zu veröffentlichen.
+To create, validate and publish the journey, follow the steps described in [this page](../building-journeys/journey.md).
 
 In unserem Anwendungsfall nutzen wir das Feld **[!UICONTROL fatigueLevel]**. Sie können auch das Feld **[!UICONTROL fatigueScore]** verwenden.
 
