@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 100%
+source-wordcount: '418'
+ht-degree: 93%
 
 ---
 
@@ -40,12 +40,12 @@ Anschließend prüfen wir zwei Bedingungen:
 
 ![](../assets/journeyuc2_29.png)
 
-Für diesen Anwendungsfall müssen wir zwei Ereignisse erstellen (siehe [](../usecase/configuring-the-events.md)):
+For this use case, we will need to create two events (see [this page](../usecase/configuring-the-events.md)):
 
 * das Beacon-Ereignis „Lobby“, das an das System gesendet wird, sobald ein Kunde das Hotel betritt;
 * das Beacon-Ereignis „Restaurant“, das gesendet wird, sobald ein Kunde das Restaurant betritt.
 
-Es muss eine Verbindung zu zwei Datenquellen konfiguriert werden (siehe [](../usecase/configuring-the-data-sources.md)):
+We will need to configure a connection to two data sources (see [this page](../usecase/configuring-the-data-sources.md)):
 
 * zur integrierten Adobe Experience Platform-Datenquelle zum Abrufen der Informationen für die beiden Bedingungen (Mitgliedschaft im Treueprogramm und Datum des letzten Kontakts) sowie der Informationen für die Personalisierung der Nachricht.
 * zum Hotelreservierungssystem zum Abrufen der Informationen über den Reservierungsstatus.
