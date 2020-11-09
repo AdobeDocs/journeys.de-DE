@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '175'
 ht-degree: 100%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 100%
 
 Sie können eine Journey veröffentlichen, nachdem Sie ihre Gültigkeit getestet haben.
 
-Wenn Sie eine veröffentlichte Journey ändern möchten, müssen Sie eine neue Version Ihrer Journey erstellen. Siehe [](../building-journeys/journey-versions.md). Wenn eine Journey schreibgeschützt ist, können Sie nur die Titel und Beschreibungen der Aktivitäten, den Namen der Journey und die Beschreibung der Journey ändern.
+Wenn Sie eine veröffentlichte Journey ändern möchten, müssen Sie eine neue Version Ihrer Journey erstellen. Weiterführende Informationen finden Sie auf [dieser Seite](../building-journeys/journey-versions.md). Wenn eine Journey schreibgeschützt ist, können Sie nur die Titel und Beschreibungen der Aktivitäten, den Namen der Journey und die Beschreibung der Journey ändern.
 
 Wenn Sie eine Journey stoppen, wird sie dauerhaft angehalten. Alle Personen, die sich in der Journey aufhalten, werden dauerhaft gestoppt und die Journey lässt keine neuen Eintritte mehr zu. Wenn Sie die Journey erneut verwenden möchten, müssen Sie sie duplizieren und veröffentlichen.
 
-1. Vergewissern Sie sich vor der Veröffentlichung, dass die Journey gültig ist und keine Fehler vorliegen. Sie können keine fehlerbehafteten Journeys veröffentlichen. Siehe [](../about/troubleshooting.md#section_h3q_kqk_fhb). Es wird auch empfohlen, die Journey vor der Veröffentlichung zu testen. Siehe [](../building-journeys/testing-the-journey.md).
+1. Vergewissern Sie sich vor der Veröffentlichung, dass die Journey gültig ist und keine Fehler vorliegen. Sie können keine fehlerbehafteten Journeys veröffentlichen. Siehe [diesen Abschnitt](../about/troubleshooting.md#section_h3q_kqk_fhb). Es wird auch empfohlen, die Journey vor der Veröffentlichung zu testen. Weiterführende Informationen finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md).
 1. Klicken Sie zum Veröffentlichen der Journey oben rechts im Dropdown-Menü auf die Option **[!UICONTROL Veröffentlichen]**.
 
    ![](../assets/journeyuc1_18.png)
