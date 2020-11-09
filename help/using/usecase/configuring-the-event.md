@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 100%
+source-wordcount: '363'
+ht-degree: 95%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 In unserem Szenario müssen wir jedes Mal, wenn eine Person den Beacon am Spa passiert, ein Ereignis erhalten. Der **technische Anwender** muss das Ereignis konfigurieren, auf das das System in unserer Journey achten wird.
 
-Weitere Informationen zur Ereigniskonfiguration finden Sie unter [](../event/about-events.md).
+For additional information on event configuration, refer to [this page](../event/about-events.md).
 
 1. Klicken Sie im oberen Menü auf den Tab **[!UICONTROL Ereignisse]** und dann auf **[!UICONTROL Hinzufügen]**, um ein neues Ereignis zu erstellen.
 
@@ -39,7 +39,7 @@ Weitere Informationen zur Ereigniskonfiguration finden Sie unter [](../event/abo
    >
    >Die Liste der Felder variiert von Schema zu Schema. Gemäß der Schemadefinition können einige Felder obligatorisch und vorausgewählt sein.
 
-1. Ein Namespace muss ausgewählt werden. Basierend auf Schemaeigenschaften ist schon vorab ein Namespace ausgewählt. Sie können die Auswahl beibehalten. Weitere Informationen zu Namespaces finden Sie unter [](../event/selecting-the-namespace.md).
+1. Ein Namespace muss ausgewählt werden. Basierend auf Schemaeigenschaften ist schon vorab ein Namespace ausgewählt. Sie können die Auswahl beibehalten. Weitere Informationen zu Namensräumen finden Sie auf [dieser Seite](../event/selecting-the-namespace.md).
 
    ![](../assets/journeyuc1_6.png)
 
@@ -53,4 +53,4 @@ Weitere Informationen zur Ereigniskonfiguration finden Sie unter [](../event/abo
 
    ![](../assets/journeyuc1_7.png)
 
-   Das Ereignis kann nun in Ihrer Journey genutzt werden. Jetzt müssen Sie die App so konfigurieren, dass sie die erwartete Payload an den Endpunkt der Streaming-Aufnahme-APIs senden kann. Siehe [](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+   Das Ereignis kann nun in Ihrer Journey genutzt werden. Jetzt müssen Sie die App so konfigurieren, dass sie die erwartete Payload an den Endpunkt der Streaming-Aufnahme-APIs senden kann. Weiterführende Informationen finden Sie auf [dieser Seite](../event/additional-steps-to-send-events-to-journey-orchestration.md).
