@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '328'
 ht-degree: 100%
 
 ---
@@ -22,12 +22,12 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Beim Erstellen eines Ereignisses generiert [!DNL Journey Orchestration] automatisch eine ID für dieses Ereignis. Das System, das das Ereignis per Push sendet, sollte keine ID generieren, sondern die ID verwenden, die in der Payload-Vorschau verfügbar ist. Siehe [](../event/previewing-the-payload.md).
+>Beim Erstellen eines Ereignisses generiert [!DNL Journey Orchestration] automatisch eine ID für dieses Ereignis. Das System, das das Ereignis per Push sendet, sollte keine ID generieren, sondern die ID verwenden, die in der Payload-Vorschau verfügbar ist. Weiterführende Informationen finden Sie auf [dieser Seite](../event/previewing-the-payload.md).
 
 Um Ereignisse zu konfigurieren, die an **[!UICONTROL Streaming-Aufnahme-APIs]** gesendet und in [!DNL Journey Orchestration] verwendet werden sollen, müssen Sie die folgenden Schritte ausführen:
 
 1. Rufen Sie die Inlet-URL von den Adobe Experience Platform-APIs ab (siehe [Streaming-Aufnahme-APIs](https://docs.adobe.com/content/help/de-DE/experience-platform/ingestion/streaming/overview.html)).
-1. Kopieren Sie die Payload aus der Payload-Vorschau im Menü **[!UICONTROL Ereignis]**. Siehe [](../event/defining-the-payload-fields.md).
+1. Kopieren Sie die Payload aus der Payload-Vorschau im Menü **[!UICONTROL Ereignis]**. Weiterführende Informationen finden Sie auf [dieser Seite](../event/defining-the-payload-fields.md).
 
 Konfigurieren Sie anschließend das Datensystem, das Ereignisse mithilfe der kopierten Payload an die Streaming-Aufnahme-APIs pusht:
 
