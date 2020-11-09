@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 100%
+source-wordcount: '402'
+ht-degree: 95%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 In unserem Szenario soll jedes Mal, wenn eine Person das Marlton-Hotel sowie das Restaurant betritt, ein Ereignis empfangen werden. Der **technische Anwender** konfiguriert die beiden Ereignisse, auf die das System in unserer Journey überwachen soll.
 
-Weitere Informationen zur Ereigniskonfiguration finden Sie unter [](../event/about-events.md).
+For additional information on event configuration, refer to [this page](../event/about-events.md).
 
 1. Klicken Sie im oberen Menü auf den Tab **[!UICONTROL Ereignisse]** und dann auf **[!UICONTROL Hinzufügen]**, um ein neues Ereignis zu erstellen.
 
@@ -43,7 +43,7 @@ Weitere Informationen zur Ereigniskonfiguration finden Sie unter [](../event/abo
    >
    >Die Liste der Felder variiert von Schema zu Schema. Gemäß der Schemadefinition können einige Felder obligatorisch und vorausgewählt sein.
 
-1. Ein Namespace muss ausgewählt werden. Basierend auf Schemaeigenschaften ist schon vorab ein Namespace ausgewählt. Sie können die Auswahl beibehalten. Weitere Informationen zu Namespaces finden Sie unter [](../event/selecting-the-namespace.md).
+1. Ein Namespace muss ausgewählt werden. Basierend auf Schemaeigenschaften ist schon vorab ein Namespace ausgewählt. Sie können die Auswahl beibehalten. Weitere Informationen zu Namensräumen finden Sie auf [dieser Seite](../event/selecting-the-namespace.md).
 
    ![](../assets/journeyuc2_4.png)
 
@@ -57,4 +57,4 @@ Weitere Informationen zur Ereigniskonfiguration finden Sie unter [](../event/abo
 
    ![](../assets/journeyuc2_5.png)
 
-Auf gleiche Weise erstellen Sie das Ereignis „RestaurantBeacon“. Ihre beiden Beacon-Ereignisse wurden erstellt und können nun in der Journey genutzt werden. Jetzt müssen Sie die App so konfigurieren, dass sie die erwartete Payload an den Endpunkt der Streaming-Aufnahme-APIs senden kann. Siehe [](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+Auf gleiche Weise erstellen Sie das Ereignis „RestaurantBeacon“. Ihre beiden Beacon-Ereignisse wurden erstellt und können nun in der Journey genutzt werden. Jetzt müssen Sie die App so konfigurieren, dass sie die erwartete Payload an den Endpunkt der Streaming-Aufnahme-APIs senden kann. Weiterführende Informationen finden Sie auf [dieser Seite](../event/additional-steps-to-send-events-to-journey-orchestration.md).
