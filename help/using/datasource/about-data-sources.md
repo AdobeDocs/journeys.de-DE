@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 100%
+source-wordcount: '373'
+ht-degree: 89%
 
 ---
 
@@ -35,10 +35,10 @@ Diese Konfiguration ist nicht erforderlich, wenn Ihre Journeys nur lokale Daten 
 
 Es gibt zwei Arten von Datenquellen:
 
-* Die vorkonfigurierte Datenquelle von Adobe Experience Platform, die die Verbindung zum Echtzeit-Kundenprofildienst definiert. Dies ist eine integrierte Datenquelle. Siehe [](../datasource/adobe-experience-platform-data-source.md).
-* Die externen Datenquellen, mit denen Sie eine Verbindung zu externen Systemen definieren können. Diese können Sie erstellen. Siehe [](../datasource/external-data-sources.md).
+* Die vorkonfigurierte Datenquelle von Adobe Experience Platform, die die Verbindung zum Echtzeit-Kundenprofildienst definiert. Dies ist eine integrierte Datenquelle. Weiterführende Informationen finden Sie auf [dieser Seite](../datasource/adobe-experience-platform-data-source.md).
+* Die externen Datenquellen, mit denen Sie eine Verbindung zu externen Systemen definieren können. Diese können Sie erstellen. Weiterführende Informationen finden Sie auf [dieser Seite](../datasource/external-data-sources.md).
 
-Für jede Datenquelle definieren Sie die Informationen, die mit Feldergruppen abgerufen werden sollen. Feldergruppen sind Gruppen von Feldern, die aus einer Datenquelle abgerufen werden können. Siehe [](../datasource/field-groups.md).
+Für jede Datenquelle definieren Sie die Informationen, die mit Feldergruppen abgerufen werden sollen. Feldergruppen sind Gruppen von Feldern, die aus einer Datenquelle abgerufen werden können. Weiterführende Informationen finden Sie auf [dieser Seite](../datasource/field-groups.md).
 
 Weitere Informationen zum Konfigurieren einer Adobe Experience Platform-Datenquelle und einer externen Datenquelle sowie zum Suchen und Verwenden von Daten in einer Journey finden Sie in diesem [Anleitungsvideo](https://docs.adobe.com/content/help/de-DE/journey-orchestration-learn/tutorials/configure-data-sources.html).
 
@@ -50,11 +50,11 @@ Im Folgenden finden Sie die wichtigsten Schritte zur Konfiguration der Datenquel
 
 1. Klicken Sie oben im Menü auf den Tab **[!UICONTROL Datenquellen]**.
 
-   Die Liste der Datenquellen wird angezeigt. Weitere Informationen zur Benutzeroberfläche finden Sie unter [](../about/user-interface.md).
+   Die Liste der Datenquellen wird angezeigt. See [this page](../about/user-interface.md) for more information on the interface.
 
    ![](../assets/journey18.png)
 
-1. Anschließend können Sie der integrierten Datenquelle entweder Feldergruppen hinzufügen (siehe [](../datasource/adobe-experience-platform-data-source.md)) oder eine neue externe Datenquelle erstellen (siehe [](../datasource/external-data-sources.md)) und damit verbundene Feldergruppen erstellen (siehe [](../datasource/field-groups.md)).
+1. Then you can either add field groups to the built-in data source (see [this page](../datasource/adobe-experience-platform-data-source.md)) or create a new external data source (see [this page](../datasource/external-data-sources.md)) and associated field groups (see [this page](../datasource/field-groups.md)).
 
    ![](../assets/journey23.png)
 
