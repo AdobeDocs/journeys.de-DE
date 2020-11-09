@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 100%
+source-wordcount: '411'
+ht-degree: 94%
 
 ---
 
@@ -30,7 +30,7 @@ Der **Business-Anwender** kann nun die Journey einrichten. Unsere Journey enthä
 >
 >Die Aktivitäten **[!UICONTROL Push]** und **[!UICONTROL E-Mail]** sind in der Palette nur dann verfügbar, wenn Sie Adobe Campaign Standard verwenden.
 
-Weitere Informationen zum Erstellen einer Journey finden Sie unter [](../building-journeys/journey.md).
+For additional information on how to build a journey, refer to [this page](../building-journeys/journey.md).
 
 1. Klicken Sie im oberen Menü auf den Tab **[!UICONTROL Startseite]** und dann auf **[!UICONTROL Erstellen]**, um eine neue Journey einzurichten.
 
@@ -72,7 +72,7 @@ Weitere Informationen zum Erstellen einer Journey finden Sie unter [](../buildin
 
    ![](../assets/journeyuc1_17.png)
 
-1. Klicken Sie auf den Umschalter **[!UICONTROL Testen]**, um Ihre Journey mithilfe von Testprofilen zu testen. Wenn ein Fehler auftritt, deaktivieren Sie den Testmodus, ändern Sie Ihre Journey und testen Sie sie erneut. Weiterführende Informationen zum Testmodus finden Sie im Abschnitt [](../building-journeys/testing-the-journey.md).
+1. Klicken Sie auf den Umschalter **[!UICONTROL Testen]**, um Ihre Journey mithilfe von Testprofilen zu testen. Wenn ein Fehler auftritt, deaktivieren Sie den Testmodus, ändern Sie Ihre Journey und testen Sie sie erneut. For more information on the test mode, refer to [this page](../building-journeys/testing-the-journey.md).
 
    ![](../assets/journeyuc1_18bis.png)
 
