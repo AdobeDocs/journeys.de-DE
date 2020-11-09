@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 100%
+source-wordcount: '406'
+ht-degree: 92%
 
 ---
 
@@ -24,7 +24,7 @@ Dieser Schritt wird vom **Business-Anwender** ausgeführt. Hier erstellen Sie Ih
 
 Die Benutzeroberfläche für die Journey ermöglicht es Ihnen, Aktivitäten einfach von der Palette in die Arbeitsfläche zu ziehen. Sie können auch auf eine Aktivität doppelklicken, um sie im nächsten verfügbaren Schritt der Arbeitsfläche hinzuzufügen. Jede Aktivität hat eine bestimmte Rolle und eine bestimmte Position im Prozess. Die Aktivitäten werden sequenziert. Nach Beendigung einer Aktivität wird der Fluss fortgesetzt und die nächste Aktivität verarbeitet usw.
 
-Pro Journey ist nur ein Namespace zulässig. Wenn Sie das erste Ereignis ablegen, werden Ereignisse mit unterschiedlichen Namespaces grau dargestellt. Wenn das erste Ereignis keinen Namespace hat, werden alle Ereignisse mit einem Namespace grau dargestellt. Siehe [](../event/selecting-the-namespace.md). Außerdem werden die Feldergruppen für Adobe Experience Platform grau dargestellt, wenn die Journey Ereignisse ohne Namespace enthält. Wenn Sie mehrere Ereignisse in derselben Journey verwenden, müssen diese denselben Namespace verwenden.
+Pro Journey ist nur ein Namespace zulässig. Wenn Sie das erste Ereignis ablegen, werden Ereignisse mit unterschiedlichen Namespaces grau dargestellt. Wenn das erste Ereignis keinen Namespace hat, werden alle Ereignisse mit einem Namespace grau dargestellt. Weiterführende Informationen finden Sie auf [dieser Seite](../event/selecting-the-namespace.md). Außerdem werden die Feldergruppen für Adobe Experience Platform grau dargestellt, wenn die Journey Ereignisse ohne Namespace enthält. Wenn Sie mehrere Ereignisse in derselben Journey verwenden, müssen diese denselben Namespace verwenden.
 
 ## Schnellstart {#creating_journey}
 
@@ -32,7 +32,7 @@ Hier finden Sie die wichtigsten Schritte für das Erstellen und Veröffentlichen
 
 1. Klicken Sie oben im Menü auf den Tab **[!UICONTROL Startseite]**.
 
-   Die Liste der Journeys wird angezeigt. Weitere Informationen zur Benutzeroberfläche finden Sie unter [](../building-journeys/using-the-journey-designer.md).
+   Die Liste der Journeys wird angezeigt. Refer to [this page](../building-journeys/using-the-journey-designer.md) for more information on the interface.
 
    ![](../assets/journey30.png)
 
@@ -40,7 +40,7 @@ Hier finden Sie die wichtigsten Schritte für das Erstellen und Veröffentlichen
 
    ![](../assets/journey31.png)
 
-1. Bearbeiten Sie im Konfigurationsbereich auf der rechten Seite die Eigenschaften der Journey. Siehe [](../building-journeys/changing-properties.md).
+1. Bearbeiten Sie im Konfigurationsbereich auf der rechten Seite die Eigenschaften der Journey. Weiterführende Informationen finden Sie auf [dieser Seite](../building-journeys/changing-properties.md).
 
    ![](../assets/journey32.png)
 
@@ -48,11 +48,11 @@ Hier finden Sie die wichtigsten Schritte für das Erstellen und Veröffentlichen
 
    ![](../assets/journey33.png)
 
-1. Ziehen Sie Ihre anderen Aktivitäten per Drag-and-Drop und konfigurieren Sie sie. Siehe [](../building-journeys/event-activities.md), [](../building-journeys/about-orchestration-activities.md) und [](../building-journeys/about-action-activities.md).
+1. Ziehen Sie Ihre anderen Aktivitäten per Drag-and-Drop und konfigurieren Sie sie. Lesen Sie dazu die Aktivitäten [zum](../building-journeys/event-activities.md)Ereignis, [Aktivitäten](../building-journeys/about-orchestration-activities.md) zur Orchestrierung und [Aktivitäten](../building-journeys/about-action-activities.md)zu Aktionen.
 
    ![](../assets/journey34.png)
 
-1. Ihre Journey wird automatisch gespeichert. Testen und veröffentlichen Sie Ihre Journey. Siehe [](../building-journeys/testing-the-journey.md) und [](../building-journeys/publishing-the-journey.md).
+1. Ihre Journey wird automatisch gespeichert. Testen und veröffentlichen Sie Ihre Journey. Siehe [Testen der Reise](../building-journeys/testing-the-journey.md) und [Veröffentlichen der Reise](../building-journeys/publishing-the-journey.md).
 
    ![](../assets/journey36.png)
 
@@ -60,7 +60,7 @@ Hier finden Sie die wichtigsten Schritte für das Erstellen und Veröffentlichen
 
 Es gibt zwei Möglichkeiten, eine Journey zu beenden:
 
-* Die Person kommt bei der letzten Aktivität eines Pfades an. Diese letzte Aktivität kann eine Endaktivität oder eine andere Aktivität sein. Sie müssen einen Pfad nicht mit einer Endaktivität beenden. Siehe [](../building-journeys/end-activity.md).
+* Die Person kommt bei der letzten Aktivität eines Pfades an. Diese letzte Aktivität kann eine Endaktivität oder eine andere Aktivität sein. Sie müssen einen Pfad nicht mit einer Endaktivität beenden. Weiterführende Informationen finden Sie auf [dieser Seite](../building-journeys/end-activity.md).
 * Die Person kommt bei einer Bedingungsaktivität (oder einer Warteaktivität mit einer Bedingung) an und erfüllt keine der Bedingungen.
 
-Die Person kann dann wieder in die Journey eintreten, wenn der erneute Zutritt erlaubt ist. Siehe [](../building-journeys/changing-properties.md).
+Die Person kann dann wieder in die Journey eintreten, wenn der erneute Zutritt erlaubt ist. Weiterführende Informationen finden Sie auf [dieser Seite](../building-journeys/changing-properties.md).
