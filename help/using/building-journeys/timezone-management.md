@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '270'
 ht-degree: 100%
 
 ---
@@ -26,10 +26,10 @@ Um die Eigenschaften aufzurufen, klicken Sie auf das Stiftsymbol oben rechts im 
 
 Diese Zeitzone wird für jede Aktivität der Journey verwendet, die ein Zeitelement enthält, z. B.: 
 
-* [](../building-journeys/condition-activity.md#time_condition)
-* [](../building-journeys/condition-activity.md#date_condition)
-* [](../building-journeys/wait-activity.md#custom)
-* [](../building-journeys/wait-activity.md#fixed_date)
+* [Bedingung für die Uhrzeit](../building-journeys/condition-activity.md#time_condition)
+* [Bedingung für das Datum](../building-journeys/condition-activity.md#date_condition)
+* [Benutzerdefinierte Wartezeit](../building-journeys/wait-activity.md#custom)
+* [Wartezeit mit festgelegtem Datum](../building-journeys/wait-activity.md#fixed_date)
 
 Sie können eine Zeitzone auswählen oder die Zeitzone verwenden, die im Benutzerprofil definiert ist.
 
