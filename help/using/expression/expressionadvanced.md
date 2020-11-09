@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 100%
+source-wordcount: '513'
+ht-degree: 96%
 
 ---
 
@@ -77,7 +77,7 @@ Ein Syntaxvalidierungsverfahren überprüft die Integrität Ihres Codes. Fehler 
 
 **Bedarf an Parametern beim Erstellen von Bedingungen mit dem erweiterten Ausdruckseditor**
 
-Wenn Sie ein Feld aus einer externen Datenquelle auswählen, für das ein Parameter aufgerufen werden muss (siehe [](../datasource/external-data-sources.md)). Beispiel: In einer wetterbezogenen Datenquelle lautet ein häufig verwendeter Parameter „city“. Darum müssen Sie festlegen, wo Sie diesen Parameter „city“ abrufen möchten. Funktionen können auch auf Parameter angewendet werden, um Formatänderungen oder Verkettungen vorzunehmen.
+If you select a field from an external data source requiring a parameter to be called (see [this page](../datasource/external-data-sources.md). Beispiel: In einer wetterbezogenen Datenquelle lautet ein häufig verwendeter Parameter „city“. Darum müssen Sie festlegen, wo Sie diesen Parameter „city“ abrufen möchten. Funktionen können auch auf Parameter angewendet werden, um Formatänderungen oder Verkettungen vorzunehmen.
 
 ![](../assets/journeyuc2_19.png)
 
