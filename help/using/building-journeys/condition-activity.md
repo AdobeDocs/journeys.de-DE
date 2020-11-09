@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 100%
+source-wordcount: '768'
+ht-degree: 98%
 
 ---
 
@@ -56,14 +56,13 @@ Wenn Sie zur Erstellung Ihrer Segmente den [Segmentierungsdienst von Adobe Exper
 
 >[!NOTE]
 >
->Mit dem einfachen Editor können Sie keine Abfragen zu Zeitreihen (z. B. zu einer Liste der Käufe oder vergangenen Klicks auf Nachrichten) durchführen. Dazu müssen Sie den erweiterten Editor verwenden. Siehe [](../expression/expressionadvanced.md).
+>Mit dem einfachen Editor können Sie keine Abfragen zu Zeitreihen (z. B. zu einer Liste der Käufe oder vergangenen Klicks auf Nachrichten) durchführen. Dazu müssen Sie den erweiterten Editor verwenden. Weiterführende Informationen finden Sie auf [dieser Seite](../expression/expressionadvanced.md).
 
-
-Wenn in einer Aktion oder einer Bedingung ein Fehler auftritt, wird die Journey der Person gestoppt. Die einzige Möglichkeit zum Fortsetzen des Vorgangs besteht darin, das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** zu aktivieren. Siehe [](../building-journeys/using-the-journey-designer.md#paths).
+Wenn in einer Aktion oder einer Bedingung ein Fehler auftritt, wird die Journey der Person gestoppt. Die einzige Möglichkeit zum Fortsetzen des Vorgangs besteht darin, das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** zu aktivieren. Siehe [diesen Abschnitt](../building-journeys/using-the-journey-designer.md#paths).
 
 ## Bedingung der Datenquelle {#data_source_condition}
 
-Auf diese Weise können Sie eine Bedingung basierend auf Feldern aus den Datenquellen oder den zuvor in der Journey positionierten Ereignissen definieren. Informationen zur Verwendung des Ausdruckseditors finden Sie unter [](../expression/expressionadvanced.md). Mit dem erweiterten Ausdruckseditor können Sie erweiterte Bedingungen zur Bearbeitung von Sammlungen oder zur Verwendung von Datenquellen einrichten, für die Parameter übergeben werden müssen. Siehe [](../datasource/external-data-sources.md).
+Auf diese Weise können Sie eine Bedingung basierend auf Feldern aus den Datenquellen oder den zuvor in der Journey positionierten Ereignissen definieren. To learn how to use the expression editor, see [this page](../expression/expressionadvanced.md). Mit dem erweiterten Ausdruckseditor können Sie erweiterte Bedingungen zur Bearbeitung von Sammlungen oder zur Verwendung von Datenquellen einrichten, für die Parameter übergeben werden müssen. Weiterführende Informationen finden Sie auf [dieser Seite](../datasource/external-data-sources.md).
 
 ![](../assets/journey50.png)
 
@@ -73,7 +72,7 @@ Auf diese Weise können Sie je nach Tageszeit und/oder Wochentag unterschiedlich
 
 >[!NOTE]
 >
->Die Zeitzone hängt nicht mehr von einer Bedingung ab und wird jetzt auf Journey-Ebene in den Eigenschaften der Journey festgelegt. Siehe [](../building-journeys/timezone-management.md).
+>Die Zeitzone hängt nicht mehr von einer Bedingung ab und wird jetzt auf Journey-Ebene in den Eigenschaften der Journey festgelegt. Mehr dazu erfahren Sie auf [dieser Seite](../building-journeys/timezone-management.md).
 
 ![](../assets/journey51.png)
 
@@ -85,7 +84,6 @@ Mit dieser Option können Sie die Audience nach dem Zufallsprinzip aufspalten, u
 >
 >Beachten Sie, dass es in der Bedingung für die prozentuale Aufspaltung keine Schaltfläche zum Hinzufügen eines Pfades gibt. Die Anzahl der Pfade hängt von der Anzahl der Aufspaltungen ab. In Bedingungen für die Aufspaltung können Sie keinen Pfad für andere Fälle hinzufügen, da diese nicht möglich sind. Die Personen wählen immer einen der Pfade der Aufspaltung aus.
 
-
 ![](../assets/journey52.png)
 
 ## Bedingung für das Datum {#date_condition}
@@ -94,6 +92,6 @@ Auf diese Weise können Sie basierend auf dem Datum einen anderen Fluss definier
 
 >[!NOTE]
 >
->Die Zeitzone hängt nicht mehr von einer Bedingung ab und wird jetzt auf Journey-Ebene in den Eigenschaften der Journey festgelegt. Siehe [](../building-journeys/timezone-management.md).
+>Die Zeitzone hängt nicht mehr von einer Bedingung ab und wird jetzt auf Journey-Ebene in den Eigenschaften der Journey festgelegt. Weiterführende Informationen finden Sie auf [dieser Seite](../building-journeys/timezone-management.md).
 
 ![](../assets/journey53.png)
