@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '433'
 ht-degree: 100%
 
 ---
@@ -63,7 +63,7 @@ Ein Standardwert kann mit einem Feldnamen verknüpft werden. Die Syntax sieht fo
 
 **Verweis auf ein Feld in Sammlungen**
 
-Die in Sammlungen definierten Elemente werden mit den speziellen Funktionen (alle, zuerst und zuletzt) referenziert. Lesen Sie für weiterführende Informationen den Abschnitt [](../expression/collection-management-functions.md).
+Die in Sammlungen definierten Elemente werden mit den speziellen Funktionen (alle, zuerst und zuletzt) referenziert. Weiterführende Informationen dazu finden Sie auf dieser [Seite](../expression/collection-management-functions.md).
 
 Beispiel:
 
@@ -73,17 +73,17 @@ Beispiel:
 
 **Verweis auf ein in einer Zuordnung definiertes Feld**
 
-Um ein Element in einer Zuordnung abzurufen, verwenden Sie die Eingabefunktion mit einem bestimmten Schlüssel. Sie wird beispielsweise beim Definieren des Schlüssels eines Ereignisses je nach ausgewähltem Namespace verwendet. Siehe „Auswählen des Namespace“. Lesen Sie für weiterführende Informationen den Abschnitt [](../event/selecting-the-namespace.md).
+Um ein Element in einer Zuordnung abzurufen, verwenden Sie die Eingabefunktion mit einem bestimmten Schlüssel. Sie wird beispielsweise beim Definieren des Schlüssels eines Ereignisses je nach ausgewähltem Namespace verwendet. Siehe „Auswählen des Namespace“. Weiterführende Informationen finden Sie auf [dieser Seite](../event/selecting-the-namespace.md).
 
 ```
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-In diesem Ausdruck erhalten wir den Eintrag für den Schlüssel „E-Mail“ des Felds „IdentityMap“ eines Ereignisses. Der Eintrag „E-Mail“ ist eine Sammlung, aus der wir mithilfe von „first()“ die „ID“ im ersten Element verwenden. Lesen Sie für weiterführende Informationen den Abschnitt [](../expression/collection-management-functions.md).
+In diesem Ausdruck erhalten wir den Eintrag für den Schlüssel „E-Mail“ des Felds „IdentityMap“ eines Ereignisses. Der Eintrag „E-Mail“ ist eine Sammlung, aus der wir mithilfe von „first()“ die „ID“ im ersten Element verwenden. Weiterführende Informationen finden Sie auf [dieser Seite](../expression/collection-management-functions.md).
 
 **Parameterwerte einer Datenquelle (von Datenquelle abhängige Werte)**
 
-Wenn Sie ein Feld aus einer externen Datenquelle auswählen, für das ein Parameter aufgerufen werden muss, wird rechts ein neuer Tab angezeigt, auf dem Sie den Parameter angeben können. Siehe [](../expression/expressionadvanced.md).
+Wenn Sie ein Feld aus einer externen Datenquelle auswählen, für das ein Parameter aufgerufen werden muss, wird rechts ein neuer Tab angezeigt, auf dem Sie den Parameter angeben können. Weiterführende Informationen finden Sie auf [dieser Seite](../expression/expressionadvanced.md).
 
 Bei komplexeren Anwendungsfällen können Sie, wenn Sie die Parameter der Datenquelle in den Hauptausdruck einbeziehen möchten, deren Werte mit dem Keyword _params_ definieren. Ein Parameter kann ein beliebiger gültiger Ausdruck sein und selbst aus einer anderen Datenquelle stammen, die ebenfalls einen anderen Parameter enthält.
 
