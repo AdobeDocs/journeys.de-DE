@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 59b726388ee1c2c4b51ada9e7e5f7ca4eb6554b3
+source-git-commit: f45069225b284fe47e2acaccb4aa5d34fe171f35
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 87%
@@ -27,7 +27,7 @@ Die Transaktionsnachricht in Campaign Standard und das zugehörige Ereignis müs
 
 >[!NOTE]
 >
->Adobe Campaign Standard Transactional Messaging verfügt über eine maximale Anzahl von 50 000 Nachrichten pro Stunde über Kanal für eine bestimmte Instanz. Um das Risiko eines Überladens zu verringern, sollten Sie eine **Deckelungsregel** für die Campaign Standard-Integration einrichten.
+>Adobe Campaign Standard Transactional Messaging verfügt über eine maximale Anzahl von 50 000 Nachrichten pro Stunde über Kanal für eine bestimmte Instanz. Um das Überlastungsrisiko zu verringern, empfehlen wir, eine **Deckelungsregel** für die Campaign Standard-Integration einzurichten.
 >
 >Lesen Sie mehr über Service-Level-Vereinbarungen für Transaktionsnachrichten in der [Produktbeschreibung von Adobe Campaign Standard](https://helpx.adobe.com/de/legal/product-descriptions/campaign-standard.html).
 
