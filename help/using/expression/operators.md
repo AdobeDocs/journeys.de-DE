@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 2af6e632461a8c01451f96c121469c9a32ae7f32
+source-git-commit: eec6203f63fa6d7ea706595ea866d2b330d284a8
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 100%
@@ -46,11 +46,11 @@ Im Folgenden finden Sie eine Liste der unterstützten Operatoren:
 <tr><th>Operator</th><th>Literaler Ausdruck</th><th>Beispiel</th></tr>
 </thead>
 <tbody>
-<tr>&gt;<td>and</td><td><p><pre>&lt;Ausdruck1&gt; and &lt;Ausdruck2&gt;</pre></p>Sowohl &lt;Ausdruck1&gt; als auch &lt;Ausdruck2&gt; müssen boolesch sein. Das Ergebnis ist boolesch.</td><td><pre>3.14 &gt; 2 and 3.15 &lt; 1</pre></td></tr>
+<tr><td>and</td><td><p><pre>&lt;Ausdruck1&gt; and &lt;Ausdruck2&gt;</pre></p>Sowohl &lt;Ausdruck1&gt; als auch &lt;Ausdruck2&gt; müssen boolesch sein. Das Ergebnis ist boolesch.</td><td><pre>3.14 &gt; 2 and 3.15 &lt; 1</pre></td></tr>
 <tr><td>or</td><td><p><pre>&lt;Ausdruck1&gt; or &lt;Ausdruck2&gt;</pre></p><p>Sowohl &lt;Ausdruck1&gt; als auch &lt;Ausdruck2&gt; müssen boolesch sein.</p><p> Das Ergebnis ist boolesch.</p></td><td><p><pre>3.14 &gt; 2 or 3.15 &lt; 1</pre></p></td></tr>
 <tr><td>not</td><td><p><pre>not &lt;Ausdruck&gt;</pre></p><p>&lt;Ausdruck&gt; muss boolesch sein.</p><p> Das Ergebnis ist boolesch.</p></td><td><pre>not 3.15 &lt; 1</pre></td></tr>
 </tbody>
-  </table>
+</table>
 
 ## Vergleich
 
@@ -88,11 +88,13 @@ Im Folgenden finden Sie eine Liste der unterstützten Operatoren:
 
 <table>
 <thead>
-<tr><th>Operator</th><th>Literaler Ausdruck </th><th>Beispiel</th></tr>
+<tr><th>Operator</th><th>Literaler Ausdruck</th><th>Beispiel</th></tr>
 </thead>
 <tbody><tr><td>is numeric</td><td><p><pre>&lt;Ausdruck&gt; is numeric</pre></p><p>Der Typ des Ausdrucks ist Ganzzahl oder Dezimalzahl.</p></td><td><pre>@ is numeric</pre></td></tr>
 <tr><td>is integer</td><td><p><pre>&lt;Ausdruck&gt; is integer</pre></p><p>Der Typ des Ausdrucks ist Ganzzahl.</p></td><td><pre>@ is integer</pre></td></tr>
 <tr><td>is decimal</td><td><p><pre>&lt;Ausdruck&gt; is decimal</pre></p><p>Der Typ des Ausdrucks ist Dezimalzahl.</p></td><td><pre>@ is decimal</pre></td></tr>
+</tbody>
+</table>
 
 ## Zeichenfolge
 
