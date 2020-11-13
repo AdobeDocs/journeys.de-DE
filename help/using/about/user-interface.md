@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
+source-git-commit: 9999546d08d0279f013ead3a1e71bb7f9305bebc
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 100%
+source-wordcount: '1113'
+ht-degree: 94%
 
 ---
 
@@ -139,3 +139,11 @@ _In der Arbeitsfläche einer Journey:_
 * Verwenden Sie die Tastenkombination **Strg-Taste/Befehlstaste+A**, um alle Aktivitäten auszuwählen.
 * Wenn eine oder mehrere Aktivitäten ausgewählt sind, drücken Sie die Taste **Entf** oder die **Rücktaste**, um diese Aktivitäten zu löschen. Dann können Sie die **Eingabetaste** drücken, um den Vorgang im Bestätigungs-Popup zu bestätigen.
 * Doppelklicken Sie auf eine Aktivität in der linken Palette, um sie an der ersten verfügbaren Position (von oben nach unten) hinzuzufügen.
+
+_Auf einer Reise:_
+
+* Drücken Sie **T** , um den Testmodus zu aktivieren/deaktivieren.
+* Drücken Sie bei einer Ereignis-basierten Reise im Testmodus die Taste **E** , um ein Ereignis auszulösen.
+* Wenn in einer segmentbasierten Reise die Option **Einzelnes Profil zu einer Zeit** im Testmodus ausgewählt ist, drücken Sie **P** , um ein Ereignis auszulösen.
+* Drücken Sie im Testmodus die Taste **L** , um die Protokolle anzuzeigen.
+
