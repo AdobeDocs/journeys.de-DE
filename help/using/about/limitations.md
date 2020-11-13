@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 59b726388ee1c2c4b51ada9e7e5f7ca4eb6554b3
+source-git-commit: f45069225b284fe47e2acaccb4aa5d34fe171f35
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 33%
@@ -47,6 +47,6 @@ Hier sind Einschränkungen im Zusammenhang mit der Verwendung von Journey Orches
 * Streaming-Daten, die zur Initiierung einer Kundenreise verwendet werden, müssen innerhalb der Journey Orchestration konfiguriert werden, bevor eine eindeutige Orchester-ID abgerufen werden kann. Diese Organisations-ID muss an die Streaming-Nutzlast angehängt werden, die nach Adobe Experience Platform kommt.
  
 
-## Datenquellen-Einschränkungen:
+## Einschränkungen bei Datenquellen
 
 * Externe Datenquellen können innerhalb einer Customer Journey genutzt werden, um externe Daten in Echtzeit zu suchen. Diese Quellen müssen über die REST-API nutzbar sein, JSON unterstützen und in der Lage sein, das Anforderungsvolumen zu verarbeiten.
