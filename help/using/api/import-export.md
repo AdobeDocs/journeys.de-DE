@@ -6,9 +6,9 @@ products: journeys
 audience: audiences
 content-type: reference
 topic-tags: journeys
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1103'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ Der API-Zugriff für Journey Orchestration wird wie folgt eingerichtet: Jeder di
 >Wenn Sie Zertifikate in Adobe I/O verwalten möchten, vergewissern Sie sich, dass Sie in der Admin Console über <b>Systemadministrator</b>-Rechte für das Unternehmen oder ein [Entwicklerkonto](https://helpx.adobe.com/de/enterprise/using/manage-developers.html) verfügen.
 
 1. **Überprüfen Sie, ob Sie ein digitales Zertifikat haben**, oder erstellen Sie bei Bedarf eines. Die mit dem Zertifikat bereitgestellten öffentlichen und privaten Schlüssel werden in den folgenden Schritten benötigt.
-1. **Erstellen Sie eine neue Integration mit dem[!DNL Journey Orchestration]-Service** in Adobe I/O und konfigurieren Sie sie. Der Produktprofilzugriff wird für Journey Orchestration und Adobe Experience Platform benötigt. Dann werden Ihre Zugangsdaten generiert (API-Schlüssel, Client-Geheimnis...).
+1. **Erstellen Sie eine neue Integration mit dem [!DNL Journey Orchestration]-Service** in Adobe I/O und konfigurieren Sie sie. Der Produktprofilzugriff wird für Journey Orchestration und Adobe Experience Platform benötigt. Dann werden Ihre Zugangsdaten generiert (API-Schlüssel, Client-Geheimnis...).
 1. **Erstellen Sie einen JSON-Web-Token (JWT)** aus den zuvor erstellten Anmeldedaten und signieren Sie ihn mit Ihrem privaten Schlüssel. Der JWT kodiert alle Identitäts- und Sicherheitsdaten, die Adobe zum Überprüfen Ihrer Identität und zum Erteilen des Zugriffs auf die API benötigt. Dieser Schritt wird in diesem [Abschnitt](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) genau beschrieben.
 1. **Ersetzen Sie Ihr JWT durch einen Zugriffstoken**, und zwar über eine POST-Anfrage oder über die Developer Console-Oberfläche. Dieser Zugriffstoken muss in allen Kopfzeilen Ihrer API-Anfragen verwendet werden.
 
