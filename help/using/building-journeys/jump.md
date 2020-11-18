@@ -1,6 +1,6 @@
 ---
-title: Springen von einer Reise zur nächsten
-description: Springen von einer Reise zur nächsten
+title: Springen zwischen Journeys
+description: Springen zwischen Journeys
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -8,94 +8,94 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1ec824dcfd54bde5f3aab80ce30dbc9a19b9e4c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '758'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# Springen von einer Reise zur nächsten {#jump}
+# Springen zwischen Journeys {#jump}
 
 >[!NOTE]
 >
->Wirksame Verfügbarkeit: 15. November 2020
+>Tatsächliche Verfügbarkeit: 15. November 2020
 
-Mit der Aktivität **Sprungaktion** können Sie Einzelpersonen von einer Reise zur nächsten verschieben. Mit dieser Funktion können Sie:
+Mit der Aktionsaktivität **Sprung** können Sie Kontakte von einer Journey in eine andere bewegen. Diese Funktion unterstützt:
 
-* Vereinfachung der Gestaltung sehr komplexer Fahrten durch Aufteilung in mehrere Fahrten
-* Aufbau von Fahrten auf der Grundlage gemeinsamer und wiederverwendbarer Reisemuster
+* Vereinfachung der Gestaltung sehr komplexer Journeys durch Aufteilung in mehrere Journeys
+* Erstellung von Journeys anhand allgemeiner und wiederverwendbarer Journey-Muster
 
-Fügen Sie in der Herkunft einfach einen **Sprung** hinzu und wählen Sie eine Zielgruppe Reise. Wenn der Einzelne in den Sprungschritt eintritt, wird ein internes Ereignis an das erste Ereignis der Zielgruppe gesendet. Wenn die Sprungaktion erfolgreich ist, wird der Einzelne auf der Reise weiter vorankommen. Das Verhalten ist mit anderen Aktionen vergleichbar.
+Fügen Sie in der Ursprungs-Journey einfach einen **Sprung** hinzu und wählen Sie eine Ziel-Journey aus. Wenn der Kontakt in den Sprungschritt eintritt, wird ein internes Ereignis an das erste Ereignis der Ziel-Journey gesendet. Wenn die Sprungaktion erfolgreich ist, schreitet der Kontakt in der Journey fort. Das Verhalten ist mit anderen Aktionen vergleichbar.
 
-Auf dem Weg zur Zielgruppe wird das erste intern durch den Sprung ausgelöste Ereignis den individuellen Verlauf der Reise ausmachen.
+In der Ziel-Journey leitet das erste Ereignis, das intern durch den Sprung ausgelöst wurde, den Kontakt in die Journey.
 
 ## Lebenszyklus
 
-Nehmen wir an, Sie haben einen Sprung in eine Reise A zu einer Reise B hinzugefügt. Reise A ist die **Herkunft Reise** und Reise B, die **Zielgruppe Reise**.
-Im Folgenden sind die verschiedenen Schritte des Ausführungsprozesses aufgeführt:
+Nehmen wir an, Sie haben in einer Journey A einen Sprung zu einer Journey B hinzugefügt. Journey A ist dann die **Ursprungs-Journey** und Journey B die **Ziel-Journey**.
+Im Folgenden finden Sie die verschiedenen Schritte des Ausführungsprozesses:
 
-**Reise A** wird von einem externen Ereignis ausgelöst:
+**Journey A** wird von einem externen Ereignis ausgelöst:
 
-1. Die Reise A erhält ein externes Ereignis, das mit einer Einzelperson verbunden ist.
-1. Das Individuum erreicht den Sprungschritt.
-1. Der Einzelne wird nach dem Sprung zu Journey B gedrängt und fährt mit den nächsten Schritten in der Reise A fort.
+1. Journey A empfängt ein externes Ereignis, das mit einem Kontakt in Verbindung steht.
+1. Der Kontakt erreicht den Sprungschritt.
+1. Der Kontakt wird in Journey B geleitet und fährt nach dem Sprung mit den nächsten Schritten in Journey A fort.
 
-Auf **Reise B** kann das erste Ereignis extern (wie ein reguläres Ereignis) oder intern über einen Sprung von Reise A ausgelöst werden:
+In **Journey B** kann das erste Ereignis extern (wie ein reguläres Ereignis) oder intern über einen Sprung von Journey A ausgelöst werden:
 
 1. Journey B erhielt ein internes Ereignis von Journey A.
-1. Das erste Ereignis von Journey B wird durch die Informationen von Journey A ausgelöst.
-1. Die einzelnen Beginn fließen in der Reise B.
+1. Das erste Ereignis von Journey B wird mit den Informationen von Journey A ausgelöst.
+1. Die Kontakte werden in Journey B geleitet.
 
-## Wichtige Hinweise              
+## Wichtige Hinweise
 
-* Sie können nur zu einer Reise springen, die denselben Namensraum wie die Herkunft verwendet.
-* Sie können nicht zu einer Reise springen, die Beginn mit einem **Segmentqualifizierungs** -Ereignis führen.
-* Wenn der Sprung ausgeführt wird, wird die neueste Version der Zielgruppe-Reise ausgelöst.
-* Sie können so viele Sprünge wie nötig in eine Reise einbeziehen. Nach einem Sprung können Sie jede erforderliche Aktivität hinzufügen.
-* Sie können so viele Sprungstufen wie nötig haben. So springt z.B. &quot;Reise A&quot;zu &quot;Reise B&quot;, die zu &quot;Reise C&quot;springt usw.
-* Die Zielgruppe-Reise kann auch so viele Sprünge wie nötig umfassen.
-* Schleifenmuster werden nicht unterstützt. Es gibt keine Möglichkeit, zwei oder mehr Reisen miteinander zu verbinden, was zu einer unendlichen Schleife führen würde. Der Konfigurationsbildschirm für die **Schnellstartkonfiguration** verhindert dies.
-* Wie üblich kann eine individuelle Person nur einmal auf einer Reise anwesend sein. Wenn sich das Individuum, das von der Herkunft gedrängt wird, bereits auf der Zielgruppe befindet, wird das Individuum nicht in die Zielgruppe reisen. Beim Sprung wird kein Fehler gemeldet, da dies ein normales Verhalten ist.
+* Sie können nur in eine Journey springen, die denselben Namespace wie die Ursprungs-Journey verwendet.
+* Sie können nicht in eine Journey springen, die mit einem **Segmentqualifikationsereignis** beginnt.
+* Wenn der Sprung ausgeführt wird, wird die aktuelle Version der Ziel-Journey ausgelöst.
+* Sie können so viele Sprünge in eine Journey aufnehmen, wie Sie benötigen. Nach einem Sprung können Sie jede erforderliche Aktivität hinzufügen.
+* Sie können beliebig viele Sprungstufen einfügen. So kann z. B. Journey A zu Journey B springen, welche zu Journey C springt, usw.
+* Auch die Ziel-Journey kann beliebig viele Sprünge umfassen.
+* Schleifenmuster werden nicht unterstützt. Es gibt keine Möglichkeit, zwei oder mehr Journeys miteinander zu verbinden, die eine Endlosschleife erzeugen würden. Der Konfigurationsbildschirm für **Sprungaktivitäten** verhindert dies.
+* Wie üblich darf sich ein eindeutiger Kontakt nur einmal in einer Journey befinden. Wenn sich der Kontakt, der aus der Ursprungs-Journey bewegt wurde, bereits in der Ziel-Journey befindet, tritt der Kontakt also nicht mehr in die Ziel-Journey ein. Beim Sprung wird kein Fehler gemeldet, da dies ein normales Verhalten ist.
 
 ## Konfigurieren des Sprungs
 
-1. Entwerfen Sie Ihre Herkunft.
+1. Gestalten Sie die Ursprungs-Journey.
 
    ![](../assets/jump1.png)
 
-1. Fügen Sie bei jedem Schritt der Reise eine **Sprung** -Aktivität aus der **Action** -Kategorie hinzu. hinzufügen einer Bezeichnung und Beschreibung.
+1. Fügen Sie einem beliebigen Schritt in der Journey eine **Sprungaktivität** der Kategorie **Aktion** hinzu. Fügen Sie einen Titel und eine Beschreibung hinzu.
 
    ![](../assets/jump2.png)
 
-1. Klicken Sie in das Feld **Zielgruppe Reise** .
-Die Liste zeigt alle Reiseversionen an, die Entwurfs-, Live- oder Testversionen sind. Reisen, die einen anderen Namensraum oder diesen Beginn mit einem Ereignis für die **Segmentqualifikation** verwenden, sind nicht verfügbar. Reisen mit Zielgruppen, die ein Schleifenmuster erzeugen würden, werden ebenfalls herausgefiltert.
+1. Klicken Sie in das Feld **Ziel-Journey**.
+Die Liste zeigt alle Journey-Versionen an, die sich im Entwurfs-, Live- oder Testmodus befinden. Journeys, die einen anderen Namespace verwenden oder mit einem **Segmentqualifikationsereignis** beginnen, sind nicht verfügbar. Ziel-Journeys, die ein Schleifenmuster erzeugen würden, werden ebenfalls herausgefiltert.
 
    ![](../assets/jump3.png)
 
    >[!NOTE]
    >
-   >Sie können auf das Symbol **Offene Zielgruppe Reise** auf der rechten Seite klicken, um die Zielgruppe Reise in einem neuen Register zu öffnen.
+   >Sie können rechts auf das Symbol **Zielgruppen-Journey öffnen** klicken, um die Ziel-Journey in einem neuen Tab zu öffnen.
 
-1. Wählen Sie die Zielgruppe, zu der Sie springen möchten.
-Das Feld &quot; **Erstes Ereignis** &quot;wird vorab mit dem Namen des ersten Ereignisses der Zielgruppe gefüllt. Wenn Ihre Zielgruppe mehrere Ereignis umfasst, ist der Sprung nur am ersten Ereignis zulässig.
+1. Wählen Sie die Ziel-Journey aus, zu der Sie springen möchten.
+Das Feld **Erstes Ereignis** wird vorab mit dem Namen des ersten Ereignisses der Ziel-Journey gefüllt. Wenn Ihre Ziel-Journey mehrere Ereignisse umfasst, ist der Sprung nur zum ersten Ereignis zulässig.
 
    ![](../assets/jump4.png)
 
-1. Im Abschnitt **Aktionsparameter** werden alle Felder des Ereignisses Zielgruppe angezeigt. Ordnen Sie wie bei anderen Aktionstypen die Felder aus dem Ereignis der Herkunft oder der Datenquelle jedem Feld zu. Diese Informationen werden zur Laufzeit an die Zielgruppe weitergeleitet.
-1. hinzufügen die nächsten Aktivitäten, um Ihre Herkunft zu beenden.
+1. Im Abschnitt **Aktionsparameter** werden alle Felder des Zielereignisses angezeigt. Ordnen Sie wie bei anderen Arten von Aktionen jedem Feld Felder aus dem Ursprungsereignis oder der Datenquelle zu. Diese Informationen werden zur Laufzeit an die Ziel-Journey weitergegeben.
+1. Fügen Sie die nächsten Aktivitäten hinzu, um Ihre Ursprungs-Journey zu beenden.
 
    ![](../assets/jump5.png)
 
-Ihr Sprung ist konfiguriert. Sobald Ihre Reise live oder im Testmodus ist, werden Personen, die den Sprung erreichen, von der Zielgruppe auf die Reise gedrängt.
+Ihr Sprung ist konfiguriert. Sobald Ihre Journey live oder im Testmodus ist, werden Kontakte, die den Sprung erreichen, in die Ziel-Journey geleitet.
 
-Wenn ein Sprung auf einer Zielgruppe konfiguriert ist, wird automatisch ein Sprungeingabesymbol zu Beginn der Fahrt hinzugefügt. Auf diese Weise können Sie erkennen, dass die Reise extern, aber auch intern von einem Sprung aus ausgelöst werden kann.
+Wenn in einer Journey ein Sprung konfiguriert ist, wird zu Beginn der Ziel-Journey automatisch ein Sprungeintrittssymbol hinzugefügt. Auf diese Weise können Sie erkennen, dass die Journey sowohl extern als auch intern durch einen Sprung ausgelöst werden kann.
 
 ## Fehlerbehebung
 
-Wenn die Reise veröffentlicht wird oder sich im Testmodus befindet, treten Fehler auf, wenn:
-* die Zielgruppe nicht mehr existiert
-* die Zielgruppe wird als Entwurf, geschlossen oder gestoppt
-* wenn sich das erste Ereignis der Zielgruppe-Reise geändert hat und die Zuordnung beschädigt ist
+Wenn die Journey veröffentlicht wird oder sich im Testmodus befindet, treten Fehler auf, wenn:
+* die Ziel-Journey nicht mehr existiert,
+* der Zustand der Ziel-Journey „Entwurf“, „geschlossen“ oder „gestoppt“ ist,
+* wenn sich das erste Ereignis der Ziel-Journey geändert hat und die Zuordnung unterbrochen ist.
