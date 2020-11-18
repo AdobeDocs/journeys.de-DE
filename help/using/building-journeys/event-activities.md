@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
 source-wordcount: '457'
-ht-degree: 33%
+ht-degree: 94%
 
 ---
 
@@ -31,29 +31,29 @@ Wenn Sie auf die Ereignisaktivität auf der Arbeitsfläche klicken, wird der Kon
 
 ![](../assets/journey33.png)
 
-## Verfolgen von Ereignissen während eines bestimmten Zeitraums
+## Überwachen von Ereignissen während eines bestimmten Zeitraums
 
-Eine in der Journey positionierte Ereignisaktivität überwacht Ereignisse auf unbestimmte Zeit. Um ein Ereignis nur während eines bestimmten Zeitraums abzurufen, müssen Sie einen Timeout für das Ereignis konfigurieren.
+Eine in der Journey positionierte Ereignisaktivität überwacht Ereignisse auf unbestimmte Zeit. Damit ein Ereignis nur während einer bestimmten Zeit überwacht wird, müssen Sie für das Ereignis eine Zeitüberschreitung konfigurieren.
 
-Die Reise hört dann während der im Timeout festgelegten Zeit auf das Ereignis. Wenn ein Ereignis während dieses Zeitraums empfangen wird, wird die Person in den Ereignispfad geleitet. Ist dies nicht der Fall, fließt der Kunde entweder in einen Timeout-Pfad oder beendet seine Reise.
+Die Journey überwacht dann das Ereignis während der in der Zeitüberschreitung angegebenen Zeit. Wenn ein Ereignis während dieses Zeitraums empfangen wird, wird die Person in den Ereignispfad geleitet. Ist dies nicht der Fall, wird der Kunde entweder in den Pfad einer Zeitüberschreitung geleitet oder seine Journey wird beendet.
 
-Gehen Sie wie folgt vor, um einen Timeout für ein Ereignis zu konfigurieren:
+Gehen Sie wie folgt vor, um für ein Ereignis eine Zeitüberschreitung zu konfigurieren:
 
-1. Aktivieren Sie die Option &quot;Ereignis-Timeout **** aktivieren&quot;in den Eigenschaften des Ereignisses.
+1. Aktivieren Sie die Option **[!UICONTROL Zeitüberschreitung für das Ereignis definieren]** in den Eigenschaften des Ereignisses.
 
-1. Geben Sie an, wie lange die Reise auf das Ereignis warten soll.
+1. Legen Sie fest, wie lange die Journey auf das Ereignis warten soll.
 
-1. Wenn Sie die Personen in einen Timeout-Pfad senden möchten, wenn innerhalb der angegebenen Zeitüberschreitung kein Ereignis eingeht, aktivieren Sie die Option **[!UICONTROL Zeitüberschreitungspfad]** festlegen. Wenn diese Option nicht aktiviert ist, endet die Reise für die betreffende Person, sobald der Timeout erreicht wurde.
+1. Wenn Sie die Kontakte in den Pfad einer Zeitüberschreitung senden möchten, wenn innerhalb der angegebenen Zeitüberschreitung kein Ereignis empfangen wird, aktivieren Sie die Option **[!UICONTROL Pfad der Zeitüberschreitung festlegen]**. Wenn diese Option nicht aktiviert ist, wird die Journey für den betreffenden Kontakt beendet, sobald die Zeitüberschreitung erreicht wird.
 
    ![](../assets/event-timeout.png)
 
-In diesem Beispiel sendet die Reise einen ersten Willkommens-Push an einen Kunden. Es sendet dann einen Rabatt-Push nur dann, wenn der Kunde innerhalb des nächsten Tages das Restaurant betritt. Deshalb haben wir das Restaurant-Ereignis mit einem 1-tägigen Timeout konfiguriert:
+In diesem Beispiel sendet die Journey einen ersten Willkommens-Push an einen Kunden. Es wird nur dann ein Essensrabatt-Push gesendet, wenn der Kunde das Restaurant innerhalb des nächsten Tages betritt. Deshalb wurde das Restaurantereignis mit einer 1-tägigen Zeitüberschreitung konfiguriert:
 
-* Wenn das Restaurant-Ereignis weniger als 1 Tag nach dem Begrüßungstreffer erhalten wird, wird die Aktivität mit dem Meningrabatt gesendet.
-* Wenn innerhalb des nächsten Tages kein Ereignis im Restaurant empfangen wird, fließt die Person durch den Timeout-Pfad.
+* Wenn das Restaurantereignis in weniger als 1 Tag nach der Begrüßungs-Push-Benachrichtigung eingeht, wird die Push-Aktivität für den Rabatt gesendet.
+* Wenn innerhalb des nächsten Tags kein Restaurantereignis eingeht, wird die Person durch den Pfad der Zeitüberschreitung geleitet.
 
-Wenn Sie einen Timeout für mehrere Ereignis konfigurieren möchten, die sich nach einer **[!UICONTROL Wait]** -Aktivität befinden, müssen Sie den Timeout nur für eines dieser Ereignis konfigurieren.
+Wenn Sie eine Zeitüberschreitung für mehrere Ereignisse konfigurieren möchten, die sich nach einer **[!UICONTROL Warteaktivität]** befinden, müssen Sie die Zeitüberschreitung nur für eines dieser Ereignisse konfigurieren.
 
-Die Zeitüberschreitung gilt für alle Ereignis, die nach der **[!UICONTROL Wait]** -Aktivität positioniert wurden. Wenn nach dem angegebenen Timeout kein Ereignis empfangen wird, fließen die Personen in einen einzigen Timeout-Pfad oder beenden ihre Reise.
+Die Zeitüberschreitung gilt für alle Ereignisse, die nach der **[!UICONTROL Warteaktivität]** positioniert wurden. Wenn nach der spezifizierten Zeitüberschreitung kein Ereignis empfangen wird, werden die Kontakte in einen einzigen Zeitüberschreitungspfad geleitet oder ihre Journey wird beendet.
 
 ![](../assets/event-timeout-group.png)
