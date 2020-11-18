@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
 source-wordcount: '238'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -43,4 +43,4 @@ Journey-Versionen können einzeln gestoppt werden. Alle Versionen von Journeys h
 
 >[!NOTE]
 >
->Wenn Sie eine neue Version einer Reise veröffentlichen, endet die vorherige Version automatisch und wechselt zum Status &quot; **Geschlossen** &quot;. Es findet kein Eintritt zur Journey statt. Auch wenn Sie die neueste Version beenden, bleibt die vorherige Version geschlossen.
+>Wenn Sie eine neue Version einer Journey veröffentlichen, endet die vorherige Version automatisch und wechselt in den Status **Geschlossen**. Es findet kein Eintritt zur Journey statt. Selbst wenn Sie die aktuelle Version stoppen, bleibt die vorherige Version geschlossen.
