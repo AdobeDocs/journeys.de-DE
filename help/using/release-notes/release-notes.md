@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 76a03422d7c096c2af4a1e9c95a9bc8bf5f8b214
 workflow-type: tm+mt
 source-wordcount: '1731'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,18 +22,18 @@ ht-degree: 96%
 Auf dieser Seite werden alle neuen Funktionen und Verbesserungen bei Journey Orchestration aufgelistet.
 Sie können auch den Abschnitt [Aktualisierungen der Dokumentation](../release-notes/documentation-updates.md) lesen.
 
-## October 2020 Release {#october-release}
+## Version Oktober 2020 {#october-release}
 
 <table>
 <thead>
 <tr>
-<th><strong>Ereignis-Timeout</strong><br/></th>
+<th><strong>Zeitüberschreitung für Ereignisse</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt einen Timeout für ein Ereignis konfigurieren, um eine Reise nur während einer bestimmten Zeit auf ein Ereignis zu hören. Sie müssen keine Wartezeit-Aktivität mehr parallel zum Ereignis-Pfad hinzufügen, um dies zu erreichen.
+<p>Sie können jetzt eine Zeitüberschreitung für ein Ereignis konfigurieren, damit eine Journey ein Ereignis nur während einer bestimmten Zeit überwacht. Dazu müssen Sie nicht mehr parallel zum Ereignispfad eine Warteaktivität hinzufügen.
 </p>
 <p>Weitere Informationen finden Sie im <a href="../building-journeys/event-activities.md#listening-to-events-during-a-specific-time">entsprechenden Handbuch</a>.</p>
 </td>
@@ -43,7 +43,7 @@ Sie können auch den Abschnitt [Aktualisierungen der Dokumentation](../release-n
 
 ### Sonstige Verbesserungen{#october-other}
 
-* Wenn Sie eine neue Version einer Reise veröffentlichen, endet die vorherige Version automatisch und wechselt zum Status &quot;Geschlossen&quot;. [Mehr dazu](../building-journeys/journey-versions.md)
+* Wenn Sie eine neue Version einer Journey veröffentlichen, endet die vorherige Version automatisch und wechselt in den Status „Geschlossen“. [Mehr dazu](../building-journeys/journey-versions.md)
 
 ## Version September 2020 {#september-release}
 
