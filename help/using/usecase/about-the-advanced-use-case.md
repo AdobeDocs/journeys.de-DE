@@ -50,7 +50,7 @@ We will need to configure a connection to two data sources (see [this page](../u
 * zur integrierten Adobe Experience Platform-Datenquelle zum Abrufen der Informationen für die beiden Bedingungen (Mitgliedschaft im Treueprogramm und Datum des letzten Kontakts) sowie der Informationen für die Personalisierung der Nachricht.
 * zum Hotelreservierungssystem zum Abrufen der Informationen über den Reservierungsstatus.
 
-## Voraussetzungen:      {#prerequisites}
+## Voraussetzungen:       {#prerequisites}
 
 Für unseren Anwendungsfall haben wir mit Adobe Campaign Standard drei Transaktionsnachrichtenvorlagen entwickelt. Wir nutzen Transaktionsnachrichtenvorlagen für Ereignisse. Mehr dazu erfahren Sie auf [dieser Seite](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
 
