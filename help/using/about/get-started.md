@@ -27,7 +27,7 @@ Im Folgenden finden Sie die wichtigsten Schritte zum Konfigurieren und Verwenden
 
    Sie müssen die erwarteten Informationen sowie deren Verarbeitungsmethode definieren. Die Konfiguration ist obligatorisch. Dieser Schritt wird von einem **technischen Anwender** ausgeführt.
 
-   Weiterführende Informationen hierzu finden Sie auf dieser [Seite](../event/about-events.md).
+   Weitere Informationen hierzu finden Sie auf [dieser Seite](../event/about-events.md).
 
    ![](../assets/journey7.png)
 
@@ -35,7 +35,7 @@ Im Folgenden finden Sie die wichtigsten Schritte zum Konfigurieren und Verwenden
 
    Sie müssen eine Verbindung zu einem System definieren, um zusätzliche Informationen abrufen zu können, die bei Ihren Journeys verwendet werden (z. B. in Ihren Bedingungen). Außerdem wird zur Bereitstellungszeit eine integrierte Adobe Experience Platform-Datenquelle konfiguriert. Dieser Schritt ist nicht erforderlich, wenn Sie ausschließlich Daten aus den Ereignissen Ihrer Journey nutzen. Dieser Schritt wird von einem **technischen Anwender** ausgeführt.
 
-   Weiterführende Informationen hierzu finden Sie auf dieser [Seite](../datasource/about-data-sources.md).
+   Weitere Informationen hierzu finden Sie auf [dieser Seite](../datasource/about-data-sources.md).
 
    ![](../assets/journey22.png)
 
