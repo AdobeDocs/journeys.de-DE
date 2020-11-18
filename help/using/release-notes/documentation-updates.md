@@ -8,11 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe51a1600050a42c2070ad78f14490ea1813bd14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '782'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Lesen Sie auch die [!DNL Journey Orchestration]-[Versionshinweise](../release-no
 
 ## Oktober 2020 {#october-2020}
 
-* Es wurden Informationen zum Konfigurieren eines Timeouts für ein Ereignis hinzugefügt. [Mehr dazu](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
+* Es wurden Informationen zum Konfigurieren einer Zeitüberschreitung für ein Ereignis hinzugefügt. [Mehr dazu](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
 
 ## September 2020 {#september-2020}
 
