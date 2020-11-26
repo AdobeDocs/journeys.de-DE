@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Operatoren
 description: Erfahren Sie mehr über Operatoren in erweiterten Ausdrücken
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 20498e89eb9c95dd19a11e42150a0bbf67024f67
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 100%
+source-wordcount: '531'
+ht-degree: 83%
 
 ---
 
@@ -34,80 +34,348 @@ Es gibt zwei Arten von Operatoren: unäre Operatoren und binäre Operatoren. Es 
 
 Im Folgenden finden Sie eine Liste der unterstützten Operatoren:
 
-## Logisch
+## Logisch  {#logical}
 
-<table>
-<thead>
-<tr><th>Operator</th><th>Literaler Ausdruck</th><th>Beispiel</th></tr>
-</thead>
-<tbody>
-<tr><td>and</td><td><p><pre>&lt;Ausdruck1&gt; and &lt;Ausdruck2&gt;</pre></p>Sowohl &lt;Ausdruck1&gt; als auch &lt;Ausdruck2&gt; müssen boolesch sein. Das Ergebnis ist boolesch.</td><td><pre>3.14 &gt; 2 and 3.15 &lt; 1</pre></td></tr>
-<tr><td>or</td><td><p><pre>&lt;Ausdruck1&gt; or &lt;Ausdruck2&gt;</pre></p><p>Sowohl &lt;Ausdruck1&gt; als auch &lt;Ausdruck2&gt; müssen boolesch sein.</p><p> Das Ergebnis ist boolesch.</p></td><td><p><pre>3.14 &gt; 2 or 3.15 &lt; 1</pre></p></td></tr>
-<tr><td>not</td><td><p><pre>not &lt;Ausdruck&gt;</pre></p><p>&lt;Ausdruck&gt; muss boolesch sein.</p><p> Das Ergebnis ist boolesch.</p></td><td><pre>not 3.15 &lt; 1</pre></td></tr>
-</tbody>
-</table>
+### and
 
-## Vergleich
+**Literaler Ausdruck**
 
-<table>
-<thead>
-<tr><th>Operator</th><th>Literaler Ausdruck </th><th>Beispiel</th></tr>
-</thead>
-<tbody><tr><td>is null</td><td><p><pre>&lt;Ausdruck&gt; is null</pre></p><p>Das Ergebnis ist boolesch.</p><p>Beachten Sie, dass null bedeutet, dass der Ausdruck keinen ausgewerteten Wert hat.</p></td><td><pre>@{BarBeacon.location} is null</pre></td></tr>
-<tr><td>is not null</td><td><p><pre>&lt;Ausdruck&gt; is not null</pre></p><p>Das Ergebnis ist boolesch.</p><p>Beachten Sie, dass null bedeutet, dass der Ausdruck keinen ausgewerteten Wert hat.</p></td><td><pre>@ is not null</pre></td></tr>
-<tr><td>has null</td><td><p><pre>&lt;Ausdruck&gt; has null</pre>&lt;Ausdruck&gt; muss eine Liste sein.</p><p>Das Ergebnis ist boolesch.</p><p>Nützlich, um zu ermitteln, dass eine Liste mindestens einen Nullwert enthält.</p></td><td><p><pre>["foo", "bar", null] has null</pre></p>Gibt „true“ zurück.<p><pre>["foo", "bar", ""] has null</pre></p> Gibt „false“ zurück, da "" nicht als null betrachtet wird.</td></tr>
-<tr><td>==</td><td><p><pre>&lt;Ausdruck1&gt; == &lt;Ausdruck2&gt;</pre></p><p>Sowohl &lt;Ausdruck1&gt; als auch &lt;Ausdruck2&gt; müssen denselben Datentyp aufweisen.</p><p> Das Ergebnis ist boolesch.</p></td><td><pre>3.14 == 42</pre><br /><pre>"foo" == "bar"</pre></td></tr>
-<tr><td>!=</td><td><p><pre>&lt;Ausdruck1&gt; != &lt;Ausdruck2&gt;</pre></p><p> Sowohl &lt;Ausdruck1&gt; als auch &lt;Ausdruck2&gt; müssen denselben Datentyp aufweisen.</p><p> Das Ergebnis ist boolesch.</p></td><td><pre>3.14 != 42</pre><br /><pre>"foo" != "bar"</pre></td></tr>
-<tr><td>&gt;</td><td><p><pre>&lt;Ausdruck1&gt; &gt; &lt;Ausdruck2&gt;</pre></p><p>Datum/Uhrzeit kann mit Datum/Uhrzeit verglichen werden.</p><p>Datum/Uhrzeit ohne Zeitzone kann mit Datum/Uhrzeit ohne Zeitzone verglichen werden.</p><p>Sowohl Ganzzahl als auch Dezimalzahl können mit Ganzzahl oder Dezimalzahl verglichen werden.</p><p>Jede andere Kombination ist unzulässig.</p><p>Das Ergebnis ist boolesch.</p></td><td><pre>3.14 &gt; 42</pre></td></tr>
-<tr><td>&gt;=</td><td><p><pre>&lt;Ausdruck1&gt; &gt;= &lt;Ausdruck2&gt;</pre></p><p>Datum/Uhrzeit kann mit Datum/Uhrzeit verglichen werden.</p><p>Datum/Uhrzeit ohne Zeitzone kann mit Datum/Uhrzeit ohne Zeitzone verglichen werden.</p><p>Sowohl Ganzzahl als auch Dezimalzahl können mit Ganzzahl oder Dezimalzahl verglichen werden.</p><p>Jede andere Kombination ist unzulässig.</p><p>Das Ergebnis ist boolesch.</p></td><td><pre>42 &gt;= 3.14</pre></td></tr>
-<tr><td>&lt;</td><td><p><pre>&lt;Ausdruck1&gt; &lt; &lt;Ausdruck2&gt;</pre></p><p>Datum/Uhrzeit kann mit Datum/Uhrzeit verglichen werden.</p><p>Datum/Uhrzeit ohne Zeitzone kann mit Datum/Uhrzeit ohne Zeitzone verglichen werden.</p><p>Sowohl Ganzzahl als auch Dezimalzahl können mit Ganzzahl oder Dezimalzahl verglichen werden.</p><p>Jede andere Kombination ist unzulässig.</p><p>Das Ergebnis ist boolesch.</p></td><td><pre>42 &lt; 3.14</pre></td></tr>
-<tr><td>&lt;=</td><td><p><pre>&lt;Ausdruck1&gt; &lt;= &lt;Ausdruck2&gt;</pre></p><p>Datum/Uhrzeit kann mit Datum/Uhrzeit verglichen werden.</p><p>Datum/Uhrzeit ohne Zeitzone kann mit Datum/Uhrzeit ohne Zeitzone verglichen werden.</p><p>Sowohl Ganzzahl als auch Dezimalzahl können mit Ganzzahl oder Dezimalzahl verglichen werden.</p><p>Jede andere Kombination ist unzulässig.</p><p>Das Ergebnis ist boolesch.</p></td><td><pre>42 &lt;= 3.14</pre></td></tr>
-</tbody>
-</table>
+```<expression1> and <expression2>```
 
-## Arithmetisch
+Sowohl &lt;Ausdruck1> als auch &lt;Ausdruck2> müssen boolesch sein. Das Ergebnis ist boolesch.
 
-<table>
-<thead>
-<tr><th>Operator</th><th>Literaler Ausdruck </th><th>Beispiel</th></tr>
-</thead>
-<tbody><tr><td>+</td><td><p><pre>&lt;Ausdruck1&gt; + &lt;Ausdruck2&gt;</pre></p><p>Beide Ausdrücke müssen numerischer Art sein (Ganzzahl oder Dezimalzahl). </p><p>Das Ergebnis ist ebenfalls numerisch.</p></td><td><p><p><pre>1 + 2</pre></p></p><br /><p>Gibt 3 zurück.</p></td></tr>
-<tr><td>-</td><td><p><pre>&lt;Ausdruck1&gt; - &lt;Ausdruck2&gt;</pre></p><p> Beide Ausdrücke müssen numerischer Art sein (Ganzzahl oder Dezimalzahl).</p><p> Das Ergebnis ist ebenfalls numerisch.</p></td><td><p><pre>2 - 1</pre></p>Gibt 1 zurück.</td></tr>
-<tr><td>/</td><td><p><pre>&lt;Ausdruck1&gt; / &lt;Ausdruck2&gt;</pre></p><p>Beide Ausdrücke müssen numerischer Art sein (Ganzzahl oder Dezimalzahl). </p><p>Das Ergebnis ist ebenfalls numerisch.</p><p>&lt;Ausdruck2&gt; darf nicht gleich 0 sein (gibt 0 zurück).</p></td><td><p><pre>4 / 2</pre></p>Gibt 2 zurück.</td></tr>
-<tr><td>*</td><td><p><pre>&lt;Ausdruck1&gt; * &lt;Ausdruck2&gt;</pre></p><p> Beide Ausdrücke müssen numerischer Art sein (Ganzzahl oder Dezimalzahl). </p><p>Das Ergebnis ist ebenfalls numerisch.</p></td><td><p><pre>3 * 4</pre></p>Gibt 12 zurück.</td></tr>
-<tr><td>%</td><td><p><pre>&lt;Ausdruck1&gt; % &lt;Ausdruck2&gt;</pre></p><p>Beide Ausdrücke müssen numerischer Art sein (Ganzzahl oder Dezimalzahl).</p><p> Das Ergebnis ist ebenfalls numerisch.</p></td><td><p><pre>3 % 2</pre></p>Gibt 1 zurück.</td></tr>
-</tbody>
-</table>
+**Beispiel**
 
-## Mathematisch
+```3.14 > 2 and 3.15 < 1```
 
-<table>
-<thead>
-<tr><th>Operator</th><th>Literaler Ausdruck</th><th>Beispiel</th></tr>
-</thead>
-<tbody><tr><td>is numeric</td><td><p><pre>&lt;Ausdruck&gt; is numeric</pre></p><p>Der Typ des Ausdrucks ist Ganzzahl oder Dezimalzahl.</p></td><td><pre>@ is numeric</pre></td></tr>
-<tr><td>is integer</td><td><p><pre>&lt;Ausdruck&gt; is integer</pre></p><p>Der Typ des Ausdrucks ist Ganzzahl.</p></td><td><pre>@ is integer</pre></td></tr>
-<tr><td>is decimal</td><td><p><pre>&lt;Ausdruck&gt; is decimal</pre></p><p>Der Typ des Ausdrucks ist Dezimalzahl.</p></td><td><pre>@ is decimal</pre></td></tr>
-</tbody>
-</table>
+### oder
 
-## Zeichenfolge
+**Literaler Ausdruck**
 
-<table>
-<thead>
-<tr><th>Operator</th><th>Literaler Ausdruck </th><th>Beispiel</th></tr>
-</thead>
-<tbody><tr><td>+</td><td><p><pre>&lt;Zeichenfolge&gt; + &lt;Ausdruck&gt;</pre></p><p><pre>&lt;Ausdruck&gt; + &lt;Zeichenfolge&gt;</pre></p><p>Damit werden zwei Ausdrücke verkettet. </p><p>Ein Ausdruck muss eine verkettete Zeichenfolge sein.</p></td><td><p><pre>"Die aktuelle Zeit lautet " + (now())</pre></p> Gibt „Die aktuelle Zeit lautet 2019-09-23T09:30:06.693Z“ zurück.<p><pre>(now()) + " lautet die aktuelle Zeit"</pre></p>Gibt „2019-09-23T09:30:06.693Z lautet die aktuelle Zeit“ zurück.<p><pre>"a" + "b" + "c" + 1234</pre></p> Gibt „abc1234“ zurück.</td></tr>
-</tbody>
-</table>
+```<expression1> or <expression2>```
 
-## Datum
+Sowohl &lt;Ausdruck1> als auch &lt;Ausdruck2> müssen boolesch sein. Das Ergebnis ist boolesch.
 
-<table>
-<thead>
-<tr><th>Operator</th><th>Literaler Ausdruck </th><th>Beispiel</th></tr>
-</thead>
-<tbody>
-<tr><td>+</td><td><p><pre>&lt;Ausdruck&gt; + &lt;Dauer&gt;</pre></p><p>Anhängen einer Dauer an einen Datum/Uhrzeit-Wert, einen Datum/Uhrzeit-Wert ohne Zeitzone oder eine Dauer.</p></td><td><p><pre>toDateTime("2011-12-03T15:15:30Z")</pre></p><p><pre> + toDuration("PT15M")</pre></p><p>Gibt „2011-12-03T15:30:30Z“ zurück.</p><p><pre>toDateTimeOnly("2011-12-03T15:15:30")</pre></p><p><pre> + toDuration("PT15M")</pre></p>Gibt „2011-12-03T15:30:30“ zurück.<p><pre>now() + toDuration("PT1H")</pre></p><p>Gibt einen Datum/Uhrzeit-Wert (mit UTC-Zeitzone) eine Stunde nach der aktuellen Zeit zurück.</p><p><pre>toDuration("PT1H") + toDuration("PT1H")</pre></p><p>Gibt „PT2H“ zurück.</p></td></tr>
-</tbody>
-</table>
+**Beispiel**
+
+```3.14 > 2 or 3.15 < 1```
+
+### not
+
+**Literaler Ausdruck**
+
+```not <expression>```
+
+&lt;Ausdruck> muss boolesch sein. Das Ergebnis ist boolesch.
+
+**Beispiel**
+
+```not 3.15 < 1```
+
+## Vergleich {#comparison}
+
+### is null
+
+**Literaler Ausdruck**
+
+```<expression> is null```
+
+Das Ergebnis ist boolesch.
+
+Beachten Sie, dass null bedeutet, dass der Ausdruck keinen ausgewerteten Wert hat.
+
+**Beispiel**
+
+```@{BarBeacon.location} is null```
+
+### is not null
+
+**Literaler Ausdruck**
+
+```<expression> is not null```
+
+Das Ergebnis ist boolesch.
+
+Beachten Sie, dass null bedeutet, dass der Ausdruck keinen ausgewerteten Wert hat.
+
+**Beispiel**
+
+```@ is not null```
+
+### has null
+
+**Literaler Ausdruck**
+
+```<expression> has null```
+
+&lt;Ausdruck> muss eine Liste sein. Das Ergebnis ist boolesch.
+
+Nützlich, um zu ermitteln, dass eine Liste mindestens einen Nullwert enthält.
+
+**Beispiel**
+
+```["foo", "bar", null] has null``` gibt true zurück.
+
+```["foo", "bar", ""] has null``` Gibt „false“ zurück, da &quot;&quot; nicht als null betrachtet wird.
+
+### ==
+
+**Literaler Ausdruck**
+
+```<expression1> == <expression2>```
+
+Sowohl &lt;Ausdruck1> als auch &lt;Ausdruck2> müssen denselben Datentyp aufweisen. Das Ergebnis ist boolesch.
+
+**Beispiel**
+
+```3.14 == 42```
+
+```"foo" == "bar"```
+
+### !=
+
+**Literaler Ausdruck**
+
+```<expression1> != <expression2>```
+
+Sowohl &lt;Ausdruck1> als auch &lt;Ausdruck2> müssen denselben Datentyp aufweisen. Das Ergebnis ist boolesch.
+
+**Beispiel**
+
+```3.14 != 42```
+
+```"foo" != "bar"```
+
+### >
+
+**Literaler Ausdruck**
+
+```<expression1> > <expression2>```
+
+Datum/Uhrzeit kann mit Datum/Uhrzeit verglichen werden.
+
+Datum/Uhrzeit ohne Zeitzone kann mit Datum/Uhrzeit ohne Zeitzone verglichen werden.
+
+Sowohl Ganzzahl als auch Dezimalzahl können mit Ganzzahl oder Dezimalzahl verglichen werden.
+
+Jede andere Kombination ist unzulässig.
+
+Das Ergebnis ist boolesch.
+
+**Beispiel**
+
+```3.14 > 42```
+
+### >=
+
+**Literaler Ausdruck**
+
+```<expression1> >= <expression2>```
+
+Datum/Uhrzeit kann mit Datum/Uhrzeit verglichen werden.
+
+Datum/Uhrzeit ohne Zeitzone kann mit Datum/Uhrzeit ohne Zeitzone verglichen werden.
+
+Sowohl Ganzzahl als auch Dezimalzahl können mit Ganzzahl oder Dezimalzahl verglichen werden.
+
+Jede andere Kombination ist unzulässig.
+
+Das Ergebnis ist boolesch.
+
+**Beispiel**
+
+```42 >= 3.14```
+
+### &lt;
+
+**Literaler Ausdruck**
+
+```<expression1> < <expression2>```
+
+Datum/Uhrzeit kann mit Datum/Uhrzeit verglichen werden.
+
+Datum/Uhrzeit ohne Zeitzone kann mit Datum/Uhrzeit ohne Zeitzone verglichen werden.
+
+Sowohl Ganzzahl als auch Dezimalzahl können mit Ganzzahl oder Dezimalzahl verglichen werden.
+
+Jede andere Kombination ist unzulässig.
+
+Das Ergebnis ist boolesch.
+
+**Beispiel**
+
+```42 < 3.14```
+
+### &lt;=
+
+**Literaler Ausdruck**
+
+```<expression1> <= <expression2>```
+
+Datum/Uhrzeit kann mit Datum/Uhrzeit verglichen werden.
+
+Datum/Uhrzeit ohne Zeitzone kann mit Datum/Uhrzeit ohne Zeitzone verglichen werden.
+
+Sowohl Ganzzahl als auch Dezimalzahl können mit Ganzzahl oder Dezimalzahl verglichen werden.
+
+Jede andere Kombination ist unzulässig.
+
+Das Ergebnis ist boolesch.
+
+**Beispiel**
+
+```42 <= 3.14```
+
+## Arithmetisch {#arithmetic}
+
+### +
+
+**Literaler Ausdruck**
+
+```<expression1> + <expression2>```
+
+Beide Ausdrücke müssen numerischer Art sein (Ganzzahl oder Dezimalzahl).
+
+Das Ergebnis ist ebenfalls numerisch.
+
+**Beispiel**
+
+```1 + 2``` liefert 3
+
+### -
+
+**Literaler Ausdruck**
+
+```<expression1> - <expression2>```
+
+Beide Ausdrücke müssen numerischer Art sein (Ganzzahl oder Dezimalzahl).
+
+Das Ergebnis ist ebenfalls numerisch.
+
+**Beispiel**
+
+```2 - 1``` gibt 1 zurück
+
+### /
+
+**Literaler Ausdruck**
+
+```<expression1> / <expression2>```
+
+Beide Ausdrücke müssen numerischer Art sein (Ganzzahl oder Dezimalzahl).
+
+Das Ergebnis ist ebenfalls numerisch.
+
+&lt;Ausdruck2> darf nicht gleich 0 sein (gibt 0 zurück).
+
+**Beispiel**
+
+```4 / 2``` liefert 2
+
+### *
+
+**Literaler Ausdruck**
+
+```<expression1> * <expression2>```
+
+Beide Ausdrücke müssen numerischer Art sein (Ganzzahl oder Dezimalzahl).
+
+Das Ergebnis ist ebenfalls numerisch.
+
+**Beispiel**
+
+```3 * 4``` liefert 12
+
+### %
+
+**Literaler Ausdruck**
+
+```<expression1> % <expression2>```
+
+Beide Ausdrücke müssen numerischer Art sein (Ganzzahl oder Dezimalzahl).
+
+Das Ergebnis ist ebenfalls numerisch.
+
+**Beispiel**
+
+```3 % 2``` gibt 1 zurück.
+
+## Mathematisch {#math}
+
+### is numeric
+
+**Literaler Ausdruck**
+
+```<expression> is numeric```
+
+Der Typ des Ausdrucks ist Ganzzahl oder Dezimalzahl.
+
+**Beispiel**
+
+```@ is numeric```
+
+### is integer
+
+**Literaler Ausdruck**
+
+```<expression> is integer```
+
+Der Typ des Ausdrucks ist Ganzzahl.
+
+**Beispiel**
+
+```@ is integer```
+
+### is decimal
+
+**Literaler Ausdruck**
+
+```<expression> is decimal```
+
+Der Typ des Ausdrucks ist Dezimalzahl.
+
+**Beispiel**
+
+```@ is decimal```
+
+## Zeichenfolge {#string}
+
+### +
+
+**Literaler Ausdruck**
+
+```<string> + <expression>```
+
+```<expression> + <string>```
+
+Damit werden zwei Ausdrücke verkettet.
+
+Ein Ausdruck muss eine verkettete Zeichenfolge sein.
+
+**Beispiel**
+
+```"the current time is " + (now())``` gibt &quot;the current time is 2019-09-23T09:30:06.693Z&quot;zurück
+
+```(now()) + " is the current time"``` gibt &quot;2019-09-23T09:30:06.693Z ist die aktuelle Zeit&quot;zurück
+
+```"a" + "b" + "c" + 1234``` gibt &quot;abc1234&quot;zurück.
+
+## Datum {#date}
+
+### +
+
+**Literaler Ausdruck**
+
+```<expression + <duration>```
+
+Anhängen einer Dauer an einen Datum/Uhrzeit-Wert, einen Datum/Uhrzeit-Wert ohne Zeitzone oder eine Dauer.
+
+**Beispiel**
+
+```toDateTime("2011-12-03T15:15:30Z") + toDuration("PT15M")``` gibt 2011-12-03T15:30:30Z zurück
+
+```toDateTimeOnly("2011-12-03T15:15:30") + toDuration("PT15M")``` gibt 2011-12-03T15:30:30 zurück
+
+```now() + toDuration("PT1H")``` gibt eine Stunde später eine dateTime (mit UTC-Zeitzone) zurück
+
+```toDuration("PT1H") + toDuration("PT1H")``` gibt PT2H zurück
