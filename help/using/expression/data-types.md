@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Datentypen
 description: Erfahren Sie mehr über die Datentypen in erweiterten Ausdrücken
 translation-type: tm+mt
-source-git-commit: f755f92d0479e2889dd7ed6dfa5e72d52c25634f
+source-git-commit: 062b4648e2eb3a4270f9c09e4478d541209e1247
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 81%
+source-wordcount: '558'
+ht-degree: 89%
 
 ---
 
@@ -30,15 +30,23 @@ Serialisierungsformat: UTF-8
 
 **Literale Darstellung**
 
-```"<value>"```
+```
+"<value>"
+```
 
-```'<value>'```
+```
+'<value>'
+```
 
 **Beispiel**
 
-```"hello world"```
+```
+"hello world"
+```
 
-```'hello world'```
+```
+'hello world'
+```
 
 ## Ganzzahl {#integer}
 
@@ -50,11 +58,15 @@ JSON-Format: Zahl
 
 **Literale Darstellung**
 
-```<integer value>```
+```
+<integer value>
+```
 
 **Beispiel**
 
-```42```
+```
+42
+```
 
 ## decimal {#decimal}
 
@@ -72,11 +84,15 @@ Serialisierungsformat: mit &#39;.&#39; als Dezimaltrennzeichen.
 
 **Literale Darstellung**
 
-```<integer value>.<integer value>```
+```
+<integer value>.<integer value>
+```
 
 **Beispiel**
 
-```3.14```
+```
+3.14
+```
 
 ## boolean {#boolean}
 
@@ -88,13 +104,19 @@ JSON-Format: Boolesch
 
 **Literale Darstellung**
 
-```true```
+```
+true
+```
 
-```false```
+```
+false
+```
 
 **Beispiel**
 
-```true```
+```
+true
+```
 
 ## dateTimeOnly {#date-time-only}
 
@@ -112,7 +134,9 @@ Es verwendet DateTimeFormatter ISO_LOCAL_DATE_TIME, um den Wert zu deserialisier
 
 **Literale Darstellung**
 
-```toDateTimeOnly("<dateTimeOnly in ISO-8601 format>")  ```
+```
+toDateTimeOnly("<dateTimeOnly in ISO-8601 format>")  
+```
 
 ## dateTime {#date-time}
 
@@ -136,23 +160,39 @@ Die Zeitzone kann durch einen Versatz oder einen Zeitzonen-Code angegeben werden
 
 **Literale Darstellung**
 
-```toDateTime("<dateTime in ISO-8601 format>")```
+```
+toDateTime("<dateTime in ISO-8601 format>")
+```
 
-```toDateTime(<integer value of an epoch in milliseconds>)```
+```
+toDateTime(<integer value of an epoch in milliseconds>)
+```
 
 **Beispiel**
 
-```toDateTime("1977-04-22T06:00:00Z")```
+```
+toDateTime("1977-04-22T06:00:00Z")
+```
 
-```toDateTime("2011-12-03T15:15:30Z")```
+```
+toDateTime("2011-12-03T15:15:30Z")
+```
 
-```toDateTime("2011-12-03T15:15:30.123Z")```
+```
+toDateTime("2011-12-03T15:15:30.123Z")
+```
 
-```toDateTime("2011-12-03T15:15:30.123+02:00")```
+```
+toDateTime("2011-12-03T15:15:30.123+02:00")
+```
 
-```toDateTime("2011-12-03T15:15:30.123-00:20")```
+```
+toDateTime("2011-12-03T15:15:30.123-00:20")
+```
 
-```toDateTime(1560762190189)```
+```
+toDateTime(1560762190189)
+```
 
 ## duration {#duration}
 
@@ -172,31 +212,55 @@ Duration.parse: Die akzeptierten Formate basieren auf dem ISO-8601-Dauerformat �
 
 **Literale Darstellung**
 
-```toDuration("<duration in ISO-8601 format>")```
+```
+toDuration("<duration in ISO-8601 format>")
+```
 
-```toDuration(<duration in milliseconds>)```
+```
+toDuration(<duration in milliseconds>)
+```
 
 **Beispiel**
 
-```toDuration("PT5S")``` analysiert als 5 Sekunden
+```
+toDuration("PT5S") -- parses as 5 seconds
+```
 
-```toDuration(500)``` Parsen als 500 ms
+```
+toDuration(500) -- parses as 500ms
+```
 
-```toDuration("PT20.345S")``` parses as &quot;20.345 seconds&quot;
+```
+toDuration("PT20.345S") -- parses as "20.345 seconds"
+```
 
-```toDuration("PT15M") ``` parst als &quot;15 Minuten&quot;(wobei eine Minute 60 Sekunden beträgt)
+```
+toDuration("PT15M") -- parses as "15 minutes" (where a minute is 60 seconds)
+```
 
-```toDuration("PT10H") ``` parsen als &quot;10 Stunden&quot;(wobei eine Stunde 3600 Sekunden beträgt)
+```
+toDuration("PT10H")  -- parses as "10 hours" (where an hour is 3600 seconds)
+```
 
-```toDuration("P2D") ``` parses as &quot;2 days&quot; (wobei ein Tag 24 Stunden oder 86400 Sekunden beträgt)
+```
+toDuration("P2D") -- parses as "2 days" (where a day is 24 hours or 86400 seconds)
+```
 
-```toDuration("P2DT3H4M") ```parsen als &quot;2 Tage, 3 Stunden und 4 Minuten&quot;
+```
+toDuration("P2DT3H4M") -- parses as "2 days, 3 hours and 4 minutes"
+```
 
-```toDuration("P-6H3M") ``` parsen als &quot;-6 Stunden und +3 Minuten&quot;
+```
+toDuration("P-6H3M") -- parses as "-6 hours and +3 minutes"
+```
 
-```toDuration("-P6H3M")``` parsen als &quot;-6 Stunden und -3 Minuten&quot;
+```
+toDuration("-P6H3M") -- parses as "-6 hours and -3 minutes"
+```
 
-```toDuration("-P-6H+3M") ``` parsen als &quot;+6 Stunden und -3 Minuten&quot;
+```
+toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
+```
 
 ## Liste {#list}
 
@@ -208,12 +272,20 @@ Polymorphismus wird nicht unterstützt. Daher sollten alle in der Liste enthalte
 
 **Literale Darstellung**
 
-```[<expression>, <expression>, ... ]```
+```
+[<expression>, <expression>, ... ]
+```
 
 **Beispiel**
 
-```["value1","value2"]```
+```
+["value1","value2"]
+```
 
-```[3,5]```
+```
+[3,5]
+```
 
-```[toDuration(500),toDuration(800)]```
+```
+[toDuration(500),toDuration(800)]
+```
