@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Aktivität „Segment lesen“
 description: Erfahren Sie mehr über die Aktivität „Segment lesen“.
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 100%
+source-wordcount: '688'
+ht-degree: 96%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 100%
 Mit der Aktivität „Segment-Lesen“ können Sie alle Kontakte, die zu einem Adobe Experience Platform-Segment gehören, in eine Journey eintreten lassen. Der Eintritt in eine Journey kann entweder einmalig oder regelmäßig erfolgen.
 
 Nehmen wir an, Sie verfügen über ein Segment für „Gold-Kunden“ in Adobe Experience Platform. Mit der Aktivität „Segment lesen“ können Sie alle Kontakte, die zum Gold-Kundensegment gehören, in eine Journey eintreten lassen und durch individuelle Journeys führen, die alle Journey-Funktionen nutzen: Bedingungen, Timer, Ereignisse, Aktionen.
+
+>[!NOTE]
+>
+>Es ist nicht möglich, auf derselben Reise einen Sprung und eine **Read-Segmentaktivität** zu verwenden. You cannot jump to a journey that starts with a **Read segment** event.
 
 ## Konfigurieren der Aktivität {#configuring-segment-trigger-activity}
 
