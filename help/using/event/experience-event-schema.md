@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: 'Informationen zu ExperienceEvent-Schemata für Journey Orchestration-Ereignisse '
 description: 'Erfahren Sie mehr über ExperienceEvent-Schemata für Journey Orchestration-Ereignisse. '
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 100%
+source-wordcount: '324'
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ Jedes XDM-Schema, das für [!DNL Journey Orchestration]-Ereignisse verwendet wir
 
    ![](../assets/schema2.png)
 
-* Das Schema muss das Orchestration eventID-Mixin enthalten. [!DNL Journey Orchestration] verwendet dieses Feld, um Ereignisse zu identifizieren, die in Journeys verwendet werden.
+* Bei systemgenerierten Ereignissen muss das Schema das Orchestration eventID-mixin enthalten. [!DNL Journey Orchestration] verwendet dieses Feld, um Ereignisse zu identifizieren, die in Journeys verwendet werden.
 
    ![](../assets/schema3.png)
 
