@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Einschränkungen der Journey Orchestration
 description: Weitere Informationen zu Einschränkungen bei der Journey Orchestration
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 33%
+source-wordcount: '361'
+ht-degree: 27%
 
 ---
 
@@ -22,7 +22,19 @@ Hier sind Einschränkungen im Zusammenhang mit der Verwendung von Journey Orches
 * Im Falle eines Fehlers werden systematisch zwei weitere Zustellversuche durchgeführt. Sie können die Anzahl der weiteren Zustellversuche nicht entsprechend der erhaltenen Fehlermeldung anpassen. 
 * The built-in **Reaction** event allows you to react to out-of-the-box actions (see this [page](../building-journeys/reaction-events.md)). Wenn Sie auf eine Nachricht reagieren möchten, die über eine benutzerdefinierte Aktion gesendet wird, müssen Sie ein spezielles Ereignis konfigurieren. 
 * Es gibt keine Adobe Campaign Classic-produktisierte Integration.
+
+## Einschränkungen für Reiseversionen {#journey-versions-limitations}
+
+* eine Reise, die mit einer Ereignis-Aktivität in v1 beginnt, kann nicht mit etwas anderem als einem Ereignis in weiteren Versionen Beginn werden. Eine Reise mit einem Ereignis für die **Segmentqualifikation** kann nicht Beginn werden.
+* eine Reise, die mit einer **Segmentqualifizierungs** -Aktivität in v1 beginnt, muss immer mit einer **Segmentqualifikation** in weiteren Versionen Beginn haben.
+* Das in der **Segmentqualifikation** (erster Knoten) ausgewählte Segment und Namensraum können in neuen Versionen nicht geändert werden.
+* Die Regel für den Wiedereintritt muss in allen Reiseversionen gleich sein.
+
+## Segmentqualifikation {#segment-qualification}
+
+* Die Aktivität für die **Segmentqualifizierung** kann aufgrund von Durchsatzbeschränkungen nicht zusammen mit Adobe Campaign Standard Transactional Messaging verwendet werden. See [Adobe Campaign Standard Product Description](https://helpx.adobe.com/de/legal/product-descriptions/campaign-standard.html). 
  
+
 ## Einschränkungen für benutzerdefinierte Aktionen
 
 * Die URL der benutzerdefinierten Aktion unterstützt keine dynamischen Parameter. 
@@ -35,8 +47,8 @@ Hier sind Einschränkungen im Zusammenhang mit der Verwendung von Journey Orches
 ## Einschränkungen bei Adobe Campaign-Aktionen
 
 * Adobe Campaign Standard Transactional Messaging verfügt über eine maximale Anzahl von 50 000 Nachrichten pro Stunde über Kanal für eine bestimmte Instanz. See [Adobe Campaign Standard Product Description](https://helpx.adobe.com/de/legal/product-descriptions/campaign-standard.html). 
-* Die Aktivität für die **Segmentqualifizierung** sollte aufgrund von Durchsatzbeschränkungen nicht in Verbindung mit Adobe Campaign Standard Transactional Messaging verwendet werden.
  
+
 ## Einschränkungen bei Ereignissen
 
 * Streaming-Daten, die zur Initiierung einer Kundenreise verwendet werden, müssen innerhalb der Journey Orchestration konfiguriert werden, bevor eine eindeutige Orchester-ID abgerufen werden kann. Diese Organisations-ID muss an die Streaming-Nutzlast angehängt werden, die nach Adobe Experience Platform kommt.
