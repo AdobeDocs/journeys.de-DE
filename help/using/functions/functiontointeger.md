@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: toInteger
 description: Erfahren Sie mehr über die Funktion „toInteger“
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: e2f7c39e61118c42272f730cf5f688ee34d6a9c2
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 100%
@@ -49,6 +49,6 @@ Gibt eine Ganzzahl zurück.
 
 ## Beispiele
 
-`toInteger(4)`
+`toInteger("4")`
 
 Gibt 4 zurück.
