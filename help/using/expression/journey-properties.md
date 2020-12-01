@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Reiseeigenschaften
 description: Informationen zu Reiseeigenschaften
 translation-type: tm+mt
-source-git-commit: b989e167c4aa5d8ef2667442231ff8857c5f0b18
+source-git-commit: 341138c31676870878099b4f4eecec200a614c69
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '559'
 ht-degree: 3%
 
 ---
@@ -31,7 +31,7 @@ Im Folgenden finden Sie einige Beispiele für Verwendungsfälle:
 
 * **Verworfene Profil**: Sie können alle Profil, die von einer Nachricht ausgeschlossen sind, mit einer Sperrregel zu Protokollierungszwecken an ein Drittanbietersystem senden. Dazu richten Sie im Fall von Timeout und Fehler einen Pfad ein und fügen eine Bedingung hinzu, um nach einem bestimmten Fehlertyp zu filtern, z. B.: &quot;Verwerfen von Personen durch Deckelung der Regel&quot;. Anschließend können Sie die verworfenen Profil über eine benutzerdefinierte Aktion an ein Drittanbietersystem senden.
 
-* **Gesendete Push-Benachrichtigungen bei Fehlern**: Sie können eine Benachrichtigung an ein Drittanbietersystem senden, sobald ein Fehler in einer Nachricht auftritt. Dazu richten Sie im Fehlerfall einen Pfad ein, fügen eine Bedingung und eine benutzerdefinierte Aktion hinzu. Sie können beispielsweise eine Benachrichtigung an einen Slack-Kanal mit der Fehlerbeschreibung senden.
+* **Warnhinweise bei Fehlern** senden: Sie können eine Benachrichtigung an ein Drittanbietersystem senden, sobald ein Fehler in einer Nachricht auftritt. Dazu richten Sie im Fehlerfall einen Pfad ein, fügen eine Bedingung und eine benutzerdefinierte Aktion hinzu. Sie können beispielsweise eine Benachrichtigung an einen Slack-Kanal mit der Fehlerbeschreibung senden.
 
 * **Fehler in Berichte**  optimieren: Statt nur einen Pfad für Fehlermeldungen zu haben, können Sie eine Bedingung pro Fehlertyp definieren. Auf diese Weise können Sie den Berichte und die Ansicht aller Fehlertypen verfeinern.
 
