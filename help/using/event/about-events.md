@@ -2,17 +2,17 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: Informationen zu Ereignissen
-description: Erfahren Sie, wie Sie ein Ereignis konfigurieren
+description: Weitere Informationen zu Ereignissen
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: c66c09441f69e7026c60c37f87972e1e4ac9f7f8
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 98%
+source-wordcount: '385'
+ht-degree: 70%
 
 ---
 
 
-# Informationen zu Ereignissen {#concept_gfj_fqt_52b}
+# Allgemeine Funktionsweise {#concept_gfj_fqt_52b}
 
 >[!CONTEXTUALHELP]
 >id="jo_events"
@@ -27,42 +27,15 @@ Mit der Ereigniskonfiguration können Sie festlegen, welche Informationen [!DNL 
 
 Wenn Sie ein Ereignis bearbeiten, das in einer Entwurfs- oder Live-Journey verwendet wird, können Sie nur den Namen oder die Beschreibung ändern oder Payload-Felder hinzufügen. Die Bearbeitungsmöglichkeiten von Entwurfs- oder Live-Journeys sind stark beschränkt, damit Unterbrechungen von Journeys vermieden werden.
 
-## Allgemeine Funktionsweise {#section_r1f_xqt_pgb}
+Sie können zwei Typen von Ereignissen definieren:
 
-Ereignisse sind POST-API-Aufrufe. Ereignisse werden über Streaming-Aufnahme-APIs an Adobe Experience Platform gesendet. Das URL-Ziel von Ereignissen, die über Transaktionsnachrichten-APIs gesendet werden, wird als „Inlet“ bezeichnet. Die Payload der Ereignisse verwendet die XDM-Formatierung.
+* **Regelbasierte** Ereignis: dieser Ereignis generiert keine eventID. Mit dem einfachen Ausdruck-Editor definieren Sie einfach eine Regel, die vom System verwendet wird, um die relevanten Ereignis zu identifizieren, die Ihre Reisen auslösen. Diese Regel kann auf einem beliebigen Feld basieren, das in der Ereignis-Payload verfügbar ist, z. B. dem Standort des Profils oder der Anzahl der Artikel, die dem Warenkorb des Profils hinzugefügt wurden.
 
-Die Payload enthält Informationen, die von Streaming-Aufnahme-APIs benötigt werden, um zu funktionieren (in der Kopfzeile), Informationen, die [!DNL Journey Orchestration] benötigt, um zu funktionieren (die Ereignis-ID, Teil des Payload-Hauptteils), und Informationen, die in Journeys verwendet werden (im Hauptteil z. B. der Betrag eines Transaktionsabbruchs). Es gibt zwei Modi für die Streaming-Aufnahme: authentifiziert und nicht authentifiziert. Weitere Informationen zu Streaming-Aufnahme-APIs finden Sie unter [diesem Link](https://docs.adobe.com/content/help/de-DE/experience-platform/xdm/api/getting-started.html).
-
-Nach dem Eingang über Streaming-Aufnahme-APIs fließen Ereignisse in einen internen Dienst, die sogenannte Pipeline, und dann in Adobe Experience Platform. Wenn für das Ereignisschema die Markierung „Echtzeit-Kundenprofildienst“ aktiviert ist und es über eine Datensatz-ID verfügt, die ebenfalls die Markierung „Echtzeit-Kundenprofil“ hat, fließt das Ereignis in den Echtzeit-Kundenprofildienst.
-
-Die Pipeline filtert Ereignisse mit einer Payload, die eventIDs von [!DNL Journey Orchestration] enthalten (siehe den Ereigniserstellungsprozess unten), die von [!DNL Journey Orchestration] bereitgestellt werden und in der Ereignis-Payload enthalten sind. Diese Ereignisse werden von [!DNL Journey Orchestration] überwacht und die entsprechende Journey wird ausgelöst.
-
-## Erstellen eines neuen Ereignisses {#section_tbk_5qt_pgb}
-
-Im Folgenden finden Sie die wichtigsten Schritte zum Konfigurieren eines neuen Ereignisses:
-
-1. Klicken Sie oben im Menü auf den Tab **[!UICONTROL Ereignisse]**. Die Liste der Ereignisse wird angezeigt. Refer to [this page](../about/user-interface.md) for more information on the interface.
-
-   ![](../assets/journey5.png)
-
-1. Klicken Sie auf **[!UICONTROL Hinzufügen]**, um ein neues Ereignis zu erstellen. Der Bereich für die Ereigniskonfiguration wird auf der rechten Seite des Bildschirms geöffnet.
-
-   ![](../assets/journey6.png)
-
-1. Geben Sie einen Namen für Ihr Ereignis ein.
-
-   >[!NOTE]
+   >[!CAUTION]
    >
-   >Verwenden Sie keine Leerzeichen oder Sonderzeichen. Verwenden Sie nicht mehr als 30 Zeichen.
+   >Für regelbasierte Ereignisse wird eine Deckelungsregel definiert. Die Anzahl der qualifizierten Ereignisse, die eine Journey verarbeiten kann, wird auf 400.000 pro Minute begrenzt. Für weitere Informationen wenden Sie sich an Ihren Ansprechpartner bei Ihrem Alpha-Programm. Zusätzlich zu dieser Deckelungsregel wird eine Begrenzung auf 5000 Ereignis pro Sekunde auf Fahrtebene definiert.
 
-1. Fügen Sie Ihrem Ereignis eine Beschreibung hinzu. Dieser Schritt ist optional.
-1. Definieren Sie das Schema und die Payload-Felder: Hier wählen Sie die Ereignisinformationen aus (normalerweise als Payload bezeichnet), die von [!DNL Journey Orchestration] erwartet werden. Anschließend können Sie diese Informationen in Ihrer Journey verwenden. Weiterführende Informationen finden Sie auf [dieser Seite](../event/defining-the-payload-fields.md).
-1. Die Anzahl der Journeys, die dieses Ereignis verwenden, wird im Feld **[!UICONTROL Verwendet in]** angezeigt. Sie können auf **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der Journeys mit diesem Ereignis anzuzeigen.
-1. Fügen Sie einen Namespace hinzu. Dieser Schritt ist optional, wird jedoch empfohlen, da das Hinzufügen eines Namespace es Ihnen ermöglicht, die im Echtzeit-Kundenprofildienst gespeicherten Informationen zu nutzen. Er definiert den Typ des Schlüssels, den das Ereignis hat. Weiterführende Informationen finden Sie auf [dieser Seite](../event/selecting-the-namespace.md).
-1. Definieren Sie den Schlüssel: Wählen Sie ein Feld aus Ihren Payload-Feldern aus oder definieren Sie eine Formel, um die mit dem Ereignis verbundene Person zu identifizieren. Dieser Schlüssel wird automatisch eingerichtet (kann aber weiterhin bearbeitet werden), wenn Sie einen Namespace auswählen. [!DNL Journey Orchestration] wählt den Schlüssel aus, der dem Namespace entsprechen soll (wenn Sie beispielsweise einen E-Mail-Namespace auswählen, wird der E-Mail-Schlüssel ausgewählt). Weiterführende Informationen finden Sie auf [dieser Seite](../event/defining-the-event-key.md).
-1. Fügen Sie eine Bedingung hinzu. Dieser Schritt ist optional. Dadurch kann das System nur die Ereignisse verarbeiten, die die Bedingung erfüllen. Die Bedingung kann nur auf den im Ereignis enthaltenen Informationen basieren. Weiterführende Informationen finden Sie auf [dieser Seite](../event/adding-a-condition.md).
-1. Klicken Sie auf **[!UICONTROL Speichern]**.
+* **Systemgenerierte** Ereignis: Für diese Ereignis ist eine eventID erforderlich. Dieses eventID-Feld wird beim Erstellen des Ereignisses automatisch generiert. Das System, das das Ereignis schiebt, sollte keine ID generieren, sondern die in der Payload-Vorschau verfügbare weitergeben.
 
-   ![](../assets/journey7.png)
+Informationen zum Erstellen eines Ereignisses finden Sie auf dieser [Seite](../event/about-creating.md).
 
-   Das Ereignis ist jetzt konfiguriert und kann in einer Journey abgelegt werden. Für den Empfang von Ereignissen sind zusätzliche Konfigurationsschritte erforderlich. Weiterführende Informationen finden Sie auf [dieser Seite](../event/additional-steps-to-send-events-to-journey-orchestration.md).
