@@ -4,19 +4,15 @@ solution: Journey Orchestration
 title: Springen zwischen Journeys
 description: Springen zwischen Journeys
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 100%
+source-wordcount: '784'
+ht-degree: 91%
 
 ---
 
 
 # Springen zwischen Journeys {#jump}
-
->[!NOTE]
->
->Tatsächliche Verfügbarkeit: 15. November 2020
 
 Mit der Aktionsaktivität **Sprung** können Sie Kontakte von einer Journey in eine andere bewegen. Diese Funktion unterstützt:
 
@@ -38,21 +34,31 @@ Im Folgenden finden Sie die verschiedenen Schritte des Ausführungsprozesses:
 1. Der Kontakt erreicht den Sprungschritt.
 1. Der Kontakt wird in Journey B geleitet und fährt nach dem Sprung mit den nächsten Schritten in Journey A fort.
 
-In **Journey B** kann das erste Ereignis extern (wie ein reguläres Ereignis) oder intern über einen Sprung von Journey A ausgelöst werden:
+Auf der Reise B wird das erste Ereignis intern durch Sprung von der Reise A ausgelöst:
 
 1. Journey B erhielt ein internes Ereignis von Journey A.
-1. Das erste Ereignis von Journey B wird mit den Informationen von Journey A ausgelöst.
 1. Die Kontakte werden in Journey B geleitet.
+
+>[!NOTE]
+>
+>Die Fahrt B kann auch über ein externes Ereignis ausgelöst werden.
 
 ## Wichtige Hinweise
 
+### Authoring
+
+* Der Sprung ist nur auf Reisen verfügbar, die einen Namensraum benutzen.
 * Sie können nur in eine Journey springen, die denselben Namespace wie die Ursprungs-Journey verwendet.
 * Sie können nicht in eine Journey springen, die mit einem **Segmentqualifikationsereignis** beginnt.
-* Wenn der Sprung ausgeführt wird, wird die aktuelle Version der Ziel-Journey ausgelöst.
+* Es ist nicht möglich, auf derselben Reise ein Ereignis für die **Segmentqualifikation** und einen Sprung zu verwenden.
 * Sie können so viele Sprünge in eine Journey aufnehmen, wie Sie benötigen. Nach einem Sprung können Sie jede erforderliche Aktivität hinzufügen.
 * Sie können beliebig viele Sprungstufen einfügen. So kann z. B. Journey A zu Journey B springen, welche zu Journey C springt, usw.
 * Auch die Ziel-Journey kann beliebig viele Sprünge umfassen.
 * Schleifenmuster werden nicht unterstützt. Es gibt keine Möglichkeit, zwei oder mehr Journeys miteinander zu verbinden, die eine Endlosschleife erzeugen würden. Der Konfigurationsbildschirm für **Sprungaktivitäten** verhindert dies.
+
+### Ausführung
+
+* Wenn der Sprung ausgeführt wird, wird die aktuelle Version der Ziel-Journey ausgelöst.
 * Wie üblich darf sich ein eindeutiger Kontakt nur einmal in einer Journey befinden. Wenn sich der Kontakt, der aus der Ursprungs-Journey bewegt wurde, bereits in der Ziel-Journey befindet, tritt der Kontakt also nicht mehr in die Ziel-Journey ein. Beim Sprung wird kein Fehler gemeldet, da dies ein normales Verhalten ist.
 
 ## Konfigurieren des Sprungs
@@ -84,9 +90,16 @@ Das Feld **Erstes Ereignis** wird vorab mit dem Namen des ersten Ereignisses der
 
    ![](../assets/jump5.png)
 
+
+   >[!NOTE]
+   >
+   >Die Identität der Person wird automatisch zugeordnet. Diese Informationen sind auf der Benutzeroberfläche nicht sichtbar.
+
 Ihr Sprung ist konfiguriert. Sobald Ihre Journey live oder im Testmodus ist, werden Kontakte, die den Sprung erreichen, in die Ziel-Journey geleitet.
 
 Wenn in einer Journey ein Sprung konfiguriert ist, wird zu Beginn der Ziel-Journey automatisch ein Sprungeintrittssymbol hinzugefügt. Auf diese Weise können Sie erkennen, dass die Journey sowohl extern als auch intern durch einen Sprung ausgelöst werden kann.
+
+![](../assets/jump7.png)
 
 ## Fehlerbehebung
 
@@ -94,3 +107,5 @@ Wenn die Journey veröffentlicht wird oder sich im Testmodus befindet, treten Fe
 * die Ziel-Journey nicht mehr existiert,
 * der Zustand der Ziel-Journey „Entwurf“, „geschlossen“ oder „gestoppt“ ist,
 * wenn sich das erste Ereignis der Ziel-Journey geändert hat und die Zuordnung unterbrochen ist.
+
+![](../assets/jump6.png)
