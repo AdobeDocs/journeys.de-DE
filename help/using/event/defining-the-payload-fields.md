@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Definieren der Payload-Felder
 description: Erfahren Sie mehr über das Definieren der Payload-Felder
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 89%
+source-wordcount: '288'
+ht-degree: 82%
 
 ---
 
@@ -34,7 +34,7 @@ Mit der Payload-Definition können Sie die Informationen auswählen, die das Sys
 
    >[!NOTE]
    >
-   >Das Feld **[!UICONTROL eventID]** wird automatisch in die Liste der ausgewählten Felder eingefügt, damit [!DNL Journey Orchestration] das Ereignis identifizieren kann. Das System, das das Ereignis per Push sendet, sollte keine ID generieren, sondern die ID verwenden, die in der Payload-Vorschau verfügbar ist. Weiterführende Informationen finden Sie auf [dieser Seite](../event/previewing-the-payload.md).
+   >For system-generated events, the **[!UICONTROL eventID]** field is automatically added in the list of fields selected so that [!DNL Journey Orchestration] can identify the event. Das System, das das Ereignis per Push sendet, sollte keine ID generieren, sondern die ID verwenden, die in der Payload-Vorschau verfügbar ist. Weiterführende Informationen finden Sie auf [dieser Seite](../event/previewing-the-payload.md).
 
 1. Wenn Sie die erforderlichen Felder ausgewählt haben, klicken Sie auf **[!UICONTROL Speichern]** oder drücken Sie die **[!UICONTROL Eingabetaste]**.
 
