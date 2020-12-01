@@ -6,8 +6,8 @@ description: Informationen zu Reiseeigenschaften
 translation-type: tm+mt
 source-git-commit: 341138c31676870878099b4f4eecec200a614c69
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
