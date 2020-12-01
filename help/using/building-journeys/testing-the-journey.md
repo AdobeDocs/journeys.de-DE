@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Testen der Journey
 description: 'Erfahren Sie mehr über das Testen von Journeys '
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 5e97f511872a924cc8c2c3a6904859d63ebeddcd
 workflow-type: tm+mt
-source-wordcount: '1365'
-ht-degree: 100%
+source-wordcount: '1460'
+ht-degree: 98%
 
 ---
 
@@ -133,6 +133,16 @@ Wenn Sie im Bildschirm für die Ereigniskonfiguration ein anderes Profil auswäh
 Beim Öffnen einer Journey im Test ist der angezeigte Pfad der des zuletzt durchgeführten Tests
 
 Der visuelle Fluss funktioniert unabhängig davon, ob das Ereignis über die Benutzeroberfläche oder extern ausgelöst wird (z. B. mit Postman).
+
+## Test mode for rule-based journeys {#test-rule-based}
+
+Der Testmodus ist für Journeys, bei denen ein regelbasiertes Ereignis verwendet wird, ebenfalls verfügbar. For more information on rule-based events, refer to [this page](../event/about-events.md).
+
+Beim Auslösen eines Ereignisses können Sie im Bildschirm **Ereigniskonfiguration** die Ereignisparameter definieren, nach denen der Test als bestanden gilt. Durch Klicken auf das QuickInfo-Symbol oben rechts können Sie die Ereignis-ID-Bedingung anzeigen. Außerdem ist neben jedem Feld, das Teil der Regelauswertung ist, ebenfalls eine QuickInfo verfügbar.
+
+![](../assets/alpha-event8.png)
+
+For more information on how to use the test mode, refer to [this page](../building-journeys/testing-the-journey.md).
 
 ## Anzeigen der Protokolle {#viewing_logs}
 
