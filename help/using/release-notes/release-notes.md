@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: Versionshinweise
 description: Versionshinweise
 translation-type: tm+mt
-source-git-commit: 9cd37af0281e9fb837c7bf52a52c8dbffd0d4a78
+source-git-commit: 3015d4caaedbd45ea5b94e426788f39b2774053e
 workflow-type: tm+mt
 source-wordcount: '2055'
 ht-degree: 87%
@@ -70,7 +70,7 @@ Sie können auch den Abschnitt [Aktualisierungen der Dokumentation](../release-n
 <p>Wir haben eine neue Methode hinzugefügt, um Ihre Ereignis einfacher einzurichten. Diese Funktion, die über das Alpha-Programm bei einer begrenzten Anzahl von Kunden getestet wurde, ist jetzt in Beta für alle Kunden verfügbar. Für diese neue Methode ist keine eventID erforderlich. Es wird bewertet, ob das Ereignis gemäß einer Bedingung ausgelöst werden soll. Sie können weiterhin die vorhandene Methode verwenden, die jetzt als "systemgeneriert"bezeichnet wird.
 </p>
 <p>Beachten Sie, dass diese Funktion in den nächsten Tagen verfügbar sein wird.</p>
-<p>Weitere Informationen finden Sie im <a href="../expression/journey-properties.md">entsprechenden Handbuch</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../event/about-events.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
