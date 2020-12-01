@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: Springen zwischen Journeys
 description: Springen zwischen Journeys
 translation-type: tm+mt
-source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
+source-git-commit: fe34587181d284944ce1af64b12ad1185c59f890
 workflow-type: tm+mt
 source-wordcount: '784'
 ht-degree: 91%
@@ -50,7 +50,7 @@ Auf der Reise B wird das erste Ereignis intern durch Sprung von der Reise A ausg
 * Der Sprung ist nur auf Reisen verfügbar, die einen Namensraum benutzen.
 * Sie können nur in eine Journey springen, die denselben Namespace wie die Ursprungs-Journey verwendet.
 * Sie können nicht in eine Journey springen, die mit einem **Segmentqualifikationsereignis** beginnt.
-* Es ist nicht möglich, auf derselben Reise ein Ereignis für die **Segmentqualifikation** und einen Sprung zu verwenden.
+* Sie können auf derselben Reise keine Sprung- und ein **Segmentqualifizierung**-Ereignis haben.
 * Sie können so viele Sprünge in eine Journey aufnehmen, wie Sie benötigen. Nach einem Sprung können Sie jede erforderliche Aktivität hinzufügen.
 * Sie können beliebig viele Sprungstufen einfügen. So kann z. B. Journey A zu Journey B springen, welche zu Journey C springt, usw.
 * Auch die Ziel-Journey kann beliebig viele Sprünge umfassen.
