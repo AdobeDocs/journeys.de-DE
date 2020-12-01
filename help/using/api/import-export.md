@@ -5,15 +5,15 @@ title: Beschreibung der Import-Export-API
 description: Weitere Informationen zur Import-Export-API.
 products: journeys
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 8da1d4a6c01279bf502c3ec39bdaba8fcc8e64f8
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 100%
+source-wordcount: '1131'
+ht-degree: 78%
 
 ---
 
 
-# Die Import-Export-API verwenden
+# Arbeiten mit der Export-Import-API
 
 Exportieren Sie eine Version der Journey und all ihre zugehörigen Objekte (Journey, Ereignisse, Datenquellen, Feldgruppen, benutzerdefinierte Aktionen) mit einem einzigen API-Aufruf. Die aus dem Export resultierende Payload kann verwendet werden, um die Journey einfach in eine andere Umgebung (Instanz oder Sandbox) zu importieren.
 Mit dieser Funktion können Sie Ihre Journeys über mehrere Instanzen oder für mehrere Testumgebungs-Workflows verwalten.
@@ -21,7 +21,7 @@ Mit dieser Funktion können Sie Ihre Journeys über mehrere Instanzen oder für 
 
 ## Ressourcen
 
-Die Journey Orchestration Import Export API wird in einer Swagger-Datei beschrieben, die [hier](https://adobedocs.github.io/JourneyAPI/docs/)verfügbar ist.
+The Journey Orchestration Export-Import API is described within a Swagger file available [here](https://adobedocs.github.io/JourneyAPI/docs/).
 
 Um diese API mit Ihrer Journey Orchestration-Instanz verwenden zu können, müssen Sie die Adobe I/O-Konsole verwenden. Sie können damit beginnen, indem Sie zuerst [Erste Schritte mit Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) und dann die Abschnitte auf dieser Seite befolgen.
 
@@ -40,8 +40,8 @@ Wir empfehlen, die folgenden Schritte auszuführen, um Ihre Journeys über Umgeb
    * Wenn Ihre exportierte Journey **bestimmte Anmeldeinformationen** enthält, müssen Sie diese durch die entsprechenden Anmeldeinformationen der neuen Umgebung ersetzen.
    * Wenn Ihre exportierte Journey **Ereignisse** enthält, die auf ein **XDM-Schema** verweisen, müssen Sie die Schema-ID-Referenz manuell mit der Schema-ID der neuen Umgebung im Knoten xdmEntity aktualisieren, wenn die IDs unterschiedlich sind. Diese Aktualisierung muss für jedes Ereignis durchgeführt werden. [Weitere Informationen hier](https://docs.adobe.com/content/help/de-DE/journeys/using/events-journeys/experience-event-schema.html)
    * Wenn Ihre Journey E-Mail-, SMS- oder Push-Aktionen enthält, müssen Sie möglicherweise den Vorlagennamen oder den mobileApp-Namen aktualisieren, wenn der Name in der Zielumgebung sich von dem in Ihrer Startumgebung unterscheidet.
-1. Rufen Sie die **Import**-API mit Ihrer Zielumgebung auf. Beachten Sie, dass Sie die Import-API so oft aufrufen können, wie Sie möchten. Die UUID und der Name der einzelnen Knoten, die in der Journey enthalten sind, werden jedes Mal generiert, wenn Sie die Import-API aufrufen.
-1. Sobald die Journey importiert wurde, können Sie sie in der neuen Sandbox oder Umgebung veröffentlichen.
+1. Call the **Import** API with your target environment parameters (orgID and sandboxName). Beachten Sie, dass Sie die Import-API so oft aufrufen können, wie Sie möchten. Die UUID und der Name der einzelnen Objekte in der Reise werden jedes Mal generiert, wenn Sie die Import-API aufrufen.
+1. Sobald die Reise importiert wurde, können Sie sie in der Anwendung Journey Orchestration veröffentlichen. More info [here](https://docs.adobe.com/content/help/en/journeys/using/building-journeys/publishing-the-journey.html)
 
 
 ## Authentifizierung
@@ -79,9 +79,9 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 
 
-## Beschreibung der Import-Export-API
+## Export-Import-API-Beschreibung
 
-Mit dieser API können Sie eine Version der Journey und alle zugehörigen Objekte (Journey, Ereignisse, Datenquellen, Feldgruppen, benutzerdefinierte Aktionen) nach ihrer UID exportieren.
+Mit dieser API können Sie eine Reiseversion exportieren, die durch ihre UID und alle zugehörigen Objekte (Reise, Ereignisse, Datenquellen, Feldgruppen, benutzerdefinierte Aktionen) durch ihre UID identifiziert wird.
 Die resultierende Payload kann verwendet werden, um die Version der Journey in einer anderen Umgebung (Sandbox oder Instanz) zu importieren.
 
 | Vorgehensweise | Pfad | Beschreibung |
@@ -94,21 +94,20 @@ Die resultierende Payload kann verwendet werden, um die Version der Journey in e
 
 ### Exportmerkmale und Limits
 
-* Die Anmeldeinformationen werden nicht exportiert und ein Platzhalter (z. B. INSERT_SECRET_HERE) wird eingefügt.
-Nach dem Payload-Export müssen Sie die neuen Anmeldeinformationen (entsprechend der Zielumgebung) manuell einfügen, bevor Sie die Payload in die Zielumgebung importieren.
-
-* Wenn die Datenquelle den Parameter **builtIn:true** enthält, müssen Sie „INSERT_SECRET_HERE“ nicht ersetzen. Dies ist eine Systemdatenquelle, die automatisch von der Journey-Umgebung verwaltet wird.
-
-* Die folgenden Objekte werden exportiert, sie werden jedoch nie in die Zielumgebung importiert:
-   * **DataProviders**:  acsDataProvider und acppsDataProvider
-   * **Feldgruppen**: acppsFieldGroup
-   * **Benutzerdefinierte Aktionen**: acsAction
-
 * Die Journey muss vor dem Export gültig sein.
+
+* Die Anmeldeinformationen werden nicht exportiert und ein Platzhalter (z. B. INSERT_SECRET_HERE) wird in die Antwortnutzlast eingefügt.
+Nach dem Export-Aufruf müssen Sie die neuen Anmeldeinformationen (entsprechend der Zielgruppe-Umgebung) manuell einfügen, bevor Sie die Nutzlast in die Zielgruppe-Umgebung importieren.
+
+* Die folgenden Objekte werden exportiert, sie werden jedoch nie in die Zielumgebung importiert. Diese Systemressourcen werden automatisch von der Journey Orchestration verwaltet. Sie müssen &quot;INSERT_SECRET_HERE&quot;nicht ersetzen.
+   * **DataProviders**:  &quot;Adobe Campaign Standard Data Provider&quot;(acsDataProvider) und &quot;Experience Platform&quot;(acppsDataProvider)
+   * **Feldgruppen** (dataEntities): &quot;ProfileFieldGroup&quot; (acppsDataPack)
+
+
 
 ### Import-Merkmale
 
-* Während des Imports werden die Objekte der Journey mit einer neuen UUID und einem neuen Namen erstellt, um die Eindeutigkeit in der Zielumgebung (Instanz oder Sandbox) sicherzustellen.
+* Während des Imports werden die Reiseobjekte mit einer neuen UID und einem neuen Namen erstellt, um die Eindeutigkeit in der Umgebung der Zielgruppe (Instanz oder Sandbox) sicherzustellen.
 
 * Wenn die Import-Payload geheime Platzhalter enthält, wird ein Fehler ausgegeben. Sie müssen die Anmeldeinformationen vor dem POST-Aufruf zum Import der Journey ersetzen.
 
@@ -120,5 +119,4 @@ Mögliche Fehler sind:
 
 * Zum **Zeitpunkt des Imports**, wenn die Payload nach Änderungen nicht gültig ist oder wenn die Anmeldeinformationen in der Payload nicht gut definiert sind: Fehler 400
 
-* Wenn Sie nach dem Import-Schritt versuchen, die Journey in der Zielumgebung zu veröffentlichen, ohne die XDM-Schema-ID für Ihre Ereignisse zu ändern, wird ein Fehler angezeigt.
-
+* Wenn nach dem Importschritt die XDM-Schema-ID für Ihre Ereignis in der Umgebung &quot;Zielgruppe&quot;nicht gültig ist, wird in der Journey Orchestration ein Fehler angezeigt. In diesem Fall wird es nicht möglich sein, die Reise zu veröffentlichen.
