@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Anzeigen der Payload-Vorschau
 description: Erfahren Sie, wie Sie die Payload-Vorschau anzeigen
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 100%
+source-wordcount: '115'
+ht-degree: 83%
 
 ---
 
@@ -19,7 +19,7 @@ Mit der Payload-Vorschau können Sie die Payload-Definition validieren.
 
 >[!NOTE]
 >
->Wenn Sie ein Ereignis erstellen, speichern und öffnen Sie es erneut, bevor Sie die Payload-Vorschau anzeigen. Dieser Schritt ist erforderlich, um eine Ereignis-ID in der Payload zu generieren.
+>Wenn Sie bei systemgenerierten Ereignissen ein Ereignis erstellen, speichern Sie vor dem Anzeigen der Payload-Vorschau Ihr Ereignis und öffnen Sie es erneut. Dieser Schritt ist erforderlich, um eine Ereignis-ID in der Payload zu generieren.
 
 1. Klicken Sie auf das Symbol **[!UICONTROL Payload zeigen]**, um eine Vorschau der vom System erwarteten Payload anzuzeigen.
 
