@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Versionshinweise
 description: Versionshinweise
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 9cd37af0281e9fb837c7bf52a52c8dbffd0d4a78
 workflow-type: tm+mt
-source-wordcount: '1731'
-ht-degree: 100%
+source-wordcount: '2055'
+ht-degree: 87%
 
 ---
 
@@ -16,6 +16,71 @@ ht-degree: 100%
 
 Auf dieser Seite werden alle neuen Funktionen und Verbesserungen bei Journey Orchestration aufgelistet.
 Sie können auch den Abschnitt [Aktualisierungen der Dokumentation](../release-notes/documentation-updates.md) lesen.
+
+## November 2020 Release {#november-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>Springen zwischen Journeys</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Wir haben eine neue Action-Aktivität hinzugefügt, die es Ihnen ermöglicht, Individuen von einer Reise zur nächsten zu bewegen. Die Aktivität "Sprung"ermöglicht Ihnen Folgendes:
+</p>
+<ul>
+<li>Vereinfachung der Gestaltung sehr komplexer Journeys durch Aufteilung in mehrere Journeys </li>
+<li>Erstellung von Journeys anhand allgemeiner und wiederverwendbarer Journey-Muster</li>
+</ul>
+<p>Weitere Informationen finden Sie im <a href="../building-journeys/jump.md">entsprechenden Handbuch</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Verwenden der Eigenschaften von "Journey"im Ausdruck-Editor</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Im erweiterten Ausdruck-Editor haben wir eine neue Kategorie zur Liste von Feldern und Funktionen hinzugefügt. Dies sind die Informationen, die das System von Live-Reisen abruft, wie z. B. die Reise-ID oder die spezifischen aufgetretenen Fehler. Dadurch erhalten Sie mehr Möglichkeiten beim Aufbau Ihrer Reisen. Sie können beispielsweise Systeme von Drittanbietern warnen, wenn in einer Bedingung oder Aktion Fehler auftreten.
+</p>
+<p>Beachten Sie, dass diese Funktion in den nächsten Tagen verfügbar sein wird.</p>
+<p>Weitere Informationen finden Sie im <a href="../expression/journey-properties.md">entsprechenden Handbuch</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Regelbasierte Ereignisse (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Wir haben eine neue Methode hinzugefügt, um Ihre Ereignis einfacher einzurichten. Diese Funktion, die über das Alpha-Programm bei einer begrenzten Anzahl von Kunden getestet wurde, ist jetzt in Beta für alle Kunden verfügbar. Für diese neue Methode ist keine eventID erforderlich. Es wird bewertet, ob das Ereignis gemäß einer Bedingung ausgelöst werden soll. Sie können weiterhin die vorhandene Methode verwenden, die jetzt als "systemgeneriert"bezeichnet wird.
+</p>
+<p>Beachten Sie, dass diese Funktion in den nächsten Tagen verfügbar sein wird.</p>
+<p>Weitere Informationen finden Sie im <a href="../expression/journey-properties.md">entsprechenden Handbuch</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Sonstige Verbesserungen{#october-november}
+
+Einschränkungen wurden hinzugefügt, wenn neue Versionen einer Reise erstellt werden. Diese Einschränkungen vermeiden zu drastische Änderungen auf der Reise, um eine gewisse Konsistenz zwischen den Versionen zu erhalten. [Mehr dazu](../about/limitations.md#journey-versions-limitations)
+
+Die Aktivität **Segmentqualifikation** kann nicht mehr für eine Reise verwendet werden, die Aktivitäten für Campaign Standard-Nachrichten enthält. Diese Einschränkung schützt die Integrität von Adobe Campaign Standard-Instanzen. Die Nutzung der Segmentqualifikation kann sogar zu täglichen Spitzen beim Senden von Nachrichten führen, die die Transaktionsnachrichten des Campaign Standards überladen würden. [Mehr dazu](../about/limitations.md#segment-qualification)
 
 ## Version Oktober 2020 {#october-release}
 
@@ -135,11 +200,11 @@ Informationen zum Geltungsbereich des Alpha-Programms finden Sie in diesem [Absc
 <p>Die folgenden Verbesserungen wurden an regelbasierten Ereignissen vorgenommen:
 </p>
 <ul>
-<li><p>Sie können jetzt alle verhaltensbezogenen Ereignisdaten, die Sie in Adobe Analytics bereits erfassen und an Platform streamen, zum Auslösen von Journeys und zur Automatisierung von Erlebnissen für Ihre Kunden nutzen – <a href="../alpha/alpha-events.md#analytics-data">mehr dazu</a></p>
+<li><p>Sie können jetzt alle verhaltensbezogenen Ereignisdaten, die Sie in Adobe Analytics bereits erfassen und an Platform streamen, zum Auslösen von Journeys und zur Automatisierung von Erlebnissen für Ihre Kunden nutzen – <a href="../event/about-analytics.md">mehr dazu</a></p>
 </li>
-<li><p>Beim Auslösen eines regelbasierten Ereignisses im Testmodus können Sie jetzt die Ereignis-ID-Bedingung direkt anzeigen. Außerdem ist jetzt neben jedem Feld, das Teil der Regelauswertung ist, eine QuickInfo verfügbar – <a href="../alpha/alpha-events.md#configuring-rule-based">mehr dazu</a></p>
+<li><p>Beim Auslösen eines regelbasierten Ereignisses im Testmodus können Sie jetzt die Ereignis-ID-Bedingung direkt anzeigen. Außerdem ist jetzt neben jedem Feld, das Teil der Regelauswertung ist, eine QuickInfo verfügbar – <a href="../building-journeys/testing-the-journey.md#test-rule-based">mehr dazu</a></p>
 </li>
-<li><p>Der Bildschirm zur Definition regelbasierter Ereignisse wurde zur Optimierung der Benutzerumgebung neu organisiert – <a href="../alpha/alpha-events.md#test-rule-based">mehr dazu</a></p>
+<li><p>Der Bildschirm zur Definition regelbasierter Ereignisse wurde zur Optimierung der Benutzerumgebung neu organisiert – <a href="../event/about-creating.md">mehr dazu</a></p>
 </li>
 </ul>
 </td>
@@ -201,7 +266,7 @@ Diese Funktionen werden in einem eigenen [Abschnitt](../alpha/alpha-overview.md)
 <tbody>
 <tr>
 <td>
-<p>Die Einrichtung von Erlebnisereignissen wurde vereinfacht. Bei der neuen Methode muss keine eventID verwendet werden. Wenn Sie Ihr Ereignis in Journey Orchestration einrichten, können Sie jetzt ein regelbasiertes Ereignis definieren. <a href="../alpha/alpha-events.md">mehr dazu</a>
+<p>Die Einrichtung von Erlebnisereignissen wurde vereinfacht. Bei der neuen Methode muss keine eventID verwendet werden. Wenn Sie Ihr Ereignis in Journey Orchestration einrichten, können Sie jetzt ein regelbasiertes Ereignis definieren. <a href="../event/about-events.md">mehr dazu</a>
 </p>
 </td>
 </tr>
@@ -277,8 +342,6 @@ Journey Orchestration ist jetzt im Raum APAC verfügbar (australisches Rechenzen
 Die Benutzeroberfläche von Journey Orchestration ist auf Japanisch verfügbar.
 
 ## Version 1. Quartal – März 2020 {#q1-release---march-2020}
-
-**Neue Funktionen**
 
 <table>
 <thead>
