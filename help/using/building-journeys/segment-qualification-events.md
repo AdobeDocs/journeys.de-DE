@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Segmentqualifizierungsereignisse
 description: Mehr über Segmentqualifizierungsereignisse
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 100%
+source-wordcount: '740'
+ht-degree: 97%
 
 ---
 
@@ -82,6 +82,8 @@ Wenn das Batch-Segment neu erstellt und in einer Journey unmittelbar verwendet w
 ### Streaming-Segmente{#streamed-speed-segment-qualification}
 
 Bei Verwendung der Segmentqualifikation für Streaming-Segmente besteht aufgrund der kontinuierlichen Bewertung des Segments ein geringeres Risiko, dass es bei Ein-/Austritten zu großen Spitzen kommt. Wenn die Segmentdefinition dazu führt, dass eine große Zahl von Kunden gleichzeitig qualifiziert wird, kann es jedoch ebenfalls zu einer Spitze kommen.
+
+For more information on streaming segmentation, refer to this [page](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
 
 ### So vermeiden Sie Überlastungen{#overloads-speed-segment-qualification}
 
