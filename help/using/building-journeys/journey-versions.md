@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Journey-Versionen
 description: Erfahren Sie mehr über Journey-Versionen
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 100%
+source-wordcount: '248'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,10 @@ In der Liste der Journeys werden alle Journey-Versionen mit der Versionsnummer a
 ![](../assets/journeyversions1.png)
 
 Wenn Sie eine Live-Journey ändern müssen, müssen Sie eine neue Version Ihrer Journey erstellen.
+
+>[!NOTE]
+>
+>Weitere Informationen zu Einschränkungen für Reiseversionen finden Sie auf [dieser Seite](../about/limitations.md#journey-versions-limitations)
 
 1. Öffnen Sie die neueste Version Ihrer Live-Journey, klicken Sie auf **[!UICONTROL Neue Version erstellen]** und bestätigen Sie.
 
