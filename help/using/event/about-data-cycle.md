@@ -1,13 +1,13 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: Ereignis-Datenzyklus
-description: Informationen zum Ereignis-Datenzyklus
-translation-type: tm+mt
+title: Ereignisdatenzyklus
+description: Informationen zum Ereignisdatenzyklus.
+translation-type: ht
 source-git-commit: b3ed5d305ddd1c86814373fc923390dc50a80c7e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '227'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -20,4 +20,4 @@ Die Payload enthält Informationen, die von Streaming-Aufnahme-APIs benötigt we
 
 Nach dem Eingang über Streaming-Aufnahme-APIs fließen Ereignisse in einen internen Dienst, die sogenannte Pipeline, und dann in Adobe Experience Platform. Wenn für das Ereignisschema die Markierung „Echtzeit-Kundenprofildienst“ aktiviert ist und es über eine Datensatz-ID verfügt, die ebenfalls die Markierung „Echtzeit-Kundenprofil“ hat, fließt das Ereignis in den Echtzeit-Kundenprofildienst.
 
-For system-generated events, the Pipeline filters events which have a payload containing [!DNL Journey Orchestration] eventIDs (see the event creation process below) provided by [!DNL Journey Orchestration] and contained in event payload. Bei regelbasierten Ereignissen identifiziert das System das Ereignis mit der eventID-Bedingung. Diese Ereignisse werden von [!DNL Journey Orchestration] überwacht und die entsprechende Journey wird ausgelöst.
+Systemgenerierte Ereignisse: Die Pipeline filtert Ereignisse mit einer Payload, die eventIDs von [!DNL Journey Orchestration] enthalten (siehe den Ereigniserstellungsprozess unten), die von [!DNL Journey Orchestration] bereitgestellt werden und in der Ereignis-Payload enthalten sind. Regelbasierte Ereignisse: Das System identifiziert das Ereignis mit der eventID-Bedingung. Diese Ereignisse werden von [!DNL Journey Orchestration] überwacht und die entsprechende Journey wird ausgelöst.
