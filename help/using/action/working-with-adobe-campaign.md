@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Arbeiten mit Adobe Campaign
 description: Erfahren Sie mehr über Adobe Campaign-Aktionen
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '310'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Die Transaktionsnachricht in Campaign Standard und das zugehörige Ereignis müs
 
 >[!NOTE]
 >
->Adobe Campaign Standard Transactional Messaging verfügt über eine maximale Anzahl von 50 000 Nachrichten pro Stunde über Kanal für eine bestimmte Instanz. Um das Überlastungsrisiko zu verringern, empfehlen wir, eine **Deckelungsregel** für die Campaign Standard-Integration einzurichten.
+>Transaktionsnachrichten in Adobe Campaign Standard sind für eine bestimmte Instanz auf maximal 50.000 Nachrichten pro Stunde über alle Kanäle hinweg begrenzt. Um das Risiko einer Überlastung zu verringern, empfehlen wir, eine **Begrenzungsregel** für die Campaign Standard-Integration einzurichten.
 >
 >Lesen Sie mehr über Service-Level-Vereinbarungen für Transaktionsnachrichten in der [Produktbeschreibung von Adobe Campaign Standard](https://helpx.adobe.com/de/legal/product-descriptions/campaign-standard.html).
 
