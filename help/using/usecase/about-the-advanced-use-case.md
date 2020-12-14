@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Informationen zum erweiterten Anwendungsfall
 description: Erfahren Sie mehr über die Journey mit dem erweiterten Anwendungsfall
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -35,17 +35,17 @@ Anschließend prüfen wir zwei Bedingungen:
 
 ![](../assets/journeyuc2_29.png)
 
-For this use case, we will need to create two events (see [this page](../usecase/configuring-the-events.md)):
+Für diesen Anwendungsfall müssen wir zwei Ereignisse erstellen (weitere Informationen finden Sie auf [dieser Seite](../usecase/configuring-the-events.md)):
 
 * das Beacon-Ereignis „Lobby“, das an das System gesendet wird, sobald ein Kunde das Hotel betritt;
 * das Beacon-Ereignis „Restaurant“, das gesendet wird, sobald ein Kunde das Restaurant betritt.
 
-We will need to configure a connection to two data sources (see [this page](../usecase/configuring-the-data-sources.md)):
+Es muss eine Verbindung zu zwei Datenquellen konfiguriert werden (weitere Informationen finden Sie auf [dieser Seite](../usecase/configuring-the-data-sources.md)):
 
 * zur integrierten Adobe Experience Platform-Datenquelle zum Abrufen der Informationen für die beiden Bedingungen (Mitgliedschaft im Treueprogramm und Datum des letzten Kontakts) sowie der Informationen für die Personalisierung der Nachricht.
 * zum Hotelreservierungssystem zum Abrufen der Informationen über den Reservierungsstatus.
 
-## Voraussetzungen:       {#prerequisites}
+## Voraussetzungen:        {#prerequisites}
 
 Für unseren Anwendungsfall haben wir mit Adobe Campaign Standard drei Transaktionsnachrichtenvorlagen entwickelt. Wir nutzen Transaktionsnachrichtenvorlagen für Ereignisse. Mehr dazu erfahren Sie auf [dieser Seite](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
 
