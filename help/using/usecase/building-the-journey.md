@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Erstellen der Journey
 description: 'Erfahren Sie, wie Sie die Journey für den erweiterten Anwendungsfall erstellen  '
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '913'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Der **Business-Anwender** kann nun die Journey einrichten. Unsere Journey umfass
 >
 >Die Aktivitäten **[!UICONTROL Push]** und **[!UICONTROL E-Mail]** sind in der Palette nur dann verfügbar, wenn Sie Adobe Campaign Standard verwenden.
 
-For additional information on how to build a journey, refer to [this page](../building-journeys/journey.md).
+Weitere Informationen zum Erstellen einer Journey finden Sie auf [dieser Seite](../building-journeys/journey.md).
 
 ## Erste Schritte{#section_ntb_ws1_ffb}
 
@@ -76,7 +76,7 @@ For additional information on how to build a journey, refer to [this page](../bu
    >
    >Im zweiten Teil des Ausdrucks ist „Profil“ optional.
 
-1. Wir müssen einen Namespace auswählen. Basierend auf Schemaeigenschaften ist schon vorab ein Namespace ausgewählt. Sie können die Auswahl beibehalten. Weitere Informationen zu Namensräumen finden Sie auf [dieser Seite](../event/selecting-the-namespace.md).
+1. Wir müssen einen Namespace auswählen. Basierend auf Schemaeigenschaften ist schon vorab ein Namespace ausgewählt. Sie können die Auswahl beibehalten. Weitere Informationen zu Namespaces finden Sie auf [dieser Seite](../event/selecting-the-namespace.md).
 
 In unserem Anwendungsfall wollen wir nur auf diese beiden Bedingungen reagieren, sodass wir das Kontrollkästchen **[!UICONTROL Pfad für andere Fälle als die obigen zeigen]** deaktivieren.
 
@@ -101,7 +101,7 @@ Nach der Bedingung werden zwei Pfade erstellt:
 
    ![](../assets/journeyuc2_18.png)
 
-1. When you select a field from an external data source, the right part of the screen displays the list of parameters that were defined when configuring the external data source (see [this page](../usecase/configuring-the-data-sources.md)). Klicken Sie auf den Parameternamen und definieren Sie den Wert des Reservierungssystemschlüssels (die Experience Cloud-ID), in unserem Beispiel:
+1. Wenn Sie ein Feld aus einer externen Datenquelle auswählen, wird im rechten Teil des Bildschirms die Liste der Parameter angezeigt, die beim Konfigurieren der externen Datenquelle definiert wurden (siehe [diese Seite](../usecase/configuring-the-data-sources.md)). Klicken Sie auf den Parameternamen und definieren Sie den Wert des Reservierungssystemschlüssels (die Experience Cloud-ID), in unserem Beispiel:
 
    ```
    @{LobbyBeacon.endUserIDs._experience.mcid.id}
@@ -167,7 +167,7 @@ Nach der Bedingung werden zwei Pfade erstellt:
 
 1. Fügen Sie eine Aktivität vom Typ **[!UICONTROL Ende]** hinzu.
 
-Klicken Sie auf den Umschalter **[!UICONTROL Testen]** und testen Sie Ihre Journey. Wenn ein Fehler auftritt, deaktivieren Sie den Testmodus, ändern Sie Ihre Journey und testen Sie sie erneut. For more information on the test mode, refer to [this page](../building-journeys/testing-the-journey.md).
+Klicken Sie auf den Umschalter **[!UICONTROL Testen]** und testen Sie Ihre Journey. Wenn ein Fehler auftritt, deaktivieren Sie den Testmodus, ändern Sie Ihre Journey und testen Sie sie erneut. Weitere Informationen zum Testmodus finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md).
 
 ![](../assets/journeyuc2_32bis.png)
 
