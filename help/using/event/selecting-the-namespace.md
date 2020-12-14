@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Auswählen des Namespace
 description: Erfahren Sie, wie Sie den Namespace auswählen
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '207'
 ht-degree: 100%
 
@@ -29,4 +29,4 @@ Wählen Sie einen Namespace aus der Dropdown-Liste aus.
 
 ![](../assets/journey17.png)
 
-Pro Journey ist nur ein Namespace zulässig. Wenn Sie mehrere Ereignisse in derselben Journey verwenden, müssen diese denselben Namespace verwenden. Weiterführende Informationen finden Sie auf [dieser Seite](../building-journeys/journey.md).
+Pro Journey ist nur ein Namespace zulässig. Wenn Sie mehrere Ereignisse in derselben Journey verwenden, müssen diese denselben Namespace verwenden. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/journey.md).
