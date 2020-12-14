@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: toDateTime
 description: Erfahren Sie mehr über die Funktion „toDateTime“
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '93'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Konversion
 
 >[!NOTE]
 >
->Die Zeitzonen-ID muss eine Zeichenfolgenkonstante sein. Sie darf weder ein Feldverweis noch ein Ausdruck sein. For more information on data types, refer to [this page](../expression/data-types.md).
+>Die Zeitzonen-ID muss eine Zeichenfolgenkonstante sein. Sie darf weder ein Feldverweis noch ein Ausdruck sein. Weitere Informationen zu Datentypen finden Sie auf [dieser Seite](../expression/data-types.md).
 
 ## Signaturen und zurückgegebene Typen
 
