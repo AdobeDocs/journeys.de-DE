@@ -2,12 +2,12 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: Informationen zu Ereignissen
-description: Weitere Informationen zu Ereignissen
+description: Erfahren Sie mehr über Ereignisse.
 translation-type: tm+mt
 source-git-commit: 3dd7cd4dc4e4398b029dd1becd11c8dd7e7c3542
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -29,13 +29,13 @@ Wenn Sie ein Ereignis bearbeiten, das in einer Entwurfs- oder Live-Journey verwe
 
 Sie können zwei Typen von Ereignissen definieren:
 
-* **Regelbasierte** Ereignisse: dieser Ereignis generiert keine eventID. Mit dem einfachen Ausdruck-Editor definieren Sie einfach eine Regel, die vom System verwendet wird, um die relevanten Ereignis zu identifizieren, die Ihre Reisen auslösen. Diese Regel kann auf einem beliebigen Feld basieren, das in der Ereignis-Payload verfügbar ist, z. B. dem Standort des Profils oder der Anzahl der Artikel, die dem Warenkorb des Profils hinzugefügt wurden.
+* **Regelbasierte** Ereignisse: dieser Ereignistyp generiert keine eventID. Mit dem einfachen Ausdruckseditor definieren Sie einfach eine Regel, anhand derer das System die relevanten Ereignisse identifiziert, die Ihre Journeys auslösen. Diese Regel kann auf einem beliebigen Feld basieren, das in der Ereignis-Payload verfügbar ist, z. B. dem Standort des Profils oder der Anzahl der Artikel, die dem Warenkorb des Profils hinzugefügt wurden.
 
    >[!CAUTION]
    >
-   >Für regelbasierte Ereignisse wird eine Deckelungsregel definiert. Die Anzahl der qualifizierten Ereignis, die eine Reise für eine bestimmte Organisation (ORG) verarbeiten kann, wird auf 5000 pro Sekunde begrenzt. Es entspricht Journey Orchestration SLAs. Weitere Informationen finden Sie auf dieser [Seite](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html).
+   >Für regelbasierte Ereignisse wird eine Begrenzungsregel definiert. Die Anzahl der qualifizierten Ereignisse, die eine Journey für eine bestimmte Organisation (ORG) verarbeiten kann, wird auf 5000 pro Sekunde begrenzt. Dies entspricht den Journey Orchestration-SLAs. Weitere Informationen finden Sie auf dieser [Seite](https://helpx.adobe.com/de/legal/product-descriptions/journey-orchestration.html).
 
-* **System-** Generatedevents: Für diese Ereignis ist eine eventID erforderlich. Dieses eventID-Feld wird beim Erstellen des Ereignisses automatisch generiert. Das System, das das Ereignis schiebt, sollte keine ID generieren, sondern die in der Payload-Vorschau verfügbare weitergeben.
+* **Systemgenerierte** Ereignisse: für diese Ereignisse ist eine eventID erforderlich. Dieses eventID-Feld wird beim Erstellen des Ereignisses automatisch generiert. Das System, das das Ereignis per Push sendet, sollte keine ID generieren. Es sollte die ID übergeben, die in der Payload-Vorschau verfügbar ist.
 
 Informationen zum Erstellen eines Ereignisses finden Sie auf dieser [Seite](../event/about-creating.md).
 
