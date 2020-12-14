@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Testen der Journey
 description: 'Erfahren Sie mehr über das Testen von Journeys '
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5e97f511872a924cc8c2c3a6904859d63ebeddcd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1460'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 
    ![](../assets/journeyuctest2.png)
 
-1. Wenn ein Fehler auftritt, deaktivieren Sie den Testmodus, ändern Sie Ihre Journey und testen Sie sie erneut. Wenn der Test abgeschlossen ist, können Sie Ihre Journey veröffentlichen. Weiterführende Informationen finden Sie auf [dieser Seite](../building-journeys/publishing-the-journey.md).
+1. Wenn ein Fehler auftritt, deaktivieren Sie den Testmodus, ändern Sie Ihre Journey und testen Sie sie erneut. Wenn der Test abgeschlossen ist, können Sie Ihre Journey veröffentlichen. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/publishing-the-journey.md).
 
 ## Wichtige Hinweise {#important_notes}
 
@@ -134,15 +134,15 @@ Beim Öffnen einer Journey im Test ist der angezeigte Pfad der des zuletzt durch
 
 Der visuelle Fluss funktioniert unabhängig davon, ob das Ereignis über die Benutzeroberfläche oder extern ausgelöst wird (z. B. mit Postman).
 
-## Test mode for rule-based journeys {#test-rule-based}
+## Testmodus für regelbasierte Journeys {#test-rule-based}
 
-Der Testmodus ist für Journeys, bei denen ein regelbasiertes Ereignis verwendet wird, ebenfalls verfügbar. For more information on rule-based events, refer to [this page](../event/about-events.md).
+Der Testmodus ist für Journeys, bei denen ein regelbasiertes Ereignis verwendet wird, ebenfalls verfügbar. Weitere Informationen zu regelbasierten Ereignissen finden Sie auf [dieser Seite](../event/about-events.md).
 
 Beim Auslösen eines Ereignisses können Sie im Bildschirm **Ereigniskonfiguration** die Ereignisparameter definieren, nach denen der Test als bestanden gilt. Durch Klicken auf das QuickInfo-Symbol oben rechts können Sie die Ereignis-ID-Bedingung anzeigen. Außerdem ist neben jedem Feld, das Teil der Regelauswertung ist, ebenfalls eine QuickInfo verfügbar.
 
 ![](../assets/alpha-event8.png)
 
-For more information on how to use the test mode, refer to [this page](../building-journeys/testing-the-journey.md).
+Weitere Informationen zur Verwendung des Testmodus finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md).
 
 ## Anzeigen der Protokolle {#viewing_logs}
 
