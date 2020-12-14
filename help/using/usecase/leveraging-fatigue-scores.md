@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Nutzen von Ermüdungswerten
 description: Erfahren Sie, wie Sie in Journeys Ermüdungswerte nutzen
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '268'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Dieser Anwendungsfall zeigt, wie Sie Ermüdungswerte verwenden können, um zu ve
 
 ## Konfigurieren des Ereignisses {#section_ptb_ws1_ffb}
 
-Führen Sie die auf [dieser Seite](../event/about-events.md)beschriebenen Schritte aus.
+Führen Sie die auf [dieser Seite](../event/about-events.md) beschriebenen Schritte aus.
 
 ## Konfigurieren der Datenquelle {#section_o3n_4yy_wfb}
 
@@ -41,7 +41,7 @@ Führen Sie folgende Schritte aus, um die Ermüdungswertfelder in der integriert
 
 ## Erstellen der Journey {#section_uzm_pyy_wfb}
 
-To create, validate and publish the journey, follow the steps described in [this page](../building-journeys/journey.md).
+Gehen Sie wie auf [dieser Seite](../building-journeys/journey.md) beschrieben vor, um eine Journey zu erstellen, zu validieren und zu veröffentlichen.
 
 In unserem Anwendungsfall nutzen wir das Feld **[!UICONTROL fatigueLevel]**. Sie können auch das Feld **[!UICONTROL fatigueScore]** verwenden.
 
