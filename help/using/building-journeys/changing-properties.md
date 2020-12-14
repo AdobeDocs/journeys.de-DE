@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Ändern von Eigenschaften
 description: Erfahren Sie, wie Sie Eigenschaften ändern
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '485'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -53,4 +53,4 @@ Die Zeitzone wird auf Journey-Ebene definiert.
 
 Sie können eine feste Zeitzone eingeben oder Adobe Experience Platform-Profile verwenden, um die Zeitzone der Journey festzulegen.
 
-For more information on timezone management, see [this page](../building-journeys/timezone-management.md).
+Weitere Informationen zum Zeitzonen-Management finden Sie auf [dieser Seite](../building-journeys/timezone-management.md).
