@@ -3,18 +3,18 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Über Ereignisaktivitäten
 description: Erfahren Sie mehr über Ereignisaktivitäten
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '457'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
 # Über Ereignisaktivitäten{#concept_rws_1rt_52b}
 
-The events configured by the technical user (see [this page](../event/about-events.md)) are all displayed in the first category of the palette, on the left side of the screen.
+Die vom technischen Anwender konfigurierten Ereignisse (siehe [diese Seite](../event/about-events.md)) werden alle in der ersten Kategorie der Palette auf der linken Seite des Bildschirms angezeigt.
 
 ![](../assets/journey43.png)
 
