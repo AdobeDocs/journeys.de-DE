@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Anzeigen der Payload-Vorschau
 description: Erfahren Sie, wie Sie die Payload-Vorschau anzeigen
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '115'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Mit der Payload-Vorschau können Sie die Payload-Definition validieren.
 
 >[!NOTE]
 >
->Wenn Sie bei systemgenerierten Ereignissen ein Ereignis erstellen, speichern Sie vor dem Anzeigen der Payload-Vorschau Ihr Ereignis und öffnen Sie es erneut. Dieser Schritt ist erforderlich, um eine Ereignis-ID in der Payload zu generieren.
+>Bei vom System erstellten Ereignissen: Wenn Sie ein Ereignis erstellen, speichern und öffnen Sie es erneut, bevor Sie die Payload-Vorschau anzeigen. Dieser Schritt ist erforderlich, um eine Ereignis-ID in der Payload zu generieren.
 
 1. Klicken Sie auf das Symbol **[!UICONTROL Payload zeigen]**, um eine Vorschau der vom System erwarteten Payload anzuzeigen.
 
@@ -31,4 +31,4 @@ Mit der Payload-Vorschau können Sie die Payload-Definition validieren.
 
 1. Überprüfen Sie die Vorschau, um die Payload-Definition zu validieren.
 
-1. Anschließend können Sie die Payload-Vorschau für die Person freigeben, die für das Senden des Ereignisses verantwortlich ist. Diese Payload kann ihr beim Entwurf eines Ereignisses helfen, das an [!DNL Journey Orchestration] gepusht wird. Weiterführende Informationen finden Sie auf [dieser Seite](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+1. Anschließend können Sie die Payload-Vorschau für die Person freigeben, die für das Senden des Ereignisses verantwortlich ist. Diese Payload kann ihr beim Entwurf eines Ereignisses helfen, das an [!DNL Journey Orchestration] gepusht wird. Weitere Informationen finden Sie auf [dieser Seite](../event/additional-steps-to-send-events-to-journey-orchestration.md).
