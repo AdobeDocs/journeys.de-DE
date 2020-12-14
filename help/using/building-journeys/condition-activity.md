@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Bedingungsaktivität
 description: Erfahren Sie mehr über Bedingungsaktivitäten
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '768'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -51,13 +51,13 @@ Wenn Sie zur Erstellung Ihrer Segmente den [Segmentierungsdienst von Adobe Exper
 
 >[!NOTE]
 >
->Mit dem einfachen Editor können Sie keine Abfragen zu Zeitreihen (z. B. zu einer Liste der Käufe oder vergangenen Klicks auf Nachrichten) durchführen. Dazu müssen Sie den erweiterten Editor verwenden. Weiterführende Informationen finden Sie auf [dieser Seite](../expression/expressionadvanced.md).
+>Mit dem einfachen Editor können Sie keine Abfragen zu Zeitreihen (z. B. zu einer Liste der Käufe oder vergangenen Klicks auf Nachrichten) durchführen. Dazu müssen Sie den erweiterten Editor verwenden. Weitere Informationen finden Sie auf [dieser Seite](../expression/expressionadvanced.md).
 
 Wenn in einer Aktion oder einer Bedingung ein Fehler auftritt, wird die Journey der Person gestoppt. Die einzige Möglichkeit zum Fortsetzen des Vorgangs besteht darin, das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** zu aktivieren. Siehe [diesen Abschnitt](../building-journeys/using-the-journey-designer.md#paths).
 
 ## Bedingung der Datenquelle {#data_source_condition}
 
-Auf diese Weise können Sie eine Bedingung basierend auf Feldern aus den Datenquellen oder den zuvor in der Journey positionierten Ereignissen definieren. To learn how to use the expression editor, see [this page](../expression/expressionadvanced.md). Mit dem erweiterten Ausdruckseditor können Sie erweiterte Bedingungen zur Bearbeitung von Sammlungen oder zur Verwendung von Datenquellen einrichten, für die Parameter übergeben werden müssen. Weiterführende Informationen finden Sie auf [dieser Seite](../datasource/external-data-sources.md).
+Auf diese Weise können Sie eine Bedingung basierend auf Feldern aus den Datenquellen oder den zuvor in der Journey positionierten Ereignissen definieren. Informationen zur Verwendung des Ausdruckseditors finden Sie auf [dieser Seite](../expression/expressionadvanced.md). Mit dem erweiterten Ausdruckseditor können Sie erweiterte Bedingungen zur Bearbeitung von Sammlungen oder zur Verwendung von Datenquellen einrichten, für die Parameter übergeben werden müssen. Weitere Informationen finden Sie auf [dieser Seite](../datasource/external-data-sources.md).
 
 ![](../assets/journey50.png)
 
@@ -87,6 +87,6 @@ Auf diese Weise können Sie basierend auf dem Datum einen anderen Fluss definier
 
 >[!NOTE]
 >
->Die Zeitzone hängt nicht mehr von einer Bedingung ab und wird jetzt auf Journey-Ebene in den Eigenschaften der Journey festgelegt. Weiterführende Informationen finden Sie auf [dieser Seite](../building-journeys/timezone-management.md).
+>Die Zeitzone hängt nicht mehr von einer Bedingung ab und wird jetzt auf Journey-Ebene in den Eigenschaften der Journey festgelegt. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/timezone-management.md).
 
 ![](../assets/journey53.png)
