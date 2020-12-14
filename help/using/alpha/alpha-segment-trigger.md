@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Aktivität „Segment lesen“
 description: Erfahren Sie mehr über die Aktivität „Segment lesen“.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '688'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Nehmen wir an, Sie verfügen über ein Segment für „Gold-Kunden“ in Adobe E
 
 >[!NOTE]
 >
->Es ist nicht möglich, auf derselben Reise einen Sprung und eine **Read-Segmentaktivität** zu verwenden. You cannot jump to a journey that starts with a **Read segment** event.
+>Dieselbe Journey darf einen Sprung und die Aktivität **Segment lesen** nicht gleichzeitig enthalten. Sie können nicht in eine Journey springen, die mit dem Ereignis **Segment lesen** beginnt.
 
 ## Konfigurieren der Aktivität {#configuring-segment-trigger-activity}
 
