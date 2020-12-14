@@ -3,18 +3,18 @@ product: adobe campaign
 solution: Journey Orchestration
 title: nowWithDelta
 description: Erfahren Sie mehr über die Funktion „nowWithDelta“
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '109'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 
 # nowWithDelta {#nowWithDelta}
 
-Gibt den aktuellen Datum/Uhrzeit-Wert einschließlich Verschiebung zurück. Wenn eine Zeitzonen-ID angegeben wird, wird die Zeitzonenverschiebung angewendet. For more information on data types, refer to [this page](../expression/data-types.md).
+Gibt den aktuellen Datum/Uhrzeit-Wert einschließlich Verschiebung zurück. Wenn eine Zeitzonen-ID angegeben wird, wird die Zeitzonenverschiebung angewendet. Weitere Informationen zu Datentypen finden Sie auf [dieser Seite](../expression/data-types.md).
 
 ## Kategorie
 
