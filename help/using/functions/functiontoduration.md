@@ -3,18 +3,18 @@ product: adobe campaign
 solution: Journey Orchestration
 title: toDuration
 description: Erfahren Sie mehr über die Funktion „toDuration“
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '279'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
 # toDuration {#toDuration}
 
-Konvertiert einen Argumentwert in eine Dauer. For more information on data types, refer to [this page](../expression/data-types.md).
+Konvertiert einen Argumentwert in eine Dauer. Weitere Informationen zu Datentypen finden Sie auf [dieser Seite](../expression/data-types.md).
 
 ## Kategorie
 
