@@ -2,12 +2,12 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: Informationen zu Adobe Analytics-Daten
-description: Erfahren Sie, wie Sie Adobe Analytics-Daten nutzen
-translation-type: tm+mt
+description: Erfahren Sie, wie Sie Adobe Analytics-Daten nutzen.
+translation-type: ht
 source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '195'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 86%
 
 >[!NOTE]
 >
->Dieser Abschnitt gilt nur für regelbasierte Ereignis und Kunden, die Adobe Analytics-Daten verwenden müssen.
+>Dieser Abschnitt gilt nur für regelbasierte Ereignisse und Kunden, die mit Adobe Analytics-Daten arbeiten müssen.
 
 Sie können alle verhaltensbezogenen Ereignisdaten, die Sie in Adobe Analytics bereits erfassen und an Platform streamen, zum Auslösen von Journeys und zur Automatisierung von Erlebnissen für Ihre Kunden nutzen.
 
