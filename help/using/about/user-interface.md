@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Die Benutzeroberfläche
 description: Erfahren Sie mehr über die Benutzeroberfläche
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1113'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Sie können auf die **[!UICONTROL Filter]** zugreifen, indem Sie auf das Filters
 
 Verwenden Sie in den Listen **[!UICONTROL Datenquellen]**, **[!UICONTROL Ereignisse]** und **[!UICONTROL Aktionen]** die **[!UICONTROL Erstellungsfilter]**, um nach dem Erstellungsdatum und Anwender zu filtern. Sie können beispielsweise festlegen, dass nur die Ereignisse angezeigt werden sollen, die Sie in den letzten 30 Tagen erstellt haben.
 
-In der Journey-Liste (unter **[!UICONTROL Startseite]**) können Sie die angezeigten Journeys zusätzlich zu den **[!UICONTROL Erstellungsfiltern]** auch nach Status und Version filtern (**[!UICONTROL Status- und Versionsfilter]**). Sie können auch festlegen, dass nur die Journeys angezeigt werden, die ein bestimmtes Ereignis, eine bestimmte Feldergruppe oder eine bestimmte Aktion verwenden (**[!UICONTROL Aktivitätsfilter]** und **[!UICONTROL Datenfilter]**). Mit den **[!UICONTROL Veröffentlichungsfiltern]** können Sie ein Veröffentlichungsdatum oder einen bestimmten Benutzer auswählen. Sie können beispielsweise entscheiden, dass nur die aktuellen Versionen von Live-Journeys, die am Vortag veröffentlicht wurden, angezeigt werden sollen. Weiterführende Informationen finden Sie auf [dieser Seite](../building-journeys/using-the-journey-designer.md).
+In der Journey-Liste (unter **[!UICONTROL Startseite]**) können Sie die angezeigten Journeys zusätzlich zu den **[!UICONTROL Erstellungsfiltern]** auch nach Status und Version filtern (**[!UICONTROL Status- und Versionsfilter]**). Sie können auch festlegen, dass nur die Journeys angezeigt werden, die ein bestimmtes Ereignis, eine bestimmte Feldergruppe oder eine bestimmte Aktion verwenden (**[!UICONTROL Aktivitätsfilter]** und **[!UICONTROL Datenfilter]**). Mit den **[!UICONTROL Veröffentlichungsfiltern]** können Sie ein Veröffentlichungsdatum oder einen bestimmten Benutzer auswählen. Sie können beispielsweise entscheiden, dass nur die aktuellen Versionen von Live-Journeys, die am Vortag veröffentlicht wurden, angezeigt werden sollen. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
@@ -135,10 +135,10 @@ _In der Arbeitsfläche einer Journey:_
 * Wenn eine oder mehrere Aktivitäten ausgewählt sind, drücken Sie die Taste **Entf** oder die **Rücktaste**, um diese Aktivitäten zu löschen. Dann können Sie die **Eingabetaste** drücken, um den Vorgang im Bestätigungs-Popup zu bestätigen.
 * Doppelklicken Sie auf eine Aktivität in der linken Palette, um sie an der ersten verfügbaren Position (von oben nach unten) hinzuzufügen.
 
-_Auf einer Reise:_
+_In einer Journey:_
 
-* Drücken Sie **T** , um den Testmodus zu aktivieren/deaktivieren.
-* Drücken Sie bei einer Ereignis-basierten Reise im Testmodus die Taste **E** , um ein Ereignis auszulösen.
-* Wenn in einer segmentbasierten Reise die Option **Einzelnes Profil zu einer Zeit** im Testmodus ausgewählt ist, drücken Sie **P** , um ein Ereignis auszulösen.
-* Drücken Sie im Testmodus die Taste **L** , um die Protokolle anzuzeigen.
+* Drücken Sie **T**, um den Testmodus zu aktivieren/deaktivieren.
+* Drücken Sie in einer ereignisbasierten Journey im Testmodus auf **E**, um ein Ereignis auszulösen.
+* Wenn in einer segmentbasierten Journey die Option **Jeweils ein Einzelprofil** im Testmodus ausgewählt ist, drücken Sie auf **P**, um ein Ereignis auszulösen.
+* Drücken Sie im Testmodus auf **L**, um die Protokolle anzuzeigen.
 
