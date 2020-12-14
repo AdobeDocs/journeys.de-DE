@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Zusätzliche Schritte zum Senden von Ereignissen an Journey Orchestration
 description: Erfahren Sie mehr über die zusätzlichen Schritte zum Senden von Ereignissen an Journey Orchestration
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '328'
 ht-degree: 100%
 
@@ -17,12 +17,12 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Beim Erstellen eines Ereignisses generiert [!DNL Journey Orchestration] automatisch eine ID für dieses Ereignis. Das System, das das Ereignis per Push sendet, sollte keine ID generieren, sondern die ID verwenden, die in der Payload-Vorschau verfügbar ist. Weiterführende Informationen finden Sie auf [dieser Seite](../event/previewing-the-payload.md).
+>Beim Erstellen eines Ereignisses generiert [!DNL Journey Orchestration] automatisch eine ID für dieses Ereignis. Das System, das das Ereignis per Push sendet, sollte keine ID generieren, sondern die ID verwenden, die in der Payload-Vorschau verfügbar ist. Weitere Informationen finden Sie auf [dieser Seite](../event/previewing-the-payload.md).
 
 Um Ereignisse zu konfigurieren, die an **[!UICONTROL Streaming-Aufnahme-APIs]** gesendet und in [!DNL Journey Orchestration] verwendet werden sollen, müssen Sie die folgenden Schritte ausführen:
 
 1. Rufen Sie die Inlet-URL von den Adobe Experience Platform-APIs ab (siehe [Streaming-Aufnahme-APIs](https://docs.adobe.com/content/help/de-DE/experience-platform/ingestion/streaming/overview.html)).
-1. Kopieren Sie die Payload aus der Payload-Vorschau im Menü **[!UICONTROL Ereignis]**. Weiterführende Informationen finden Sie auf [dieser Seite](../event/defining-the-payload-fields.md).
+1. Kopieren Sie die Payload aus der Payload-Vorschau im Menü **[!UICONTROL Ereignis]**. Weitere Informationen finden Sie auf [dieser Seite](../event/defining-the-payload-fields.md).
 
 Konfigurieren Sie anschließend das Datensystem, das Ereignisse mithilfe der kopierten Payload an die Streaming-Aufnahme-APIs pusht:
 
