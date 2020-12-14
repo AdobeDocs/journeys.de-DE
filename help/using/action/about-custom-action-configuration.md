@@ -3,19 +3,19 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Informationen zur Konfiguration einer benutzerdefinierten Aktion
 description: Erfahren Sie, wie Sie eine benutzerdefinierte Aktion konfigurieren können
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '266'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 
 # Informationen zur Konfiguration einer benutzerdefinierten Aktion {#concept_sxy_bzs_dgb}
 
-Wenn Sie zum Senden von Nachrichten ein Drittanbietersystem verwenden oder möchten, dass [!DNL Journey Orchestration] API-Aufrufe an ein Drittanbietersystem sendet, konfigurieren Sie hier die Verbindung zu [!DNL Journey Orchestration]. The custom action defined by technical users will then be available in the left palette of your journey, in the **[!UICONTROL Action]** category (see [this page](../building-journeys/about-action-activities.md). Im Folgenden finden Sie Beispiele für Systeme, mit denen Sie über benutzerdefinierte Aktionen eine Verbindung herstellen können: Epsilon, Facebook, Adobe.io, Firebase usw.
-Einschränkungen sind auf [dieser Seite](../about/limitations.md)aufgeführt.
+Wenn Sie zum Senden von Nachrichten ein Drittanbietersystem verwenden oder möchten, dass [!DNL Journey Orchestration] API-Aufrufe an ein Drittanbietersystem sendet, konfigurieren Sie hier die Verbindung zu [!DNL Journey Orchestration]. Die von technischen Anwendern definierte Aktion steht dann in der linken Palette Ihrer Journey in der Kategorie **[!UICONTROL Aktion]** zur Verfügung (siehe [diese Seite](../building-journeys/about-action-activities.md). Im Folgenden finden Sie Beispiele für Systeme, mit denen Sie über benutzerdefinierte Aktionen eine Verbindung herstellen können: Epsilon, Facebook, Adobe.io, Firebase usw.
+Einschränkungen sind auf [dieser Seite](../about/limitations.md) aufgeführt.
 
 Im Folgenden werden die wichtigsten Schritte beschrieben, die zum Konfigurieren einer benutzerdefinierten Aktion ausgeführt werden müssen:
 
@@ -31,12 +31,12 @@ Im Folgenden werden die wichtigsten Schritte beschrieben, die zum Konfigurieren 
 
 1. Fügen Sie Ihrer Aktion eine Beschreibung hinzu. Dieser Schritt ist optional.
 1. Die Zahl der Journeys, die diese Aktion verwenden, wird im Feld **[!UICONTROL Verwendet in]** angezeigt. Sie können auf die Schaltfläche **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der Journeys anzuzeigen.
-1. Definieren Sie die verschiedenen Parameter der **[!UICONTROL URL-Konfiguration]**. Weiterführende Informationen finden Sie auf [dieser Seite](../action/url-configuration.md).
+1. Definieren Sie die verschiedenen Parameter der **[!UICONTROL URL-Konfiguration]**. Weitere Informationen finden Sie auf [dieser Seite](../action/url-configuration.md).
 1. Konfigurieren Sie den Bereich **[!UICONTROL Authentifizierung]**. Diese Konfiguration ist mit der für Datenquellen identisch.  Siehe [diesen Abschnitt](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
-1. Definieren Sie die **[!UICONTROL Nachrichtenparameter]**. Weiterführende Informationen finden Sie auf [dieser Seite](../action/defining-the-message-parameters.md).
+1. Definieren Sie die **[!UICONTROL Nachrichtenparameter]**. Weitere Informationen finden Sie auf [dieser Seite](../action/defining-the-message-parameters.md).
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-   Die benutzerdefinierte Aktion ist nun konfiguriert und kann in Ihren Journeys verwendet werden. Weiterführende Informationen finden Sie auf [dieser Seite](../building-journeys/about-action-activities.md).
+   Die benutzerdefinierte Aktion ist nun konfiguriert und kann in Ihren Journeys verwendet werden. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/about-action-activities.md).
 
    >[!NOTE]
    >
