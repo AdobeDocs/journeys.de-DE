@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 010bccb16d2b6980ff758e3922d3bc315706f61b
 workflow-type: tm+mt
 source-wordcount: '802'
-ht-degree: 54%
+ht-degree: 57%
 
 ---
 
@@ -37,11 +37,11 @@ Im Folgenden finden Sie die verschiedenen Schritte des Ausführungsprozesses:
 Auf der Fahrt B wird das erste Ereignis intern über die Aktivität **[!UICONTROL Jump]** von der Reise A ausgelöst:
 
 1. Journey B erhielt ein internes Ereignis von Journey A.
-1. Die Kontakte werden in Journey B geleitet.
+1. Der Einzelanwender wird in Journey B geleitet.
 
 >[!NOTE]
 >
->Die Fahrt B kann auch über ein externes Ereignis ausgelöst werden.
+>Journey B kann auch über ein externes Ereignis ausgelöst werden.
 
 ## Best Practices und Einschränkungen
 
@@ -93,7 +93,7 @@ Das Feld **Erstes Ereignis** wird vorab mit dem Namen des ersten Ereignisses der
 
    >[!NOTE]
    >
-   >Die Identität der Person wird automatisch zugeordnet. Diese Informationen sind auf der Benutzeroberfläche nicht sichtbar.
+   >Die Identität des Einzelanwenders wird automatisch zugeordnet. Diese Informationen sind auf der Benutzeroberfläche nicht sichtbar.
 
 Ihre **[!UICONTROL Jump]**-Aktivität ist konfiguriert. Sobald Ihre Reise live ist oder sich im Testmodus befindet, werden Personen, die den Schritt **[!UICONTROL Jump]** erreichen, von der Zielgruppe auf die Reise weitergeleitet.
 
