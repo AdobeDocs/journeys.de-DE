@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 010bccb16d2b6980ff758e3922d3bc315706f61b
 workflow-type: tm+mt
 source-wordcount: '2026'
-ht-degree: 88%
+ht-degree: 97%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 88%
 Auf dieser Seite werden alle neuen Funktionen und Verbesserungen bei Journey Orchestration aufgelistet.
 Sie können auch die neuesten [Aktualisierungen der Dokumentation](../release-notes/documentation-updates.md) lesen.
 
-## Version {#november-release} November 2020
+## Version November 2020 {#november-release}
 
 <table>
 <thead>
@@ -43,13 +43,13 @@ Sie können auch die neuesten [Aktualisierungen der Dokumentation](../release-no
 <table>
 <thead>
 <tr>
-<th><strong>Verwenden der Eigenschaften von "Journey"im Ausdruck-Editor</strong><br/></th>
+<th><strong>Verwenden der Journey-Eigenschaften im Ausdruckseditor</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Im erweiterten Ausdruck-Editor haben wir eine neue Kategorie zur Liste von Feldern und Funktionen hinzugefügt. Dies sind die Informationen, die das System von Live-Reisen abruft, wie z. B. die Reise-ID oder die spezifischen aufgetretenen Fehler. Dadurch erhalten Sie mehr Möglichkeiten beim Aufbau Ihrer Reisen. Sie können beispielsweise Systeme von Drittanbietern warnen, wenn in einer Bedingung oder Aktion Fehler auftreten.
+<p>Im erweiterten Ausdruckseditor haben wir der Liste der Felder und Funktionen eine neue Kategorie hinzugefügt. Dies sind die Informationen, die das System von Live-Journeys abruft, wie z. B. die Journey-ID oder die spezifischen aufgetretenen Fehler. Dadurch erhalten Sie beim Erstellen Ihrer Journeys mehr Möglichkeiten. Beispielsweise können Sie Systeme von Drittanbietern auf Fehler aufmerksam machen, die in einer Bedingung oder Aktion auftreten.
 </p>
 <p>Weitere Informationen finden Sie im <a href="../expression/journey-properties.md">entsprechenden Handbuch</a>.</p>
 </td>
@@ -60,13 +60,13 @@ Sie können auch die neuesten [Aktualisierungen der Dokumentation](../release-no
 <table>
 <thead>
 <tr>
-<th><strong>Regelbasierte Ereignisse (Beta)</strong><br/></th>
+<th><strong>Regelbasierte Ereignisse  (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Es steht jetzt eine neue Methode zur leichteren Einrichtung Ihrer Ereignis ohne Verwendung einer eventID zur Verfügung: regelbasierte Ereignis bewerten, ob das Ereignis entsprechend einer Bedingung ausgelöst werden soll. Sie können weiterhin die vorhandene Methode verwenden, die jetzt als "systemgeneriert"bezeichnet wird. Diese Funktion, die über das Alpha-Programm bei einer begrenzten Anzahl von Kunden getestet wurde, ist jetzt in Beta für alle Kunden verfügbar.
+<p>Es steht jetzt eine neue Methode zur leichteren Einrichtung Ihrer Ereignis ohne Verwendung einer eventID zur Verfügung: regelbasierte Ereignis bewerten, ob das Ereignis entsprechend einer Bedingung ausgelöst werden soll. Sie können weiterhin die vorhandene Methode verwenden, die jetzt als „systemgeneriert“ bezeichnet wird. Diese Funktion, die über das Alpha-Programm bei einer begrenzten Anzahl von Kunden getestet wurde, ist jetzt für alle Kunden in der Betaversion verfügbar.
 </p>
 <p>Weitere Informationen finden Sie im <a href="../event/about-events.md">entsprechenden Handbuch</a>.</p>
 </td>
@@ -76,9 +76,9 @@ Sie können auch die neuesten [Aktualisierungen der Dokumentation](../release-no
 
 ### Sonstige Verbesserungen{#october-november}
 
-Einschränkungen wurden hinzugefügt, wenn neue Versionen einer Reise erstellt werden. Diese Einschränkungen vermeiden zu drastische Änderungen auf der Reise, um eine gewisse Konsistenz zwischen den Versionen zu erhalten. [mehr dazu](../about/limitations.md#journey-versions-limitations)
+Beim Erstellen neuer Versionen einer Journey wurden Einschränkungen hinzugefügt. Diese Einschränkungen vermeiden zu drastische Änderungen an der Journey, um eine gewisse Konsistenz zwischen den Versionen zu erhalten. [Mehr dazu](../about/limitations.md#journey-versions-limitations)
 
-Die Aktivität **Segmentqualifikation** kann nicht mehr für eine Reise verwendet werden, die Aktivitäten für Campaign Standard-Meldungen enthält. Diese Einschränkung schützt die Integrität von Adobe Campaign Standard-Instanzen. Die Nutzung der Segmentqualifikation kann sogar zu täglichen Spitzen beim Senden von Nachrichten führen, die die Transaktionsnachrichten des Campaign Standards überladen würden. [mehr dazu](../about/limitations.md#segment-qualification)
+Die Aktivität **Segmentqualifikation** kann nicht mehr in einer Journey verwendet werden, die Nachrichtenaktivitäten in Campaign Standard enthält. Diese Einschränkung schützt die Integrität von Adobe Campaign Standard-Instanzen. In der Tat kann die Verwendung der Segmentqualifikation zu täglichen Spitzenwerten beim Nachrichtenversand führen, die die Transaktionsnachrichtenübermittlung in Campaign Standard überlasten würden. [Mehr dazu](../about/limitations.md#segment-qualification)
 
 ## Version Oktober 2020 {#october-release}
 
