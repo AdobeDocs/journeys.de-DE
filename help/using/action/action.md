@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Informationen zu Aktionen
 description: Erfahren Sie, wie Sie eine Aktion konfigurieren
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '297'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -23,15 +23,15 @@ Aktionen sind Verbindungen, über die Sie Kunden personalisierte Echtzeit-Erlebn
 
 Über benutzerdefinierte Aktionen können Sie die Verbindung eines Drittanbietersystems zum Senden von Nachrichten oder API-Aufrufen konfigurieren. Eine Aktion kann mit jedem Dienst eines beliebigen Anbieters konfiguriert werden, der über eine REST-API mit einer JSON-formatierten Payload aufgerufen werden kann.
 
-The actions are available in the left palette of your journey, in the **[!UICONTROL Action]** category. Weiterführende Informationen finden Sie auf [dieser Seite](../building-journeys/about-action-activities.md).
+Die Aktionen stehen in der linken Palette Ihrer Journey in der Kategorie **[!UICONTROL Aktion]** zur Verfügung. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/about-action-activities.md).
 
 >[!NOTE]
 >
 >Die Konfiguration von benutzerdefinierten Aktionen wird immer von einem **technischen Anwender** durchgeführt.
 
-In der Liste der **Aktionen** können Sie auf c drücken, um eine neue Journey, Aktion oder Datenquelle oder ein neues Ereignis zu erstellen. For more information on shortcuts in [!DNL Journey Orchestration], see [this section](../about/user-interface.md#section_ksq_zr1_ffb).
+In der Liste der **Aktionen** können Sie auf c drücken, um eine neue Journey, Aktion oder Datenquelle oder ein neues Ereignis zu erstellen. Weitere Informationen zu den Tastaturbefehlen in [!DNL Journey Orchestration] finden Sie in [diesem Abschnitt](../about/user-interface.md#section_ksq_zr1_ffb).
 
-Um die Aktionsliste anzuzeigen oder eine neue Aktion zu konfigurieren, klicken Sie in den oberen Menüs auf **[!UICONTROL Aktionen]**. Die Liste der Aktionen wird angezeigt. See [this page](../about/user-interface.md) for more information on the interface.
+Um die Aktionsliste anzuzeigen oder eine neue Aktion zu konfigurieren, klicken Sie in den oberen Menüs auf **[!UICONTROL Aktionen]**. Die Liste der Aktionen wird angezeigt. Weitere Informationen zur Benutzeroberfläche finden Sie auf [dieser Seite](../about/user-interface.md).
 
 ![](../assets/custom1.png)
 
