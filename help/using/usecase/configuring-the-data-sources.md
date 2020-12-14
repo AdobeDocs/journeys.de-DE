@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Konfigurieren von Datenquellen
 description: Erfahren Sie, wie Sie die Datenquelle für eine Journey in einem erweiterten Anwendungsfall konfigurieren
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '495'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 
 In unserem Anwendungsfall möchten wir für unsere Nachrichten Personalisierungsdaten verwenden. Außerdem müssen wir überprüfen, ob die Person Mitglied des Treueprogramms ist und in den letzten 24 Stunden nicht kontaktiert wurde. Diese Informationen sind in der Echtzeit-Kundenprofildatenbank gespeichert. Der **technische Anwender** muss die Adobe Experience Platform-Datenquelle konfigurieren, damit sich diese Felder abrufen lassen.
 
-For additional information on data source configuration, refer to [this page](../datasource/about-data-sources.md).
+Weitere Informationen zur Datenquellenkonfiguration finden Sie auf [dieser Seite](../datasource/about-data-sources.md).
 
 1. Klicken Sie im oberen Menü auf den Tab **[!UICONTROL Datenquellen]** und wählen Sie die integrierte Adobe Experience Platform-Datenquelle aus.
 
