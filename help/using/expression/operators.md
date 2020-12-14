@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Operatoren
 description: Erfahren Sie mehr über Operatoren in erweiterten Ausdrücken
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 062b4648e2eb3a4270f9c09e4478d541209e1247
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '435'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Es gibt zwei Arten von Operatoren: unäre Operatoren und binäre Operatoren. Es 
 
 Im Folgenden finden Sie eine Liste der unterstützten Operatoren:
 
-## Logisch  {#logical}
+## Logisch    {#logical}
 
 ### and
 
@@ -50,7 +50,7 @@ Beispiel:
 3.14 > 2 and 3.15 < 1
 ```
 
-### oder
+### or
 
 
 
@@ -464,7 +464,7 @@ Beispiel:
 <expression + <duration>
 ```
 
-Anhängen einer Dauer an einen Datum/Uhrzeit-Wert, einen Datum/Uhrzeit-Wert ohne Zeitzone oder eine Dauer.
+Anhängen einer Dauer an einen „dateTime“, einen „dateTimeOnly“ oder eine Dauer.
 
 Beispiel:
 
