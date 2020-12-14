@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-user-guide-title: Orchestrierung der Customer Journey
+user-guide-title: Journey Orchestration
 title: Handbuch zur Journey Orchestration
 user-guide-description: Enthält Anleitungen zum Implementieren und Erstellen von Journeys.
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9cd37af0281e9fb837c7bf52a52c8dbffd0d4a78
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '404'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,8 +31,8 @@ ht-degree: 98%
    + Informationen zu Ereignissen {#about-events}
       + [Allgemeine Funktionsweise](using/event/about-events.md)
       + [Datenzyklus](using/event/about-data-cycle.md)
-      + [Ereignis erstellen     ](using/event/about-creating.md)
-      + [Adobe Analytics nutzen](using/event/about-analytics.md)
+      + [Ereignis erstellen](using/event/about-creating.md)
+      + [Nutzung von Adobe Analytics](using/event/about-analytics.md)
       + [Informationen zu ExperienceEvent-Schemata](using/event/experience-event-schema.md)
       + [Zusätzliche Schritte zum Senden von Ereignissen](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
    + [Definieren der Payload-Felder](using/event/defining-the-payload-fields.md)
@@ -98,7 +98,7 @@ ht-degree: 98%
       + [Feldverweise](using/expression/field-references.md)
       + [Funktionen zur Verwaltung von Sammlungen](using/expression/collection-management-functions.md)
       + [Operatoren](using/expression/operators.md)
-      + [Reiseeigenschaften](using/expression/journey-properties.md)
+      + [Journey-Eigenschaften](using/expression/journey-properties.md)
       + [Beispiele](using/expression/advanced-editor-use-cases.md)
    + Funktionen {#main-functions-journey}
       + [Hauptfunktionen](using/expression/functions.md)
