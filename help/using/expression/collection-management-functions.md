@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Funktionen zur Verwaltung von Sammlungen
 description: Erfahren Sie mehr über die Datentypen in den Funktionen zur Verwaltung von Sammlungen
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '599'
 ht-degree: 100%
 
