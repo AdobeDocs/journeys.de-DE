@@ -3,18 +3,18 @@ product: adobe campaign
 solution: Journey Orchestration
 title: toString
 description: Erfahren Sie mehr über die Funktion „toString“
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '114'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 
 # toString {#toString}
 
-Konvertiert einen Argumentwert je nach Typ in einen Zeichenfolgenwert. For more information on data types, refer to [this page](../expression/data-types.md).
+Konvertiert einen Argumentwert je nach Typ in einen Zeichenfolgenwert. Weitere Informationen zu Datentypen finden Sie auf [dieser Seite](../expression/data-types.md).
 
 ## Kategorie
 
