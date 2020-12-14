@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Verwenden des Journey-Designers
 description: Weitere Informationen zur Verwendung des Journey-Designers
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1389'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Sie können auf die **[!UICONTROL Filter]** zugreifen, indem Sie auf das Filters
 
 ![](../assets/journey74.png)
 
-Alle Versionen Ihrer Journeys erscheinen in der Liste mit der Versionsnummer. Weiterführende Informationen finden Sie auf [dieser Seite](../building-journeys/journey-versions.md).
+Alle Versionen Ihrer Journeys erscheinen in der Liste mit der Versionsnummer. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/journey-versions.md).
 
 ![](../assets/journey37.png)
 
@@ -50,7 +50,7 @@ Wenn Sie das Feld **[!UICONTROL Suchen]** verwenden, wird die Anzahl der Ergebni
 
 ## Die Arbeitsfläche {#canvas}
 
-Die **Arbeitsfläche** ist der zentrale Bereich im Journey-Designer. In diesem Bereich können Sie Ihre Aktivitäten ablegen und konfigurieren. Klicken Sie auf eine Aktivität auf der Arbeitsfläche, um sie zu konfigurieren. Dadurch wird der Konfigurationsbereich für die Aktivität auf der rechten Seite geöffnet. Mit den Schaltflächen „+“ und „-“ oben rechts können Sie ein- und auszoomen. In the canvas, all activities allow you to add a next step after them, except **[!UICONTROL End]** activities (see [this page](../building-journeys/end-activity.md)).
+Die **Arbeitsfläche** ist der zentrale Bereich im Journey-Designer. In diesem Bereich können Sie Ihre Aktivitäten ablegen und konfigurieren. Klicken Sie auf eine Aktivität auf der Arbeitsfläche, um sie zu konfigurieren. Dadurch wird der Konfigurationsbereich für die Aktivität auf der rechten Seite geöffnet. Mit den Schaltflächen „+“ und „-“ oben rechts können Sie ein- und auszoomen. Auf der Arbeitsfläche können Sie nach allen Aktivitäten einen nächsten Schritt hinzufügen, mit Ausnahme der **[!UICONTROL Endaktivitäten]** (siehe [diese Seite](../building-journeys/end-activity.md)).
 
 ![](../assets/journey39.png)
 
@@ -64,13 +64,13 @@ Auf der Arbeitsfläche werden Ihre Aktions- und Ereignisaktivitäten durch ein S
 
 ## Die Aktionen in der oberen Leiste {#top_actions}
 
-Abhängig vom Status der Journey können Sie mithilfe der Schaltflächen oben rechts verschiedene Aktionen für Ihre Journey ausführen: **[!UICONTROL Veröffentlichen]**, **[!UICONTROL Duplizieren]**, **[!UICONTROL Löschen]**, **[!UICONTROL Eigenschaften der Journey]**, **[!UICONTROL Test]**. Diese Schaltflächen werden angezeigt, wenn keine Aktivität ausgewählt ist. Einige Schaltflächen werden kontextuell angezeigt. The test mode log button appears when test mode is activated (see [this page](../building-journeys/testing-the-journey.md)). Die Reporting-Schaltfläche wird angezeigt, wenn die Journey live, gestoppt oder geschlossen ist.
+Abhängig vom Status der Journey können Sie mithilfe der Schaltflächen oben rechts verschiedene Aktionen für Ihre Journey ausführen: **[!UICONTROL Veröffentlichen]**, **[!UICONTROL Duplizieren]**, **[!UICONTROL Löschen]**, **[!UICONTROL Eigenschaften der Journey]**, **[!UICONTROL Test]**. Diese Schaltflächen werden angezeigt, wenn keine Aktivität ausgewählt ist. Einige Schaltflächen werden kontextuell angezeigt. Die Protokollschaltfläche für den Testmodus wird angezeigt, wenn der Testmodus aktiviert ist (siehe [diese Seite](../building-journeys/testing-the-journey.md)). Die Reporting-Schaltfläche wird angezeigt, wenn die Journey live, gestoppt oder geschlossen ist.
 
 ![](../assets/journey41.png)
 
 ## Die Verwendung von Pfaden auf der Arbeitsfläche {#paths}
 
-Mehrere Aktivitäten (**[!UICONTROL Bedingungs-]** oder **[!UICONTROL Aktionsaktivitäten]**) ermöglichen es Ihnen, eine Ausweichaktion für den Fall eines Fehlers oder einer Zeitüberschreitung zu definieren. Aktivieren Sie im Konfigurationsbereich für die Aktivität das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]**. Nach der Aktivität wird ein anderer Pfad hinzugefügt. The timeout duration is defined in the journey&#39;s properties (see [this page](../building-journeys/changing-properties.md) by an admin user. Wenn beispielsweise der Versand einer E-Mail zu lange dauert oder ein Fehler auftritt, können Sie sich für den Versand einer SMS entscheiden.
+Mehrere Aktivitäten (**[!UICONTROL Bedingungs-]** oder **[!UICONTROL Aktionsaktivitäten]**) ermöglichen es Ihnen, eine Ausweichaktion für den Fall eines Fehlers oder einer Zeitüberschreitung zu definieren. Aktivieren Sie im Konfigurationsbereich für die Aktivität das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]**. Nach der Aktivität wird ein anderer Pfad hinzugefügt. Die Dauer der Zeitüberschreitung wird in den Eigenschaften der Journey durch einen Administrator definiert (siehe [diese Seite](../building-journeys/changing-properties.md)). Wenn beispielsweise der Versand einer E-Mail zu lange dauert oder ein Fehler auftritt, können Sie sich für den Versand einer SMS entscheiden.
 
 ![](../assets/journey42.png)
 
