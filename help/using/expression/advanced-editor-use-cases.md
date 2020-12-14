@@ -3,16 +3,16 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Verwenden des erweiterten Ausdruckseditors
 description: Erfahren Sie, wie Sie erweiterte Ausdrücke erstellen
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '494'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Beispiele für erweiterte Ausdruck
+# Beispiele für erweiterte Ausdrücke
 
 Der erweiterte Ausdruckseditor kann verwendet werden, um Bedingungen zum Filtern von Benutzern in Ihren Journeys zu erstellen. Mit diesen Bedingungen können Sie Benutzer nach Uhrzeit, Datum, Ort, Dauer oder Aktionen wie Kauf oder Warenkorbabbruch ansprechen, damit diese in der Journey erneut angesprochen werden können.
 
