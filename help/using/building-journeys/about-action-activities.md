@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Informationen zu Aktionsaktivitäten
 description: Erfahren Sie mehr über Aktionsaktivitäten
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Diese Aktivitäten repräsentieren die verschiedenen Kommunikationskanäle. Sie 
 
 Wenn Sie über Adobe Campaign Standard verfügen, stehen die folgenden vordefinierten Aktionsaktivitäten zur Verfügung: **[!UICONTROL E-Mail]**, **[!UICONTROL Push]** und **[!UICONTROL SMS]**. Mehr dazu erfahren Sie auf [dieser Seite](../building-journeys/using-adobe-campaign-actions.md).
 
-If you&#39;ve configured custom actions, they will also appear here (see [this page](../building-journeys/using-custom-actions.md)).
+Wenn Sie benutzerdefinierte Aktionen konfiguriert haben, werden diese hier auch angezeigt (siehe [diese Seite](../building-journeys/using-custom-actions.md)).
 
 Wenn Sie eine Aktionsaktivität auf der Arbeitsfläche ablegen, können Sie einen **[!UICONTROL Titel]** definieren. Auf diese Weise können Sie dem Aktionsnamen, der unter Ihrer Aktivität auf der Arbeitsfläche angezeigt wird, ein Suffix hinzufügen. Dies ist nützlich, wenn Sie dieselbe Aktion mehrmals in Ihrer Journey verwenden und sie leichter identifizieren möchten. Berichte sind dann auch leichter zu lesen. Sie können auch eine optionale **[!UICONTROL Beschreibung]** hinzufügen.
 
