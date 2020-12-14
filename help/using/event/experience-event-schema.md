@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 'Informationen zu ExperienceEvent-Schemata für Journey Orchestration-Ereignisse '
 description: 'Erfahren Sie mehr über ExperienceEvent-Schemata für Journey Orchestration-Ereignisse. '
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '324'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -27,11 +27,11 @@ Der erste Schritt beim Einrichten eines Ereignisses für [!DNL Journey Orchestra
 
 Jedes XDM-Schema, das für [!DNL Journey Orchestration]-Ereignisse verwendet wird, sollte die folgenden Anforderungen erfüllen:
 
-* Das Schema muss der XDM-ExperienceEvent-Klasse angehören.
+* Das Schema muss der ExperienceEvent-XDM-Klasse angehören.
 
    ![](../assets/schema2.png)
 
-* Bei systemgenerierten Ereignissen muss das Schema das Orchestration eventID-mixin enthalten. [!DNL Journey Orchestration] verwendet dieses Feld, um Ereignisse zu identifizieren, die in Journeys verwendet werden.
+* Bei vom System erstellten Ereignissen muss das Schema das eventID-Orchestrierungs-Mixin enthalten. [!DNL Journey Orchestration] verwendet dieses Feld, um Ereignisse zu identifizieren, die in Journeys verwendet werden.
 
    ![](../assets/schema3.png)
 
