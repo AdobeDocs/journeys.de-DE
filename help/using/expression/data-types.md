@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Datentypen
 description: Erfahren Sie mehr über die Datentypen in erweiterten Ausdrücken
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a95b8311aff2d95402afa9b80488ced2a3e6fbba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '558'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 89%
 
 Technisch gesehen enthält eine Konstante immer einen Datentyp. Wörtlich genommen geben wir nur den Wert an. Der Datentyp kann aus dem Wert abgeleitet werden (z. B. Zeichenfolge, Ganzzahl, Dezimalzahl usw.). Für bestimmte Fälle wie Datum und Uhrzeit verwenden wir spezielle Funktionen für die Darstellung.
 
-Die folgenden Abschnitte enthalten Informationen zu den verschiedenen Ausdrücken des Datentyps und zur Darstellung.
+In den folgenden Abschnitten finden Sie Informationen zu den verschiedenen Datentypausdrücken und wie sie dargestellt werden.
 
 ## Zeichenfolge {#string}
 
@@ -28,7 +28,7 @@ JSON-Format: Zeichenfolge
 
 Serialisierungsformat: UTF-8
 
-**Literale Darstellung**
+**Wörtliche Darstellung**
 
 ```
 "<value>"
@@ -56,7 +56,7 @@ Ganzzahlwert von -2^63 bis 2^63-1.
 
 JSON-Format: Zahl
 
-**Literale Darstellung**
+**Wörtliche Darstellung**
 
 ```
 <integer value>
@@ -82,7 +82,7 @@ JSON-Format: Zahl
 
 Serialisierungsformat: mit &#39;.&#39; als Dezimaltrennzeichen.
 
-**Literale Darstellung**
+**Wörtliche Darstellung**
 
 ```
 <integer value>.<integer value>
@@ -102,7 +102,7 @@ Boolescher Wert in Kleinbuchstaben: true (wahr) oder false (falsch)
 
 JSON-Format: Boolesch
 
-**Literale Darstellung**
+**Wörtliche Darstellung**
 
 ```
 true
@@ -130,9 +130,9 @@ Ohne zusätzliche Informationen wie Versatz oder Zeitzone kann kein Zeitpunkt au
 
 Serialisierungsformat: ISO-8601, erweitertes Versatz-Datums-/Uhrzeitformat.
 
-Es verwendet DateTimeFormatter ISO_LOCAL_DATE_TIME, um den Wert zu deserialisieren und zu serialisieren. [Mehr dazu](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
+Es wird das DateTimeFormatter ISO_LOCAL_DATE_TIME zur Deserialisierung und Serialisierung des Wertes verwendet. [Mehr dazu](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
 
-**Literale Darstellung**
+**Wörtliche Darstellung**
 
 ```
 toDateTimeOnly("<dateTimeOnly in ISO-8601 format>")  
@@ -152,13 +152,13 @@ Muss in einer toDateTime-Funktion gekapselt sein.
 
 Serialisierungsformat: ISO-8601, erweitertes Versatz-Datums-/Uhrzeitformat.
 
-Es verwendet DateTimeFormatter ISO_OFFSET_DATE_TIME, um den Wert zu deserialisieren und zu serialisieren. [Mehr dazu](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
+Verwendet das DateTimeFormatter ISO_OFFSET_DATE_TIME zur Deserialisierung und Serialisierung des Wertes. [Mehr dazu](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
 
 Sie können auch eine Ganzzahl übergeben, die einen Epochenwert übergibt. [Mehr dazu](https://www.epochconverter.com)
 
 Die Zeitzone kann durch einen Versatz oder einen Zeitzonen-Code angegeben werden (Beispiel: Europa/Paris, Z – bedeutet UTC).
 
-**Literale Darstellung**
+**Wörtliche Darstellung**
 
 ```
 toDateTime("<dateTime in ISO-8601 format>")
@@ -210,7 +210,7 @@ Serialisierungsformat: Zur Deserialisierung einer Zeitzonen-ID wird die Java-Fun
 
 Duration.parse: Die akzeptierten Formate basieren auf dem ISO-8601-Dauerformat „PnDTnHnMn.nS“, wobei Tage als genau 24 Stunden angesehen werden. [Mehr dazu](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
 
-**Literale Darstellung**
+**Wörtliche Darstellung**
 
 ```
 toDuration("<duration in ISO-8601 format>")
@@ -270,7 +270,7 @@ Kommagetrennte Liste von Ausdrücken mit eckigen Klammern als Trennzeichen.
 
 Polymorphismus wird nicht unterstützt. Daher sollten alle in der Liste enthaltenen Ausdrücke denselben Typ haben.
 
-**Literale Darstellung**
+**Wörtliche Darstellung**
 
 ```
 [<expression>, <expression>, ... ]
