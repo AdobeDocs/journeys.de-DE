@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Einschränkungen bei Journey Orchestration
 description: Erfahren Sie mehr über die Einschränkungen bei Journey Orchestration.
-translation-type: ht
-source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
-workflow-type: ht
-source-wordcount: '361'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f562d4a967e6551d3b8a1bc4dbddbf01da9b3e70
+workflow-type: tm+mt
+source-wordcount: '515'
+ht-degree: 70%
 
 ---
 
@@ -47,7 +47,7 @@ Im Zusammenhang mit der Verwendung von Journey Orchestration gibt es Einschränk
 
 ## Einschränkungen bei Adobe Campaign-Aktionen
 
-* Transaktionsnachrichten in Adobe Campaign Standard sind für eine bestimmte Instanz auf maximal 50.000 Nachrichten pro Stunde über alle Kanäle hinweg begrenzt. Weitere Informationen finden Sie in der [Adobe Campaign Standard – Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/campaign-standard.html). 
+* Transaktionsnachrichten in Adobe Campaign Standard sind für eine bestimmte Instanz auf maximal 50.000 Nachrichten pro Stunde über alle Kanäle hinweg begrenzt. Weitere Informationen finden Sie in der [Adobe Campaign Standard – Produktbeschreibung](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html). 
 
  
 
@@ -59,3 +59,15 @@ Im Zusammenhang mit der Verwendung von Journey Orchestration gibt es Einschränk
 ## Einschränkungen bei Datenquellen
 
 * Externe Datenquellen können innerhalb einer Customer Journey genutzt werden, um externe Daten in Echtzeit zu suchen. Diese Quellen müssen über die REST-API nutzbar sein, JSON unterstützen und in der Lage sein, das Anfragevolumen zu verarbeiten.
+
+## Journey, die gleichzeitig mit der Erstellung eines Profils beginnen{#journeys-limitation-profile-creation}
+
+Es gibt eine Verzögerung bei der Erstellung/Aktualisierung von API-basierten Profilen in Adobe Experience Platform. Die Service Level Zielgruppe (SLT) in Bezug auf die Latenzzeit beträgt &lt; 1 Min. von der Erfassung zu Unified Profil für 95. Perzentil der Anforderungen bei einem Volumen von 20 K Anforderungen pro Sekunde (RPS).
+
+Wenn eine Journey gleichzeitig zur Erstellung eines Profils ausgelöst wird und sofort Informationen vom Profil-Dienst überprüft/abgerufen werden, funktioniert sie möglicherweise nicht ordnungsgemäß.
+
+Sie können aus einer der beiden folgenden Lösungen wählen:
+
+* hinzufügen eine Wartezeit-Aktivität nach dem ersten Ereignis, um Adobe Experience Platform die Zeit zu geben, die es benötigt, um die Erfassung an Profil Service durchzuführen.
+
+* Richten Sie eine Journey ein, die das Profil nicht sofort nutzt. Wenn die Journey beispielsweise zur Bestätigung einer Kontoerstellung konzipiert ist, könnte das Erlebnis-Ereignis Informationen enthalten, die zum Senden der ersten Bestätigungsmeldung (Vorname, Nachname, E-Mail-Adresse usw.) erforderlich sind.
