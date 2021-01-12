@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Journey-Eigenschaften
 description: Erfahren Sie mehr über die Eigenschaften von Journeys.
-translation-type: ht
-source-git-commit: 341138c31676870878099b4f4eecec200a614c69
-workflow-type: ht
-source-wordcount: '559'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ba50a1be1a1b8665ab3c557cc1ccc5c4f27bcc87
+workflow-type: tm+mt
+source-wordcount: '571'
+ht-degree: 98%
 
 ---
 
@@ -46,17 +46,19 @@ Im Folgenden finden Sie einige Beispiele für Anwendungsfälle:
 |  | journeyVersion | Journey-Version |  |
 | Journey-Instanz | instanceUID | Kennung der Journey-Instanz | ID der Instanz |
 |  | externalKey | Externer Schlüssel | Individuelle Kennung, die die Journey auslöst |
+|  | organisationId | Organisationskennung | Markenorganisation |
+|  | sandboxName | Sandbox-Name | Name der Sandbox |
 | Identity | profileId | Identitätskennung des Profils | Kennung des Profils in der Journey |
 |  | namespace | Identity-Namespace des Profils | Namespace des Profils in der Journey (Beispiel: ECID) |
 | Aktueller Knoten | currentNodeId | Kennung des aktuellen Knotens | Kennung der aktuellen Aktivität (Knoten) |
 |  | currentNodeName | Name des aktuellen Knotens | Name der aktuellen Aktivität (Knoten) |
 | Vorheriger Knoten | previousNodeId | Kennung des vorherigen Knotens | Kennung der vorherigen Aktivität (Knoten) |
 |  | previousNodeName | Name des vorherigern Knotens | Name der vorherigen Aktivität (Knoten) |
-| Fehler | lastNodeUIDInError | Kennung des letzten Knotens im Fehler | Kennung der letzten Aktivität (Knoten) im Fehler |
-|  | lastNodeNameInError | Name des letzten Knotens im Fehler | Name der letzten Aktivität (Knoten) im Fehler |
-|  | lastNodeTypeInError | Letzter Knotentyp im Fehler | Fehlertyp der letzten Aktivität (Knoten) im Fehler. Mögliche Typen:<ul><li>Ereignisse: Ereignisse, Reaktionen, SQ (Beispiel: Segmentqualifikation)</li><li>Flusssteuerung: Ende, Bedingung, Warten</li><li>Aktionen: ACS-Aktionen, Sprung, benutzerdefinierte Aktion</li></ul> |
-|  | lastErrorCode | Letzter Fehler-Code | Fehler-Code der letzten Aktivität (Knoten) im Fehler. Mögliche Fehler: <ul><li>HTTP-Fehler-Codes</li><li>capped</li><li>timedOut</li><li>Fehler (Beispiel: Standard bei unerwartetem Fehler. Sollte nicht / äußerst selten vorkommen.)</li></ul> |
+| Fehler | lastNodeUIDInError | Kennung des letzten Knotens im Fehler | Kennung der aktuellen fehlerhaften Aktivität (Knoten) |
+|  | lastNodeNameInError | Name des letzten Knotens im Fehler | Name der aktuellen fehlerhaften Aktivität (Knoten) |
+|  | lastNodeTypeInError | Letzter Knotentyp im Fehler | Fehlertyp der aktuellen fehlerhaften Aktivität (Knoten). Mögliche Typen:<ul><li>Ereignisse: Ereignisse, Reaktionen, SQ (Beispiel: Segmentqualifikation)</li><li>Flusssteuerung: Ende, Bedingung, Warten</li><li>Aktionen: ACS-Aktionen, Sprung, benutzerdefinierte Aktion</li></ul> |
+|  | lastErrorCode | Letzter Fehler-Code | Fehler-Code der aktuellen fehlerhaften Aktivität (Knoten). Mögliche Fehler: <ul><li>HTTP-Fehler-Codes</li><li>capped</li><li>timedOut</li><li>Fehler (Beispiel: Standard bei unerwartetem Fehler. Sollte nicht / äußerst selten vorkommen.)</li></ul> |
 |  | lastExecutedActionErrorCode | Fehler-Code der letzten ausgeführten Aktion | Fehler-Code der letzten Aktion im Fehler |
-|  | lastDataFetchErrorCode | Fehler-Code beim letzten Datenabruf | Fehler-Code beim letzten Datenabruf aus Datenquellen |
-| Zeit | lastActionExecutionElapsedTime | Verstrichene Zeit der letzten Aktionsausführung | Zeitaufwand für die Ausführung der letzten Aktion |
-|  | lastDataFetchElapsedTime | Verstrichene Zeit des letzten Datenabrufs | Zeitaufwand für die Ausführung des letzten Datenabrufs aus Datenquellen |
+|  | lastDataFetchErrorCode | Fehler-Code beim letzten Datenabruf | Fehler-Code beim aktuellen Datenabruf aus Datenquellen |
+| Zeit | lastActionExecutionElapsedTime | Verstrichene Zeit der letzten Aktionsausführung | Zeitaufwand für die Ausführung der aktuellen Aktion |
+|  | lastDataFetchElapsedTime | Verstrichene Zeit des letzten Datenabrufs | Zeitaufwand für die Ausführung des aktuellen Datenabrufs aus Datenquellen |
