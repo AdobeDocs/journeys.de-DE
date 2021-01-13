@@ -28,7 +28,7 @@ Führen Sie die auf [dieser Seite](../event/about-events.md) beschriebenen Schri
 
 Führen Sie folgende Schritte aus, um die Ermüdungswertfelder in der integrierten Datenquelle auszuwählen:
 
-1. Klicken Sie im oberen Menü auf den Tab **[!UICONTROL Datenquellen]** und wählen Sie die integrierte Adobe Experience Platform-Datenquelle.
+1. Klicken Sie im oberen Menü auf den Tab **[!UICONTROL Datenquellen]** und wählen Sie die integrierte Adobe Experience Platform-Datenquelle aus.
 
    ![](../assets/journey23.png)
 
