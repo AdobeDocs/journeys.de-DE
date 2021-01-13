@@ -32,8 +32,8 @@ Lesen Sie auch die [!DNL Journey Orchestration]-[Versionshinweise](../release-no
 
 ## August 2020 {#august-2020}
 
-* Es wurden Informationen zum Sortieren und Auswählen der Spalten hinzugefügt, die in der Segmentliste angezeigt werden sollen – [mehr dazu](../building-journeys/segment-qualification-events.md)
-* Es wurden Informationen zum Kopieren des Namens und der ID eines Segments hinzugefügt, nachdem es ausgewählt wurde – [mehr dazu](../building-journeys/segment-qualification-events.md)
+* Es wurden Informationen zum Sortieren und Auswählen der Spalten hinzugefügt, die in der Segmentliste angezeigt werden sollen. [Mehr dazu](../building-journeys/segment-qualification-events.md)
+* Es wurden Informationen zum Kopieren des Namens und der ID eines Segments hinzugefügt, nachdem es ausgewählt wurde. [Mehr dazu](../building-journeys/segment-qualification-events.md)
 * Die Vorkommen von Experience Platform wurden auf den verschiedenen Seiten harmonisiert.
 
 ## Juli 2020 {#july-2020}
@@ -54,23 +54,23 @@ Lesen Sie auch die [!DNL Journey Orchestration]-[Versionshinweise](../release-no
 
 ## Juni 2020{#june-2020}
 
-* Es wurden Informationen darüber hinzugefügt, wie die Aufbewahrungsfrist im Cache des Tokens für eine benutzerdefinierte Authentifizierungsdatenquelle geändert werden kann. [mehr dazu](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
+* Es wurden Informationen darüber hinzugefügt, wie die Aufbewahrungsfrist im Cache des Tokens für eine benutzerdefinierte Authentifizierungsdatenquelle geändert werden kann. [Mehr dazu](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
 * Screenshots und Text wurden aktualisiert, um der Umbenennung des Journey-Status **[!UICONTROL Beendet]** Rechnung zu tragen, der nun **[!UICONTROL Geschlossen (kein Eintritt)]** heißt.
-* Es wurden Informationen zur Definition der Sprache der Benutzeroberfläche hinzugefügt. [mehr dazu](../about/user-interface.md)
+* Es wurden Informationen zur Definition der Sprache der Benutzeroberfläche hinzugefügt. [Mehr dazu](../about/user-interface.md)
 * Die Liste der Status der Journey eines Kontakts wurde in den Bereich [Testmodusprotokolle](../building-journeys/testing-the-journey.md#viewing_logs) verschoben.
 
 ## April 2020 {#april-2020}
 
-* Es wurde ein neuer Abschnitt zur Schemadefinition für Erlebnisereignisse hinzugefügt, der Benutzern bei der Konfiguration ihres ersten Ereignisses hilft. [mehr dazu](../event/experience-event-schema.md)
+* Es wurde ein neuer Abschnitt zur Schemadefinition für Erlebnisereignisse hinzugefügt, der Benutzern bei der Konfiguration ihres ersten Ereignisses hilft. [Mehr dazu](../event/experience-event-schema.md)
 * Die Startseite für die [!DNL Journey Orchestration]-Dokumentation wurde um weitere nützliche Links ergänzt. [Mehr dazu](../../journey-orchestration-home.md)
 
 ## März 2020 {#march-2020}
 
-* Parameterbeschreibungen für _actionExecutionErrors_ und _fetchErrors_ wurden im Abschnitt über Testprotokolle hinzugefügt – [mehr dazu](../building-journeys/testing-the-journey.md#viewing_logs)
-* Die Beschränkungen für in Journeys verwendete benutzerdefinierte Aktionen wurden aktualisiert. Sie können auch das **[!UICONTROL URL-Feld]** und die **[!UICONTROL Authentifizierungsparameter]** ändern – [mehr dazu](../action/about-custom-action-configuration.md)
+* Parameterbeschreibungen für _actionExecutionErrors_ und _fetchErrors_ wurden im Abschnitt über Testprotokolle hinzugefügt – [Mehr dazu](../building-journeys/testing-the-journey.md#viewing_logs)
+* Die Beschränkungen für in Journeys verwendete benutzerdefinierte Aktionen wurden aktualisiert. Sie können auch das **[!UICONTROL URL-Feld]** und die **[!UICONTROL Authentifizierungsparameter]** ändern. [Mehr dazu](../action/about-custom-action-configuration.md)
 * Es wurden neue Einträge für die kontextuelle Hilfe hinzugefügt. Der Payload-Bereich für die benutzerdefinierte Authentifizierung (in Aktionen und Datenquellen) enthält jetzt ein Hilfesymbol, das auf diesen [Abschnitt](../datasource/external-data-sources.md#section_wjp_nl5_nhb) verweist.
-* Geschlossene Journeys können jetzt gestoppt werden. [mehr dazu](../building-journeys/using-the-journey-designer.md)
-* Der Abschnitt zur Beschreibung der Benutzeroberfläche wurde neu angeordnet. [mehr dazu](../about/user-interface.md)
+* Geschlossene Journeys können jetzt gestoppt werden. [Mehr dazu](../building-journeys/using-the-journey-designer.md)
+* Der Abschnitt zur Beschreibung der Benutzeroberfläche wurde neu angeordnet. [Mehr dazu](../about/user-interface.md)
 * Die Auslösung mehrerer Ereignisse wurde dem Abschnitt „Testmodus“ hinzugefügt. [Mehr dazu](../building-journeys/testing-the-journey.md#firing_events)
 * Der Abschnitt „Testmodus“ wurde hinsichtlich des neuen Parameters **[!UICONTROL Wartezeit im Test]** aktualisiert. [Mehr dazu](../building-journeys/testing-the-journey.md)
 * Der Abschnitt „Testprotokoll“ wurde mit Fehlercodes und Antworten für externe Aufrufe aktualisiert. [Mehr dazu](../building-journeys/testing-the-journey.md#viewing_logs)
