@@ -26,8 +26,8 @@ Sie benötigen den erweiterten Ausdruckseditor, um Abfragen zu Zeitreihen wie ei
 
 Die Erlebnisereignisse werden von Adobe Experience Platform als Sammlung in umgekehrter chronologischer Reihenfolge abgerufen. Entsprechend gilt:
 
-* Die Funktion &quot;first&quot; gibt das neueste Ereignis zurück.
-* Die Funktion &quot;last&quot; gibt das älteste zurück.
+* Die Funktion „first“ gibt das neueste Ereignis zurück.
+* Die Funktion „last“ gibt das älteste zurück.
 
 Angenommen, Sie möchten Kunden mit einem Warenkorbabbruch in den letzten sieben Tagen ansprechen. Dazu möchten Sie diesen Kunden, wenn sie sich in der Nähe eines Stores befinden, eine Nachricht mit einem Angebot für Artikel in diesem Store senden, an denen die Kunden interessiert sind.
 
@@ -75,11 +75,11 @@ Dieser Ausdruck gibt einen booleschen Wert zurück.
 
 `#{Inventory.fieldgroup3.quantity} > 0`
 
-* Rechts werden die erforderlichen Werte angegeben. Hier müssen wir den Ort des Stores abrufen, der der Position des Ereignisses &quot;ArriveLumaStudio&quot; zugeordnet ist:
+* Rechts werden die erforderlichen Werte angegeben. Hier müssen wir den Ort des Stores abrufen, der der Position des Ereignisses „ArriveLumaStudio“ zugeordnet ist:
 
 `#{ArriveLumaStudio._acpevangelists1.location.location}`
 
-* Geben Sie die SKU unter Verwendung der `first`-Funktion an, um die jüngste &quot;addToCart&quot; -Interaktion abzurufen:
+* Geben Sie die SKU unter Verwendung der `first`-Funktion an, um die jüngste „addToCart“ -Interaktion abzurufen:
 
    ```
        #{ExperiencePlatformDataSource
