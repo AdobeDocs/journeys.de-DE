@@ -32,13 +32,13 @@ Um Ihre Integration zu testen und vorzubereiten, steht Ihnen [hier](https://raw.
 
 Wir empfehlen, die folgenden Schritte auszuführen, um Ihre Journeys über Umgebungen hinweg zu exportieren und zu importieren:
 
-1. Erstellen und parametrieren Sie eine Journey in Ihrer Startumgebung. [Weitere Informationen hier](https://docs.adobe.com/content/help/de-DE/journeys/using/building-journeys/about-journey-building/journey.html)
-1. Stellen Sie sicher, dass die Version der Journey keinen Fehler enthält. [Weitere Informationen hier](https://docs.adobe.com/content/help/de-DE/journeys/using/building-journeys/testing-the-journey.html)
+1. Erstellen und parametrieren Sie eine Journey in Ihrer Startumgebung. [Weitere Informationen finden Sie hier.](https://docs.adobe.com/content/help/de-DE/journeys/using/building-journeys/about-journey-building/journey.html)
+1. Stellen Sie sicher, dass die Version der Journey keinen Fehler enthält. [Weitere Informationen finden Sie hier.](https://docs.adobe.com/content/help/de-DE/journeys/using/building-journeys/testing-the-journey.html)
 1. Rufen Sie **/list/journeys** API auf, um die UID-Journey und die UID Ihrer aktuellen Journey-Version abzurufen. Bei Bedarf können Sie **/journeys/`{uid}`/latest** aufrufen, um die UID Ihrer aktuellen Journey-Version zu finden.
 1. Rufen Sie die **Export**-API mit den Parametern Ihrer Startumgebung auf (orgID und sandboxName).
 1. Öffnen Sie die Rückgabe-Payload und überprüfen Sie dann die folgenden Elemente:
    * Wenn Ihre exportierte Journey **bestimmte Anmeldeinformationen** enthält, müssen Sie diese durch die entsprechenden Anmeldeinformationen der neuen Umgebung ersetzen.
-   * Wenn Ihre exportierte Journey **Ereignisse** enthält, die auf ein **XDM-Schema** verweisen, müssen Sie die Schema-ID-Referenz manuell mit der Schema-ID der neuen Umgebung im Knoten xdmEntity aktualisieren, wenn die IDs unterschiedlich sind. Diese Aktualisierung muss für jedes Ereignis durchgeführt werden. [Weitere Informationen hier](https://docs.adobe.com/content/help/de-DE/journeys/using/events-journeys/experience-event-schema.html)
+   * Wenn Ihre exportierte Journey **Ereignisse** enthält, die auf ein **XDM-Schema** verweisen, müssen Sie die Schema-ID-Referenz manuell mit der Schema-ID der neuen Umgebung im Knoten xdmEntity aktualisieren, wenn die IDs unterschiedlich sind. Diese Aktualisierung muss für jedes Ereignis durchgeführt werden. [Weitere Informationen finden Sie hier.](https://docs.adobe.com/content/help/de-DE/journeys/using/events-journeys/experience-event-schema.html)
    * Wenn Ihre Journey E-Mail-, SMS- oder Push-Aktionen enthält, müssen Sie möglicherweise den Vorlagennamen oder den mobileApp-Namen aktualisieren, wenn der Name in der Zielumgebung sich von dem in Ihrer Startumgebung unterscheidet.
 1. Rufen Sie die **Import**-API mit den Parametern Ihrer Zielumgebung auf (orgID und sandboxName). Beachten Sie, dass Sie die Import-API so oft aufrufen können, wie Sie möchten. Die UUID und der Name der einzelnen Objekte, die in der Journey enthalten sind, werden jedes Mal generiert, wenn Sie die Import-API aufrufen.
 1. Sobald die Journey importiert wurde, können Sie sie in Journey Orchestration veröffentlichen. Weitere Informationen finden Sie [hier](https://docs.adobe.com/content/help/de-DE/journeys/using/building-journeys/publishing-the-journey.html).
