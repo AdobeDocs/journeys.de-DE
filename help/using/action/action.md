@@ -39,4 +39,4 @@ Falls Sie Adobe Campaign Standard verwenden, müssen Sie die vordefinierte Aktio
 
 Wenn Sie ein Drittanbietersystem (z. B. Epsilon, Facebook, Adobe.io, Firebase) zum Senden von Nachrichten verwenden, müssen Sie eine benutzerdefinierte Aktion hinzufügen und konfigurieren. Mehr dazu erfahren Sie auf [dieser Seite](../action/about-custom-action-configuration.md).
 
-Weitere Informationen zur Konfiguration einer Aktion für [!DNL Journey Orchestration] und zur Verwendung dieser Aktion in einer Journey finden Sie in diesem [Anleitungsvideo](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-actions.html).
+Weitere Informationen zur Konfiguration einer Aktion für [!DNL Journey Orchestration] und zur Verwendung dieser Aktion in einer Journey finden Sie in diesem [Anleitungsvideo](https://docs.adobe.com/content/help/de-DE/platform-learn/tutorials/journey-orchestration/configure-actions.html).
