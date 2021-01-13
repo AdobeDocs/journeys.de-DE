@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Versionshinweise
 description: Versionshinweise
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 010bccb16d2b6980ff758e3922d3bc315706f61b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2026'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 # Versionshinweise {#release-notes}
 
 Auf dieser Seite werden alle neuen Funktionen und Verbesserungen bei Journey Orchestration aufgelistet.
-Sie können auch die neuesten [Aktualisierungen der Dokumentation](../release-notes/documentation-updates.md) lesen.
+Sie können auch die neusten [Aktualisierungen der Dokumentation](../release-notes/documentation-updates.md) einsehen.
 
 ## Version November 2020 {#november-release}
 
@@ -28,7 +28,7 @@ Sie können auch die neuesten [Aktualisierungen der Dokumentation](../release-no
 <tbody>
 <tr>
 <td>
-<p>Mit einer neuen Aktivität können Sie Einzelpersonen von einer Reise zur nächsten bewegen. Die Aktivität <strong>Jump</strong> ermöglicht Ihnen Folgendes:
+<p>Mit einer neuen Aktionsaktivität können Sie Kontakte von einer Journey in eine andere bewegen. Die <strong>Sprungaktivität</strong> ermöglicht Ihnen Folgendes:
 </p>
 <ul>
 <li>Vereinfachung der Gestaltung sehr komplexer Journeys durch Aufteilung in mehrere Journeys </li>
@@ -49,7 +49,7 @@ Sie können auch die neuesten [Aktualisierungen der Dokumentation](../release-no
 <tbody>
 <tr>
 <td>
-<p>Im erweiterten Ausdruckseditor haben wir der Liste der Felder und Funktionen eine neue Kategorie hinzugefügt. Dies sind die Informationen, die das System von Live-Journeys abruft, wie z. B. die Journey-ID oder die spezifischen aufgetretenen Fehler. Dadurch erhalten Sie beim Erstellen Ihrer Journeys mehr Möglichkeiten. Beispielsweise können Sie Systeme von Drittanbietern auf Fehler aufmerksam machen, die in einer Bedingung oder Aktion auftreten.
+<p>Im erweiterten Ausdruckseditor haben wir der Liste der Felder und Funktionen eine neue Kategorie hinzugefügt. Dabei handelt es sich um die Informationen, die das System von Live-Journeys abruft, wie z. B. die Journey-ID oder die spezifischen aufgetretenen Fehler. Dadurch erhalten Sie beim Erstellen Ihrer Journeys mehr Möglichkeiten. Beispielsweise können Sie Systeme von Drittanbietern auf Fehler aufmerksam machen, die in einer Bedingung oder Aktion auftreten.
 </p>
 <p>Weitere Informationen finden Sie im <a href="../expression/journey-properties.md">entsprechenden Handbuch</a>.</p>
 </td>
@@ -60,13 +60,13 @@ Sie können auch die neuesten [Aktualisierungen der Dokumentation](../release-no
 <table>
 <thead>
 <tr>
-<th><strong>Regelbasierte Ereignisse  (Beta)</strong><br/></th>
+<th><strong>Regelbasierte Ereignisse   (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Es steht jetzt eine neue Methode zur leichteren Einrichtung Ihrer Ereignis ohne Verwendung einer eventID zur Verfügung: regelbasierte Ereignis bewerten, ob das Ereignis entsprechend einer Bedingung ausgelöst werden soll. Sie können weiterhin die vorhandene Methode verwenden, die jetzt als „systemgeneriert“ bezeichnet wird. Diese Funktion, die über das Alpha-Programm bei einer begrenzten Anzahl von Kunden getestet wurde, ist jetzt für alle Kunden in der Betaversion verfügbar.
+<p>Es gibt jetzt eine neue Methode, um Ihre Ereignisse einfacher einzurichten, ohne eine EventID zu verwenden: Regelbasierte Ereignisse werten aus, ob ein Ereignis gemäß einer Bedingung ausgelöst werden soll. Sie können weiterhin die vorhandene Methode verwenden, die jetzt als „systemgeneriert“ bezeichnet wird. Diese Funktion, die über das Alpha-Programm bei einer begrenzten Anzahl von Kunden getestet wurde, ist jetzt für alle Kunden in der Betaversion verfügbar.
 </p>
 <p>Weitere Informationen finden Sie im <a href="../event/about-events.md">entsprechenden Handbuch</a>.</p>
 </td>
@@ -155,7 +155,7 @@ Informationen zum Geltungsbereich des Alpha-Programms finden Sie in diesem [Absc
 
 ### Allgemein verfügbare Updates{#august-ga-update}
 
-Die Payload von Segmentqualifkationsereignissen enthält jetzt die folgenden in Bedingungen und Aktionen verwendbaren Kontextinformationen: Verhalten (Eintreten, Verlassen), Zeitstempel der Qualifikation und Segmentkennung – [mehr dazu](../building-journeys/segment-qualification-events.md)
+Die Payload von Segmentqualifkationsereignissen enthält jetzt die folgenden in Bedingungen und Aktionen verwendbaren Kontextinformationen: Verhalten (Eintreten, Verlassen), Zeitstempel der Qualifikation und Segmentkennung. [Mehr dazu](../building-journeys/segment-qualification-events.md)
 
 ### Alpha-Updates{#august-alpha-update}
 
@@ -198,11 +198,11 @@ Informationen zum Geltungsbereich des Alpha-Programms finden Sie in diesem [Absc
 <p>Die folgenden Verbesserungen wurden an regelbasierten Ereignissen vorgenommen:
 </p>
 <ul>
-<li><p>Sie können jetzt alle verhaltensbezogenen Ereignisdaten, die Sie in Adobe Analytics bereits erfassen und an Platform streamen, zum Auslösen von Journeys und zur Automatisierung von Erlebnissen für Ihre Kunden nutzen – <a href="../event/about-analytics.md">mehr dazu</a></p>
+<li><p>Sie können jetzt alle verhaltensbezogenen Ereignisdaten, die Sie in Adobe Analytics bereits erfassen und an Platform streamen, zum Auslösen von Journeys und zur Automatisierung von Erlebnissen für Ihre Kunden nutzen. <a href="../event/about-analytics.md">Mehr dazu</a></p>
 </li>
-<li><p>Beim Auslösen eines regelbasierten Ereignisses im Testmodus können Sie jetzt die Ereignis-ID-Bedingung direkt anzeigen. Außerdem ist jetzt neben jedem Feld, das Teil der Regelauswertung ist, eine QuickInfo verfügbar – <a href="../building-journeys/testing-the-journey.md#test-rule-based">mehr dazu</a></p>
+<li><p>Beim Auslösen eines regelbasierten Ereignisses im Testmodus können Sie jetzt die Ereignis-ID-Bedingung direkt anzeigen. Außerdem ist jetzt neben jedem Feld, das Teil der Regelauswertung ist, eine QuickInfo verfügbar. <a href="../building-journeys/testing-the-journey.md#test-rule-based">Mehr dazu</a></p>
 </li>
-<li><p>Der Bildschirm zur Definition regelbasierter Ereignisse wurde zur Optimierung der Benutzerumgebung neu organisiert – <a href="../event/about-creating.md">mehr dazu</a></p>
+<li><p>Der Bildschirm zur Definition regelbasierter Ereignisse wurde zur Optimierung der Benutzerumgebung neu organisiert. <a href="../event/about-creating.md">Mehr dazu</a></p>
 </li>
 </ul>
 </td>
@@ -248,7 +248,7 @@ Diese Funktionen werden in einem eigenen [Abschnitt](../alpha/alpha-overview.md)
 <tbody>
 <tr>
 <td>
-<p>Mit der Segmentauslöser-Aktivität können Sie alle Kontakte, die zu einem Adobe Experience Platform-Segment gehören, in eine Journey eintreten lassen. Der Eintritt in eine Journey kann entweder einmalig oder regelmäßig erfolgen. <a href="../alpha/alpha-segment-trigger.md">mehr dazu</a>
+<p>Mit der Segmentauslöser-Aktivität können Sie alle Kontakte, die zu einem Adobe Experience Platform-Segment gehören, in eine Journey eintreten lassen. Der Eintritt in eine Journey kann entweder einmalig oder regelmäßig erfolgen. <a href="../alpha/alpha-segment-trigger.md">Mehr dazu</a>
 </p>
 </td>
 </tr>
@@ -264,7 +264,7 @@ Diese Funktionen werden in einem eigenen [Abschnitt](../alpha/alpha-overview.md)
 <tbody>
 <tr>
 <td>
-<p>Die Einrichtung von Erlebnisereignissen wurde vereinfacht. Bei der neuen Methode muss keine eventID verwendet werden. Wenn Sie Ihr Ereignis in Journey Orchestration einrichten, können Sie jetzt ein regelbasiertes Ereignis definieren. <a href="../event/about-events.md">mehr dazu</a>
+<p>Die Einrichtung von Erlebnisereignissen wurde vereinfacht. Bei der neuen Methode muss keine eventID verwendet werden. Wenn Sie Ihr Ereignis in Journey Orchestration einrichten, können Sie jetzt ein regelbasiertes Ereignis definieren. <a href="../event/about-events.md">Mehr dazu</a>
 </p>
 </td>
 </tr>
@@ -294,10 +294,10 @@ Diese Funktionen werden in einem eigenen [Abschnitt](../alpha/alpha-overview.md)
 <li><p>Im einfachen Ausdruckseditor werden Adobe Experience Platform-Segmente jetzt direkt in der Navigationsstruktur aufgeführt, um eine einfache Einrichtung von Bedingungen wie „Gehört diese Person zu Segment A?“ zu ermöglichen. <a href="../segment/using-a-segment.md">Mehr dazu</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Journey Orchestration leitet nun die bei den Journeys ausgeführten Schritte automatisch an Adobe Experience Platform weiter. Dazu gehören potenziell auch Fehler. Diese Informationen können für die Berichterstellung und Fehlerbehebung verwendet werden, indem Abfragen zu den Journey-Schrittereignissen für eine bestimmte Journey oder für alle Journeys ausgeführt werden. <a href="../building-journeys/sharing-overview.md">mehr dazu</a></p>
+<li><p>Journey Orchestration leitet nun die bei den Journeys ausgeführten Schritte automatisch an Adobe Experience Platform weiter. Dazu gehören potenziell auch Fehler. Diese Informationen können für die Berichterstellung und Fehlerbehebung verwendet werden, indem Abfragen zu den Journey-Schrittereignissen für eine bestimmte Journey oder für alle Journeys ausgeführt werden. <a href="../building-journeys/sharing-overview.md">Mehr dazu</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
-<li><p>Journey Orchestration kann jetzt mit der Adobe Experience Platform-Sandbox für Produktion und Nicht-Produktion verbunden werden. Beachten Sie, dass Sandboxes eine Beta-Funktion sind. <a href="../about/access-management.md#sandboxes">mehr dazu</a></p>
+<li><p>Journey Orchestration kann jetzt mit der Adobe Experience Platform-Sandbox für Produktion und Nicht-Produktion verbunden werden. Beachten Sie, dass Sandboxes eine Beta-Funktion sind. <a href="../about/access-management.md#sandboxes">Mehr dazu</a></p>
 </li>
 </ul>
 </td>
@@ -316,10 +316,10 @@ Diese Funktionen werden in einem eigenen [Abschnitt](../alpha/alpha-overview.md)
 <td>
 <p>Am Journey-Designer und Testmodus wurden folgende Verbesserungen vorgenommen:</p>
 <ul>
-<li><p>Sie können jetzt Aktivitäten aus einer Journey kopieren und in eine andere einfügen, indem Sie eine oder N Journey-Aktivitäten auswählen. <a href="../building-journeys/using-the-journey-designer.md#copy-paste">mehr dazu</a></p>
+<li><p>Sie können jetzt Aktivitäten aus einer Journey kopieren und in eine andere einfügen, indem Sie eine oder N Journey-Aktivitäten auswählen. <a href="../building-journeys/using-the-journey-designer.md#copy-paste">Mehr dazu</a></p>
 <img src="../assets/rn-copy-paste1.png"/>
 </li>
-<li><p>Nach Auslösung eines Ereignisses, damit ein Testprofil in eine Journey eintritt, können Sie nun anhand eines farbigen Verlaufs den Fortschritt der Journey anzeigen. Bei Fehlern in der Journey werden auch Fehlerdetails angezeigt. <a href="../building-journeys/testing-the-journey.md#firing_events">mehr dazu</a></p>
+<li><p>Nach Auslösung eines Ereignisses, damit ein Testprofil in eine Journey eintritt, können Sie nun anhand eines farbigen Verlaufs den Fortschritt der Journey anzeigen. Bei Fehlern in der Journey werden auch Fehlerdetails angezeigt. <a href="../building-journeys/testing-the-journey.md#firing_events">Mehr dazu</a></p>
 <img src="../assets/rn-journeytest6.png"/>
 </li>
 <li>Der Journey-Status <strong>Beendet</strong> wurde in <strong>Geschlossen (kein Eintritt)</strong>umbenannt, um besser zu kennzeichnen, was dieser Status bedeutet.</li>
@@ -331,9 +331,9 @@ Diese Funktionen werden in einem eigenen [Abschnitt](../alpha/alpha-overview.md)
 
 **Sonstige Verbesserungen**
 
-Um ein Senden zu vieler API-Aufrufe an Drittanbietersysteme zu vermeiden, führen wir eine neue öffentliche API für die Einrichtung von Begrenzungsregeln ein. Mit Begrenzungsregeln können Sie eine maximale Anzahl von Aufrufen an einen API-Endpunkt pro Millisekunde festlegen. [mehr dazu](../api/capping.md)
+Um ein Senden zu vieler API-Aufrufe an Drittanbietersysteme zu vermeiden, führen wir eine neue öffentliche API für die Einrichtung von Begrenzungsregeln ein. Mit Begrenzungsregeln können Sie eine maximale Anzahl von Aufrufen an einen API-Endpunkt pro Millisekunde festlegen. [Mehr dazu](../api/capping.md)
 
-Die Zugriffskontrolle ermöglicht nun eine größere Granularität bei der Verwaltung des Benutzerzugriffs. Tatsächliche Verfügbarkeit: 30. Juni 2020. [mehr dazu](../about/access-management.md#create-product-profile)
+Die Zugriffskontrolle ermöglicht nun eine größere Granularität bei der Verwaltung des Benutzerzugriffs. Tatsächliche Verfügbarkeit: 30. Juni 2020. [Mehr dazu](../about/access-management.md#create-product-profile)
 
 Journey Orchestration ist jetzt im Raum APAC verfügbar (australisches Rechenzentrum). Tatsächliche Verfügbarkeit: 30. Juni 2020
 
@@ -372,7 +372,7 @@ Die Benutzeroberfläche von Journey Orchestration ist auf Japanisch verfügbar.
 <tbody>
 <tr> 
 <td>
-<p>Das Zeitzonen-Management ist jetzt im Eigenschaften-Bereich der Journey gebündelt. In den Eigenschaften der Journey wurden zwei Parameter hinzugefügt:</p>
+<p>Das Zeitzonen-Management ist jetzt gebündelt im Fenster der Journey-Eigenschaften verfügbar. In den Eigenschaften der Journey wurden zwei Parameter hinzugefügt:</p>
 <img src="../assets/rn-timezone.png"/>
 <ul>
 <li>In der Dropdown-Liste <strong>Zeitzone</strong> können Sie eine bestimmte Zeitzone auswählen. Standardmäßig wird die Zeitzone des Browsers verwendet. </li>
@@ -441,7 +441,7 @@ Die Benutzeroberfläche von Journey Orchestration ist auf Japanisch verfügbar.
 
 Journey Orchestration ist jetzt allgemein verfügbar.
 
-Erstellen Sie Anwendungsfälle für Echtzeit-Orchestrierung mithilfe von Kontextdaten, die in Ereignissen oder Datenquellen gespeichert sind.
+Journey Orchestration ermöglicht die Erstellung von Anwendungsfällen für die Echtzeit-Orchestrierung mithilfe von Kontextdaten aus Ereignissen oder Datenquellen.
 
 Journey Orchestration erlaubt eine Echtzeit-Orchestrierung auf Basis von Kontextdaten aus Ereignissen, Informationen aus Adobe Experience Platform oder Daten aus API-Diensten von Drittanbietern. Die Anwendung bestimmt in mehrstufigen Flüssen, die Journeys genannt werden, je nach Profil und Verhalten des Benutzers die nächsten für den Kunden optimalen Aktionen. Dies umfasst sowohl den besten Zeitpunkt als auch die Art der Aktion, z. B. das Senden einer Push-Benachrichtigung über die Transaktionsnachrichtenfunktion von Adobe Campaign Standard (Adobe Campaign Standard erforderlich) oder das Benachrichtigen eines Drittanbietersystems. Diese Entscheidungen werden auf Grundlage von Regeln und Sensei-Werten getroffen.
 
@@ -449,5 +449,5 @@ Journey Orchestration erlaubt eine Echtzeit-Orchestrierung auf Basis von Kontext
 
 Zusätzliche Ressourcen:
 
-* [Tutorials](https://docs.adobe.com/content/help/de-DE/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html)
+* [Tutorials](https://docs.adobe.com/content/help/de-DE/platform-learn/tutorials/journey-orchestration/introduction.html)
 * [Community](https://www.adobe.com/go/journeyorchestrationcommunity_de)
