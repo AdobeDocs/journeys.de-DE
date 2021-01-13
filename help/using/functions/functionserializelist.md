@@ -67,4 +67,4 @@ Gibt „Hello World“ zurück.
 
 `serializeList(["Hello", "World"], ",", true)`
 
-Gibt &quot;&quot;Hello&quot;,&quot;World&quot;&quot; zurück.
+Gibt „&quot;Hello&quot;,&quot;World&quot;“ zurück.
