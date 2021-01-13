@@ -21,7 +21,7 @@ ht-degree: 100%
    + [Versionshinweise](using/release-notes/release-notes.md)
    + [Aktualisierungen der Dokumentation](using/release-notes/documentation-updates.md)
 + Einstieg in [!DNL Journey Orchestration] {#starting-with-journeys}
-   + [Info [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
+   + [Versionsinformationen [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [Einschränkungen](using/about/limitations.md)
    + [Erste Schritte](using/about/get-started.md)
    + [Benutzeroberfläche](using/about/user-interface.md)
@@ -175,7 +175,7 @@ ht-degree: 100%
    + [Metriken und Dimensionen](using/reporting/metrics-and-dimensions.md)
 + Integrieren mit Intelligent Services{#use-case-advanced}
    + [Informationen zur KI-Integration](using/ai-services/ai-services-overview.md)
-   + [Verwenden von Customer AI](using/ai-services/leveraging-customer-ai.md)
+   + [Verwenden von Customer AI-Werten](using/ai-services/leveraging-customer-ai.md)
 + Anwendungsbeispiele{#use-cases-journeys}
    + Senden einer personalisierten E-Mail{#use-case-simple}
       + [Informationen zum einfachen Anwendungsfall](using/usecase/about-the-simple-use-case.md)
@@ -192,5 +192,5 @@ ht-degree: 100%
 + Alpha-Funktionen {#alpha}
    + [Übersicht über die Alpha-Funktionen](using/alpha/alpha-overview.md)
    + [Benutzeroberfläche](using/alpha/alpha-interface.md)
-   + [Aktivität zum Lesen von Segmenten](using/alpha/alpha-segment-trigger.md)
+   + [Aktivität „Segment lesen“](using/alpha/alpha-segment-trigger.md)
 
