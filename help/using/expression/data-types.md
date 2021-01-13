@@ -80,7 +80,7 @@ Dezimalzahl. Stellt einen Gleitkommawert dar:
 
 JSON-Format: Zahl
 
-Serialisierungsformat: mit &#39;.&#39; als Dezimaltrennzeichen.
+Serialisierungsformat: mit „.“ als Dezimaltrennzeichen.
 
 **Wörtliche Darstellung**
 
