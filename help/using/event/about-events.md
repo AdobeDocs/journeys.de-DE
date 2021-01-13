@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Informationen zu Ereignissen
 description: Erfahren Sie mehr über Ereignisse.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3dd7cd4dc4e4398b029dd1becd11c8dd7e7c3542
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '374'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Sie können zwei Typen von Ereignissen definieren:
    >
    >Für regelbasierte Ereignisse wird eine Begrenzungsregel definiert. Die Anzahl der qualifizierten Ereignisse, die eine Journey für eine bestimmte Organisation (ORG) verarbeiten kann, wird auf 5000 pro Sekunde begrenzt. Dies entspricht den Journey Orchestration-SLAs. Weitere Informationen finden Sie auf dieser [Seite](https://helpx.adobe.com/de/legal/product-descriptions/journey-orchestration.html).
 
-* **Systemgenerierte** Ereignisse: für diese Ereignisse ist eine eventID erforderlich. Dieses eventID-Feld wird beim Erstellen des Ereignisses automatisch generiert. Das System, das das Ereignis per Push sendet, sollte keine ID generieren. Es sollte die ID übergeben, die in der Payload-Vorschau verfügbar ist.
+* **Systemgenerierte** Ereignisse: für diese Ereignisse ist eine eventID erforderlich. Dieses eventID-Feld wird beim Erstellen des Ereignisses automatisch generiert. Das System, das das Ereignis per Push sendet, sollte keine ID generieren, sondern die ID übergeben, die in der Payload-Vorschau verfügbar ist.
 
 Informationen zum Erstellen eines Ereignisses finden Sie auf dieser [Seite](../event/about-creating.md).
 
