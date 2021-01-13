@@ -76,7 +76,7 @@ Weitere Informationen zum Erstellen einer Journey finden Sie auf [dieser Seite](
    >
    >Im zweiten Teil des Ausdrucks ist „Profil“ optional.
 
-1. Wir müssen einen Namespace auswählen. Basierend auf Schemaeigenschaften ist schon vorab ein Namespace ausgewählt. Sie können die Auswahl beibehalten. Weitere Informationen zu Namespaces finden Sie auf [dieser Seite](../event/selecting-the-namespace.md).
+1. Ein Namespace muss ausgewählt werden. Basierend auf Schemaeigenschaften ist schon vorab ein Namespace ausgewählt. Sie können die Auswahl beibehalten. Weitere Informationen zu Namespaces finden Sie auf [dieser Seite](../event/selecting-the-namespace.md).
 
 In unserem Anwendungsfall wollen wir nur auf diese beiden Bedingungen reagieren, sodass wir das Kontrollkästchen **[!UICONTROL Pfad für andere Fälle als die obigen zeigen]** deaktivieren.
 
