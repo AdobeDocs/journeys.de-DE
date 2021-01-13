@@ -76,4 +76,4 @@ Wenn Sie ein Feld aus einer externen Datenquelle auswählen, für das ein Parame
 
 ![](../assets/journeyuc2_19.png)
 
-Bei komplexeren Anwendungsfällen können Sie, wenn Sie die Parameter der Datenquelle in den Hauptausdruck aufnehmen möchten, deren Werte mit dem Keyword „params“ definieren. Weiterführende Informationen finden Sie auf [dieser Seite](../expression/field-references.md).
+Bei komplexeren Anwendungsfällen können Sie, wenn Sie die Parameter der Datenquelle in den Hauptausdruck aufnehmen möchten, deren Werte mit dem Keyword „params“ definieren. Weitere Informationen finden Sie auf [dieser Seite](../expression/field-references.md).
