@@ -113,7 +113,7 @@ Die Liste aller nativen Produktprofile mit zugewiesenen Berechtigungen finden Si
 
 So weisen Sie einem Benutzer ein Produktprofil für den Zugriff auf [!DNL Journey Orchestration] zu:
 
-1. Wählen Sie in der Admin Console die Option **[!UICONTROL Journey Orchestration]**.
+1. Wählen Sie in der Admin Console die Option **[!UICONTROL Journey Orchestration]** aus.
 
    ![](../assets/do-not-localize/user_management.png)
 
