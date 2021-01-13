@@ -95,7 +95,7 @@ In der Tabelle **[!UICONTROL Top-Ereignisse]** werden die erfolgreichsten Ereign
 
 ![](../assets/dynamic_report_journey_11.png)
 
-Die Tabelle **[!UICONTROL Versand - Versandzusammenfassung]** enthält die für die Lieferungen Ihrer Journey verfügbaren Daten, z. B.:
+Die Tabelle **[!UICONTROL Versand - Versandzusammenfassung]** enthält die für die Sendungen Ihrer Journey verfügbaren Daten, z. B.:
 
 * **[!UICONTROL Verarbeitet/gesendet]**: Gesamtzahl der gesendeten Nachrichten.
 * **[!UICONTROL Zustellrate]**: Gesamtzahl der erfolgreich zugestellten Nachrichten in Bezug auf die gesendeten Nachrichten.
@@ -103,7 +103,7 @@ Die Tabelle **[!UICONTROL Versand - Versandzusammenfassung]** enthält die für 
 * **[!UICONTROL Bounce + Fehlerrate]**: Gesamtzahl der Nachrichten, bei denen es zu einem Bounce gekommen ist, in Bezug auf die gesendeten Nachrichten.
 * **[!UICONTROL Bounces + Fehler]**: Gesamtzahl der über alle Sendungen hinweg kumulierten Fehler und der automatischen Bounce-Verarbeitung in Bezug auf die Gesamtzahl der gesendeten Nachrichten.
 
-Die Tabelle **[!UICONTROL Versand - Tracking-Zusammenfassung]** enthält die Daten, die zur Verfolgung des Erfolgs bei den Lieferungen Ihrer Journey verfügbar sind, z. B.:
+Die Tabelle **[!UICONTROL Versand - Tracking-Zusammenfassung]** enthält die Daten, die zur Verfolgung des Erfolgs bei den Sendungen Ihrer Journey verfügbar sind, z. B.:
 
 * **[!UICONTROL Öffnungsrate]**: Prozentsatz der geöffneten Nachrichten.
 * **[!UICONTROL Öffnungen]**: Zahl der Öffnungen einer Nachricht in einem Versand.
