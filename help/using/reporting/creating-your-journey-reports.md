@@ -22,7 +22,7 @@ ht-degree: 100%
 
 In diesem Abschnitt erfahren Sie, wie Sie vordefinierte Berichte erstellen oder verwenden können. Kombinieren Sie Bedienfelder, Komponenten und Visualisierungen, um den Erfolg Ihrer Journeys besser verfolgen zu können.
 
-So greifen Sie auf die Berichte zu Ihren Journeys zu und beginnen damit, den Erfolg Ihrer Lieferungen zu verfolgen:
+So greifen Sie auf die Berichte zu Ihren Journeys zu und beginnen damit, den Erfolg Ihrer Sendungen zu verfolgen:
 
 1. Klicken Sie oben im Menü auf den Tab **[!UICONTROL Startseite]**.
 
@@ -72,7 +72,7 @@ In diesen Bedienfeldern können Sie nach Bedarf Ihre Berichte erstellen. Sie kö
 
 Dann können Sie eine Freiformtabelle in Ihr Bedienfeld einfügen, um mit der Datensuche zu beginnen.
 
-### Freiformtabelle hinzufügen       {#adding-a-freeform-table}
+### Freiformtabelle hinzufügen         {#adding-a-freeform-table}
 
 Mit Freiformtabellen kann eine Tabelle erstellt werden, in der Daten unter Verwendung der unterschiedlichen Messwerte und Dimensionen im Bereich **[!UICONTROL Komponente]** analysiert werden.
 
