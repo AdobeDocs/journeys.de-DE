@@ -4,17 +4,21 @@ solution: Journey Orchestration
 title: Journey-Eigenschaften
 description: Erfahren Sie mehr über die Eigenschaften von Journeys.
 translation-type: tm+mt
-source-git-commit: ba50a1be1a1b8665ab3c557cc1ccc5c4f27bcc87
+source-git-commit: a515e052a5bc1359632a1829df70a206614a5bb2
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 98%
+source-wordcount: '586'
+ht-degree: 95%
 
 ---
 
 
-# Journey-Eigenschaften {#journey-properties}
+# Journey-Eigenschaftenattribute {#journey-properties}
 
 Im erweiterten Ausdruckseditor finden Sie die Kategorie **Journey-Eigenschaften** unter den Kategorien „Ereignis“ und „Datenquelle“. Diese Kategorie enthält technische Felder, die sich auf die Journey eines bestimmten Profils beziehen. Dabei handelt es sich um die Informationen, die das System von Live-Journeys abruft, wie z. B. die Journey-ID oder die spezifischen aufgetretenen Fehler.
+
+>[!NOTE]
+>
+>Journey-Eigenschaftenattribute sind auch im Ausdruck-Editor verfügbar. Siehe diesen [Abschnitt](../building-journeys/condition-activity.md#about_condition)
 
 ![](../assets/journey-properties.png)
 
