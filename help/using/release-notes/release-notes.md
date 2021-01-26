@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Versionshinweise
 description: Versionshinweise
 translation-type: tm+mt
-source-git-commit: 3c678a16d13b8578526dd0bf9192ace26ade5ed0
+source-git-commit: c7eb29c873f91ed1debe4e8c786a96a1f6b71b71
 workflow-type: tm+mt
-source-wordcount: '2169'
+source-wordcount: '2171'
 ht-degree: 93%
 
 ---
@@ -21,7 +21,7 @@ Sie können auch die neusten [Aktualisierungen der Dokumentation](../release-not
 
 Bei der Auswahl eines Schemas in der Ereignis-Konfiguration werden nur die Felder ausgewählt, die erforderlich sind, damit das Ereignis ordnungsgemäß von der Journey Orchestration empfangen werden kann. [Mehr dazu](../event/defining-the-payload-fields.md)
 
-Journey-Eigenschaftenattribute sind jetzt im einfachen Ausdruck-Editor verfügbar.
+Journey-Eigenschaftenattribute sind jetzt im einfachen Ausdruck-Editor verfügbar. [Mehr dazu](../expression/journey-properties.md)
 
 Es wurden zwei neue Attribute für Journey-Eigenschaften hinzugefügt (sandboxName und organisationId). [Mehr dazu](../expression/journey-properties.md)
 
