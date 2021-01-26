@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Arbeiten mit Adobe Campaign
 description: Erfahren Sie mehr über Adobe Campaign-Aktionen
 translation-type: tm+mt
-source-git-commit: 723c30865a5039bd68a8ac2e45d4c87a760e694d
+source-git-commit: a515e052a5bc1359632a1829df70a206614a5bb2
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 97%
+source-wordcount: '310'
+ht-degree: 85%
 
 ---
 
@@ -22,7 +22,7 @@ Die Transaktionsnachricht in Campaign Standard und das zugehörige Ereignis müs
 
 >[!NOTE]
 >
->Transaktionsnachrichten in Adobe Campaign Standard sind für eine bestimmte Instanz auf maximal 50.000 Nachrichten pro Stunde über alle Kanäle hinweg begrenzt. Um das Risiko einer Überlastung zu verringern, empfehlen wir, eine **Begrenzungsregel** für die Campaign Standard-Integration einzurichten.
+>Eine Deckelungsregel von 13 Aufrufen pro Sekunde wird automatisch für Adobe Campaign Standard-Aktionen definiert, sobald die Adobe Campaign Standard-Integration eingerichtet ist. Dies entspricht der offiziellen Skala von Adobe Campaign Standard Transactional Messaging.
 >
 >Lesen Sie mehr über Service-Level-Vereinbarungen für Transaktionsnachrichten in der [Produktbeschreibung von Adobe Campaign Standard](https://helpx.adobe.com/de/legal/product-descriptions/campaign-standard.html).
 
@@ -40,7 +40,7 @@ Im Folgenden werden die Konfigurationsschritte beschrieben:
    >
    >Dieser Test bestätigt Folgendes:
    >
-   >Der Host ist &quot;.Kampagne.adobe.com&quot;, &quot;.Kampagne-sandbox.adobe.com&quot;oder &quot;Kampagne-demo.adobe.com&quot;.
+   >Der Host ist &quot;.Kampagne.adobe.com&quot;, &quot;.Kampagne-Sandbox.adobe.com&quot;oder &quot;.Kampagne-demo.adobe.com&quot;
    >
    >die URL beginnt mit https,
    >
