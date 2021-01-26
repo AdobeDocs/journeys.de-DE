@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Versionshinweise
 description: Versionshinweise
-translation-type: ht
-source-git-commit: 010bccb16d2b6980ff758e3922d3bc315706f61b
-workflow-type: ht
-source-wordcount: '2026'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3c678a16d13b8578526dd0bf9192ace26ade5ed0
+workflow-type: tm+mt
+source-wordcount: '2169'
+ht-degree: 93%
 
 ---
 
@@ -16,6 +16,20 @@ ht-degree: 100%
 
 Auf dieser Seite werden alle neuen Funktionen und Verbesserungen bei Journey Orchestration aufgelistet.
 Sie können auch die neusten [Aktualisierungen der Dokumentation](../release-notes/documentation-updates.md) einsehen.
+
+## Version Januar 2021 {#january-release}
+
+Bei der Auswahl eines Schemas in der Ereignis-Konfiguration werden nur die Felder ausgewählt, die erforderlich sind, damit das Ereignis ordnungsgemäß von der Journey Orchestration empfangen werden kann. [Mehr dazu](../event/defining-the-payload-fields.md)
+
+Journey-Eigenschaftenattribute sind jetzt im einfachen Ausdruck-Editor verfügbar.
+
+Es wurden zwei neue Attribute für Journey-Eigenschaften hinzugefügt (sandboxName und organisationId). [Mehr dazu](../expression/journey-properties.md)
+
+Zur Anpassung an Adobe Campaign Standard SLAs wird nun automatisch eine Deckelungsregel von 13 Aufrufen pro Sekunde für Adobe Campaign Standard-Aktionen definiert, sobald die Adobe Campaign Standard-Integration eingerichtet ist. [Mehr dazu](../action/working-with-adobe-campaign.md)
+
+Die Zeitüberschreitungsdauer des Ereignisses wird jetzt im Zeitüberschreitungspfad genauer angegeben. [Mehr dazu](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
+
+Die Funktionen [getListItem](../functions/functiongetlistitem.md) und [split](../functions/functionsplit.md) wurden der Liste der im erweiterten Ausdruck-Editor verfügbaren Funktionen hinzugefügt. Dies Angebot mehr Möglichkeiten in den Anwendungsfällen Ihrer Zeichenfolgenberechnung.
 
 ## Version November 2020 {#november-release}
 
@@ -34,7 +48,7 @@ Sie können auch die neusten [Aktualisierungen der Dokumentation](../release-not
 <li>Vereinfachung der Gestaltung sehr komplexer Journeys durch Aufteilung in mehrere Journeys </li>
 <li>Erstellung von Journeys anhand allgemeiner und wiederverwendbarer Journey-Muster</li>
 </ul>
-<p>Weitere Informationen finden Sie im <a href="../building-journeys/jump.md">entsprechenden Handbuch</a>.</p>
+<p>Weiterführende Informationen finden Sie in der <a href="../building-journeys/jump.md">ausführlichen Dokumentation</a> und im <a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html">Tutorial-Video</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -74,7 +88,7 @@ Sie können auch die neusten [Aktualisierungen der Dokumentation](../release-not
 </tbody>
 </table>
 
-### Sonstige Verbesserungen{#october-november}
+### Sonstige Verbesserungen 
 
 Beim Erstellen neuer Versionen einer Journey wurden Einschränkungen hinzugefügt. Diese Einschränkungen vermeiden zu drastische Änderungen an der Journey, um eine gewisse Konsistenz zwischen den Versionen zu erhalten. [Mehr dazu](../about/limitations.md#journey-versions-limitations)
 
@@ -99,7 +113,7 @@ Die Aktivität **Segmentqualifikation** kann nicht mehr in einer Journey verwend
 </tbody>
 </table>
 
-### Sonstige Verbesserungen{#october-other}
+### Sonstige Verbesserungen 
 
 * Wenn Sie eine neue Version einer Journey veröffentlichen, endet die vorherige Version automatisch und wechselt in den Status „Geschlossen“. [Mehr dazu](../building-journeys/journey-versions.md)
 
