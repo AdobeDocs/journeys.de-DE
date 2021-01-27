@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Beschreibung der Capping-API
 description: Erfahren Sie mehr über die Capping-API.
 products: journeys
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1108'
 ht-degree: 100%
 
@@ -185,30 +185,30 @@ Anwendungsfall 1: **Erstellen und Bereitstellen einer neuen Begrenzungskonfigura
 
 Anwendungsfall 2: **Aktualisieren und Bereitstellen einer noch nicht bereitgestellten Begrenzungskonfiguration**
 
-1. list
+1. liste
 1. get
 1. update
 1. candeploy
-1. deploy
+1. bereitstellen
 
 Anwendungsfall 3: **Aufheben einer Bereitstellung und Löschen einer bereitgestellten Begrenzungskonfiguration**
 
-1. list
+1. liste
 1. undeploy
 1. delete
 
 Anwendungsfall 4: **Löschen einer bereitgestellten Begrenzungskonfiguration.**
 
 In nur einem API-Aufruf können Sie die Bereitstellung aufheben und die Konfiguration mithilfe des forceDelete-Parameters löschen.
-1. list
+1. liste
 1. delete mit forceDelete-Parameter
 
 Anwendungsfall 5: **Aktualisieren einer bereits bereitgestellten Begrenzungskonfiguration**
 
-1. list
+1. liste
 1. get
 1. update
 1. undeploy
 1. candeploy
-1. deploy
+1. bereitstellen
 
