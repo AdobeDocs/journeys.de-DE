@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Verwenden des erweiterten Ausdruckseditors
 description: Erfahren Sie, wie Sie erweiterte Ausdrücke erstellen
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 100%
 
