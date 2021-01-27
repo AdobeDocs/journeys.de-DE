@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Operatoren
 description: Erfahren Sie mehr über Operatoren in erweiterten Ausdrücken
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 062b4648e2eb3a4270f9c09e4478d541209e1247
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 100%
 
