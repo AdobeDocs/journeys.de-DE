@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Aktivität „Segment lesen“
 description: Erfahren Sie mehr über die Aktivität „Segment lesen“.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 100%
 
