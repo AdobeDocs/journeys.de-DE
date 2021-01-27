@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Konfigurieren des Ereignisses
 description: Erfahren Sie, wie Sie das Ereignis für die Journey mit dem einfachen Anwendungsfall konfigurieren
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 100%
 
