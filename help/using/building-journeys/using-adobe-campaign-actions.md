@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Verwenden von Adobe Campaign-Aktionen
 description: Erfahren Sie mehr über Adobe Campaign-Aktionen
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '937'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Für **[!UICONTROL E-Mail]** und **[!UICONTROL SMS]** sind die Parameter identis
 
 >[!NOTE]
 >
->Wenn Sie für E-Mails eine profilbasierte Transaktionsvorlage verwenden, wird der Abmeldungsmechanismus standardmäßig von Campaign Standard durchgeführt. Fügen Sie der Vorlage einfach einen Inhaltsblock für den **[!UICONTROL Link zum Abmelden]** hinzu ([weitere Informationen](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)). Wenn Sie eine ereignisbasierte Vorlage (rtEvent) verwenden, müssen Sie der Nachricht einen Link hinzufügen, über den die E-Mail-Adresse der Person im URL-Parameter übergeben wird und auf eine Landingpage zum Abmelden verwiesen wird. Sie müssen diese Landingpage erstellen und sicherstellen, dass die Entscheidung der Person, sich abzumelden, an Adobe übermittelt wird.
+>Wenn Sie für E-Mails eine profilbasierte Transaktionsvorlage verwenden, wird der Abmeldungsmechanismus standardmäßig von Campaign Standard durchgeführt. Fügen Sie der Vorlage einfach einen Inhaltsblock für den **[!UICONTROL Link zum Abmelden]** hinzu ([weitere Informationen](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)). Wenn Sie eine ereignisbasierte Vorlage (rtEvent) verwenden, müssen Sie der Nachricht einen Link hinzufügen, über den die E-Mail-Adresse der Person im URL-Parameter übergeben wird und auf eine Landingpage zum Abmelden verwiesen wird. Sie müssen diese Landingpage erstellen und sicherstellen, dass die Entscheidung der Person, sich abzumelden, an Adobe übermittelt wird.
 
 Zuerst müssen Sie eine Transaktionsnachrichtenvorlage auswählen. Mehr dazu erfahren Sie auf [dieser Seite](../building-journeys/about-action-activities.md).
 
