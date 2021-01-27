@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Informationen zum Erstellen von Journeys
 description: Erfahren Sie, wie Sie als Business-Anwender Ereignis-, Orchestrierungs- und Aktions-Aktivitäten kombinieren, um eine Journey zu gestalten.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 100%
 
