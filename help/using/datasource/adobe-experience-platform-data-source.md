@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 'Datenquelle von Adobe Experience Platform '
 description: 'Erfahren Sie, wie Sie die Datenquelle von Adobe Experience Platform konfigurieren '
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 100%
 
