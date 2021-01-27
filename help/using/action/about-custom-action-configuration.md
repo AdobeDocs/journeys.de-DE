@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Informationen zur Konfiguration einer benutzerdefinierten Aktion
 description: Erfahren Sie, wie Sie eine benutzerdefinierte Aktion konfigurieren können
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 100%
 
