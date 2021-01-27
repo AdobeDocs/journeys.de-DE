@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Testen der Journey
 description: 'Erfahren Sie mehr über das Testen von Journeys '
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 5e97f511872a924cc8c2c3a6904859d63ebeddcd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1460'
 ht-degree: 100%
 
