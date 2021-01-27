@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Benutzeroberfläche der Alpha-Version
 description: Weitere Informationen über die neue Benutzeroberfläche von Journey Orchestration.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 100%
 
