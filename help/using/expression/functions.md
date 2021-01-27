@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Funktionen
 description: Erfahren Sie mehr über Funktionen
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ Im Folgenden finden Sie eine Liste der unterstützten Funktionen.
 | Datum | [setHours](../functions/functionsethours.md) |
 | Datum | [setDays](../functions/functionsetdays.md) |
 | Liste | [distinct](../functions/functiondistinct.md) |
-| Liste | [distinctCount](../functions/functiondistinctcount.md) |
+| Liste | [differentCount](../functions/functiondistinctcount.md) |
 | Liste | [in](../functions/functionin.md) |
 | Liste | [listSize](../functions/functionlistsize.md) |
 | Liste | [serializeList](../functions/functionserializelist.md) |
