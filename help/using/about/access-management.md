@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Zugriffsverwaltung
 description: Erfahren Sie mehr über die Zugriffsverwaltung
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '921'
 ht-degree: 100%
 
@@ -139,6 +139,6 @@ Ihr Benutzer sollte dann eine E-Mail mit einer Umleitung zur [!DNL Journey Orche
 Sandboxes werden über Produktprofile in der Admin Console zugewiesen. Weiterführende Informationen zur Zuweisung von Sandboxes finden Sie in [diesem Abschnitt](../about/access-management.md#create-product-profile).
 
 [!DNL Journey Orchestration] spiegelt die Adobe Experience Platform-Sandboxes wider, die für eine bestimmte Organisation erstellt wurden.
-Adobe Experience Platform-Sandboxes können über Ihre Adobe Experience Platform-Instanz erstellt oder zurückgesetzt werden. Detaillierte Anweisungen dazu finden Sie im [Sandbox-Benutzerhandbuch](https://docs.adobe.com/content/help/de-DE/experience-platform/sandbox/ui/user-guide.html).
+Adobe Experience Platform-Sandboxes können über Ihre Adobe Experience Platform-Instanz erstellt oder zurückgesetzt werden. Detaillierte Anweisungen dazu finden Sie im [Sandbox-Benutzerhandbuch](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html).
 
 Das Steuerelement für den Sandbox-Umschalter finden Sie oben links auf Ihrem Bildschirm. Um von einer Sandbox zu einer anderen zu wechseln, klicken Sie im Umschalter auf die derzeit aktive Sandbox und wählen dann in der Dropdown-Liste eine andere Sandbox aus.
