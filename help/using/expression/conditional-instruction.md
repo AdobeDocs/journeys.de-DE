@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Bedingte Anweisung (if, then, else)
 description: Erfahren Sie mehr über die bedingte Anweisung
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 100%
 
