@@ -2,19 +2,19 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: split
-description: Informationen zur Funktionsaufteilung
+description: Erfahren Sie mehr über die Funktion „Aufspaltung“.
 translation-type: tm+mt
 source-git-commit: 135485c097f99483c2ddb3d03e0552f9ac134b44
 workflow-type: tm+mt
 source-wordcount: '63'
-ht-degree: 25%
+ht-degree: 100%
 
 ---
 
 
 # split {#split}
 
-Teilt die erste Argumentzeichenfolge mit einer Trennzeichenfolge (zweite Argumentzeichenfolge, bei der es sich um einen regulären Ausdruck handeln kann), um eine Liste von Zeichenfolgen (Token) zu erstellen.
+Spaltet die erste Argumentzeichenfolge mit einer Trennzeichenfolge (zweite Argumentzeichenfolge, die ein regulärer Ausdruck sein kann) auf, um eine Liste von Zeichenfolgen (Token) zu erzeugen.
 
 ## Kategorie
 
@@ -28,7 +28,7 @@ Zeichenfolge
 
 | Parameter | Typ |
 |-----------|------------------|
-| input string | Zeichenfolge |
+| Eingabezeichenfolge | Zeichenfolge |
 | Trennzeichenfolge | string |
 
 ## Signaturen und zurückgegebener Typ
@@ -41,10 +41,10 @@ Gibt eine listString zurück.
 
 `split(["A_B_C"], "_")`
 
-Gibt zurück.`["A","B","C"]`
+Gibt `["A","B","C"]` zurück
 
-Beispiel mit dem Ereignis &quot;Ereignis.appVersion&quot;mit dem Wert: &quot;20.45.2.3434&quot;
+Beispiel mit dem Ereignisfeld „event.appVersion“ mit dem Wert: 20.45.2.3434
 
 `split(@{event.appVersion}, "\\.")`
 
-Gibt zurück.`["20", "45", "2", "3434"]`
+Gibt `["20", "45", "2", "3434"]` zurück
