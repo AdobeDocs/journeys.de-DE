@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: c18670b32e0e56cf5621fde965b19aa24da8045b
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -177,7 +177,7 @@ ht-degree: 99%
    + [Metriken und Dimensionen](using/reporting/metrics-and-dimensions.md)
 + Integrieren mit Intelligent Services{#use-case-advanced}
    + [Informationen zur KI-Integration](using/ai-services/ai-services-overview.md)
-   + [Verwenden von Customer AI-Werten](using/ai-services/leveraging-customer-ai.md)
+   + [Verwenden von Kunden-KI-Werten](using/ai-services/leveraging-customer-ai.md)
 + Anwendungsbeispiele{#use-cases-journeys}
    + Senden einer personalisierten E-Mail{#use-case-simple}
       + [Informationen zum einfachen Anwendungsfall](using/usecase/about-the-simple-use-case.md)
