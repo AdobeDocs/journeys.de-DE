@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: c7eb29c873f91ed1debe4e8c786a96a1f6b71b71
 workflow-type: tm+mt
 source-wordcount: '2171'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -19,17 +19,17 @@ Sie können auch die neusten [Aktualisierungen der Dokumentation](../release-not
 
 ## Version Januar 2021 {#january-release}
 
-Bei der Auswahl eines Schemas in der Ereignis-Konfiguration werden nur die Felder ausgewählt, die erforderlich sind, damit das Ereignis ordnungsgemäß von der Journey Orchestration empfangen werden kann. [Mehr dazu](../event/defining-the-payload-fields.md)
+Bei der Auswahl eines Schemas in der Ereigniskonfiguration werden nur die Felder ausgewählt, die zwingend erforderlich sind, damit das Ereignis von Journey Orchestration korrekt empfangen werden kann. [Mehr dazu](../event/defining-the-payload-fields.md)
 
-Journey-Eigenschaftenattribute sind jetzt im einfachen Ausdruck-Editor verfügbar. [Mehr dazu](../expression/journey-properties.md)
+Attribute der Journey-Eigenschaften sind jetzt im einfachen Ausdruckseditor verfügbar. [Mehr dazu](../expression/journey-properties.md)
 
-Es wurden zwei neue Attribute für Journey-Eigenschaften hinzugefügt (sandboxName und organisationId). [Mehr dazu](../expression/journey-properties.md)
+Es wurden zwei neue Attribute für Journey-Eigenschaften hinzugefügt (sandboxName und organizationId). [Mehr dazu](../expression/journey-properties.md)
 
-Zur Anpassung an Adobe Campaign Standard SLAs wird nun automatisch eine Deckelungsregel von 13 Aufrufen pro Sekunde für Adobe Campaign Standard-Aktionen definiert, sobald die Adobe Campaign Standard-Integration eingerichtet ist. [Mehr dazu](../action/working-with-adobe-campaign.md)
+Zur Anpassung an die SLAs von Adobe Campaign Standard wird jetzt automatisch eine Begrenzungsregel von 13 Aufrufen pro Sekunde für Adobe Campaign Standard-Aktionen definiert, sobald die Integration von Adobe Campaign Standard eingerichtet ist. [Mehr dazu](../action/working-with-adobe-campaign.md)
 
 Die Zeitüberschreitungsdauer des Ereignisses wird jetzt im Zeitüberschreitungspfad genauer angegeben. [Mehr dazu](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
 
-Die Funktionen [getListItem](../functions/functiongetlistitem.md) und [split](../functions/functionsplit.md) wurden der Liste der im erweiterten Ausdruck-Editor verfügbaren Funktionen hinzugefügt. Dies Angebot mehr Möglichkeiten in den Anwendungsfällen Ihrer Zeichenfolgenberechnung.
+Die Funktionen [getListItem](../functions/functiongetlistitem.md) und [split](../functions/functionsplit.md) wurden der Liste der im erweiterten Ausdruckseditor verfügbaren Funktionen hinzugefügt. Dies bietet mehr Möglichkeiten in Ihren Anwendungsfällen zur Zeichenfolgenberechnung.
 
 ## Version November 2020 {#november-release}
 
@@ -48,7 +48,7 @@ Die Funktionen [getListItem](../functions/functiongetlistitem.md) und [split](..
 <li>Vereinfachung der Gestaltung sehr komplexer Journeys durch Aufteilung in mehrere Journeys </li>
 <li>Erstellung von Journeys anhand allgemeiner und wiederverwendbarer Journey-Muster</li>
 </ul>
-<p>Weiterführende Informationen finden Sie in der <a href="../building-journeys/jump.md">ausführlichen Dokumentation</a> und im <a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html">Tutorial-Video</a>.</p>
+<p>Weiterführende Informationen finden Sie im <a href="../building-journeys/jump.md">entsprechenden Handbuch</a> und im <a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=de">Anleitungsvideo</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -74,7 +74,7 @@ Die Funktionen [getListItem](../functions/functiongetlistitem.md) und [split](..
 <table>
 <thead>
 <tr>
-<th><strong>Regelbasierte Ereignisse   (Beta)</strong><br/></th>
+<th><strong>Regelbasierte Ereignisse    (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
