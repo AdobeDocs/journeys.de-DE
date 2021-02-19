@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: a515e052a5bc1359632a1829df70a206614a5bb2
 workflow-type: tm+mt
 source-wordcount: '310'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Die Transaktionsnachricht in Campaign Standard und das zugehörige Ereignis müs
 
 >[!NOTE]
 >
->Eine Deckelungsregel von 13 Aufrufen pro Sekunde wird automatisch für Adobe Campaign Standard-Aktionen definiert, sobald die Adobe Campaign Standard-Integration eingerichtet ist. Dies entspricht der offiziellen Skala von Adobe Campaign Standard Transactional Messaging.
+>Für Adobe Campaign Standard-Aktionen wird automatisch eine Begrenzungsregel von 13 Aufrufen pro Sekunde definiert, sobald die Adobe Campaign Standard-Integration eingerichtet ist. Dies entspricht dem offiziellen Umfang von Transaktionsnachrichten in Adobe Campaign Standard.
 >
 >Lesen Sie mehr über Service-Level-Vereinbarungen für Transaktionsnachrichten in der [Produktbeschreibung von Adobe Campaign Standard](https://helpx.adobe.com/de/legal/product-descriptions/campaign-standard.html).
 
@@ -40,7 +40,7 @@ Im Folgenden werden die Konfigurationsschritte beschrieben:
    >
    >Dieser Test bestätigt Folgendes:
    >
-   >Der Host ist &quot;.Kampagne.adobe.com&quot;, &quot;.Kampagne-Sandbox.adobe.com&quot;oder &quot;.Kampagne-demo.adobe.com&quot;
+   >Der Host ist „.campaign.adobe.com“, „.campaign-sandbox.adobe.com“ oder „.campaign-demo.adobe.com“,
    >
    >die URL beginnt mit https,
    >
