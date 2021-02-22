@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Journey Orchestration ermöglicht die Erstellung von Anwendungsfällen für die Echtzeit-Orchestrierung mithilfe von Kontextdaten aus Ereignissen oder Datenquellen.
 
-[!DNL Journey Orchestration] ist ein in Adobe Experience Platform integrierter Anwendungs-Service.
+[!DNL Journey Orchestration] ist ein in Adobe Experience Platform integrierter Anwendungsdienst.
 
 ![](../assets/journeydiagram.png)
 
