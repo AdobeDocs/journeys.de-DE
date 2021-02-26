@@ -6,7 +6,7 @@ title: Handbuch zur Journey Orchestration
 user-guide-description: Enthält Anleitungen zum Implementieren und Erstellen von Journeys.
 index: true
 translation-type: tm+mt
-source-git-commit: 937b7235d41fe7f0395e303736974e32eea8558f
+source-git-commit: 59fef99ac17621e81037ddbcc280e9341db729eb
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 98%
@@ -52,6 +52,7 @@ ht-degree: 98%
       + [Informationen zur Konfiguration einer benutzerdefinierten Aktion](using/action/about-custom-action-configuration.md)
       + [URL-Konfiguration](using/action/url-configuration.md)
       + [Definieren der Nachrichtenparameter](using/action/defining-the-message-parameters.md)
+   + [Integration mit Adobe Campaign Classic](using/beta/acc-action.md)
 + Verwenden von Platform-Segmenten {#configuring-segment}
    + [Informationen zu Platform-Segmenten](using/segment/about-segments.md)
    + [Erstellen eines Segments](using/segment/creating-a-segment.md)
@@ -195,5 +196,4 @@ ht-degree: 98%
    + [Übersicht über die Alpha-Funktionen](using/alpha/alpha-overview.md)
    + [Benutzeroberfläche](using/alpha/alpha-interface.md)
    + [Aktivität „Segment lesen“](using/alpha/alpha-segment-trigger.md)
-   + [Integration mit Adobe Campaign Classic](using/beta/acc-action.md)
 
