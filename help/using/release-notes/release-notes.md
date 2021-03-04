@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Versionshinweise
 description: Versionshinweise
 translation-type: tm+mt
-source-git-commit: c7eb29c873f91ed1debe4e8c786a96a1f6b71b71
+source-git-commit: 9f312c779a6229507c72d3f116b8192bb5f1df34
 workflow-type: tm+mt
-source-wordcount: '2171'
-ht-degree: 100%
+source-wordcount: '2264'
+ht-degree: 93%
 
 ---
 
@@ -17,7 +17,32 @@ ht-degree: 100%
 Auf dieser Seite werden alle neuen Funktionen und Verbesserungen bei Journey Orchestration aufgelistet.
 Sie können auch die neusten [Aktualisierungen der Dokumentation](../release-notes/documentation-updates.md) einsehen.
 
-## Version Januar 2021 {#january-release}
+## Version Februar 2021 {#february-2021-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>Profil-Aktivität aktualisieren</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Mit dieser neuen Aktivität können Sie ein vorhandenes Adobe Experience Platform-Profil mit Informationen aus dem Ereignis, einer Datenquelle oder mit einem bestimmten Wert aktualisieren.</p>
+<p>Weitere Informationen finden Sie im <a href="../building-journeys/update-profiles.md">entsprechenden Handbuch</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Sonstige Verbesserungen 
+
+* Beim Konfigurieren eines Ereignisses werden jetzt standardmäßig nur die erforderlichen Felder für die XDM-Überprüfung vorausgewählt. Die Auswahl dieser Felder kann nicht aufgehoben werden.
+* In der Palette &quot;Journey&quot;wurde ein neuer Filter hinzugefügt. Sie können damit nur die letzten fünf Ereignis und Aktionen anzeigen, die verwendet wurden, und nicht nur die sofort einsetzbaren. Dies ist für jeden Benutzer spezifisch. Standardmäßig werden alle Elemente angezeigt. [Mehr dazu](../building-journeys/using-the-journey-designer.md#palette)
+* Beim Starten einer neuen Journey werden Elemente, die nicht als erster Schritt auf der Arbeitsfläche abgelegt werden können, jetzt ausgeblendet. Dies betrifft alle Aktionen, die Bedingungs-Aktivität, die Wartezeit und die Reaktion.
+* Im linken Bereich des erweiterten Ausdruck-Editors werden Funktionen nun unter einem **Funktionen**-Abschnitt am Ende der Liste gruppiert.
+
+## Version Januar 2021 {#january-2021-release}
 
 Bei der Auswahl eines Schemas in der Ereigniskonfiguration werden nur die Felder ausgewählt, die zwingend erforderlich sind, damit das Ereignis von Journey Orchestration korrekt empfangen werden kann. [Mehr dazu](../event/defining-the-payload-fields.md)
 
@@ -27,7 +52,7 @@ Es wurden zwei neue Attribute für Journey-Eigenschaften hinzugefügt (sandboxNa
 
 Zur Anpassung an die SLAs von Adobe Campaign Standard wird jetzt automatisch eine Begrenzungsregel von 13 Aufrufen pro Sekunde für Adobe Campaign Standard-Aktionen definiert, sobald die Integration von Adobe Campaign Standard eingerichtet ist. [Mehr dazu](../action/working-with-adobe-campaign.md)
 
-Die Zeitüberschreitungsdauer des Ereignisses wird jetzt im Zeitüberschreitungspfad genauer angegeben. [Mehr dazu](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
+Die maximale Wartezeit des Ereignisses wird jetzt im Zeitüberschreitungspfad genauer angegeben. [Mehr dazu](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
 
 Die Funktionen [getListItem](../functions/functiongetlistitem.md) und [split](../functions/functionsplit.md) wurden der Liste der im erweiterten Ausdruckseditor verfügbaren Funktionen hinzugefügt. Dies bietet mehr Möglichkeiten in Ihren Anwendungsfällen zur Zeichenfolgenberechnung.
 
@@ -74,7 +99,7 @@ Die Funktionen [getListItem](../functions/functiongetlistitem.md) und [split](..
 <table>
 <thead>
 <tr>
-<th><strong>Regelbasierte Ereignisse    (Beta)</strong><br/></th>
+<th><strong>Regelbasierte Ereignisse     (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -82,7 +107,6 @@ Die Funktionen [getListItem](../functions/functiongetlistitem.md) und [split](..
 <td>
 <p>Es gibt jetzt eine neue Methode, um Ihre Ereignisse einfacher einzurichten, ohne eine EventID zu verwenden: Regelbasierte Ereignisse werten aus, ob ein Ereignis gemäß einer Bedingung ausgelöst werden soll. Sie können weiterhin die vorhandene Methode verwenden, die jetzt als „systemgeneriert“ bezeichnet wird. Diese Funktion, die über das Alpha-Programm bei einer begrenzten Anzahl von Kunden getestet wurde, ist jetzt für alle Kunden in der Betaversion verfügbar.
 </p>
-<p>Weitere Informationen finden Sie im <a href="../event/about-events.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -99,13 +123,13 @@ Die Aktivität **Segmentqualifikation** kann nicht mehr in einer Journey verwend
 <table>
 <thead>
 <tr>
-<th><strong>Zeitüberschreitung für Ereignisse</strong><br/></th>
+<th><strong>Maximale Wartezeit für Ereignisse</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt eine Zeitüberschreitung für ein Ereignis konfigurieren, damit eine Journey ein Ereignis nur während einer bestimmten Zeit überwacht. Dazu müssen Sie nicht mehr parallel zum Ereignispfad eine Warteaktivität hinzufügen.
+<p>Sie können jetzt eine maximale Wartezeit für ein Ereignis konfigurieren, damit eine Journey ein Ereignis nur während einer bestimmten Zeit überwacht. Dazu müssen Sie nicht mehr parallel zum Ereignispfad eine Warteaktivität hinzufügen.
 </p>
 <p>Weitere Informationen finden Sie im <a href="../building-journeys/event-activities.md#listening-to-events-during-a-specific-time">entsprechenden Handbuch</a>.</p>
 </td>
@@ -140,8 +164,6 @@ Die Aktivität **Segmentqualifikation** kann nicht mehr in einer Journey verwend
 
 ### Alpha-Updates{#september-alpha-update}
 
-Informationen zum Geltungsbereich des Alpha-Programms finden Sie in diesem [Abschnitt](../alpha/alpha-overview.md).
-
 <table>
 <thead>
 <tr>
@@ -159,7 +181,6 @@ Informationen zum Geltungsbereich des Alpha-Programms finden Sie in diesem [Absc
 <li><p>Die Granularität der Testmodusprotokolle wurde verbessert, um den Fortschrittsstatus des Segmentexports anzuzeigen.</p>
 </li>
 </ul>
-<p>Weitere Informationen zur Aktivität <strong>Segment lesen</strong> finden Sie in der <a href="../alpha/alpha-segment-trigger.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -172,8 +193,6 @@ Informationen zum Geltungsbereich des Alpha-Programms finden Sie in diesem [Absc
 Die Payload von Segmentqualifkationsereignissen enthält jetzt die folgenden in Bedingungen und Aktionen verwendbaren Kontextinformationen: Verhalten (Eintreten, Verlassen), Zeitstempel der Qualifikation und Segmentkennung. [Mehr dazu](../building-journeys/segment-qualification-events.md)
 
 ### Alpha-Updates{#august-alpha-update}
-
-Informationen zum Geltungsbereich des Alpha-Programms finden Sie in diesem [Abschnitt](../alpha/alpha-overview.md).
 
 <table>
 <thead>
@@ -194,7 +213,6 @@ Informationen zum Geltungsbereich des Alpha-Programms finden Sie in diesem [Absc
 <li><p>Sie können die Journey jetzt auf einem unitären Profil testen und den Fortschritt der Journey über den visuellen Verlauf verfolgen.</p>
 </li>
 </ul>
-<p>Weitere Informationen finden Sie im <a href="../alpha/alpha-segment-trigger.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -228,8 +246,6 @@ Informationen zum Geltungsbereich des Alpha-Programms finden Sie in diesem [Absc
 
 Das Alpha-Programm bietet Funktionen, die derzeit von einer begrenzten Anzahl von Kunden getestet werden. Dies ermöglicht es uns, unser Produkt basierend auf dem erhaltenen Feedback zu verbessern. Diese Funktionen stehen nicht allen Kunden von Journey Orchestration zur Verfügung.
 
-Diese Funktionen werden in einem eigenen [Abschnitt](../alpha/alpha-overview.md) erläutert.
-
 <table>
 <thead>
 <tr>
@@ -247,7 +263,6 @@ Diese Funktionen werden in einem eigenen [Abschnitt](../alpha/alpha-overview.md)
 <li><p>Gruppierung der Admin-Funktionen in einem einzigen Dashboard.</p>
 </li>
 </ul>
-<p>Weitere Informationen finden Sie im <a href="../alpha/alpha-interface.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -262,7 +277,7 @@ Diese Funktionen werden in einem eigenen [Abschnitt](../alpha/alpha-overview.md)
 <tbody>
 <tr>
 <td>
-<p>Mit der Segmentauslöser-Aktivität können Sie alle Kontakte, die zu einem Adobe Experience Platform-Segment gehören, in eine Journey eintreten lassen. Der Eintritt in eine Journey kann entweder einmalig oder regelmäßig erfolgen. <a href="../alpha/alpha-segment-trigger.md">Mehr dazu</a>
+<p>Mit der Segmentauslöser-Aktivität können Sie alle Kontakte, die zu einem Adobe Experience Platform-Segment gehören, in eine Journey eintreten lassen. Der Eintritt in eine Journey kann entweder einmalig oder regelmäßig erfolgen. 
 </p>
 </td>
 </tr>
