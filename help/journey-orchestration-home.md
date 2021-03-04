@@ -5,9 +5,9 @@ solution: Journey Orchestration
 title: Produktdokumentation für Journey Orchestration
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: d6665fff2d2f7055df09ce8c6b00eac1379002ec
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '255'
 ht-degree: 98%
 
 ---
@@ -30,9 +30,6 @@ Erfahren Sie, wie Sie die Ereignisse konfigurieren, auf die Ihre Journeys reagie
 
 * **[Entdecken Sie die neuen Funktionen](using/release-notes/release-notes.md)**<br/>
 Erfahren Sie mehr über die neuesten Versionen.
-
-* **[Alpha-Funktionen](using/alpha/alpha-overview.md)**<br/>
-Entdecken Sie die Funktionen, die derzeit über das Alpha-Programm verfügbar sind.
 
 ## Wichtigste Seiten
 
