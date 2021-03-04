@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Einschränkungen bei Journey Orchestration
 description: Erfahren Sie mehr über die Einschränkungen bei Journey Orchestration.
 translation-type: tm+mt
-source-git-commit: f562d4a967e6551d3b8a1bc4dbddbf01da9b3e70
+source-git-commit: a0b6f54e37abded690dc200bc3a901a8e0f04f79
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 100%
+source-wordcount: '527'
+ht-degree: 93%
 
 ---
 
@@ -53,7 +53,7 @@ Im Zusammenhang mit der Verwendung von Journey Orchestration gibt es Einschränk
 
 ## Einschränkungen bei Ereignissen
 
-* Streaming-Daten, die zur Initiierung einer Customer Journey verwendet werden, müssen innerhalb von Journey Orchestration konfiguriert werden, bevor eine eindeutige Orchestrierungs-ID abgerufen werden kann. Diese Orchestrierungs-ID muss an die Streaming-Payload angehängt werden, die in Adobe Experience Platform eingehen.
+* Bei systemgenerierten Ereignissen müssen Streaming-Daten, die zum Initiieren einer Journey verwendet werden, zunächst innerhalb des Kundenmanagements konfiguriert werden, um eine eindeutige Orchester-ID zu erhalten. Diese Orchestrierungs-ID muss an die Streaming-Payload angehängt werden, die in Adobe Experience Platform eingehen. Diese Einschränkung gilt nicht für regelbasierte Ereignis.
  
 
 ## Einschränkungen bei Datenquellen
