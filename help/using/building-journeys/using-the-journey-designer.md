@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Verwenden des Journey-Designers
 description: Weitere Informationen zur Verwendung des Journey-Designers
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 566252f72ef706308249c3b6b27564f086b40760
 workflow-type: tm+mt
-source-wordcount: '1389'
-ht-degree: 100%
+source-wordcount: '1422'
+ht-degree: 93%
 
 ---
 
@@ -42,11 +42,15 @@ Die **Palette** befindet sich auf der linken Bildschirmseite. Alle verfügbaren 
 
 ![](../assets/journey38.png)
 
-Mit dem Symbol **[!UICONTROL Deaktivierte Elemente einblenden]** oben links können Sie nicht verfügbare Elemente in der Palette ein- oder ausblenden (z. B. Ereignisse, die einen anderen Namespace als den in Ihrer Journey verwenden). Standardmäßig werden nicht verfügbare Elemente ausgeblendet. Wenn Sie sie anzeigen lassen, werden sie grau dargestellt.
+Mit dem Symbol **[!UICONTROL Filterelemente]** oben links können Sie die folgenden Filter anzeigen:
 
-Wenn Sie das Feld **[!UICONTROL Suchen]** verwenden, wird die Anzahl der Ergebnisse für jede Aktivitätskategorie auf der Arbeitsfläche angezeigt.
+* **Nur verfügbare Elemente** anzeigen: Blenden Sie nicht verfügbare Elemente in der Palette ein oder aus, z. B. die Ereignis, die einen anderen Namensraum verwenden als die in der Journey verwendeten. Standardmäßig werden nicht verfügbare Elemente ausgeblendet. Wenn Sie sie anzeigen lassen, werden sie grau dargestellt.
+
+* **Nur aktuelle Elemente** anzeigen: Mit diesem Filter können Sie neben den standardmäßig verwendeten nur die letzten fünf Ereignis und Aktionen anzeigen. Dies ist für jeden Benutzer spezifisch. Standardmäßig werden alle Elemente angezeigt.
 
 ![](../assets/palette-filter.png)
+
+Sie können auch das Feld **[!UICONTROL Suche]** verwenden.
 
 ## Die Arbeitsfläche {#canvas}
 
