@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Informationen zum erweiterten Ausdruckseditor
 description: Erfahren Sie, wie Sie erweiterte Ausdrücke erstellen
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: c41b49e2208727f5e3a562b838c4b052c70e8412
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 100%
+source-wordcount: '558'
+ht-degree: 93%
 
 ---
 
@@ -56,9 +56,11 @@ In diesem Bildschirm können Sie Ihren Ausdruck manuell schreiben.
 
 Im linken Bildschirmbereich werden die verfügbaren Felder und Funktionen angezeigt:
 
-* **[!UICONTROL Ereignisse]**: Wählen Sie eines der Felder aus, die vom eingehenden Ereignis empfangen wurden. Die angezeigte Liste der Ereignisfelder ist kontextbasiert und variiert je nach Ereignissen, die in der Journey hinzugefügt werden.
-* **[!UICONTROL Datenquellen]**: Wählen Sie aus der Liste der Felder, die in den Feldergruppen Ihrer Datenquellen verfügbar sind.
-* **[!UICONTROL Funktionen]**: Wählen Sie aus der Liste der integrierten Funktionen, die eine komplexe Filterung ermöglichen. Die Funktionen sind nach Kategorien geordnet.
+* **[!UICONTROL Ereignisse]**: Wählen Sie eines der Felder aus, die vom eingehenden Ereignis empfangen wurden. Die angezeigte Liste der Ereignisfelder ist kontextbasiert und variiert je nach Ereignissen, die in der Journey hinzugefügt werden. [Mehr dazu](../event/about-events.md)
+* **[!UICONTROL Segmente]**: Wenn Sie ein  **[!UICONTROL Segmentqualifizierungsereignis]** abgelegt haben, wählen Sie das Segment aus, das Sie in Ihrem Ausdruck verwenden möchten. [Mehr dazu](../segment/using-a-segment.md)
+* **[!UICONTROL Datenquellen]**: Wählen Sie aus der Liste der Felder, die in den Feldergruppen Ihrer Datenquellen verfügbar sind. [Mehr dazu](../datasource/about-data-sources.md)
+* **[!UICONTROL Journey-Eigenschaften]**: In diesem Abschnitt werden die Fachgebiete im Zusammenhang mit der Journey für ein bestimmtes Profil zusammengefasst. [Mehr dazu](../expression/journey-properties.md)
+* **[!UICONTROL Funktionen]**: Wählen Sie aus der Liste der integrierten Funktionen, die eine komplexe Filterung ermöglichen. Die Funktionen sind nach Kategorien geordnet. [Mehr dazu](../expression/functions.md)
 
 ![](../assets/journey65.png)
 
