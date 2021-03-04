@@ -4,17 +4,17 @@ solution: Journey Orchestration
 title: Verwenden eines Segments
 description: Erfahren Sie, wie Sie ein Segment verwenden
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: c41b49e2208727f5e3a562b838c4b052c70e8412
 workflow-type: tm+mt
 source-wordcount: '127'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
 
 # Verwenden von Segmenten in Bedingungen {#using-a-segment}
 
-In diesem Abschnitt wird erläutert, wie sich ein Segment in einer Journey-Bedingung verwenden lässt. Informationen zur Nutzung eines Ereignisses vom Typ **[!UICONTROL Segmentqualifizierung]** in Ihrer Journey finden Sie unter [Ereignisaktivitäten](../building-journeys/segment-qualification-events.md).
+In diesem Abschnitt wird erläutert, wie sich ein Segment in einer Journey-Bedingung verwenden lässt. Weitere Informationen zur Verwendung eines **[!UICONTROL Segmentqualifizierung]**-Ereignisses in Ihrer Journey finden Sie in diesem [Abschnitt](../building-journeys/segment-qualification-events.md).
 
 Gehen Sie wie folgt vor, um in einer Journey-Bedingung ein Segment zu verwenden:
 
