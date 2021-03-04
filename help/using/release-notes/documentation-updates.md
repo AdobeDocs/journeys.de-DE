@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Aktualisierungen der Dokumentation
 description: Erfahren Sie mehr über die Aktualisierungen der Dokumentation
 translation-type: tm+mt
-source-git-commit: f562d4a967e6551d3b8a1bc4dbddbf01da9b3e70
+source-git-commit: 349af3a922faa2cf4561c7974466255562d6917d
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '796'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ Lesen Sie auch die [!DNL Journey Orchestration]-[Versionshinweise](../release-no
 ## September 2020 {#september-2020}
 
 * Der Abschnitt mit der Beschreibung der Benutzeroberfläche wurde aktualisiert, um das neue Menü **App Selector** anzuzeigen. [Mehr dazu](../about/user-interface.md)
-* Es wurde eine Notiz zu den neuen, nicht wiederkehrenden Versionen von segmentbasierten Journeys hinzugefügt. [Mehr dazu](../alpha/alpha-segment-trigger.md)
+* Es wurde eine Notiz zu den neuen, nicht wiederkehrenden Versionen von segmentbasierten Journeys hinzugefügt.
 
 ## August 2020 {#august-2020}
 
@@ -42,7 +42,7 @@ Lesen Sie auch die [!DNL Journey Orchestration]-[Versionshinweise](../release-no
 * Der Bereich „Ereignisaktivitäten“ wurde für jede Art von Ereignis in spezifische Unterbereiche umstrukturiert. [Mehr dazu](../building-journeys/event-activities.md)
 * Es wurden Best Practices hinzugefügt, um eine Überlastung durch Segmentqualifikation zu vermeiden. [Mehr dazu](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * Es wurde ein Hinweis hinzugefügt, der erklärt, wie eine Journey nach einem Fehler in einer Aktion oder Bedingung fortgesetzt werden kann. [Mehr dazu](../about/troubleshooting.md#section_h3q_kqk_fhb)
-* Es wurde ein neuer Abschnitt zu den Alpha-Funktionen hinzugefügt, die von einer begrenzten Anzahl von Kunden getestet werden. [Mehr dazu](../alpha/alpha-overview.md)
+* Es wurde ein neuer Abschnitt zu den Alpha-Funktionen hinzugefügt, die von einer begrenzten Anzahl von Kunden getestet werden.
 * Es wurde ein neuer Abschnitt zur Integration mit Intelligent Services hinzugefügt. [Mehr dazu](../ai-services/ai-services-overview.md)
 * Es wurde ein neuer Abschnitt zur Erstellung von Testprofilen hinzugefügt. [Mehr dazu](../building-journeys/testing-the-journey.md#create-test-profile)
 * Es wurden Informationen zur Verwendung des Knotens **[!UICONTROL SegmentQualification]** in einer Journey-Bedingung oder Aktion hinzugefügt. [Mehr dazu](../building-journeys/segment-qualification-events.md)
