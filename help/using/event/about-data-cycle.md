@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Ereignisdatenzyklus
 description: Informationen zum Ereignisdatenzyklus.
+feature: Journeys
+role: Geschäftspraktiker
+level: Fortgeschr.
 translation-type: tm+mt
-source-git-commit: b3ed5d305ddd1c86814373fc923390dc50a80c7e
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 100%
+source-wordcount: '231'
+ht-degree: 99%
 
 ---
 
