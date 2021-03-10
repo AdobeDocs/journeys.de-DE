@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Ändern von Eigenschaften
 description: Erfahren Sie, wie Sie Eigenschaften ändern
+feature: Journeys
+role: Geschäftspraktiker
+level: Fortgeschr.
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 100%
+source-wordcount: '489'
+ht-degree: 99%
 
 ---
 
@@ -29,23 +32,23 @@ Wenn eine Journey „endet“, weist sie den Status **[!UICONTROL Geschlossen (k
 
 ## Zeitüberschreitung und Fehler bei Journey-Aktivitäten {#timeout_and_error}
 
-Beim Bearbeiten einer Aktions- oder Bedingungsaktivität können Sie im Falle eines Fehlers oder einer Zeitüberschreitung einen alternativen Pfad definieren. Wenn die Verarbeitung der Aktivität, die ein Drittanbietersystem abfragt, die in den Eigenschaften der Journey festgelegte Zeitüberschreitungsdauer überschreitet (Feld **[!UICONTROL Zeitüberschreitung und Fehler]**), wird der zweite Pfad ausgewählt, um eine potenzielle Ausweichaktion durchzuführen.
+Beim Bearbeiten einer Aktions- oder Bedingungsaktivität können Sie im Falle eines Fehlers oder einer Zeitüberschreitung einen alternativen Pfad definieren. Wenn die Verarbeitung der Aktivität, die ein Drittanbietersystem abfragt, die in den Eigenschaften der Journey festgelegte Dauer der maximalen Wartezeit überschreitet (Feld **[!UICONTROL Zeitüberschreitung und Fehler]**), wird der zweite Pfad ausgewählt, um eine potenzielle Ausweichaktion durchzuführen.
 
 Die zulässigen Werte liegen zwischen 1 und 30 Sekunden.
 
 Es wird empfohlen, unter **[!UICONTROL Zeitüberschreitung und Fehler]** einen sehr kurzen Wert festzulegen, wenn Ihre Journey zeitkritisch ist (z. B. Reaktion auf den Echtzeit-Standort einer Person), da Sie Ihre Aktion nicht länger als einige Sekunden verzögern können. Wenn Ihre Journey weniger zeitkritisch ist, können Sie einen längeren Wert verwenden, um dem aufgerufenen System mehr Zeit zum Senden einer gültigen Antwort zu geben.
 
-Bei [!DNL Journey Orchestration] wird auch eine globale Zeitüberschreitung verwendet. Siehe [nächster Abschnitt](#global_timeout).
+Bei [!DNL Journey Orchestration] wird auch eine maximale globale Wartezeit verwendet. Siehe [nächster Abschnitt](#global_timeout).
 
-## Globale Journey-Zeitüberschreitung {#global_timeout}
+## Maximale globale Wartezeit der Journey {#global_timeout}
 
-Zusätzlich zu der in den Journey-Aktivitäten verwendeten [Zeitüberschreitung](#timeout_and_error) gibt es auch eine globale Journey-Zeitüberschreitung, die nicht auf der Benutzeroberfläche angezeigt wird und nicht geändert werden kann. Diese Zeitüberschreitung stoppt den Fortschritt von Kontakten in der Journey 30 Tage nach ihrem Eintritt. Das bedeutet, dass die Journey eines Kontakts nicht länger als 30 Tage dauern kann. Nach Ablauf des Zeitraums von 30 Tagen werden die Daten des Kontakts gelöscht. Kontakte, die sich nach der Zeitüberschreitung noch in der Journey befinden, werden gestoppt und beim Reporting als Fehler gewertet.
+Zusätzlich zu der in den Journey-Aktivitäten verwendeten [maximalen Wartezeit](#timeout_and_error) gibt es auch eine maximale globale Journey-Wartezeit, die nicht auf der Benutzeroberfläche angezeigt wird und nicht geändert werden kann. Diese maximale Wartezeit stoppt den Fortschritt von Kontakten in der Journey 30 Tage nach ihrem Eintritt. Das bedeutet, dass die Journey eines Kontakts nicht länger als 30 Tage dauern kann. Nach Ablauf der maximalen Wartezeit von 30 Tagen werden die Daten des Kontakts gelöscht. Kontakte, die sich nach der maximalen Wartezeit noch in der Journey befinden, werden gestoppt und beim Reporting als Fehler gewertet.
 
 >[!NOTE]
 >
->[!DNL Journey Orchestration] reagiert nicht direkt auf Datenschutz-Opt-out-, Zugriffs- oder Löschanfragen. Die globale Zeitüberschreitung stellt jedoch sicher, dass Kontakte auf keinen Fall länger als 30 Tage in der Journey bleiben.
+>[!DNL Journey Orchestration] reagiert nicht direkt auf Datenschutz-Opt-out-, Zugriffs- oder Löschanfragen. Die maximale globale Wartezeit stellt jedoch sicher, dass Kontakte auf keinen Fall länger als 30 Tage in der Journey bleiben.
 
-Aufgrund der Journey-Zeitüberschreitung nach 30 Tagen können wir, wenn der erneute Eintritt nicht erlaubt ist, nicht sicherstellen, dass die Sperrung des erneuten Eintritts nach mehr als 30 Tagen erhalten bleibt. Da wir alle Informationen über Personen, die an der Journey teilgenommen haben, 30 Tage nach deren Eintritt entfernen, können wir nicht wissen, dass die Person vor mehr als 30 Tagen bereits Eintritt hatte.
+Aufgrund der maximalen Journey-Wartezeit von 30 Tagen können wir, wenn der erneute Eintritt nicht erlaubt ist, nicht sicherstellen, dass die Sperrung des erneuten Eintritts nach mehr als 30 Tagen erhalten bleibt. Da wir alle Informationen über Personen, die an der Journey teilgenommen haben, 30 Tage nach deren Eintritt entfernen, können wir nicht wissen, dass die Person vor mehr als 30 Tagen bereits Eintritt hatte.
 
 ## Zeitzone und Zeitzone des Profils {#timezone}
 
