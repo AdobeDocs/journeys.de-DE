@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Journey-Eigenschaften
 description: Erfahren Sie mehr über die Eigenschaften von Journeys.
+feature: Journeys
+role: Dateningenieur
+level: Erfahren
 translation-type: tm+mt
-source-git-commit: a515e052a5bc1359632a1829df70a206614a5bb2
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 100%
+source-wordcount: '590'
+ht-degree: 99%
 
 ---
 
