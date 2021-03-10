@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Erstellen von Journey-Berichten
 description: Erfahren Sie, wie Sie Journey-Berichte erstellen können
+feature: Journeys
+role: Geschäftspraktiker
+level: Fortgeschr.
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 100%
+source-wordcount: '903'
+ht-degree: 99%
 
 ---
 
