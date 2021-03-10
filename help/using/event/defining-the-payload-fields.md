@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Definieren der Payload-Felder
 description: Erfahren Sie mehr über das Definieren der Payload-Felder
+feature: Journeys
+role: Geschäftspraktiker
+level: Fortgeschr.
 translation-type: tm+mt
-source-git-commit: a515e052a5bc1359632a1829df70a206614a5bb2
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 100%
+source-wordcount: '311'
+ht-degree: 99%
 
 ---
 
