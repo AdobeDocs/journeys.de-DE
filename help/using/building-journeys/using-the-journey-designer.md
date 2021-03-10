@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Verwenden des Journey-Designers
 description: Weitere Informationen zur Verwendung des Journey-Designers
+feature: Journeys
+role: Geschäftspraktiker
+level: Fortgeschr.
 translation-type: tm+mt
-source-git-commit: 566252f72ef706308249c3b6b27564f086b40760
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1426'
 ht-degree: 93%
 
 ---
