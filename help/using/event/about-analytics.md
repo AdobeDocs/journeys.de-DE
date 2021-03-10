@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Informationen zu Adobe Analytics-Daten
 description: Erfahren Sie, wie Sie Adobe Analytics-Daten nutzen.
+feature: Journeys
+role: Geschäftspraktiker
+level: Fortgeschr.
 translation-type: tm+mt
-source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 100%
+source-wordcount: '199'
+ht-degree: 98%
 
 ---
 
