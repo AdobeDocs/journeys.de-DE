@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 'Externe Datenquellen '
 description: 'Erfahren Sie, wie Sie externe Datenquellen konfigurieren '
+feature: Journeys
+role: Geschäftspraktiker
+level: Fortgeschr.
 translation-type: tm+mt
-source-git-commit: 28604af956df18fbc89e44ace36904c5897c028e
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1318'
 ht-degree: 96%
 
 ---
