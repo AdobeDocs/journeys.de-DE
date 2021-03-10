@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Datentypen
 description: Erfahren Sie mehr über die Datentypen in erweiterten Ausdrücken
+feature: Journeys
+role: Dateningenieur
+level: Erfahren
 translation-type: tm+mt
-source-git-commit: a95b8311aff2d95402afa9b80488ced2a3e6fbba
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 100%
+source-wordcount: '562'
+ht-degree: 99%
 
 ---
 
