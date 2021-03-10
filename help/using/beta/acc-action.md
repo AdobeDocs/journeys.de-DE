@@ -5,11 +5,14 @@ title: Informationen zur Campaign Classic-Integration
 description: Informationen zur Integration von Campaign Classic
 hide: true
 hidefromtoc: true
+feature: Journeys
+role: Geschäftspraktiker
+level: Fortgeschr.
 translation-type: tm+mt
-source-git-commit: 937b7235d41fe7f0395e303736974e32eea8558f
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 9%
+source-wordcount: '444'
+ht-degree: 10%
 
 ---
 
