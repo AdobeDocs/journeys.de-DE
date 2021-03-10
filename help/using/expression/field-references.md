@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Feldverweise
 description: Erfahren Sie mehr über Feldverweise in erweiterten Ausdrücken
+feature: Journeys
+role: Dateningenieur
+level: Erfahren
 translation-type: tm+mt
-source-git-commit: e2f7c39e61118c42272f730cf5f688ee34d6a9c2
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 100%
+source-wordcount: '438'
+ht-degree: 99%
 
 ---
 
