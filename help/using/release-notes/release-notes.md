@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
 source-wordcount: '2268'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -20,18 +20,18 @@ ht-degree: 93%
 Auf dieser Seite werden alle neuen Funktionen und Verbesserungen bei Journey Orchestration aufgelistet.
 Sie können auch die neusten [Aktualisierungen der Dokumentation](../release-notes/documentation-updates.md) einsehen.
 
-## Version Februar 2021 {#february-2021-release}
+## Version Februar 2021 {#february-2021-release}
 
 <table>
 <thead>
 <tr>
-<th><strong>Profil-Aktivität aktualisieren</strong><br/></th>
+<th><strong>Profilaktivität aktualisieren</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Mit dieser neuen Aktivität können Sie ein vorhandenes Adobe Experience Platform-Profil mit Informationen aus dem Ereignis, einer Datenquelle oder mit einem bestimmten Wert aktualisieren.</p>
+<p>Mit dieser neuen Aktivität können Sie ein vorhandenes Adobe Experience Platform-Profil mit Informationen aus dem Ereignis, aus einer Datenquelle oder mit einem bestimmten Wert aktualisieren.</p>
 <p>Weitere Informationen finden Sie im <a href="../building-journeys/update-profiles.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
@@ -40,9 +40,9 @@ Sie können auch die neusten [Aktualisierungen der Dokumentation](../release-not
 
 ### Sonstige Verbesserungen 
 
-* Beim Konfigurieren eines Ereignisses werden jetzt standardmäßig nur die erforderlichen Felder für die XDM-Überprüfung vorausgewählt. Die Auswahl dieser Felder kann nicht aufgehoben werden.
-* In der Palette &quot;Journey&quot;wurde ein neuer Filter hinzugefügt. Sie können damit nur die letzten fünf Ereignis und Aktionen anzeigen, die verwendet wurden, und nicht nur die sofort einsetzbaren. Dies ist für jeden Benutzer spezifisch. Standardmäßig werden alle Elemente angezeigt. [Mehr dazu](../building-journeys/using-the-journey-designer.md#palette)
-* Beim Starten einer neuen Journey werden Elemente, die nicht als erster Schritt auf der Arbeitsfläche abgelegt werden können, jetzt ausgeblendet. Dies betrifft alle Aktionen, die Bedingungs-Aktivität, die Wartezeit und die Reaktion.
+* Beim Konfigurieren eines Ereignisses werden jetzt standardmäßig nur die für die XDM-Validierung erforderlichen Felder vorausgewählt. Die Auswahl dieser Felder kann nicht aufgehoben werden.
+* In der Journey-Palette wurde ein neuer Filter hinzugefügt. Sie können damit neben den nativen nur die letzten fünf verwendeten Ereignisse und Aktionen anzeigen. Dies ist benutzerspezifisch. Standardmäßig werden alle Elemente angezeigt. [Mehr dazu](../building-journeys/using-the-journey-designer.md#palette)
+* Beim Erstellen einer neuen Journey werden jetzt Elemente, die nicht als erster Schritt auf der Arbeitsfläche abgelegt werden können, ausgeblendet. Dies betrifft alle Aktionen, die Bedingungsaktivität, die Wartezeit und die Reaktion.
 * Im linken Bereich des erweiterten Ausdruck-Editors werden Funktionen nun unter einem **Funktionen**-Abschnitt am Ende der Liste gruppiert.
 
 ## Version Januar 2021 {#january-2021-release}
@@ -404,7 +404,7 @@ Die Benutzeroberfläche von Journey Orchestration ist auf Japanisch verfügbar.
 <tbody>
 <tr> 
 <td>
-<p>Das Zeitzonen-Management ist jetzt gebündelt im Fenster der Journey-Eigenschaften verfügbar. In den Eigenschaften der Journey wurden zwei Parameter hinzugefügt:</p>
+<p>Das Zeitzonen-Management ist jetzt gebündelt im Panel der Journey-Eigenschaften verfügbar. In den Eigenschaften der Journey wurden zwei Parameter hinzugefügt:</p>
 <img src="../assets/rn-timezone.png"/>
 <ul>
 <li>In der Dropdown-Liste <strong>Zeitzone</strong> können Sie eine bestimmte Zeitzone auswählen. Standardmäßig wird die Zeitzone des Browsers verwendet. </li>
