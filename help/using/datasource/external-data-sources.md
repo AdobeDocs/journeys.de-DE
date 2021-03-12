@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
 source-wordcount: '1318'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -77,9 +77,9 @@ Für den Parametersatz „long/lat“ erstellen wir eine Feldergruppe mit den fo
 * **[!UICONTROL Dynamische Werte]**: Geben Sie die verschiedenen Parameter getrennt durch ein Komma ein, in unserem Beispiel „long,lat“. Da die Parameterwerte vom Ausführungskontext abhängen, werden sie in den Journeys definiert. Weitere Informationen finden Sie auf [dieser Seite](../expression/expressionadvanced.md).
 * **[!UICONTROL Gesendete Payload]**: Dieses Feld wird nicht in unserem Beispiel angezeigt. Es ist nur verfügbar, wenn Sie die POST-Methode auswählen. Fügen Sie die Payload ein, die an das Drittanbietersystem gesendet wird.
 
-Bei einem GET-Aufruf, der Parameter erfordert, geben Sie die Parameter in das Feld **[!UICONTROL Dynamische Werte]** ein und sie werden automatisch am Ende des Aufrufs hinzugefügt. Bei einem POST-Aufruf müssen Sie:
+Bei einer GET-Anfrage, die Parameter erfordert, geben Sie die Parameter in das Feld **[!UICONTROL Dynamische Werte]** ein und sie werden automatisch am Ende der Anfrage hinzugefügt. Bei einer POST-Anfrage müssen Sie:
 
-* Liste der Parameter, die zur Anrufzeit im Feld **[!UICONTROL Dynamische Werte]** übergeben werden sollen (Beispiel: &quot;Identifikator&quot;).
+* die bei der Anfrage zu übergebenden Parameter im Feld **[!UICONTROL Dynamische Werte]** auflisten (im Beispiel unten: „identifier“).
 * diese auch mit exakt derselben Syntax im Hauptteil der gesendeten Payload angeben. Dazu müssen Sie Folgendes hinzufügen: „param“: „Name Ihres Parameters“ (im folgenden Beispiel: „identifier“). Folgen Sie der Syntax unten:
 
    ```
