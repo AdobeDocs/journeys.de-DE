@@ -23,7 +23,7 @@ ht-degree: 99%
 >
 >Nach dem Löschen einer Journey stehen alle zugehörigen Berichte nicht mehr zur Verfügung.
 
-In diesem Abschnitt erfahren Sie, wie Sie vordefinierte Berichte erstellen oder verwenden können. Kombinieren Sie Bedienfelder, Komponenten und Visualisierungen, um den Erfolg Ihrer Journeys besser verfolgen zu können.
+In diesem Abschnitt erfahren Sie, wie Sie vordefinierte Berichte erstellen oder verwenden können. Kombinieren Sie Panels, Komponenten und Visualisierungen, um den Erfolg Ihrer Journeys besser verfolgen zu können.
 
 So greifen Sie auf die Berichte zu Ihren Journeys zu und beginnen damit, den Erfolg Ihrer Sendungen zu verfolgen:
 
@@ -47,7 +47,7 @@ So greifen Sie auf die Berichte zu Ihren Journeys zu und beginnen damit, den Erf
 
    ![](../assets/dynamic_report_journey_3.png)
 
-1. Legen Sie vom Tab **[!UICONTROL Bedienfelder]** aus so viele Bedienfelder oder Freiformtabellen wie nötig per Drag-and-Drop ab. Weiterführende Informationen hierzu finden Sie in diesem [Abschnitt](#adding-panels).
+1. Legen Sie vom Tab **[!UICONTROL Bedienfelder]** aus so viele Panels oder Freiformtabellen wie nötig per Drag-and-Drop ab. Weiterführende Informationen hierzu finden Sie in diesem [Abschnitt](#adding-panels).
 
    ![](../assets/dynamic_report_journey_4.png)
 
@@ -57,31 +57,31 @@ So greifen Sie auf die Berichte zu Ihren Journeys zu und beginnen damit, den Erf
 
 1. Für eine bessere Übersicht über Ihre Daten können Sie auf dem Tab **[!UICONTROL Visualisierungen]** Visualisierungen hinzufügen. Weiterführende Informationen hierzu finden Sie in diesem [Abschnitt](#adding-visualizations).
 
-## Bedienfelder hinzufügen{#adding-panels}
+## Panels hinzufügen{#adding-panels}
 
-### Leeres Bedienfeld hinzufügen {#adding-a-blank-panel}
+### Leeres Panel hinzufügen {#adding-a-blank-panel}
 
-Um mit der Berichterstellung zu beginnen, fügen Sie einem vordefinierten oder benutzerdefinierten Bericht Bedienfelder hinzu. Jedes Bedienfeld enthält unterschiedliche Datensätze und besteht aus Freiformtabellen und Visualisierungen.
+Um mit der Berichterstellung zu beginnen, fügen Sie einem vordefinierten oder benutzerdefinierten Bericht Panels hinzu. Jedes Panel enthält unterschiedliche Datensätze und besteht aus Freiformtabellen und Visualisierungen.
 
-In diesen Bedienfeldern können Sie nach Bedarf Ihre Berichte erstellen. Sie können beliebig viele Bedienfelder in Ihre Berichte einfügen, um Ihre Daten nach unterschiedlichen Zeiträumen zu filtern.
+In diesen Panels können Sie nach Bedarf Ihre Berichte erstellen. Sie können beliebig viele Panels in Ihre Berichte einfügen, um Ihre Daten nach unterschiedlichen Zeiträumen zu filtern.
 
-1. Klicken Sie auf das **[!UICONTROL Bedienfeldsymbol.]** Sie können auch ein Bedienfeld hinzufügen, indem Sie das **[!UICONTROL Einfügen-Tab]** und **[!UICONTROL Neues leeres Bedienfeld]** auswählen.
+1. Klicken Sie auf das **[!UICONTROL Panel-Symbol]**. Sie können auch ein Panel hinzufügen, indem Sie das **[!UICONTROL Einfügen-Tab]** und **[!UICONTROL Neues leeres Panel]** auswählen.
 
    ![](../assets/dynamic_report_panel_1.png)
 
-1. Ziehen Sie das **[!UICONTROL leere Bedienfeld]** in Ihr Dashboard.
+1. Ziehen Sie das **[!UICONTROL leere Panel]** in Ihr Dashboard.
 
    ![](../assets/dynamic_report_panel.png)
 
-Dann können Sie eine Freiformtabelle in Ihr Bedienfeld einfügen, um mit der Datensuche zu beginnen.
+Dann können Sie eine Freiformtabelle in Ihr Panel einfügen, um mit der Datensuche zu beginnen.
 
-### Freiformtabelle hinzufügen         {#adding-a-freeform-table}
+### Freiformtabelle hinzufügen          {#adding-a-freeform-table}
 
 Mit Freiformtabellen kann eine Tabelle erstellt werden, in der Daten unter Verwendung der unterschiedlichen Messwerte und Dimensionen im Bereich **[!UICONTROL Komponente]** analysiert werden.
 
 Die Größe jeder Tabelle und Grafik kann entsprechend Ihrem Bericht geändert und verschoben werden.
 
-1. Klicken Sie auf das **[!UICONTROL Bedienfeldsymbol]**.
+1. Klicken Sie auf das **[!UICONTROL Panel-Symbol]**.
 
    ![](../assets/dynamic_report_panel_1.png)
 
@@ -129,7 +129,7 @@ Mit Komponenten können Sie Ihren Berichten unterschiedliche Dimensionen, Messwe
    * **[!UICONTROL Metriken]**: Hier erhalten Sie Details zum Status einer Nachricht, z. B. ob eine Nachricht zugestellt und von einem Benutzer geöffnet wurde.
    * **[!UICONTROL Zeitraum]**: Hier können Sie für Ihre Tabelle einen Zeitraum festlegen.
 
-1. Verschieben Sie Komponenten per Drag-and-Drop in ein Bedienfeld, um Ihre Daten zu filtern.
+1. Verschieben Sie Komponenten per Drag-and-Drop in ein Panel, um Ihre Daten zu filtern.
 
 Sie können beliebig viele Komponenten verschieben und miteinander vergleichen.
 
@@ -137,11 +137,11 @@ Sie können beliebig viele Komponenten verschieben und miteinander vergleichen.
 
 Im Tab **[!UICONTROL Visualisierungen]** können Sie per Drag-and-Drop Visualisierungselemente wie Bereich, Kreis und Diagramm auswählen. Durch diese Elemente können Sie Ihre Daten unterschiedlich grafisch darstellen.
 
-1. Ziehen Sie im Tab **[!UICONTROL Visualisierungen]** ein Visualisierungselement in ein Bedienfeld.
+1. Ziehen Sie im Tab **[!UICONTROL Visualisierungen]** ein Visualisierungselement in ein Panel.
 
    ![](../assets/dynamic_report_visualization_1.png)
 
-1. Nachdem Sie eine Visualisierung zu Ihrem Bedienfeld hinzugefügt haben, erkennen Ihre Berichte die Daten in Ihrer Freiformtabelle automatisch. Wählen Sie die Visualisierungseinstellungen aus.
+1. Nachdem Sie eine Visualisierung zu Ihrem Panel hinzugefügt haben, erkennen Ihre Berichte die Daten in Ihrer Freiformtabelle automatisch. Wählen Sie die Visualisierungseinstellungen aus.
 1. Wenn mehr als eine Freiformtabelle vorhanden ist, wählen Sie im Fenster **[!UICONTROL Datenquelleneinstellungen]** die verfügbare Datenquelle, die Ihrem Diagramm hinzugefügt werden soll. Dieses Fenster können Sie auch öffnen, indem Sie den Farbpunkt neben dem Darstellungstitel auswählen.
 
    ![](../assets/dynamic_report_visualization_2.png)
