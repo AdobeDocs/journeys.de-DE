@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
 source-wordcount: '1426'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -45,11 +45,11 @@ Die **Palette** befindet sich auf der linken Bildschirmseite. Alle verfügbaren 
 
 ![](../assets/journey38.png)
 
-Mit dem Symbol **[!UICONTROL Filterelemente]** oben links können Sie die folgenden Filter anzeigen:
+Mit dem Symbol **[!UICONTROL Elemente filtern]** oben links können Sie die folgenden Filter anzeigen:
 
-* **Nur verfügbare Elemente** anzeigen: Blenden Sie nicht verfügbare Elemente in der Palette ein oder aus, z. B. die Ereignis, die einen anderen Namensraum verwenden als die in der Journey verwendeten. Standardmäßig werden nicht verfügbare Elemente ausgeblendet. Wenn Sie sie anzeigen lassen, werden sie grau dargestellt.
+* **Nur verfügbare Elemente anzeigen**: Blenden Sie nicht verfügbare Elemente in der Palette ein oder aus, z. B. die Ereignisse, die einen anderen Namespace verwenden als die in der Journey verwendeten. Standardmäßig werden nicht verfügbare Elemente ausgeblendet. Wenn Sie sie anzeigen lassen, werden sie grau dargestellt.
 
-* **Nur aktuelle Elemente** anzeigen: Mit diesem Filter können Sie neben den standardmäßig verwendeten nur die letzten fünf Ereignis und Aktionen anzeigen. Dies ist für jeden Benutzer spezifisch. Standardmäßig werden alle Elemente angezeigt.
+* **Nur aktuelle Elemente anzeigen**: Mit diesem Filter können Sie neben den nativen auch die letzten fünf Ereignisse und Aktionen anzeigen. Dies ist benutzerspezifisch. Standardmäßig werden alle Elemente angezeigt.
 
 ![](../assets/palette-filter.png)
 
