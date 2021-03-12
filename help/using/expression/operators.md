@@ -37,7 +37,7 @@ Es gibt zwei Arten von Operatoren: unäre Operatoren und binäre Operatoren. Es 
 
 Im Folgenden finden Sie eine Liste der unterstützten Operatoren:
 
-## Logisch      {#logical}
+## Logisch        {#logical}
 
 ### and
 
