@@ -48,7 +48,7 @@ Anschließend werden alle Ereignisse vom Typ addtocart ausgewählt, die nicht in
 
 >[!NOTE]
 >
->Um Felder schnell in den Ausdruck einzufügen, doppelklicken Sie auf das Feld im linken Bereich des Editors.
+>Um Felder schnell in den Ausdruck einzufügen, doppelklicken Sie auf das Feld im linken Panel des Editors.
 
 Der angegebene Zeitstempel dient als Datums- und Uhrzeitwert, der zweite als Anzahl von Tagen.
 
