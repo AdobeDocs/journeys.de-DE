@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
 source-wordcount: '404'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 98%
       + [Informationen zur Konfiguration einer benutzerdefinierten Aktion](using/action/about-custom-action-configuration.md)
       + [URL-Konfiguration](using/action/url-configuration.md)
       + [Definieren der Nachrichtenparameter](using/action/defining-the-message-parameters.md)
-   + [Integration mit Adobe Campaign Classic](using/beta/acc-action.md)
+   + [Integrieren mit Adobe Campaign Classic](using/beta/acc-action.md)
 + Verwenden von Platform-Segmenten {#configuring-segment}
    + [Informationen zu Platform-Segmenten](using/segment/about-segments.md)
    + [Erstellen eines Segments](using/segment/creating-a-segment.md)
