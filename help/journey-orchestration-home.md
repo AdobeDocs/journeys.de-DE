@@ -1,5 +1,5 @@
 ---
-keywords: Journey;Startseite;beliebte Themen
+keywords: Journeys;Startseite;beliebte Themen
 product: adobe campaign
 solution: Journey Orchestration
 title: Produktdokumentation für Journey Orchestration
@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
