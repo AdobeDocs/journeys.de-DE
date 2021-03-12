@@ -21,6 +21,6 @@ Die Integration mit Intelligent Services ermöglicht es Ihnen, die Leistungsfäh
 
 Weitere Informationen zu Intelligent Services finden Sie in der [Dokumentation](https://docs.adobe.com/content/help/de-DE/experience-platform/intelligent-services/home.html).
 
-Diese Integration ermöglicht es Ihnen, Kundenprognosen zu nutzen. Weitere Informationen finden Sie unter [Nutzung der Kundenaktivität.](../ai-services/leveraging-customer-ai.md)
+Diese Integration ermöglicht es Ihnen, Kundenprognosen zu nutzen. Weitere Informationen finden Sie unter [Nutzung von Kunden-KI.](../ai-services/leveraging-customer-ai.md)
 
 <!--* fatigue scores, see [Leveraging Journey AI](../ai-services/leveraging-fatigue-scores.md)-->
