@@ -27,7 +27,7 @@ Wir wollen nur dann eine Nachricht senden, wenn die Person weiblich ist. Die Nac
 
 ![](../assets/journeyuc1_16.png)
 
-## Voraussetzungen:        {#prerequisites}
+## Voraussetzungen:         {#prerequisites}
 
 Für unseren Anwendungsfall haben wir in Adobe Campaign Standard eine Transaktionsnachrichtenvorlage in Form einer E-Mail entwickelt. Wir verwenden eine Transaktionsnachrichtenvorlage für Ereignisse. Mehr dazu erfahren Sie auf [dieser Seite](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
 
