@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
 source-wordcount: '562'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -60,9 +60,9 @@ In diesem Bildschirm können Sie Ihren Ausdruck manuell schreiben.
 Im linken Bildschirmbereich werden die verfügbaren Felder und Funktionen angezeigt:
 
 * **[!UICONTROL Ereignisse]**: Wählen Sie eines der Felder aus, die vom eingehenden Ereignis empfangen wurden. Die angezeigte Liste der Ereignisfelder ist kontextbasiert und variiert je nach Ereignissen, die in der Journey hinzugefügt werden. [Mehr dazu](../event/about-events.md)
-* **[!UICONTROL Segmente]**: Wenn Sie ein  **[!UICONTROL Segmentqualifizierungsereignis]** abgelegt haben, wählen Sie das Segment aus, das Sie in Ihrem Ausdruck verwenden möchten. [Mehr dazu](../segment/using-a-segment.md)
+* **[!UICONTROL Segmente]**: Wenn Sie ein Ereignis vom Typ **[!UICONTROL Segmentqualifizierung]** abgelegt haben, wählen Sie das Segment aus, das Sie in Ihrem Ausdruck verwenden möchten. [Mehr dazu](../segment/using-a-segment.md)
 * **[!UICONTROL Datenquellen]**: Wählen Sie aus der Liste der Felder, die in den Feldergruppen Ihrer Datenquellen verfügbar sind. [Mehr dazu](../datasource/about-data-sources.md)
-* **[!UICONTROL Journey-Eigenschaften]**: In diesem Abschnitt werden die Fachgebiete im Zusammenhang mit der Journey für ein bestimmtes Profil zusammengefasst. [Mehr dazu](../expression/journey-properties.md)
+* **[!UICONTROL Journey-Eigenschaften]**: In diesem Abschnitt werden die technischen Felder der Journey für ein bestimmtes Profil zusammengefasst. [Mehr dazu](../expression/journey-properties.md)
 * **[!UICONTROL Funktionen]**: Wählen Sie aus der Liste der integrierten Funktionen, die eine komplexe Filterung ermöglichen. Die Funktionen sind nach Kategorien geordnet. [Mehr dazu](../expression/functions.md)
 
 ![](../assets/journey65.png)
