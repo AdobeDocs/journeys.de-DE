@@ -41,11 +41,11 @@ Im Tab **[!UICONTROL Bearbeiten]** haben Sie folgende Möglichkeiten:
 
 * **[!UICONTROL Rückgängig]**: Bricht den zuletzt im Dashboard ausgeführten Vorgang ab.
 * **[!UICONTROL Wiederholen]**: Bricht den zuletzt im Dashboard ausgeführten **[!UICONTROL Rückgängig]**-Vorgang ab.
-* **[!UICONTROL Alle löschen]**: Löscht alle Bedienfelder in Ihrem Dashboard.
+* **[!UICONTROL Alle löschen]**: Löscht alle Panels in Ihrem Dashboard.
 
 Im Tab **[!UICONTROL Einfügen]** können Sie Ihre Berichte anpassen, indem Sie Diagramme und Tabellen zum Dashboard hinzufügen:
 
-* **[!UICONTROL Neues leeres Bedienfeld]**: Fügt ein neues leeres Bedienfeld zu Ihrem Dashboard hinzu.
+* **[!UICONTROL Neues leeres Panel]**: Fügt ein neues leeres Panel zu Ihrem Dashboard hinzu.
 * **[!UICONTROL Neue Freiform]**: Fügt eine neue Freiformtabelle zu Ihrem Dashboard hinzu.
 * **[!UICONTROL Neue Zeile]**: Fügt einen neuen Kantengraphen zu Ihrem Dashboard hinzu.
 * **[!UICONTROL Neuer Balken]**: Fügt ein neues Balkendiagramm zu Ihrem Dashboard hinzu.
@@ -56,7 +56,7 @@ In den linken Tabs können Sie nach Bedarf Berichte erstellen und Daten filtern.
 
 Über diese Tabs haben Sie Zugriff auf folgende Elemente:
 
-* **[!UICONTROL Bedienfelder]**: Fügt Ihrem Bericht ein leeres Bedienfeld oder eine Freiform hinzu, um Ihre Daten zu filtern. Weiterführende Informationen hierzu finden Sie im Abschnitt [Bedienfelder hinzufügen](../reporting/creating-your-journey-reports.md#adding-panels).
+* **[!UICONTROL Panels]**: Fügt Ihrem Bericht ein leeres Panel oder eine Freiform hinzu, um Ihre Daten zu filtern. Weiterführende Informationen hierzu finden Sie im Abschnitt [Panels hinzufügen](../reporting/creating-your-journey-reports.md#adding-panels).
 * **[!UICONTROL Visualisierungen]**: Legen Sie die gewünschten Visualisierungselemente ab, um Ihren Bericht grafisch aufzubereiten. Weiterführende Informationen hierzu finden Sie im Abschnitt [Visualisierungen hinzufügen](../reporting/creating-your-journey-reports.md#adding-visualizations).
 * **[!UICONTROL Komponenten]**: Passen Sie Ihren Bericht mit unterschiedlichen Dimensionen, Metriken, Segmenten und Zeiträumen an. Weiterführende Informationen hierzu finden Sie im Abschnitt [Komponenten hinzufügen](../reporting/creating-your-journey-reports.md#adding-components).
 
