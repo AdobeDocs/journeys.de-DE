@@ -12,7 +12,7 @@ ht-degree: 100%
 ---
 
 
-# Verwenden von Journey AI {#concept_dsh_1ry_wfb}
+# Verwenden von Journey-KI {#concept_dsh_1ry_wfb}
 
 Dieser Anwendungsfall zeigt, wie Sie Ermüdungswerte verwenden können, um zu verhindern, dass Sie Kunden bei Journeys überfordern.
 
