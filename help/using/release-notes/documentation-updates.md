@@ -77,7 +77,7 @@ Lesen Sie auch die [!DNL Journey Orchestration]-[Versionshinweise](../release-no
 * Die Auslösung mehrerer Ereignisse wurde dem Abschnitt „Testmodus“ hinzugefügt. [Mehr dazu](../building-journeys/testing-the-journey.md#firing_events)
 * Der Abschnitt „Testmodus“ wurde hinsichtlich des neuen Parameters **[!UICONTROL Wartezeit im Test]** aktualisiert. [Mehr dazu](../building-journeys/testing-the-journey.md)
 * Der Abschnitt „Testprotokoll“ wurde mit Fehlercodes und Antworten für externe Aufrufe aktualisiert. [Mehr dazu](../building-journeys/testing-the-journey.md#viewing_logs)
-* Das Zeitzonen-Management ist jetzt gebündelt im Fenster der Journey-Eigenschaften verfügbar. Mehr dazu [hier](../building-journeys/changing-properties.md#timezone) und [hier](../building-journeys/timezone-management.md)
+* Das Zeitzonen-Management ist jetzt gebündelt im Panel der Journey-Eigenschaften verfügbar. Mehr dazu [hier](../building-journeys/changing-properties.md#timezone) und [hier](../building-journeys/timezone-management.md)
 * Der Abschnitt „Journey-Designer“ wurde aktualisiert, um die jüngsten Verbesserungen widerzuspiegeln. [Mehr dazu](../building-journeys/using-the-journey-designer.md)
 * Die Beschreibung der Benutzeroberfläche wurde mit Informationen zur Kontexthilfe aktualisiert. [Mehr dazu](../about/user-interface.md#section_ksq_zr1_ffb)
 * Beim Durchsuchen von **XDM-Feldern** wird jetzt der Benutzername angezeigt. Die entsprechenden Abschnitte wurden aktualisiert. [Mehr dazu](../about/user-interface.md#friendly-names-display)
