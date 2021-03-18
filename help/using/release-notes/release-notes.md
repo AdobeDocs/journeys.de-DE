@@ -4,13 +4,13 @@ solution: Journey Orchestration
 title: Versionshinweise
 description: Versionshinweise
 feature: Journeys
-role: Geschäftspraktiker
+role: Business Practitioner
 level: Anfänger
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
 source-wordcount: '2268'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Sie können auch die neusten [Aktualisierungen der Dokumentation](../release-not
 * Beim Konfigurieren eines Ereignisses werden jetzt standardmäßig nur die für die XDM-Validierung erforderlichen Felder vorausgewählt. Die Auswahl dieser Felder kann nicht aufgehoben werden.
 * In der Journey-Palette wurde ein neuer Filter hinzugefügt. Sie können damit neben den nativen nur die letzten fünf verwendeten Ereignisse und Aktionen anzeigen. Dies ist benutzerspezifisch. Standardmäßig werden alle Elemente angezeigt. [Mehr dazu](../building-journeys/using-the-journey-designer.md#palette)
 * Beim Erstellen einer neuen Journey werden jetzt Elemente, die nicht als erster Schritt auf der Arbeitsfläche abgelegt werden können, ausgeblendet. Dies betrifft alle Aktionen, die Bedingungsaktivität, die Wartezeit und die Reaktion.
-* Im linken Bereich des erweiterten Ausdruck-Editors werden Funktionen nun unter einem **Funktionen**-Abschnitt am Ende der Liste gruppiert.
+* Im linken Bereich des erweiterten Ausdruckseditors werden Funktionen nun am Ende der Liste unter dem Abschnitt **Funktionen** gruppiert dargestellt.
 
 ## Version Januar 2021 {#january-2021-release}
 
