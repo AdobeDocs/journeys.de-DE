@@ -4,13 +4,13 @@ solution: Journey Orchestration
 title: Konfigurieren der Ereignisse
 description: Erfahren Sie, wie Sie die Ereignisse für die Journey mit dem erweiterten Anwendungsfall konfigurieren
 feature: Journeys
-role: Geschäftspraktiker
-level: Fortgeschr.
+role: Business Practitioner
+level: Fortgeschrittene
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
