@@ -4,13 +4,13 @@ solution: Journey Orchestration
 title: Datenabruffelder für journeyStep-Ereignisse
 description: Datenabruffelder für journeyStep-Ereignisse
 feature: Journeys
-role: Geschäftspraktiker
-level: Fortgeschr.
+role: Business Practitioner
+level: Fortgeschritten
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
