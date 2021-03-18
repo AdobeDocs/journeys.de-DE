@@ -4,8 +4,8 @@ solution: Journey Orchestration
 title: Segmentqualifizierungsereignisse
 description: Mehr über Segmentqualifizierungsereignisse
 feature: Journeys
-role: Geschäftspraktiker
-level: Fortgeschr.
+role: Business Practitioner
+level: Fortgeschrittene
 translation-type: tm+mt
 source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
 workflow-type: tm+mt
