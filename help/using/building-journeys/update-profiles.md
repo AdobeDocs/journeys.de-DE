@@ -4,13 +4,13 @@ solution: Journey Orchestration
 title: Springen zwischen Journeys
 description: Springen zwischen Journeys
 feature: Journeys
-role: Geschäftspraktiker
-level: Fortgeschr.
+role: Business Practitioner
+level: Fortgeschrittene
 translation-type: tm+mt
 source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
 workflow-type: tm+mt
 source-wordcount: '448'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -32,11 +32,11 @@ Mit der Aktionsaktivität **[!UICONTROL Profil aktualisieren]** können Sie ein 
 
 Im Testmodus wird die Aktualisierung des Profils nicht simuliert. Die Aktualisierung wird für das Testprofil durchgeführt.
 
-Nur Profil können im Testmodus in eine Journey wechseln. Sie können entweder ein neues Profil erstellen oder ein vorhandenes Profil in ein Test-Profil umwandeln. In Adobe Experience Platform können Sie die Attribute von Profilen über API-Aufrufe aktualisieren, jedoch nicht über die Oberfläche. Am einfachsten ist dies mit der Action-Aktivität **Profil aktualisieren** und dem booleschen Testfeld des Profils von &quot;false&quot;in &quot;true&quot;.
+Nur Testprofile können im Testmodus in eine Journey eintreten. Sie können entweder ein neues Testprofil erstellen oder ein vorhandenes Profil in ein Testprofil umwandeln. In Adobe Experience Platform können Sie die Attribute von Profilen über API-Aufrufe aktualisieren, jedoch nicht über die Benutzeroberfläche. Am einfachsten geht dies, wenn Sie die Aktionsaktivität **Profil aktualisieren** verwenden und das boolesche Feld des Testprofils von „false“ auf „true“ ändern.
 
 Weitere Informationen zum Testmodus finden Sie in diesem [Abschnitt](../building-journeys/testing-the-journey.md).
 
-## Verwenden des Profil-Updates
+## Verwenden der Profilaktualisierung
 
 1. Entwerfen Sie Ihre Journey, indem Sie mit einem Ereignis beginnen. Siehe diesen [Abschnitt](../building-journeys/journey.md).
 
