@@ -4,13 +4,13 @@ solution: Journey Orchestration
 title: split
 description: Erfahren Sie mehr über die Funktion „Aufspaltung“.
 feature: Journeys
-role: Dateningenieur
+role: Data Engineer
 level: Erfahren
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
 source-wordcount: '67'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
