@@ -4,13 +4,13 @@ solution: Journey Orchestration
 title: inSegment
 description: Erfahren Sie mehr über die Funktion „inSegment“
 feature: Journeys
-role: Dateningenieur
+role: Data Engineer
 level: Erfahren
 translation-type: tm+mt
 source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 70%
+ht-degree: 72%
 
 ---
 
