@@ -4,13 +4,13 @@ solution: Journey Orchestration
 title: nowWithDelta
 description: Erfahren Sie mehr über die Funktion „nowWithDelta“
 feature: Journeys
-role: Dateningenieur
+role: Data Engineer
 level: Erfahren
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
