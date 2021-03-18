@@ -4,13 +4,13 @@ solution: Journey Orchestration
 title: Testen der Journey
 description: 'Erfahren Sie mehr über das Testen von Journeys '
 feature: Journeys
-role: Geschäftspraktiker
-level: Fortgeschr.
+role: Business Practitioner
+level: Fortgeschritten
 translation-type: tm+mt
 source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
 workflow-type: tm+mt
 source-wordcount: '1560'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Bevor Sie Ihre Journey testen können, müssen Sie alle eventuell vorhandenen Fe
 
 Sie können Ihre Journey vor der Veröffentlichung mit Testprofilen testen. Auf diese Weise können Sie analysieren, wie sich Kontakte in der Journey bewegen, und Fehler vor der Veröffentlichung beheben.
 
-Nur Profil können im Testmodus in eine Journey wechseln. Sie können entweder [ein neues Profil erstellen](../building-journeys/testing-the-journey.md#create-test-profile) oder [ein vorhandenes Profil in ein Test-Profil](../building-journeys/testing-the-journey.md#turning-profile-into-test) umwandeln.
+Nur Testprofile können im Testmodus in eine Journey eintreten. Sie können entweder [ein neues Testprofil erstellen](../building-journeys/testing-the-journey.md#create-test-profile) oder [ein vorhandenes Profil in ein Testprofil umwandeln](../building-journeys/testing-the-journey.md#turning-profile-into-test).
 
 Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 
@@ -55,19 +55,19 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 * Sie können den Testmodus beliebig oft aktivieren/deaktivieren.
 * Sie können Ihre Journey nicht ändern, wenn der Testmodus aktiviert ist. Im Testmodus können Sie die Journey direkt veröffentlichen, ohne den Testmodus zuvor deaktivieren zu müssen.
 
-## Umwandeln eines Profils in ein Profil{#turning-profile-into-test}
+## Umwandeln eines Profils in ein Testprofil{#turning-profile-into-test}
 
-Sie können ein vorhandenes Profil in ein Profil umwandeln. In Adobe Experience Platform können Sie die Attribute von Profilen über API-Aufrufe aktualisieren, jedoch nicht über die Oberfläche.
+Sie können ein vorhandenes Profil in ein Testprofil umwandeln. In Adobe Experience Platform können Sie die Attribute von Profilen über API-Aufrufe aktualisieren, jedoch nicht über die Oberfläche.
 
-Am einfachsten ist dies mit der Action-Aktivität **Profil aktualisieren** und dem booleschen Testfeld des Profils von &quot;false&quot;in &quot;true&quot;. Siehe [diesen Abschnitt](../building-journeys/update-profiles.md#using-the-test-mode).
+Am einfachsten geht dies, wenn Sie die Aktionsaktivität **Profil aktualisieren** verwenden und das boolesche Feld des Testprofils von „false“ auf „true“ ändern. Siehe [diesen Abschnitt](../building-journeys/update-profiles.md#using-the-test-mode).
 
 ## Erstellen eines Testprofils{#create-test-profile}
 
-Wenn Sie ein neues Profil erstellen möchten, erfolgt das gleiche Verfahren wie beim Erstellen eines Profils in der Adobe Experience Platform. Er wird über API-Aufrufe ausgeführt. Weitere Informationen finden Sie auf dieser [Seite](https://docs.adobe.com/content/help/de-DE/experience-platform/profile/home.html)
+Der Prozess zum Erstellen eines neuen Testprofils entspricht dem Vorgang zum Erstellen eines Profils in Adobe Experience Platform. Er wird über API-Aufrufe ausgeführt. Weitere Informationen finden Sie auf dieser [Seite](https://docs.adobe.com/content/help/de-DE/experience-platform/profile/home.html)
 
 Sie müssen ein Profilschema verwenden, das das Mixin für Profiltestdetails enthält. Die Markierung „testProfile“ ist Teil dieses Mixins.
 
-Achten Sie beim Erstellen eines Profils darauf, den Wert zu übergeben: testProfile = true.
+Achten Sie beim Erstellen eines Profils darauf, diesen Wert zu übergeben: testProfile = true.
 
 Beachten Sie, dass Sie auch ein vorhandenes Profil aktualisieren können, um die Markierung „testProfile“ in „true“ zu ändern.
 
