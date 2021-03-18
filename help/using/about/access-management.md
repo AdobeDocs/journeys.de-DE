@@ -4,13 +4,13 @@ solution: Journey Orchestration
 title: Zugriffsverwaltung
 description: Erfahren Sie mehr über die Zugriffsverwaltung
 feature: Journeys
-role: Geschäftspraktiker
-level: Fortgeschr.
+role: Business Practitioner
+level: Fortgeschrittene
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ In der Admin Console können Sie Ihren Benutzern eines der folgenden vordefinier
    * Journeys verwalten
    * Journeys veröffentlichen
    * Berichte verwalten
-   * Ereignisse, Datenquellen und Aktionen lesen
+   * Lesen von Ereignissen, Datenquellen und Aktionen
 
 Wenn die nativen Profile für Ihre Anforderungen nicht ausreichend sind, können Sie auch eigene Produktprofile erstellen.
 Benutzer müssen stets mit einem Produktprofil verknüpft sein, damit Sie ihnen bestimmte native Berechtigungen zuweisen können, z. B.:
