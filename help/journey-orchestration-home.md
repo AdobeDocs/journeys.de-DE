@@ -5,13 +5,13 @@ solution: Journey Orchestration
 title: Produktdokumentation für Journey Orchestration
 topic: Premium
 feature: Journeys
-role: Geschäftspraktiker
+role: Business Practitioner
 level: Anfänger
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
