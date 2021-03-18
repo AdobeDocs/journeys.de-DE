@@ -4,13 +4,13 @@ solution: Journey Orchestration
 title: 'Konfigurieren der Datenquelle '
 description: Erfahren Sie, wie Sie die Datenquelle für die Journey mit dem einfachen Anwendungsfall konfigurieren können
 feature: Journeys
-role: Geschäftspraktiker
-level: Fortgeschr.
+role: Business Practitioner
+level: Fortgeschrittene
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
 source-wordcount: '144'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
