@@ -4,13 +4,13 @@ solution: Journey Orchestration
 title: Auswählen des Namespace
 description: Erfahren Sie, wie Sie den Namespace auswählen
 feature: Journeys
-role: Geschäftspraktiker
-level: Fortgeschr.
+role: Business Practitioner
+level: Fortgeschritten
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
