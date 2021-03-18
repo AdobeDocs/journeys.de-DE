@@ -4,13 +4,13 @@ solution: Journey Orchestration
 title: Arbeiten mit Adobe Campaign
 description: Erfahren Sie mehr über Adobe Campaign-Aktionen
 feature: Journeys
-role: Geschäftspraktiker
-level: Fortgeschr.
+role: Business Practitioner
+level: Fortgeschrittene
 translation-type: tm+mt
 source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
 workflow-type: tm+mt
 source-wordcount: '316'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Im Folgenden werden die Konfigurationsschritte beschrieben:
    >
    >Dieser Test bestätigt Folgendes:
    >
-   >Der Host ist &quot;.Kampagne.adobe.com&quot;, &quot;.Kampagne-sandbox.adobe.com&quot;, &quot;.Kampagne-demo.adobe.com&quot;, &quot;.ats.adobe.com&quot;oder &quot;.adls.adobe.com&quot;.
+   >Der Host ist „.campaign.adobe.com“, „.campaign-sandbox.adobe.com“, „.campaign-demo.adobe.com“, „.ats.adobe.com“ oder „.adls.adobe.com“.
    >
    >die URL beginnt mit https,
    >
