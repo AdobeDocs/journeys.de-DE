@@ -7,9 +7,9 @@ feature: Journeys
 role: Business Practitioner
 level: Fortgeschritten
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1064'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,7 @@ Alternativ können Sie auf [!DNL Journey Orchestration] über die Experience Clo
 >[!CONTEXTUALHELP]
 >id="jo_home"
 >title="Informationen zur Liste der Journeys"
->abstract="Die Liste der Journeys ermöglicht es Ihnen, alle Ihre Journeys gleichzeitig anzuzeigen, deren Status zu sehen und allgemeine Aktionen durchzuführen. Sie können Ihre Journeys duplizieren, stoppen oder löschen. Je nach Journey stehen bestimmte Aktionen möglicherweise nicht zur Verfügung. Sie können beispielsweise eine geschlossene Journey nicht löschen oder erneut starten. Stattdessen können Sie eine neue Version davon erstellen oder sie duplizieren. Sie können auch die Suchleiste verwenden, um nach einer Journey zu suchen."
+>abstract="Die Liste der Journeys ermöglicht es Ihnen, alle Ihre Journeys gleichzeitig anzuzeigen, deren Status zu sehen und allgemeine Aktionen durchzuführen."
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Demovideo ansehen"
 
 Die Menüs am oberen Seitenrand bieten Zugriff auf die verschiedenen Funktionen von [!DNL Journey Orchestration]: **[!UICONTROL Startseite]** (die Journeys), **[!UICONTROL Datenquellen]**, **[!UICONTROL Ereignisse]**, **[!UICONTROL Aktionen]**.
