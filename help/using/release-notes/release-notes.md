@@ -7,10 +7,10 @@ feature: Journeys
 role: Business Practitioner
 level: Anfänger
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 455b0f083d598e70b8a3f33c7f21432628fef8b5
 workflow-type: tm+mt
-source-wordcount: '2268'
-ht-degree: 100%
+source-wordcount: '2440'
+ht-degree: 93%
 
 ---
 
@@ -19,6 +19,15 @@ ht-degree: 100%
 
 Auf dieser Seite werden alle neuen Funktionen und Verbesserungen bei Journey Orchestration aufgelistet.
 Sie können auch die neusten [Aktualisierungen der Dokumentation](../release-notes/documentation-updates.md) einsehen.
+
+## Version März 2021 {#march-2021-release}
+
+### Neuheiten 
+
+* Journey wurde ein neuer Status hinzugefügt. Wenn eine Journey beendet oder manuell geschlossen wird, wechselt ihr Status 30 Tage nach dem Schließen von **Geschlossen** zu **Fertig**. Dadurch können Sie inaktive Journey leichter identifizieren und gleichzeitig sicherstellen, dass alle anwesenden Personen Zeit haben, die Journey zu beenden. [Mehr dazu](../building-journeys/journey.md#ending_a_journey)
+* In den rechten Fenstern der Journey werden schreibgeschützte Aktivitäten jetzt standardmäßig ausgeblendet. Diese Vereinfachung der Oberfläche hilft Ihnen, Ihre Aktivitäten einfacher zu konfigurieren. Um sie anzuzeigen, klicken Sie auf das Symbol **Schreibgeschützte Aktivitäten anzeigen**, das in der oberen linken Ecke des Konfigurationsbereichs verfügbar ist. [Mehr dazu](../building-journeys/using-the-journey-designer.md#configuration_pane)
+* Im Testmodus wurde im Bildschirm **Ereignis configuration** das Feld **Key**, das zur Definition der ID des Profils verwendet wird, in **Profil-ID** umbenannt, um eine bessere Benutzererfahrung zu erzielen. [Weitere Infos](../building-journeys/testing-the-journey.md).
+* Bei Ereignissen mit Reaktion kann die Timeout-Dauer jetzt nur zwischen 40 und 30 Tagen eingestellt werden. Beim Testen einer Journey, die ein Ereignis für die Reaktion verwendet, beträgt der Standardwert für den Testmodus **[!UICONTROL Wartezeit]** und der Mindestwert jetzt 40 Sekunden. [Weitere Infos](../building-journeys/reaction-events.md).
 
 ## Version Februar 2021 {#february-2021-release}
 
