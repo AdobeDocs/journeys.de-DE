@@ -7,10 +7,10 @@ feature: Journeys
 role: Business Practitioner
 level: Fortgeschritten
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 4b30ac80a2dfb5b0675a88ecb5abf81e57c64097
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 100%
+source-wordcount: '420'
+ht-degree: 88%
 
 ---
 
@@ -32,7 +32,7 @@ Im Folgenden werden die verschiedenen Schritte zum Konfigurieren der Reaktionser
 1. Fügen Sie der Reaktion einen **[!UICONTROL Titel]** hinzu. Dieser Schritt ist optional.
 1. Wählen Sie aus der Dropdown-Liste die Aktionsaktivität aus, auf die Sie reagieren möchten. Sie können jede Aktionsaktivität auswählen, die in den vorherigen Schritten des Pfades platziert wurde.
 1. Wählen Sie je nach ausgewählter Aktion (E-Mail, SMS oder Push-Benachrichtigung) aus, worauf Sie reagieren möchten.
-1. Sie können eine Bedingung als optionalen Schritt definieren. Beispielsweise können Sie nach einer E-Mail-Aktion zwei Pfade erstellen, einen mit einem Reaktionsereignis zum Verfolgen von Klicks nur für VIP-Kunden und einen mit einem Reaktionsereignis zum Verfolgen von Klicks, die von Frauen ausgeführt wurden.
+1. Sie können einen Ereignis-Timeout (zwischen 40 und 30 Tagen) und einen Timeout-Pfad definieren. Dadurch wird ein zweiter Pfad für Personen erstellt, die nicht innerhalb der festgelegten Dauer reagiert haben. Beim Testen einer Journey, die ein Ereignis für die Reaktion verwendet, beträgt der Standardwert für den Testmodus **[!UICONTROL Wartezeit]** 40 Sekunden. Siehe [diesen Abschnitt](../building-journeys/testing-the-journey.md).
 
 >[!NOTE]
 >
