@@ -7,10 +7,10 @@ feature: Journeys
 role: Business Practitioner
 level: Fortgeschritten
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 409197458ba32f9fdb3e42e4b06eae2814eff9f8
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 100%
+source-wordcount: '570'
+ht-degree: 80%
 
 ---
 
@@ -57,9 +57,20 @@ Hier finden Sie die wichtigsten Schritte für das Erstellen und Veröffentlichen
 
 ## Beenden einer Journey {#ending_a_journey}
 
-Es gibt zwei Möglichkeiten, eine Journey zu beenden:
+Eine Journey kann aus zwei Gründen enden:
 
 * Die Person kommt bei der letzten Aktivität eines Pfades an. Diese letzte Aktivität kann eine Endaktivität oder eine andere Aktivität sein. Sie müssen einen Pfad nicht mit einer Endaktivität beenden. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/end-activity.md).
 * Die Person kommt bei einer Bedingungsaktivität (oder einer Warteaktivität mit einer Bedingung) an und erfüllt keine der Bedingungen.
 
 Die Person kann dann wieder in die Journey eintreten, wenn der erneute Zutritt erlaubt ist. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/changing-properties.md).
+
+Eine Journey kann aus den folgenden Gründen geschlossen werden:
+
+* Die Journey wird manuell über die Schaltfläche **[!UICONTROL Schließen an neue Eingänge]** geschlossen.
+* Das Enddatum des Journey ist.
+
+Wenn eine Journey geschlossen wird (aus einem der oben genannten Gründe), hat sie den Status **[!UICONTROL Geschlossen (kein Eingang)]**. Die Journey erlaubt den Eintritt neuer Kontakte nicht mehr. Personen, die sich bereits in der Journey befinden, beenden die Journey wie gewohnt. Nach dem standardmäßigen globalen Timeout von 30 Tagen wechselt die Journey zum Status **Fertig**. Siehe diesen [Abschnitt](../building-journeys/changing-properties.md#entrance).
+
+Falls Sie den Fortschritt aller Personen im Journey stoppen müssen, können Sie ihn stoppen. Wenn Sie die Journey beenden, werden alle Personen in der Journey zeitversetzt.
+
+Weitere Informationen zum manuellen Schließen oder Beenden einer Journey finden Sie in diesem [Abschnitt](../building-journeys/terminating-a-journey.md).
