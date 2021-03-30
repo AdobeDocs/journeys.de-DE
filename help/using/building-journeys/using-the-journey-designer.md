@@ -7,10 +7,10 @@ feature: Journeys
 role: Business Practitioner
 level: Fortgeschritten
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 7755822065eb0bcc44f78e0e36c53ce73ac60ada
 workflow-type: tm+mt
-source-wordcount: '1426'
-ht-degree: 100%
+source-wordcount: '1450'
+ht-degree: 98%
 
 ---
 
@@ -66,6 +66,8 @@ Die **Arbeitsfläche** ist der zentrale Bereich im Journey-Designer. In diesem B
 Der **Konfigurationsbereich für die Aktivität** wird angezeigt, wenn Sie auf eine Aktivität in der Palette klicken. Füllen Sie die erforderlichen Felder aus. Klicken Sie auf das Symbol **[!UICONTROL Löschen]**, um die Aktivität zu löschen. Klicken Sie auf **[!UICONTROL Abbrechen]**, um die Änderungen abzubrechen, oder auf **[!UICONTROL OK]**, um zu bestätigen. Um Aktivitäten zu löschen, können Sie auch eine Aktivität (oder mehrere) auswählen und die Rücktaste drücken. Durch Drücken der Esc-Taste wird der Konfigurationsbereich für die Aktivität geschlossen.
 
 Auf der Arbeitsfläche werden Ihre Aktions- und Ereignisaktivitäten durch ein Symbol mit dem Namen des Ereignisses oder der Aktion dargestellt. Im Konfigurationsbereich für die Aktivität können Sie das Feld **[!UICONTROL Titel]** verwenden, um dem Aktivitätsnamen ein Suffix hinzuzufügen. Diese Titel helfen Ihnen dabei, die Verwendung von Ereignissen und Aktionen in einen Zusammenhang zu stellen, insbesondere wenn Sie dasselbe Ereignis oder dieselbe Aktion mehrmals in Ihrer Journey verwenden. Sie können auch die Titel sehen, die Sie im Reporting für [!DNL Journey Orchestration] hinzugefügt haben. Sie können auch Titel für Ihre Bedingungsaktivitäten definieren.
+
+Standardmäßig sind schreibgeschützte Felder ausgeblendet. Um sie anzuzeigen, klicken Sie auf das Symbol **Schreibgeschützte Aktivitäten anzeigen** oben links im Konfigurationsbereich.
 
 ![](../assets/journey59bis.png)
 
