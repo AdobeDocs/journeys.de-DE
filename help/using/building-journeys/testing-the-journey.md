@@ -7,10 +7,10 @@ feature: Journeys
 role: Business Practitioner
 level: Fortgeschritten
 translation-type: tm+mt
-source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
+source-git-commit: 4b30ac80a2dfb5b0675a88ecb5abf81e57c64097
 workflow-type: tm+mt
-source-wordcount: '1560'
-ht-degree: 100%
+source-wordcount: '1635'
+ht-degree: 93%
 
 ---
 
@@ -31,13 +31,21 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 
    ![](../assets/journeytest1.png)
 
-1. Verwenden Sie den Parameter **[!UICONTROL Wartezeit im Test]** unten links, um die Dauer jeder Warteaktivität im Testmodus festzulegen. Die standardmäßige Dauer beträgt 10 Sekunden. Dadurch erhalten Sie die Testergebnisse schnell. Dieser Parameter wird nur angezeigt, wenn Sie Ihrer Journey mindestens eine Warteaktivität hinzugefügt haben.
+1. Verwenden Sie den Parameter **[!UICONTROL Wartezeit]** in der unteren linken Ecke, um die Aktivität zu definieren, die jeder Wartezeit- und Ereignis-Timeout-Wert im Testmodus hat. Die Standardzeit beträgt 10 Sekunden für Wartezeiten und Ereignis-Timeouts. Dadurch erhalten Sie die Testergebnisse schnell. Dieser Parameter wird nur angezeigt, wenn Sie Ihrer Journey mindestens eine Warteaktivität hinzugefügt haben.
 
    ![](../assets/journeytest_wait.png)
 
-1. Klicken Sie auf **[!UICONTROL Ereignis auslösen]**, um Ereignisse zu konfigurieren und an die Journey zu senden. Vergewissern Sie sich, dass Ereignisse gesendet werden, die im Zusammenhang mit Testprofilen stehen. Siehe [Auslösen Ihrer Ereignisse](#firing_events).
+   >[!NOTE]
+   >
+   >Wenn ein Ereignis für die Reaktion in einer Journey verwendet wird, beträgt der Standardwert für die Wartezeit und der Mindestwert 40 Sekunden. Siehe [diesen Abschnitt](../building-journeys/reaction-events.md)
+
+1. Klicken Sie auf **[!UICONTROL Ereignis auslösen]**, um Ereignisse zu konfigurieren und an die Journey zu senden.
 
    ![](../assets/journeyuctest1.png)
+
+1. Konfigurieren Sie die verschiedenen erwarteten Felder. Geben Sie im Feld **Profil-ID** den Wert des Felds ein, das zum Identifizieren des Profils verwendet wird. Es kann beispielsweise die E-Mail-Adresse sein. Vergewissern Sie sich, dass Ereignisse gesendet werden, die im Zusammenhang mit Testprofilen stehen. Siehe [Auslösen Ihrer Ereignisse](#firing_events).
+
+   ![](../assets/journeyuctest1-bis.png)
 
 1. Nachdem die Ereignisse eingegangen sind, klicken Sie auf die Schaltfläche **[!UICONTROL Protokoll anzeigen]**, um das Testergebnis anzuzeigen und zu überprüfen. Siehe [Anzeigen der Protokolle](#viewing_logs).
 
@@ -123,7 +131,7 @@ Mit der Schaltfläche **[!UICONTROL Ereignis auslösen]** können Sie ein Ereign
 >
 >Wenn Sie ein Ereignis im Testmodus auslösen, wird ein reales Ereignis generiert, d. h. es beeinflusst auch andere Journeys, die dieses Ereignis überwachen.
 
-Als Voraussetzung müssen Sie wissen, welche Profile in Adobe Experience Platform als Testprofile gekennzeichnet sind. Der Testmodus lässt nur diese Profile in der Journey zu und das Ereignis muss eine ID enthalten. Die erwartete ID hängt von der Ereigniskonfiguration ab. Sie kann beispielsweise eine ECID sein.
+Als Voraussetzung müssen Sie wissen, welche Profile in Adobe Experience Platform als Testprofile gekennzeichnet sind. Der Testmodus lässt nur diese Profile in der Journey zu und das Ereignis muss eine ID enthalten. Die erwartete ID hängt von der Ereigniskonfiguration ab. Es kann sich beispielsweise um eine ECID oder eine E-Mail-Adresse handeln. Der Wert dieses Schlüssels muss im Feld **Profil-ID** hinzugefügt werden.
 
 Wenn Ihre Journey mehrere Ereignisse enthält, wählen Sie ein Ereignis aus der Dropdown-Liste aus. Konfigurieren Sie dann für jedes Ereignis die weitergeleiteten Felder und die Ausführung des Ereignisversands. Über die Benutzeroberfläche können Sie die richtigen Informationen in der Ereignis-Payload angeben und prüfen, ob der Informationstyp korrekt ist. Der Testmodus speichert die zuletzt in einer Testsitzung verwendeten Parameter zur späteren Verwendung.
 
