@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: Erstellen eines Testprofils
 description: 'Informationen zur Erstellung von Test-Profile '
 translation-type: tm+mt
-source-git-commit: 7123cff30039d6a5174b0272db33e4a9d15d4ca9
+source-git-commit: 86df088c3e2da43318de16b7ae51ff0e3a20d55b
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 10%
@@ -13,8 +13,6 @@ ht-degree: 10%
 
 
 # Erstellen von Test-Profilen {#create-test-profiles}
-
-![](../assets/do-not-localize/badge.png)
 
 Beim Einsatz des Testmodus in einer Journey sind Profil erforderlich. Informationen zur Verwendung des Testmodus finden Sie in [diesem Abschnitt](../building-journeys/testing-the-journey.md).
 
