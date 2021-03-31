@@ -7,9 +7,9 @@ user-guide-description: Enthält Anleitungen zum Implementieren und Erstellen vo
 index: true
 feature: Journeys
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '406'
 ht-degree: 100%
 
 ---
@@ -66,6 +66,7 @@ ht-degree: 100%
       + [Journey-Versionen](using/building-journeys/journey-versions.md)
       + [Abbrechen einer Journey](using/building-journeys/terminating-a-journey.md)
       + [Zeitzonen-Management](using/building-journeys/timezone-management.md)
+      + [Testprofile](using/building-journeys/creating-test-profiles.md)
    + Aktivitäten {#about-journey-building}
       + Ereignisaktivitäten {#events-activities}
          + [Über Ereignisaktivitäten](using/building-journeys/event-activities.md)
