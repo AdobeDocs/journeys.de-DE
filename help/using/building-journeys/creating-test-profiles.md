@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Erstellen eines Testprofils
 description: 'Informationen zur Erstellung von Test-Profile '
 translation-type: tm+mt
-source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
+source-git-commit: 7123cff30039d6a5174b0272db33e4a9d15d4ca9
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '728'
 ht-degree: 10%
 
 ---
@@ -16,9 +16,11 @@ ht-degree: 10%
 
 ![](../assets/do-not-localize/badge.png)
 
-Beim Einsatz des Testmodus in einer Journey sind Profil erforderlich. Sie können entweder ein [vorhandenes Profil](../building-journeys/creating-test-profiles.md#turning-profile-into-test) in ein Test-Profil umwandeln oder [ein Test-Profil](../building-journeys/creating-test-profiles.md#create-test-profiles-csv) erstellen. Informationen zur Verwendung des Testmodus finden Sie in [diesem Abschnitt](../building-journeys/testing-the-journey.md).
+Beim Einsatz des Testmodus in einer Journey sind Profil erforderlich. Informationen zur Verwendung des Testmodus finden Sie in [diesem Abschnitt](../building-journeys/testing-the-journey.md).
 
-Es gibt verschiedene Möglichkeiten, ein Profil in Adobe Experience Platform zu erstellen. In dieser Dokumentation konzentrieren wir uns auf zwei Methoden: Hochladen einer [csv-Datei](../building-journeys/creating-test-profiles.md#create-test-profiles-csv) und Verwenden von [API-Aufrufen](../building-journeys/creating-test-profiles.md#create-test-profiles-api). Sie können auch eine JSON-Datei in einen Dataset hochladen, siehe [Datenaufnahmendokumentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset)
+Es gibt verschiedene Möglichkeiten, ein Profil in Adobe Experience Platform zu erstellen. In dieser Dokumentation konzentrieren wir uns auf zwei Methoden: Hochladen einer [csv-Datei](../building-journeys/creating-test-profiles.md#create-test-profiles-csv) und Verwenden von [API-Aufrufen](../building-journeys/creating-test-profiles.md#create-test-profiles-api). Sie können auch eine JSON-Datei in einen Datensatz hochladen. Weitere Informationen finden Sie in der [Datenaufnahmendokumentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset).
+
+Mit diesen Importmethoden können Sie auch Profil-Attribute aktualisieren. Auf diese Weise können Sie ein vorhandenes Profil in ein TestProfil umwandeln. Verwenden Sie einfach einen ähnlichen Datei- oder API-Aufruf und schließen Sie nur das Feld &quot;testProfile&quot;mit dem Wert &quot;true&quot;ein.
 
 Das Erstellen eines Profils zum Testen ähnelt dem Erstellen regulärer Profil in Adobe Experience Platform. Weitere Informationen finden Sie in der [Kundendokumentation in Echtzeit](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
 
@@ -68,44 +70,6 @@ Anschließend müssen Sie **den Datensatz** erstellen, in den die Profil importi
 >[!NOTE]
 >
 > Weitere Informationen zur Dataset-Erstellung finden Sie in der [Katalogdienstdokumentation](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started).
-
-## Umwandeln eines Profils in ein Testprofil{#turning-profile-into-test}
-
-Sie können ein vorhandenes Profil in ein Testprofil umwandeln. In Adobe Experience Platform können Sie die Attribute von Profilen auf dieselbe Weise aktualisieren wie beim Erstellen eines Profils.
-
-Eine einfachere Möglichkeit ist die Verwendung einer Aktion **Update-Profil** in einer Journey und die Änderung des booleschen Felds testProfile von false in true.
-
-Ihre Journey besteht aus einem **Read-Profil** und einer **Update-Aktivität**. Zunächst müssen Sie ein Segment erstellen, das auf die Profil ausgerichtet ist, die Sie in Test-Profil umwandeln möchten.
-
->[!NOTE]
->
-> Da Sie das Feld **testProfile** aktualisieren werden, müssen die ausgewählten Profil dieses Feld enthalten. Das zugehörige Schema muss die **Profil-Testdetails** enthalten. Siehe [diesen Abschnitt](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites).
-
-1. Klicken Sie in der Kundenverwaltung auf **Journey** im linken Menü und dann auf **Segment** erstellen, rechts oben.
-   ![](../assets/test-profiles-22.png)
-1. Definieren Sie einen Namen für Ihr Segment und erstellen Sie das Segment: Wählen Sie die Felder und Werte aus, um die gewünschten Profil Zielgruppe.
-   ![](../assets/test-profiles-23.png)
-1. Klicken Sie auf **Speichern** und überprüfen Sie, ob die Profil korrekt auf das Segment ausgerichtet sind.
-   ![](../assets/test-profiles-24.png)
-
-   >[!NOTE]
-   >
-   > Die Segmentberechnung kann einige Zeit in Anspruch nehmen. Weitere Informationen zu Segmenten finden Sie in [diesem Abschnitt](../segment/about-segments.md).
-
-1. Erstellen Sie jetzt eine neue Journey und einen neuen Beginn mit einer Orchestersegmentgruppe **Lesen**-Aktivität.
-1. Wählen Sie das zuvor erstellte Segment und den Namensraum aus, den Ihre Profil verwenden.
-   ![](../assets/test-profiles-25.png)
-1. hinzufügen Sie eine Aktivität für die Aktion **Profil aktualisieren**.
-1. Wählen Sie das Schema, das Feld **testProfiles**, den Datensatz und legen Sie den Wert auf &quot;true&quot;fest.
-   ![](../assets/test-profiles-26.png)
-1. hinzufügen Sie eine Aktivität **End** und klicken Sie auf **Publish**.
-   ![](../assets/test-profiles-27.png)
-1. Überprüfen Sie in Adobe Experience Platform, ob die Profil korrekt aktualisiert wurden.
-   ![](../assets/test-profiles-28.png)
-
-   >[!NOTE]
-   >
-   > Weitere Informationen zur Aktivität **Profil aktualisieren** finden Sie in [diesem Abschnitt](../building-journeys/update-profiles.md).
 
 ## Erstellen eines Profils mit einer CSV-Datei{#create-test-profiles-csv}
 
