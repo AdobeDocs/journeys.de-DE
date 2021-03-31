@@ -7,7 +7,7 @@ feature: Journeys
 role: Business Practitioner
 level: Fortgeschritten
 translation-type: tm+mt
-source-git-commit: 4b30ac80a2dfb5b0675a88ecb5abf81e57c64097
+source-git-commit: 1100f8224284f3b863ecd053469e86d72f18287e
 workflow-type: tm+mt
 source-wordcount: '1635'
 ht-degree: 93%
@@ -37,7 +37,7 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 
    >[!NOTE]
    >
-   >Wenn ein Ereignis für die Reaktion in einer Journey verwendet wird, beträgt der Standardwert für die Wartezeit und der Mindestwert 40 Sekunden. Siehe [diesen Abschnitt](../building-journeys/reaction-events.md)
+   >Wenn ein Ereignis für die Reaktion in einer Journey verwendet wird, beträgt der Standardwert für die Wartezeit und der Mindestwert 40 Sekunden. Siehe [diesen Abschnitt](../building-journeys/reaction-events.md).
 
 1. Klicken Sie auf **[!UICONTROL Ereignis auslösen]**, um Ereignisse zu konfigurieren und an die Journey zu senden.
 
