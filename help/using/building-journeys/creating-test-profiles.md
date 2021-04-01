@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: Erstellen eines Testprofils
 description: 'Informationen zur Erstellung von Test-Profile '
 translation-type: tm+mt
-source-git-commit: 86df088c3e2da43318de16b7ae51ff0e3a20d55b
+source-git-commit: ccfe8d4d3eb8bf59d6dfd14eeb9f02578a09776f
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 10%
@@ -28,25 +28,25 @@ Um Profile erstellen zu können, müssen Sie zunächst ein Schema und einen Date
 
 Zuerst müssen Sie **ein Schema** erstellen. Führen Sie folgende Schritte aus:
 
-1. Klicken Sie in Adobe Experience Platform im linken Menü auf **Schema**.
+1. Klicken Sie in Adobe Experience Platform im linken Menü auf **[!UICONTROL Schema]**.
    ![](../assets/test-profiles-0.png)
-1. Klicken Sie oben rechts auf **Schema erstellen** und wählen Sie dann einen Schema-Typ aus, z. B. **XDM Individuelles Profil**.
+1. Klicken Sie oben rechts auf **[!UICONTROL Schema erstellen]** und wählen Sie dann einen Schema-Typ aus, z. B. **[!UICONTROL XDM Individuelles Profil]**.
    ![](../assets/test-profiles-1.png)
 1. Wählen Sie einen Namen für Ihr Schema aus.
-1. Klicken Sie im Abschnitt **Mixins** auf **Hinzufügen**.
+1. Klicken Sie im Abschnitt **[!UICONTROL Mixins]** auf **[!UICONTROL Hinzufügen]**.
    ![](../assets/test-profiles-1-bis.png)
-1. Wählen Sie die entsprechenden Mixins aus. Stellen Sie sicher, dass Sie die Mixin **Profil-Testdetails** hinzufügen. Klicken Sie auf **Hinzufügen mixin**.
+1. Wählen Sie die entsprechenden Mixins aus. Stellen Sie sicher, dass Sie die Mixin **[!UICONTROL Profil-Testdetails]** hinzufügen. Klicken Sie auf **[!UICONTROL Hinzufügen mixin]**.
    ![](../assets/test-profiles-1-ter.png)
 Die Liste der Mixins wird im Schema-Übersichtsbildschirm angezeigt.
 
    ![](../assets/test-profiles-2.png)
 1. Klicken Sie in der Liste der Felder auf das Feld, das Sie als primäre Identität definieren möchten.
    ![](../assets/test-profiles-3.png)
-1. Markieren Sie im rechten Bereich **Feldeigenschaften** die Optionen **Identität** und **Primär Identität** und wählen Sie einen Namensraum aus. Wenn die primäre Identität eine E-Mail-Adresse sein soll, wählen Sie den Namensraum **E-Mail**. Klicken Sie auf **Apply**.
+1. Markieren Sie im rechten Bereich **[!UICONTROL Feldeigenschaften]** die Optionen **[!UICONTROL Identität]** und **[!UICONTROL Primär Identität]** und wählen Sie einen Namensraum aus. Wenn die primäre Identität eine E-Mail-Adresse sein soll, wählen Sie den Namensraum **[!UICONTROL E-Mail]**. Klicken Sie auf **[!UICONTROL Apply]**.
    ![](../assets/test-profiles-4.png)
-1. Wählen Sie das Schema aus und aktivieren Sie die Option **Profil** in den **Schema-Eigenschaften**.
+1. Wählen Sie das Schema aus und aktivieren Sie die Option **[!UICONTROL Profil]** in den **[!UICONTROL Schema-Eigenschaften]**.
    ![](../assets/test-profiles-5.png)
-1. Wählen Sie **Speichern** aus.
+1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
 >[!NOTE]
 >
@@ -54,15 +54,15 @@ Die Liste der Mixins wird im Schema-Übersichtsbildschirm angezeigt.
 
 Anschließend müssen Sie **den Datensatz** erstellen, in den die Profil importiert werden. Führen Sie folgende Schritte aus:
 
-1. Klicken Sie in Adobe Experience Platform auf **Datensätze**, im linken Menü und dann auf **Datensatz erstellen**.
+1. Klicken Sie in Adobe Experience Platform auf **[!UICONTROL Datensätze]**, im linken Menü und dann auf **[!UICONTROL Datensatz erstellen]**.
    ![](../assets/test-profiles-6.png)
-1. Wählen Sie **Datensatz aus Schema** erstellen.
+1. Wählen Sie **[!UICONTROL Datensatz aus Schema]** erstellen.
    ![](../assets/test-profiles-7.png)
-1. Wählen Sie das zuvor erstellte Schema aus und klicken Sie dann auf **Weiter**.
+1. Wählen Sie das zuvor erstellte Schema aus und klicken Sie dann auf **[!UICONTROL Weiter]**.
    ![](../assets/test-profiles-8.png)
-1. Wählen Sie einen Namen und klicken Sie dann auf **Fertigstellen**.
+1. Wählen Sie einen Namen und klicken Sie dann auf **[!UICONTROL Fertigstellen]**.
    ![](../assets/test-profiles-9.png)
-1. Aktivieren Sie die Option **Profil**.
+1. Aktivieren Sie die Option **[!UICONTROL Profil]**.
    ![](../assets/test-profiles-10.png)
 
 >[!NOTE]
@@ -79,17 +79,17 @@ In Adobe Experience Platform können Sie Profile erstellen, indem Sie eine CSV-D
 1. hinzufügen eine Zeile pro Profil und geben Sie die Werte für die einzelnen Felder ein.
    ![](../assets/test-profiles-12.png)
 1. Speichern Sie die Tabelle als CSV-Datei. Stellen Sie sicher, dass Kommas als Trennzeichen verwendet werden.
-1. Klicken Sie in Adobe Experience Platform im linken Menü auf **Workflows**.
+1. Klicken Sie in Adobe Experience Platform im linken Menü auf **[!UICONTROL Workflows]**.
    ![](../assets/test-profiles-14.png)
-1. Wählen Sie **CSV XDM-Schema** zuordnen und klicken Sie dann auf **Starten**.
+1. Wählen Sie **[!UICONTROL CSV XDM-Schema]** zuordnen und klicken Sie dann auf **[!UICONTROL Starten]**.
    ![](../assets/test-profiles-16.png)
-1. Wählen Sie den Datensatz aus, in den Sie die Profil importieren möchten. Klicken Sie auf **Weiter**.
+1. Wählen Sie den Datensatz aus, in den Sie die Profil importieren möchten. Klicken Sie auf **[!UICONTROL Weiter]**.
    ![](../assets/test-profiles-17.png)
-1. Klicken Sie auf **Dateien** auswählen und wählen Sie Ihre CSV-Datei aus. Klicken Sie beim Hochladen der Datei auf **Weiter**.
+1. Klicken Sie auf **[!UICONTROL Dateien]** auswählen und wählen Sie Ihre CSV-Datei aus. Klicken Sie beim Hochladen der Datei auf **[!UICONTROL Weiter]**.
    ![](../assets/test-profiles-18.png)
-1. Ordnen Sie die CSV-Quellfelder den Schema-Feldern zu und klicken Sie dann auf **Fertigstellen**.
+1. Ordnen Sie die CSV-Quellfelder den Schema-Feldern zu und klicken Sie dann auf **[!UICONTROL Fertigstellen]**.
    ![](../assets/test-profiles-19.png)
-1. Der Datenimport beginnt. Der Status wechselt von **Verarbeitung** zu **Erfolg**. Klicken Sie oben rechts auf **Vorschau data set**.
+1. Der Datenimport beginnt. Der Status wechselt von **[!UICONTROL Verarbeitung]** zu **[!UICONTROL Erfolg]**. Klicken Sie oben rechts auf **[!UICONTROL Vorschau data set]**.
    ![](../assets/test-profiles-20.png)
 1. Vergewissern Sie sich, dass die Profil korrekt hinzugefügt wurden.
    ![](../assets/test-profiles-21.png)
