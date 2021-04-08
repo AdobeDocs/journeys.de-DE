@@ -6,11 +6,11 @@ description: Erfahren Sie, wie Sie ein Segment verwenden
 feature: Journeys
 role: Business Practitioner
 level: Fortgeschrittene
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '174'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -34,6 +34,6 @@ Gehen Sie wie folgt vor, um in einer Journey-Bedingung ein Segment zu verwenden:
 
    >[!NOTE]
    >
-   >Als Mitglieder des Segments werden nur Personen mit den Segmentteilsstatus **Realized** und **Vorhandene** betrachtet. Weitere Informationen zum Auswerten eines Segments finden Sie in der Dokumentation zum [Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+   >Nur Personen mit den Segmentteilnahmestatus **Realisiert** und **Vorhanden** werden als Mitglieder des Segments betrachtet. Weitere Informationen zum Auswerten eines Segments finden Sie in der [Dokumentation zum Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=de#interpret-segment-results).
 
 Weiterführende Informationen zu Journey-Bedingungen und zur Verwendung des einfachen Ausdruckseditors finden Sie unter [Bedingungsaktivität](../building-journeys/condition-activity.md#about_condition).
