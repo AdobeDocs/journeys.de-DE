@@ -6,9 +6,9 @@ description: Erfahren Sie mehr über die Benutzeroberfläche
 feature: Journeys
 role: Business Practitioner
 level: Fortgeschritten
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1064'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Alternativ können Sie auf [!DNL Journey Orchestration] über die Experience Clo
 >[!CONTEXTUALHELP]
 >id="jo_home"
 >title="Informationen zur Liste der Journeys"
->abstract="Die Liste der Journeys ermöglicht es Ihnen, alle Ihre Journeys gleichzeitig anzuzeigen, deren Status zu sehen und allgemeine Aktionen durchzuführen."
+>abstract="Die Liste der Journeys ermöglicht es Ihnen, alle Ihre Journeys gleichzeitig anzuzeigen, deren Status zu sehen und Standardaktionen durchzuführen."
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Demovideo ansehen"
 
 Die Menüs am oberen Seitenrand bieten Zugriff auf die verschiedenen Funktionen von [!DNL Journey Orchestration]: **[!UICONTROL Startseite]** (die Journeys), **[!UICONTROL Datenquellen]**, **[!UICONTROL Ereignisse]**, **[!UICONTROL Aktionen]**.
