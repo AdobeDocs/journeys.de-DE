@@ -6,11 +6,11 @@ description: Mehr über Segmentqualifizierungsereignisse
 feature: Journeys
 role: Business Practitioner
 level: Fortgeschrittene
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '786'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -52,11 +52,11 @@ Diese Art von Ereignis kann als erster Schritt oder auch später in der Journey 
 
    ![](../assets/segment-copy.png)
 
-1. Wählen Sie im Feld **[!UICONTROL Verhalten]** aus, ob Sie die Segmenteingänge, -ausstiege oder beides überwachen möchten.
+1. Wählen Sie im Feld **[!UICONTROL Verhalten]** aus, ob Sie Segmenteintritte, -austritte oder beides überwachen möchten.
 
    >[!NOTE]
    >
-   >Beachten Sie, dass **[!UICONTROL Eingabetaste]** und **[!UICONTROL Ausstieg]** den Segmentteilnahmestatus **Realized** und **Exited** von Adobe Experience Platform entsprechen. Weitere Informationen zum Auswerten eines Segments finden Sie in der Dokumentation zum [Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+   >Beachten Sie, dass **[!UICONTROL Eintreten]** und **[!UICONTROL Verlassen]** den Segmentteilnahmestatus von Adobe Experience Platform **Realisiert** und **Ausgetreten** entsprechen. Weitere Informationen zum Auswerten eines Segments finden Sie in der [Dokumentation zum Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=de#interpret-segment-results).
 
 1. Wählen Sie einen Namespace aus. Dies ist nur erforderlich, wenn das Ereignis als erster Schritt der Journey positioniert wird.
 
