@@ -6,11 +6,11 @@ description: Erfahren Sie, wie Sie eine Journey beenden
 feature: Journeys
 role: Business Practitioner
 level: Fortgeschrittene
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7755822065eb0bcc44f78e0e36c53ce73ac60ada
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '385'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -23,15 +23,15 @@ Mit den Optionen **[!UICONTROL Stoppen]** und **[!UICONTROL Für neue Eintritte 
 >
 >Beachten Sie, dass Sie eine geschlossene oder gestoppte Journey nicht fortsetzen können.
 >
->Das Konzept des Journey-Ends wird in diesem [Abschnitt](../building-journeys/journey.md#ending_a_journey) beschrieben.
+>Das Konzept der Beendigung einer Journey wird in diesem [Abschnitt](../building-journeys/journey.md#ending_a_journey) beschrieben.
 
 ## Schließen einer Journey
 
 Sie können eine Journey manuell schließen. In diesem Fall können Kunden, die sich bereits in der Journey befinden, ihren Pfad bis zum Ende verfolgen, neue Anwender können jedoch nicht in die Journey eintreten.
 
-Nach dem Schließen erhält eine Journey den Status **[!UICONTROL Geschlossen (kein Eingang)]**. Nach dem standardmäßigen globalen Timeout von 30 Tagen wechselt die Journey zum Status **Fertig**. Siehe diesen [Abschnitt](../building-journeys/changing-properties.md#entrance).
+Wenn eine Journey geschlossen ist, weist sie den Status **[!UICONTROL Geschlossen (kein Eintritt)]** auf. Nach der standardmäßigen globalen maximalen Wartezeit von 30 Tagen wechselt die Journey zum Status **Beendet**. Weitere Informationen finden Sie in diesem [Abschnitt](../building-journeys/changing-properties.md#entrance).
 
-Eine geschlossene Journey-Version kann weder neu gestartet noch gelöscht werden. Stattdessen können Sie eine neue Version davon erstellen oder sie duplizieren. Nur fertige Journey können gelöscht werden.
+Eine geschlossene Journey-Version kann weder neu gestartet noch gelöscht werden. Stattdessen können Sie eine neue Version davon erstellen oder sie duplizieren. Nur abgeschlossene Journeys können gelöscht werden.
 
 Wenn Sie eine Journey schließen möchten, klicken Sie auf **[!UICONTROL Für neue Eintritte schließen]**, während Sie die Maus über die jeweilige Journey in der Liste der Journeys bewegen.
 
@@ -53,7 +53,7 @@ Sie können eine Journey stoppen, wenn ein unerwartetes Ereignis eintritt und di
 
 Eine gestoppte Journey-Version kann nicht nochmals gestartet werden.
 
-Bei Beendigung hat eine Journey den Status **[!UICONTROL Gestoppt]**.
+Wird eine Journey gestoppt, hat sie den Status **[!UICONTROL Gestoppt]**.
 
 Sie können eine Journey stoppen (z. B. wenn ein Marketing-Experte erkennt, dass die Journey auf die falsche Audience ausgerichtet ist oder wenn eine benutzerdefinierte Aktion, mit der Nachrichten gesendet werden sollen, nicht richtig funktioniert), indem Sie auf **[!UICONTROL Stoppen]** klicken, während Sie die Maus über die jeweilige Journey in der Liste der Journeys bewegen.
 
