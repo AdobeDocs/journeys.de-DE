@@ -6,11 +6,11 @@ description: 'Erfahren Sie, wie Sie eine Datenquelle konfigurieren '
 feature: Journeys
 role: Business Practitioner
 level: Fortgeschritten
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '351'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="jo_datasources"
 >title="Informationen zu Datenquellen"
->abstract="Mit der Datenquellenkonfiguration können Sie eine Verbindung zu einem System definieren, um zusätzliche Informationen abzurufen, die in Ihren Journey verwendet werden."
+>abstract="Mit der Datenquellenkonfiguration können Sie eine Verbindung zu einem System definieren, um zusätzliche Informationen zur Verwendung in Ihren Journeys abzurufen."
 
 Mit der Datenquellenkonfiguration können Sie eine Verbindung zu einem System definieren, um zusätzliche Informationen abzurufen, die in Ihren Journeys verwendet werden, zum Beispiel für:
 
