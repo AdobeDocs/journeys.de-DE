@@ -5,15 +5,15 @@ title: Zugriffsverwaltung
 description: Erfahren Sie mehr über die Zugriffsverwaltung
 feature: Journeys
 role: Business Practitioner
-level: Fortgeschrittene
+level: Intermediate
+exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 2f824417d3e5357f0c015c40233296239ab8db5c
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 100%
+source-wordcount: '937'
+ht-degree: 99%
 
 ---
-
 
 # Zugriffsverwaltung{#concept_rfj_wpt_52b}
 
@@ -42,7 +42,7 @@ In der Admin Console können Sie Ihren Benutzern eines der folgenden vordefinier
 
    >[!NOTE]
    >
-   >**[!UICONTROL Administratoren]** ist das einzige Produktprofil, das in Adobe Campaign Standard eine Erstellung, Bearbeitung und Veröffentlichung von Transaktionsnachrichten (oder Nachrichtenvorlagen) ermöglicht. Dieses Produktprofil ist erforderlich, wenn Sie mit Adobe Campaign Standard in Journeys Nachrichten senden möchten.
+   >**[!UICONTROL Administratoren]** ist das einzige Produktprofil, das in Adobe Campaign Standard eine Erstellung, Bearbeitung und Veröffentlichung von Transaktionsnachrichten (oder Nachrichtenvorlagen) ermöglicht. Dieses Produktprofil ist erforderlich, wenn Sie mit Adobe Campaign Standard in Journeys Nachrichten senden möchten. Sie sollte nicht in der Admin-Konsole umbenannt werden.
 
 * **[!UICONTROL Standardbenutzer]**: Benutzer mit Basiszugriff, wie z. B. Verwaltung von Journeys. Dieses Produktprofil umfasst folgende Berechtigungen:
    * Journeys verwalten
