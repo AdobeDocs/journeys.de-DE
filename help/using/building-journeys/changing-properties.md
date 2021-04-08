@@ -6,11 +6,11 @@ description: Erfahren Sie, wie Sie Eigenschaften ändern
 feature: Journeys
 role: Business Practitioner
 level: Fortgeschritten
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a8bfd4fd829ff8fadc68de87dc0b9de085a962e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '507'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt. Sie können
 
 Wenn eine Journey „endet“, weist sie den Status **[!UICONTROL Geschlossen (kein Eintritt)]** auf. Die Journey erlaubt den Eintritt neuer Kontakte nicht mehr. Personen, die sich bereits in der Journey befinden, beenden die Journey wie gewohnt.
 
-Nach dem standardmäßigen globalen Timeout von 30 Tagen wechselt die Journey zum Status **Fertig**. Siehe diesen [Abschnitt](#global_timeout).
+Nach der standardmäßigen globalen maximalen Wartezeit von 30 Tagen wechselt die Journey zum Status **Beendet**. Weitere Informationen finden Sie in diesem [Abschnitt](#global_timeout).
 
 ## Zeitüberschreitung und Fehler bei Journey-Aktivitäten {#timeout_and_error}
 
