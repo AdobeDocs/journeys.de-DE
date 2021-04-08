@@ -6,11 +6,11 @@ description: Erfahren Sie mehr über Ereignisse.
 feature: Journeys
 role: Business Practitioner
 level: Fortgeschritten
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '357'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="jo_events"
 >title="Informationen zu Ereignissen"
->abstract="Ein Ereignis ist mit einer Person verbunden. Es bezieht sich auf das Verhalten einer Person oder auf etwas, das mit einer Person in Zusammenhang steht. Diese Ereignisse werden von [!DNL Journey Orchestration] in Journeys überwacht, um die besten nächsten Aktionen zu orchestrieren."
+>abstract="Ein Ereignis ist mit einer Person verbunden. Es bezieht sich auf das Verhalten einer Person oder auf etwas, was mit einer Person in Zusammenhang steht. Diese Ereignisse werden von [!DNL Journey Orchestration] in Journeys überwacht, um die besten nächsten Aktionen zu orchestrieren."
 
 Ein Ereignis ist mit einer Person verbunden. Es bezieht sich auf das Verhalten einer Person (z. B. eine Person hat ein Produkt gekauft, einen Shop besucht, eine Website verlassen usw.) oder auf etwas, das mit einer Person in Verbindung steht (z. B. eine Person hat 10.000 Treuepunkte erreicht). Diese Ereignisse werden von [!DNL Journey Orchestration] in Journeys überwacht, um die besten nächsten Aktionen zu orchestrieren.
 
