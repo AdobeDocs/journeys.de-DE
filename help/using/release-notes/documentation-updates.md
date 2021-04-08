@@ -6,11 +6,11 @@ description: Erfahren Sie mehr über die Aktualisierungen der Dokumentation
 feature: Journeys
 role: Business Practitioner
 level: Anfänger
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '817'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ Lesen Sie auch die [!DNL Journey Orchestration]-[Versionshinweise](../release-no
 
 ## März 2021 {#march-2021}
 
-* Wir haben das vollständige Verfahren zur Erstellung von Profilen in Adobe Experience Platform detailliert beschrieben. [Mehr dazu](../building-journeys/creating-test-profiles.md).
+* Wir haben das vollständige Verfahren zur Erstellung von Testprofilen in Adobe Experience Platform detailliert beschrieben. [Mehr dazu](../building-journeys/creating-test-profiles.md)
 
 ## Januar 2021 {#january-2021}
 
-* Es wurden Best Practices hinzugefügt, wenn eine Journey gleichzeitig mit einer Profilerstellung ausgelöst wird. [Mehr dazu](../about/limitations.md#journeys-limitation-profile-creation).
+* Es wurden Best Practices hinzugefügt, wenn eine Journey gleichzeitig mit einer Profilerstellung ausgelöst wird. [Mehr dazu](../about/limitations.md#journeys-limitation-profile-creation)
 
 ## Oktober 2020 {#october-2020}
 
