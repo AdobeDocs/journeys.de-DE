@@ -6,11 +6,11 @@ description: Erfahren Sie mehr über die Funktion „inSegment“
 feature: Journeys
 role: Data Engineer
 level: Erfahren
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '155'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Segmente werden in [Adobe Experience Platform](https://platform.adobe.com/segmen
 
 >[!NOTE]
 >
->Als Mitglieder des Segments werden nur Personen mit den Segmentteilsstatus **Realized** und **Vorhandene** betrachtet. Weitere Informationen zum Auswerten eines Segments finden Sie in der Dokumentation zum [Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+>Nur Personen mit den Segmentteilnahmestatus **Realisiert** und **Vorhanden** werden als Mitglieder des Segments betrachtet. Weitere Informationen zum Auswerten eines Segments finden Sie in der [Dokumentation zum Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=de#interpret-segment-results).
 
 ## Kategorie
 
