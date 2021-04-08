@@ -6,11 +6,11 @@ description: Erfahren Sie, wie Sie als Business-Anwender Ereignis-, Orchestrieru
 feature: Journeys
 role: Business Practitioner
 level: Fortgeschritten
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 409197458ba32f9fdb3e42e4b06eae2814eff9f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '570'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Hier finden Sie die wichtigsten Schritte für das Erstellen und Veröffentlichen
 
 ## Beenden einer Journey {#ending_a_journey}
 
-Eine Journey kann aus zwei Gründen enden:
+Eine Journey kann für einen Kontakt aus zwei Gründen enden:
 
 * Die Person kommt bei der letzten Aktivität eines Pfades an. Diese letzte Aktivität kann eine Endaktivität oder eine andere Aktivität sein. Sie müssen einen Pfad nicht mit einer Endaktivität beenden. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/end-activity.md).
 * Die Person kommt bei einer Bedingungsaktivität (oder einer Warteaktivität mit einer Bedingung) an und erfüllt keine der Bedingungen.
@@ -66,11 +66,11 @@ Die Person kann dann wieder in die Journey eintreten, wenn der erneute Zutritt e
 
 Eine Journey kann aus den folgenden Gründen geschlossen werden:
 
-* Die Journey wird manuell über die Schaltfläche **[!UICONTROL Schließen an neue Eingänge]** geschlossen.
-* Das Enddatum des Journey ist.
+* Die Journey wird manuell über die Schaltfläche **[!UICONTROL Für neue Eintritte schließen]** geschlossen.
+* Das Enddatum des Journey wurde erreicht.
 
-Wenn eine Journey geschlossen wird (aus einem der oben genannten Gründe), hat sie den Status **[!UICONTROL Geschlossen (kein Eingang)]**. Die Journey erlaubt den Eintritt neuer Kontakte nicht mehr. Personen, die sich bereits in der Journey befinden, beenden die Journey wie gewohnt. Nach dem standardmäßigen globalen Timeout von 30 Tagen wechselt die Journey zum Status **Fertig**. Siehe diesen [Abschnitt](../building-journeys/changing-properties.md#entrance).
+Wenn eine Journey geschlossen wird (aus einem der oben genannten Gründe), weist sie den Status **[!UICONTROL Geschlossen (kein Eintritt)]** auf. Die Journey stoppt den Eintritt neuer Kontakte. Personen, die sich bereits in der Journey befinden, beenden die Journey wie gewohnt. Nach der standardmäßigen globalen maximalen Wartezeit von 30 Tagen wechselt die Journey zum Status **Beendet**. Weitere Informationen finden Sie in diesem [Abschnitt](../building-journeys/changing-properties.md#entrance).
 
-Falls Sie den Fortschritt aller Personen im Journey stoppen müssen, können Sie ihn stoppen. Wenn Sie die Journey beenden, werden alle Personen in der Journey zeitversetzt.
+Falls Sie den Fortschritt aller Personen in der Journey stoppen müssen, können Sie das tun. In diesem Fall entsteht für alle Personen in der Journey eine Zeitüberschreitung.
 
-Weitere Informationen zum manuellen Schließen oder Beenden einer Journey finden Sie in diesem [Abschnitt](../building-journeys/terminating-a-journey.md).
+Weitere Informationen zum manuellen Schließen oder Stoppen einer Journey finden Sie in diesem [Abschnitt](../building-journeys/terminating-a-journey.md).
