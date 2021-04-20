@@ -5,7 +5,7 @@ title: Versionshinweise
 description: Versionshinweise
 feature: Journeys
 role: Business Practitioner
-level: Anfänger
+level: Beginner
 translation-type: ht
 source-git-commit: 455b0f083d598e70b8a3f33c7f21432628fef8b5
 workflow-type: ht

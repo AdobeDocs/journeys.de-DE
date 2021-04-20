@@ -5,7 +5,7 @@ title: Informationen zu Ereignissen
 description: Erfahren Sie mehr über Ereignisse.
 feature: Journeys
 role: Business Practitioner
-level: Fortgeschritten
+level: Intermediate
 translation-type: ht
 source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
 workflow-type: ht

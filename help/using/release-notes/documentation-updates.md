@@ -5,7 +5,7 @@ title: Aktualisierungen der Dokumentation
 description: Erfahren Sie mehr über die Aktualisierungen der Dokumentation
 feature: Journeys
 role: Business Practitioner
-level: Anfänger
+level: Beginner
 translation-type: ht
 source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
 workflow-type: ht

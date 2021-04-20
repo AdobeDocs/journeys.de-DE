@@ -5,7 +5,7 @@ title: Erste Schritte
 description: Entdecken Sie die wichtigsten Schritte zum Einrichten von Journey Orchestration und zum Aufbau Ihrer ersten Journey.
 feature: Journeys
 role: Business Practitioner
-level: Anfänger
+level: Beginner
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt

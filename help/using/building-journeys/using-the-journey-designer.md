@@ -5,7 +5,7 @@ title: Verwenden des Journey-Designers
 description: Weitere Informationen zur Verwendung des Journey-Designers
 feature: Journeys
 role: Business Practitioner
-level: Fortgeschritten
+level: Intermediate
 translation-type: ht
 source-git-commit: 7755822065eb0bcc44f78e0e36c53ce73ac60ada
 workflow-type: ht

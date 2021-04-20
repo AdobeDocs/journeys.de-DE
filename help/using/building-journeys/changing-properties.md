@@ -5,7 +5,7 @@ title: Ändern von Eigenschaften
 description: Erfahren Sie, wie Sie Eigenschaften ändern
 feature: Journeys
 role: Business Practitioner
-level: Fortgeschritten
+level: Intermediate
 translation-type: ht
 source-git-commit: a8bfd4fd829ff8fadc68de87dc0b9de085a962e3
 workflow-type: ht

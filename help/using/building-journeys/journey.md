@@ -5,7 +5,7 @@ title: Informationen zum Erstellen von Journeys
 description: Erfahren Sie, wie Sie als Business-Anwender Ereignis-, Orchestrierungs- und Aktions-Aktivitäten kombinieren, um eine Journey zu gestalten.
 feature: Journeys
 role: Business Practitioner
-level: Fortgeschritten
+level: Intermediate
 translation-type: ht
 source-git-commit: 409197458ba32f9fdb3e42e4b06eae2814eff9f8
 workflow-type: ht

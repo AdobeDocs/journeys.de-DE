@@ -5,7 +5,7 @@ title: Testen der Journey
 description: 'Erfahren Sie mehr über das Testen von Journeys '
 feature: Journeys
 role: Business Practitioner
-level: Fortgeschritten
+level: Intermediate
 translation-type: ht
 source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
 workflow-type: ht

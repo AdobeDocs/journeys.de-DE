@@ -5,7 +5,7 @@ title: Reaktionsereignisse
 description: Informationen über Reaktionsereignisse
 feature: Journeys
 role: Business Practitioner
-level: Fortgeschritten
+level: Intermediate
 translation-type: ht
 source-git-commit: 4b30ac80a2dfb5b0675a88ecb5abf81e57c64097
 workflow-type: ht

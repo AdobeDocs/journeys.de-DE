@@ -5,7 +5,7 @@ title: Einschränkungen bei Journey Orchestration
 description: Erfahren Sie mehr über die Einschränkungen bei Journey Orchestration.
 feature: Journeys
 role: Business Practitioner
-level: Anfänger
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
 workflow-type: tm+mt

@@ -5,7 +5,7 @@ title: Konfigurieren des Ereignisses
 description: Erfahren Sie, wie Sie das Ereignis für die Journey mit dem einfachen Anwendungsfall konfigurieren
 feature: Journeys
 role: Business Practitioner
-level: Fortgeschrittene
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt

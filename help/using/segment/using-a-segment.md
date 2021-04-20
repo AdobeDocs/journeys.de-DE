@@ -5,7 +5,7 @@ title: Verwenden eines Segments
 description: Erfahren Sie, wie Sie ein Segment verwenden
 feature: Journeys
 role: Business Practitioner
-level: Fortgeschrittene
+level: Intermediate
 translation-type: ht
 source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
 workflow-type: ht

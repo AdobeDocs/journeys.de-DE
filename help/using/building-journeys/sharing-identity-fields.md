@@ -5,7 +5,7 @@ title: Identitätsfelder für journeyStep-Ereignisse
 description: Identitätsfelder für journeyStep-Ereignisse
 feature: Journeys
 role: Business Practitioner
-level: Fortgeschritten
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt

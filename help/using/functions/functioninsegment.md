@@ -5,7 +5,7 @@ title: inSegment
 description: Erfahren Sie mehr über die Funktion „inSegment“
 feature: Journeys
 role: Data Engineer
-level: Erfahren
+level: Experienced
 translation-type: ht
 source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
 workflow-type: ht
