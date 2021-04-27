@@ -6,14 +6,14 @@ description: 'Erfahren Sie mehr über das Testen von Journeys '
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: ht
-source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
-workflow-type: ht
-source-wordcount: '1640'
-ht-degree: 100%
+exl-id: be413905-0631-4229-a954-80a92651206d
+translation-type: tm+mt
+source-git-commit: cb90f764ae6ccc0dab9728899dafd266db89a4e7
+workflow-type: tm+mt
+source-wordcount: '1654'
+ht-degree: 98%
 
 ---
-
 
 # Testen der Journey{#testing_the_journey}
 
@@ -133,6 +133,10 @@ Mit der Schaltfläche **[!UICONTROL Ereignis auslösen]** können Sie ein Ereign
 
 Als Voraussetzung müssen Sie wissen, welche Profile in Adobe Experience Platform als Testprofile gekennzeichnet sind. Der Testmodus lässt nur diese Profile in der Journey zu und das Ereignis muss eine ID enthalten. Die erwartete ID hängt von der Ereigniskonfiguration ab. Es kann sich beispielsweise um eine ECID oder eine E-Mail-Adresse handeln. Der Wert dieses Schlüssels muss im Feld **Profilkennung** hinzugefügt werden.
 
+>[!NOTE]
+>
+>Für Felder, die eine Auflistung erwarten, wird eine Dropdown-Liste angezeigt. Wählen Sie einfach einen der verfügbaren Werte aus.
+
 Wenn Ihre Journey mehrere Ereignisse enthält, wählen Sie ein Ereignis aus der Dropdown-Liste aus. Konfigurieren Sie dann für jedes Ereignis die weitergeleiteten Felder und die Ausführung des Ereignisversands. Über die Benutzeroberfläche können Sie die richtigen Informationen in der Ereignis-Payload angeben und prüfen, ob der Informationstyp korrekt ist. Der Testmodus speichert die zuletzt in einer Testsitzung verwendeten Parameter zur späteren Verwendung.
 
 ![](../assets/journeytest4.png)
@@ -205,4 +209,3 @@ Es gibt ein Szenario, bei dem mehrere Ereignisse von mehreren Journeys gesendet 
 Wenn ein Zieldatensatz nicht in dem Erlebnis-Ereignis enthalten ist, werden diese Datensätze automatisch erstellt und benannt. Deshalb sehen wir heute den „Automatisch erstellten Datensatz für Journey“.
 
 Die Benennung unserer Quelle führt zur automatischen Erstellung. Wenn wir mehrere Ereignisse haben, sollten wir verketten und es „Journey Orchestration Test-Ereignis – NAME DES SCHEMAS“ nennen. Dies wird sich automatisch in „Automatisch generierter Datensatz für Journey Orchestration Test-Ereignis – NAME DES SCHEMAS“ ändern.
-
