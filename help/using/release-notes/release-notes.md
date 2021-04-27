@@ -8,9 +8,9 @@ role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 translation-type: tm+mt
-source-git-commit: 573475039693b3439d52872bcc4722f3658eef9d
+source-git-commit: 9138bfb4c9f916a7e8df6183fb903c31ef582623
 workflow-type: tm+mt
-source-wordcount: '2481'
+source-wordcount: '2483'
 ht-degree: 98%
 
 ---
@@ -24,7 +24,7 @@ Sie können auch die neusten [Aktualisierungen der Dokumentation](../release-not
 
 ### Verbesserungen
 
-* Im Bildschirm **Ereignis configuration** des Testmodus wird nun eine Dropdown-Liste für Felder angezeigt, die eine Auflistung erwarten. Wählen Sie einfach einen der verfügbaren Werte aus. Dadurch werden Fehler beim Auslösen des Ereignisses vermieden, wenn ein falscher Wert definiert ist.
+* Im Bildschirm **Ereignis configuration** des Testmodus wird nun eine Dropdown-Liste für Felder angezeigt, die eine Auflistung erwarten. Wählen Sie einfach einen der verfügbaren Werte aus. Dadurch werden Fehler beim Auslösen des Ereignisses vermieden, wenn ein falscher Wert definiert ist.[Mehr dazu](../building-journeys/testing-the-journey.md#firing_events)
 
 ## Version März 2021 {#march-2021-release}
 
