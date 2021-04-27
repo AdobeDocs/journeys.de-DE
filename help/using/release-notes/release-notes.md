@@ -6,19 +6,25 @@ description: Versionshinweise
 feature: Journeys
 role: Business Practitioner
 level: Beginner
-translation-type: ht
-source-git-commit: 455b0f083d598e70b8a3f33c7f21432628fef8b5
-workflow-type: ht
-source-wordcount: '2440'
-ht-degree: 100%
+exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
+translation-type: tm+mt
+source-git-commit: 573475039693b3439d52872bcc4722f3658eef9d
+workflow-type: tm+mt
+source-wordcount: '2481'
+ht-degree: 98%
 
 ---
-
 
 # Versionshinweise {#release-notes}
 
 Auf dieser Seite werden alle neuen Funktionen und Verbesserungen bei Journey Orchestration aufgelistet.
 Sie können auch die neusten [Aktualisierungen der Dokumentation](../release-notes/documentation-updates.md) einsehen.
+
+## Version April 2021 {#april-2021-release}
+
+### Verbesserungen
+
+* Im Bildschirm **Ereignis configuration** des Testmodus wird nun eine Dropdown-Liste für Felder angezeigt, die eine Auflistung erwarten. Wählen Sie einfach einen der verfügbaren Werte aus. Dadurch werden Fehler beim Auslösen des Ereignisses vermieden, wenn ein falscher Wert definiert ist.
 
 ## Version März 2021 {#march-2021-release}
 
