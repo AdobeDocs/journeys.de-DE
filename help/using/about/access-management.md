@@ -7,11 +7,11 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2f824417d3e5357f0c015c40233296239ab8db5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '937'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -42,9 +42,9 @@ In der Admin Console können Sie Ihren Benutzern eines der folgenden vordefinier
 
    >[!NOTE]
    >
-   >**[!UICONTROL Administratoren]** ist das einzige Produktprofil, das in Adobe Campaign Standard eine Erstellung, Bearbeitung und Veröffentlichung von Transaktionsnachrichten (oder Nachrichtenvorlagen) ermöglicht. Dieses Produktprofil ist erforderlich, wenn Sie mit Adobe Campaign Standard in Journeys Nachrichten senden möchten. Sie sollte nicht in der Admin-Konsole umbenannt werden.
+   >**[!UICONTROL Administratoren]** ist das einzige Produktprofil, das in Adobe Campaign Standard eine Erstellung, Bearbeitung und Veröffentlichung von Transaktionsnachrichten (oder Nachrichtenvorlagen) ermöglicht. Dieses Produktprofil ist erforderlich, wenn Sie mit Adobe Campaign Standard in Journeys Nachrichten senden möchten. Sein Name sollte in der Admin Console nicht geändert werden.
 
-* **[!UICONTROL Standardbenutzer]**: Benutzer mit Basiszugriff, wie z. B. Verwaltung von Journeys. Dieses Produktprofil umfasst folgende Berechtigungen:
+* **[!UICONTROL Standardbenutzer]**: Benutzer mit Basiszugriff, wie z. B. zur Verwaltung von Journeys. Dieses Produktprofil umfasst folgende Berechtigungen:
    * Journeys verwalten
    * Journeys veröffentlichen
    * Berichte verwalten
@@ -143,6 +143,6 @@ Ihr Benutzer sollte dann eine E-Mail mit einer Umleitung zur [!DNL Journey Orche
 Sandboxes werden über Produktprofile in der Admin Console zugewiesen. Weiterführende Informationen zur Zuweisung von Sandboxes finden Sie in [diesem Abschnitt](../about/access-management.md#create-product-profile).
 
 [!DNL Journey Orchestration] spiegelt die Adobe Experience Platform-Sandboxes wider, die für eine bestimmte Organisation erstellt wurden.
-Adobe Experience Platform-Sandboxes können über Ihre Adobe Experience Platform-Instanz erstellt oder zurückgesetzt werden. Detaillierte Anweisungen dazu finden Sie im [Sandbox-Benutzerhandbuch](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html).
+Adobe Experience Platform-Sandboxes können über Ihre Adobe Experience Platform-Instanz erstellt oder zurückgesetzt werden. Detaillierte Anweisungen dazu finden Sie im [Sandbox-Benutzerhandbuch](https://docs.adobe.com/content/help/de-DE/experience-platform/sandbox/ui/user-guide.html).
 
 Das Steuerelement für den Sandbox-Umschalter finden Sie oben links auf Ihrem Bildschirm. Um von einer Sandbox zu einer anderen zu wechseln, klicken Sie im Umschalter auf die derzeit aktive Sandbox und wählen dann in der Dropdown-Liste eine andere Sandbox aus.
