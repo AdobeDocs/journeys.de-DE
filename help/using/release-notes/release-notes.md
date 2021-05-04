@@ -7,11 +7,11 @@ feature: Journeys
 role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae1179e0f9d4b1b3f2b004e4eadfd172637596ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2483'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Sie können auch die neusten [Aktualisierungen der Dokumentation](../release-not
 
 ### Verbesserungen
 
-* Im Bildschirm **Ereignis configuration** des Testmodus wird nun eine Dropdown-Liste für Felder angezeigt, die eine Auflistung erwarten. Wählen Sie einfach einen der verfügbaren Werte aus. Dadurch werden Fehler beim Auslösen des Ereignisses vermieden, wenn ein falscher Wert definiert ist. [Mehr dazu](../building-journeys/testing-the-journey.md#firing_events)
+* Im Bildschirm **Ereigniskonfiguration** des Testmodus wird nun eine Dropdown-Liste für Felder angezeigt, bei denen eine Auflistung erwartet wird. Wählen Sie einfach einen der verfügbaren Werte aus. Dadurch werden Fehler beim Auslösen des Ereignisses vermieden, die auftreten können, wenn ein falscher Wert definiert ist. [Mehr dazu](../building-journeys/testing-the-journey.md#firing_events)
 
 ## Version März 2021 {#march-2021-release}
 
@@ -117,7 +117,7 @@ Die Funktionen [getListItem](../functions/functiongetlistitem.md) und [split](..
 <table>
 <thead>
 <tr>
-<th><strong>Regelbasierte Ereignisse      (Beta)</strong><br/></th>
+<th><strong>Regelbasierte Ereignisse       (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
