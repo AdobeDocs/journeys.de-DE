@@ -7,11 +7,11 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cb90f764ae6ccc0dab9728899dafd266db89a4e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1654'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -135,7 +135,7 @@ Als Voraussetzung müssen Sie wissen, welche Profile in Adobe Experience Platfor
 
 >[!NOTE]
 >
->Für Felder, die eine Auflistung erwarten, wird eine Dropdown-Liste angezeigt. Wählen Sie einfach einen der verfügbaren Werte aus.
+>Für Felder, bei denen eine Auflistung erwartet wird, wird eine Dropdown-Liste angezeigt. Wählen Sie einfach einen der verfügbaren Werte aus.
 
 Wenn Ihre Journey mehrere Ereignisse enthält, wählen Sie ein Ereignis aus der Dropdown-Liste aus. Konfigurieren Sie dann für jedes Ereignis die weitergeleiteten Felder und die Ausführung des Ereignisversands. Über die Benutzeroberfläche können Sie die richtigen Informationen in der Ereignis-Payload angeben und prüfen, ob der Informationstyp korrekt ist. Der Testmodus speichert die zuletzt in einer Testsitzung verwendeten Parameter zur späteren Verwendung.
 
