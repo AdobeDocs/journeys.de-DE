@@ -6,15 +6,13 @@ description: Erfahren Sie mehr über das Zeitzonen-Management
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: c0e67849-caa0-4045-94ed-38e483054e1d
+source-git-commit: a19493178652a7fc91b7b778c5cb47eda72cd877
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '271'
 ht-degree: 100%
 
 ---
-
-
 
 # Zeitzonen-Management {#timezone_management}
 
@@ -37,7 +35,7 @@ Die Zeitzone kann auch fest definiert werden. Löschen Sie die vordefinierte Zei
 
 Wählen Sie dazu in den **[!UICONTROL Eigenschaften]** eine Zeitzone aus.
 
-![](../assets/journey73.png)
+![](../assets/journey72.png)
 
 ## Verwenden von Profilen zur Definition der Zeitzone einer Journey {#timezone-from-profiles}
 
@@ -49,7 +47,7 @@ Wenn das Profil des Kontakts keine Zeitzone enthält, wird die im Zeitzonenfeld 
 
 Aktivieren Sie dazu in den **[!UICONTROL Eigenschaften]** die Option **[!UICONTROL Zeitzone des Profils in Timern und Bedingungen verwenden]**.
 
-![](../assets/journey72.png)
+![](../assets/journey73.png)
 
 ## Verwenden von Zeitzonen in Ausdrücken {#timezone-in-expressions}
 
