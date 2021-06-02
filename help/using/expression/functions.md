@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Funktionen
 description: Erfahren Sie mehr über Funktionen
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '168'
 ht-degree: 100%
 
 ---
-
 
 # Funktionen {#concept_p1r_qj5_dgb}
 
@@ -60,7 +58,7 @@ Im Folgenden finden Sie eine Liste der unterstützten Funktionen.
 | Datum | [setHours](../functions/functionsethours.md) |
 | Datum | [setDays](../functions/functionsetdays.md) |
 | Liste | [distinct](../functions/functiondistinct.md) |
-| Liste | [differentCount](../functions/functiondistinctcount.md) |
+| Liste | [distinctCount](../functions/functiondistinctcount.md) |
 | Liste | [in](../functions/functionin.md) |
 | Liste | [listSize](../functions/functionlistsize.md) |
 | Liste | [serializeList](../functions/functionserializelist.md) |
