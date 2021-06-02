@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Die Benutzeroberfläche
 description: Erfahren Sie mehr über die Benutzeroberfläche
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: ht
-source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
-workflow-type: ht
-source-wordcount: '1064'
+exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+workflow-type: tm+mt
+source-wordcount: '1061'
 ht-degree: 100%
 
 ---
-
 
 # Benutzeroberfläche{#concept_rcq_lqt_52b}
 
@@ -61,7 +59,7 @@ In der Journey-Liste (unter **[!UICONTROL Startseite]**) können Sie die angezei
 
 >[!NOTE]
 >
->Beachten Sie, dass angezeigte Spalten mithilfe der Konfigurationsschaltfläche oben rechts in den Listen personalisiert werden können. Personalisierung wird für jeden Benutzer individuell gespeichert.
+>Beachten Sie, dass angezeigte Spalten mithilfe der Konfigurationsschaltfläche oben rechts in den Listen personalisiert werden können. Die Personalisierung wird für jeden Benutzer individuell gespeichert.
 
 Mit den Spalten **[!UICONTROL Letzte Aktualisierung]** und **[!UICONTROL Letzte Aktualisierung von]** können Sie anzeigen, wann und durch wen Ihre Journeys zuletzt aktualisiert wurden.
 
@@ -144,4 +142,3 @@ _In einer Journey:_
 * Drücken Sie in einer ereignisbasierten Journey im Testmodus auf **E**, um ein Ereignis auszulösen.
 * Wenn in einer segmentbasierten Journey die Option **Jeweils ein Einzelprofil** im Testmodus ausgewählt ist, drücken Sie auf **P**, um ein Ereignis auszulösen.
 * Drücken Sie im Testmodus auf **L**, um die Protokolle anzuzeigen.
-
