@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Veröffentlichen der Journey
 description: Erfahren Sie mehr über die Veröffentlichung von Journeys
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: d61dc9f8-e4bb-48c7-9532-a7ff8aab5ad8
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '176'
 ht-degree: 100%
 
 ---
-
 
 # Veröffentlichen der Journey{#concept_mtc_lrt_52b}
 
