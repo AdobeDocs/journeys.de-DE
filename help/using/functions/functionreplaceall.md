@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: replaceAll
 description: Erfahren Sie mehr über die Funktion „replaceAll“
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: d60059e5-6bf8-4a57-88a4-5323d5f0fa0b
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '76'
 ht-degree: 100%
 
 ---
-
 
 # replaceAll {#replaceAll}
 
