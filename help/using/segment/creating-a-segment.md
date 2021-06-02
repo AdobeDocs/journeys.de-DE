@@ -1,20 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Verwenden eines Segments
 description: Erfahren Sie, wie Sie ein Segment verwenden
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: f84dc133-3b70-479e-b5be-a155d892fec0
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '146'
 ht-degree: 100%
 
 ---
-
-
 
 # Erstellen eines Segments {#creating-a-segment}
 
