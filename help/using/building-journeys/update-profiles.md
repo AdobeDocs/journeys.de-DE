@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Springen zwischen Journeys
 description: Springen zwischen Journeys
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: ht
-source-git-commit: 7123cff30039d6a5174b0272db33e4a9d15d4ca9
-workflow-type: ht
-source-wordcount: '361'
+exl-id: eaf2c795-0920-4b9c-9f06-801e43c1844b
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+workflow-type: tm+mt
+source-wordcount: '358'
 ht-degree: 100%
 
 ---
-
 
 # Profil aktualisieren {#update-profile}
 
