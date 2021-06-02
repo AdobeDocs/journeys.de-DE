@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Informationen zu Journey Orchestration
 description: Erfahren Sie mehr über die Journey Orchestration
 feature: Journeys
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 430bac3a-06da-45a8-af90-1dcd1504d532
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '391'
 ht-degree: 100%
 
 ---
-
 
 # Versionsinformationen [!DNL Journey Orchestration]{#concept_nd3_mqt_52b}
 
