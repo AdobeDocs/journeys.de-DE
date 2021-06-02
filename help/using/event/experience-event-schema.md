@@ -1,20 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 'Informationen zu ExperienceEvent-Schemata für Journey Orchestration-Ereignisse '
 description: 'Erfahren Sie mehr über ExperienceEvent-Schemata für Journey Orchestration-Ereignisse. '
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: ffec0d42-8632-4806-97df-da2a2372ca53
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '325'
 ht-degree: 100%
 
 ---
-
-
 
 # Informationen zu ExperienceEvent-Schemata für [!DNL Journey Orchestration]-Ereignisse
 
