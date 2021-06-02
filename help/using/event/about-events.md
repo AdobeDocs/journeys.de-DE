@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Informationen zu Ereignissen
 description: Erfahren Sie mehr über Ereignisse.
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: ht
-source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
-workflow-type: ht
-source-wordcount: '357'
+exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+workflow-type: tm+mt
+source-wordcount: '354'
 ht-degree: 100%
 
 ---
-
 
 # Allgemeine Funktionsweise {#concept_gfj_fqt_52b}
 
@@ -41,4 +39,3 @@ Sie können zwei Typen von Ereignissen definieren:
 * **Systemgenerierte** Ereignisse: für diese Ereignisse ist eine eventID erforderlich. Dieses eventID-Feld wird beim Erstellen des Ereignisses automatisch generiert. Das System, das das Ereignis per Push sendet, sollte keine ID generieren, sondern die ID übergeben, die in der Payload-Vorschau verfügbar ist.
 
 Informationen zum Erstellen eines Ereignisses finden Sie auf dieser [Seite](../event/about-creating.md).
-
