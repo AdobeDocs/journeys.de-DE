@@ -1,21 +1,19 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 user-guide-title: Journey Orchestration
 title: Handbuch zur Journey Orchestration
 user-guide-description: Enthält Anleitungen zum Implementieren und Erstellen von Journeys.
 index: true
 feature: Journeys
-translation-type: ht
-source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
-workflow-type: ht
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 100%
 
 ---
 
 
-# Handbuch zur [!DNL Journey Orchestration] {#using}
+# Handbuch zur [!DNL Journey Orchestration]  {#using}
 
 + [Produktdokumentation](journey-orchestration-home.md)
 + Neue Funktionen {#release-notes}
@@ -26,13 +24,13 @@ ht-degree: 100%
    + [Einschränkungen](using/about/limitations.md)
    + [Erste Schritte](using/about/get-started.md)
    + [Benutzeroberfläche](using/about/user-interface.md)
-   + [Zugriffsverwaltung](using/about/access-management.md)
+   + [Zugriffsverwaltung ](using/about/access-management.md)
    + [Fehlerbehebung](using/about/troubleshooting.md)
 + Konfigurieren eines Ereignisses {#events-journeys}
    + Informationen zu Ereignissen {#about-events}
       + [Allgemeine Funktionsweise](using/event/about-events.md)
       + [Datenzyklus](using/event/about-data-cycle.md)
-      + [Ereignis erstellen](using/event/about-creating.md)
+      + [Ereignis erstellen         ](using/event/about-creating.md)
       + [Nutzung von Adobe Analytics](using/event/about-analytics.md)
       + [Informationen zu ExperienceEvent-Schemata](using/event/experience-event-schema.md)
       + [Zusätzliche Schritte zum Senden von Ereignissen](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
@@ -60,11 +58,11 @@ ht-degree: 100%
    + [Verwenden von Segmenten in Bedingungen](using/segment/using-a-segment.md)
 + Erstellen der Journey {#building-journeys}
    + Informationen zum Erstellen von Journeys {#about-journey-building}
-      + [Erstellen einer Journey ](using/building-journeys/journey.md)
+      + [Eine Journey erstellen](using/building-journeys/journey.md)
       + [Verwenden des Journey-Designers](using/building-journeys/using-the-journey-designer.md)
       + [Ändern von Eigenschaften](using/building-journeys/changing-properties.md)
       + [Journey-Versionen](using/building-journeys/journey-versions.md)
-      + [Abbrechen einer Journey](using/building-journeys/terminating-a-journey.md)
+      + [Beenden einer Journey](using/building-journeys/terminating-a-journey.md)
       + [Zeitzonen-Management](using/building-journeys/timezone-management.md)
       + [Testprofile](using/building-journeys/creating-test-profiles.md)
    + Aktivitäten {#about-journey-building}
@@ -79,7 +77,7 @@ ht-degree: 100%
          + [Endaktivität](using/building-journeys/end-activity.md)
          + [Warteaktivität](using/building-journeys/wait-activity.md)
       + Aktionsaktivitäten {#action-activities}
-         + [Informationen zu Aktionsaktivitäten](using/building-journeys/about-action-activities.md)
+         + [Über Aktionsaktivitäten](using/building-journeys/about-action-activities.md)
          + [Verwenden von Adobe Campaign-Aktionen](using/building-journeys/using-adobe-campaign-actions.md)
          + [Verwenden benutzerdefinierter Aktionen](using/building-journeys/using-custom-actions.md)
          + [Springen zwischen Journeys](using/building-journeys/jump.md)
@@ -101,9 +99,9 @@ ht-degree: 100%
       + [Datentypen](using/expression/data-types.md)
       + [Feldverweise](using/expression/field-references.md)
       + [Funktionen zur Verwaltung von Sammlungen](using/expression/collection-management-functions.md)
-      + [Operatoren](using/expression/operators.md)
+      + [Benutzer](using/expression/operators.md)
       + [Journey-Eigenschaften](using/expression/journey-properties.md)
-      + [Beispiele](using/expression/advanced-editor-use-cases.md)
+      + [Beispiele     ](using/expression/advanced-editor-use-cases.md)
    + Funktionen {#main-functions-journey}
       + [Hauptfunktionen](using/expression/functions.md)
       + Adobe Experience Platform {#adobe-experience-platform}
@@ -186,7 +184,7 @@ ht-degree: 100%
    + Senden einer personalisierten E-Mail{#use-case-simple}
       + [Informationen zum einfachen Anwendungsfall](using/usecase/about-the-simple-use-case.md)
       + [Konfigurieren des Ereignisses](using/usecase/configuring-the-event.md)
-      + [Konfigurieren der Datenquelle](using/usecase/configuring-the-data-source.md)
+      + [Konfigurieren der Datenquelle ](using/usecase/configuring-the-data-source.md)
       + [Erstellen der Journey](using/usecase/simple-uc-building-the-journey.md)
    + Erstellen einer Cross-Channel-Journey{#use-case-advanced}
       + [Informationen zum erweiterten Anwendungsfall](using/usecase/about-the-advanced-use-case.md)
