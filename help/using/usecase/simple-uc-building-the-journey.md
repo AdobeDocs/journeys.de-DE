@@ -1,26 +1,24 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Erstellen der Journey
 description: Erfahren Sie, wie Sie die Journey mit dem einfachen Anwendungsfall erstellen
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 22bcd7f4-03ee-4e4c-b221-9f14aeadded6
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '412'
 ht-degree: 100%
 
 ---
-
 
 # Erstellen der Journey{#concept_eyw_mcy_w2b}
 
 Der **Business-Anwender** kann nun die Journey einrichten. Unsere Journey enthält nur einen Pfad mit folgenden Aktivitäten:
 
 * Ereignisaktivität **[!UICONTROL SpaBeacon]**: wenn eine Person den Spa-Beacon passiert, empfängt das System ein Ereignis und startet die Journey für diese Person
-* **[!UICONTROL bedingte]** Aktivität, um zu überprüfen, ob die Person weiblich ist
+* Aktivität **[!UICONTROL Bedingung]**, um zu überprüfen, ob die Person weiblich ist
 * **[!UICONTROL E-Mail]**-Aktivität (mit Adobe Campaign Standard)
 * Aktivität vom Typ **[!UICONTROL Ende]**
 
@@ -46,11 +44,11 @@ Weitere Informationen zum Erstellen einer Journey finden Sie auf [dieser Seite](
 
    ![](../assets/journeyuc1_10.png)
 
-1. Wählen Sie den Typ **[!UICONTROL Bedingung der Datenquelle]** und klicken Sie auf das Feld **[!UICONTROL Ausdruck]**. Alternativ können Sie eine Bedingungsbezeichnung definieren, die in der Arbeitsfläche auf dem Pfeil angezeigt wird.
+1. Wählen Sie den Typ **[!UICONTROL Bedingung der Datenquelle]** und klicken Sie auf das Feld **[!UICONTROL Ausdruck]**. Sie können auch eine Bedingungsbezeichnung definieren, die in der Arbeitsfläche auf dem Pfeil angezeigt wird.
 
    ![](../assets/journeyuc1_11.png)
 
-1. Suchen Sie mit dem einfachen Ausdruckseditor nach dem Feld für das Geschlecht (_person > gender_) und legen Sie es rechts ab, um folgende Bedingung zu erstellen: „Geschlecht ist gleich ‚Frau‘“.
+1. Suchen Sie mit dem einfachen Ausdruckseditor nach dem Feld für das Geschlecht (_person > gender_) und legen Sie es rechts ab, um folgende Bedingung zu erstellen: „gender ist gleich Frau“.
 
    ![](../assets/journeyuc1_12.png)
 
