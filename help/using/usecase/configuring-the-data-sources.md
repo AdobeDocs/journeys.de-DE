@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Konfigurieren von Datenquellen
 description: Erfahren Sie, wie Sie die Datenquelle für eine Journey in einem erweiterten Anwendungsfall konfigurieren
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 2cfa4397-fe8f-44b3-b219-2fd5d3bdd156
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '496'
 ht-degree: 100%
 
 ---
-
 
 # Konfigurieren von Datenquellen {#concept_vml_hdy_w2b}
 
