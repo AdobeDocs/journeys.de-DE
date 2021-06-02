@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Einschränkungen bei Journey Orchestration
 description: Erfahren Sie mehr über die Einschränkungen bei Journey Orchestration.
 feature: Journeys
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
+exl-id: 27859689-dc61-4f7a-b942-431cdf244455
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '527'
 ht-degree: 100%
 
 ---
-
 
 # Einschränkungen {#limitations}
 
@@ -28,7 +26,8 @@ Im Zusammenhang mit der Verwendung von Journey Orchestration gibt es Einschränk
 
 ## Einschränkungen bei den Journey-Versionen {#journey-versions-limitations}
 
-* eine Journey, die in Version 1 mit einer Ereignisaktivität beginnt, kann in weiteren Versionen nicht mit etwas anderem als einem Ereignis beginnen. Sie können eine Journey nicht mit einem **Segmentqualifikationsereignis** starten.
+* Eine Journey, die in Version 1 mit einer Ereignisaktivität beginnt, kann in weiteren Versionen nicht mit etwas anderem als einem Ereignis beginnen.
+Sie können eine Journey nicht mit einem **Segmentqualifizierungsereignis** starten.
 * Eine Journey, die in Version 1 mit einer **Segmentqualifikationsaktivität** beginnt, muss in weiteren Versionen immer mit einer **Segmentqualifikation** beginnen.
 * Das Segment und der Namespace, die unter **Segmentqualifikation** (erster Knoten) ausgewählt wurden, können in neuen Versionen nicht geändert werden.
 * Die Regel für den Wiedereintritt muss in allen Journey-Versionen gleich sein.
