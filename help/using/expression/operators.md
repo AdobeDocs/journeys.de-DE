@@ -1,22 +1,19 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Operatoren
 description: Erfahren Sie mehr über Operatoren in erweiterten Ausdrücken
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: fd86b6ab-76cf-4b35-9e87-f441e914f20b
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '436'
 ht-degree: 100%
 
 ---
 
-
-
-# Operatoren {#concept_wd5_pj5_dgb}
+# Benutzer {#concept_wd5_pj5_dgb}
 
 Es gibt zwei Arten von Operatoren: unäre Operatoren und binäre Operatoren. Es gibt unäre Operatoren auf der linken und auf der rechten Seite.
 
@@ -425,7 +422,7 @@ Beispiel:
 @ is decimal
 ```
 
-## Zeichenfolge {#string}
+## String        {#string}
 
 ### +
 
