@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Erstellen der Journey
 description: 'Erfahren Sie, wie Sie die Journey für den erweiterten Anwendungsfall erstellen  '
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: cca6ed3c-e151-4494-9e2d-9ed504bfc54b
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '914'
 ht-degree: 100%
 
 ---
-
 
 # Erstellen der Journey {#concept_owm_kdy_w2b}
 
@@ -49,7 +47,7 @@ Weitere Informationen zum Erstellen einer Journey finden Sie auf [dieser Seite](
 
    ![](../assets/journeyuc2_14.png)
 
-1. Wählen Sie den Typ **[!UICONTROL Bedingung der Datenquelle]** und klicken Sie auf das Feld **[!UICONTROL Ausdruck]**. Alternativ können Sie eine Bedingungsbezeichnung definieren, die in der Arbeitsfläche auf dem Pfeil angezeigt wird. In unserem Beispiel ersetzen wir „Bedingung 1“ durch „Mitglied des Treueprogramms“.
+1. Wählen Sie den Typ **[!UICONTROL Bedingung der Datenquelle]** und klicken Sie auf das Feld **[!UICONTROL Ausdruck]**. Sie können auch eine Bedingungsbezeichnung definieren, die in der Arbeitsfläche auf dem Pfeil angezeigt wird. In unserem Beispiel ersetzen wir „Bedingung 1“ durch „Mitglied des Treueprogramms“ (Loyalty-Mitglied).
 
    ![](../assets/journeyuc2_15.png)
 
@@ -90,7 +88,7 @@ Nach der Bedingung werden zwei Pfade erstellt:
 
 ![](../assets/journeyuc2_16.png)
 
-## Erster Pfad: der Kunde ist Mitglied des Treueprogramms {#section_otb_ws1_ffb}
+## Erster Pfad: der Kunde ist Mitglied des Treueprogramms (Loyalty-Mitglied)  {#section_otb_ws1_ffb}
 
 1. Im ersten Pfad fügen wir nun eine Bedingung hinzu, um zu überprüfen, ob der Kunde eine Reservierung hat. Ziehen Sie per Drag-and-Drop eine Bedingungsaktivität in die Journey.
 
@@ -154,7 +152,7 @@ Nach der Bedingung werden zwei Pfade erstellt:
 
    ![](../assets/journeyuc2_25.png)
 
-## Zweiter Pfad: der Kunde ist kein Mitglied des Treueprogramms{#section_ptb_ws1_ffb}
+## Zweiter Pfad: der Kunde ist kein Mitglied des Treueprogramms (Loyalty-Mitglied){#section_ptb_ws1_ffb}
 
 1. Fügen Sie im zweiten Pfad, der auf die erste Bedingung folgt (Kunde ist kein Mitglied des Treueprogramms), eine **[!UICONTROL E-Mail]**-Aktivität hinzu und wählen Sie die Vorlage „Mitgliedschaft im Treueprogramm“.
 
