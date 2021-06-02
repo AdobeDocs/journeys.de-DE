@@ -1,20 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Ändern von Eigenschaften
 description: Erfahren Sie, wie Sie Eigenschaften ändern
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: ht
-source-git-commit: a8bfd4fd829ff8fadc68de87dc0b9de085a962e3
-workflow-type: ht
-source-wordcount: '507'
+exl-id: 06d26078-b9b8-4dc4-918d-0f2426d00f54
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+workflow-type: tm+mt
+source-wordcount: '504'
 ht-degree: 100%
 
 ---
-
-
 
 # Ändern von Eigenschaften {#concept_prq_wqt_52b}
 
