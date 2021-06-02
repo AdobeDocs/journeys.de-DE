@@ -1,15 +1,13 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Versionshinweise
 description: Versionshinweise
 feature: Journeys
 role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-translation-type: ht
-source-git-commit: ae1179e0f9d4b1b3f2b004e4eadfd172637596ce
-workflow-type: ht
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+workflow-type: tm+mt
 source-wordcount: '2483'
 ht-degree: 100%
 
