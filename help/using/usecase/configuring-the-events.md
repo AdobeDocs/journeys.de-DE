@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Konfigurieren der Ereignisse
 description: Erfahren Sie, wie Sie die Ereignisse für die Journey mit dem erweiterten Anwendungsfall konfigurieren
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 90139c72-8fae-4e6e-a79b-7c510f41fe38
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '403'
 ht-degree: 100%
 
 ---
-
 
 # Konfigurieren der Ereignisse {#concept_sbp_5cy_w2b}
 
