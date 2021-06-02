@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Segmentqualifizierungsereignisse
 description: Mehr über Segmentqualifizierungsereignisse
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: ht
-source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
-workflow-type: ht
-source-wordcount: '786'
+exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+workflow-type: tm+mt
+source-wordcount: '783'
 ht-degree: 100%
 
 ---
-
 
 # Segmentqualifizierungsereignisse {#segment-qualification}
 
