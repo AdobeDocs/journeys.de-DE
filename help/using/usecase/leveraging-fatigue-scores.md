@@ -1,10 +1,8 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Nutzen von Ermüdungswerten
 description: Erfahren Sie, wie Sie in Journeys Ermüdungswerte nutzen
-translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 100%
@@ -24,7 +22,7 @@ Dieser Anwendungsfall zeigt, wie Sie Ermüdungswerte verwenden können, um zu ve
 
 Führen Sie die auf [dieser Seite](../event/about-events.md) beschriebenen Schritte aus.
 
-## Konfigurieren der Datenquelle {#section_o3n_4yy_wfb}
+## Konfigurieren der Datenquelle  {#section_o3n_4yy_wfb}
 
 Führen Sie folgende Schritte aus, um die Ermüdungswertfelder in der integrierten Datenquelle auszuwählen:
 
