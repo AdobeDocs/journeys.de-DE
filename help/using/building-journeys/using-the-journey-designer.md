@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Verwenden des Journey-Designers
 description: Weitere Informationen zur Verwendung des Journey-Designers
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: ht
-source-git-commit: 7755822065eb0bcc44f78e0e36c53ce73ac60ada
-workflow-type: ht
-source-wordcount: '1450'
+exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+workflow-type: tm+mt
+source-wordcount: '1447'
 ht-degree: 100%
 
 ---
-
 
 # Verwenden des Journey-Designers {#concept_m1g_5qt_52b}
 
@@ -118,4 +116,3 @@ Wenn Sie nur eine Aktivität kopieren möchten, können Sie darauf klicken und o
    ![](../assets/copy-paste2.png)
 1. Drücken Sie in einer beliebigen Journey die **Strg-/Befehlstaste + V**, um die Aktivitäten einzufügen, ohne sie mit einem vorhandenen Knoten zu verknüpfen. Eingefügte Aktivitäten werden in derselben Reihenfolge angeordnet. Nach dem Einfügen bleiben Aktivitäten ausgewählt, damit Sie sie einfach verschieben können. Sie können den Cursor auch auf einen leeren Platzhalter setzen und **Strg/Befehl + V** drücken. Eingefügte Aktivitäten werden mit dem Knoten verknüpft.
    ![](../assets/copy-paste3.png)
-
