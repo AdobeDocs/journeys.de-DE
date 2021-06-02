@@ -1,21 +1,19 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Informationen zum Erstellen von Journeys
 description: Erfahren Sie, wie Sie als Business-Anwender Ereignis-, Orchestrierungs- und Aktions-Aktivitäten kombinieren, um eine Journey zu gestalten.
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: ht
-source-git-commit: 409197458ba32f9fdb3e42e4b06eae2814eff9f8
-workflow-type: ht
-source-wordcount: '570'
+exl-id: 540b5142-9323-4cc1-9b5a-3fa20a5945bf
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+workflow-type: tm+mt
+source-wordcount: '567'
 ht-degree: 100%
 
 ---
 
-
-# Erstellen einer Journey {#concept_gq5_sqt_52b}
+# Eine Journey erstellen {#concept_gq5_sqt_52b}
 
 Dieser Schritt wird vom **Business-Anwender** ausgeführt. Hier erstellen Sie Ihre Journeys. Kombinieren Sie die verschiedenen Ereignis-, Orchestrierungs- und Aktionsaktivitäten, um Ihre mehrstufigen kanalübergreifenden Szenarien zu erstellen.
 
