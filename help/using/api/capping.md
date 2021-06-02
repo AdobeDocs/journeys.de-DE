@@ -1,20 +1,18 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Beschreibung der Capping-API
 description: Erfahren Sie mehr über die Capping-API.
 products: journeys
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1109'
 ht-degree: 100%
 
 ---
-
 
 # Arbeiten mit der Capping-API
 
@@ -192,7 +190,7 @@ Anwendungsfall 2: **Aktualisieren und Bereitstellen einer noch nicht bereitgeste
 1. get
 1. update
 1. candeploy
-1. bereitstellen
+1. deploy
 
 Anwendungsfall 3: **Aufheben einer Bereitstellung und Löschen einer bereitgestellten Begrenzungskonfiguration**
 
@@ -213,5 +211,4 @@ Anwendungsfall 5: **Aktualisieren einer bereits bereitgestellten Begrenzungskonf
 1. update
 1. undeploy
 1. candeploy
-1. bereitstellen
-
+1. deploy
