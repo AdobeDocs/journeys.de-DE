@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Informationen über die Campaign Classic-Integration
 description: Informationen zur Campaign Classic-Integration
 hide: true
@@ -8,14 +7,13 @@ hidefromtoc: true
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 4b321b63-c624-4c2a-ae92-f9a2a95688d4
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '441'
 ht-degree: 100%
 
 ---
-
 
 # Integrieren von Adobe Campaign Classic {#integrating-with-adobe-campaign-classic}
 
@@ -80,4 +78,3 @@ Für jede konfigurierte Aktion ist eine Aktionsaktivität in der Journey-Designe
 1. Unter **Aktionsparameter** werden alle Felder angezeigt, die in der Nachrichten-Payload erwartet werden. Sie müssen jedes dieser Felder entweder im Ereignis oder der Datenquelle dem zu verwendenden Feld zuordnen. Dies ähnelt benutzerdefinierten Aktionen. Siehe diesen [Abschnitt](../building-journeys/using-custom-actions.md).
 
 ![](../assets/accintegration2.png)
-
