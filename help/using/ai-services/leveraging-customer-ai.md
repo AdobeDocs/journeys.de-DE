@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Verwenden von Kunden-KI-Werten
 description: Verwenden von Kunden-KI-Werten
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: b507ed24-820f-41e2-b8ce-63e992710e3a
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '108'
 ht-degree: 100%
 
 ---
-
 
 # Verwenden von Kunden-KI-Werten {#customer-ai}
 
@@ -26,5 +24,3 @@ Folglich können sie wie jedes andere Profilattribut in den Bedingungen von Jour
 ![](../assets/customer-ai.png)
 
 Beachten Sie, dass Kunden-KI eine gebührenpflichtige Funktion von Adobe Experience Platform ist.
-
-
