@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Informationen zu Datenquellen
 description: 'Erfahren Sie, wie Sie eine Datenquelle konfigurieren '
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: ht
-source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
-workflow-type: ht
-source-wordcount: '351'
+exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+workflow-type: tm+mt
+source-wordcount: '348'
 ht-degree: 100%
 
 ---
-
 
 # Informationen zu Datenquellen {#concept_s1s_dqt_52b}
 
