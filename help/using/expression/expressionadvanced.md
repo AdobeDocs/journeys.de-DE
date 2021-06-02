@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Informationen zum erweiterten Ausdruckseditor
 description: Erfahren Sie, wie Sie erweiterte Ausdrücke erstellen
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: f6f0004d-8a33-4671-9c16-e56edfe2a45e
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '559'
 ht-degree: 100%
 
 ---
-
 
 # Informationen zum erweiterten Ausdruckseditor {#concept_uyj_trt_52b}
 
