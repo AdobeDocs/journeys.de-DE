@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Definieren der Nachrichtenparameter
 description: Erfahren Sie, wie Sie die Nachrichtenparameter definieren
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '213'
 ht-degree: 100%
 
 ---
-
 
 # Definieren der Nachrichtenparameter {#concept_wy4_bf1_2gb}
 
