@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Nutzen von Ermüdungswerten
 description: Erfahren Sie, wie Sie in Journeys Ermüdungswerte nutzen
-source-git-commit: bc17cd3c0aee2652e55e3cf0623f87c4187a165e
+source-git-commit: 83a2410151a8a388d1db845502f434e97d89bdcc
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '392'
 ht-degree: 4%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 In diesem Anwendungsbeispiel werden alle erforderlichen Schritte zum Senden einer E-Mail mithilfe der Adobe Campaign Classic-Integration vorgestellt.
 
-Zunächst wird in Campaign Classic eine Transaktions-E-Mail-Vorlage erstellt. Dann erstellen wir in der Journey Orchestration die Aktion und entwerfen die Journey.
+Zunächst wird in Campaign Classic eine Transaktions-E-Mail-Vorlage erstellt. Dann erstellen wir in der Journey Orchestration die Veranstaltung, Aktion und entwerfen die Journey.
 
 Weitere Informationen zur Campaign Classic-Integration finden Sie auf diesen Seiten:
 
@@ -28,7 +28,7 @@ Ihre Campaign Classic-Instanz muss für diese Integration bereitgestellt werden.
 
 1. Melden Sie sich bei Ihrer Campaign Classic-Kontrollinstanz an.
 
-1. Wählen Sie unter **Administration** > **Plattform** > **Auflistungen** die Auflistung **Ereignistyp** (eventType). Erstellen Sie einen neuen Ereignistyp ( in unserem Beispiel &quot;Journey-event&quot;). Sie müssen beim Schreiben der JSON-Datei den internen Namen des Ereignistyps verwenden.
+1. Wählen Sie unter **Administration** > **Plattform** > **Auflistungen** die Auflistung **Ereignistyp** (eventType). Erstellen Sie einen neuen Ereignistyp ( in unserem Beispiel &quot;Journey-event&quot;). Sie müssen den internen Namen des Ereignistyps beim späteren Schreiben der JSON-Datei verwenden.
 
    ![](../assets/accintegration-uc-1.png)
 
@@ -59,14 +59,14 @@ Ihre Campaign Classic-Instanz muss für diese Integration bereitgestellt werden.
 }
 ```
 
-    * Für den Kanal müssen Sie &quot;email&quot; eingeben.
-    * Verwenden Sie für eventType den internen Namen des zuvor erstellten Ereignistyps.
-    * Die E-Mail-Adresse wird eine Variable sein, sodass Sie einen beliebigen Titel eingeben können.
-    * Unter ctx sind die Personalisierungsfelder auch Variablen.
+* Geben Sie für den Kanal &quot;email&quot;ein.
+* Verwenden Sie für eventType den internen Namen des zuvor erstellten Ereignistyps.
+* Die E-Mail-Adresse ist eine Variable, sodass Sie einen beliebigen Titel eingeben können.
+* Unter ctx sind die Personalisierungsfelder auch Variablen.
 
 **Journey Orchestration**
 
-1. Zunächst müssen Sie ein Ereignis erstellen. Stellen Sie sicher, dass Sie &quot;purchaseOrderNumber&quot;einschließen.
+1. Zunächst müssen Sie ein Ereignis erstellen. Stellen Sie sicher, dass Sie das Feld &quot;purchaseOrderNumber&quot;einschließen.
 
    ![](../assets/accintegration-uc-5.png)
 
@@ -78,7 +78,7 @@ Ihre Campaign Classic-Instanz muss für diese Integration bereitgestellt werden.
 
    ![](../assets/accintegration-uc-7.png)
 
-1. Ändern Sie für die E-Mail-Adresse und zwei Personalisierungsfelder **Konstante** in **Variable**.
+1. Ändern Sie für die E-Mail-Adresse und die beiden Personalisierungsfelder **Konstante** in **Variable**.
 
    ![](../assets/accintegration-uc-8.png)
 
@@ -92,6 +92,6 @@ Ihre Campaign Classic-Instanz muss für diese Integration bereitgestellt werden.
 
 1. Fügen Sie die Aktivität **Ende** hinzu und testen Sie Ihre Journey.
 
-   ![](../assets/accintegration-uc-10.png)
+   ![](../assets/accintegration-uc-11.png)
 
 1. Sie können Ihre Journey jetzt veröffentlichen.
