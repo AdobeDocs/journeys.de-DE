@@ -5,10 +5,10 @@ title: Handbuch zur Journey Orchestration
 user-guide-description: Enthält Anleitungen zum Implementieren und Erstellen von Journeys.
 index: true
 feature: Journeys
-source-git-commit: 1712529984af02d0a3f678418db1e819370056d6
+source-git-commit: 33e7f08cfe7eb39b761991fdcfbabe99af02e3f0
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 94%
+source-wordcount: '421'
+ht-degree: 93%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 94%
    + [Benutzeroberfläche](using/about/user-interface.md)
    + [Zugriffsverwaltung ](using/about/access-management.md)
    + [Fehlerbehebung](using/about/troubleshooting.md)
+   + [Integration mit externen Systemen](using/about/external-systems.md)
 + Konfigurieren eines Ereignisses {#events-journeys}
    + Informationen zu Ereignissen {#about-events}
       + [Allgemeine Funktionsweise](using/event/about-events.md)
