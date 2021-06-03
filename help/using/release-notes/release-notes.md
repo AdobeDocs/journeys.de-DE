@@ -6,10 +6,10 @@ feature: Journeys
 role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 1712529984af02d0a3f678418db1e819370056d6
 workflow-type: tm+mt
-source-wordcount: '2483'
-ht-degree: 100%
+source-wordcount: '2541'
+ht-degree: 98%
 
 ---
 
@@ -17,6 +17,25 @@ ht-degree: 100%
 
 Auf dieser Seite werden alle neuen Funktionen und Verbesserungen bei Journey Orchestration aufgelistet.
 Sie können auch die neusten [Aktualisierungen der Dokumentation](../release-notes/documentation-updates.md) einsehen.
+
+## Version Mai 2021 {#may-2021-release}
+
+<table>
+<thead>
+<tr>
+<th><strong> Adobe Campaign Classic-Integration</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Die Integration mit Adobe Campaign Classic ist jetzt allgemein verfügbar. Sie ermöglicht den Versand von E-Mails, Push-Benachrichtigungen und SMS mithilfe von Transaktionsnachrichten in Adobe Campaign Classic.</p>
+<p>Die Verbindung zwischen der Journey Orchestration- und der Campaign Classic-Instanz wird bei der Bereitstellung von Adobe hergestellt.</p>
+<p>Weitere Informationen finden Sie im <a href="../action/acc-action.md">entsprechenden Handbuch</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Version April 2021 {#april-2021-release}
 
