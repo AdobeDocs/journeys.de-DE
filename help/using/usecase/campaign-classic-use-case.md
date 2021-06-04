@@ -1,32 +1,32 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: Nutzen von Ermüdungswerten
-description: Erfahren Sie, wie Sie in Journeys Ermüdungswerte nutzen
-source-git-commit: c17808a4cae7ebbd1129f6b28ad2ea945098f826
+title: Nachrichten mit Campaign v7/v8 senden
+description: Nachrichten mit Campaign v7/v8 senden
+source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 4%
+source-wordcount: '394'
+ht-degree: 1%
 
 ---
 
 
-# Senden einer Nachricht mit Campaign Classic {#campaign-classic-use-case}
+# Senden einer Nachricht mit Campaign v7/v8 {#campaign-classic-use-case}
 
-In diesem Anwendungsbeispiel werden alle erforderlichen Schritte zum Senden einer E-Mail mithilfe der Adobe Campaign Classic-Integration vorgestellt.
+In diesem Anwendungsbeispiel werden alle Schritte vorgestellt, die zum Senden einer E-Mail mithilfe der Integration mit Adobe Campaign Classic v7 und Adobe Campaign v8 erforderlich sind.
 
-Zunächst wird in Campaign Classic eine Transaktions-E-Mail-Vorlage erstellt. Dann erstellen wir in der Journey Orchestration die Veranstaltung, Aktion und entwerfen die Journey.
+Zunächst wird in Campaign eine Transaktions-E-Mail-Vorlage erstellt. Dann erstellen wir in der Journey Orchestration die Veranstaltung, Aktion und entwerfen die Journey.
 
-Weitere Informationen zur Campaign Classic-Integration finden Sie auf diesen Seiten:
+Weiterführende Informationen zur Campaign-Integration finden Sie auf diesen Seiten:
 
-* [Erstellen einer Campaign Classic-Aktion](../action/acc-action.md)
+* [Erstellen einer Kampagnenaktion](../action/acc-action.md)
 * [Verwenden der Aktion in einer Journey](../building-journeys/using-adobe-campaign-classic.md).
 
-**Adobe Campaign Classic**
+**Adobe Campaign**
 
-Ihre Campaign Classic-Instanz muss für diese Integration bereitgestellt werden. Die Funktion für Transaktionsnachrichten muss konfiguriert werden.
+Ihre Campaign-Instanz muss für diese Integration bereitgestellt werden. Die Funktion für Transaktionsnachrichten muss konfiguriert werden.
 
-1. Melden Sie sich bei Ihrer Campaign Classic-Kontrollinstanz an.
+1. Melden Sie sich bei Ihrer Campaign-Kontrollinstanz an.
 
 1. Wählen Sie unter **Administration** > **Plattform** > **Auflistungen** die Auflistung **Ereignistyp** (eventType). Erstellen Sie einen neuen Ereignistyp ( in unserem Beispiel &quot;Journey-event&quot;). Sie müssen den internen Namen des Ereignistyps beim späteren Schreiben der JSON-Datei verwenden.
 
@@ -38,7 +38,7 @@ Ihre Campaign Classic-Instanz muss für diese Integration bereitgestellt werden.
 
    ![](../assets/accintegration-uc-2.png)
 
-1. Entwerfen Sie Ihre Vorlage. In diesem Beispiel verwenden wir eine Personalisierung für den Vornamen und die Bestellnummer des Profils. Der Vorname befindet sich in der Adobe Experience Platform-Datenquelle und die Bestellnummer ist ein Feld aus unserem Journey Orchestration-Ereignis. Stellen Sie sicher, dass Sie die richtigen Feldnamen in Campaign Classic verwenden.
+1. Entwerfen Sie Ihre Vorlage. In diesem Beispiel verwenden wir eine Personalisierung für den Vornamen und die Bestellnummer des Profils. Der Vorname befindet sich in der Adobe Experience Platform-Datenquelle und die Bestellnummer ist ein Feld aus unserem Journey Orchestration-Ereignis. Stellen Sie sicher, dass Sie die richtigen Feldnamen in Campaign verwenden.
 
    ![](../assets/accintegration-uc-3.png)
 
@@ -70,7 +70,7 @@ Ihre Campaign Classic-Instanz muss für diese Integration bereitgestellt werden.
 
    ![](../assets/accintegration-uc-5.png)
 
-1. Anschließend müssen Sie in Journey Orchestration eine Ihrer Campaign Classic-Vorlage entsprechende Aktion erstellen. Wählen Sie in der Dropdown-Liste **Aktionstyp** die Option **Adobe Campaign Classic** aus.
+1. Erstellen Sie dann in Journey Orchestration eine Ihrer Campaign-Vorlage entsprechende Aktion. Wählen Sie in der Dropdown-Liste **Aktionstyp** die Option **Adobe Campaign Classic** aus.
 
    ![](../assets/accintegration-uc-6.png)
 
