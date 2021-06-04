@@ -6,14 +6,16 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
-source-git-commit: b108294acf8e1c4be00ca981e7ba15a23973f8ac
+source-git-commit: c49908d36ecbc68ae11b5621305f39dd59c67871
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 98%
+source-wordcount: '747'
+ht-degree: 63%
 
 ---
 
-# Arbeiten mit Adobe Campaign Standard {#using_adobe_campaign_standard}
+# Arbeiten mit Adobe Campaign {#using_adobe_campaign}
+
+## Verwenden von Adobe Campaign Standard {#using_adobe_campaign_standard}
 
 Mit den Transaktionsnachrichten von Adobe Campaign Standard können Sie E-Mails, Push-Benachrichtigungen und SMS senden.
 
@@ -52,3 +54,63 @@ Bei der Gestaltung Ihrer Journey stehen in der Kategorie **[!UICONTROL Aktion]**
 ![](../assets/journey58.png)
 
 Wenn Sie zum Senden von Nachrichten ein Drittanbietersystem verwenden, müssen Sie eine benutzerdefinierte Aktion hinzufügen und konfigurieren. Siehe [Informationen zur Konfiguration einer benutzerdefinierten Aktion](../action/about-custom-action-configuration.md).
+
+## Verwenden von Adobe Campaign v7/v8 {#using_adobe_campaign_v7_v8}
+
+Diese Integration ist für Adobe Campaign Classic v7 ab Version 21.1 und Adobe Campaign v8 verfügbar. Sie ermöglicht den Versand von E-Mails, Push-Benachrichtigungen und SMS mithilfe von Transaktionsnachrichten in Adobe Campaign.
+
+Die Verbindung zwischen der Journey Orchestration- und der Campaign-Instanz wird von Adobe zum Zeitpunkt der Bereitstellung eingerichtet.
+
+Ein durchgängiges Anwendungsbeispiel wird in diesem [Abschnitt](../usecase/campaign-v7-v8-use-case.md) vorgestellt.
+
+Für jede konfigurierte Aktion ist eine Aktionsaktivität in der Journey-Designer-Palette verfügbar. Siehe diesen [Abschnitt](../building-journeys/using-adobe-campaign-actions.md).
+
+### Wichtige Hinweise     
+
+* Es gibt keine Drosselung der Nachrichten. Wir begrenzen die Anzahl der Nachrichten, die versendet werden können, basierend auf unserem aktuellen Campaign SLA auf 50.000/Stunde. Aus diesem Grund sollte Journey Orchestration nur in unitären Anwendungsfällen (einzelne Ereignisse, nicht Segmente) verwendet werden.
+
+* Sie müssen für jede Vorlage, die Sie verwenden möchten, eine Aktion auf der Arbeitsfläche konfigurieren. Sie müssen für jede Vorlage, die Sie in Adobe Campaign verwenden möchten, eine Aktion in Journey Orchestration konfigurieren.
+
+* Es wird empfohlen, eine dedizierte Message-Center-Instanz zu verwenden, die für diese Integration gehostet wird, um mögliche andere Campaign-Vorgänge nicht zu beeinträchtigen. Der Marketing-Server kann gehostet oder On-Premise bereitgestellt werden. Der erforderliche Build ist Release-Kandidat 21.1 oder höher.
+
+* Es gibt keine Überprüfung, ob die Payload- oder die Campaign-Nachricht korrekt ist.
+
+* Sie können keine Kampagnenaktion mit einem Segmentqualifikationsereignis verwenden.
+
+### Voraussetzungen
+
+In Campaign müssen Sie eine Transaktionsnachricht und das zugehörige Ereignis erstellen und veröffentlichen. Weitere Informationen finden Sie in der [Adobe Campaign-Dokumentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=de#transactional-messaging).
+
+Sie können Ihre JSON-Nutzlast entsprechend den folgenden Mustern für jede Nachricht erstellen. Sie fügen diese Payload dann beim Konfigurieren der Aktion in Journey Orchestration ein (siehe unten)
+
+Hier ein Beispiel:
+
+```
+{
+    "channel": "email",
+    "eventType": "welcome",
+    "email": "example@adobe.com",
+    "ctx": {
+        "firstName": "John"
+    }
+}
+```
+
+* **channel**: den für Ihre Campaign-Transaktionsvorlage definierten Kanal
+* **eventType**: den internen Namen Ihres Campaign-Ereignisses
+* **ctx**: -Variable basierend auf der Personalisierung, die Sie in Ihrer Nachricht haben.
+
+### Konfigurieren der Aktion
+
+In Journey Orchestration müssen Sie eine Aktion pro Transaktionsnachricht konfigurieren. Führen Sie folgende Schritte aus:
+
+1. Erstellen Sie eine neue Aktion. Siehe diesen [Abschnitt](../action/action.md).
+1. Geben Sie einen Namen und eine Beschreibung ein.
+1. Wählen Sie im Feld **Aktionstyp** **Adobe Campaign Classic** aus.
+1. Klicken Sie in das Feld **Payload** und fügen Sie ein Beispiel der JSON-Payload ein, die der Campaign-Nachricht entspricht. Wenden Sie sich an Adobe, um diese Payload zu erhalten.
+1. Passen Sie die verschiedenen Felder je nach gewünschter Zuordnung auf der Journey-Arbeitsfläche als statisch oder variabel an. Bestimmte Felder, wie z. B. Kanalparameter für E-Mail-Adressen- und Personalisierungsfelder (ctx), sollten wahrscheinlich als Variablen für die Zuordnung im Kontext der Journey definiert werden.
+1. Klicken Sie auf **Speichern**.
+
+![](../assets/accintegration1.png)
+
+
