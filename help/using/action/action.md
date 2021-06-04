@@ -6,10 +6,10 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 34f7666b-1c91-4edd-b5d6-4c0513b9c4f3
-source-git-commit: 1712529984af02d0a3f678418db1e819370056d6
+source-git-commit: eff510d0e41e07560db8d56a8ca64da546e8fca6
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 96%
+source-wordcount: '316'
+ht-degree: 95%
 
 ---
 
@@ -36,9 +36,9 @@ Um die Aktionsliste anzuzeigen oder eine neue Aktion zu konfigurieren, klicken S
 
 ![](../assets/custom1.png)
 
-Falls Sie Adobe Campaign Standard verwenden, müssen Sie die vordefinierte Aktion zum Senden von E-Mails, Push-Benachrichtigungen und SMS mit den nativen Funktionen für Transaktionsnachrichten konfigurieren. Mehr dazu erfahren Sie auf [dieser Seite](../action/working-with-adobe-campaign.md).
+Falls Sie Adobe Campaign Standard verwenden, müssen Sie die vordefinierte Aktion zum Senden von E-Mails, Push-Benachrichtigungen und SMS mit den nativen Funktionen für Transaktionsnachrichten konfigurieren. Mehr dazu erfahren Sie auf [dieser Seite](../action/working-with-adobe-campaign.md#using_adobe_campaign_standard).
 
-Wenn Sie über Adobe Campaign Classic verfügen, ist auf Anfrage eine Integration verfügbar. Mehr dazu erfahren Sie auf [dieser Seite](../action/acc-action.md).
+Wenn Sie über Adobe Campaign v7 oder v8 verfügen, ist auf Anfrage eine Integration verfügbar. Mehr dazu erfahren Sie auf [dieser Seite](../action/working-with-adobe-campaign.md#using_adobe_campaign_v7_v8).
 
 Wenn Sie ein Drittanbietersystem (z. B. Epsilon, Facebook, Adobe.io, Firebase) zum Senden von Nachrichten verwenden, müssen Sie eine benutzerdefinierte Aktion hinzufügen und konfigurieren. Mehr dazu erfahren Sie auf [dieser Seite](../action/about-custom-action-configuration.md).
 
