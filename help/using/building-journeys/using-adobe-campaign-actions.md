@@ -6,14 +6,16 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 04aa7d95c2f12fe03497efe74f2ab8bd1a270b5b
 workflow-type: tm+mt
-source-wordcount: '938'
-ht-degree: 100%
+source-wordcount: '1096'
+ht-degree: 91%
 
 ---
 
 # Verwenden von Adobe Campaign-Aktionen {#using_campaign_action}
+
+## Verwenden von Adobe Campaign Standard {#using_campaign_standard_action}
 
 Wenn Sie über Adobe Campaign Standard verfügen, stehen die folgenden vordefinierten Aktionsaktivitäten zur Verfügung: **[!UICONTROL E-Mail]**, **[!UICONTROL Push]** und **[!UICONTROL SMS]**.
 
@@ -39,7 +41,7 @@ Wenn Sie eine Vorlage auswählen, werden alle Felder, die in der Payload der Nac
 
 ![](../assets/journey60.png)
 
-## E-Mail und SMS {#section_asc_51g_nhb}
+### E-Mail und SMS {#section_asc_51g_nhb}
 
 Für **[!UICONTROL E-Mail]** und **[!UICONTROL SMS]** sind die Parameter identisch.
 
@@ -73,7 +75,7 @@ Dies sind die Felder, die von der Adobe Campaign Standard-Nachricht erwartet wer
 
 ![](../assets/journey62.png)
 
-## Push-Benachrichtigung {#section_im3_hvf_nhb}
+### Push-Benachrichtigung {#section_im3_hvf_nhb}
 
 Vor der Verwendung der Push-Aktivität muss Ihre App mit Campaign Standard konfiguriert werden, um Push-Benachrichtigungen zu senden. Verwenden Sie diesen [Artikel](https://helpx.adobe.com/de/campaign/kb/integrate-mobile-sdk.html), um die erforderlichen Implementierungsschritte für Mobilgeräte auszuführen.
 
@@ -104,3 +106,20 @@ Sie müssen auch das **[!UICONTROL Anmeldetoken]** definieren. Der Ausdruck hän
 >Sie können keine Sammlungen in Personalisierungsdaten übergeben. Wenn die Transaktions-Push-Benachrichtigung Sammlungen erwartet, funktioniert dies nicht. Beachten Sie außerdem, dass die Personalisierungsdaten ein erwartetes Format haben (Beispiel: Zeichenfolge, Dezimalzahl usw.). Sie müssen darauf achten, dass diese erwarteten Formate eingehalten werden.
 
 Dies sind die Felder, die von der in Ihrer Adobe Campaign Standard-Nachricht verwendeten Transaktionsvorlage erwartet werden. Sie können diese Felder verwenden, um Ihre Nachricht zu personalisieren, eine bedingte Formatierung anzuwenden oder eine bestimmte Nachrichtenvariante auszuwählen.
+
+## Verwenden von Adobe Campaign v7/v8 {#using_campaign_v7_v8_action}
+
+Diese Integration ist für Adobe Campaign Classic v7 ab Version 21.1 und Adobe Campaign v8 verfügbar. Sie ermöglicht den Versand von E-Mails, Push-Benachrichtigungen und SMS mit den Funktionen für Transaktionsnachrichten in Adobe Campaign.
+
+Die Verbindung zwischen der Journey Orchestration- und der Campaign-Instanz wird von Adobe zum Zeitpunkt der Bereitstellung eingerichtet. Adobe kontaktieren.
+
+Dazu müssen Sie eine dedizierte Aktion konfigurieren. Siehe diesen [Abschnitt](../action/working-with-adobe-campaign.md#using_adobe_campaign_v7_v8).
+
+Ein durchgängiges Anwendungsbeispiel wird in diesem [Abschnitt](../usecase/campaign-v7-v8-use-case.md) vorgestellt.
+
+1. Beginnen Sie bei der Erstellung Ihrer Journey mit einem Ereignis. Siehe diesen [Abschnitt](../building-journeys/journey.md).
+1. Wählen Sie im Bereich **Aktion** der Palette eine Kampagnenaktion aus und fügen Sie sie Ihrer Journey hinzu.
+1. Unter **Aktionsparameter** werden alle Felder angezeigt, die in der Nachrichten-Payload erwartet werden. Sie müssen jedes dieser Felder entweder im Ereignis oder der Datenquelle dem zu verwendenden Feld zuordnen. Dies ähnelt benutzerdefinierten Aktionen. Siehe diesen [Abschnitt](../building-journeys/using-custom-actions.md).
+
+![](../assets/accintegration2.png)
+
