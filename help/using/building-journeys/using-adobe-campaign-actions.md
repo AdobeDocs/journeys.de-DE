@@ -6,14 +6,14 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
-source-git-commit: c17808a4cae7ebbd1129f6b28ad2ea945098f826
+source-git-commit: 2565f6be500440455aa60724272790537a28ce2d
 workflow-type: tm+mt
 source-wordcount: '938'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
-# Verwenden von Adobe Campaign-Aktionen {#using_campaign_action}
+# Verwenden von Adobe Campaign Standard {#using_campaign_action}
 
 Wenn Sie über Adobe Campaign Standard verfügen, stehen die folgenden vordefinierten Aktionsaktivitäten zur Verfügung: **[!UICONTROL E-Mail]**, **[!UICONTROL Push]** und **[!UICONTROL SMS]**.
 
