@@ -6,10 +6,10 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 22bcd7f4-03ee-4e4c-b221-9f14aeadded6
-source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
+source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 100%
+source-wordcount: '410'
+ht-degree: 98%
 
 ---
 
@@ -52,7 +52,7 @@ Weitere Informationen zum Erstellen einer Journey finden Sie auf [dieser Seite](
 
    ![](../assets/journeyuc1_12.png)
 
-1. Legen Sie eine **[!UICONTROL E-Mail]**-Aktivität ab und wählen Sie die Transaktionsnachrichtenvorlage „Spa-Rabatt“. Diese Vorlage wurde mit Adobe Campaign entwickelt. Mehr dazu erfahren Sie auf [dieser Seite]().
+1. Legen Sie eine **[!UICONTROL E-Mail]**-Aktivität ab und wählen Sie die Transaktionsnachrichtenvorlage „Spa-Rabatt“. Diese Vorlage wurde mit Adobe Campaign entwickelt. Mehr dazu erfahren Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html).
 
    ![](../assets/journeyuc1_13.png)
 
