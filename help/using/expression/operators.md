@@ -7,13 +7,13 @@ role: Data Engineer
 level: Experienced
 exl-id: fd86b6ab-76cf-4b35-9e87-f441e914f20b
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '436'
 ht-degree: 100%
 
 ---
 
-# Benutzer {#concept_wd5_pj5_dgb}
+# Operatoren {#concept_wd5_pj5_dgb}
 
 Es gibt zwei Arten von Operatoren: unäre Operatoren und binäre Operatoren. Es gibt unäre Operatoren auf der linken und auf der rechten Seite.
 
@@ -422,7 +422,7 @@ Beispiel:
 @ is decimal
 ```
 
-## String        {#string}
+## Zeichenfolge {#string}
 
 ### +
 
