@@ -7,9 +7,9 @@ role: Business Practitioner
 level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
 source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '417'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Es muss eine Verbindung zu zwei Datenquellen konfiguriert werden (weitere Inform
 
 ## Voraussetzungen:          {#prerequisites}
 
-Für unseren Anwendungsfall haben wir mit Adobe Campaign Standard drei Transaktionsnachrichtenvorlagen entwickelt. Wir nutzen Transaktionsnachrichtenvorlagen für Ereignisse. Mehr dazu erfahren Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html).
+Für unseren Anwendungsfall haben wir mit Adobe Campaign Standard drei Transaktionsnachrichtenvorlagen entwickelt. Wir nutzen Transaktionsnachrichtenvorlagen für Ereignisse. Mehr dazu erfahren Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=de).
 
 Adobe Campaign Standard ist so konfiguriert, dass E-Mails und Push-Benachrichtigungen gesendet werden.
 
