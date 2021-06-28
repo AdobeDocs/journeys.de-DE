@@ -7,13 +7,13 @@ role: Business Practitioner
 level: Intermediate
 exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1059'
 ht-degree: 100%
 
 ---
 
-# Fehlerbehebung{#concept_nlv_bcv_2fb}
+# Problembehebung{#concept_nlv_bcv_2fb}
 
 In diesem Abschnitt erfahren Sie, wie Sie Probleme bei Journeys vor dem Testen oder Veröffentlichen beheben können. Alle unten aufgeführten Prüfungen können durchgeführt werden, wenn sich die Journey im Testmodus befindet oder live ist. Wir empfehlen, alle unten aufgeführten Prüfungen im Testmodus vorzunehmen und dann mit der Veröffentlichung fortzufahren. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md).
 
@@ -62,7 +62,7 @@ Im Folgenden sind einige Faktoren aufgeführt, die der Administrator überprüfe
 * Enthält die Payload des Ereignisses eine Ereignis-ID?
 * Haben Sie die richtige URL aufgerufen?
 * Haben Sie die Payload-Struktur der Streaming-Aufnahme-APIs mithilfe der Payload-Strukturvorschau im Ereigniskonfigurationsbereich beachtet? Weitere Informationen finden Sie auf [dieser Seite](../event/previewing-the-payload.md).
-* Haben Sie in der Kopfzeile die richtigen Schlüssel/Wert-Paare Ihres Ereignisses verwendet?
+* Haben Sie in der Kopfzeile die richtigen Schlüssel-/Wert-Paare Ihres Ereignisses verwendet?
 
    ```
    X-gw-ims-org-id - your ORGID
