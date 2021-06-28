@@ -7,7 +7,7 @@ role: Business Practitioner
 level: Intermediate
 exl-id: 06d26078-b9b8-4dc4-918d-0f2426d00f54
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '504'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Wenn eine Journey „endet“, weist sie den Status **[!UICONTROL Geschlossen (k
 
 Nach der standardmäßigen globalen maximalen Wartezeit von 30 Tagen wechselt die Journey zum Status **Beendet**. Weitere Informationen finden Sie in diesem [Abschnitt](#global_timeout).
 
-## Zeitüberschreitung und Fehler bei Journey-Aktivitäten {#timeout_and_error}
+## Maximale Wartezeit und Fehler bei Journey-Aktivitäten {#timeout_and_error}
 
 Beim Bearbeiten einer Aktions- oder Bedingungsaktivität können Sie im Falle eines Fehlers oder einer Zeitüberschreitung einen alternativen Pfad definieren. Wenn die Verarbeitung der Aktivität, die ein Drittanbietersystem abfragt, die in den Eigenschaften der Journey festgelegte Dauer der maximalen Wartezeit überschreitet (Feld **[!UICONTROL Zeitüberschreitung und Fehler]**), wird der zweite Pfad ausgewählt, um eine potenzielle Ausweichaktion durchzuführen.
 
