@@ -7,9 +7,9 @@ role: Business Practitioner
 level: Beginner
 exl-id: 430bac3a-06da-45a8-af90-1dcd1504d532
 source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Journey Orchestration ermöglicht die Erstellung von Anwendungsfällen für die 
 
 ![](../assets/journeydiagram.png)
 
-[!DNL Journey Orchestration] erlaubt eine Echtzeit-Orchestrierung auf Basis von Kontextdaten aus Ereignissen, Informationen aus Adobe Experience Platform oder Daten aus API-Diensten von Drittanbietern. Wenn Sie für den Nachrichtenversand ein Drittanbietersystem verwenden, können Sie eine benutzerdefinierte Aktion einrichten. Falls Sie Adobe Campaign Standard verwenden, können Sie E-Mails, Push-Benachrichtigungen und SMS mit den nativen [Funktionen für Transaktionsnachrichten](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html) versenden.
+[!DNL Journey Orchestration] erlaubt eine Echtzeit-Orchestrierung auf Basis von Kontextdaten aus Ereignissen, Informationen aus Adobe Experience Platform oder Daten aus API-Diensten von Drittanbietern. Wenn Sie für den Nachrichtenversand ein Drittanbietersystem verwenden, können Sie eine benutzerdefinierte Aktion einrichten. Falls Sie Adobe Campaign Standard verwenden, können Sie E-Mails, Push-Benachrichtigungen und SMS mit den nativen [Funktionen für Transaktionsnachrichten](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=de) versenden.
 
 Zu diesem Zweck muss ein **technischer Anwender** im Tab „Ereigniskonfiguration“ Ereignisse für die Journeys konfigurieren. Die eingehenden Ereignisdaten werden mit dem Experience-Datenmodell (XDM) von Adobe normalisiert. Die Ereignisse stammen von Streaming-Aufnahme-APIs für authentifizierte und nicht authentifizierte Ereignisse (z. B. Adobe Mobile SDK-Ereignisse).
 
