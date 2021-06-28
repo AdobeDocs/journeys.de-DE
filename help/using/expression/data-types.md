@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '559'
 ht-degree: 100%
 
@@ -69,7 +69,7 @@ JSON-Format: Zahl
 42
 ```
 
-## decimal {#decimal}
+## Dezimalzahl {#decimal}
 
 **Beschreibung**
 
@@ -95,7 +95,7 @@ Serialisierungsformat: mit „.“ als Dezimaltrennzeichen.
 3.14
 ```
 
-## boolean {#boolean}
+## Boolesch {#boolean}
 
 **Beschreibung**
 
@@ -195,7 +195,7 @@ toDateTime("2011-12-03T15:15:30.123-00:20")
 toDateTime(1560762190189)
 ```
 
-## duration {#duration}
+## Dauer {#duration}
 
 **Beschreibung**
 
