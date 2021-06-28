@@ -7,9 +7,9 @@ role: Business Practitioner
 level: Intermediate
 exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
 source-git-commit: 1251eafcfe7487c3df01b412f17706f5ed6c6836
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '222'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Fügen Sie im Abschnitt **[!UICONTROL Nachrichtenparameter]** ein Beispiel der J
 
 >[!NOTE]
 >
->Feldnamen in der Payload dürfen keinen &quot;.&quot;enthalten. Zeichen.
+>Feldnamen in der Payload dürfen das Zeichen „.“ nicht enthalten.
 
 Sie können den Parametertyp definieren (z. B.: Zeichenfolge, Ganzzahl usw.).
 
