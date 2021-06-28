@@ -7,7 +7,7 @@ role: Business Practitioner
 level: Intermediate
 exl-id: 7b44edbe-9d05-4d67-8a64-2a0a553fcb92
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '769'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ Wenn in einer Aktion oder einer Bedingung ein Fehler auftritt, wird die Journey 
 
 ## Bedingung der Datenquelle {#data_source_condition}
 
-Auf diese Weise können Sie eine Bedingung basierend auf Feldern aus den Datenquellen oder den zuvor in der Journey positionierten Ereignissen definieren. Informationen zur Verwendung des Ausdruckseditors finden Sie auf [dieser Seite](../expression/expressionadvanced.md). Mit dem erweiterten Ausdruckseditor können Sie erweiterte Bedingungen zur Bearbeitung von Sammlungen oder zur Verwendung von Datenquellen einrichten, für die Parameter übergeben werden müssen. Weitere Informationen finden Sie auf [dieser Seite](../datasource/external-data-sources.md).
+Auf diese Weise können Sie eine Bedingung basierend auf Feldern in den Datenquellen oder den zuvor in der Journey positionierten Ereignissen definieren. Informationen zur Verwendung des Ausdruckseditors finden Sie auf [dieser Seite](../expression/expressionadvanced.md). Mit dem erweiterten Ausdruckseditor können Sie erweiterte Bedingungen zur Bearbeitung von Sammlungen oder zur Verwendung von Datenquellen einrichten, für die Parameter übergeben werden müssen. Weitere Informationen finden Sie auf [dieser Seite](../datasource/external-data-sources.md).
 
 ![](../assets/journey50.png)
 
