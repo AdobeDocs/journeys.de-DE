@@ -7,9 +7,9 @@ role: Business Practitioner
 level: Intermediate
 exl-id: eaf2c795-0920-4b9c-9f06-801e43c1844b
 source-git-commit: 29aa6b6e16f8e6d051065f8157f4e25e8b1c05e1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '373'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Mit der Aktionsaktivität **[!UICONTROL Profil aktualisieren]** können Sie ein 
 
    >[!NOTE]
    >
-   >Die Aktion **Profil** aktualisieren aktualisiert die Profildaten in Echtzeit, aktualisiert jedoch keine Datensätze. Die Datensatzauswahl ist erforderlich, da das Profil ein Datensatz ist, der mit einem Datensatz verknüpft ist.
+   >Die Aktion **Profil aktualisieren** aktualisiert die Profildaten in Echtzeit, sie aktualisiert jedoch keine Datensätze. Die Datensatzauswahl ist erforderlich, da das Profil ein Eintrag ist, der mit einem Datensatz verknüpft ist.
 
 1. Klicken Sie auf das Feld **Wert**, um den gewünschten Wert zu definieren:
 
