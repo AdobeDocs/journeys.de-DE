@@ -7,7 +7,7 @@ role: Business Practitioner
 level: Intermediate
 exl-id: 0d2417e9-5b3f-442d-a00d-8b4df239d952
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '900'
 ht-degree: 100%
 
@@ -73,7 +73,7 @@ In diesen Panels können Sie nach Bedarf Ihre Berichte erstellen. Sie können be
 
 Dann können Sie eine Freiformtabelle in Ihr Panel einfügen, um mit der Datensuche zu beginnen.
 
-### Freiformtabelle hinzufügen           {#adding-a-freeform-table}
+### Freiformtabelle hinzufügen            {#adding-a-freeform-table}
 
 Mit Freiformtabellen kann eine Tabelle erstellt werden, in der Daten unter Verwendung der unterschiedlichen Messwerte und Dimensionen im Bereich **[!UICONTROL Komponente]** analysiert werden.
 
