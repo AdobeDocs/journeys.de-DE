@@ -7,15 +7,15 @@ role: Business Practitioner
 level: Intermediate
 exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
 source-git-commit: c17808a4cae7ebbd1129f6b28ad2ea945098f826
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '314'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Arbeiten mit Adobe Campaign Standard {#using_adobe_campaign_standard}
+# Verwenden von Adobe Campaign Standard {#using_adobe_campaign_standard}
 
-Mit den Transaktionsnachrichten von Adobe Campaign Standard können Sie E-Mails, Push-Benachrichtigungen und SMS senden.
+Mit der Transaktionsnachrichten-Funktion von Adobe Campaign Standard können Sie E-Mails, Push-Benachrichtigungen und SMS senden.
 
 Für [!DNL Journey Orchestration] steht eine native Aktion zur Verfügung, die die Verbindung mit Adobe Campaign Standard ermöglicht. 
 
