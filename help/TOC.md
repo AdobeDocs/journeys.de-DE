@@ -6,21 +6,21 @@ user-guide-description: Enthält Anleitungen zum Implementieren und Erstellen vo
 index: true
 feature: Journeys
 source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 
-# Handbuch zur [!DNL Journey Orchestration]  {#using}
+# Handbuch zu [!DNL Journey Orchestration] {#using}
 
 + [Produktdokumentation](journey-orchestration-home.md)
 + Neue Funktionen {#release-notes}
-   + [Versionshinweise](using/release-notes/release-notes.md)
+   + [Versionshinweise ](using/release-notes/release-notes.md)
    + [Aktualisierungen der Dokumentation](using/release-notes/documentation-updates.md)
 + Einstieg in [!DNL Journey Orchestration] {#starting-with-journeys}
-   + [Versionsinformationen [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
+   + [Informationen zu  [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [Einschränkungen](using/about/limitations.md)
    + [Erste Schritte](using/about/get-started.md)
    + [Benutzeroberfläche](using/about/user-interface.md)
@@ -31,7 +31,7 @@ ht-degree: 92%
    + Informationen zu Ereignissen {#about-events}
       + [Allgemeine Funktionsweise](using/event/about-events.md)
       + [Datenzyklus](using/event/about-data-cycle.md)
-      + [Ereignis erstellen         ](using/event/about-creating.md)
+      + [Erstellen eines Ereignisses](using/event/about-creating.md)
       + [Nutzung von Adobe Analytics](using/event/about-analytics.md)
       + [Informationen zu ExperienceEvent-Schemata](using/event/experience-event-schema.md)
       + [Zusätzliche Schritte zum Senden von Ereignissen](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
@@ -47,8 +47,8 @@ ht-degree: 92%
    + [Externe Datenquellen](using/datasource/external-data-sources.md)
 + Konfigurieren einer Aktion {#action-journeys}
    + [Informationen zu Aktionen](using/action/action.md)
-   + [Arbeiten mit Adobe Campaign Standard](using/action/working-with-adobe-campaign.md)
-   + [Adobe Campaign v7/v8 verwenden](using/action/acc-action.md)
+   + [Verwenden von Adobe Campaign Standard](using/action/working-with-adobe-campaign.md)
+   + [Verwenden von Adobe Campaign v7/v8](using/action/acc-action.md)
    + Verwenden eines Drittanbietersystems {#action-third-party}
       + [Informationen zur Konfiguration einer benutzerdefinierten Aktion](using/action/about-custom-action-configuration.md)
       + [URL-Konfiguration](using/action/url-configuration.md)
@@ -59,7 +59,7 @@ ht-degree: 92%
    + [Verwenden von Segmenten in Bedingungen](using/segment/using-a-segment.md)
 + Erstellen der Journey {#building-journeys}
    + Informationen zum Erstellen von Journeys {#about-journey-building}
-      + [Eine Journey erstellen](using/building-journeys/journey.md)
+      + [Erstellen einer Journey](using/building-journeys/journey.md)
       + [Verwenden des Journey-Designers](using/building-journeys/using-the-journey-designer.md)
       + [Ändern von Eigenschaften](using/building-journeys/changing-properties.md)
       + [Journey-Versionen](using/building-journeys/journey-versions.md)
@@ -68,7 +68,7 @@ ht-degree: 92%
       + [Testprofile](using/building-journeys/creating-test-profiles.md)
    + Aktivitäten {#about-journey-building}
       + Ereignisaktivitäten {#events-activities}
-         + [Über Ereignisaktivitäten](using/building-journeys/event-activities.md)
+         + [Informationen zu Ereignisaktivitäten](using/building-journeys/event-activities.md)
          + [Allgemeine Ereignisse](using/building-journeys/general-events.md)
          + [Reaktionsereignisse](using/building-journeys/reaction-events.md)
          + [Segmentqualifizierungsereignisse](using/building-journeys/segment-qualification-events.md)
@@ -101,9 +101,9 @@ ht-degree: 92%
       + [Datentypen](using/expression/data-types.md)
       + [Feldverweise](using/expression/field-references.md)
       + [Funktionen zur Verwaltung von Sammlungen](using/expression/collection-management-functions.md)
-      + [Benutzer](using/expression/operators.md)
+      + [Operatoren](using/expression/operators.md)
       + [Journey-Eigenschaften](using/expression/journey-properties.md)
-      + [Beispiele     ](using/expression/advanced-editor-use-cases.md)
+      + [Beispiele](using/expression/advanced-editor-use-cases.md)
    + Funktionen {#main-functions-journey}
       + [Hauptfunktionen](using/expression/functions.md)
       + Adobe Experience Platform {#adobe-experience-platform}
@@ -186,13 +186,13 @@ ht-degree: 92%
    + Senden einer personalisierten E-Mail{#use-case-simple}
       + [Informationen zum einfachen Anwendungsfall](using/usecase/about-the-simple-use-case.md)
       + [Konfigurieren des Ereignisses](using/usecase/configuring-the-event.md)
-      + [Konfigurieren der Datenquelle ](using/usecase/configuring-the-data-source.md)
+      + [Konfigurieren der Datenquelle](using/usecase/configuring-the-data-source.md)
       + [Erstellen der Journey](using/usecase/simple-uc-building-the-journey.md)
    + Erstellen einer Cross-Channel-Journey{#use-case-advanced}
       + [Informationen zum erweiterten Anwendungsfall](using/usecase/about-the-advanced-use-case.md)
       + [Konfigurieren der Ereignisse](using/usecase/configuring-the-events.md)
       + [Konfigurieren von Datenquellen](using/usecase/configuring-the-data-sources.md)
       + [Erstellen der Journey](using/usecase/building-the-journey.md)
-   + [Nachrichten mit Campaign v7/v8 senden](using/usecase/campaign-classic-use-case.md)
-+ Arbeiten mit APIs{#working-with-apis}
-   + [Begrenzen von APIs](using/api/capping.md)
+   + [Senden von Nachrichten mit Campaign v7/v8](using/usecase/campaign-classic-use-case.md)
++ Verwenden von APIs{#working-with-apis}
+   + [Begrenzungs-APIs](using/api/capping.md)
