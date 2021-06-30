@@ -6,10 +6,10 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: e9b128be-9411-4b68-935e-4cc09eae3ef6
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
-source-wordcount: '196'
-ht-degree: 100%
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+workflow-type: tm+mt
+source-wordcount: '193'
+ht-degree: 91%
 
 ---
 
@@ -33,4 +33,4 @@ Dadurch wird der Analytics-Quell-Connector für diese Report Suite aktiviert. So
 
 ![](../assets/alpha-event9.png)
 
-Weitere Informationen zum Quell-Connector von Adobe Analytics finden Sie in der [Dokumentation](https://docs.adobe.com/help/de-DE/experience-platform/sources/connectors/adobe-applications/analytics.translate.html) und im [Tutorial](https://docs.adobe.com/content/help/de-DE/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.translate.html).
+Weitere Informationen zum Quell-Connector von Adobe Analytics finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) und im [Tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html).
