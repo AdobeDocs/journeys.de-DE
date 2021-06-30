@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 19a4b7f8-5636-4b8f-b81f-28ff7da99671
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
-source-wordcount: '48'
-ht-degree: 100%
+source-git-commit: 0c55ece133639ec001b58f73afcbc69787b98c0e
+workflow-type: tm+mt
+source-wordcount: '56'
+ht-degree: 73%
 
 ---
 
@@ -29,7 +29,7 @@ Konversion
 
 | Parameter | Typ |
 |-----------|------------------|
-| Datum/Uhrzeit im ISO 8601-Format | Zeichenfolge |
+| Datum/Uhrzeit im Format ISO-8601 oder &quot;JJJ-MM-TT&quot;(XDM-Datumsformat) | Zeichenfolge |
 | Datum/Uhrzeit | dateTime |
 
 ## Signaturen und zurückgegebene Typen
@@ -44,9 +44,9 @@ Gibt einen Datum/Uhrzeit-Wert ohne Berücksichtigung der Zeitzone zurück.
 
 ## Beispiele
 
-`toDateTimeOnly ("2016-08-18T23:17:59.123Z")`
+`toDateTimeOnly ("2016-08-18")`
 
-Gibt 2016-08-18T23:17:59.123 zurück.
+gibt eine dateTime zurück, die 2016-08-18T00:00:00.000 entspricht.
 
 `toDateTimeOnly(now())`
 
