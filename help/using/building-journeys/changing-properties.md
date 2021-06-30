@@ -6,10 +6,10 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 06d26078-b9b8-4dc4-918d-0f2426d00f54
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
-source-wordcount: '504'
-ht-degree: 100%
+source-git-commit: 58891c1bddd8fb9b0ae247d54be5cf1d7c40b9a8
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 90%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 100%
 Klicken Sie auf das Bleistiftsymbol oben rechts, um auf die Eigenschaften der Journey zuzugreifen. 
 
 Wenn Sie ein Administrator sind, können Sie den Namen der Journey ändern, eine Beschreibung hinzufügen, den erneuten Eintritt erlauben, Start- und Enddatum auswählen und eine Dauer für **[!UICONTROL Zeitüberschreitung und Fehler]** festlegen.
+
+Für Live-Journey werden in diesem Bildschirm das Veröffentlichungsdatum und der Name des Benutzers angezeigt, der die Journey veröffentlicht hat.
+
+Mit **Technische Details kopieren** können Sie technische Informationen über die Journey kopieren, die das Supportteam zur Fehlerbehebung verwenden kann. Die folgenden Informationen werden kopiert: JourneyVersion UID, OrgID, orgName, sandboxName, lastDeployedBy, lastDeployedAt.
 
 ![](../assets/journey32.png)
 
