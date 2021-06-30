@@ -7,10 +7,10 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: e42ef98b1d84d8311cf49967ec75ec9be6cc53f1
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 98%
+source-wordcount: '1171'
+ht-degree: 92%
 
 ---
 
@@ -22,8 +22,9 @@ Die APIs von [!DNL Journey Orchestration] unterstützen 5.000 Ereignisse/Sekunde
 
 Bei der Konfiguration von Datenquellen definieren Sie eine Verbindung zu einem System, um zusätzliche Informationen abzurufen, die in Ihren Journeys verwendet werden; für eine Aktionsdefinition konfigurieren Sie eine Verbindung zu einem Drittanbietersystem, um Nachrichten oder API-Aufrufe zu senden. Jedes Mal, wenn eine Journey einen API-Aufruf vornimmt, wird die Capping-API abgefragt, bevor der Aufruf über die API-Engine erfolgt. Wenn eine Begrenzung definiert wurde, wird der Aufruf abgelehnt, damit das externe System nicht überlastet wird.
 
-Weitere Informationen zur Konfiguration von Aktionen oder Datenquellen finden Sie unter [Informationen zu Aktionen](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html) oder [Informationen zu Datenquellen](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html)
+Bei externen Datenquellen wird die maximale Anzahl von Aufrufen pro Sekunde auf 15 festgelegt. Wenn die Anzahl der Aufrufe 15 pro Sekunde überschreitet, werden die verbleibenden Aufrufe verworfen. Sie können diese Beschränkung für private externe Datenquellen erhöhen. Wenden Sie sich an Adobe , um den Endpunkt auf die Whitelist zu setzen. Dies ist für öffentliche externe Datenquellen nicht möglich. Weiterführende Informationen zu Best Practices und Limits bei der Integration externer Systeme finden Sie auf dieser [Seite](../about/external-systems.md).
 
+Weitere Informationen zur Konfiguration von Aktionen oder Datenquellen finden Sie unter [Informationen zu Aktionen](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html) oder [Informationen zu Datenquellen](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html)
 
 ## Ressourcen
 
