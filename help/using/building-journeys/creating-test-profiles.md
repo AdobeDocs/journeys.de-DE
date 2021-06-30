@@ -3,9 +3,9 @@ product: adobe campaign
 title: Erstellen eines Testprofils
 description: Erfahren Sie mehr über die Erstellung von Testprofilen
 exl-id: f1be46a8-04b9-4f40-b18e-9099099d2e1c
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
-source-wordcount: '728'
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+workflow-type: tm+mt
+source-wordcount: '726'
 ht-degree: 100%
 
 ---
@@ -99,7 +99,7 @@ Ihre Testprofile werden hinzugefügt und können jetzt beim Testen einer Journey
 
 ## Erstellen von Testprofilen mithilfe von API-Aufrufen{#create-test-profiles-api}
 
-Sie können Testprofile auch über API-Aufrufe erstellen. Weitere Informationen finden Sie auf dieser [Seite](https://docs.adobe.com/content/help/de-DE/experience-platform/profile/home.html).
+Sie können Testprofile auch über API-Aufrufe erstellen. Weitere Informationen finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
 
 Sie müssen ein Profilschema verwenden, das das Mixin „Profil-Testdetails“ enthält. Die Markierung „testProfile“ ist Teil dieses Mixins.
 
