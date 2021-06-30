@@ -6,10 +6,10 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
-source-wordcount: '1447'
-ht-degree: 100%
+source-git-commit: 51915ac931c0c4af03b49140c20e1b0939beff65
+workflow-type: tm+mt
+source-wordcount: '1457'
+ht-degree: 98%
 
 ---
 
@@ -65,7 +65,7 @@ Der **Konfigurationsbereich für die Aktivität** wird angezeigt, wenn Sie auf e
 
 Auf der Arbeitsfläche werden Ihre Aktions- und Ereignisaktivitäten durch ein Symbol mit dem Namen des Ereignisses oder der Aktion dargestellt. Im Konfigurationsbereich für die Aktivität können Sie das Feld **[!UICONTROL Titel]** verwenden, um dem Aktivitätsnamen ein Suffix hinzuzufügen. Diese Titel helfen Ihnen dabei, die Verwendung von Ereignissen und Aktionen in einen Zusammenhang zu stellen, insbesondere wenn Sie dasselbe Ereignis oder dieselbe Aktion mehrmals in Ihrer Journey verwenden. Sie können auch die Titel sehen, die Sie im Reporting für [!DNL Journey Orchestration] hinzugefügt haben. Sie können auch Titel für Ihre Bedingungsaktivitäten definieren.
 
-Standardmäßig sind schreibgeschützte Felder ausgeblendet. Um sie anzuzeigen, klicken Sie auf das Symbol **Schreibgeschützte Felder anzeigen** oben links im Konfigurationsbereich für die Aktivitäten.
+Standardmäßig sind schreibgeschützte Felder ausgeblendet. Um schreibgeschützte Felder anzuzeigen, klicken Sie auf das Symbol **Schreibgeschützte Felder anzeigen** oben links im Konfigurationsbereich für die Aktivität. Diese Einstellung gilt für alle Aktivitäten in allen Journey.
 
 ![](../assets/journey59bis.png)
 
