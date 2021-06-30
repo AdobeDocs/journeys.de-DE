@@ -6,19 +6,19 @@ feature: Journeys
 role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 002b67f4e09635b58c00fad9dbc2c16b872a5fb3
-workflow-type: ht
-source-wordcount: '2542'
-ht-degree: 100%
+source-git-commit: 120671af1f8863c9d8dce5a93a487ee42a92a408
+workflow-type: tm+mt
+source-wordcount: '2633'
+ht-degree: 96%
 
 ---
 
-# Versionshinweise {#release-notes}
+# Versionshinweise  {#release-notes}
 
 Auf dieser Seite werden alle neuen Funktionen und Verbesserungen bei Journey Orchestration aufgelistet.
 Sie können auch die neusten [Aktualisierungen der Dokumentation](../release-notes/documentation-updates.md) einsehen.
 
-## Version Juni 2021 {#may-2021-release}
+## Version Juni 2021 {#june-2021-release}
 
 <table>
 <thead>
@@ -36,6 +36,13 @@ Sie können auch die neusten [Aktualisierungen der Dokumentation](../release-not
 </tr>
 </tbody>
 </table>
+
+### Verbesserungen
+
+* Für externe Datenquellen wird jetzt automatisch eine Begrenzungsregel von 15 Aufrufen pro Sekunde definiert. [Mehr dazu](../about/external-systems.md#capping)
+* Im einfachen und erweiterten Ausdruckseditor wird jetzt das XDM-Datumsformat unterstützt.
+* Im Bildschirm mit der Journey-Liste wurde ein neuer Filter hinzugefügt. Sie können nun nach Journey-Typ filtern: **[!UICONTROL Einzelereignis]** oder **[!UICONTROL Segmentqualifizierung]**. [Mehr dazu](../about/user-interface.md#section_lgm_hpz_pgb)
+* Für Live-Journey zeigt der Bildschirm mit den Journey-Eigenschaften jetzt das Veröffentlichungsdatum und den Namen des Benutzers an, der die Journey veröffentlicht hat. Diese Informationen sind auch verfügbar, wenn Sie die technischen Details der Journey kopieren. [Mehr dazu](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
 
 ## Version April 2021 {#april-2021-release}
 
@@ -513,5 +520,5 @@ Journey Orchestration erlaubt eine Echtzeit-Orchestrierung auf Basis von Kontext
 
 Zusätzliche Ressourcen:
 
-* [Tutorials](https://docs.adobe.com/content/help/de-DE/platform-learn/tutorials/journey-orchestration/introduction.html)
+* [Tutorials](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/introduction.html)
 * [Community](https://www.adobe.com/go/journeyorchestrationcommunity_de)
