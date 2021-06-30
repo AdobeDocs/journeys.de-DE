@@ -6,10 +6,10 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
-source-wordcount: '783'
-ht-degree: 100%
+source-git-commit: 51915ac931c0c4af03b49140c20e1b0939beff65
+workflow-type: tm+mt
+source-wordcount: '824'
+ht-degree: 95%
 
 ---
 
@@ -71,6 +71,8 @@ Wenn Sie den Ausdruckseditor in einer Bedingung oder Aktion verwenden, die einer
 Siehe [Bedingungsaktivität](../building-journeys/condition-activity.md#about_condition).
 
 ![](../assets/segment8.png)
+
+Eine neue Journey, die ein Segmentqualifikationsereignis enthält, ist zehn Minuten nach der Veröffentlichung funktionsfähig. Dieses Zeitintervall entspricht dem Cache-Aktualisierungsintervall des dedizierten Dienstes. Daher müssen Sie zehn Minuten warten, bevor Sie diese Journey verwenden.
 
 ## Best Practices {#best-practices-segments}
 
