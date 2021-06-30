@@ -6,10 +6,10 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
-source-wordcount: '86'
-ht-degree: 100%
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+workflow-type: tm+mt
+source-wordcount: '84'
+ht-degree: 92%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Die Integration mit Intelligent Services ermöglicht es Ihnen, die Leistungsfähigkeit von künstlicher Intelligenz und maschinellem Lernen in Anwendungsfällen mit Kundenerlebnissen zu nutzen. Auf diese Weise können Marketing-Analysten mithilfe von Konfigurationen auf Unternehmensebene spezifische Prognosen erstellen, die auf die Anforderungen eines Unternehmens zugeschnitten sind, ohne dass datenwissenschaftliches Fachwissen erforderlich ist.
 
-Weitere Informationen zu Intelligent Services finden Sie in der [Dokumentation](https://docs.adobe.com/content/help/de-DE/experience-platform/intelligent-services/home.html).
+Weitere Informationen zu Intelligent Services finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html).
 
 Diese Integration ermöglicht es Ihnen, Kundenprognosen zu nutzen. Weitere Informationen finden Sie unter [Nutzung von Kunden-KI.](../ai-services/leveraging-customer-ai.md)
 
