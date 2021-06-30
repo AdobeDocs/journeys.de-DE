@@ -6,10 +6,10 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 7b44edbe-9d05-4d67-8a64-2a0a553fcb92
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
-source-wordcount: '769'
-ht-degree: 100%
+source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
+workflow-type: tm+mt
+source-wordcount: '803'
+ht-degree: 96%
 
 ---
 
@@ -47,7 +47,7 @@ Im einfachen Modus können Sie einfache Abfragen anhand einer Kombination von Fe
 
 ![](../assets/journey64.png)
 
-Wenn Sie zur Erstellung Ihrer Segmente den [Segmentierungsdienst von Adobe Experience Platform](https://docs.adobe.com/content/help/de-DE/experience-platform/segmentation/home.html) verwenden, können Sie die Segmente in Ihren Journey-Bedingungen nutzen. Siehe [Verwenden von Segmenten in Bedingungen](../segment/using-a-segment.md).
+Wenn Sie zur Erstellung Ihrer Segmente den [Segmentierungsdienst von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de) verwenden, können Sie die Segmente in Ihren Journey-Bedingungen nutzen. Siehe [Verwenden von Segmenten in Bedingungen](../segment/using-a-segment.md).
 
 
 >[!NOTE]
@@ -75,6 +75,8 @@ Auf diese Weise können Sie je nach Tageszeit und/oder Wochentag unterschiedlich
 ## Prozentuale Aufspaltung {#percentage_split}
 
 Mit dieser Option können Sie die Audience nach dem Zufallsprinzip aufspalten, um für jede Gruppe eine andere Aktion zu definieren. Definieren Sie die Anzahl der Aufspaltungen und die Neuaufteilung für jeden Pfad. Die Berechnung der Aufspaltung ist statistisch, da das System nicht vorhersehen kann, wie viele Personen an dieser Aktivität der Journey teilnehmen werden. Infolgedessen weist die Aufspaltung eine sehr geringe Fehlermarge auf. Diese Funktion basiert auf einem Java-Zufallsmechanismus (siehe diese [Seite](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)).
+
+Im Testmodus wird beim Erreichen einer Aufspaltung immer der obere Zweig ausgewählt. Sie können die Position der geteilten Verzweigungen neu organisieren, wenn der Test einen anderen Pfad wählen soll. Mehr dazu erfahren Sie auf [dieser Seite](../building-journeys/testing-the-journey.md).
 
 >[!NOTE]
 >
