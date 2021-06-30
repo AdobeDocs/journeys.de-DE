@@ -7,10 +7,10 @@ feature: Journeys
 role: Business Practitioner
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 5d2e82c10dd22b5b4bac15a78a2f6f592aedd371
-workflow-type: ht
-source-wordcount: '957'
-ht-degree: 100%
+source-git-commit: 5346c3a25900b1e167ea5b199e1873adab39d07d
+workflow-type: tm+mt
+source-wordcount: '1011'
+ht-degree: 90%
 
 ---
 
@@ -32,7 +32,11 @@ Wenn Journey Orchestration einen Aufruf an eine externe API ausführt, werden di
 
 ## Begrenzung{#capping}
 
-Die integrierte Begrenzungs-API bietet eine vorgeschaltete technische Schutzmaßnahme, die zum Schutz Ihres externen Systems beiträgt. Zuvor müssen Sie die Kapazität Ihrer externen API abschätzen. Wenn beispielsweise Journey Orchestration 1.000 Aufrufe pro Sekunde sendet und Ihr System nur 100 Aufrufe pro Sekunde unterstützen kann, müssen Sie eine Begrenzungsregel definieren, damit Ihr System nicht überfordert wird.
+Die integrierte Begrenzungs-API bietet eine vorgeschaltete technische Schutzmaßnahme, die zum Schutz Ihres externen Systems beiträgt.
+
+Bei externen Datenquellen wird die maximale Anzahl von Aufrufen pro Sekunde auf 15 festgelegt. Wenn die Anzahl der Aufrufe 15 pro Sekunde überschreitet, werden die verbleibenden Aufrufe verworfen. Sie können diese Beschränkung für private externe Datenquellen erhöhen. Wenden Sie sich an Adobe , um den Endpunkt auf die Whitelist zu setzen. Dies ist für öffentliche externe Datenquellen nicht möglich.
+
+Für benutzerdefinierte Aktionen müssen Sie die Kapazität Ihrer externen API bewerten. Wenn Journey Optimizer beispielsweise 1000 Aufrufe pro Sekunde sendet und Ihr System nur 100 Aufrufe pro Sekunde unterstützen kann, müssen Sie eine Begrenzungsregel definieren, damit Ihr System nicht überfordert wird.
 
 Begrenzungsregeln werden auf Sandbox-Ebene für einen bestimmten Endpunkt (die aufgerufene URL) definiert. Zur Laufzeit überprüft Journey Orchestration, ob eine Begrenzungsregel definiert ist, und wendet die definierte Rate während der Aufrufe auf diesen Endpunkt an. Wenn die Anzahl der Aufrufe die definierte Rate überschreitet, werden die verbleibenden Aufrufe verworfen und im Reporting als Fehler gezählt.
 
