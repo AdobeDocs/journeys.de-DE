@@ -6,9 +6,9 @@ feature: Journeys
 role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 120671af1f8863c9d8dce5a93a487ee42a92a408
+source-git-commit: e2ff3e9d86aa9f603cf3d66507881d482a95a4a5
 workflow-type: tm+mt
-source-wordcount: '2633'
+source-wordcount: '2631'
 ht-degree: 96%
 
 ---
@@ -40,7 +40,7 @@ Sie können auch die neusten [Aktualisierungen der Dokumentation](../release-not
 ### Verbesserungen
 
 * Für externe Datenquellen wird jetzt automatisch eine Begrenzungsregel von 15 Aufrufen pro Sekunde definiert. [Mehr dazu](../about/external-systems.md#capping)
-* Im einfachen und erweiterten Ausdruckseditor wird jetzt das XDM-Datumsformat unterstützt.
+* Die einfachen und erweiterten Ausdruckseditoren unterstützen jetzt das XDM-Datumsformat.
 * Im Bildschirm mit der Journey-Liste wurde ein neuer Filter hinzugefügt. Sie können nun nach Journey-Typ filtern: **[!UICONTROL Einzelereignis]** oder **[!UICONTROL Segmentqualifizierung]**. [Mehr dazu](../about/user-interface.md#section_lgm_hpz_pgb)
 * Für Live-Journey zeigt der Bildschirm mit den Journey-Eigenschaften jetzt das Veröffentlichungsdatum und den Namen des Benutzers an, der die Journey veröffentlicht hat. Diese Informationen sind auch verfügbar, wenn Sie die technischen Details der Journey kopieren. [Mehr dazu](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
 
