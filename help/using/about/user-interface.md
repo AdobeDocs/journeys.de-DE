@@ -6,10 +6,10 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
-source-wordcount: '1061'
-ht-degree: 100%
+source-git-commit: e09b49372f217a2e77504046ddf11e04a4c2b364
+workflow-type: tm+mt
+source-wordcount: '1069'
+ht-degree: 96%
 
 ---
 
@@ -55,7 +55,7 @@ Sie können auf die **[!UICONTROL Filter]** zugreifen, indem Sie auf das Filters
 
 Verwenden Sie in den Listen **[!UICONTROL Datenquellen]**, **[!UICONTROL Ereignisse]** und **[!UICONTROL Aktionen]** die **[!UICONTROL Erstellungsfilter]**, um nach dem Erstellungsdatum und Anwender zu filtern. Sie können beispielsweise festlegen, dass nur die Ereignisse angezeigt werden sollen, die Sie in den letzten 30 Tagen erstellt haben.
 
-In der Journey-Liste (unter **[!UICONTROL Startseite]**) können Sie die angezeigten Journeys zusätzlich zu den **[!UICONTROL Erstellungsfiltern]** auch nach Status und Version filtern (**[!UICONTROL Status- und Versionsfilter]**). Sie können auch festlegen, dass nur die Journeys angezeigt werden, die ein bestimmtes Ereignis, eine bestimmte Feldergruppe oder eine bestimmte Aktion verwenden (**[!UICONTROL Aktivitätsfilter]** und **[!UICONTROL Datenfilter]**). Mit den **[!UICONTROL Veröffentlichungsfiltern]** können Sie ein Veröffentlichungsdatum oder einen bestimmten Benutzer auswählen. Sie können beispielsweise entscheiden, dass nur die aktuellen Versionen von Live-Journeys, die am Vortag veröffentlicht wurden, angezeigt werden sollen. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/using-the-journey-designer.md).
+In der Journey-Liste (unter **[!UICONTROL Home]**) können Sie zusätzlich zu den **[!UICONTROL Erstellungsfiltern]** auch die angezeigten Journey nach Status, Typ und Version filtern (**[!UICONTROL Status- und Versionsfilter]**). Der Typ kann: **[!UICONTROL Einzelereignis]** oder **[!UICONTROL Segmentqualifizierung]**. Sie können auch festlegen, dass nur die Journeys angezeigt werden, die ein bestimmtes Ereignis, eine bestimmte Feldergruppe oder eine bestimmte Aktion verwenden (**[!UICONTROL Aktivitätsfilter]** und **[!UICONTROL Datenfilter]**). Mit den **[!UICONTROL Veröffentlichungsfiltern]** können Sie ein Veröffentlichungsdatum oder einen bestimmten Benutzer auswählen. Sie können beispielsweise entscheiden, dass nur die aktuellen Versionen von Live-Journeys, die am Vortag veröffentlicht wurden, angezeigt werden sollen. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ In den verschiedenen Listen können Sie grundlegende Aktionen für einzelne Elem
 
 Bei der Definition von [Ereignis-Payload](../event/defining-the-payload-fields.md), [Feldgruppen-Payload](../datasource/field-groups.md) und der Auswahl von Feldern im [Ausdruckseditor](../expression/expressionadvanced.md) wird der Anzeigename zusätzlich zum Feldnamen angezeigt. Diese Informationen werden aus der Schemadefinition im Experience-Datenmodell abgerufen.
 
-Wenn beim Einrichten von Schemata Deskriptoren wie „xdm:alternateDisplayInfo“ angegeben werden, werden die Anzeigenamen durch benutzerfreundliche Namen ersetzt. Dies ist besonders bei der Verwendung von eVars und generischen Feldern nützlich. Deskriptoren für benutzerfreundliche Namen können über einen API-Aufruf konfiguriert werden. Weitere Informationen finden Sie im [Entwicklerhandbuch zur Schema Registry](https://docs.adobe.com/content/help/de-DE/experience-platform/xdm/api/getting-started.html).
+Wenn beim Einrichten von Schemata Deskriptoren wie „xdm:alternateDisplayInfo“ angegeben werden, werden die Anzeigenamen durch benutzerfreundliche Namen ersetzt. Dies ist besonders bei der Verwendung von eVars und generischen Feldern nützlich. Deskriptoren für benutzerfreundliche Namen können über einen API-Aufruf konfiguriert werden. Weitere Informationen finden Sie im [Entwicklerhandbuch zur Schema Registry](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=de).
 
 ![](../assets/xdm-from-descriptors.png)
 
