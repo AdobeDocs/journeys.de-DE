@@ -6,10 +6,10 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 11e337c6-5e05-4898-9953-b6b821af8fd1
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
-source-wordcount: '329'
-ht-degree: 100%
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+workflow-type: tm+mt
+source-wordcount: '325'
+ht-degree: 95%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Um Ereignisse zu konfigurieren, die an **[!UICONTROL Streaming-Aufnahme-APIs]** gesendet und in [!DNL Journey Orchestration] verwendet werden sollen, müssen Sie die folgenden Schritte ausführen:
 
-1. Rufen Sie die Inlet-URL von den Adobe Experience Platform-APIs ab (siehe [Streaming-Aufnahme-APIs](https://docs.adobe.com/content/help/de-DE/experience-platform/ingestion/streaming/overview.html)).
+1. Rufen Sie die Inlet-URL von den Adobe Experience Platform-APIs ab (siehe [Streaming-Aufnahme-APIs](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html)).
 1. Kopieren Sie die Payload aus der Payload-Vorschau im Menü **[!UICONTROL Ereignis]**. Weitere Informationen finden Sie auf [dieser Seite](../event/defining-the-payload-fields.md).
 
 Konfigurieren Sie anschließend das Datensystem, das Ereignisse mithilfe der kopierten Payload an die Streaming-Aufnahme-APIs pusht:
@@ -91,4 +91,4 @@ Im Folgenden finden Sie ein Beispiel für ein Streaming-Aufnahme-API-Ereignis:
 
 Um die Identifizierung der Stelle zu erleichtern, an der der „Daten“-Teil eingefügt werden soll, können Sie ein JSON-Visualisierungs-Tool verwenden, z. B. [https://jsonformatter.curiousconcept.com](https://jsonformatter.curiousconcept.com)
 
-Informationen zur Fehlerbehebung bei Streaming-Aufnahme-APIs finden Sie auf dieser [Seite](https://docs.adobe.com/content/help/de-DE/experience-platform/ingestion/streaming/troubleshooting.html).
+Informationen zur Fehlerbehebung bei Streaming-Aufnahme-APIs finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html).
