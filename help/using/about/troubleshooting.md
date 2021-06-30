@@ -6,10 +6,10 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
-source-wordcount: '1059'
-ht-degree: 100%
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+workflow-type: tm+mt
+source-wordcount: '1057'
+ht-degree: 99%
 
 ---
 
@@ -47,7 +47,7 @@ Der Ausgangspunkt einer Journey ist stets ein Ereignis. Sie können mithilfe von
 
 Sie können prüfen, ob der API-Aufruf, den Sie über diese Tools versenden, richtig gesendet wurde oder nicht. Wenn Sie einen Fehler erhalten, bedeutet das, dass es bei Ihrem Aufruf zu einem Fehler kommt. Überprüfen Sie erneut die Payload, die Kopfzeile (insbesondere die Organisations-ID) sowie die Ziel-URL. Sie können Ihren Administrator nach der richtigen URL fragen.
 
-Ereignisse werden von der Quelle nicht direkt an [!DNL Journey Orchestration] weitergeleitet. [!DNL Journey Orchestration] benötigt dazu Streaming-Aufnahme-APIs von Adobe Experience Platform. Darum können Sie bei Problemen mit Ereignissen auf [dieser Seite](https://docs.adobe.com/content/help/de-DE/experience-platform/ingestion/streaming/troubleshooting.html) die Fehlerbehebung für Streaming-Aufnahme-APIs aufrufen.
+Ereignisse werden von der Quelle nicht direkt an [!DNL Journey Orchestration] weitergeleitet. [!DNL Journey Orchestration] benötigt dazu Streaming-Aufnahme-APIs von Adobe Experience Platform. Darum können Sie bei Problemen mit Ereignissen auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html) die Fehlerbehebung für Streaming-Aufnahme-APIs aufrufen.
 
 ## Überprüfen, ob Personen in die Journey eintreten{#section_x4v_zzs_dgb}
 
