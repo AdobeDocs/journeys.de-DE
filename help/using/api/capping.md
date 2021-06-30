@@ -7,10 +7,10 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
-source-wordcount: '1109'
-ht-degree: 100%
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+workflow-type: tm+mt
+source-wordcount: '1103'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ Die APIs von [!DNL Journey Orchestration] unterstützen 5.000 Ereignisse/Sekunde
 
 Bei der Konfiguration von Datenquellen definieren Sie eine Verbindung zu einem System, um zusätzliche Informationen abzurufen, die in Ihren Journeys verwendet werden; für eine Aktionsdefinition konfigurieren Sie eine Verbindung zu einem Drittanbietersystem, um Nachrichten oder API-Aufrufe zu senden. Jedes Mal, wenn eine Journey einen API-Aufruf vornimmt, wird die Capping-API abgefragt, bevor der Aufruf über die API-Engine erfolgt. Wenn eine Begrenzung definiert wurde, wird der Aufruf abgelehnt, damit das externe System nicht überlastet wird.
 
-Weitere Informationen zur Konfiguration von Aktionen oder Datenquellen finden Sie unter [Informationen zu Aktionen](https://docs.adobe.com/content/help/de-DE/journeys/using/action-journeys/action.html) oder [Informationen zu Datenquellen](https://docs.adobe.com/content/help/de-DE/journeys/using/data-source-journeys/about-data-sources.html)
+Weitere Informationen zur Konfiguration von Aktionen oder Datenquellen finden Sie unter [Informationen zu Aktionen](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html) oder [Informationen zu Datenquellen](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html)
 
 
 ## Ressourcen
@@ -173,7 +173,7 @@ Diese Postman-Kollektion wurde eingerichtet, um die Postman-Variablenkollektion 
 Nach dem Herunterladen und Hochladen in Postman müssen Sie drei Variablen hinzufügen: `{JO_HOST}`, `{Base_Path}` und `{SANDBOX_NAME}`.
 * `{JO_HOST}` : [!DNL Journey Orchestration]-Gateway-URL
 * `{BASE_PATH}` : Einstiegspunkt für die API. Der Wert lautet „/authoring“
-* `{SANDBOX_NAME}`: der Header **x-sandbox-name** (z. B. „prod“), der dem Sandbox-Namen entspricht, in dem die API-Vorgänge stattfinden. Weitere Informationen finden Sie in der [Übersicht über Sandboxes](https://docs.adobe.com/content/help/de-DE/experience-platform/sandbox/home.html).
+* `{SANDBOX_NAME}`: der Header **x-sandbox-name** (z. B. „prod“), der dem Sandbox-Namen entspricht, in dem die API-Vorgänge stattfinden. Weitere Informationen finden Sie in der [Übersicht über Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html).
 
 Im folgenden Abschnitt finden Sie die sortierte Liste der Rest-API-Aufrufe, um den Anwendungsfalls auszuführen.
 
@@ -186,7 +186,7 @@ Anwendungsfall 1: **Erstellen und Bereitstellen einer neuen Begrenzungskonfigura
 
 Anwendungsfall 2: **Aktualisieren und Bereitstellen einer noch nicht bereitgestellten Begrenzungskonfiguration**
 
-1. list
+1. Liste
 1. get
 1. update
 1. candeploy
@@ -194,19 +194,19 @@ Anwendungsfall 2: **Aktualisieren und Bereitstellen einer noch nicht bereitgeste
 
 Anwendungsfall 3: **Aufheben einer Bereitstellung und Löschen einer bereitgestellten Begrenzungskonfiguration**
 
-1. list
+1. Liste
 1. undeploy
 1. delete
 
 Anwendungsfall 4: **Löschen einer bereitgestellten Begrenzungskonfiguration.**
 
 In nur einem API-Aufruf können Sie die Bereitstellung aufheben und die Konfiguration mithilfe des forceDelete-Parameters löschen.
-1. list
+1. Liste
 1. delete mit forceDelete-Parameter
 
 Anwendungsfall 5: **Aktualisieren einer bereits bereitgestellten Begrenzungskonfiguration**
 
-1. list
+1. Liste
 1. get
 1. update
 1. undeploy
