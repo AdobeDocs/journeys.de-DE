@@ -6,10 +6,10 @@ feature: Journeys
 role: Business Practitioner
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
-source-wordcount: '527'
-ht-degree: 100%
+source-git-commit: 784c91054e0f6b9ea12aa4b7f4079f7c2da8f949
+workflow-type: tm+mt
+source-wordcount: '519'
+ht-degree: 90%
 
 ---
 
@@ -20,15 +20,13 @@ Im Zusammenhang mit der Verwendung von Journey Orchestration gibt es Einschränk
 ## Allgemeine Aktionseinschränkungen
 
 * Es gibt keine Einschränkung beim Versand. 
-* Im Falle eines Fehlers werden systematisch zwei weitere Zustellversuche durchgeführt. Sie können die Anzahl der weiteren Zustellversuche nicht entsprechend der erhaltenen Fehlermeldung anpassen. 
+* Im Falle eines Fehlers werden systematisch drei weitere Versuche durchgeführt. Sie können die Anzahl der weiteren Zustellversuche nicht entsprechend der erhaltenen Fehlermeldung anpassen. 
 * Mit dem integrierten **Reaktionsereignis** können Sie auf vordefinierte Aktionen reagieren (siehe diese [Seite](../building-journeys/reaction-events.md)). Wenn Sie auf eine Nachricht reagieren möchten, die über eine benutzerdefinierte Aktion gesendet wird, müssen Sie ein spezielles Ereignis konfigurieren. 
-* Die Integration von Adobe Campaign Classic ist nicht als Produkt verfügbar.
 
 ## Einschränkungen bei den Journey-Versionen {#journey-versions-limitations}
 
-* Eine Journey, die in Version 1 mit einer Ereignisaktivität beginnt, kann in weiteren Versionen nicht mit etwas anderem als einem Ereignis beginnen.
-Sie können eine Journey nicht mit einem **Segmentqualifizierungsereignis** starten.
-* Eine Journey, die in Version 1 mit einer **Segmentqualifikationsaktivität** beginnt, muss in weiteren Versionen immer mit einer **Segmentqualifikation** beginnen.
+* Eine Journey, die in v1 mit einer Ereignisaktivität beginnt, kann in weiteren Versionen nicht mit etwas anderem als einem Ereignis beginnen. Sie können eine Journey nicht mit einem **Segmentqualifizierungsereignis** starten.
+* Eine Journey, die in v1 mit einer **Segmentqualifikation** -Aktivität beginnt, muss in weiteren Versionen immer mit einer **Segmentqualifikation** beginnen.
 * Das Segment und der Namespace, die unter **Segmentqualifikation** (erster Knoten) ausgewählt wurden, können in neuen Versionen nicht geändert werden.
 * Die Regel für den Wiedereintritt muss in allen Journey-Versionen gleich sein.
 
@@ -49,7 +47,7 @@ Sie können eine Journey nicht mit einem **Segmentqualifizierungsereignis** star
 
 ## Einschränkungen bei Adobe Campaign-Aktionen
 
-* Transaktionsnachrichten in Adobe Campaign Standard sind für eine bestimmte Instanz auf maximal 50.000 Nachrichten pro Stunde über alle Kanäle hinweg begrenzt. Weitere Informationen finden Sie in der [Adobe Campaign Standard – Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/campaign-standard.html). 
+* Transaktionsnachrichten in Adobe Campaign Standard sind für eine bestimmte Instanz auf maximal 50.000 Nachrichten pro Stunde über alle Kanäle hinweg begrenzt. Weitere Informationen finden Sie in der [Adobe Campaign Standard – Produktbeschreibung](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html). 
 
  
 
