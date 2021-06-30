@@ -6,16 +6,16 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: b507ed24-820f-41e2-b8ce-63e992710e3a
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
-source-wordcount: '108'
-ht-degree: 100%
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 93%
 
 ---
 
 # Verwenden von Kunden-KI-Werten {#customer-ai}
 
-Kunden-KI ist Teil von Intelligent Services. Der Service hilft vorauszusagen, was ein Kunde wahrscheinlich tun wird. Weitere Informationen finden Sie in der [Dokumentation](https://docs.adobe.com/content/help/de-DE/experience-platform/intelligent-services/customer-ai/overview.html).
+Kunden-KI ist Teil von Intelligent Services. Der Service hilft vorauszusagen, was ein Kunde wahrscheinlich tun wird. Weitere Informationen finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html).
 
 Mit Kunden-KI können Marken auf maschinellem Lernen basierende Abwanderungs- oder Konversionswerte erstellen, die anschließend als Profilattribute in den Adobe Experience Platform-Profilen (Echtzeit-Kundenprofilen) verfügbar sind.
 
