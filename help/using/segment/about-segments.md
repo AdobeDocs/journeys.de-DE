@@ -6,16 +6,16 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 94e1e3e3-9a46-41ca-bec1-f41287925372
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
-source-wordcount: '212'
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+workflow-type: tm+mt
+source-wordcount: '210'
 ht-degree: 100%
 
 ---
 
 # Über Adobe Experience Platform-Segmente {#about-segments}
 
-Wenn Sie zur Erstellung Ihrer Segmente den [Segmentierungsdienst von Adobe Experience Platform](https://docs.adobe.com/content/help/de-DE/experience-platform/segmentation/home.html) verwenden, können Sie die Segmente in [!DNL Journey Orchestration] nutzen. Mit einer speziellen Ereignisaktivität können Sie Kontakte dazu bringen, anhand von Ein- und Austritten in Adobe Experience Platform-Segmenten in eine Journey einzutreten oder in einer Journey fortzufahren. Dadurch können Sie mit dem einfachen oder erweiterten Ausdruckseditor auch komplexe Bedingungen für Ihre Journeys erstellen.
+Wenn Sie zur Erstellung Ihrer Segmente den [Segmentierungsdienst von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de) verwenden, können Sie die Segmente in [!DNL Journey Orchestration] nutzen. Mit einer speziellen Ereignisaktivität können Sie Kontakte dazu bringen, anhand von Ein- und Austritten in Adobe Experience Platform-Segmenten in eine Journey einzutreten oder in einer Journey fortzufahren. Dadurch können Sie mit dem einfachen oder erweiterten Ausdruckseditor auch komplexe Bedingungen für Ihre Journeys erstellen.
 
 Nehmen wir an, Sie verfügen über ein Segment für „Silber-Kunden“. Mit dieser Aktivität können Sie dafür sorgen, dass alle neuen Silber-Kunden eine Journey beginnen, und ihnen eine Reihe personalisierter Nachrichten senden. Auf Grundlage dieses Segments können Sie auch mühelos Bedingungen erstellen.
 
