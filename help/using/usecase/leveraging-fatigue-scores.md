@@ -2,10 +2,10 @@
 product: adobe campaign
 title: Nutzen von Ermüdungswerten
 description: Erfahren Sie, wie Sie in Journeys Ermüdungswerte nutzen
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
-source-wordcount: '268'
-ht-degree: 100%
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+workflow-type: tm+mt
+source-wordcount: '267'
+ht-degree: 96%
 
 ---
 
@@ -16,7 +16,7 @@ Dieser Anwendungsfall zeigt, wie Sie Ermüdungswerte verwenden können, um zu ve
 
 >[!NOTE]
 >
->Die Funktion für prädiktive Ermüdungswerte steht nur Kunden zur Verfügung, die [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html) verwenden.
+>Die Funktion für prädiktive Ermüdungswerte steht nur Kunden zur Verfügung, die [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html) verwenden.
 
 ## Konfigurieren des Ereignisses {#section_ptb_ws1_ffb}
 
