@@ -6,9 +6,9 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 79bcf562-f971-42f1-a607-94a2510c4a07
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
-source-wordcount: '406'
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+workflow-type: tm+mt
+source-wordcount: '404'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Der Schlüssel ist das Feld oder die Feldkombination, die Teil der Ereignis-Payload-Daten ist und es dem System ermöglicht, die mit dem Ereignis verbundene Person zu identifizieren. Der Schlüssel kann beispielsweise die Experience Cloud-ID, eine CRM-ID oder eine E-Mail-Adresse sein.
 
-Wenn Sie Daten nutzen möchten, die in der Echtzeit-Kundenprofildatenbank gespeichert sind, müssen Sie als Ereignisschlüssel die Informationen auswählen, die Sie im [Echtzeit-Kundenprofildienst](https://docs.adobe.com/content/help/de-DE/experience-platform/profile/home.html) als Profilidentität definiert haben.
+Wenn Sie Daten nutzen möchten, die in der Echtzeit-Kundenprofildatenbank gespeichert sind, müssen Sie als Ereignisschlüssel die Informationen auswählen, die Sie im [Echtzeit-Kundenprofildienst](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de) als Profilidentität definiert haben.
 
 Dadurch kann das System die Abstimmung zwischen dem Ereignis und dem Profil des Kontakts durchführen. Wenn Sie ein Schema mit einer Primäridentität auswählen, werden die Felder **[!UICONTROL Schlüssel]** und **[!UICONTROL Namespace]** vorbelegt. Wenn keine Identität definiert ist, wählen Sie _identityMap > id_ als Primärschlüssel aus. Wählen Sie anschließend einen Namespace aus und der Schlüssel wird (unter dem Feld **[!UICONTROL Namespace]**) mit _identityMap > id_ vorbelegt.
 
