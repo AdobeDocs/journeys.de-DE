@@ -7,10 +7,10 @@ feature: Journeys
 role: Business Practitioner
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
-source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
-workflow-type: ht
-source-wordcount: '257'
-ht-degree: 100%
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+workflow-type: tm+mt
+source-wordcount: '249'
+ht-degree: 94%
 
 ---
 
@@ -73,10 +73,10 @@ Erfahren Sie mehr über die neuesten Versionen.
 
 * [Journey Orchestration – Produktseite](https://www.adobe.com/de/experience-platform/journey-orchestration.html)
 * [Dokumentation zu Experience Platform](https://www.adobe.com/de/experience-platform/documentation-and-developer-resources.html)
-* [Dokumentation zum Echtzeit-Kundenprofil](https://docs.adobe.com/content/help/de-DE/experience-platform/profile/home.html)
-* [Experience Cloud-XDM-Felddefinition](https://docs.adobe.com/content/help/de-DE/experience-platform/xdm/home.html)
-* [Dokumentation zum Identity-Namespace](https://docs.adobe.com/content/help/de-DE/experience-platform/identity/home.html)
-* [Streaming-Aufnahme-APIs](https://docs.adobe.com/content/help/de-DE/experience-platform/ingestion/streaming/overview.html)
+* [Dokumentation zum Echtzeit-Kundenprofil](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de)
+* [Experience Cloud-XDM-Felddefinition](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de)
+* [Dokumentation zum Identity-Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html)
+* [Streaming-Aufnahme-APIs](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html)
 * [Dokumentation zu Transaktionsnachrichten von Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=de)
 
 ## Technische Tutorials
