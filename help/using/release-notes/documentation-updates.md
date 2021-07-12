@@ -1,51 +1,51 @@
 ---
 product: adobe campaign
-title: Aktualisierungen der Dokumentation
+title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die Aktualisierungen der Dokumentation
 feature: Journeys
 role: Business Practitioner
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+source-git-commit: f6059f174e983433d3ad24d06c0d0c74788bc792
+workflow-type: tm+mt
 source-wordcount: '814'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
-# Aktualisierungen der Dokumentation
+# Dokumentation – Aktualisierungen
 
 Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journey Orchestration] aufgelistet.
-Lesen Sie auch die [!DNL Journey Orchestration]-[Versionshinweise](../release-notes/release-notes.md).
+Lesen Sie auch die [!DNL Journey Orchestration][Versionshinweise](../release-notes/release-notes.md).
 
-## März 2021 {#march-2021}
+## März 2021 {#march-2021}
 
-* Wir haben das vollständige Verfahren zur Erstellung von Testprofilen in Adobe Experience Platform detailliert beschrieben. [Mehr dazu](../building-journeys/creating-test-profiles.md)
+* Wir haben das vollständige Verfahren zur Erstellung von Testprofilen in Adobe Experience Platform detailliert beschrieben. [Mehr dazu](../building-journeys/creating-test-profiles.md).
 
-## Januar 2021 {#january-2021}
+## Januar 2021 {#january-2021}
 
-* Es wurden Best Practices hinzugefügt, wenn eine Journey gleichzeitig mit einer Profilerstellung ausgelöst wird. [Mehr dazu](../about/limitations.md#journeys-limitation-profile-creation)
+* Es wurden Best Practices hinzugefügt, wenn eine Journey gleichzeitig mit einer Profilerstellung ausgelöst wird. [Mehr dazu](../about/limitations.md#journeys-limitation-profile-creation).
 
 ## Oktober 2020 {#october-2020}
 
-* Es wurden Informationen zum Konfigurieren einer Zeitüberschreitung für ein Ereignis hinzugefügt. [Mehr dazu](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
+* Es wurden Informationen zum Konfigurieren einer Zeitüberschreitung für ein Ereignis hinzugefügt. [Mehr dazu](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time).
 
 ## September 2020 {#september-2020}
 
 * Der Abschnitt mit der Beschreibung der Benutzeroberfläche wurde aktualisiert, um das neue Menü **App Selector** anzuzeigen. [Mehr dazu](../about/user-interface.md)
 * Es wurde eine Notiz zu den neuen, nicht wiederkehrenden Versionen von segmentbasierten Journeys hinzugefügt.
 
-## August 2020 {#august-2020}
+## August 2020 {#august-2020}
 
 * Es wurden Informationen zum Sortieren und Auswählen der Spalten hinzugefügt, die in der Segmentliste angezeigt werden sollen. [Mehr dazu](../building-journeys/segment-qualification-events.md)
 * Es wurden Informationen zum Kopieren des Namens und der ID eines Segments hinzugefügt, nachdem es ausgewählt wurde. [Mehr dazu](../building-journeys/segment-qualification-events.md)
-* Die Vorkommen von Experience Platform wurden auf den verschiedenen Seiten harmonisiert.
+* Die Vorkommen von Experience Platformen wurden auf den verschiedenen Seiten harmonisiert.
 
 ## Juli 2020 {#july-2020}
 
 * Es wurde ein Link zu einem neuen Anleitungsvideo für Schrittereignis-Berichte zu Adobe Experience Platform hinzugefügt. [Mehr dazu](../building-journeys/sharing-overview.md)
 * Der Bereich „Ereignisaktivitäten“ wurde für jede Art von Ereignis in spezifische Unterbereiche umstrukturiert. [Mehr dazu](../building-journeys/event-activities.md)
-* Es wurden Best Practices hinzugefügt, um eine Überlastung durch Segmentqualifikation zu vermeiden. [Mehr dazu](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
+* Es wurden Best Practices hinzugefügt, um eine Überlastung durch die Segmentqualifizierung zu vermeiden. [Mehr dazu](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * Es wurde ein Hinweis hinzugefügt, der erklärt, wie eine Journey nach einem Fehler in einer Aktion oder Bedingung fortgesetzt werden kann. [Mehr dazu](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * Es wurde ein neuer Abschnitt zu den Alpha-Funktionen hinzugefügt, die von einer begrenzten Anzahl von Kunden getestet werden.
 * Es wurde ein neuer Abschnitt zur Integration mit Intelligent Services hinzugefügt. [Mehr dazu](../ai-services/ai-services-overview.md)
@@ -57,19 +57,19 @@ Lesen Sie auch die [!DNL Journey Orchestration]-[Versionshinweise](../release-no
 * Es wurde ein Hinweis hinzugefügt, dass eine Begrenzungsregel eingerichtet werden muss, wenn mit Transaktionsnachrichten von Campaign Standard gearbeitet wird. [Mehr dazu](../action/working-with-adobe-campaign.md)
 * Es wurde ein Hinweis zur Generierung echter Ereignisse hinzugefügt, wenn Ereignisse im Testmodus ausgelöst werden. [Mehr dazu](../building-journeys/testing-the-journey.md#firing_events)
 
-## Juni 2020{#june-2020}
+## Juni 2020 {#june-2020}
 
 * Es wurden Informationen darüber hinzugefügt, wie die Aufbewahrungsfrist im Cache des Tokens für eine benutzerdefinierte Authentifizierungsdatenquelle geändert werden kann. [Mehr dazu](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
 * Screenshots und Text wurden aktualisiert, um der Umbenennung des Journey-Status **[!UICONTROL Beendet]** Rechnung zu tragen, der nun **[!UICONTROL Geschlossen (kein Eintritt)]** heißt.
 * Es wurden Informationen zur Definition der Sprache der Benutzeroberfläche hinzugefügt. [Mehr dazu](../about/user-interface.md)
 * Die Liste der Status der Journey eines Kontakts wurde in den Bereich [Testmodusprotokolle](../building-journeys/testing-the-journey.md#viewing_logs) verschoben.
 
-## April 2020 {#april-2020}
+## April 2020 {#april-2020}
 
 * Es wurde ein neuer Abschnitt zur Schemadefinition für Erlebnisereignisse hinzugefügt, der Benutzern bei der Konfiguration ihres ersten Ereignisses hilft. [Mehr dazu](../event/experience-event-schema.md)
-* Die Startseite für die [!DNL Journey Orchestration]-Dokumentation wurde um weitere nützliche Links ergänzt. [Mehr dazu](../../journey-orchestration-home.md)
+* Die Homepage für die [!DNL Journey Orchestration]-Dokumentation wurde um weitere nützliche Links ergänzt. [Mehr dazu](../../journey-orchestration-home.md)
 
-## März 2020 {#march-2020}
+## März 2020 {#march-2020}
 
 * Parameterbeschreibungen für _actionExecutionErrors_ und _fetchErrors_ wurden im Abschnitt über Testprotokolle hinzugefügt – [Mehr dazu](../building-journeys/testing-the-journey.md#viewing_logs)
 * Die Beschränkungen für in Journeys verwendete benutzerdefinierte Aktionen wurden aktualisiert. Sie können auch das **[!UICONTROL URL-Feld]** und die **[!UICONTROL Authentifizierungsparameter]** ändern. [Mehr dazu](../action/about-custom-action-configuration.md)
@@ -86,16 +86,16 @@ Lesen Sie auch die [!DNL Journey Orchestration]-[Versionshinweise](../release-no
 
 ## Februar 2020 {#february-2020}
 
-* Der Abschnitt mit den Tastaturbefehlen wurde aktualisiert. Mit dem Tastaturbefehl **C** können Sie in allen Listenbildschirmen ein neues Element erstellen. [Mehr dazu](../about/user-interface.md#section_ksq_zr1_ffb)
+* Der Abschnitt zum Tastaturbefehl wurde aktualisiert - Mit dem Tastaturbefehl **C** können Sie in allen Listenbildschirmen ein neues Element erstellen. [Mehr dazu](../about/user-interface.md#section_ksq_zr1_ffb)
 * Die Übersichtsseiten für [Datenquellen](../datasource/about-data-sources.md) und [Aktionen](../action/action.md) wurden verbessert.
 
-## Januar 2020 {#january-2020}
+## Januar 2020 {#january-2020}
 
 * Für [Erlebnisereignisse](../datasource/adobe-experience-platform-data-source.md) und [Segmente](../functions/functioninsegment.md) wurden Abrufeinschränkungen hinzugefügt.
 
 <!--* The [getBestSendTime documentation](../functions/functiongetbestsendtime.md) has been updated.-->
 
-## Dezember 2019 {#december-2019}
+## Dezember 2019 {#december-2019}
 
 * Alle Screenshots wurden entsprechend den Änderungen der Benutzeroberfläche aktualisiert.
 * Der Abschnitt „Testmodus“ wurde aktualisiert. [Mehr dazu](../building-journeys/testing-the-journey.md)
