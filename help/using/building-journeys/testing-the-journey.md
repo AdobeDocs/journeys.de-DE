@@ -6,7 +6,7 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
+source-git-commit: f6059f174e983433d3ad24d06c0d0c74788bc792
 workflow-type: tm+mt
 source-wordcount: '1681'
 ht-degree: 98%
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 # Testen der Journey{#testing_the_journey}
 
-Bevor Sie Ihre Journey testen können, müssen Sie alle eventuell vorhandenen Fehler beheben. Siehe [diesen Abschnitt](../about/troubleshooting.md#section_h3q_kqk_fhb).
+Bevor Sie Ihre Journey testen können, müssen Sie alle eventuell vorhandenen Fehler beheben. Weitere Informationen finden Sie in [diesem Abschnitt](../about/troubleshooting.md#section_h3q_kqk_fhb).
 
 Sie können Ihre Journey vor der Veröffentlichung mit Testprofilen testen. Auf diese Weise können Sie analysieren, wie sich Kontakte in der Journey bewegen, und Fehler vor der Veröffentlichung beheben.
 
@@ -23,7 +23,7 @@ Nur Testprofile können im Testmodus in eine Journey eintreten. Sie können entw
 
 Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 
-1. Bevor Sie Ihre Journey testen, überprüfen Sie, ob sie gültig ist und keine Fehler vorliegen. Fehlerbehaftete Journeys können nicht getestet werden. Siehe [diesen Abschnitt](../about/troubleshooting.md#section_h3q_kqk_fhb). Bei Fehlern wird ein Warnsymbol angezeigt.
+1. Bevor Sie Ihre Journey testen, überprüfen Sie, ob sie gültig ist und keine Fehler vorliegen. Fehlerbehaftete Journeys können nicht getestet werden. Weitere Informationen finden Sie in [diesem Abschnitt](../about/troubleshooting.md#section_h3q_kqk_fhb). Bei Fehlern wird ein Warnsymbol angezeigt.
 
 1. Um den Testmodus zu aktivieren, klicken Sie in der rechten oberen Ecke auf den Umschalter **[!UICONTROL Test]**.
 
@@ -60,13 +60,13 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 * Wenn Sie den Testmodus deaktivieren, werden alle Personen, die in der Vergangenheit an der Journey teilgenommen haben oder sich derzeit darin befinden, aus der Journey entfernt. Dabei werden auch die Berichte gelöscht.
 * Sie können den Testmodus beliebig oft aktivieren/deaktivieren.
 * Sie können Ihre Journey nicht ändern, wenn der Testmodus aktiviert ist. Im Testmodus können Sie die Journey direkt veröffentlichen, ohne den Testmodus zuvor deaktivieren zu müssen.
-* Beim Erreichen einer Aufspaltung wird immer der obere Zweig ausgewählt. Sie können die Position der geteilten Verzweigungen neu organisieren, wenn der Test einen anderen Pfad wählen soll.
+* Beim Erreichen einer Aufspaltung wird immer die obere Verzweigung gewählt. Wenn der Test einen anderen Pfad wählen soll, können Sie die Position der aufgespaltenen Verzweigungen neu anordnen.
 
 ## Umwandeln eines Profils in ein Testprofil{#turning-profile-into-test}
 
-Sie können ein vorhandenes Profil in ein Testprofil umwandeln. In Adobe Experience Platform können Sie die Attribute von Profilen über API-Aufrufe aktualisieren, jedoch nicht über die Oberfläche.
+Sie können ein vorhandenes Profil in ein Testprofil umwandeln. In Adobe Experience Platform können Sie Profilattribute über API-Aufrufe aktualisieren, dies kann jedoch nicht über die Benutzeroberfläche erfolgen.
 
-Am einfachsten geht dies, wenn Sie die Aktionsaktivität **Profil aktualisieren** verwenden und das boolesche Feld des Testprofils von „false“ auf „true“ ändern. Siehe [diesen Abschnitt](../building-journeys/update-profiles.md#using-the-test-mode).
+Am einfachsten geht dies, wenn Sie die Aktionsaktivität **Profil aktualisieren** verwenden und das boolesche Feld des Testprofils von „false“ auf „true“ ändern. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/update-profiles.md#using-the-test-mode).
 
 ## Erstellen eines Testprofils{#create-test-profile}
 
@@ -124,7 +124,7 @@ curl -X POST \
 
 ## Auslösen Ihrer Ereignisse {#firing_events}
 
-Mit der Schaltfläche **[!UICONTROL Ereignis auslösen]** können Sie ein Ereignis konfigurieren, das eine Person zum Eintritt in eine Journey veranlasst.
+Mit der Schaltfläche **[!UICONTROL Ereignis auslösen]** können Sie ein Ereignis konfigurieren, das eine Person zum Eintritt in die Journey veranlasst.
 
 >[!NOTE]
 >
