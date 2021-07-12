@@ -1,21 +1,21 @@
 ---
 product: adobe campaign
 title: Segmentqualifizierungsereignisse
-description: Mehr über Segmentqualifizierungsereignisse
+description: Mehr über Segmentqualifikationsereignisse
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
-source-git-commit: 51915ac931c0c4af03b49140c20e1b0939beff65
+source-git-commit: f6059f174e983433d3ad24d06c0d0c74788bc792
 workflow-type: tm+mt
 source-wordcount: '824'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
 # Segmentqualifizierungsereignisse {#segment-qualification}
 
-## Über Segmentqualifizierungsereignisse{#about-segment-qualification}
+## Über Segmentqualifikationsereignisse{#about-segment-qualification}
 
 Mit dieser Aktivität kann Ihre Journey die Ein- und Austritte von Profilen in Adobe Experience Platform-Segmenten überwachen, um Kontakte dazu zu bringen, in eine Journey einzutreten oder in einer Journey fortzufahren. Weiterführende Informationen zur Erstellung von Segmenten finden Sie in [diesem Abschnitt](../segment/about-segments.md).
 
@@ -54,7 +54,7 @@ Diese Art von Ereignis kann als erster Schritt oder auch später in der Journey 
 
    >[!NOTE]
    >
-   >Beachten Sie, dass **[!UICONTROL Eintreten]** und **[!UICONTROL Verlassen]** den Segmentteilnahmestatus von Adobe Experience Platform **Realisiert** und **Ausgetreten** entsprechen. Weitere Informationen zum Auswerten eines Segments finden Sie in der [Dokumentation zum Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=de#interpret-segment-results).
+   >Beachten Sie, dass **[!UICONTROL Eintreten]** und **[!UICONTROL Verlassen]** den Segmentteilnahmestatus von Adobe Experience Platform **Realisiert** und **Ausgetreten** entsprechen. Weitere Informationen zum Auswerten eines Segments finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=de#interpret-segment-results).
 
 1. Wählen Sie einen Namespace aus. Dies ist nur erforderlich, wenn das Ereignis als erster Schritt der Journey positioniert wird.
 
@@ -72,7 +72,7 @@ Siehe [Bedingungsaktivität](../building-journeys/condition-activity.md#about_co
 
 ![](../assets/segment8.png)
 
-Eine neue Journey, die ein Segmentqualifikationsereignis enthält, ist zehn Minuten nach der Veröffentlichung funktionsfähig. Dieses Zeitintervall entspricht dem Cache-Aktualisierungsintervall des dedizierten Dienstes. Daher müssen Sie zehn Minuten warten, bevor Sie diese Journey verwenden.
+Eine neue Journey, die ein Segmentqualifikationsereignis enthält, ist zehn Minuten nach der Veröffentlichung funktionsfähig. Dieses Zeitintervall entspricht dem Cache-Aktualisierungsintervall des dedizierten Services. Daher müssen Sie zehn Minuten warten, bevor Sie diese Journey verwenden.
 
 ## Best Practices {#best-practices-segments}
 
