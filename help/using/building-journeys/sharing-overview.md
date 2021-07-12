@@ -6,10 +6,10 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
-source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
+source-git-commit: f6059f174e983433d3ad24d06c0d0c74788bc792
 workflow-type: tm+mt
 source-wordcount: '441'
-ht-degree: 90%
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->Diese Funktion ist standardmäßig auf allen Instanzen für Journey-Schrittereignisse aktiviert. Bei Journey-Profilschritt-Ereignissen erfolgt die Aktivierung auf Anfrage. Die Schemata und Datensätze, die bei der Bereitstellung dieser Funktion erstellt wurden, dürfen nicht geändert werden.
+>Diese Funktion ist standardmäßig auf allen Instanzen für Journey-Schrittereignisse aktiviert. Bei Journey-Profilschritt-Ereignissen erfolgt die Aktivierung auf Anfrage. Die Schemas und Datensätze, die bei der Bereitstellung dieser Funktion erstellt wurden, dürfen nicht geändert werden.
 
 Sie haben beispielsweise eine Journey eingerichtet, die mehrere E-Mails sendet. Mit dieser Funktion können Sie [!DNL Journey Orchestration]-Daten mit nachgelagerten Ereignisdaten kombinieren (z. B. der Anzahl der Konversionen, der Interaktionen auf der Website oder der Transaktionen im Store). Die Journey-Daten können entweder über andere digitale Eigenschaften oder über Offline-Eigenschaften mit Daten aus Adobe Experience Platform kombiniert werden, um eine genauere Ansicht der Leistung zu ermöglichen.
 
@@ -53,10 +53,10 @@ Die folgenden Datensätze werden übergeben:
 
 Die Listen der XDM-Felder, die an Adobe Experience Platform übergeben werden, werden hier beschrieben:
 
-* [Gemeinsame Felder für journeyStep-Ereignisse](../building-journeys/sharing-common-fields.md)
+* [Gemeinsame Felder für journeySteps-Ereignisse](../building-journeys/sharing-common-fields.md)
 * [Aktionsausführungsfelder für journeyStep-Ereignisse](../building-journeys/sharing-execution-fields.md)
 * [Datenabruffelder für journeyStep-Ereignisse](../building-journeys/sharing-fetch-fields.md)
 * [Identitätsfelder für journeyStep-Ereignisse](../building-journeys/sharing-identity-fields.md)
 * [Journey-Felder](../building-journeys/sharing-journey-fields.md)
 
-Weiterführende Informationen zu Berichten über Schrittereignisse für Adobe Experience Platform finden Sie in diesem [Anleitungsvideo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html).
+Weiterführende Informationen zu Berichten über Schrittereignisse an Adobe Experience Platform finden Sie in diesem [Tutorial-Video](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html?lang=de).
