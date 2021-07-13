@@ -3,10 +3,10 @@ product: adobe campaign
 title: 'Datenquelle von Adobe Experience Platform '
 description: 'Erfahren Sie, wie Sie die Datenquelle von Adobe Experience Platform konfigurieren '
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 847fa819-2b92-49e5-8a5e-4f3f0acd5e35
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 100%
