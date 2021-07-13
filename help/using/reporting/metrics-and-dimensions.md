@@ -3,11 +3,11 @@ product: adobe campaign
 title: Metriken und Dimensionen
 description: Erfahren Sie mehr über Dimensionen und Metriken, die bei Journey Orchestration verfügbar sind.
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: f6897011-0a5e-4094-a18e-ba2aa25f902c
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 100%
 
@@ -89,18 +89,18 @@ In der Tabelle unten finden Sie eine Liste der Metriken, die in Journey-Berichte
 |--- |--- |
 | **Auf Blockierungsliste** | Zahl der Empfänger, die eine E-Mail als Spam oder Junk gekennzeichnet haben |
 | **Blockierungslistenrate** | Gesamtzahl der Nachrichten auf der Blockierungsliste in Bezug auf die gesendeten Nachrichten. |
-| **Bounces + Fehler** | Gesamtzahl der über alle Sendungen hinweg kumulierten Fehler und der automatischen Bounce-Verarbeitung in Bezug auf die Gesamtzahl der gesendeten Nachrichten. |
+| **Bounces + Fehler** | Gesamtzahl der kumulierten Fehler bei Versand und automatischer Bounce-Verarbeitung in Relation zur Gesamtzahl der gesendeten Nachrichten. |
 | **Bounce + Fehlerrate** | Gesamtzahl der Nachrichten, bei denen es zu einem Bounce gekommen ist, in Bezug auf die gesendeten Nachrichten. |
-| **Klick** | Zahl der Klicks auf einen Inhalt in einem Versand. |
+| **Klicken Sie auf** | Zahl der Klicks auf einen Inhalt in einem Versand. |
 | **Durchklickrate** | Gesamtzahl der Klicks in einem Versand in Bezug auf die Zahl der gesendeten Nachrichten. |
-| **Zugestellt** | Zahl der erfolgreich gesendeten Nachrichten in Bezug auf die Gesamtzahl der gesendeten Nachrichten. |
+| **zugestellt** | Zahl der erfolgreich gesendeten Nachrichten in Bezug auf die Gesamtzahl der gesendeten Nachrichten. |
 | **Zustellrate** | Gesamtzahl der erfolgreich zugestellten Nachrichten in Bezug auf die gesendeten Nachrichten. |
 | **Fehler** | Gesamtzahl der Fehler, die während einer Journey aufgetreten sind, jedoch nicht verhindert haben, dass die Journey erfolgreich war. |
 | **Hardbounce** | Gesamtzahl der permanenten Fehler, beispielsweise eine falsche E-Mail-Adresse. |
 | **Hardbounce-Rate** | Gesamtzahl der versendeten Nachrichten, die aufgrund permanenter Fehler fehlgeschlagen sind, in Bezug auf die gesendeten Nachrichten. |
 | **Mirrorseite** | Zahl der Empfänger, die auf den Mirrorseiten-Link geklickt haben. |
 | **Mirrorseitenrate** | Gesamtzahl der Klicks auf den Mirrorseiten-Link in Bezug auf die Gesamtzahl der zugestellten Sendungen. |
-| **Öffnungen** | Anzahl der Öffnungen einer Nachricht in einem Versand. |
+| **Öffnen** | Anzahl der Öffnungen einer Nachricht in einem Versand. |
 | **Öffnungsrate** | Gesamtzahl der geöffneten Nachrichten in Bezug auf die Zahl der zugestellten Nachrichten. |
 | **Quarantäne** | Zahl der Bounce-Nachrichten, bei denen eine Adresse unter Quarantäne gestellt wurde |
 | **Quarantänerate** | Gesamtzahl der Nachrichten in Quarantäne in Bezug auf die gesendeten Nachrichten. |
@@ -111,5 +111,5 @@ In der Tabelle unten finden Sie eine Liste der Metriken, die in Journey-Berichte
 | **Softbounce-Rate** | Gesamtzahl der versendeten Nachrichten, die aus einem temporären Grund fehlgeschlagen sind, in Bezug auf die gesendeten Nachrichten. |
 | **Einzelklicks** | Zahl der Empfänger, die auf einen Inhalt in einem Versand geklickt haben. |
 | **Einzelöffnungen** | Zahl der Empfänger, die den Versand geöffnet haben. |
-| **Abgemeldet** | Zahl der Klicks auf den Abmelde-Link. |
+| **Abo storniert** | Zahl der Klicks auf den Abmelde-Link. |
 | **Abmelderate** | Gesamtzahl der Abmeldungen durch Empfänger in Bezug auf die gesendeten Nachrichten. |
