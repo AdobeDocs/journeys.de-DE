@@ -3,13 +3,13 @@ product: adobe campaign
 title: Ereignis erstellen
 description: Erfahren Sie, wie Sie ein Ereignis erstellen.
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2ae8854a-c3e7-469d-9f89-25b54bc3e894
-source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Im Folgenden finden Sie die wichtigsten Schritte zum Konfigurieren eines neuen E
 
    * **Regelbasierte** Ereignisse: dieser Ereignistyp generiert keine eventID. Im Feld **Ereignis-ID-Bedingung** definieren Sie einfach eine Regel, die vom System verwendet wird, um die relevanten Ereignisse zu identifizieren, die Ihre Journeys auslösen werden. Diese Regel kann auf einem beliebigen Feld basieren, das in der Ereignis-Payload verfügbar ist, z. B. dem Standort des Profils oder der Anzahl der Artikel, die dem Warenkorb des Profils hinzugefügt wurden.
 
-   * **Systemgenerierte** Ereignisse: dieser Typ erfordert eine eventID. Dieses eventID-Feld wird beim Erstellen des Ereignisses automatisch generiert und der Payload-Vorschau hinzugefügt. Das System, das das Ereignis per Push sendet, sollte keine ID generieren, sondern die ID übergeben, die in der Payload-Vorschau verfügbar ist. Siehe [diesen Abschnitt](../event/previewing-the-payload.md).
+   * **Systemgenerierte** Ereignisse: dieser Typ erfordert eine eventID. Dieses eventID-Feld wird beim Erstellen des Ereignisses automatisch generiert und der Payload-Vorschau hinzugefügt. Das System, das das Ereignis per Push sendet, sollte keine ID generieren, sondern die ID übergeben, die in der Payload-Vorschau verfügbar ist. Weitere Informationen finden Sie in [diesem Abschnitt](../event/previewing-the-payload.md).
    >[!NOTE]
    >
    >Weitere Informationen zu Ereignistypen finden Sie in [diesem Abschnitt](../event/about-events.md).
