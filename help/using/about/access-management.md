@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: Zugriffsverwaltung
+title: 'Zugriffsverwaltung '
 description: Erfahren Sie mehr über die Zugriffsverwaltung
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
-# Zugriffsverwaltung{#concept_rfj_wpt_52b}
+# Zugriffsverwaltung {#concept_rfj_wpt_52b}
 
 ## Über die Zugriffsverwaltung {#about-access-management}
 
@@ -67,7 +67,7 @@ Sie können hier die Kompatibilität zwischen Berechtigungen und den verschieden
 
 [!DNL Journey Orchestration] ermöglicht Ihnen, eigene Produktprofile zu erstellen und Ihren Benutzern eine Reihe von Berechtigungen und Sandboxes zuzuweisen. Mit Produktprofilen können Sie Zugriff auf bestimmte Funktionen oder Objekte in der Benutzeroberfläche zulassen oder verweigern.
 
-Weitere Informationen zum Erstellen und Verwalten von Sandboxes finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html).
+Weitere Informationen zum Erstellen und Verwalten von Sandboxes finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=de).
 
 So erstellen Sie ein Produktprofil und weisen einen Satz von Berechtigungen und Sandboxes zu:
 
