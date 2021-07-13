@@ -3,10 +3,10 @@ product: adobe campaign
 title: Informationen zu Aktionen
 description: Erfahren Sie, wie Sie eine Aktion konfigurieren
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 34f7666b-1c91-4edd-b5d6-4c0513b9c4f3
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 97%
@@ -20,7 +20,7 @@ ht-degree: 97%
 >title="Informationen zu Aktionen"
 >abstract="Hier definieren Sie die Verbindung zum System, das Nachrichten senden soll. Die hier definierten Aktionen stehen dann in der linken Palette Ihrer Journey in der Kategorie „Aktion“ zur Verfügung. "
 
-Aktionen sind Verbindungen, über die Sie Kunden personalisierte Echtzeit-Erlebnisse bereitstellen können. Dies sind z. B. Push-Benachrichtigungen, E-Mails, SMS oder andere digitale Interaktionen, die Sie in Ihrem Unternehmen verwenden. 
+Aktionen sind Verbindungen, über die Sie Kunden personalisierte Echtzeit-Erlebnisse bieten können. Dies sind z. B. Push-Benachrichtigungen, E-Mails, SMS oder andere digitale Interaktionen, die Sie in Ihrem Geschäft verwenden.
 
 Über benutzerdefinierte Aktionen können Sie die Verbindung eines Drittanbietersystems zum Senden von Nachrichten oder API-Aufrufen konfigurieren. Eine Aktion kann mit jedem Dienst eines beliebigen Anbieters konfiguriert werden, der über eine REST-API mit einer JSON-formatierten Payload aufgerufen werden kann.
 
@@ -30,7 +30,7 @@ Die Aktionen stehen in der linken Palette Ihrer Journey in der Kategorie **[!UIC
 >
 >Die Konfiguration von benutzerdefinierten Aktionen wird immer von einem **technischen Anwender** durchgeführt.
 
-In der Liste der **Aktionen** können Sie auf c drücken, um eine neue Journey, Aktion oder Datenquelle oder ein neues Ereignis zu erstellen. Weitere Informationen zu den Tastaturbefehlen in [!DNL Journey Orchestration] finden Sie in [diesem Abschnitt](../about/user-interface.md#section_ksq_zr1_ffb).
+In der Liste der **Aktionen** können Sie C drücken, um eine neue Journey, Aktion oder Datenquelle oder ein neues Ereignis zu erstellen. Weitere Informationen zu den Tastaturbefehlen in [!DNL Journey Orchestration] finden Sie in [diesem Abschnitt](../about/user-interface.md#section_ksq_zr1_ffb).
 
 Um die Aktionsliste anzuzeigen oder eine neue Aktion zu konfigurieren, klicken Sie in den oberen Menüs auf **[!UICONTROL Aktionen]**. Die Liste der Aktionen wird angezeigt. Weitere Informationen zur Benutzeroberfläche finden Sie auf [dieser Seite](../about/user-interface.md).
 
