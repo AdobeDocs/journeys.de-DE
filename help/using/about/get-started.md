@@ -3,11 +3,11 @@ product: adobe campaign
 title: Erste Schritte
 description: Entdecken Sie die wichtigsten Schritte zum Einrichten von Journey Orchestration und zum Aufbau Ihrer ersten Journey.
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: fe7bb5fe-7b5e-46da-8ef8-ae9401522c03
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 100%
 
@@ -45,9 +45,9 @@ Im Folgenden finden Sie die wichtigsten Schritte zum Konfigurieren und Verwenden
 
    ![](../assets/custom2.png)
 
-1. **Gestalten Ihrer Journey**
+1. **Gestalten einer Journey**
 
-   Kombinieren Sie die verschiedenen Ereignis-, Orchestrierungs- und Aktionsaktivitäten, um Ihre mehrstufigen kanalübergreifenden Szenarien zu erstellen. Dieser Schritt wird von einem **Business-Anwender** ausgeführt.
+   Kombinieren Sie die verschiedenen Ereignis-, Orchestrierungs- und Aktionsaktivitäten, um mehrstufige kanalübergreifende Szenarien zu erstellen. Dieser Schritt wird von einem **Business-Anwender** ausgeführt.
 
    Weitere Informationen hierzu finden Sie auf [dieser Seite](../building-journeys/journey.md).
 
