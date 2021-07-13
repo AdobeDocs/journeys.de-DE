@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: Gemeinsame Felder für journeyStep-Ereignisse
-description: Gemeinsame Felder für journeyStep-Ereignisse
+title: Gemeinsame Felder für journeySteps-Ereignisse
+description: Gemeinsame Felder für journeySteps-Ereignisse
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 5cf8e6b5-2162-4aa3-b071-96ede31948e6
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 100%
 
 ---
 
-# Gemeinsame Felder für journeyStep-Ereignisse {#sharing-common-fields}
+# Gemeinsame Felder für journeySteps-Ereignisse {#sharing-common-fields}
 
 Dieses Mixin wird von journeyStepEvent und journeyStepProfileEvent geteilt.
 
