@@ -3,13 +3,13 @@ product: adobe campaign
 title: Zeitzonen-Management
 description: Erfahren Sie mehr über das Zeitzonen-Management
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: c0e67849-caa0-4045-94ed-38e483054e1d
-source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '287'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Sie können eine Zeitzone auswählen oder die Zeitzone verwenden, die im Benutze
 
 >[!NOTE]
 >
->Die Zeitzone des Profils funktioniert mit dem Feld **timeZone** , das in der Feldergruppe **Präferenzdetails** vorhanden ist.
+>Die Zeitzone des Profils verwendet das Feld **timeZone** in der Feldergruppe **Voreinstellungsdetails**.
 
 ## Definieren einer festen Zeitzone {#fixed-timezone}
 
