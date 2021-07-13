@@ -3,11 +3,11 @@ product: adobe campaign
 title: Abbrechen einer Journey
 description: Erfahren Sie, wie Sie eine Journey beenden
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2d1b9d6b-0a53-436c-b251-ce77cb931aaa
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Alternativ können Sie auch folgendermaßen vorgehen:
 
    ![](../assets/finish_drop_down_list.png)
 
-1. Klicken Sie auf **[!UICONTROL Für neue Eintritte schließen]**. Ein Dialogfeld wird angezeigt.
+1. Klicken Sie auf **[!UICONTROL Für neue Eintritte schließen]**. Das folgende Dialogfeld wird angezeigt.
 1. Klicken Sie zur Bestätigung auf **[!UICONTROL Für neue Eintritte schließen]**.
 
 ## Stoppen einer Journey
@@ -64,5 +64,5 @@ Alternativ können Sie auch folgendermaßen vorgehen:
 
 ![](../assets/finish_drop_down_list.png)
 
-1. Klicken Sie auf **[!UICONTROL Stoppen]**. Ein Dialogfeld wird angezeigt.
+1. Klicken Sie auf **[!UICONTROL Anhalten]**. Das folgende Dialogfeld wird angezeigt.
 1. Klicken Sie zur Bestätigung auf **[!UICONTROL Stoppen]**.
