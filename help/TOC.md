@@ -1,26 +1,26 @@
 ---
 product: adobe campaign
 user-guide-title: Journey Orchestration
-title: Handbuch zur Journey Orchestration
+title: Handbuch zu Journey Orchestration
 user-guide-description: Enthält Anleitungen zum Implementieren und Erstellen von Journeys.
 index: true
 feature: Journeys
-source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
-workflow-type: ht
-source-wordcount: '424'
-ht-degree: 100%
+source-git-commit: a472bb9ffe45159c8318f00a43c25fc41cb6d683
+workflow-type: tm+mt
+source-wordcount: '422'
+ht-degree: 99%
 
 ---
 
 
-# Handbuch zu [!DNL Journey Orchestration] {#using}
+# [!DNL Journey Orchestration] Handbuch {#using}
 
 + [Produktdokumentation](journey-orchestration-home.md)
 + Neue Funktionen {#release-notes}
-   + [Versionshinweise ](using/release-notes/release-notes.md)
-   + [Aktualisierungen der Dokumentation](using/release-notes/documentation-updates.md)
+   + [Versionshinweise](using/release-notes/release-notes.md)
+   + [Dokumentation – Aktualisierungen](using/release-notes/documentation-updates.md)
 + Einstieg in [!DNL Journey Orchestration] {#starting-with-journeys}
-   + [Informationen zu  [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
+   + [Info [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [Einschränkungen](using/about/limitations.md)
    + [Erste Schritte](using/about/get-started.md)
    + [Benutzeroberfläche](using/about/user-interface.md)
@@ -40,7 +40,7 @@ ht-degree: 100%
    + [Definieren des Ereignisschlüssels](using/event/defining-the-event-key.md)
    + [Hinzufügen einer Bedingung](using/event/adding-a-condition.md)
    + [Anzeigen der Payload-Vorschau](using/event/previewing-the-payload.md)
-+ Konfigurieren der Datenquelle {#data-source-journeys}
++ Konfigurieren einer Datenquelle {#data-source-journeys}
    + [Informationen zu Datenquellen](using/datasource/about-data-sources.md)
    + [Feldergruppen](using/datasource/field-groups.md)
    + [Datenquelle von Adobe Experience Platform](using/datasource/adobe-experience-platform-data-source.md)
@@ -53,8 +53,8 @@ ht-degree: 100%
       + [Informationen zur Konfiguration einer benutzerdefinierten Aktion](using/action/about-custom-action-configuration.md)
       + [URL-Konfiguration](using/action/url-configuration.md)
       + [Definieren der Nachrichtenparameter](using/action/defining-the-message-parameters.md)
-+ Verwenden von Platform-Segmenten {#configuring-segment}
-   + [Informationen zu Platform-Segmenten](using/segment/about-segments.md)
++ Verwenden von Segmenten {#configuring-segment}
+   + [Über Segmente](using/segment/about-segments.md)
    + [Erstellen eines Segments](using/segment/creating-a-segment.md)
    + [Verwenden von Segmenten in Bedingungen](using/segment/using-a-segment.md)
 + Erstellen der Journey {#building-journeys}
@@ -70,7 +70,7 @@ ht-degree: 100%
       + Ereignisaktivitäten {#events-activities}
          + [Informationen zu Ereignisaktivitäten](using/building-journeys/event-activities.md)
          + [Allgemeine Ereignisse](using/building-journeys/general-events.md)
-         + [Reaktionsereignisse](using/building-journeys/reaction-events.md)
+         + [Reaktion events](using/building-journeys/reaction-events.md)
          + [Segmentqualifizierungsereignisse](using/building-journeys/segment-qualification-events.md)
       + Orchestrierungsaktivitäten {#orchestration-activities}
          + [Informationen zu Orchestrierungsaktivitäten](using/building-journeys/about-orchestration-activities.md)
@@ -88,7 +88,7 @@ ht-degree: 100%
    + [Veröffentlichen der Journey](using/building-journeys/publishing-the-journey.md)
    + Freigabe von Journey-Schritten mit Adobe Experience Platform {#sharing-journey-steps}
       + [Übersicht über die Freigabe von Journey-Schritten](using/building-journeys/sharing-overview.md)
-      + [Gemeinsame Felder für journeyStep-Ereignisse](using/building-journeys/sharing-common-fields.md)
+      + [Gemeinsame Felder für journeySteps-Ereignisse](using/building-journeys/sharing-common-fields.md)
       + [Aktionsausführungsfelder für journeyStep-Ereignisse](using/building-journeys/sharing-execution-fields.md)
       + [Datenabruffelder für journeyStep-Ereignisse](using/building-journeys/sharing-fetch-fields.md)
       + [Identitätsfelder für journeyStep-Ereignisse](using/building-journeys/sharing-identity-fields.md)
@@ -148,7 +148,7 @@ ht-degree: 100%
          + [listSize](using/functions/functionlistsize.md)
          + [serializeList](using/functions/functionserializelist.md)
          + [sort](using/functions/functionsort.md)
-      + Mathematisch {#math}
+      + Math {#math}
          + [random](using/functions/functionrandom.md)
          + [round](using/functions/functionround.md)
       + Zeichenfolge {#string}
