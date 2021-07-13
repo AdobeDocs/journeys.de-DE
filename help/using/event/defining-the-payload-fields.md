@@ -3,10 +3,10 @@ product: adobe campaign
 title: Definieren der Payload-Felder
 description: Erfahren Sie mehr über das Definieren der Payload-Felder
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 9d385b64-46cd-489b-9c18-352fa2a2dbba
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 100%
