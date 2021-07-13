@@ -4,10 +4,10 @@ title: Beschreibung der Capping-API
 description: Erfahren Sie mehr über die Capping-API.
 products: journeys
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-source-git-commit: e42ef98b1d84d8311cf49967ec75ec9be6cc53f1
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1171'
 ht-degree: 92%
@@ -16,7 +16,7 @@ ht-degree: 92%
 
 # Arbeiten mit der Capping-API
 
-## Einleitung
+## Einführung
 
 Die APIs von [!DNL Journey Orchestration] unterstützen 5.000 Ereignisse/Sekunde, doch manche externe Systeme oder APIs verfügen nicht über den gleichen Durchsatz. Deshalb bietet [!DNL Journey Orchestration] eine spezielle Funktion namens Capping-API zur Überwachung und Begrenzung der Rate, die wir externen Systemen auferlegen.
 
@@ -76,7 +76,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 Mit der Capping-API können Sie Begrenzungskonfigurationen erstellen, konfigurieren und überwachen.
 
-| Vorgehensweise | Pfad | Beschreibung |
+| Methode | Path | Beschreibung |
 |---|---|---|
 | [!DNL POST] | list/endpointConfigs | Liste der Endpunktbegrenzungskonfigurationen abrufen |
 | [!DNL POST] | /endpointConfigs | Endpunktbegrenzungskonfiguration erstellen |
@@ -174,7 +174,7 @@ Diese Postman-Kollektion wurde eingerichtet, um die Postman-Variablenkollektion 
 Nach dem Herunterladen und Hochladen in Postman müssen Sie drei Variablen hinzufügen: `{JO_HOST}`, `{Base_Path}` und `{SANDBOX_NAME}`.
 * `{JO_HOST}` : [!DNL Journey Orchestration]-Gateway-URL
 * `{BASE_PATH}` : Einstiegspunkt für die API. Der Wert lautet „/authoring“
-* `{SANDBOX_NAME}`: der Header **x-sandbox-name** (z. B. „prod“), der dem Sandbox-Namen entspricht, in dem die API-Vorgänge stattfinden. Weitere Informationen finden Sie in der [Übersicht über Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html).
+* `{SANDBOX_NAME}`: der Header **x-sandbox-name** (z. B. „prod“), der dem Sandbox-Namen entspricht, in dem die API-Vorgänge stattfinden. Weiterführende Informationen dazu finden Sie unter [Sandbox-Übersicht](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=de).
 
 Im folgenden Abschnitt finden Sie die sortierte Liste der Rest-API-Aufrufe, um den Anwendungsfalls auszuführen.
 
@@ -197,7 +197,7 @@ Anwendungsfall 3: **Aufheben einer Bereitstellung und Löschen einer bereitgeste
 
 1. Liste
 1. undeploy
-1. delete
+1. Löschen Sie
 
 Anwendungsfall 4: **Löschen einer bereitgestellten Begrenzungskonfiguration.**
 
