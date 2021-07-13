@@ -3,17 +3,17 @@ product: adobe campaign
 title: Versionshinweise
 description: Versionshinweise
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: e2ff3e9d86aa9f603cf3d66507881d482a95a4a5
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '2631'
 ht-degree: 96%
 
 ---
 
-# Versionshinweise  {#release-notes}
+# Versionshinweise {#release-notes}
 
 Auf dieser Seite werden alle neuen Funktionen und Verbesserungen bei Journey Orchestration aufgelistet.
 Sie können auch die neusten [Aktualisierungen der Dokumentation](../release-notes/documentation-updates.md) einsehen.
@@ -31,7 +31,7 @@ Sie können auch die neusten [Aktualisierungen der Dokumentation](../release-not
 <td>
 <p>Die Integration mit Adobe Campaign Classic ist jetzt allgemein verfügbar. Sie ermöglicht den Versand von E-Mails, Push-Benachrichtigungen und SMS unter Verwendung der Transaktionsnachrichten-Funktionen von Adobe Campaign v7 oder v8.</p>
 <p>Die Verbindung zwischen der Journey Orchestration- und der Campaign-Instanz wird bei der Bereitstellung von Adobe eingerichtet.</p>
-<p>Weitere Informationen finden Sie im <a href="../action/acc-action.md">entsprechenden Handbuch</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../action/acc-action.md">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -71,7 +71,7 @@ Sie können auch die neusten [Aktualisierungen der Dokumentation](../release-not
 <tr>
 <td>
 <p>Mit dieser neuen Aktivität können Sie ein vorhandenes Adobe Experience Platform-Profil mit Informationen aus dem Ereignis, aus einer Datenquelle oder mit einem bestimmten Wert aktualisieren.</p>
-<p>Weitere Informationen finden Sie im <a href="../building-journeys/update-profiles.md">entsprechenden Handbuch</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../building-journeys/update-profiles.md">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -173,7 +173,7 @@ Die Aktivität **Segmentqualifikation** kann nicht mehr in einer Journey verwend
 <td>
 <p>Sie können jetzt eine maximale Wartezeit für ein Ereignis konfigurieren, damit eine Journey ein Ereignis nur während einer bestimmten Zeit überwacht. Dazu müssen Sie nicht mehr parallel zum Ereignispfad eine Warteaktivität hinzufügen.
 </p>
-<p>Weitere Informationen finden Sie im <a href="../building-journeys/event-activities.md#listening-to-events-during-a-specific-time">entsprechenden Handbuch</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../building-journeys/event-activities.md#listening-to-events-during-a-specific-time">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -198,7 +198,7 @@ Die Aktivität **Segmentqualifikation** kann nicht mehr in einer Journey verwend
 <td>
 <p>Wenn Sie Bedingungen zu Ihrer Journey hinzufügen, können Sie jetzt einen Titel definieren. Wenn Sie mehrere Bedingungen in einer Journey verwenden, können Sie diese so leichter identifizieren.
 </p>
-<p>Weitere Informationen finden Sie im <a href="../building-journeys/condition-activity.md#about_condition">entsprechenden Handbuch</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../building-journeys/condition-activity.md#about_condition">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -473,7 +473,7 @@ Die Benutzeroberfläche von Journey Orchestration ist auf Japanisch verfügbar.
 <p>Im Journey-Designer können Sie jetzt feststellen, ob Sie auf die aktuelle Version der Journey zugreifen. Diese Information wird neben der Versionsnummer angezeigt.</p>
 <p>Wenn zwei Aktivitäten auf der <strong>Arbeitsfläche</strong> einer Journey getrennt werden, wird jetzt eine Warnmeldung angezeigt.</p>
 <img src="../assets/rn-canvas.png"/>
-<p>Weitere Informationen finden Sie im <a href="../building-journeys/using-the-journey-designer.md">entsprechenden Handbuch</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../building-journeys/using-the-journey-designer.md">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -500,7 +500,7 @@ Die Benutzeroberfläche von Journey Orchestration ist auf Japanisch verfügbar.
 
 * Zusätzlich zu den USA ist Journey Orchestration jetzt in der Region **EMEA** verfügbar. Die Anwendung und die Dokumentation sind in Französisch und Deutsch verfügbar.
 
-* Experience League ist jetzt in das Produkt integriert. Dies vereinfacht den Zugriff auf verwandte Inhalte und hilft Ihnen, Experience Cloud optimal zu nutzen. Unten im Tab „Hilfe“ können Sie direkt auf die Dokumentation für Journey Orchestration zugreifen. Sie können auch auf „Hilfe > Feedback“ klicken, um Adobe Probleme oder Anregungen mitzuteilen.
+* Experience League ist jetzt in das Produkt integriert. Dies vereinfacht den Zugriff auf verwandte Inhalte und hilft Ihnen, Experience Cloud optimal zu nutzen. Unten im Tab „Hilfe“ können Sie direkt auf die Dokumentation für Journey Orchestration zugreifen. Zusätzlich können Sie unter Hilfe > Feedback Probleme melden oder Ihre Ideen mit Adobe teilen.
 
 * Der Tastaturbefehl **C**, mit dem Sie ein neues Element erstellen können, ist jetzt in allen Listenbildschirmen verfügbar: Journeys, Datenquellen, Aktionen und Ereignisse. [Mehr dazu](../about/user-interface.md#section_ksq_zr1_ffb)
 
@@ -510,7 +510,7 @@ Die Benutzeroberfläche von Journey Orchestration ist auf Japanisch verfügbar.
 
 ## GA-Version - Dezember 2019 {#ga-release---december-2019}
 
-Journey Orchestration ist jetzt allgemein verfügbar.
+Journey-Orchestrierung ist jetzt GA.
 
 Journey Orchestration ermöglicht die Erstellung von Anwendungsfällen für die Echtzeit-Orchestrierung mithilfe von Kontextdaten aus Ereignissen oder Datenquellen.
 
