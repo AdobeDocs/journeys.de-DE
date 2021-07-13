@@ -3,11 +3,11 @@ product: adobe campaign
 title: Journey-Versionen
 description: Erfahren Sie mehr über Journey-Versionen
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 554d1f60-5d46-4e75-afcb-8209b127c4cd
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 100%
 
