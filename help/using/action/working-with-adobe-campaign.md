@@ -3,11 +3,11 @@ product: adobe campaign
 title: Arbeiten mit Adobe Campaign
 description: Erfahren Sie mehr über Adobe Campaign-Aktionen
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
-source-git-commit: c17808a4cae7ebbd1129f6b28ad2ea945098f826
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 100%
 
