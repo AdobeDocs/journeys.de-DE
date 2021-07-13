@@ -3,11 +3,11 @@ product: adobe campaign
 title: Warteaktivität
 description: Erfahren Sie mehr über die Warteaktivität
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ Wenn Sie warten möchten, bevor Sie die nächste Aktivität im Pfad ausführen, 
 
 * [Dauer](#duration)
 * [Festgelegtes Datum](#fixed_date)
-* [Benutzerdefiniert](#custom)
+* [Benutzerspezifisch](#custom)
 
 <!--* [Email send time optimization](#email_send_time_optimization)-->
 
@@ -35,7 +35,7 @@ Sie können eine Bedingung definieren, wenn Sie die Wartezeit auf eine bestimmte
 >
 >Die maximale Wartezeit beträgt 30 Tage.
 >
->Im Testmodus können Sie mit dem Parameter **[!UICONTROL Wartezeit im Test]** die Dauer jeder Warteaktivität festlegen. Die standardmäßige Dauer beträgt 10 Sekunden. Dadurch erhalten Sie die Testergebnisse schnell. Siehe [diese Seite](../building-journeys/testing-the-journey.md)
+>Im Testmodus können Sie mit dem Parameter **[!UICONTROL Wartezeit im Test]** die Dauer jeder Warteaktivität festlegen. Die standardmäßige Dauer beträgt 10 Sekunden. Dadurch erhalten Sie die Testergebnisse schnell. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md)
 
 ## Wartezeit mit Dauer{#duration}
 
@@ -57,7 +57,7 @@ Mit dieser Option können Sie ein benutzerdefiniertes Datum definieren, z. B. de
 >
 >Sie können einen „dateTimeOnly“-Ausdruck nutzen oder eine Funktion zur Konvertierung in ein „dateTimeOnly“-Format verwenden. Beispiel: toDateTimeOnly(@{Event.offerOpened.activity.endTime}). Das Feld im Ereignis hat die folgende Form: 2016-08-12T09:46:06Z.
 >
->Die Angabe der **Zeitzone** ist für die Eigenschaften Ihrer Journey erforderlich. Aus diesem Grund ist es heute nicht möglich, von der Oberfläche direkt auf eine Zeitstempelmischzeit nach ISO-8601 und einen Zeitzonenversatz (z. B. 2016-08-12T09:46:06.982-05) zu verweisen. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/timezone-management.md).
+>Die Angabe der **Zeitzone** ist für die Eigenschaften Ihrer Journey erforderlich. Aus diesem Grund ist es heute nicht möglich, von der Oberfläche direkt auf eine Zeitstempelmischzeit nach ISO-8601 und einen Zeitzonenversatz (z. B. 2016- 08-06.12T09:46:06.982-05) zu verweisen. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/timezone-management.md).
 
 ![](../assets/journey57.png)
 
