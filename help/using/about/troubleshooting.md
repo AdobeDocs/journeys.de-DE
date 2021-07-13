@@ -3,17 +3,17 @@ product: adobe campaign
 title: Fehlerbehebung
 description: Weitere Informationen zur Problembehebung
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1057'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Problembehebung{#concept_nlv_bcv_2fb}
+# Fehlerbehebung{#concept_nlv_bcv_2fb}
 
 In diesem Abschnitt erfahren Sie, wie Sie Probleme bei Journeys vor dem Testen oder Veröffentlichen beheben können. Alle unten aufgeführten Prüfungen können durchgeführt werden, wenn sich die Journey im Testmodus befindet oder live ist. Wir empfehlen, alle unten aufgeführten Prüfungen im Testmodus vorzunehmen und dann mit der Veröffentlichung fortzufahren. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md).
 
@@ -39,7 +39,7 @@ Auf dem Zeichen neben dem Umschalter **[!UICONTROL Testen]** und der Schaltfläc
 
 Fehler und Warnungen, die die gesamte Journey betreffen, werden in der Liste zuerst aufgeführt. Fehler und Warnungen, die einzelne Aktivitäten betreffen, werden danach aufgeführt (anhand der Aktivitätsreihenfolge oder des Auftretens in der Journey von links nach rechts). Mit der Schaltfläche **[!UICONTROL Details kopieren]** lassen sich technische Informationen zur Journey kopieren, die dem Support-Team bei der Problembehebung helfen.
 
-Wenn in einer Aktion oder einer Bedingung ein Fehler auftritt, wird die Journey der Person gestoppt. Die einzige Möglichkeit zum Fortsetzen des Vorgangs besteht darin, das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** zu aktivieren. Siehe [diesen Abschnitt](../building-journeys/using-the-journey-designer.md#paths).
+Wenn in einer Aktion oder einer Bedingung ein Fehler auftritt, wird die Journey der Person gestoppt. Die einzige Möglichkeit zum Fortsetzen des Vorgangs besteht darin, das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** zu aktivieren. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/using-the-journey-designer.md#paths).
 
 ## Überprüfen, ob Ereignisse ordnungsgemäß gesendet werden{#section_rqz_11t_dgb}
 
@@ -47,11 +47,11 @@ Der Ausgangspunkt einer Journey ist stets ein Ereignis. Sie können mithilfe von
 
 Sie können prüfen, ob der API-Aufruf, den Sie über diese Tools versenden, richtig gesendet wurde oder nicht. Wenn Sie einen Fehler erhalten, bedeutet das, dass es bei Ihrem Aufruf zu einem Fehler kommt. Überprüfen Sie erneut die Payload, die Kopfzeile (insbesondere die Organisations-ID) sowie die Ziel-URL. Sie können Ihren Administrator nach der richtigen URL fragen.
 
-Ereignisse werden von der Quelle nicht direkt an [!DNL Journey Orchestration] weitergeleitet. [!DNL Journey Orchestration] benötigt dazu Streaming-Aufnahme-APIs von Adobe Experience Platform. Darum können Sie bei Problemen mit Ereignissen auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html) die Fehlerbehebung für Streaming-Aufnahme-APIs aufrufen.
+Ereignisse werden von der Quelle nicht direkt an [!DNL Journey Orchestration] weitergeleitet. [!DNL Journey Orchestration] benötigt dazu Streaming-Aufnahme-APIs von Adobe Experience Platform. Darum können Sie bei Problemen mit Ereignissen auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=de) die Fehlerbehebung für Streaming-Aufnahme-APIs aufrufen.
 
 ## Überprüfen, ob Personen in die Journey eintreten{#section_x4v_zzs_dgb}
 
-[!DNL Journey Orchestration]-Berichte messen den Eintritt von Personen in eine Journey auf Echtzeitbasis.
+[!DNL Journey Orchestration]Berichte zu messen den Eintritt von Personen in eine Journey auf Echtzeitbasis.
 
 Wenn Sie das Ereignis erfolgreich versenden, aber keinen Eintritt in die Journey erkennen können, bedeutet das, dass es zwischen dem Senden und Empfangen des Ereignisses in der Journey zu Problemen kommt.
 
@@ -62,7 +62,7 @@ Im Folgenden sind einige Faktoren aufgeführt, die der Administrator überprüfe
 * Enthält die Payload des Ereignisses eine Ereignis-ID?
 * Haben Sie die richtige URL aufgerufen?
 * Haben Sie die Payload-Struktur der Streaming-Aufnahme-APIs mithilfe der Payload-Strukturvorschau im Ereigniskonfigurationsbereich beachtet? Weitere Informationen finden Sie auf [dieser Seite](../event/previewing-the-payload.md).
-* Haben Sie in der Kopfzeile die richtigen Schlüssel-/Wert-Paare Ihres Ereignisses verwendet?
+* Haben Sie in der Kopfzeile die richtigen Schlüssel/Wert-Paare Ihres Ereignisses verwendet?
 
    ```
    X-gw-ims-org-id - your ORGID
@@ -71,7 +71,7 @@ Im Folgenden sind einige Faktoren aufgeführt, die der Administrator überprüfe
 
 ## Überprüfen, wie Personen durch die Journey navigieren{#section_l5y_yzs_dgb}
 
-[!DNL Journey Orchestration]-Berichte messen den Fortschritt von Kontakten innerhalb einer Journey. So können Sie leicht ermitteln, wo und warum eine Person gestoppt wurde.
+[!DNL Journey Orchestration]Berichte zu messen den Fortschritt von Kontakten innerhalb einer Journey. So können Sie leicht ermitteln, wo und warum eine Person gestoppt wurde.
 
 Prüfen Sie folgende Punkte:
 
