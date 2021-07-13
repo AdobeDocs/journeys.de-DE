@@ -3,13 +3,13 @@ product: adobe campaign
 title: Einschränkungen bei Journey Orchestration
 description: Erfahren Sie mehr über die Einschränkungen bei Journey Orchestration.
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 784c91054e0f6b9ea12aa4b7f4079f7c2da8f949
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -20,13 +20,13 @@ Im Zusammenhang mit der Verwendung von Journey Orchestration gibt es Einschränk
 ## Allgemeine Aktionseinschränkungen
 
 * Es gibt keine Einschränkung beim Versand. 
-* Im Falle eines Fehlers werden systematisch drei weitere Versuche durchgeführt. Sie können die Anzahl der weiteren Zustellversuche nicht entsprechend der erhaltenen Fehlermeldung anpassen. 
+* Im Falle eines Fehlers werden systematisch drei weitere Zustellversuche durchgeführt. Sie können die Anzahl der weiteren Zustellversuche nicht entsprechend der erhaltenen Fehlermeldung anpassen. 
 * Mit dem integrierten **Reaktionsereignis** können Sie auf vordefinierte Aktionen reagieren (siehe diese [Seite](../building-journeys/reaction-events.md)). Wenn Sie auf eine Nachricht reagieren möchten, die über eine benutzerdefinierte Aktion gesendet wird, müssen Sie ein spezielles Ereignis konfigurieren. 
 
 ## Einschränkungen bei den Journey-Versionen {#journey-versions-limitations}
 
-* Eine Journey, die in v1 mit einer Ereignisaktivität beginnt, kann in weiteren Versionen nicht mit etwas anderem als einem Ereignis beginnen. Sie können eine Journey nicht mit einem **Segmentqualifizierungsereignis** starten.
-* Eine Journey, die in v1 mit einer **Segmentqualifikation** -Aktivität beginnt, muss in weiteren Versionen immer mit einer **Segmentqualifikation** beginnen.
+* Eine Journey, die in Version 1 mit einer Ereignisaktivität beginnt, kann in weiteren Versionen nicht mit etwas anderem als einem Ereignis beginnen. Sie können eine Journey nicht mit einem **Segmentqualifizierungsereignis** starten.
+* Eine Journey, die in Version 1 mit einer **Segmentqualifizierungsaktivität** beginnt, muss in weiteren Versionen immer mit einer **Segmentqualifizierung** beginnen.
 * Das Segment und der Namespace, die unter **Segmentqualifikation** (erster Knoten) ausgewählt wurden, können in neuen Versionen nicht geändert werden.
 * Die Regel für den Wiedereintritt muss in allen Journey-Versionen gleich sein.
 
@@ -40,7 +40,7 @@ Im Zusammenhang mit der Verwendung von Journey Orchestration gibt es Einschränk
 
 * Die URL einer benutzerdefinierten Aktion unterstützt keine dynamischen Parameter. 
 * Es werden nur POST- und PUT-Aufrufmethoden unterstützt. 
-* Der Name des Abfrageparameters oder der Kopfzeile darf nicht mit „.“ oder „$“ beginnen. 
+* Der Name des Abfrageparameters oder der Kopfzeile darf nicht mit „.“ oder &quot;$&quot;. 
 * IP-Adressen sind nicht zulässig. 
 * Interne Adobe-Adressen (.adobe.) sind nicht zulässig.
  
