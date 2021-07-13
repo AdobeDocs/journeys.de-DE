@@ -3,11 +3,11 @@ product: adobe campaign
 title: Informationen zu Aktionsaktivitäten
 description: Erfahren Sie mehr über Aktionsaktivitäten
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 5436602f-af7a-41db-8b10-d3d28a6d0cd0
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 100%
 
@@ -29,4 +29,4 @@ Wenn Sie eine Aktionsaktivität auf der Arbeitsfläche ablegen, können Sie eine
 
 ![](../assets/journey59bis.png)
 
-Wenn in einer Aktion oder einer Bedingung ein Fehler auftritt, wird die Journey der Person gestoppt. Die einzige Möglichkeit zum Fortsetzen des Vorgangs besteht darin, das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** zu aktivieren. Siehe [diesen Abschnitt](../building-journeys/using-the-journey-designer.md#paths).
+Wenn in einer Aktion oder einer Bedingung ein Fehler auftritt, wird die Journey der Person gestoppt. Die einzige Möglichkeit zum Fortsetzen des Vorgangs besteht darin, das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** zu aktivieren. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/using-the-journey-designer.md#paths).
