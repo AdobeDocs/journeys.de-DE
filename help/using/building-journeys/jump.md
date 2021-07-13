@@ -3,11 +3,11 @@ product: adobe campaign
 title: Springen zwischen Journeys
 description: Springen zwischen Journeys
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 520376aa-2cb5-46d6-8f21-3e03544f5da1
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '817'
 ht-degree: 100%
 
