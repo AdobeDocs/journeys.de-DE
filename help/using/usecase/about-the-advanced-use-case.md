@@ -3,11 +3,11 @@ product: adobe campaign
 title: Informationen zum erweiterten Anwendungsfall
 description: Erfahren Sie mehr über die Journey mit dem erweiterten Anwendungsfall
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
-source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ Es muss eine Verbindung zu zwei Datenquellen konfiguriert werden (weitere Inform
 * zur integrierten Adobe Experience Platform-Datenquelle zum Abrufen der Informationen für die beiden Bedingungen (Mitgliedschaft im Treueprogramm und Datum des letzten Kontakts) sowie der Informationen für die Personalisierung der Nachricht.
 * zum Hotelreservierungssystem zum Abrufen der Informationen über den Reservierungsstatus.
 
-## Voraussetzungen:          {#prerequisites}
+## Voraussetzungen {#prerequisites}
 
 Für unseren Anwendungsfall haben wir mit Adobe Campaign Standard drei Transaktionsnachrichtenvorlagen entwickelt. Wir nutzen Transaktionsnachrichtenvorlagen für Ereignisse. Mehr dazu erfahren Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=de).
 
