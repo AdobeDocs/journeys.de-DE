@@ -3,11 +3,11 @@ product: adobe campaign
 title: 'Konfigurieren der Datenquelle '
 description: Erfahren Sie, wie Sie die Datenquelle für die Journey mit dem einfachen Anwendungsfall konfigurieren können
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 87f63d7d-b7d9-4243-a5ce-8948939f3d93
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 100%
 
