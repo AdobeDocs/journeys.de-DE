@@ -3,11 +3,11 @@ product: adobe campaign
 title: Definieren der Nachrichtenparameter
 description: Erfahren Sie, wie Sie die Nachrichtenparameter definieren
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
-source-git-commit: 1251eafcfe7487c3df01b412f17706f5ed6c6836
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../assets/messageparameterssection.png)
 
-Fügen Sie im Abschnitt **[!UICONTROL Nachrichtenparameter]** ein Beispiel der JSON-Payload ein, die an den externen Dienst gesendet werden soll.
+Fügen Sie im Abschnitt **[!UICONTROL Nachrichtenparameter]** ein Beispiel der JSON-Payload ein, die an den externen Service gesendet werden soll.
 
 ![](../assets/customactionpayloadmessage.png)
 
