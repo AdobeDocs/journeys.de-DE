@@ -3,21 +3,21 @@ product: adobe campaign
 title: Übersicht über den KI-Service
 description: Übersicht über den KI-Service
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '84'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # Informationen zur KI-Integration {#ai-overview}
 
-Die Integration mit Intelligent Services ermöglicht es Ihnen, die Leistungsfähigkeit von künstlicher Intelligenz und maschinellem Lernen in Anwendungsfällen mit Kundenerlebnissen zu nutzen. Auf diese Weise können Marketing-Analysten mithilfe von Konfigurationen auf Unternehmensebene spezifische Prognosen erstellen, die auf die Anforderungen eines Unternehmens zugeschnitten sind, ohne dass datenwissenschaftliches Fachwissen erforderlich ist.
+Die Integration mit Intelligent Services ermöglicht es Ihnen, die Leistungsfähigkeit von künstlicher Intelligenz und maschinellem Lernen in Anwendungsfällen mit Kundenerlebnissen zu nutzen. So können Marketing-Analysten mithilfe von Konfigurationen auf Unternehmensebene spezifische Prognosen für die Anforderungen der Firma erstellen, ohne dass hierfür Kenntnisse aus der Datenwissenschaft erforderlich sind.
 
-Weitere Informationen zu Intelligent Services finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html).
+Weitere Informationen zu Intelligent Services finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html?lang=de).
 
 Diese Integration ermöglicht es Ihnen, Kundenprognosen zu nutzen. Weitere Informationen finden Sie unter [Nutzung von Kunden-KI.](../ai-services/leveraging-customer-ai.md)
 
