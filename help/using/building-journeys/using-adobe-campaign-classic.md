@@ -2,13 +2,13 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: Verwenden von Adobe Campaign v7/v8-Aktionen
-description: Informationen zu Adobe Campaign v7/v8-Aktionen
+description: Erfahren Sie mehr über Aktionen in Adobe Campaign v7/v8
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
-source-git-commit: b2439788ef547b401dea64faf46d4398b9a1a0c7
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 100%
 
@@ -16,13 +16,13 @@ ht-degree: 100%
 
 # Verwenden von Adobe Campaign v7/v8 {#using_campaign_classic}
 
-Eine Integration ist verfügbar, wenn Sie über Adobe Campaign v7 oder v8 verfügen. Diese Integration ermöglicht Ihnen das Senden von E-Mails, Push-Benachrichtigungen und SMS mit der Transaktionsnachrichten-Funktion von Adobe Campaign.
+Für Adobe Campaign v7 und v8 ist eine Integration verfügbar. Diese ermöglicht Ihnen das Senden von E-Mails, Push-Benachrichtigungen und SMS mit der Transaktionsnachrichtenfunktion von Adobe Campaign.
 
-Die Verbindung zwischen der Journey Orchestration- und der Campaign-Instanz wird bei der Bereitstellung durch Adobe eingerichtet. Nehmen Sie Kontakt zu Adobe auf.
+Die Verbindung zwischen der Journey Orchestration- und der Campaign-Instanz wird bei der Bereitstellung durch Adobe eingerichtet. Kontaktieren Sie diesbezüglich Adobe.
 
-Sie müssen zu diesem Zweck eine spezielle Aktion konfigurieren. Näheres dazu finden Sie in diesem [Abschnitt](../action/acc-action.md).
+Damit dies funktioniert, müssen Sie eine dedizierte Aktion konfigurieren. Siehe diesen [Abschnitt](../action/acc-action.md).
 
-In diesem [Abschnitt](../usecase/campaign-classic-use-case.md) wird ein Anwendungsfall vollständig beschrieben.
+In diesem [Abschnitt](../usecase/campaign-classic-use-case.md) wird ein Anwendungsfall schrittweise beschrieben.
 
 1. Beginnen Sie bei der Erstellung Ihrer Journey mit einem Ereignis. Siehe diesen [Abschnitt](../building-journeys/journey.md).
 1. Wählen Sie im Abschnitt **Aktion** der Palette eine Campaign-Aktion aus und fügen Sie sie zu Ihrer Journey hinzu.
