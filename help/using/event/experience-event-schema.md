@@ -3,17 +3,17 @@ product: adobe campaign
 title: 'Informationen zu ExperienceEvent-Schemata für Journey Orchestration-Ereignisse '
 description: 'Erfahren Sie mehr über ExperienceEvent-Schemata für Journey Orchestration-Ereignisse. '
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: ffec0d42-8632-4806-97df-da2a2372ca53
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 100%
 
 ---
 
-# Informationen zu ExperienceEvent-Schemata für [!DNL Journey Orchestration]-Ereignisse
+# Informationen zu ExperienceEvent-Schemasa für [!DNL Journey Orchestration]-Ereignisse
 
 [!DNL Journey Orchestration]-Ereignisse sind XDM-Erlebnisereignisse, die über die Streaming-Aufnahme an Adobe Experience Platform gesendet werden.
 
