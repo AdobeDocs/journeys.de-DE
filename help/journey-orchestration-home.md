@@ -4,17 +4,17 @@ product: adobe campaign
 title: Produktdokumentation für Journey Orchestration
 description: Produktdokumentation für Journey Orchestration
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# Hilfe {#journeys-documentation}
+# Hilfezentrum {#journeys-documentation}
 
 ![](using/assets/do-not-localize/bannerjourney.png)
 
@@ -72,11 +72,11 @@ Erfahren Sie mehr über die neuesten Versionen.
 ## Zusätzliche Ressourcen
 
 * [Journey Orchestration – Produktseite](https://www.adobe.com/de/experience-platform/journey-orchestration.html)
-* [Dokumentation zu Experience Platform](https://www.adobe.com/de/experience-platform/documentation-and-developer-resources.html)
+* [Experience Platform-Dokumentation](https://www.adobe.com/de/experience-platform/documentation-and-developer-resources.html)
 * [Dokumentation zum Echtzeit-Kundenprofil](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de)
 * [Experience Cloud-XDM-Felddefinition](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de)
-* [Dokumentation zum Identity-Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html)
-* [Streaming-Aufnahme-APIs](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html)
+* [Dokumentation zum Identity-Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=de)
+* [Streaming-Aufnahme-APIs](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=de)
 * [Dokumentation zu Transaktionsnachrichten von Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=de)
 
 ## Technische Tutorials
