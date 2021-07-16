@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: Informationen zum Erstellen von Journeys
-description: Erfahren Sie, wie Sie als Business-Anwender Ereignis-, Orchestrierungs- und Aktions-Aktivitäten kombinieren, um eine Journey zu gestalten.
+description: Erfahren Sie, wie Sie als Business-Anwender Ereignis-, Orchestrierungs- und Aktionsaktivitäten kombinieren, um eine Journey zu erstellen.
 feature: Journeys
 role: User
 level: Intermediate
