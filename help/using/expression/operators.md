@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: fd86b6ab-76cf-4b35-9e87-f441e914f20b
 source-git-commit: b52c9c0d6486a0b31c1ebe3d6d42a0fb0b708bf1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '436'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Im Folgenden finden Sie eine Liste der unterstützten Operatoren:
 
 ## Logisch        {#logical}
 
-### and
+### und
 
 ```
 <expression1> and <expression2>
@@ -50,7 +50,7 @@ Beispiel:
 3.14 > 2 and 3.15 < 1
 ```
 
-### or
+### oder
 
 
 
@@ -298,7 +298,7 @@ Beispiel:
 1 + 2 -- returns 3
 ```
 
-### -
+### –
 
 
 
@@ -372,7 +372,7 @@ Beispiel:
 3 % 2 -- returns 1.
 ```
 
-## Mathematisch {#math}
+## Math {#math}
 
 ### is numeric
 
