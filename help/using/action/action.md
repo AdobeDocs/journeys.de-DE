@@ -9,7 +9,7 @@ exl-id: 34f7666b-1c91-4edd-b5d6-4c0513b9c4f3
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Die Aktionen stehen in der linken Palette Ihrer Journey in der Kategorie **[!UIC
 >
 >Die Konfiguration von benutzerdefinierten Aktionen wird immer von einem **technischen Anwender** durchgeführt.
 
-In der Liste der **Aktionen** können Sie C drücken, um eine neue Journey, Aktion oder Datenquelle oder ein neues Ereignis zu erstellen. Weitere Informationen zu den Tastaturbefehlen in [!DNL Journey Orchestration] finden Sie in [diesem Abschnitt](../about/user-interface.md#section_ksq_zr1_ffb).
+Drücken Sie in der Liste der **Aktionen** „c“, um eine neue Journey, Aktion oder Datenquelle oder ein neues Ereignis zu erstellen. Weitere Informationen zu den Tastaturbefehlen in [!DNL Journey Orchestration] finden Sie in [diesem Abschnitt](../about/user-interface.md#section_ksq_zr1_ffb).
 
 Um die Aktionsliste anzuzeigen oder eine neue Aktion zu konfigurieren, klicken Sie in den oberen Menüs auf **[!UICONTROL Aktionen]**. Die Liste der Aktionen wird angezeigt. Weitere Informationen zur Benutzeroberfläche finden Sie auf [dieser Seite](../about/user-interface.md).
 
@@ -42,4 +42,4 @@ Wenn Sie über Adobe Campaign v7 oder v8 verfügen, ist auf Anfrage eine Integra
 
 Wenn Sie ein Drittanbietersystem (z. B. Epsilon, Facebook, Adobe.io, Firebase) zum Senden von Nachrichten verwenden, müssen Sie eine benutzerdefinierte Aktion hinzufügen und konfigurieren. Mehr dazu erfahren Sie auf [dieser Seite](../action/about-custom-action-configuration.md).
 
-Weitere Informationen zur Konfiguration einer Aktion für [!DNL Journey Orchestration] und zur Verwendung dieser Aktion in einer Journey finden Sie in diesem [Anleitungsvideo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/configure-actions.html).
+Weitere Informationen zur Konfiguration einer Aktion für [!DNL Journey Orchestration] und zur Verwendung dieser Aktion in einer Journey finden Sie in diesem [Anleitungsvideo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/configure-actions.html?lang=de).
