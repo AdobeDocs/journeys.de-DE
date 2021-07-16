@@ -51,7 +51,7 @@ Ereignisse werden von der Quelle nicht direkt an [!DNL Journey Orchestration] we
 
 ## Überprüfen, ob Personen in die Journey eintreten{#section_x4v_zzs_dgb}
 
-[!DNL Journey Orchestration]Berichte zu messen den Eintritt von Personen in eine Journey auf Echtzeitbasis.
+[!DNL Journey Orchestration]-Berichte messen den Eintritt von Personen in eine Journey in Echtzeit.
 
 Wenn Sie das Ereignis erfolgreich versenden, aber keinen Eintritt in die Journey erkennen können, bedeutet das, dass es zwischen dem Senden und Empfangen des Ereignisses in der Journey zu Problemen kommt.
 
@@ -71,7 +71,7 @@ Im Folgenden sind einige Faktoren aufgeführt, die der Administrator überprüfe
 
 ## Überprüfen, wie Personen durch die Journey navigieren{#section_l5y_yzs_dgb}
 
-[!DNL Journey Orchestration]Berichte zu messen den Fortschritt von Kontakten innerhalb einer Journey. So können Sie leicht ermitteln, wo und warum eine Person gestoppt wurde.
+[!DNL Journey Orchestration]-Berichte messen den Fortschritt von Kontakten innerhalb einer Journey. So können Sie leicht ermitteln, wo und warum eine Person gestoppt wurde.
 
 Prüfen Sie folgende Punkte:
 
