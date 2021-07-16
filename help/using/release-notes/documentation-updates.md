@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: Dokumentation – Aktualisierungen
+title: 'Aktualisierungen der Dokumentation: '
 description: Erfahren Sie mehr über die Aktualisierungen der Dokumentation
 feature: Journeys
 role: User
@@ -9,14 +9,14 @@ exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '814'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # Dokumentation – Aktualisierungen
 
 Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journey Orchestration] aufgelistet.
-Lesen Sie auch die [!DNL Journey Orchestration][Versionshinweise](../release-notes/release-notes.md).
+Lesen Sie auch die [Versionshinweise](../release-notes/release-notes.md) von [!DNL Journey Orchestration].
 
 ## März 2021 {#march-2021}
 
@@ -39,13 +39,13 @@ Lesen Sie auch die [!DNL Journey Orchestration][Versionshinweise](../release-not
 
 * Es wurden Informationen zum Sortieren und Auswählen der Spalten hinzugefügt, die in der Segmentliste angezeigt werden sollen. [Mehr dazu](../building-journeys/segment-qualification-events.md)
 * Es wurden Informationen zum Kopieren des Namens und der ID eines Segments hinzugefügt, nachdem es ausgewählt wurde. [Mehr dazu](../building-journeys/segment-qualification-events.md)
-* Die Vorkommen von Experience Platformen wurden auf den verschiedenen Seiten harmonisiert.
+* Experience Platform wurde auf den verschiedenen Seiten harmonisiert.
 
 ## Juli 2020 {#july-2020}
 
 * Es wurde ein Link zu einem neuen Anleitungsvideo für Schrittereignis-Berichte zu Adobe Experience Platform hinzugefügt. [Mehr dazu](../building-journeys/sharing-overview.md)
 * Der Bereich „Ereignisaktivitäten“ wurde für jede Art von Ereignis in spezifische Unterbereiche umstrukturiert. [Mehr dazu](../building-journeys/event-activities.md)
-* Es wurden Best Practices hinzugefügt, um eine Überlastung durch die Segmentqualifizierung zu vermeiden. [Mehr dazu](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
+* Es wurden Best Practices hinzugefügt, um eine Überlastung durch Segmentqualifikation zu vermeiden. [Mehr dazu](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * Es wurde ein Hinweis hinzugefügt, der erklärt, wie eine Journey nach einem Fehler in einer Aktion oder Bedingung fortgesetzt werden kann. [Mehr dazu](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * Es wurde ein neuer Abschnitt zu den Alpha-Funktionen hinzugefügt, die von einer begrenzten Anzahl von Kunden getestet werden.
 * Es wurde ein neuer Abschnitt zur Integration mit Intelligent Services hinzugefügt. [Mehr dazu](../ai-services/ai-services-overview.md)
@@ -67,7 +67,7 @@ Lesen Sie auch die [!DNL Journey Orchestration][Versionshinweise](../release-not
 ## April 2020 {#april-2020}
 
 * Es wurde ein neuer Abschnitt zur Schemadefinition für Erlebnisereignisse hinzugefügt, der Benutzern bei der Konfiguration ihres ersten Ereignisses hilft. [Mehr dazu](../event/experience-event-schema.md)
-* Die Homepage für die [!DNL Journey Orchestration]-Dokumentation wurde um weitere nützliche Links ergänzt. [Mehr dazu](../../journey-orchestration-home.md)
+* Die Startseite für die [!DNL Journey Orchestration]-Dokumentation wurde um weitere nützliche Links ergänzt. [Mehr dazu](../../journey-orchestration-home.md)
 
 ## März 2020 {#march-2020}
 
@@ -86,12 +86,12 @@ Lesen Sie auch die [!DNL Journey Orchestration][Versionshinweise](../release-not
 
 ## Februar 2020 {#february-2020}
 
-* Der Abschnitt zum Tastaturbefehl wurde aktualisiert - Mit dem Tastaturbefehl **C** können Sie in allen Listenbildschirmen ein neues Element erstellen. [Mehr dazu](../about/user-interface.md#section_ksq_zr1_ffb)
+* Der Abschnitt mit den Tastaturbefehlen wurde aktualisiert. Mit dem Tastaturbefehl **C** können Sie in allen Listenbildschirmen ein neues Element erstellen. [Mehr dazu](../about/user-interface.md#section_ksq_zr1_ffb)
 * Die Übersichtsseiten für [Datenquellen](../datasource/about-data-sources.md) und [Aktionen](../action/action.md) wurden verbessert.
 
 ## Januar 2020 {#january-2020}
 
-* Für [Erlebnisereignisse](../datasource/adobe-experience-platform-data-source.md) und [Segmente](../functions/functioninsegment.md) wurden Abrufeinschränkungen hinzugefügt.
+* Für [Erlebnisereignisse](../datasource/adobe-experience-platform-data-source.md) und [Segmente](../functions/functioninsegment.md) wurden Abrufbeschränkungen hinzugefügt.
 
 <!--* The [getBestSendTime documentation](../functions/functiongetbestsendtime.md) has been updated.-->
 
