@@ -4,7 +4,7 @@ title: Erstellen eines Testprofils
 description: Erfahren Sie mehr über die Erstellung von Testprofilen
 exl-id: f1be46a8-04b9-4f40-b18e-9099099d2e1c
 source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '726'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Zuerst müssen Sie **ein Schema erstellen**. Führen Sie folgende Schritte aus:
 
 1. Klicken Sie in Adobe Experience Platform im linken Menü auf **[!UICONTROL Schemata]**.
    ![](../assets/test-profiles-0.png)
-1. Klicken Sie oben rechts auf **[!UICONTROL Schema erstellen]** und wählen Sie dann einen Schematyp aus, z. B. **[!UICONTROL Einzelnes XDM-Profil]**.
+1. Klicken Sie oben rechts auf **[!UICONTROL Schema erstellen]** und wählen Sie dann einen Schematyp aus, z. B. **[!UICONTROL Einzelnes XDM-Profil]**.
    ![](../assets/test-profiles-1.png)
 1. Wählen Sie einen Namen für Ihr Schema aus.
 1. Klicken Sie im Bereich **[!UICONTROL Mixins]** auf **[!UICONTROL Hinzufügen]**.
@@ -40,7 +40,7 @@ Die Liste der Mixins wird im Übersichtsbildschirm des Schemas angezeigt.
    ![](../assets/test-profiles-2.png)
 1. Klicken Sie in der Liste der Felder auf das Feld, das Sie als die primäre Identität definieren möchten.
    ![](../assets/test-profiles-3.png)
-1. Markieren Sie im rechten Panel **[!UICONTROL Feldeigenschaften]** die Optionen **[!UICONTROL Identität]** und **[!UICONTROL Primäre Identität]** und wählen Sie einen Namespace aus. Wenn die primäre Identität eine E-Mail-Adresse sein soll, wählen Sie den Namespace **[!UICONTROL E-Mail]**. Klicken Sie auf **[!UICONTROL Anwenden]**.
+1. Markieren Sie im rechten Panel **[!UICONTROL Feldeigenschaften]** die Optionen **[!UICONTROL Identität]** und **[!UICONTROL Primäre Identität]** und wählen Sie einen Namespace aus. Wenn die primäre Identität eine E-Mail-Adresse sein soll, wählen Sie den Namespace **[!UICONTROL E-Mail]**. Klicken Sie auf **[!UICONTROL Übernehmen]**.
    ![](../assets/test-profiles-4.png)
 1. Wählen Sie das Schema aus und aktivieren Sie die Option **[!UICONTROL Profil]** in den **[!UICONTROL Schema-Eigenschaften]**.
    ![](../assets/test-profiles-5.png)
@@ -92,14 +92,14 @@ In Adobe Experience Platform können Sie Profile erstellen, indem Sie eine CSV-D
 1. Vergewissern Sie sich, dass die Testprofile korrekt hinzugefügt wurden.
    ![](../assets/test-profiles-21.png)
 
-Ihre Testprofile werden hinzugefügt und können jetzt beim Testen einer Journey verwendet werden. Siehe [diesen Abschnitt](../building-journeys/testing-the-journey.md).
+Ihre Testprofile werden hinzugefügt und können jetzt beim Testen einer Journey verwendet werden. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/testing-the-journey.md).
 >[!NOTE]
 >
 > Weitere Informationen zu CSV-Importen finden Sie in der [Dokumentation zur Datenaufnahme](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=de#tutorials).
 
 ## Erstellen von Testprofilen mithilfe von API-Aufrufen{#create-test-profiles-api}
 
-Sie können Testprofile auch über API-Aufrufe erstellen. Weitere Informationen finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
+Sie können Testprofile auch über API-Aufrufe erstellen. Weitere Informationen finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de).
 
 Sie müssen ein Profilschema verwenden, das das Mixin „Profil-Testdetails“ enthält. Die Markierung „testProfile“ ist Teil dieses Mixins.
 
