@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 19a4b7f8-5636-4b8f-b81f-28ff7da99671
 source-git-commit: 0c55ece133639ec001b58f73afcbc69787b98c0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '56'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Konversion
 
 | Parameter | Typ |
 |-----------|------------------|
-| Datum/Uhrzeit im Format ISO-8601 oder &quot;JJJ-MM-TT&quot;(XDM-Datumsformat) | Zeichenfolge |
+| Datum/Uhrzeit im ISO-8601-Format oder im XDM-Datumsformat &quot;JJJJ-MM-TT&quot; | Zeichenfolge |
 | Datum/Uhrzeit | dateTime |
 
 ## Signaturen und zurückgegebene Typen
@@ -46,7 +46,7 @@ Gibt einen Datum/Uhrzeit-Wert ohne Berücksichtigung der Zeitzone zurück.
 
 `toDateTimeOnly ("2016-08-18")`
 
-gibt eine dateTime zurück, die 2016-08-18T00:00:00.000 entspricht.
+gibt einen Datum/Uhrzeit-Wert zurück, der 2016-08-18T00:00:00.000 entspricht.
 
 `toDateTimeOnly(now())`
 
