@@ -10,7 +10,7 @@ exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1171'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ Die APIs von [!DNL Journey Orchestration] unterstützen 5.000 Ereignisse/Sekunde
 
 Bei der Konfiguration von Datenquellen definieren Sie eine Verbindung zu einem System, um zusätzliche Informationen abzurufen, die in Ihren Journeys verwendet werden; für eine Aktionsdefinition konfigurieren Sie eine Verbindung zu einem Drittanbietersystem, um Nachrichten oder API-Aufrufe zu senden. Jedes Mal, wenn eine Journey einen API-Aufruf vornimmt, wird die Capping-API abgefragt, bevor der Aufruf über die API-Engine erfolgt. Wenn eine Begrenzung definiert wurde, wird der Aufruf abgelehnt, damit das externe System nicht überlastet wird.
 
-Bei externen Datenquellen wird die maximale Anzahl von Aufrufen pro Sekunde auf 15 festgelegt. Wenn die Anzahl der Aufrufe 15 pro Sekunde überschreitet, werden die verbleibenden Aufrufe verworfen. Sie können diese Beschränkung für private externe Datenquellen erhöhen. Wenden Sie sich an Adobe , um den Endpunkt auf die Whitelist zu setzen. Dies ist für öffentliche externe Datenquellen nicht möglich. Weiterführende Informationen zu Best Practices und Limits bei der Integration externer Systeme finden Sie auf dieser [Seite](../about/external-systems.md).
+Bei externen Datenquellen wird die maximale Anzahl von Aufrufen pro Sekunde auf 15 festgelegt. Wenn die Anzahl der Aufrufe 15 pro Sekunde überschreitet, werden die verbleibenden Aufrufe verworfen. Sie können diese Beschränkung für private externe Datenquellen erhöhen. Wenden Sie sich an Adobe, um den Endpunkt auf die Zulassungsliste zu setzen. Dies ist für öffentliche externe Datenquellen nicht möglich. Weiterführende Informationen zu Best Practices und Einschränkungen bei der Integration externer Systeme finden Sie auf dieser [Seite](../about/external-systems.md).
 
-Weitere Informationen zur Konfiguration von Aktionen oder Datenquellen finden Sie unter [Informationen zu Aktionen](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html) oder [Informationen zu Datenquellen](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html)
+Weitere Informationen zur Konfiguration von Aktionen oder Datenquellen finden Sie unter [Informationen zu Aktionen](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html?lang=de) oder [Informationen zu Datenquellen](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html?lang=de)
 
 ## Ressourcen
 
@@ -76,7 +76,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 Mit der Capping-API können Sie Begrenzungskonfigurationen erstellen, konfigurieren und überwachen.
 
-| Methode | Path | Beschreibung |
+| Methode | Pfad | Beschreibung |
 |---|---|---|
 | [!DNL POST] | list/endpointConfigs | Liste der Endpunktbegrenzungskonfigurationen abrufen |
 | [!DNL POST] | /endpointConfigs | Endpunktbegrenzungskonfiguration erstellen |
@@ -197,7 +197,7 @@ Anwendungsfall 3: **Aufheben einer Bereitstellung und Löschen einer bereitgeste
 
 1. Liste
 1. undeploy
-1. Löschen Sie
+1. delete
 
 Anwendungsfall 4: **Löschen einer bereitgestellten Begrenzungskonfiguration.**
 
