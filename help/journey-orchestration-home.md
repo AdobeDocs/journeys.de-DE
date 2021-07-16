@@ -48,7 +48,7 @@ Erfahren Sie mehr über die neuesten Versionen.
   </td>
   <td valign="top">
     <a href="using/usecase/building-the-journey.md">
-      <img alt="build" src="using/assets/do-not-localize/design.png"/>
+      <img alt="Build" src="using/assets/do-not-localize/design.png"/>
     </a>
     <div>
     <a href="using/usecase/building-the-journey.md"><strong>Anwendungsfall</strong></a>
