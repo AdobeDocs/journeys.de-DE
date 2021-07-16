@@ -9,7 +9,7 @@ exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '2631'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -39,10 +39,10 @@ Sie können auch die neusten [Aktualisierungen der Dokumentation](../release-not
 
 ### Verbesserungen
 
-* Für externe Datenquellen wird jetzt automatisch eine Begrenzungsregel von 15 Aufrufen pro Sekunde definiert. [Mehr dazu](../about/external-systems.md#capping)
+* Für externe Datenquellen wird jetzt automatisch eine Begrenzungsregel von 15 Aufrufen pro Sekunde festgelegt. [Mehr dazu](../about/external-systems.md#capping)
 * Die einfachen und erweiterten Ausdruckseditoren unterstützen jetzt das XDM-Datumsformat.
-* Im Bildschirm mit der Journey-Liste wurde ein neuer Filter hinzugefügt. Sie können nun nach Journey-Typ filtern: **[!UICONTROL Einzelereignis]** oder **[!UICONTROL Segmentqualifizierung]**. [Mehr dazu](../about/user-interface.md#section_lgm_hpz_pgb)
-* Für Live-Journey zeigt der Bildschirm mit den Journey-Eigenschaften jetzt das Veröffentlichungsdatum und den Namen des Benutzers an, der die Journey veröffentlicht hat. Diese Informationen sind auch verfügbar, wenn Sie die technischen Details der Journey kopieren. [Mehr dazu](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
+* Im Journey-Listenbildschirm wurde ein neuer Filter hinzugefügt. Sie können jetzt nach Journey-Typ filtern: **[!UICONTROL Unitäres Ereignis]** oder **[!UICONTROL Segmentqualifikation]**. [Mehr dazu](../about/user-interface.md#section_lgm_hpz_pgb)
+* Bei Live-Journeys zeigt der Journey-Eigenschaftenbildschirm jetzt das Veröffentlichungsdatum und den Namen des Benutzers an, der die Journey veröffentlicht hat. Diese Informationen sind auch verfügbar, wenn Sie die technischen Details der Journey kopieren. [Mehr dazu](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
 
 ## Version April 2021 {#april-2021-release}
 
@@ -132,7 +132,7 @@ Die Funktionen [getListItem](../functions/functiongetlistitem.md) und [split](..
 <td>
 <p>Im erweiterten Ausdruckseditor haben wir der Liste der Felder und Funktionen eine neue Kategorie hinzugefügt. Dabei handelt es sich um die Informationen, die das System von Live-Journeys abruft, wie z. B. die Journey-ID oder die spezifischen aufgetretenen Fehler. Dadurch erhalten Sie beim Erstellen Ihrer Journeys mehr Möglichkeiten. Beispielsweise können Sie Systeme von Drittanbietern auf Fehler aufmerksam machen, die in einer Bedingung oder Aktion auftreten.
 </p>
-<p>Weitere Informationen finden Sie im <a href="../expression/journey-properties.md">entsprechenden Handbuch</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../expression/journey-properties.md">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -141,7 +141,7 @@ Die Funktionen [getListItem](../functions/functiongetlistitem.md) und [split](..
 <table>
 <thead>
 <tr>
-<th><strong>Regelbasierte Ereignisse        (Beta)</strong><br/></th>
+<th><strong>Regelbasierte Ereignisse         (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -263,7 +263,7 @@ Die Payload von Segmentqualifkationsereignissen enthält jetzt die folgenden in 
 <table>
 <thead>
 <tr>
-<th><strong>Regelbasierte Ereignisse</strong><br/></th>
+<th><strong>Regelbasierte Ereignisse        </strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -329,7 +329,7 @@ Das Alpha-Programm bietet Funktionen, die derzeit von einer begrenzten Anzahl vo
 <table>
 <thead>
 <tr>
-<th><strong>Regelbasierte Ereignisse</strong><br/></th>
+<th><strong>Regelbasierte Ereignisse        </strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -343,7 +343,7 @@ Das Alpha-Programm bietet Funktionen, die derzeit von einer begrenzten Anzahl vo
 </table>
 
 
-## Version 2. Quartal - Juni 2020 {#q2-release---june-2020}
+## Version 2. Quartal – Juni 2020 {#q2-release---june-2020}
 
 <table>
 <thead>
@@ -508,9 +508,9 @@ Die Benutzeroberfläche von Journey Orchestration ist auf Japanisch verfügbar.
 
 * Beim Durchsuchen von **Adobe Experience Platform-Feldern** (XDM-Format) wird nun neben dem Feldnamen der Anzeigename angezeigt. Diese Informationen werden aus der Schemadefinition im Experience-Datenmodell abgerufen. Wenn verfügbar, wird der alternative Anzeigename angezeigt. Mit dieser benutzerfreundlichen Beschreibung, die insbesondere bei eVar-Feldern nützlich ist, können Sie Ihre Felder leichter wiedererkennen. [Mehr dazu](../about/user-interface.md#friendly-names-display)
 
-## GA-Version - Dezember 2019 {#ga-release---december-2019}
+## Allgemein verfügbare Version – Dezember 2019 {#ga-release---december-2019}
 
-Journey-Orchestrierung ist jetzt GA.
+Journey Orchestration ist jetzt allgemein verfügbar.
 
 Journey Orchestration ermöglicht die Erstellung von Anwendungsfällen für die Echtzeit-Orchestrierung mithilfe von Kontextdaten aus Ereignissen oder Datenquellen.
 
@@ -520,5 +520,5 @@ Journey Orchestration erlaubt eine Echtzeit-Orchestrierung auf Basis von Kontext
 
 Zusätzliche Ressourcen:
 
-* [Tutorials](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/introduction.html)
+* [Tutorials](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/introduction.html?lang=de)
 * [Community](https://www.adobe.com/go/journeyorchestrationcommunity_de)
