@@ -9,7 +9,7 @@ exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Rollen können von Administratoren verwaltet werden, die Zugriff auf die Admin C
 Um Zugriff auf [!DNL Journey Orchestration] zu erhalten, muss ein Benutzer:
 
 * Teil eines [!DNL Journey Orchestration]-**[!UICONTROL Produktprofils]** sein, das mit [!DNL Journey Orchestration]-Berechtigungen verknüpft ist.
-* Teil eines [!DNL Adobe Experience Platform]-**[!UICONTROL Produktprofils]** sein. Es ist keine zwingende Berechtigung erforderlich. Der Benutzer sollte über die Berechtigung **[!UICONTROL Profil-Management]** verfügen, um Plattformsegmente über die [!DNL Journey Orchestration]-Oberfläche erstellen und bearbeiten zu können. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#adobe-admin-console).
+* Teil eines [!DNL Adobe Experience Platform]-**[!UICONTROL Produktprofils]** sein. Es ist keine zwingende Berechtigung erforderlich. Der Benutzer sollte über die Berechtigung **[!UICONTROL Profil-Management]** verfügen, um Plattformsegmente über die [!DNL Journey Orchestration]-Oberfläche erstellen und bearbeiten zu können. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=de#adobe-admin-console).
 
 In der Admin Console können Sie Ihren Benutzern eines der folgenden vordefinierten Produktprofile zuweisen:
 
@@ -91,11 +91,11 @@ So erstellen Sie ein Produktprofil und weisen einen Satz von Berechtigungen und 
 
    ![](../assets/do-not-localize/user_management_7.png)
 
-1. Wählen Sie in der Berechtigungskategorie **[!UICONTROL Sandboxes]** die Sandbox(es) aus, die Sie Ihrem Produktprofil zuweisen möchten. Klicken Sie unter **[!UICONTROL Verfügbare Berechtigungselemente]** auf das Pluszeichen (+), um Ihrem Profil Sandboxes zuzuweisen. Weiterführende Informationen zu Sandboxes finden Sie in diesem [Abschnitt](../about/access-management.md#sandboxes).
+1. Wählen Sie in der Berechtigungskategorie **[!UICONTROL Sandboxes]** die Sandbox(es) aus, die Sie Ihrem Produktprofil zuweisen möchten. Klicken Sie unter **[!UICONTROL Verfügbare Berechtigungseinträge]** auf das Pluszeichen (+), um Ihrem Profil Sandboxes zuzuweisen. Weiterführende Informationen zu Sandboxes finden Sie in diesem [Abschnitt](../about/access-management.md#sandboxes).
 
    ![](../assets/do-not-localize/user_management_8.png)
 
-1. Klicken Sie bei Bedarf unter **[!UICONTROL Einbezogene Berechtigungselemente]** auf das X-Symbol, um Berechtigungen für das Produktprofil zu entfernen.
+1. Klicken Sie bei Bedarf unter **[!UICONTROL Eingeschlossene Berechtigungseinträge]** auf das X-Symbol, um Berechtigungen für das Produktprofil zu entfernen.
 
    ![](../assets/do-not-localize/user_management_9.png)
 
