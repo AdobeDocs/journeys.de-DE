@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: a3b24f25-5f6d-44fe-b755-3734e4fab944
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 100%
 
@@ -29,14 +29,14 @@ Liste
 
 | Parameter | Typ |
 |-----------|------------------|
-| Liste | listString |
+| list | listString |
 | Liste | listBoolean |
 | Liste | listInteger |
 | Liste | listDecimal |
 | Liste | listDuration |
 | Liste | listDateTime |
 | Liste | listDateTimeOnly |
-| Index | integer |
+| Index | Ganzzahl |
 
 ## Signaturen und zurückgegebener Typ
 
@@ -81,7 +81,7 @@ Beispiele mit dem Ereignisfeld „event.appVersion“ mit dem Wert: 20.45.2.3434
 
 `split(@{event.appVersion}, "\\.")`
 
-Gibt `["20", "45", "2", "3434"]` zurück
+Rückgabe `["20", "45", "2", "3434"]`
 
 `getListItem(split(@{event.appVersion}, "\\."), 0)`
 
