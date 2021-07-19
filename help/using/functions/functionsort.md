@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 8e86b919-41f5-45f9-a6af-9fe290405095
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 100%
 
@@ -68,8 +68,8 @@ Gibt eine Liste mit booleschen Werten zurück.
 
 `sort(["A", "C", "B"], true)`
 
-Gibt `["A","B","C"]` zurück.
+Rückgabe `["A","B","C"]`.
 
 `sort([1, 3, 2], false)`
 
-Gibt `[3, 2, 1]` zurück.
+Rückgabe `[3, 2, 1]`.
