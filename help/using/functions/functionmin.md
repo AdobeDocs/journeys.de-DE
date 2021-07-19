@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 7e13a08c-c51a-4d40-a3e2-ef70bd3edca5
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ Aggregation
 * listDateTime
 * listDateTimeOnly
 * duration
-* integer
+* Ganzzahl
 * decimal
 * dateTime
 * dateTimeOnly
