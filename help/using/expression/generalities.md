@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: ba474219-7c9e-4f93-8e9c-16c317131614
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 100%
 
@@ -42,6 +42,6 @@ Je nach Verwendungskontext kann der Ausdruckseditor verschiedene Werte zurückge
 
 | Verwendung des erweiterten Ausdruckseditors | Erwarteter zurückgegebener Ausdruckstyp |
 |--- |--- |
-| Bedingung (Bedingung der Datenquelle, Bedingung für das Datum) | Boolesch |
+| Bedingung (Bedingung der Datenquelle, Bedingung für das Datum) | boolean |
 | Benutzerdefinierter Timer | dateTimeOnly |
-| Zuordnung von Aktionsparametern | Beliebig |
+| Zuordnung von Aktionsparametern | Eines |
