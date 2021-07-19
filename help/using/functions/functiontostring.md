@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 942e7a44-1cb1-4c99-abd6-e0b045c42c80
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ Konversion
 | dateTimeOnly | konvertiert das Datum in das UTC-Datumsformat |
 | duration | konvertiert in die entsprechende Anzahl von Millisekunden als Zeichenfolge |
 | time zone | konvertiert in die Zeichenfolgendarstellung der Zeitzonen-ID (JODA-ID) |
-| integer | konvertiert den Wert in eine Zeichenfolgendarstellung (1 wird zu &quot;1&quot;) |
+| Ganzzahl | konvertiert den Wert in eine Zeichenfolgendarstellung (1 wird zu &quot;1&quot;) |
 | decimal | konvertiert den Wert in eine Zeichenfolgendarstellung (1.5 wird zu &quot;1,5&quot;) |
 | boolean | konvertiert den booleschen Wert in &#39;true&#39;, wenn „true“, in &#39;false&#39;, wenn „false“ |
 
