@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 2f317306-9afd-4e9a-88b8-fc66102e1046
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Es wird eine Syntaxfarbe verwendet, um die Ereignisfelder (grün) optisch von Fe
 
 **Standardwerte für Feldverweise**
 
-Ein Standardwert kann mit einem Feldnamen verknüpft werden. Die Syntax sieht folgendermaßen aus:
+Ein Standardwert kann mit einem Feldnamen verknüpft werden. Für die gilt folgende Syntax:
 
 ```
 // event field
@@ -92,7 +92,7 @@ expression examples:
 
 Die in Sammlungen definierten Elemente werden mit den speziellen Funktionen (alle, zuerst und zuletzt) referenziert. Weitere Informationen dazu finden Sie auf dieser [Seite](../expression/collection-management-functions.md).
 
-Beispiel:
+Beispiel :
 
 ```
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
