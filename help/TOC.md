@@ -18,7 +18,7 @@ ht-degree: 99%
 + [Produktdokumentation](journey-orchestration-home.md)
 + Neue Funktionen {#release-notes}
    + [Versionshinweise](using/release-notes/release-notes.md)
-   + [Dokumentation – Aktualisierungen](using/release-notes/documentation-updates.md)
+   + [Aktualisierungen der Dokumentation: ](using/release-notes/documentation-updates.md)
 + Einstieg in [!DNL Journey Orchestration] {#starting-with-journeys}
    + [Info [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [Einschränkungen](using/about/limitations.md)
