@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: eaf2c795-0920-4b9c-9f06-801e43c1844b
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '339'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,6 @@ Mit der Aktionsaktivität **[!UICONTROL Profil aktualisieren]** können Sie ein 
 * Sie können die Aktion **Profil aktualisieren** nicht verwenden, um Erlebnisereignisse zu generieren, z. B. einen Kauf.
 * Wie bei jeder anderen Aktion können Sie einen alternativen Pfad für den Fall eines Fehlers oder einer Zeitüberschreitung definieren und Sie können nicht zwei Aktionen parallel platzieren.
 * Die an Platform gesendete Aktualisierungsanfrage erfolgt schnell, jedoch nicht sofort/innerhalb einer Sekunde. Es dauert normalerweise ein paar Sekunden, manchmal aber auch mehr, ohne dass dies garantiert werden kann. Wenn eine Aktion beispielsweise „Feld 1“ verwendet, das durch eine davor positionierte Profilaktualisierungsaktion aktualisiert wurde, sollte nicht davon ausgegangen werden, dass „Feld 1“ durch die Aktion aktualisiert wird.
-* Datenquellen verfügen auf Feldergruppenebene über eine Einstellungsmöglichkeit für die Aufbewahrungsfrist im Cache. Soll in einer Journey ein kürzlich aktualisiertes Profilfeld genutzt werden, sollte eine sehr kurze Aufbewahrungsfrist im Cache definiert werden.
 * Im Testmodus wird die Aktualisierung des Profils nicht simuliert. Die Aktualisierung wird für das Testprofil durchgeführt.
 
 ## Verwenden der Profilaktualisierung
