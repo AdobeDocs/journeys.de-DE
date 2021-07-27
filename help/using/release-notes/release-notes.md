@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 6300a606d49a65a5527f9ba29a7efdfe782c7334
 workflow-type: tm+mt
-source-wordcount: '2631'
-ht-degree: 100%
+source-wordcount: '2707'
+ht-degree: 97%
 
 ---
 
@@ -17,6 +17,29 @@ ht-degree: 100%
 
 Auf dieser Seite werden alle neuen Funktionen und Verbesserungen bei Journey Orchestration aufgelistet.
 Sie können auch die neusten [Aktualisierungen der Dokumentation](../release-notes/documentation-updates.md) einsehen.
+
+## Version Juli 2021 {#july-2021-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>Nutzen von Schemabeziehungen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Mit Adobe Experience Platform können Sie Beziehungen zwischen Schemas definieren, um einen Datensatz als Lookup-Tabelle für einen anderen zu verwenden. Journey Orchestration kann jetzt Daten aus einem verknüpften Schema nutzen.</p>
+<p>Diese Felder sind in der Konfiguration von Einzelereignissen, Journey-Bedingungen und der Personalisierung benutzerdefinierter Aktionen verfügbar.
+<p>Weitere Informationen finden Sie in der <a href="../event/experience-event-schema.md#leverage_schema_relationships">entsprechenden Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Verbesserungen
+
+* Das Feld **Cache-Dauer** wurde aus dem Konfigurationsbereich der Datenquelle entfernt. [Mehr dazu](../datasource/about-data-sources.md)
 
 ## Version Juni 2021 {#june-2021-release}
 
