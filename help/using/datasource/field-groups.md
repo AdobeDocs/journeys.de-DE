@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 6f7f2673-9080-4274-afa3-a0255798f78d
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 100%
+source-wordcount: '461'
+ht-degree: 97%
 
 ---
 
@@ -19,15 +19,13 @@ Feldergruppen sind Gruppen von Feldern, die Sie aus einer Datenquelle abrufen un
 
 ## Definieren von Feldergruppen {#section_dsz_kjd_fjb}
 
-Für jede Datenquelle können Sie mehrere Feldergruppen mit einer bestimmten Aufbewahrungsfrist im Cache definieren. 
+Für jede Datenquelle können Sie mehrere Feldergruppen definieren.
 
 Sie können beispielsweise eine Feldergruppe mit der Telefonnummer, der E-Mail-Adresse, dem Vornamen und der Adresse des Profils erstellen. Anschließend können Sie diese Daten in Ihrer Journey verwenden, um Bedingungen zu schaffen. Sie können beispielsweise nur dann eine SMS senden, wenn die Telefonnummer des Profils nicht leer ist. Wenn sie leer ist, können Sie eine E-Mail senden.
 
 Obwohl automatisch ein Standardname hinzugefügt wird, sollten Sie Ihrer Feldergruppe einen Namen geben. Der Feldergruppenname ist für andere Anwender in [!DNL Journey Orchestration] sichtbar. Es empfiehlt sich, Feldergruppen einen relevanten Namen zu geben.
 
 Wenn ein Datenquellenfeld in einer Journey verwendet wird, ruft das System alle für diese Feldergruppe definierten Felder ab. Es empfiehlt sich daher, nur die Felder auszuwählen, die Sie für Ihre Journeys benötigen. Dadurch wird die Anfragelatenz in Ihren Journeys verringert und die Performance verbessert. Beachten Sie, dass Sie später problemlos weitere Felder in Feldergruppen hinzufügen können.
-
-Die **[!UICONTROL Aufbewahrungsfrist im Cache]** ist ebenfalls wichtig, da sie Ihnen bei der Performance-Optimierung hilft. Die Aufbewahrungsfrist im Cache bedeutet, dass das System in einer Journey Daten aus einer Feldergruppe, die einmal abgerufen wurden, vorübergehend zwischenspeichert. Wenn dieselben Daten später in derselben Journey benötigt werden, sendet das System keine weitere Anfrage an die Datenquelle. Die Konfiguration der Aufbewahrungsfrist im Cache sollte für jeden Anwendungsfall angepasst werden. Wenn Sie Echtzeitdaten wie z. B. den Status der Hotelreservierung, Wetterinformationen oder die Anzahl der Treuepunkte abrufen müssen, verbinden Sie die Feldergruppe mit diesen Feldern mit einer kurzen Aufbewahrungsfrist im Cache (z. B. 1 Sekunde). Bei Feldern, die seltener aktualisiert werden (Name, Geschlecht), erstellen Sie eine zweite Feldergruppe mit einer längeren Aufbewahrungsfrist im Cache (z. B. 5 Tage).
 
 Die Anzahl der Journeys, die eine Feldergruppe verwendet, wird im Feld **[!UICONTROL Verwendet in]** angezeigt. Sie können auf die Schaltfläche **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der Journeys mit dieser Feldergruppe anzuzeigen.
 
