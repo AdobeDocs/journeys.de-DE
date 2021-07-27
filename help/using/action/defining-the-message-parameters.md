@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: eb765d2f12ade397e124281f52213bb3e58263cb
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 100%
+source-wordcount: '228'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ Fügen Sie im Abschnitt **[!UICONTROL Nachrichtenparameter]** ein Beispiel der J
 
 >[!NOTE]
 >
->Feldnamen in der Payload dürfen das Zeichen „.“ nicht enthalten.
+>Feldnamen in der Payload dürfen das Zeichen „.“ nicht enthalten. Sie können nicht mit einem &quot;$&quot;-Zeichen beginnen.
 
 Sie können den Parametertyp definieren (z. B.: Zeichenfolge, Ganzzahl usw.).
 
