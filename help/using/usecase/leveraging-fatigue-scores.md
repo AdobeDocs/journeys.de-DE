@@ -2,10 +2,10 @@
 product: adobe campaign
 title: Nutzen von Ermüdungswerten
 description: Erfahren Sie, wie Sie in Journeys Ermüdungswerte nutzen
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 100%
+source-wordcount: '270'
+ht-degree: 92%
 
 ---
 
@@ -26,7 +26,8 @@ Führen Sie die auf [dieser Seite](../event/about-events.md) beschriebenen Schri
 
 Führen Sie folgende Schritte aus, um die Ermüdungswertfelder in der integrierten Datenquelle auszuwählen:
 
-1. Klicken Sie im oberen Menü auf den Tab **[!UICONTROL Datenquellen]** und wählen Sie die integrierte Adobe Experience Platform-Datenquelle aus.
+1. Wählen Sie im Menübereich **[!UICONTROL Admin]** aus. Klicken Sie im Abschnitt **[!UICONTROL Datenquellen]** auf **[!UICONTROL Verwalten]**.
+1. Wählen Sie die integrierte Adobe Experience Platform-Datenquelle aus.
 
    ![](../assets/journey23.png)
 
