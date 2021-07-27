@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2cfa4397-fe8f-44b3-b219-2fd5d3bdd156
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 100%
+source-wordcount: '477'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,8 @@ In unserem Anwendungsfall möchten wir für unsere Nachrichten Personalisierungs
 
 Weitere Informationen zur Datenquellenkonfiguration finden Sie auf [dieser Seite](../datasource/about-data-sources.md).
 
-1. Klicken Sie im oberen Menü auf den Tab **[!UICONTROL Datenquellen]** und wählen Sie die integrierte Adobe Experience Platform-Datenquelle aus.
+1. Wählen Sie im Menübereich **[!UICONTROL Admin]** aus. Klicken Sie im Abschnitt **[!UICONTROL Datenquellen]** auf **[!UICONTROL Verwalten]**.
+1. Wählen Sie die integrierte Adobe Experience Platform-Datenquelle aus.
 
    ![](../assets/journey23.png)
 
@@ -58,7 +59,6 @@ Zudem muss geprüft werden, ob die Person im Hotelreservierungssystem über eine
 1. Klicken Sie auf **[!UICONTROL Neue Feldergruppe hinzufügen]**, um die abzurufenden Informationen und die API-Parameter zu definieren. In unserem Beispiel gibt es nur einen Parameter (die ID). Daher müssen wir eine Feldergruppe mit den folgenden Informationen erstellen:
 
    * **[!UICONTROL Methode]**: Wählen Sie die POST- oder GET-Methode aus. In unserem Fall wählen wir die GET-Methode.
-   * **[!UICONTROL Aufbewahrungsfrist im Cache]**: Diese variiert je nach Häufigkeit der API-Aufrufe. In unserem Fall wird das Reservierungssystem alle 10 Minuten aktualisiert.
    * **[!UICONTROL Antwort-Payload]**: Klicken Sie in das Feld **[!UICONTROL Payload]** und fügen Sie ein Beispiel der Payload ein. Überprüfen Sie, ob die Feldtypen korrekt sind. Jedes Mal, wenn die API aufgerufen wird, ruft das System alle im Payload-Beispiel enthaltenen Felder ab. In unserem Beispiel enthält die Payload nur den Buchungsstatus:
 
    ```
