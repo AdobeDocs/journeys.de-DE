@@ -6,9 +6,9 @@ user-guide-description: Enthält Anleitungen zum Implementieren und Erstellen vo
 index: true
 feature: Journeys
 source-git-commit: a472bb9ffe45159c8318f00a43c25fc41cb6d683
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '422'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 99%
 + [Produktdokumentation](journey-orchestration-home.md)
 + Neue Funktionen {#release-notes}
    + [Versionshinweise](using/release-notes/release-notes.md)
-   + [Aktualisierungen der Dokumentation: ](using/release-notes/documentation-updates.md)
+   + [Aktualisierungen der Dokumentation](using/release-notes/documentation-updates.md)
 + Einstieg in [!DNL Journey Orchestration] {#starting-with-journeys}
-   + [Info [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
+   + [Informationen zu  [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [Einschränkungen](using/about/limitations.md)
    + [Erste Schritte](using/about/get-started.md)
    + [Benutzeroberfläche](using/about/user-interface.md)
@@ -70,7 +70,7 @@ ht-degree: 99%
       + Ereignisaktivitäten {#events-activities}
          + [Informationen zu Ereignisaktivitäten](using/building-journeys/event-activities.md)
          + [Allgemeine Ereignisse](using/building-journeys/general-events.md)
-         + [Reaktion events](using/building-journeys/reaction-events.md)
+         + [Reaktion  Ereignisse](using/building-journeys/reaction-events.md)
          + [Segmentqualifizierungsereignisse](using/building-journeys/segment-qualification-events.md)
       + Orchestrierungsaktivitäten {#orchestration-activities}
          + [Informationen zu Orchestrierungsaktivitäten](using/building-journeys/about-orchestration-activities.md)
