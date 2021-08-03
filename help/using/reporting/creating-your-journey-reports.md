@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 0d2417e9-5b3f-442d-a00d-8b4df239d952
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '900'
 ht-degree: 100%
 
@@ -55,7 +55,7 @@ So greifen Sie auf die Berichte zu Ihren Journeys zu und beginnen damit, den Erf
 
 1. Für eine bessere Übersicht über Ihre Daten können Sie auf dem Tab **[!UICONTROL Visualisierungen]** Visualisierungen hinzufügen. Weiterführende Informationen hierzu finden Sie in diesem [Abschnitt](#adding-visualizations).
 
-## Bedienfelder hinzufügen{#adding-panels}
+## Panels hinzufügen{#adding-panels}
 
 ### Leeres Panel hinzufügen {#adding-a-blank-panel}
 
