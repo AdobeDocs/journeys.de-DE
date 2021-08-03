@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
 source-git-commit: 5ea6578ec15b8e1116f58f7644cbf45c523d1840
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1303'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Der Aufruf besteht aus einer Haupt-URL (_https://api.adobeweather.org/weather_),
 
 Im Folgenden werden die wichtigsten Schritte zum Erstellen und Konfigurieren einer neuen externen Datenquelle beschrieben:
 
-1. Klicken Sie in der Liste der Datenquellen auf **[!UICONTROL Datenquelle erstellen]** , um eine neue externe Datenquelle zu erstellen.
+1. Klicken Sie in der Liste der Datenquellen auf **[!UICONTROL Datenquelle erstellen]**, um eine neue externe Datenquelle zu erstellen.
 
    ![](../assets/journey25.png)
 
