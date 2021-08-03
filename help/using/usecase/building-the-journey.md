@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: cca6ed3c-e151-4494-9e2d-9ed504bfc54b
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '914'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Weitere Informationen zum Erstellen einer Journey finden Sie auf [dieser Seite](
 
    ![](../assets/journeyuc2_14.png)
 
-1. Wählen Sie den Typ **[!UICONTROL Bedingung der Datenquelle]** und klicken Sie auf das Feld **[!UICONTROL Ausdruck]**. Sie können auch eine Bedingungsbezeichnung definieren, die in der Arbeitsfläche auf dem Pfeil angezeigt wird. In unserem Beispiel ersetzen wir „Bedingung 1“ durch „Mitglied des Treueprogramms“ (Loyalty-Mitglied).
+1. Wählen Sie den Typ **[!UICONTROL Bedingung der Datenquelle]** und klicken Sie auf das Feld **[!UICONTROL Ausdruck]**. Sie können auch eine Bedingungsbezeichnung definieren, die in der Arbeitsfläche auf dem Pfeil angezeigt wird. In unserem Beispiel ersetzen wir „Bedingung 1“ durch „Mitglied des Treueprogramms“.
 
    ![](../assets/journeyuc2_15.png)
 
@@ -88,7 +88,7 @@ Nach der Bedingung werden zwei Pfade erstellt:
 
 ![](../assets/journeyuc2_16.png)
 
-## Erster Pfad: Der Kunde ist Mitglied des Treueprogramms (Loyalty-Mitglied)  {#section_otb_ws1_ffb}
+## Erster Pfad: Der Kunde ist Mitglied des Treueprogramms {#section_otb_ws1_ffb}
 
 1. Im ersten Pfad fügen wir nun eine Bedingung hinzu, um zu überprüfen, ob der Kunde eine Reservierung hat. Ziehen Sie per Drag-and-Drop eine Bedingungsaktivität in die Journey.
 
@@ -152,7 +152,7 @@ Nach der Bedingung werden zwei Pfade erstellt:
 
    ![](../assets/journeyuc2_25.png)
 
-## Zweiter Pfad: Der Kunde ist kein Mitglied des Treueprogramms (Loyalty-Mitglied){#section_ptb_ws1_ffb}
+## Zweiter Pfad: Der Kunde ist kein Mitglied des Treueprogramms{#section_ptb_ws1_ffb}
 
 1. Fügen Sie im zweiten Pfad, der auf die erste Bedingung folgt (Kunde ist kein Mitglied des Treueprogramms), eine **[!UICONTROL E-Mail]**-Aktivität hinzu und wählen Sie die Vorlage „Mitgliedschaft im Treueprogramm“.
 
