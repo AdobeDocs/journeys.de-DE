@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: f6897011-0a5e-4094-a18e-ba2aa25f902c
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1039'
 ht-degree: 100%
 
@@ -91,9 +91,9 @@ In der Tabelle unten finden Sie eine Liste der Metriken, die in Journey-Berichte
 | **Blockierungslistenrate** | Gesamtzahl der Nachrichten auf der Blockierungsliste in Bezug auf die gesendeten Nachrichten. |
 | **Bounces + Fehler** | Gesamtzahl der kumulierten Fehler bei Versand und automatischer Bounce-Verarbeitung in Relation zur Gesamtzahl der gesendeten Nachrichten. |
 | **Bounce + Fehlerrate** | Gesamtzahl der Nachrichten, bei denen es zu einem Bounce gekommen ist, in Bezug auf die gesendeten Nachrichten. |
-| **Klicken Sie auf** | Zahl der Klicks auf einen Inhalt in einem Versand. |
+| **Klick** | Zahl der Klicks auf einen Inhalt in einem Versand. |
 | **Durchklickrate** | Gesamtzahl der Klicks in einem Versand in Bezug auf die Zahl der gesendeten Nachrichten. |
-| **zugestellt** | Zahl der erfolgreich gesendeten Nachrichten in Bezug auf die Gesamtzahl der gesendeten Nachrichten. |
+| **Zugestellt** | Zahl der erfolgreich gesendeten Nachrichten in Bezug auf die Gesamtzahl der gesendeten Nachrichten. |
 | **Zustellrate** | Gesamtzahl der erfolgreich zugestellten Nachrichten in Bezug auf die gesendeten Nachrichten. |
 | **Fehler** | Gesamtzahl der Fehler, die während einer Journey aufgetreten sind, jedoch nicht verhindert haben, dass die Journey erfolgreich war. |
 | **Hardbounce** | Gesamtzahl der permanenten Fehler, beispielsweise eine falsche E-Mail-Adresse. |
