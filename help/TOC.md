@@ -6,7 +6,7 @@ user-guide-description: Enthält Anleitungen zum Implementieren und Erstellen vo
 index: true
 feature: Journeys
 source-git-commit: a472bb9ffe45159c8318f00a43c25fc41cb6d683
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 100%
 
@@ -70,7 +70,7 @@ ht-degree: 100%
       + Ereignisaktivitäten {#events-activities}
          + [Informationen zu Ereignisaktivitäten](using/building-journeys/event-activities.md)
          + [Allgemeine Ereignisse](using/building-journeys/general-events.md)
-         + [Reaktion  Ereignisse](using/building-journeys/reaction-events.md)
+         + [Reaktionsereignisse](using/building-journeys/reaction-events.md)
          + [Segmentqualifizierungsereignisse](using/building-journeys/segment-qualification-events.md)
       + Orchestrierungsaktivitäten {#orchestration-activities}
          + [Informationen zu Orchestrierungsaktivitäten](using/building-journeys/about-orchestration-activities.md)
