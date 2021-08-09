@@ -1,13 +1,13 @@
 ---
 product: adobe campaign
-title: Documentation Updates
+title: 'Aktualisierungen der Dokumentation: '
 description: Erfahren Sie mehr über die Aktualisierungen der Dokumentation
 feature: Journeys
 role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 100%
 
