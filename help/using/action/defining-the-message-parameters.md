@@ -1,29 +1,29 @@
 ---
 product: adobe campaign
-title: Definieren der Nachrichtenparameter
-description: Erfahren Sie, wie Sie die Nachrichtenparameter definieren
+title: Aktionsparameter definieren
+description: Erfahren Sie, wie Sie die Aktionsparameter definieren
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
-source-git-commit: eb765d2f12ade397e124281f52213bb3e58263cb
+source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 100%
+source-wordcount: '227'
+ht-degree: 93%
 
 ---
 
-# Definieren der Nachrichtenparameter {#concept_wy4_bf1_2gb}
+# Aktionsparameter definieren {#concept_wy4_bf1_2gb}
 
 ![](../assets/messageparameterssection.png)
 
-Fügen Sie im Abschnitt **[!UICONTROL Nachrichtenparameter]** ein Beispiel der JSON-Payload ein, die an den externen Service gesendet werden soll.
+Fügen Sie im Abschnitt **[!UICONTROL Aktionsparameter]** ein Beispiel der JSON-Payload ein, die an den externen Service gesendet werden soll.
 
 ![](../assets/customactionpayloadmessage.png)
 
 >[!NOTE]
 >
->Feldnamen in der Payload dürfen das Zeichen „.“ nicht enthalten. Sie können nicht mit einem „$“-Zeichen beginnen.
+>Feldnamen in der Payload dürfen das Zeichen „.“ nicht enthalten. Sie können nicht mit dem Zeichen „$“ beginnen.
 
 Sie können den Parametertyp definieren (z. B.: Zeichenfolge, Ganzzahl usw.).
 
