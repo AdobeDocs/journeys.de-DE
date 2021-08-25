@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 6300a606d49a65a5527f9ba29a7efdfe782c7334
+source-git-commit: e71d641888caa9385d078d9c85e073b5f1ed743f
 workflow-type: tm+mt
-source-wordcount: '2707'
-ht-degree: 100%
+source-wordcount: '2762'
+ht-degree: 98%
 
 ---
 
@@ -18,12 +18,21 @@ ht-degree: 100%
 Auf dieser Seite werden alle neuen Funktionen und Verbesserungen bei Journey Orchestration aufgelistet.
 Sie können auch die neusten [Aktualisierungen der Dokumentation](../release-notes/documentation-updates.md) einsehen.
 
+## Version August 2021 {#august-2021-release}
+
+### Verbesserungen
+
+**Journeys**
+
+* **Dynamische Header**  - Sie können jetzt dynamische Daten in HTTP-Header-Parametern übergeben. Diese Parameter können von den Integrationssystemen verwendet werden, die die HTTP-Aufrufe der Journey-Aktion empfangen, z. B. Zeitstempel oder Tracking-ID. [Mehr dazu](../action/url-configuration.md)
+* **Dynamische URL-Pfade**  - Sie können jetzt dynamische URL-Pfade für benutzerdefinierte Aktionen einrichten. [Mehr dazu](../action/url-configuration.md)
+
 ## Version Juli 2021 {#july-2021-release}
 
 <table>
 <thead>
 <tr>
-<th><strong>Verwenden von Schemabeziehungen</strong><br/></th>
+<th><strong>Nutzen von Schemabeziehungen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
