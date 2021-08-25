@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 100%
+source-wordcount: '1043'
+ht-degree: 68%
 
 ---
 
@@ -87,58 +87,135 @@ Wenn ein benutzerfreundlicher Name verfügbar ist, wird das Feld als `<friendly-
 >
 >Benutzerfreundliche Namen werden nicht abgerufen, wenn Sie Felder aus einer Vereinigungsmenge von Schemas auswählen.
 
-## Verwenden der verschiedenen Tastaturbefehle{#section_ksq_zr1_ffb}
+## Barrierefreiheit{#accessibility}
 
-Hier finden Sie die verschiedenen Tastaturbefehle, die in der Benutzeroberfläche von [!DNL Journey Orchestration] verfügbar sind.
+Die Funktionen für Barrierefreiheit in Adobe Journey Optimizer werden von Adobe Experience Platform bereitgestellt:
 
-_In der Liste der Journeys, Aktionen, Datenquellen oder Ereignisse:_
+* Tastaturzugriff
+* Farbkontrast
+* Validierung erforderlicher Felder
 
-* Drücken Sie **c**, um eine neue Journey, Aktion, Datenquelle oder ein neues Ereignis zu erstellen.
+[Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target=&quot;_blank&quot;} finden Sie in der Adobe Experience Platform-Dokumentation.
 
-_Beim Konfigurieren einer Aktivität in einer Journey:_
+Sie können die folgenden gängigen Tastaturbefehle in Adobe Journey Optimizer verwenden:
 
-Die Arbeitsfläche wird automatisch gespeichert. Oben links in der Arbeitsfläche sehen Sie den Speicherstatus.
+| Aktion | Tastaturbefehl |
+| --- | --- |
+| Zwischen Elementen, Abschnitten und Menügruppen der Benutzeroberfläche wechseln | Tab |
+| Zwischen Elementen, Abschnitten und Menügruppen der Benutzeroberfläche rückwärts wechseln | Umsch+Tab |
+| Verschieben innerhalb von Abschnitten zum Festlegen des Fokus auf einzelne Elemente | Pfeil |
+| Element im Fokus auswählen oder löschen | Eingabe oder Leertaste |
+| Abbrechen einer Auswahl, Reduzieren eines Bedienfelds oder Schließen eines Dialogfelds | Esc |
 
-* Drücken Sie **Esc**, um den Konfigurationsbereich zu schließen und die vorgenommenen Änderungen zu verwerfen. Dies entspricht der Schaltfläche **[!UICONTROL Abbrechen]**.
-* Drücken Sie die **Eingabetaste** oder klicken Sie außerhalb des Bereichs, um den Konfigurationsbereich zu schließen. Änderungen werden gespeichert. Dies entspricht der Schaltfläche **[!UICONTROL OK]**.
-* Wenn Sie die Taste **Löschen** oder die **Rücktaste** drücken, können Sie den Löschvorgang durch anschließendes Drücken der **Eingabetaste** bestätigen.
+[Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target=&quot;_blank&quot;} finden Sie in der Adobe Experience Platform-Dokumentation.
 
-_In Popups:_
+Sie können diese Tastaturbefehle in bestimmten Teilen von Journey Optimizer verwenden:
 
-* Drücken Sie **Esc**, um sie zu schließen (entspricht der Schaltfläche **[!UICONTROL Abbrechen]**).
-* Drücken Sie zum Speichern oder Bestätigen die **Eingabetaste** (entspricht der Schaltfläche **[!UICONTROL OK]** oder **[!UICONTROL Speichern]**).
+<table>
+  <thead>
+    <tr>
+      <th>Schnittstellenelement</th>
+      <th>Aktion</th>
+      <th>Tastaturbefehl</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>Liste der Journey, Aktionen, Datenquellen oder Ereignisse</td>
+    <td>Journey, Aktion, Datenquelle oder Ereignis erstellen</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Journey-Arbeitsfläche im Entwurfsstatus</td>
+    <td>Aktivität von oben nach unten in der linken Palette an der ersten verfügbaren Position hinzufügen</td>
+    <td>Doppelklicken Sie auf die Aktivität</td>
+  </tr>
+  <tr>
+    <td>Alle Aktivitäten auswählen</td>
+    <td>Strg + A (Windows)<br/>Befehl + A (Mac)</td>
+  </tr>
+  <tr>
+    <td>Ausgewählte Aktivitäten löschen</td>
+    <td>Löschen oder Rücktaste und anschließende Eingabe zur Bestätigung des Löschvorgangs</td>
+  </tr>
+  <tr>
+  <td rowspan="3">
 
-_Im Ereignis-, Datenquellen- oder Aktionskonfigurationsbereich:_
+Konfigurationsbereich dieser Elemente:
 
-* Drücken Sie **Esc**, um den Konfigurationsbereich ohne Speichern zu schließen.
-* Drücken Sie die **Eingabetaste**, wenn Sie Änderungen speichern und den Konfigurationsbereich schließen möchten.
-* Drücken Sie die **Tabulatortaste**, um zwischen den verschiedenen zu konfigurierenden Feldern zu wechseln.
+<ul>
+  <li>Aktivität in einer Journey</li>
+  <li>Ereignis</li>
+  <li>Datenquelle</li>
+  <li>Aktion</li>
+</ul>
 
-_Im einfachen Ausdruckseditor:_
+</td>
+    <td>Zum nächsten zu konfigurierenden Feld wechseln</td>
+    <td>Registerkarte</td>
+  </tr>
+  <tr>
+    <td>Speichern Sie die Änderungen und schließen Sie den Konfigurationsbereich</td>
+    <td>Geben Sie  ein</td>
+  </tr>
+  <tr>
+    <td>Verwerfen Sie Änderungen und schließen Sie den Konfigurationsbereich</td>
+    <td>Esc</td>
+  </tr>
+  <tr>
+    <td rowspan="4">Journey im Testmodus</td>
+    <td>Testmodus aktivieren oder deaktivieren</td>
+    <td>T</td>
+  </tr>
+  <tr>
+    <td>Trigger eines Ereignisses in einer ereignisbasierten Journey</td>
+    <td>E</td>
+  </tr>
+  <tr>
+    <td>
 
-* Doppelklicken Sie links auf ein Feld, um eine Abfrage hinzuzufügen (entspricht Drag-and-Drop).
+Trigger eines Ereignisses in einer segmentbasierten Journey, für das die Option **[!UICONTROL Einzelprofil gleichzeitig]** aktiviert ist
 
-_Beim Durchsuchen von XDM-Feldern:_
-
-* Bei Aktivierung eines „Knotens“ werden alle Felder des Knotens ausgewählt.
-
-_In allen Textbereichen:_
-
-* Verwenden Sie die Tastenkombination **Strg-Taste/Befehlstaste+A**, um den Text auszuwählen. In der Payload-Vorschau wird die Payload ausgewählt.
-
-_In einem Bildschirm mit einer Suchleiste:_
-
-* Verwenden Sie die Tastenkombination **Strg-Taste/Befehlstaste+F**, um die Suchleiste auszuwählen.
-
-_In der Arbeitsfläche einer Journey:_
-
-* Verwenden Sie die Tastenkombination **Strg-Taste/Befehlstaste+A**, um alle Aktivitäten auszuwählen.
-* Wenn eine oder mehrere Aktivitäten ausgewählt sind, drücken Sie die Taste **Entf** oder die **Rücktaste**, um diese Aktivitäten zu löschen. Dann können Sie die **Eingabetaste** drücken, um den Vorgang im Bestätigungs-Popup zu bestätigen.
-* Doppelklicken Sie auf eine Aktivität in der linken Palette, um sie an der ersten verfügbaren Position (von oben nach unten) hinzuzufügen.
-
-_In einer Journey:_
-
-* Drücken Sie **T**, um den Testmodus zu aktivieren/deaktivieren.
-* Drücken Sie in einer ereignisbasierten Journey im Testmodus auf **E**, um ein Ereignis auszulösen.
-* Wenn in einer segmentbasierten Journey die Option **Jeweils ein Einzelprofil** im Testmodus ausgewählt ist, drücken Sie auf **P**, um ein Ereignis auszulösen.
-* Drücken Sie im Testmodus auf **L**, um die Protokolle anzuzeigen.
+</td>
+    <td>P</td>
+  </tr>
+  <tr>
+    <td>Testprotokolle anzeigen</td>
+    <td>L</td>
+  </tr>
+<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
+  <tr>
+    <td>Page with a search bar</td>
+    <td>Select the search bar</td>
+    <td>Ctrl/Command + F</td>
+  </tr>
+-->
+  <tr>
+    <td>Textfeld</td>
+    <td>Gesamten Text im ausgewählten Feld auswählen</td>
+    <td>Strg + A (Windows)<br/>Befehl + A (Mac)</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Popup-Fenster</td>
+    <td>Änderungen speichern oder die Aktion bestätigen</td>
+    <td>Geben Sie  ein</td>
+  </tr>
+  <tr>
+    <td>Fenster schließen</td>
+    <td>Esc</td>
+  </tr>
+  <tr>
+    <td>Einfacher Ausdruckseditor</td>
+    <td>Feld auswählen und hinzufügen</td>
+    <td>Doppelklicken Sie auf ein Feld</td>
+  </tr>
+  <tr>
+    <td>Durchsuchen von XDM-Feldern</td>
+    <td>Auswählen aller Felder eines Knotens</td>
+    <td>Auswählen des übergeordneten Knotens</td>
+  </tr>
+  <tr>
+    <td>Payload-Vorschau</td>
+    <td>Auswählen der Payload</td>
+    <td>Strg + A (Windows)<br/>Befehl + A (Mac)</td>
+  </tr>
+</table>
