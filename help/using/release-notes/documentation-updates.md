@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
-title: 'Aktualisierungen der Dokumentation: '
+title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die Aktualisierungen der Dokumentation
 feature: Journeys
 role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: e5c0db2e1f85ea72fd54f91e4a26cc287377fb0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '847'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Lesen Sie auch die [Versionshinweise](../release-notes/release-notes.md) von [!D
 
 ## August 2021
 
-* Das Konfigurationsverfahren für benutzerdefinierte Aktionen mit dynamischen URL-Pfaden und dynamischen Kopfzeilen wurde aktualisiert. [Mehr dazu](../action/url-configuration.md)
+* Das Konfigurationsverfahren für benutzerdefinierte Aktionen mit dynamischen URL-Pfaden und dynamischen Headern wurde aktualisiert. [Mehr dazu](../action/url-configuration.md)
 * Es wurde ein Abschnitt über Funktionen zur Barrierefreiheit hinzugefügt. [Mehr dazu](../about/user-interface.md#accessibility)
-* Es wurde ein Abschnitt über Methoden zur Segmentauswertung hinzugefügt. [Mehr dazu](../segment/about-segments.md#evaluation-method-in-journey-orchestration)
+* Es wurde ein Abschnitt über Methoden zur Segmentprüfung hinzugefügt. [Mehr dazu](../segment/about-segments.md#evaluation-method-in-journey-orchestration)
 
 ## März 2021 {#march-2021}
 
