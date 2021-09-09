@@ -6,9 +6,9 @@ user-guide-description: Enthält Anleitungen zum Implementieren und Erstellen vo
 index: true
 feature: Journeys
 source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '421'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 99%
    + Verwenden eines Drittanbietersystems {#action-third-party}
       + [Informationen zur Konfiguration einer benutzerdefinierten Aktion](using/action/about-custom-action-configuration.md)
       + [URL-Konfiguration](using/action/url-configuration.md)
-      + [Aktionsparameter definieren](using/action/defining-the-message-parameters.md)
+      + [Definieren der Aktionsparameter](using/action/defining-the-message-parameters.md)
 + Verwenden von Segmenten {#configuring-segment}
    + [Über Segmente](using/segment/about-segments.md)
    + [Erstellen eines Segments](using/segment/creating-a-segment.md)
