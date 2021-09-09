@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
 source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1043'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -93,49 +93,49 @@ Die Funktionen für Barrierefreiheit in Adobe Journey Optimizer werden von Adobe
 
 * Tastaturzugriff
 * Farbkontrast
-* Validierung erforderlicher Felder
+* Validierung von Pflichtfeldern
 
-[Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target=&quot;_blank&quot;} finden Sie in der Adobe Experience Platform-Dokumentation.
+[Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=de){target=&quot;_blank&quot;} finden Sie in der Dokumentation zu Adobe Experience Platform.
 
 Sie können die folgenden gängigen Tastaturbefehle in Adobe Journey Optimizer verwenden:
 
 | Aktion | Tastaturbefehl |
 | --- | --- |
-| Zwischen Elementen, Abschnitten und Menügruppen der Benutzeroberfläche wechseln | Tab |
-| Zwischen Elementen, Abschnitten und Menügruppen der Benutzeroberfläche rückwärts wechseln | Umsch+Tab |
-| Verschieben innerhalb von Abschnitten zum Festlegen des Fokus auf einzelne Elemente | Pfeil |
-| Element im Fokus auswählen oder löschen | Eingabe oder Leertaste |
-| Abbrechen einer Auswahl, Reduzieren eines Bedienfelds oder Schließen eines Dialogfelds | Esc |
+| Wechseln zwischen Elementen, Abschnitten und Menügruppen der Benutzeroberfläche | Tabulatortaste |
+| Rückwärts zwischen Elementen, Abschnitten und Menügruppen der Benutzeroberfläche wechseln | Umschalttaste + Tabulatortaste |
+| Bewegen innerhalb von Abschnitten zum Setzen des Fokus auf einzelne Elemente | Pfeil |
+| Auswählen oder Löschen eines Element, das sich im Fokus befindet | Eingabetaste oder Leertaste |
+| Abbrechen einer Auswahl, Reduzieren eines Panels oder Schließen eines Dialogfelds | Esc |
 
-[Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target=&quot;_blank&quot;} finden Sie in der Adobe Experience Platform-Dokumentation.
+[Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=de){target=&quot;_blank&quot;} finden Sie in der Dokumentation zu Adobe Experience Platform.
 
 Sie können diese Tastaturbefehle in bestimmten Teilen von Journey Optimizer verwenden:
 
 <table>
   <thead>
     <tr>
-      <th>Schnittstellenelement</th>
+      <th>Element der Benutzeroberfläche</th>
       <th>Aktion</th>
       <th>Tastaturbefehl</th>
     </tr>
   </thead>
   <tr>
-    <td>Liste der Journey, Aktionen, Datenquellen oder Ereignisse</td>
-    <td>Journey, Aktion, Datenquelle oder Ereignis erstellen</td>
+    <td>Liste der Journeys, Aktionen, Datenquellen oder Ereignisse</td>
+    <td>Erstellen einer Journey, Aktion, Datenquelle oder eines Ereignisses</td>
     <td>C</td>
   </tr>
   <tr>
     <td rowspan="3">Journey-Arbeitsfläche im Entwurfsstatus</td>
-    <td>Aktivität von oben nach unten in der linken Palette an der ersten verfügbaren Position hinzufügen</td>
-    <td>Doppelklicken Sie auf die Aktivität</td>
+    <td>Hinzufügen einer Aktivität aus der linken Palette an der ersten verfügbaren Position von oben nach unten</td>
+    <td>Doppelklick auf die Aktivität</td>
   </tr>
   <tr>
-    <td>Alle Aktivitäten auswählen</td>
+    <td>Auswahl aller Aktivitäten</td>
     <td>Strg + A (Windows)<br/>Befehl + A (Mac)</td>
   </tr>
   <tr>
-    <td>Ausgewählte Aktivitäten löschen</td>
-    <td>Löschen oder Rücktaste und anschließende Eingabe zur Bestätigung des Löschvorgangs</td>
+    <td>Löschen von ausgewählten Aktivitäten</td>
+    <td>Löschen oder Rücktaste und anschließend Eingabetaste zur Bestätigung des Löschvorgangs</td>
   </tr>
   <tr>
   <td rowspan="3">
@@ -150,36 +150,36 @@ Konfigurationsbereich dieser Elemente:
 </ul>
 
 </td>
-    <td>Zum nächsten zu konfigurierenden Feld wechseln</td>
-    <td>Registerkarte</td>
+    <td>Wechseln zum nächsten zu konfigurierenden Feld</td>
+    <td>Tabulatortaste</td>
   </tr>
   <tr>
-    <td>Speichern Sie die Änderungen und schließen Sie den Konfigurationsbereich</td>
-    <td>Geben Sie  ein</td>
+    <td>Speichern der Änderungen und Schließen des Konfigurationsbereichs</td>
+    <td>Eingabetaste</td>
   </tr>
   <tr>
-    <td>Verwerfen Sie Änderungen und schließen Sie den Konfigurationsbereich</td>
+    <td>Verwerfen von Änderungen und Schließen des Konfigurationsbereichs</td>
     <td>Esc</td>
   </tr>
   <tr>
     <td rowspan="4">Journey im Testmodus</td>
-    <td>Testmodus aktivieren oder deaktivieren</td>
+    <td>Aktivieren oder Deaktivieren des Testmodus</td>
     <td>T</td>
   </tr>
   <tr>
-    <td>Trigger eines Ereignisses in einer ereignisbasierten Journey</td>
+    <td>Auslösen eines Ereignisses in einer ereignisbasierten Journey</td>
     <td>E</td>
   </tr>
   <tr>
     <td>
 
-Trigger eines Ereignisses in einer segmentbasierten Journey, für das die Option **[!UICONTROL Einzelprofil gleichzeitig]** aktiviert ist
+Auslösen eines Ereignisses in einer segmentbasierten Journey, für die die Option **[!UICONTROL Jeweils ein Einzelprofil]** aktiviert ist
 
 </td>
     <td>P</td>
   </tr>
   <tr>
-    <td>Testprotokolle anzeigen</td>
+    <td>Anzeigen der Testprotokolle</td>
     <td>L</td>
   </tr>
 <!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
@@ -191,31 +191,31 @@ Trigger eines Ereignisses in einer segmentbasierten Journey, für das die Option
 -->
   <tr>
     <td>Textfeld</td>
-    <td>Gesamten Text im ausgewählten Feld auswählen</td>
+    <td>Auswahl des gesamten Texts im ausgewählten Feld</td>
     <td>Strg + A (Windows)<br/>Befehl + A (Mac)</td>
   </tr>
   <tr>
     <td rowspan="2">Popup-Fenster</td>
     <td>Änderungen speichern oder die Aktion bestätigen</td>
-    <td>Geben Sie  ein</td>
+    <td>Eingabetaste</td>
   </tr>
   <tr>
-    <td>Fenster schließen</td>
+    <td>Schließen des Fensters</td>
     <td>Esc</td>
   </tr>
   <tr>
     <td>Einfacher Ausdruckseditor</td>
-    <td>Feld auswählen und hinzufügen</td>
-    <td>Doppelklicken Sie auf ein Feld</td>
+    <td>Auswählen und Hinzufügen eines Feldes</td>
+    <td>Doppelklick auf ein Feld</td>
   </tr>
   <tr>
     <td>Durchsuchen von XDM-Feldern</td>
-    <td>Auswählen aller Felder eines Knotens</td>
-    <td>Auswählen des übergeordneten Knotens</td>
+    <td>Auswahl aller Felder eines Knotens</td>
+    <td>Auswahl des übergeordneten Knotens</td>
   </tr>
   <tr>
     <td>Payload-Vorschau</td>
-    <td>Auswählen der Payload</td>
+    <td>Auswahl der Payload</td>
     <td>Strg + A (Windows)<br/>Befehl + A (Mac)</td>
   </tr>
 </table>
