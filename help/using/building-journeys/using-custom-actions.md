@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 9996d1eb-ddef-46dd-aaa9-c37fa9deb2f9
 source-git-commit: e71d641888caa9385d078d9c85e073b5f1ed743f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '303'
-ht-degree: 34%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Im Konfigurationsbereich für die Aktivität werden die URL-Konfigurationsparame
 
 >[!NOTE]
 >
->Eine einfache Sammlung kann nicht in benutzerdefinierten Aktionsparametern übergeben werden. Komplexere Sammlungsfelder (Arrays von Objekten) werden nicht unterstützt.  Beachten Sie außerdem, dass die Parameter ein erwartetes Format haben (Beispiel: Zeichenfolge, Dezimalzahl usw.). Sie müssen darauf achten, dass diese erwarteten Formate eingehalten werden.
+>Eine einfache Kollektion kann nicht in benutzerdefinierten Aktionsparametern übergeben werden. Komplexere Kollektionsfelder (Arrays von Objekten) werden nicht unterstützt.  Beachten Sie außerdem, dass die Parameter ein erwartetes Format haben (Beispiel: Zeichenfolge, Dezimalzahl usw.). Sie müssen darauf achten, dass diese erwarteten Formate eingehalten werden.
 
 ## URL-Konfiguration
 
@@ -29,7 +29,7 @@ Wenn die URL einen dynamischen Pfad enthält, geben Sie den Pfad im Feld **[!UIC
 
 >[!NOTE]
 >
->Sie können den statischen Teil der URL nicht im Journey, sondern in der globalen Konfiguration der benutzerdefinierten Aktion einrichten. [Weitere Informationen](../action/about-custom-action-configuration.md).
+>Sie können den statischen Teil der URL nicht in der Journey, sondern müssen ihn in der globalen Konfiguration der benutzerdefinierten Aktion einrichten. [Weitere Informationen](../action/about-custom-action-configuration.md).
 
 Verwenden Sie zum Verketten von Feldern und Nur-Text-Zeichenfolgen die Zeichenfolgen-Funktionen oder das Pluszeichen (+) im erweiterten Ausdruckseditor. Schließen Sie Nur-Text-Zeichenfolgen in einfachen Anführungszeichen (&#39;) oder in doppelten Anführungszeichen (&quot;) ein. [Weitere Informationen](../expression/expressionadvanced.md).
 
@@ -38,22 +38,22 @@ Die folgende Tabelle zeigt ein Beispiel für die Konfiguration:
 | Feld | Wert |
 | --- | --- |
 | URL | `https://xxx.yyy.com:8080/somethingstatic/` |
-| Path  | `The id of marketingCampaign + '/messages'` |
+| Pfad | `The id of marketingCampaign + '/messages'` |
 
-Die verkettete URL hat folgendes Formular:
+Die verkettete URL sieht folgendermaßen aus:
 
-`https://xxx.yyy.com:8080/somethingstatic/`\&lt;campaign ID=&quot;&quot;>`/messages`
+`https://xxx.yyy.com:8080/somethingstatic/`\&lt;campaign ID\>`/messages`
 
 ![](../assets/journey-custom-action-url.png)
 
 ### Header
 
-Im Abschnitt **[!UICONTROL URL Configuration]** werden die dynamischen Kopfzeilenfelder, jedoch nicht die konstanten Kopfzeilenfelder angezeigt. Dynamische Header-Felder sind HTTP-Header-Felder, deren Wert als Variable konfiguriert ist. [Weitere Informationen](../action/about-custom-action-configuration.md).
+Im Abschnitt **[!UICONTROL URL-Konfiguration]** werden die dynamischen Header-Felder, jedoch nicht die konstanten Header-Felder angezeigt. Dynamische Header-Felder sind HTTP-Header-Felder, deren Wert als Variable konfiguriert ist. [Weitere Informationen](../action/about-custom-action-configuration.md).
 
 Geben Sie bei Bedarf den Wert der dynamischen Header-Felder an:
 
-1. Wählen Sie die benutzerdefinierte Aktion im Journey aus.
-1. Klicken Sie im Konfigurationsbereich auf das Stiftsymbol neben dem Kopfzeilenfeld im Abschnitt **[!UICONTROL URL-Konfiguration]** .
+1. Wählen Sie in der Journey die benutzerdefinierte Aktion aus.
+1. Klicken Sie im Abschnitt **[!UICONTROL URL-Konfiguration]** im Konfigurationsbereich auf das Stiftsymbol neben dem Header-Feld.
 
    ![](../assets/journey-dynamicheaderfield.png)
 
