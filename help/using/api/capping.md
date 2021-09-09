@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
 source-git-commit: a32a208fcaef9a408c850c0ad74ab44e3eb44709
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1173'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Die APIs von [!DNL Journey Orchestration] unterstützen 5.000 Ereignisse/Sekunde
 
 Bei der Konfiguration von Datenquellen definieren Sie eine Verbindung zu einem System, um zusätzliche Informationen abzurufen, die in Ihren Journeys verwendet werden; für eine Aktionsdefinition konfigurieren Sie eine Verbindung zu einem Drittanbietersystem, um Nachrichten oder API-Aufrufe zu senden. Jedes Mal, wenn eine Journey einen API-Aufruf vornimmt, wird die Capping-API abgefragt, bevor der Aufruf über die API-Engine erfolgt. Wenn eine Begrenzung definiert wurde, wird der Aufruf abgelehnt, damit das externe System nicht überlastet wird.
 
-Bei externen Datenquellen wird die maximale Anzahl von Aufrufen pro Sekunde auf 15 festgelegt. Wenn die Anzahl der Aufrufe 15 pro Sekunde überschreitet, werden die verbleibenden Aufrufe verworfen. Sie können diese Beschränkung für private externe Datenquellen erhöhen. Kontaktieren Sie die Adobe, um den Endpunkt in die Zulassungsliste aufzunehmen. Dies ist für öffentliche externe Datenquellen nicht möglich. Weiterführende Informationen zu Best Practices und Einschränkungen bei der Integration externer Systeme finden Sie auf dieser [Seite](../about/external-systems.md).
+Bei externen Datenquellen wird die maximale Anzahl von Aufrufen pro Sekunde auf 15 festgelegt. Wenn die Anzahl der Aufrufe 15 pro Sekunde überschreitet, werden die verbleibenden Aufrufe verworfen. Sie können diese Beschränkung für private externe Datenquellen erhöhen. Wenden Sie sich an Adobe, um den Endpunkt in die Zulassungsliste aufzunehmen. Dies ist für öffentliche externe Datenquellen nicht möglich. Weiterführende Informationen zu Best Practices und Einschränkungen bei der Integration externer Systeme finden Sie auf dieser [Seite](../about/external-systems.md).
 
 Weitere Informationen zur Konfiguration von Aktionen oder Datenquellen finden Sie unter [Informationen zu Aktionen](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html?lang=de) oder [Informationen zu Datenquellen](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html?lang=de)
 
@@ -187,7 +187,7 @@ Anwendungsfall 1: **Erstellen und Bereitstellen einer neuen Begrenzungskonfigura
 
 Anwendungsfall 2: **Aktualisieren und Bereitstellen einer noch nicht bereitgestellten Begrenzungskonfiguration**
 
-1. Liste
+1. list
 1. get
 1. update
 1. candeploy
@@ -195,19 +195,19 @@ Anwendungsfall 2: **Aktualisieren und Bereitstellen einer noch nicht bereitgeste
 
 Anwendungsfall 3: **Aufheben einer Bereitstellung und Löschen einer bereitgestellten Begrenzungskonfiguration**
 
-1. Liste
+1. list
 1. undeploy
 1. delete
 
 Anwendungsfall 4: **Löschen einer bereitgestellten Begrenzungskonfiguration.**
 
 In nur einem API-Aufruf können Sie die Bereitstellung aufheben und die Konfiguration mithilfe des forceDelete-Parameters löschen.
-1. Liste
+1. list
 1. delete mit forceDelete-Parameter
 
 Anwendungsfall 5: **Aktualisieren einer bereits bereitgestellten Begrenzungskonfiguration**
 
-1. Liste
+1. list
 1. get
 1. update
 1. undeploy
