@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: e71d641888caa9385d078d9c85e073b5f1ed743f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2762'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,8 +24,8 @@ Sie können auch die neusten [Aktualisierungen der Dokumentation](../release-not
 
 **Journeys**
 
-* **Dynamische Header**  - Sie können jetzt dynamische Daten in HTTP-Header-Parametern übergeben. Diese Parameter können von den Integrationssystemen verwendet werden, die die HTTP-Aufrufe der Journey-Aktion empfangen, z. B. Zeitstempel oder Tracking-ID. [Mehr dazu](../action/url-configuration.md)
-* **Dynamische URL-Pfade**  - Sie können jetzt dynamische URL-Pfade für benutzerdefinierte Aktionen einrichten. [Mehr dazu](../action/url-configuration.md)
+* **Dynamische Header** – Sie können jetzt dynamische Daten in HTTP-Header-Parametern übergeben. Diese Parameter können von den Integrationssystemen verwendet werden, die die HTTP-Aufrufe der Journey-Aktion empfangen, z. B. Zeitstempel oder Tracking-ID. [Mehr dazu](../action/url-configuration.md)
+* **Dynamische URL-Pfade** – Sie können jetzt dynamische URL-Pfade für benutzerdefinierte Aktionen einrichten. [Mehr dazu](../action/url-configuration.md)
 
 ## Version Juli 2021 {#july-2021-release}
 
@@ -173,7 +173,7 @@ Die Funktionen [getListItem](../functions/functiongetlistitem.md) und [split](..
 <table>
 <thead>
 <tr>
-<th><strong>Regelbasierte Ereignisse          (Beta)</strong><br/></th>
+<th><strong>Regelbasierte Ereignisse           (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
