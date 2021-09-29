@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 7f756ec5-d787-4024-aaf8-5b4f1d4ddece
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: e56e6f5dcb8a4680851858355ac18a70bd832b73
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 100%
+source-wordcount: '197'
+ht-degree: 76%
 
 ---
 
@@ -25,9 +25,17 @@ Der Segmentname muss eine Zeichenfolgenkonstante sein. Er darf weder ein Feldver
 
 Segmente werden in [Adobe Experience Platform](https://platform.adobe.com/segment/overview) definiert. Der Ausdruckseditor bietet eine automatisch ausgefüllte Segmentliste.
 
->[!NOTE]
->
->Nur Personen mit den Segmentteilnahmestatus **Realisiert** und **Vorhanden** werden als Mitglieder des Segments betrachtet. Weitere Informationen zum Auswerten eines Segments finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=de#interpret-segment-results).
+Segmente können drei Status aufweisen:
+
+* vorhanden: -Entität befindet sich weiterhin im Segment.
+* realisiert: -Entität in das Segment ein.
+* beendet: -Entität das Segment verlässt.
+
+Nur Personen mit den Segmentteilnahmestatus **Realisiert** und **Vorhanden** werden als Mitglieder des Segments betrachtet. Weitere Informationen zum Auswerten eines Segments finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=de#interpret-segment-results).
+
+`IF inSegment('segmentName') == true` bedeutet, dass Sie über eine segmentMembership mit dem eingegebenen/vorhandenen Status verfügen.
+
+`ELSE inSegment('segmentName') == false` bedeutet, dass Sie über eine segmentMembership des Status &quot;Exited&quot;verfügen.
 
 ## Kategorie
 

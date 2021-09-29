@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
-source-git-commit: 5ea6578ec15b8e1116f58f7644cbf45c523d1840
+source-git-commit: 7805ee4beb056ba84bc994162da2b0e54db60ca3
 workflow-type: tm+mt
-source-wordcount: '1303'
-ht-degree: 100%
+source-wordcount: '1357'
+ht-degree: 95%
 
 ---
 
@@ -117,7 +117,7 @@ Die Definition des Endpunkts, der aufgerufen werden soll, um das Zugriffstoken z
 * endpoint: URL zum Generieren des Endpunkts
 * Methode der HTTP-Anfrage am Endpunkt (GET oder POST)
 * headers: Schlüssel/Wert-Paare, die bei Bedarf als Kopfzeilen in diesen Aufruf eingefügt werden sollen
-* body: beschreibt den Hauptteil des Aufrufs, wenn die Methode POST ist. Für den Hauptteil unterstützen wir eine begrenzte Struktur, die in bodyParams definiert ist (Schlüssel/Wert-Paare). Der bodyType beschreibt Format und Kodierung des Hauptteils (body) im Aufruf:
+* body: beschreibt den Haupttextteil des Aufrufs, wenn die Methode POST ist. Für den Hauptteil unterstützen wir eine begrenzte Struktur, die in bodyParams definiert ist (Schlüssel/Wert-Paare). Der bodyType beschreibt Format und Codierung des Haupttextteils (body) im Aufruf:
    * &#39;form&#39;: bedeutet, dass der Inhaltstyp application/x-www-form-urlencoded (Zeichensatz UTF-8) lautet und die Schlüssel/Wert-Paare wie folgt serialisiert werden: Schlüssel1=Wert1&amp;Schlüssel2=Wert2&amp; ...
    * &#39;json&#39;: bedeutet, dass der Inhaltstyp application/json (Zeichensatz UTF-8) ist und die Schlüssel/Wert-Paare wie folgt als JSON-Objekt serialisiert werden: _{ &quot;Schlüssel1&quot;: &quot;Wert1&quot;, &quot;Schlüssel2&quot;: &quot;Wert2&quot;, ...}_
 
@@ -183,3 +183,7 @@ Sie können die Aufbewahrungsfrist des Tokens im Cache für eine benutzerdefinie
              { "duration":5, "timeUnit":"seconds" }
     }
 ```
+
+>[!NOTE]
+>
+>Die Aufbewahrungsfrist im Cache hilft, zu viele Aufrufe an die Authentifizierungsendpunkte zu vermeiden. Die Aufbewahrung des Authentifizierungstokens wird in Diensten zwischengespeichert. Es gibt keine Persistenz. Wenn ein Dienst neu gestartet wird, beginnt er mit einem leeren Cache. Die Aufbewahrungsfrist im Cache beträgt standardmäßig 1 Stunde. In der Payload der benutzerdefinierten Aktion kann sie angepasst werden, indem eine andere Aufbewahrungsdauer angegeben wird.

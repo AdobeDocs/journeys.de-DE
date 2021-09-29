@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 0b4d925410e1ab4895f27455eb082dd9cc305cff
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 100%
+source-wordcount: '636'
+ht-degree: 90%
 
 ---
 
@@ -119,15 +119,47 @@ false
 true
 ```
 
+## dateOnly {#date-only}
+
+**Beschreibung**
+
+Stellt ein Datum nur ohne Zeitzone dar, das als Jahr-Monat-Tag betrachtet wird.
+
+Es handelt sich um eine Beschreibung des Datums, das zum Geburtstag verwendet wird.
+
+JSON-Format: Zeichenfolge.
+
+Format: JJJJ-MM-TT (ISO-8601), z. B.: &quot;2021-03-11&quot;.
+
+Sie kann in einer toDateOnly -Funktion gekapselt werden.
+
+Es wird das DateTimeFormatter ISO_LOCAL_DATE_TIME zur Deserialisierung und Serialisierung des Wertes verwendet. [Weitere Informationen](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)
+
+**Wörtliche Darstellung**
+
+```
+date("<dateOnly in ISO-8601 format>")  
+```
+
+**Beispiel**
+
+```
+date("2021-02-19")
+```
+
 ## dateTimeOnly {#date-time-only}
 
 **Beschreibung**
 
 Stellt Datum und Uhrzeit ohne Zeitzone dar, die als Jahr-Monat-Tag-Stunde-Minute-Sekunde-Millisekunde interpretiert wird.
 
+JSON-Format: Zeichenfolge.
+
 Es wird keine Zeitzone gespeichert oder dargestellt. Stattdessen handelt es sich um eine Beschreibung des Datums, wie es für Geburtstage verwendet wird, kombiniert mit der Ortszeit, wie sie auf einer Wanduhr angezeigt wird.
 
 Ohne zusätzliche Informationen wie Versatz oder Zeitzone kann kein Zeitpunkt auf der Zeitachse dargestellt werden.
+
+Sie kann in einer toDateTimeOnly -Funktion gekapselt werden.
 
 Serialisierungsformat: ISO-8601, erweitertes Versatz-Datums-/Uhrzeitformat.
 
@@ -136,7 +168,14 @@ Es wird das DateTimeFormatter ISO_LOCAL_DATE_TIME zur Deserialisierung und Seria
 **Wörtliche Darstellung**
 
 ```
-toDateTimeOnly("<dateTimeOnly in ISO-8601 format>")  
+date("<dateTimeOnly in ISO-8601 format>")  
+```
+
+**Beispiele**
+
+```
+date("2021-02-19T00.00.000")
+date("2021-02-19T00.00")
 ```
 
 ## dateTime {#date-time}
@@ -149,7 +188,7 @@ Mit den zusätzlichen Informationen zum Versatz kann ein bestimmter Zeitpunkt da
 
 JSON-Format: Zeichenfolge.
 
-Muss in einer toDateTime-Funktion gekapselt sein.
+Sie kann in einer toDateTime -Funktion eingekapselt werden.
 
 Serialisierungsformat: ISO-8601, erweitertes Versatz-Datums-/Uhrzeitformat.
 
@@ -166,10 +205,18 @@ toDateTime("<dateTime in ISO-8601 format>")
 ```
 
 ```
+date("<dateTime in ISO-8601 format>")
+```
+
+```
 toDateTime(<integer value of an epoch in milliseconds>)
 ```
 
-**Beispiel**
+**Beispiele**
+
+```
+date("2021-02-19T00.00.000Z")
+```
 
 ```
 toDateTime("1977-04-22T06:00:00Z")

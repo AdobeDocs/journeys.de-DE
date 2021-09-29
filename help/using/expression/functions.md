@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 0b4d925410e1ab4895f27455eb082dd9cc305cff
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 100%
+source-wordcount: '175'
+ht-degree: 98%
 
 ---
 
@@ -38,6 +38,7 @@ Im Folgenden finden Sie eine Liste der unterstützten Funktionen.
 | Aggregation | [min](../functions/functionmin.md) |
 | Aggregation | [sum](../functions/functionsum.md) |
 | Konversion | [toBool](../functions/functiontobool.md) |
+| Konversion | [toDateOnly](../functions/functiontodateonly.md) |
 | Konversion | [toDateTime](../functions/functiontodatetime.md) |
 | Konversion | [toDateTimeOnly](../functions/functiontodatetimeonly.md) |
 | Konversion | [toDecimal](../functions/functiontodecimal.md) |
@@ -58,8 +59,11 @@ Im Folgenden finden Sie eine Liste der unterstützten Funktionen.
 | Datum | [setHours](../functions/functionsethours.md) |
 | Datum | [setDays](../functions/functionsetdays.md) |
 | Liste | [distinct](../functions/functiondistinct.md) |
-| Liste | [distinctCount](../functions/functiondistinctcount.md) |
+| Liste | [distinctWithNull](../functions/functiondistinctwithnull.md) |
+| Liste | [filter](../functions/functionfilter.md) |
+| Liste | [getListItem](../functions/functiongetlistitem.md) |
 | Liste | [in](../functions/functionin.md) |
+| Liste | [Schnittmenge](../functions/functionintersect.md) |
 | Liste | [listSize](../functions/functionlistsize.md) |
 | Liste | [serializeList](../functions/functionserializelist.md) |
 | Liste | [sort](../functions/functionsort.md) |

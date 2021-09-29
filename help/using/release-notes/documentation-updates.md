@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: e5c0db2e1f85ea72fd54f91e4a26cc287377fb0e
-workflow-type: ht
-source-wordcount: '847'
-ht-degree: 100%
+source-git-commit: ed09f77617ae193ef7a217222f831f17ffc6b07c
+workflow-type: tm+mt
+source-wordcount: '913'
+ht-degree: 93%
 
 ---
 
@@ -17,6 +17,20 @@ ht-degree: 100%
 
 Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journey Orchestration] aufgelistet.
 Lesen Sie auch die [Versionshinweise](../release-notes/release-notes.md) von [!DNL Journey Orchestration].
+
+## September 2021
+
+* Die folgenden Funktionsseiten wurden aktualisiert: [sethours](../functions/functionsethours.md), [getListItem](../functions/functiongetlistitem.md), [inSegment](../functions/functioninsegment.md)
+
+* Die folgenden Funktionen wurden hinzugefügt: [filter](../functions/functionfilter.md), [intersect](../functions/functionintersect.md), [toDateOnly](../functions/functiontodateonly.md)
+
+* Der Datentyp dateOnly wurde in der Dokumentation zum Ausdruckseditor hinzugefügt. [Mehr dazu](../expression/data-types.md)
+
+* Es wurden Details zur Aufbewahrungsfrist im Cache für benutzerdefinierte Aktionen hinzugefügt. [Mehr dazu](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
+
+* Es wurden Informationen zu benutzerdefinierten standardmäßigen Anschlüssen für Aktionen hinzugefügt. [Mehr dazu](../action/url-configuration.md)
+
+* Häufig verwendete Beispiele zur Abfrage von Journey Step Events im Data Lake hinzugefügt. [Mehr dazu](../building-journeys/query-examples.md)
 
 ## August 2021
 

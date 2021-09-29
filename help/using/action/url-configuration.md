@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: e7cba6c4-a231-44f9-927a-10115e7ab1dd
-source-git-commit: e71d641888caa9385d078d9c85e073b5f1ed743f
-workflow-type: ht
-source-wordcount: '330'
-ht-degree: 100%
+source-git-commit: 2a93bce42ea9f1f21d70c68da3dbc36844dafd1b
+workflow-type: tm+mt
+source-wordcount: '346'
+ht-degree: 95%
 
 ---
 
@@ -25,12 +25,14 @@ Beim Konfigurieren einer benutzerdefinierten Aktion müssen Sie die folgenden **
 
    * Wenn die URL einen dynamischen Pfad enthält, geben Sie nur den statischen Teil der URL ein, d. h. das Schema, den Host, den Port und optional einen statischen Teil des Pfads.
 
-      Beispiel: `https://xxx.yyy.com:8080/somethingstatic/`
+      Beispiel: `https://xxx.yyy.com/somethingstatic/`
 
       Sie geben den dynamischen Pfad der URL später an, wenn Sie die benutzerdefinierte Aktion zu einer Journey hinzufügen. [Weitere Informationen](../building-journeys/using-custom-actions.md).
    >[!NOTE]
    >
    >Aus Sicherheitsgründen empfehlen wir dringend, das HTTPS-Schema für die URL zu verwenden. Die Verwendung nicht öffentlicher Adobe-Adressen und die Verwendung von IP-Adressen sind nicht zulässig.
+   >
+   >Beim Definieren einer benutzerdefinierten Aktion sind nur die Standardanschlüsse zulässig: 80 für http und 443 für https.
 
 1. Wählen Sie die **[!UICONTROL Aufrufmethode]** aus: Sie kann entweder **[!UICONTROL POST]** oder **[!UICONTROL PUT]** sein.
 1. Definieren Sie im Abschnitt **[!UICONTROL Header]** die HTTP-Header der Anfragenachricht, die an den externen Service gesendet werden soll:

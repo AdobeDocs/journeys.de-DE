@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: e71d641888caa9385d078d9c85e073b5f1ed743f
-workflow-type: ht
-source-wordcount: '2762'
-ht-degree: 100%
+source-git-commit: a60640f91e80becd2769d647b762ca2225f9e9b2
+workflow-type: tm+mt
+source-wordcount: '2971'
+ht-degree: 93%
 
 ---
 
@@ -17,6 +17,33 @@ ht-degree: 100%
 
 Auf dieser Seite werden alle neuen Funktionen und Verbesserungen bei Journey Orchestration aufgelistet.
 Sie können auch die neusten [Aktualisierungen der Dokumentation](../release-notes/documentation-updates.md) einsehen.
+
+## Version September 2021 {#september-2021-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>Dynamisches Übergeben von Datenlisten mithilfe benutzerdefinierter Aktionen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt Sammlungen oder eine Liste von Daten in Ihren benutzerdefinierten Aktionsparametern übergeben, die zur Laufzeit dynamisch gefüllt werden. Es werden zwei Arten von Sammlungen unterstützt: einfache Sammlungen und Objektsammlungen. Zuvor erstellte benutzerdefinierte Aktionen funktionieren weiterhin. </p>
+<p>Weiterführende Informationen zu Kollektionen finden Sie in der <a href="../usecase/collections.md">ausführlichen Dokumentation</a>. </p>
+<p>Die Filter- und Schnittfunktionen wurden der Liste der im erweiterten Ausdruckseditor verfügbaren Funktionen hinzugefügt. Dies bietet mehr Möglichkeiten zum Filtern und Vergleichen von Kollektionen.</p>
+<p>Lesen Sie die Dokumentation zu den Funktionen <a href="../functions/functionfilter.md">filter</a> und <a href="../functions/functionintersect.md">intersect</a> .</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Verbesserungen
+
+* Systemgenerierte Schemata und Datensätze, die während der Bereitstellung von Schrittereignissen erstellt wurden, befinden sich jetzt im schreibgeschützten Modus, um unbeabsichtigte Änderungen an kritischen Schemas zu vermeiden. [Weitere Informationen](../building-journeys/sharing-overview.md)
+* Benennen Sie die Aktivität **Wait** eindeutig mit einer Bezeichnung, die auf der Arbeitsfläche angezeigt wird. Die Bezeichnung wird auch in Berichts- und Testmodusprotokollen verwendet, um eindeutig zu identifizieren, was Sie tun. [Weitere Informationen](../building-journeys/using-the-journey-designer.md)
+* Suchen Sie Ihre Ereignisse und Aktionen schneller, indem Sie Elemente in den Kategorien **Ereignisse** und **Aktion** mithilfe der Suche filtern. Orchestrierungsaktivitäten werden nicht mehr gefiltert. [Weitere Informationen](../building-journeys/using-the-journey-designer.md)
+* Beim Definieren einer Ereignis-ID-Bedingung in einer regelbasierten Regel ist der Operator &quot;enthält&quot;jetzt für Feldzeichenfolgen-Typen verfügbar. [Weitere Informationen](../event/about-creating.md)
 
 ## Version August 2021 {#august-2021-release}
 
