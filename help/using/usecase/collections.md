@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Dynamisches Übergeben von Sammlungen mithilfe benutzerdefinierter Aktionen
 description: Senden von Nachrichten mit Campaign v7/v8
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 5fa7df4f2e778c0b0fd31d81edab34e86ee40c47
+source-git-commit: 8225167c686112f737d2b6ca22237324a6189b09
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '438'
 ht-degree: 5%
 
 ---
@@ -148,7 +148,7 @@ Sie können sehen, dass &quot;products&quot;ein Array von zwei Objekten ist. Sie
 
    ![](../assets/uc-collection-4.png)
 
-Für das Array-Feld können Sie auch den erweiterten Ausdruckseditor verwenden, um Datenmanipulationen durchzuführen. Im folgenden Beispiel werden die Funktionen [filter](https://git.corp.adobe.com/AdobeDocs/journeys.en/blob/fvi-21.9/help/using/functions/functionfilter.md) und [intersect](https://git.corp.adobe.com/AdobeDocs/journeys.en/blob/fvi-21.9/help/using/functions/functiontintersect.md) verwendet:
+Für das Array-Feld können Sie auch den erweiterten Ausdruckseditor verwenden, um Datenmanipulationen durchzuführen. Im folgenden Beispiel werden die Funktionen [filter](../functions/functionfilter.md) und [intersect](../functions/functiontintersect.md) verwendet:
 
 ![](../assets/uc-collection-5.png)
 
