@@ -6,9 +6,9 @@ user-guide-description: Enthält Anleitungen zum Implementieren und Erstellen vo
 index: true
 feature: Journeys
 source-git-commit: 5c3cc59d83b4b88c8ba9bde1bb8ea15a29e069be
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '433'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -148,7 +148,7 @@ ht-degree: 97%
          + [filter](using/functions/functionfilter.md)
          + [getListItem](using/functions/functiongetlistitem.md)
          + [in](using/functions/functionin.md)
-         + [Schnittmenge](using/functions/functionintersect.md)
+         + [intersect](using/functions/functionintersect.md)
          + [listSize](using/functions/functionlistsize.md)
          + [serializeList](using/functions/functionserializelist.md)
          + [sort](using/functions/functionsort.md)
@@ -198,6 +198,6 @@ ht-degree: 97%
       + [Konfigurieren von Datenquellen](using/usecase/configuring-the-data-sources.md)
       + [Erstellen der Journey](using/usecase/building-the-journey.md)
    + [Senden von Nachrichten mit Campaign v7/v8](using/usecase/campaign-classic-use-case.md)
-   + [Dynamisches Übergeben von Sammlungen mithilfe von benutzerdefinierten Aktionen](using/usecase/collections.md)
+   + [Dynamisches Übergeben von Kollektionen mithilfe benutzerdefinierter Aktionen](using/usecase/collections.md)
 + Verwenden von APIs{#working-with-apis}
    + [Begrenzungs-APIs](using/api/capping.md)
