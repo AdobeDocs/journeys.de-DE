@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: ed09f77617ae193ef7a217222f831f17ffc6b07c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '913'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,13 +24,13 @@ Lesen Sie auch die [Versionshinweise](../release-notes/release-notes.md) von [!D
 
 * Die folgenden Funktionen wurden hinzugefügt: [filter](../functions/functionfilter.md), [intersect](../functions/functionintersect.md), [toDateOnly](../functions/functiontodateonly.md)
 
-* Der Datentyp dateOnly wurde in der Dokumentation zum Ausdruckseditor hinzugefügt. [Mehr dazu](../expression/data-types.md)
+* Der Datentyp „dateOnly“ wurde in der Dokumentation zum Ausdruckseditor hinzugefügt. [Mehr dazu](../expression/data-types.md)
 
 * Es wurden Details zur Aufbewahrungsfrist im Cache für benutzerdefinierte Aktionen hinzugefügt. [Mehr dazu](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
 
-* Es wurden Informationen zu benutzerdefinierten standardmäßigen Anschlüssen für Aktionen hinzugefügt. [Mehr dazu](../action/url-configuration.md)
+* Es wurden Informationen zu Standard-Ports für benutzerdefinierten Aktionen hinzugefügt. [Mehr dazu](../action/url-configuration.md)
 
-* Häufig verwendete Beispiele zur Abfrage von Journey Step Events im Data Lake hinzugefügt. [Mehr dazu](../building-journeys/query-examples.md)
+* Es wurden häufig verwendete Beispiele zur Abfrage von Journey-Schrittereignissen im Data Lake hinzugefügt. [Mehr dazu](../building-journeys/query-examples.md)
 
 ## August 2021
 
