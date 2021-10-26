@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
 source-git-commit: 7805ee4beb056ba84bc994162da2b0e54db60ca3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1357'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -186,4 +186,4 @@ Sie können die Aufbewahrungsfrist des Tokens im Cache für eine benutzerdefinie
 
 >[!NOTE]
 >
->Die Aufbewahrungsfrist im Cache hilft, zu viele Aufrufe an die Authentifizierungsendpunkte zu vermeiden. Die Aufbewahrung des Authentifizierungstokens wird in Diensten zwischengespeichert. Es gibt keine Persistenz. Wenn ein Dienst neu gestartet wird, beginnt er mit einem leeren Cache. Die Aufbewahrungsfrist im Cache beträgt standardmäßig 1 Stunde. In der Payload der benutzerdefinierten Aktion kann sie angepasst werden, indem eine andere Aufbewahrungsdauer angegeben wird.
+>Die Aufbewahrungsfrist im Cache hilft, zu viele Aufrufe an die Authentifizierungsendpunkte zu vermeiden. Die Aufbewahrung des Authentifizierungs-Tokens erfolgt im Cache des entsprechenden Service. Er wird also nicht dauerhaft gespeichert. Wenn ein Service neu gestartet wird, beginnt er mit einem leeren Cache. Die Aufbewahrungsfrist im Cache beträgt standardmäßig 1 Stunde. Sie kann in der Payload der benutzerdefinierten Aktion angepasst werden, indem eine andere Aufbewahrungsfrist angegeben wird.
