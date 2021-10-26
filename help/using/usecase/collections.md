@@ -1,22 +1,22 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: Dynamisches Übergeben von Sammlungen mithilfe benutzerdefinierter Aktionen
+title: Dynamisches Übergeben von Kollektionen mithilfe benutzerdefinierter Aktionen
 description: Senden von Nachrichten mit Campaign v7/v8
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 source-git-commit: ded8f65e7210c252f59ec26150daaa964c7a6a77
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
 
-# Dynamisches Übergeben von Sammlungen mithilfe benutzerdefinierter Aktionen{#passing-collection}
+# Dynamisches Übergeben von Kollektionen mithilfe benutzerdefinierter Aktionen{#passing-collection}
 
-Sie können eine Sammlung in benutzerdefinierten Aktionsparametern übergeben, die zur Laufzeit dynamisch gefüllt werden. Es werden zwei Arten von Sammlungen unterstützt:
+Sie können eine Kollektion in benutzerdefinierten Aktionsparametern übergeben, die zur Laufzeit dynamisch gefüllt werden. Es werden zwei Arten von Kollektionen unterstützt:
 
-* einfache Sammlungen: Arrays einfacher Datentypen, z. B. mit einer listString:
+* einfache Kollektionen: Arrays einfacher Datentypen, z. B. mit einer listString:
 
    ```
    {
@@ -27,7 +27,7 @@ Sie können eine Sammlung in benutzerdefinierten Aktionsparametern übergeben, d
    }
    ```
 
-* Objektsammlungen: ein Array von JSON-Objekten, z. B.:
+* Objektkollektionen: ein Array von JSON-Objekten, z. B.:
 
    ```
    {
@@ -84,11 +84,11 @@ Sie können eine Sammlung in benutzerdefinierten Aktionsparametern übergeben, d
     ]
    }
    ```
-* Um Sammlungen im Testmodus zu testen, müssen Sie den Codeansichtsmodus verwenden. Der Codeansichtsmodus wird derzeit für Geschäftsereignisse nicht unterstützt. Sie können eine Sammlung nur mit einem einzelnen Element senden.
+* Um Kollektionen im Testmodus zu testen, müssen Sie den Code-Ansichtsmodus verwenden. Der Code-Ansichtsmodus wird derzeit für Geschäftsereignisse nicht unterstützt. Sie können eine Kollektion nur mit einem einzelnen Element senden.
 
 ## Allgemeines Verfahren {#general-procedure}
 
-In diesem Abschnitt verwenden wir das folgende JSON-Payload-Beispiel. Dies ist ein Array von Objekten mit einem Feld, das eine einfache Sammlung ist.
+In diesem Abschnitt verwenden wir das folgende JSON-Payload-Beispiel. Dies ist ein Array von Objekten mit einem Feld, das eine einfache Kollektion ist.
 
 ```
 {
@@ -114,7 +114,7 @@ In diesem Abschnitt verwenden wir das folgende JSON-Payload-Beispiel. Dies ist e
 }
 ```
 
-Sie können sehen, dass &quot;products&quot;ein Array von zwei Objekten ist. Sie müssen mindestens ein Objekt haben.
+Sie können sehen, dass „Produkte“ ein Array von zwei Objekten ist. Sie müssen mindestens ein Objekt haben.
 
 1. Erstellen Sie Ihre benutzerdefinierte Aktion. Weitere Informationen finden Sie auf [dieser Seite](../action/about-custom-action-configuration.md).
 
@@ -122,13 +122,13 @@ Sie können sehen, dass &quot;products&quot;ein Array von zwei Objekten ist. Sie
 
    ![](../assets/uc-collection-1.png)
 
-1. Passen Sie bei Bedarf die Feldtypen an. Die folgenden Feldtypen werden für Sammlungen unterstützt: listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly, listObject
+1. Passen Sie bei Bedarf die Feldtypen an. Die folgenden Feldtypen werden für Kollektionen unterstützt: listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly, listObject
 
    >[!NOTE]
    >
    >Der Feldtyp wird gemäß dem Payload-Beispiel automatisch abgeleitet.
 
-1. Wenn Sie Objekte dynamisch übergeben möchten, müssen Sie sie als Variablen festlegen. In diesem Beispiel legen wir &quot;products&quot;als Variable fest. Alle im Objekt enthaltenen Objektfelder werden automatisch auf Variablen gesetzt.
+1. Wenn Sie Objekte dynamisch übergeben möchten, müssen Sie sie als Variablen festlegen. In diesem Beispiel legen wir „Produkte“ als Variable fest. Alle im Objekt enthaltenen Objektfelder werden automatisch als Variablen festgelegt.
 
    >[!NOTE]
    >
@@ -140,21 +140,21 @@ Sie können sehen, dass &quot;products&quot;ein Array von zwei Objekten ist. Sie
 
 1. Erstellen Sie Ihre Journey und fügen Sie die von Ihnen erstellte benutzerdefinierte Aktion hinzu. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/using-custom-actions.md).
 
-1. Definieren Sie im Abschnitt **[!UICONTROL Aktionsparameter]** den Array-Parameter (&quot;products&quot; in unserem Beispiel) mithilfe des erweiterten Ausdruckseditors.
+1. Definieren Sie im Abschnitt **[!UICONTROL Aktionsparameter]** den Array-Parameter („Produkte“ in unserem Beispiel) mithilfe des erweiterten Ausdruckseditors.
 
    ![](../assets/uc-collection-3.png)
 
-1. Geben Sie für jedes der folgenden Objektfelder den entsprechenden Feldnamen aus dem Quell-XDM-Schema ein. Wenn die Namen identisch sind, ist dies nicht erforderlich. In unserem Beispiel müssen wir nur &quot;Produkt-ID&quot;und &quot;Farbe&quot;definieren.
+1. Geben Sie für jedes der folgenden Objektfelder den entsprechenden Feldnamen aus dem Quell-XDM-Schema ein. Wenn die Namen identisch sind, ist dies nicht erforderlich. In unserem Beispiel müssen wir nur „Produkt-ID“ und „Farbe“ definieren.
 
    ![](../assets/uc-collection-4.png)
 
-Für das Array-Feld können Sie auch den erweiterten Ausdruckseditor verwenden, um Datenmanipulationen durchzuführen. Im folgenden Beispiel werden die Funktionen [filter](../functions/functionfilter.md) und [intersect](../functions/functionintersect.md) verwendet:
+Für das Array-Feld können Sie auch den erweiterten Ausdruckseditor verwenden, um Datenbearbeitungen durchzuführen. Im folgenden Beispiel werden die Funktionen [Filtern](../functions/functionfilter.md) und [Überschneidung](../functions/functionintersect.md) verwendet:
 
 ![](../assets/uc-collection-5.png)
 
 ## Besondere Fälle{#examples}
 
-Bei heterogenen Typen und Arrays von Arrays wird das Array mit dem Typ listAny definiert. Sie können nur einzelne Elemente zuordnen, das Array jedoch nicht in eine Variable ändern.
+Bei heterogenen Typen und Arrays von Arrays wird das Array mit dem Typ „listAny“ definiert. Sie können nur einzelne Elemente zuordnen, das Array jedoch nicht in eine Variable ändern.
 
 ![](../assets/uc-collection-heterogeneous.png)
 
