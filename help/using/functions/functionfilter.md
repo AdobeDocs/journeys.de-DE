@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
 title: filter
-description: Informationen zum Funktionsfister
+description: Erfahren Sie mehr über die Funktion „filter“
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 19a4b7f8-5636-4b8f-b81f-28ff7da99671
 source-git-commit: 729ee71e063ae73c7c10f20bb3a410c43cb75faf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '109'
-ht-degree: 15%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ Liste
 
 | Parameter | Typ | Beschreibung |
 |-----------|------------------|------------------|
-| listToFilter | listObject | Liste der zu filternden Objekte. Es muss sich um einen Feldverweis handeln. |
-| keyAttributeName | Zeichenfolge | Attributname in den Objekten der angegebenen Liste, der als Schlüssel für die Filterung verwendet wird |
-| keyValueList | list | Array von Schlüsselwerten zum Filtern |
+| listToFilter | listObject | Liste der zu filternden Objekte. Muss ein Feldverweis sein. |
+| keyAttributeName | Zeichenfolge | Attributname in den Objekten der angegebenen Liste, der als Schlüssel zum Filtern verwendet wird |
+| keyValueList | list | Schlüsselwerte für die Filterung |
 
 ## Signaturen und zurückgegebene Typen
 
@@ -55,7 +55,7 @@ Gibt ein listObject zurück.
 
 ## Beispiele
 
-Im Folgenden finden Sie ein Beispiel einer Payload, die an ein eingehendes Ereignis &quot;myevent&quot;übergeben wird:
+Hier ist ein Beispiel für eine Payload, die in einem eingehenden Ereignis „myevent“ übergeben wird:
 
 ```
 "productListItems": [{
@@ -83,4 +83,4 @@ filter(
 )
 ```
 
-Gibt ein listObject zurück, das die beiden Objekte mit &quot;product2&quot;und &quot;product3&quot;als ID enthält.
+Gibt ein listObject mit den beiden Objekten „product2“ und „product3“ als ID zurück.
