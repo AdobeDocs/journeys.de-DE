@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
 source-git-commit: 0b4d925410e1ab4895f27455eb082dd9cc305cff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '636'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Serialisierungsformat: UTF-8
 'hello world'
 ```
 
-## Ganzzahl {#integer}
+## integer {#integer}
 
 **Beschreibung**
 
@@ -123,15 +123,15 @@ true
 
 **Beschreibung**
 
-Stellt ein Datum nur ohne Zeitzone dar, das als Jahr-Monat-Tag betrachtet wird.
+Stellt ein reines Datum ohne Zeitzone dar, das als Jahr-Monat-Tag angezeigt wird.
 
-Es handelt sich um eine Beschreibung des Datums, das zum Geburtstag verwendet wird.
+Es ist eine Beschreibung des Datums, wie es beispielsweise für den Geburtstag verwendet wird.
 
 JSON-Format: Zeichenfolge.
 
-Format: JJJJ-MM-TT (ISO-8601), z. B.: &quot;2021-03-11&quot;.
+Format ist: JJJJ-MM-TT (ISO-8601), z. B.: „2021-03-11“.
 
-Sie kann in einer toDateOnly -Funktion gekapselt werden.
+Kann ausschließlich in einer toDateOnly -Funktion gekapselt sein.
 
 Es wird das DateTimeFormatter ISO_LOCAL_DATE_TIME zur Deserialisierung und Serialisierung des Wertes verwendet. [Weitere Informationen](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)
 
@@ -159,7 +159,7 @@ Es wird keine Zeitzone gespeichert oder dargestellt. Stattdessen handelt es sich
 
 Ohne zusätzliche Informationen wie Versatz oder Zeitzone kann kein Zeitpunkt auf der Zeitachse dargestellt werden.
 
-Sie kann in einer toDateTimeOnly -Funktion gekapselt werden.
+Kann in einer toDateTimeOnly-Funktion gekapselt sein.
 
 Serialisierungsformat: ISO-8601, erweitertes Versatz-Datums-/Uhrzeitformat.
 
@@ -188,7 +188,7 @@ Mit den zusätzlichen Informationen zum Versatz kann ein bestimmter Zeitpunkt da
 
 JSON-Format: Zeichenfolge.
 
-Sie kann in einer toDateTime -Funktion eingekapselt werden.
+Kann in einer toDateTime-Funktion gekapselt sein.
 
 Serialisierungsformat: ISO-8601, erweitertes Versatz-Datums-/Uhrzeitformat.
 
