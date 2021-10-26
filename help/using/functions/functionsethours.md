@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: d4fe578f-c3be-4c8b-98b3-090dab0c41d1
 source-git-commit: 51536b20e81cde1a7fdd7f4654d70bfe6176b0d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '101'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -51,4 +51,4 @@ Gibt 2010-12-12T04:11:00Z zurück.
 
 `setHours(nowWithDelta(1, "days"), 20)`
 
-Gibt morgen um 20:XY zurück, wobei XY die Minuten zum Zeitpunkt der aktuellen Zeitbewertung ist. Wenn die Auswertung um 2:45 Uhr erfolgt, ist die zurückgegebene Zeit 20:45 Uhr.
+Gibt morgen um 20:XY Uhr zurück, wobei XY die Minuten zum Zeitpunkt der aktuellen Zeitbewertung darstellt. Wenn die Auswertung um 2:45 Uhr erfolgt, lautet die zurückgegebene Zeit 20:45 Uhr.
