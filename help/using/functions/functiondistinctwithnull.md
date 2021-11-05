@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 65a904c1-14ff-42b3-8f03-abb97ef47625
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 100%
+source-wordcount: '106'
+ht-degree: 95%
 
 ---
 
@@ -36,6 +36,7 @@ Liste
 | Liste | listDuration |
 | Liste | listDateTime |
 | Liste | listDateTimeOnly |
+| Liste | listDateOnly |
 
 ## Signaturen und zurückgegebene Typen
 
@@ -58,6 +59,10 @@ Gibt eine Liste mit Datum/Uhrzeit-Werten ohne Berücksichtigung der Zeitzone zur
 `distinctWithNull(<listDateTime>)`
 
 Gibt eine Liste mit Datum/Uhrzeit-Werten zurück.
+
+`distinctWithNull(<listDateOnly>)`
+
+Gibt eine Liste mit Datumsangaben zurück.
 
 `distinctWithNull(<listBoolean>)`
 

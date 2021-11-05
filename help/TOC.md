@@ -5,10 +5,10 @@ title: Handbuch zu Journey Orchestration
 user-guide-description: Enthält Anleitungen zum Implementieren und Erstellen von Journeys.
 index: true
 feature: Journeys
-source-git-commit: 5c3cc59d83b4b88c8ba9bde1bb8ea15a29e069be
-workflow-type: ht
-source-wordcount: '433'
-ht-degree: 100%
+source-git-commit: b557e94076bc7ce5c212246ddf313248ca10dd60
+workflow-type: tm+mt
+source-wordcount: '444'
+ht-degree: 96%
 
 ---
 
@@ -88,11 +88,14 @@ ht-degree: 100%
    + [Veröffentlichen der Journey](using/building-journeys/publishing-the-journey.md)
    + Freigabe von Journey-Schritten mit Adobe Experience Platform {#sharing-journey-steps}
       + [Übersicht über die Freigabe von Journey-Schritten](using/building-journeys/sharing-overview.md)
-      + [Gemeinsame Felder für journeySteps-Ereignisse](using/building-journeys/sharing-common-fields.md)
-      + [Aktionsausführungsfelder für journeyStep-Ereignisse](using/building-journeys/sharing-execution-fields.md)
-      + [Datenabruffelder für journeyStep-Ereignisse](using/building-journeys/sharing-fetch-fields.md)
-      + [Identitätsfelder für journeyStep-Ereignisse](using/building-journeys/sharing-identity-fields.md)
-      + [Journey-Felder](using/building-journeys/sharing-journey-fields.md)
+      + [Schrittereignisfeldliste](using/building-journeys/sharing-field-list.md)
+      + Ereignisfelder für veraltete Schritte {#legacy-step-event-fields}
+         + [Über veraltete Felder](using/building-journeys/sharing-legacy-fields.md)
+         + [Gemeinsame Felder für journeySteps-Ereignisse](using/building-journeys/sharing-common-fields.md)
+         + [Aktionsausführungsfelder für journeyStep-Ereignisse](using/building-journeys/sharing-execution-fields.md)
+         + [Datenabruffelder für journeyStep-Ereignisse](using/building-journeys/sharing-fetch-fields.md)
+         + [Identitätsfelder für journeyStep-Ereignisse](using/building-journeys/sharing-identity-fields.md)
+         + [Journey-Felder](using/building-journeys/sharing-journey-fields.md)
       + [Beispiele für Abfragen](using/building-journeys/query-examples.md)
 + Verwenden des erweiterten Ausdruckseditors {#building-advanced-conditions-journeys}
    + [Informationen zum erweiterten Ausdruckseditor](using/expression/expressionadvanced.md)
@@ -158,10 +161,10 @@ ht-degree: 100%
       + Zeichenfolge {#string}
          + [concat](using/functions/functionconcat.md)
          + [contain](using/functions/functioncontain.md)
-         + [containWithIgnoreCase](using/functions/functioncontainwithignorecase.md)
+         + [containIgnoreCase](using/functions/functioncontainwithignorecase.md)
          + [endWith](using/functions/functionendwith.md)
          + [endWithIgnorecase](using/functions/functionendwithignorecase.md)
-         + [equalWithIgnoreCase](using/functions/functionequalignorecase.md)
+         + [equalIgnoreCase](using/functions/functionequalignorecase.md)
          + [indexOf](using/functions/functionindexof.md)
          + [isEmpty](using/functions/functionisempty.md)
          + [isNotEmpty](using/functions/functionisnotempty.md)
@@ -169,7 +172,7 @@ ht-degree: 100%
          + [length](using/functions/functionlength.md)
          + [lower](using/functions/functionlower.md)
          + [matchRegExp](using/functions/functionmatchregexp.md)
-         + [notEqualWithIgnoreCase](using/functions/functionnotequalignorecase.md)
+         + [notequalIgnoreCase](using/functions/functionnotequalignorecase.md)
          + [replace](using/functions/functionreplace.md)
          + [replaceAll](using/functions/functionreplaceall.md)
          + [split](using/functions/functionsplit.md)

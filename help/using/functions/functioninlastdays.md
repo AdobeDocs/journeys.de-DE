@@ -6,9 +6,9 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 1fc29153-3554-4af1-bb2e-7bba53ffce69
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '44'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Datum
 | Parameter | Typ |
 |-----------|------------------|
 | Datum/Uhrzeit | dateTime |
-| delta | Ganzzahl |
+| delta | integer |
 
 ## Signaturen und zurückgegebener Typ
 
@@ -40,6 +40,6 @@ Gibt einen booleschen Wert zurück.
 
 ## Beispiele
 
-`inLastDays(toDateTime('2019-12-12T01:11:00Z'), 4))`
+`inLastDays(toDateTime('2019-12-12T01:11:00Z'), 4)`
 
 Gibt „true“ zurück.

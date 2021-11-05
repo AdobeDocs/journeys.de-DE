@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: a3b24f25-5f6d-44fe-b755-3734e4fab944
-source-git-commit: 5e2af021f1c82063fcc0d4e4b5edf13c57cc6c72
-workflow-type: ht
-source-wordcount: '85'
-ht-degree: 100%
+source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
+workflow-type: tm+mt
+source-wordcount: '90'
+ht-degree: 94%
 
 ---
 
@@ -30,13 +30,13 @@ Liste
 | Parameter | Typ |
 |-----------|------------------|
 | list | listString |
-| list | listBoolean |
-| list | listInteger |
-| list | listDecimal |
-| list | listDuration |
-| list | listDateTime |
-| list | listDateTimeOnly |
-| list | listDateOnly |
+| Liste | listBoolean |
+| Liste | listInteger |
+| Liste | listDecimal |
+| Liste | listDuration |
+| Liste | listDateTime |
+| Liste | listDateTimeOnly |
+| Liste | listDateOnly |
 | index | integer |
 
 ## Signaturen und zurückgegebener Typ
@@ -60,6 +60,10 @@ Gibt einen Datum/Uhrzeit-Wert ohne Berücksichtigung der Zeitzone zurück.
 `getListItem(<listDateTime>,<index>)`
 
 Gibt einen Datum/Uhrzeit-Wert zurück.
+
+`getListItem(<listDateOnly>,<index>)`
+
+Gibt eine Liste mit Datumsangaben zurück.
 
 `getListItem(<listBoolean>,<index>)`
 

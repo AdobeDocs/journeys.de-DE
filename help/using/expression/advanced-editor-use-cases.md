@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 601bed30d3c414f03c60ef52c787372e778dee54
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 100%
+source-wordcount: '492'
+ht-degree: 90%
 
 ---
 
@@ -46,26 +46,26 @@ Anschließend werden alle Ereignisse vom Typ addtocart ausgewählt, die nicht in
 
 >[!NOTE]
 >
->Um Felder schnell in den Ausdruck einzufügen, doppelklicken Sie auf das Feld im linken Panel des Editors.
+>Um Felder schnell in den Ausdruck einzufügen, doppelklicken Sie auf das Feld im linken Bereich des Editors.
 
 Der angegebene Zeitstempel dient als Datums- und Uhrzeitwert, der zweite als Anzahl von Tagen.
 
-```
-        In( “addToCart”, #{ExperiencePlatformDataSource
+```json
+        in( "addToCart", #{ExperiencePlatformDataSource
                         .ExperienceEventFieldGroup
                         .experienceevent
                         .all(
                         inLastDays(currentDataPackField.timestamp, 7 ))
                         .productData
                         .productInteraction})
-        And
-        Not(In( “completePurchase”, #{ExperiencePlatformDataSource
+        and
+        not(in( "completePurchase", #{ExperiencePlatformDataSource
                         .ExperienceEventFieldGroup
                         .experienceevent
                         .all(
                         inLastDays(currentDataPackField.timestamp, 7 ))
                         .productData
-                        .productInteraction})
+                        .productInteraction}))
 ```
 
 Dieser Ausdruck gibt einen booleschen Wert zurück.
@@ -76,20 +76,20 @@ Dieser Ausdruck gibt einen booleschen Wert zurück.
 
 `#{Inventory.fieldgroup3.quantity} > 0`
 
-* Rechts werden die erforderlichen Werte angegeben. Hier müssen wir den Ort des Stores abrufen, der der Position des Ereignisses „ArriveLumaStudio“ zugeordnet ist:
+* Rechts werden die erforderlichen Werte angegeben. Hier müssen wir den Speicherort des Stores abrufen, der vom Speicherort des Ereignisses &quot;ArriveLumaStudio&quot;zugeordnet ist:
 
 `#{ArriveLumaStudio._acpevangelists1.location.location}`
 
 * Geben Sie die SKU unter Verwendung der `first`-Funktion an, um die jüngste „addToCart“ -Interaktion abzurufen:
 
-   ```
+   ```json
        #{ExperiencePlatformDataSource
                        .ExperienceEventFieldGroup
                        .experienceevent
                        .first(
                        currentDataPackField
                        .productData
-                       .productInteraction == “addToCart”
+                       .productInteraction == "addToCart"
                        )
                        .SKU}
    ```
@@ -102,7 +102,7 @@ Von dort können Sie einen weiteren Pfad zu Ihrer Journey hinzufügen, wenn das 
 
 Diese Bedingung ruft nur die Geofence-Ereignisse ab, die in &quot;Arlington&quot; ausgelöst wurden:
 
-```
+```json
         @{GeofenceEntry
                     .placeContext
                     .POIinteraction
@@ -114,7 +114,7 @@ Erklärung: Dies ist ein strikter Zeichenfolgenvergleich (Groß-/Kleinschreibung
 
 Die gleiche Abfrage mit der deaktivierten Option `Is sensitive` generiert den folgenden Ausdruck im erweiterten Modus:
 
-```
+```json
         equalIgnoreCase(@{GeofenceEntry
                         .placeContext
                         .POIinteraction
@@ -126,7 +126,7 @@ Die gleiche Abfrage mit der deaktivierten Option `Is sensitive` generiert den fo
 
 Mit dem folgenden Ausdruck können Sie die CRM-ID in einem Feld zur Aktionspersonalisierung definieren:
 
-```
+```json
     substr(@{MobileAppLaunch
             ._myorganization
             .identification
@@ -135,7 +135,6 @@ Mit dem folgenden Ausdruck können Sie die CRM-ID in einem Feld zur Aktionsperso
                         ._myorganization
                         .identification
                         .crmid}
-                         }
                          ))
 ```
 

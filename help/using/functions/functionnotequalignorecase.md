@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: notEqualWithIgnoreCase
-description: Erfahren Sie mehr über die Funktion „notEqualWithIgnoreCase“
+title: notEqualIgnoreCase
+description: Erfahren Sie mehr über die Funktion notEqualIgnoreCase
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: d99601cf-2ba8-4150-afa7-df6b8af47bf6
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 100%
+source-wordcount: '37'
+ht-degree: 81%
 
 ---
 
-# notEqualWithIgnoreCase {#notEqualWithIgnoreCase}
+# notEqualIgnoreCase {#notEqualIgnoreCase}
 
 Überprüft, ob sich die erste Argumentzeichenfolge von der zweiten Argumentzeichenfolge unterscheidet, wobei Groß-/Kleinschreibung ignoriert wird.
 
@@ -23,7 +23,7 @@ Zeichenfolge
 
 ## Funktionssyntax
 
-`notEqualWithIgnoreCase(<parameters>)`
+`notEqualIgnoreCase(<parameters>)`
 
 ## Parameter
 
@@ -31,10 +31,10 @@ Zeichenfolge
 
 ## Signatur und zurückgegebener Typ
 
-`notEqualWithIgnoreCase(<string>,<string>)`
+`notEqualIgnoreCase(<string>,<string>)`
 
 Gibt einen booleschen Wert zurück.
 
 ## Beispiel
 
-`notEqualWithIgnoreCase(@{iOSPushPermissionAllowed.device.model}, "iPad"))`
+`notEqualIgnoreCase(@{iOSPushPermissionAllowed.device.model}, "iPad")`

@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Dynamisches Übergeben von Kollektionen mithilfe benutzerdefinierter Aktionen
 description: Senden von Nachrichten mit Campaign v7/v8
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: ded8f65e7210c252f59ec26150daaa964c7a6a77
-workflow-type: ht
-source-wordcount: '438'
+source-git-commit: 358fddd8e5c2ca80532ff2b74dc9627ffdc8837e
+workflow-type: tm+mt
+source-wordcount: '428'
 ht-degree: 100%
 
 ---
@@ -53,23 +53,6 @@ Sie können eine Kollektion in benutzerdefinierten Aktionsparametern übergeben,
 
 ## Einschränkungen {#limitations}
 
-* Arrays von Objekten, die Unterobjekte enthalten, werden nicht unterstützt. Beispiel:
-
-   ```
-   {
-   "products":[
-     {
-        "id":"productA",
-        "name":"A",
-        "details": {
-        "color":"blue"
-        },
-        "price":20.0
-     }
-    ]
-   }
-   ```
-
 * Verschachtelte Arrays von Objekten in einem Objekt-Array werden derzeit nicht unterstützt. Beispiel:
 
    ```
@@ -84,7 +67,6 @@ Sie können eine Kollektion in benutzerdefinierten Aktionsparametern übergeben,
     ]
    }
    ```
-
 * Um Kollektionen im Testmodus zu testen, müssen Sie den Code-Ansichtsmodus verwenden. Der Code-Ansichtsmodus wird derzeit für Geschäftsereignisse nicht unterstützt. Sie können eine Kollektion nur mit einem einzelnen Element senden.
 
 ## Allgemeines Verfahren {#general-procedure}

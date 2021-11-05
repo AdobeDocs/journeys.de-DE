@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 7b44edbe-9d05-4d67-8a64-2a0a553fcb92
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: d09d70a0ec2720c5a75385b9036bf3a6ab74f4ab
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 100%
+source-wordcount: '861'
+ht-degree: 95%
 
 ---
 
@@ -56,6 +56,8 @@ Wenn Sie zur Erstellung Ihrer Segmente den [Segmentierungsdienst von Adobe Exper
 
 Wenn in einer Aktion oder einer Bedingung ein Fehler auftritt, wird die Journey der Person gestoppt. Die einzige Möglichkeit zum Fortsetzen des Vorgangs besteht darin, das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** zu aktivieren. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/using-the-journey-designer.md#paths).
 
+Im einfachen Editor finden Sie auch die Kategorie Journey-Eigenschaften unter den Kategorien-Ereignis und Datenquelle. Diese Kategorie enthält technische Felder, die sich auf die Journey eines bestimmten Profils beziehen. Dabei handelt es sich um die Informationen, die das System von Live-Journeys abruft, wie z. B. die Journey-ID oder die spezifischen aufgetretenen Fehler. Weitere Informationen finden Sie auf [dieser Seite](../expression/journey-properties.md)
+
 ## Bedingung der Datenquelle {#data_source_condition}
 
 Auf diese Weise können Sie eine Bedingung basierend auf Feldern aus den Datenquellen oder den zuvor in der Journey positionierten Ereignissen definieren. Informationen zur Verwendung des Ausdruckseditors finden Sie auf [dieser Seite](../expression/expressionadvanced.md). Mit dem erweiterten Ausdruckseditor können Sie erweiterte Bedingungen zur Bearbeitung von Sammlungen oder zur Verwendung von Datenquellen einrichten, für die Parameter übergeben werden müssen. Weitere Informationen finden Sie auf [dieser Seite](../datasource/external-data-sources.md).
@@ -86,10 +88,26 @@ Im Testmodus wird beim Erreichen einer Aufspaltung immer die obere Verzweigung a
 
 ## Bedingung für das Datum {#date_condition}
 
-Auf diese Weise können Sie basierend auf dem Datum einen anderen Fluss definieren. Wenn die Person beispielsweise während des „Verkaufszeitraums“ den Schritt aufruft, senden Sie ihr eine bestimmte Nachricht. Den Rest des Jahres senden Sie eine andere Nachricht.
+Auf diese Weise können Sie basierend auf dem Datum einen anderen Fluss definieren. Wenn die Person beispielsweise während des &quot;Verkaufs&quot;-Zeitraums in den Schritt eintritt, senden Sie ihnen eine bestimmte Nachricht. Den Rest des Jahres senden Sie eine andere Nachricht.
 
 >[!NOTE]
 >
 >Die Zeitzone hängt nicht mehr von einer Bedingung ab und wird jetzt auf Journey-Ebene in den Eigenschaften der Journey festgelegt. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/timezone-management.md).
 
 ![](../assets/journey53.png)
+
+<!--
+## Profile cap {#profile_cap}
+
+Use this condition type to set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path.
+
+You can use this condition type to ramp up the volume of your deliveries. For example, you might have recently moved to another email service provider, IP address, or email domain or subdomain. Using this feature, you can establish your reputation as a sender and avoid that your deliveries be blocked or moved to the spam folder of the recipients' mailbox. Learn how to increase your email reputation with IP warming in the [Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html){target="_blank"}.
+
+The default cap is 1000. You must set an integer value that is greater than or equal to 1.
+
+The counter applies only to the selected journey version. By default, the counter is reset to zero after 180 days. After a reset, the selected profiles take the first path again until the counter limit is reached. You can gradually increase this limit up to the total number of your subscribers. After your IP has warmed up, you can remove this condition.
+
+The first path always has priority over the second path, even if you move the second path above the first path on the journey canvas.
+
+![](../assets/profile-cap-condition.png)
+-->

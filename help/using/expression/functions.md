@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
-source-git-commit: 0b4d925410e1ab4895f27455eb082dd9cc305cff
-workflow-type: ht
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
+workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -68,13 +68,13 @@ Im Folgenden finden Sie eine Liste der unterstützten Funktionen.
 | Liste | [serializeList](../functions/functionserializelist.md) |
 | Liste | [sort](../functions/functionsort.md) |
 | Math | [random](../functions/functionrandom.md) |
-| Math | [round](../functions/functionround.md) |
+| Mathematisch | [round](../functions/functionround.md) |
 | Zeichenfolge | [concat](../functions/functionconcat.md) |
 | Zeichenfolge | [contain](../functions/functioncontain.md) |
-| Zeichenfolge | [containWithIgnoreCase](../functions/functioncontainwithignorecase.md) |
+| Zeichenfolge | [containIgnoreCase](../functions/functioncontainwithignorecase.md) |
 | Zeichenfolge | [endWith](../functions/functionendwith.md) |
 | Zeichenfolge | [endWithIgnoreCase](../functions/functionendwithignorecase.md) |
-| Zeichenfolge | [equalWithIgnoreCase](../functions/functionequalignorecase.md) |
+| Zeichenfolge | [equalIgnoreCase](../functions/functionequalignorecase.md) |
 | Zeichenfolge | [indexOf](../functions/functionindexof.md) |
 | Zeichenfolge | [isEmpty](../functions/functionisempty.md) |
 | Zeichenfolge | [isNotEmpty](../functions/functionisnotempty.md) |
@@ -82,7 +82,7 @@ Im Folgenden finden Sie eine Liste der unterstützten Funktionen.
 | Zeichenfolge | [length](../functions/functionlength.md) |
 | Zeichenfolge | [lower](../functions/functionlower.md) |
 | Zeichenfolge | [matchRegExp](../functions/functionmatchregexp.md) |
-| Zeichenfolge | [notEqualWithIgnoreCase](../functions/functionnotequalignorecase.md) |
+| Zeichenfolge | [notEqualIgnoreCase](../functions/functionnotequalignorecase.md) |
 | Zeichenfolge | [replace](../functions/functionreplace.md) |
 | Zeichenfolge | [replaceAll](../functions/functionreplaceall.md) |
 | Zeichenfolge | [startWith](../functions/functionstartwith.md) |

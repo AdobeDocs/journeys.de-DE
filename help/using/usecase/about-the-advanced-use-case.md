@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 579e5a0dbdc11369248c2683c399b090130a7262
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 100%
+source-wordcount: '416'
+ht-degree: 84%
 
 ---
 
@@ -29,10 +29,10 @@ Zunächst möchten wir eine Nachricht senden, sobald eine Person ein Marlton-Hot
 
 Anschließend prüfen wir zwei Bedingungen:
 
-* Wenn die Person kein Mitglied des Treueprogramms ist, senden wir ihr eine E-Mail, um ihr eine Mitgliedschaft im Treueprogramm anzubieten.
+* Wenn diese Person kein Mitglied des Treueprogramms ist, senden wir ihnen eine E-Mail, um dem Treueprogramm-Angebot beizutreten.
 * Wenn die Person bereits Mitglied des Treueprogramms ist, prüfen wir, ob sie über eine Zimmerreservierung verfügt:
-   * Wenn das nicht der Fall ist, senden wir eine Push-Benachrichtigung mit Zimmerpreisen.
-   * Wenn eine Reservierung vorhanden ist, senden wir der Person eine Willkommens-Push-Benachrichtigung. Wenn diese Person dann in den nächsten 6 Stunden das Restaurant betritt, senden wir ihr eine Push-Benachrichtigung mit einem Rabatt für eine Mahlzeit.
+   * Wenn nicht, senden wir ihnen eine Push-Benachrichtigung mit Zimmerpreisen.
+   * Wenn ja, senden wir ihnen eine Willkommens-Push-Benachrichtigung. Wenn er das Restaurant innerhalb der nächsten 6 Stunden betritt, senden wir ihm eine Push-Benachrichtigung mit einem Rabatt auf eine Mahlzeit.
 
 ![](../assets/journeyuc2_29.png)
 

@@ -6,9 +6,9 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: fd86b6ab-76cf-4b35-9e87-f441e914f20b
-source-git-commit: b52c9c0d6486a0b31c1ebe3d6d42a0fb0b708bf1
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '435'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Es gibt zwei Arten von Operatoren: unäre Operatoren und binäre Operatoren. Es gibt unäre Operatoren auf der linken und auf der rechten Seite.
 
-```
+```json
     // left-hand unary operators
     <operator> <operand> // operand is an expression
     not (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
@@ -38,7 +38,7 @@ Im Folgenden finden Sie eine Liste der unterstützten Operatoren:
 
 ### und
 
-```
+```json
 <expression1> and <expression2>
 ```
 
@@ -46,7 +46,7 @@ Sowohl &lt;Ausdruck1> als auch &lt;Ausdruck2> müssen boolesch sein. Das Ergebni
 
 Beispiel:
 
-```
+```json
 3.14 > 2 and 3.15 < 1
 ```
 
@@ -54,7 +54,7 @@ Beispiel:
 
 
 
-```
+```json
 <expression1> or <expression2>
 ```
 
@@ -62,7 +62,7 @@ Sowohl &lt;Ausdruck1> als auch &lt;Ausdruck2> müssen boolesch sein. Das Ergebni
 
 Beispiel:
 
-```
+```json
 3.14 > 2 or 3.15 < 1
 ```
 
@@ -70,7 +70,7 @@ Beispiel:
 
 
 
-```
+```json
 not <expression>
 ```
 
@@ -78,7 +78,7 @@ not <expression>
 
 Beispiel:
 
-```
+```json
 not 3.15 < 1
 ```
 
@@ -88,7 +88,7 @@ not 3.15 < 1
 
 
 
-```
+```json
 <expression> is null
 ```
 
@@ -98,7 +98,7 @@ Beachten Sie, dass null bedeutet, dass der Ausdruck keinen ausgewerteten Wert ha
 
 Beispiel:
 
-```
+```json
 @{BarBeacon.location} is null
 ```
 
@@ -106,7 +106,7 @@ Beispiel:
 
 
 
-```
+```json
 <expression> is not null
 ```
 
@@ -116,7 +116,7 @@ Beachten Sie, dass null bedeutet, dass der Ausdruck keinen ausgewerteten Wert ha
 
 Beispiel:
 
-```
+```json
 @ is not null
 ```
 
@@ -124,7 +124,7 @@ Beispiel:
 
 
 
-```
+```json
 <expression> has null
 ```
 
@@ -134,11 +134,11 @@ Nützlich, um zu ermitteln, dass eine Liste mindestens einen Nullwert enthält.
 
 Beispiel:
 
-```
+```json
 ["foo", "bar", null] has null --  returns true.
 ```
 
-```
+```json
 ["foo", "bar", ""] has null -- returns false because "" is not considered as null.
 ```
 
@@ -146,7 +146,7 @@ Beispiel:
 
 
 
-```
+```json
 <expression1> == <expression2>
 ```
 
@@ -154,11 +154,11 @@ Sowohl &lt;Ausdruck1> als auch &lt;Ausdruck2> müssen denselben Datentyp aufweis
 
 Beispiel:
 
-```
+```json
 3.14 == 42
 ```
 
-```
+```json
 "foo" == "bar"
 ```
 
@@ -166,7 +166,7 @@ Beispiel:
 
 
 
-```
+```json
 <expression1> != <expression2>
 ```
 
@@ -174,11 +174,11 @@ Sowohl &lt;Ausdruck1> als auch &lt;Ausdruck2> müssen denselben Datentyp aufweis
 
 Beispiel:
 
-```
+```json
 3.14 != 42
 ```
 
-```
+```json
 "foo" != "bar"
 ```
 
@@ -186,7 +186,7 @@ Beispiel:
 
 
 
-```
+```json
 <expression1> > <expression2>
 ```
 
@@ -202,7 +202,7 @@ Das Ergebnis ist boolesch.
 
 Beispiel:
 
-```
+```json
 3.14 > 42
 ```
 
@@ -210,7 +210,7 @@ Beispiel:
 
 
 
-```
+```json
 <expression1> >= <expression2>
 ```
 
@@ -226,7 +226,7 @@ Das Ergebnis ist boolesch.
 
 Beispiel:
 
-```
+```json
 42 >= 3.14
 ```
 
@@ -234,7 +234,7 @@ Beispiel:
 
 
 
-```
+```json
 <expression1> < <expression2>
 ```
 
@@ -250,7 +250,7 @@ Das Ergebnis ist boolesch.
 
 Beispiel:
 
-```
+```json
 42 < 3.14
 ```
 
@@ -258,7 +258,7 @@ Beispiel:
 
 
 
-```
+```json
 <expression1> <= <expression2>
 ```
 
@@ -274,7 +274,7 @@ Das Ergebnis ist boolesch.
 
 Beispiel:
 
-```
+```json
 42 <= 3.14
 ```
 
@@ -284,7 +284,7 @@ Beispiel:
 
 
 
-```
+```json
 <expression1> + <expression2>
 ```
 
@@ -294,7 +294,7 @@ Das Ergebnis ist ebenfalls numerisch.
 
 Beispiel:
 
-```
+```json
 1 + 2 -- returns 3
 ```
 
@@ -302,7 +302,7 @@ Beispiel:
 
 
 
-```
+```json
 <expression1> - <expression2>
 ```
 
@@ -312,7 +312,7 @@ Das Ergebnis ist ebenfalls numerisch.
 
 Beispiel:
 
-```
+```json
 2 - 1 -- returns 1
 ```
 
@@ -320,7 +320,7 @@ Beispiel:
 
 
 
-```
+```json
 <expression1> / <expression2>
 ```
 
@@ -332,7 +332,7 @@ Das Ergebnis ist ebenfalls numerisch.
 
 Beispiel:
 
-```
+```json
 4 / 2 -- returns 2
 ```
 
@@ -340,7 +340,7 @@ Beispiel:
 
 
 
-```
+```json
 <expression1> * <expression2>
 ```
 
@@ -350,7 +350,7 @@ Das Ergebnis ist ebenfalls numerisch.
 
 Beispiel:
 
-```
+```json
 3 * 4 -- returns 12
 ```
 
@@ -358,7 +358,7 @@ Beispiel:
 
 
 
-```
+```json
 <expression1> % <expression2>
 ```
 
@@ -368,7 +368,7 @@ Das Ergebnis ist ebenfalls numerisch.
 
 Beispiel:
 
-```
+```json
 3 % 2 -- returns 1.
 ```
 
@@ -378,7 +378,7 @@ Beispiel:
 
 
 
-```
+```json
 <expression> is numeric
 ```
 
@@ -386,7 +386,7 @@ Der Typ des Ausdrucks ist Ganzzahl oder Dezimalzahl.
 
 Beispiel:
 
-```
+```json
 @ is numeric
 ```
 
@@ -394,7 +394,7 @@ Beispiel:
 
 
 
-```
+```json
 <expression> is integer
 ```
 
@@ -402,7 +402,7 @@ Der Typ des Ausdrucks ist Ganzzahl.
 
 Beispiel:
 
-```
+```json
 @ is integer
 ```
 
@@ -410,7 +410,7 @@ Beispiel:
 
 
 
-```
+```json
 <expression> is decimal
 ```
 
@@ -418,7 +418,7 @@ Der Typ des Ausdrucks ist Dezimalzahl.
 
 Beispiel:
 
-```
+```json
 @ is decimal
 ```
 
@@ -428,11 +428,11 @@ Beispiel:
 
 
 
-```
+```json
 <string> + <expression>
 ```
 
-```
+```json
 <expression> + <string>
 ```
 
@@ -442,15 +442,15 @@ Ein Ausdruck muss eine verkettete Zeichenfolge sein.
 
 Beispiel:
 
-```
+```json
 "the current time is " + (now()) -- returns "the current time is 2019-09-23T09:30:06.693Z"
 ```
 
-```
+```json
 (now()) + " is the current time" -- returns "2019-09-23T09:30:06.693Z is the current time"
 ```
 
-```
+```json
 "a" + "b" + "c" + 1234 -- returns "abc1234".
 ```
 
@@ -460,7 +460,7 @@ Beispiel:
 
 
 
-```
+```json
 <expression> + <duration>
 ```
 
@@ -468,18 +468,18 @@ Anhängen einer Dauer an einen „dateTime“, einen „dateTimeOnly“ oder ein
 
 Beispiel:
 
-```
+```json
 toDateTime("2011-12-03T15:15:30Z") + toDuration("PT15M") -- returns 2011-12-03T15:30:30Z
 ```
 
-```
+```json
 toDateTimeOnly("2011-12-03T15:15:30") + toDuration("PT15M") -- returns 2011-12-03T15:30:30
 ```
 
-```
+```json
 now() + toDuration("PT1H") -- returns a dateTime (with UTC time zone) one hour later from current time
 ```
 
-```
+```json
 toDuration("PT1H") + toDuration("PT1H") -- returns  PT2H
 ```

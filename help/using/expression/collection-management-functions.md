@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: e80b04fe-b2d3-4c1b-ba22-7e37a9ad1d57
-source-git-commit: e0bf1a6f9c160b72da28feaca1ca52665f365630
+source-git-commit: 579e5a0dbdc11369248c2683c399b090130a7262
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 100%
+source-wordcount: '601'
+ht-degree: 82%
 
 ---
 
@@ -19,7 +19,7 @@ Die Ausdruckssprache bietet auch eine Reihe von Funktionen zum Abfragen von Samm
 
 Diese Funktionen werden nachfolgend erläutert. In den folgenden Beispielen verwenden wir die Ereignis-Payload, die eine Sammlung enthält:
 
-```
+```json
                 { 
    "_experience":{ 
       "campaign":{ 
@@ -63,7 +63,7 @@ Diese Funktionen werden nachfolgend erläutert. In den folgenden Beispielen verw
 
 Die Funktion **[!UICONTROL all]** ermöglicht mithilfe eines booleschen Ausdrucks die Definition eines Filters für eine bestimmte Sammlung.
 
-```
+```json
 <listExpression>.all(<condition>)
 ```
 
@@ -73,9 +73,9 @@ In einer Aktivität des Typs „Bedingung der Datenquelle“ können Sie überpr
 
 **Beispiel 1:**
 
-Wir möchten überprüfen, ob ein Anwender eine bestimmte Version einer App installiert hat. Zu diesem Zweck rufen wir alle Push-Benachrichtigungstoken für Apps mit der Version 1.0 ab. Anschließend führen wir eine Bedingung mit der Funktion **[!UICONTROL count]** aus, um zu überprüfen, ob die zurückgegebene Liste von Tokens mindestens ein Element enthält.
+Wir möchten überprüfen, ob ein Anwender eine bestimmte Version einer App installiert hat. Dazu erhalten wir alle Push-Benachrichtigungstoken, die mit Mobile Apps verknüpft sind, deren Version 1.0 ist. Anschließend führen wir eine Bedingung mit dem **[!UICONTROL count]** -Funktion, um zu überprüfen, ob die zurückgegebene Token-Liste mindestens ein Element enthält.
 
-```
+```json
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
 ```
 
@@ -85,7 +85,7 @@ Das Ergebnis ist wahr.
 
 Hier verwenden wir die Funktion **[!UICONTROL count]**, um zu überprüfen, ob in der Sammlung Push-Benachrichtigungstoken vorhanden sind.
 
-```
+```json
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) > 0
 ```
 
@@ -93,7 +93,7 @@ Das Ergebnis ist wahr.
 
 <!--Alternatively, you can check if there is no token in the collection:
 
-   ```
+   ```json
    count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) == 0
    ```
 
@@ -119,7 +119,7 @@ earlier timestamp) in order to only consider prior events.-->
 >Wenn die Filterbedingung in der Funktion **all()** leer ist, gibt der Filter alle Elemente in der Liste zurück. **Um jedoch die Anzahl der Elemente einer Sammlung zu zählen, ist die Funktion „all“ nicht erforderlich.**
 
 
-```
+```json
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.token})
 ```
 
@@ -129,7 +129,7 @@ Das Ergebnis des Ausdrucks ist **3**.
 
 Hier prüfen wir, ob ein Kontakt innerhalb der letzten 24 Stunden keine Mitteilungen erhalten hat. Wir filtern die Sammlung von Erlebnisereignissen, die aus der Experience Platform-Datenquelle abgerufen wurden, mithilfe von zwei Ausdrücken, die auf zwei Elementen der Sammlung basieren. Insbesondere wird der Zeitstempel des Ereignisses mit dem von der Funktion **[!UICONTROL nowWithDelta]** zurückgegebenen Wert „dateTime“ verglichen.
 
-```
+```json
 count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
    currentDataPackField.directMarketing.sends.value > 0 and
    currentDataPackField.timestamp > nowWithDelta(-1, "days")).timestamp}) == 0
@@ -139,9 +139,9 @@ Das Ergebnis ist wahr, wenn es kein Erlebnisereignis gibt, das den beiden Beding
 
 **Beispiel 4:**
 
-Hier möchten wir überprüfen, ob ein Kontakt in den letzten 7 Tagen mindestens einmal eine App gestartet hat, um z. B. eine Push-Benachrichtigung auszulösen, die den Kontakt zum Start eines Tutorials einlädt.
+Hier möchten wir überprüfen, ob eine Person in den letzten sieben Tagen mindestens einmal eine Anwendung gestartet hat, um beispielsweise eine Push-Benachrichtigung Trigger, in der sie zum Starten eines Tutorials eingeladen wird.
 
-```
+```json
 count(
  #{ExperiencePlatform.AnalyticsData.experienceevent.all(
  nowWithDelta(-7,"days") <= currentDataPackField.timestamp
@@ -182,9 +182,9 @@ _`<listExpression>.last(<condition>)`_
 
 **Beispiel 1:**
 
-Dieser Ausdruck gibt das erste Push-Benachrichtigungstoken zurück, das mit Apps verknüpft ist, deren Version 1.0 ist.
+Dieser Ausdruck gibt das erste Push-Benachrichtigungstoken zurück, das mit Apps verknüpft ist, für die die Version 1.0 ist.
 
-```
+```json
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.first(currentEventField.application.version == "1.0").token
 ```
 
@@ -192,9 +192,9 @@ Das Ergebnis ist „token_1“.
 
 **Beispiel 2:**
 
-Dieser Ausdruck gibt das letzte Push-Benachrichtigungstoken zurück, das mit Apps verknüpft ist, deren Version 1.0 ist.
+Dieser Ausdruck gibt das letzte Push-Benachrichtigungstoken zurück, das mit Apps verknüpft ist, für die die Version 1.0 ist.
 
-```
+```json
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.last&#8203;(currentEventField.application.version == "1.0").token}
 ```
 
@@ -203,6 +203,7 @@ Das Ergebnis ist „token_2“.
 >[!NOTE]
 >
 >Die Erlebnisereignisse werden von Adobe Experience Platform als Sammlung in umgekehrter chronologischer Reihenfolge abgerufen. Entsprechend gilt:
+>
 >* Die Funktion **[!UICONTROL first]** gibt das neueste Ereignis zurück.
 >* Die Funktion **[!UICONTROL last]** gibt das älteste zurück.
 
@@ -211,7 +212,7 @@ Das Ergebnis ist „token_2“.
 
 Wir prüfen, ob das erste (neueste) Adobe Analytics-Ereignis mit einem Wert ungleich null für die DMA-ID den Wert „602“ hat.
 
-```
+```json
 #{ExperiencePlatform.AnalyticsProd_EvarsProps.experienceevent.first(
 currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
 ```
@@ -227,7 +228,7 @@ _`<listExpression>`.at(`<index>`)_
 
 Dieser Ausdruck gibt das zweite Push-Benachrichtigungstoken der Liste zurück.
 
-```
+```json
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.at(1).token}
 ```
 
@@ -235,12 +236,12 @@ Das Ergebnis ist „token_2“.
 
 **Weitere Beispiele**
 
-```
+```json
 #{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent. all(currentDataPackField._aepgdcdevenablement2.purchase_event.receipt_nbr == "10-337-4016"). 
 _aepgdcdevenablement2.purchase_event.productListItems. all(currentDataPackField.SKU == "AB17 1234 1775 19DT B4DR 8HDK 762").name}
 ```
 
-```
+```json
  #{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.last(
 currentDataPackField.eventType == "commerce.productListAdds").productListItems.last(currentDataPackField.priceTotal >= 150).name}
 ```

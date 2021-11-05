@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: a60640f91e80becd2769d647b762ca2225f9e9b2
-workflow-type: ht
-source-wordcount: '2971'
-ht-degree: 100%
+source-git-commit: d09d70a0ec2720c5a75385b9036bf3a6ab74f4ab
+workflow-type: tm+mt
+source-wordcount: '3075'
+ht-degree: 96%
 
 ---
 
@@ -17,6 +17,30 @@ ht-degree: 100%
 
 Auf dieser Seite werden alle neuen Funktionen und Verbesserungen bei Journey Orchestration aufgelistet.
 Sie können auch die neusten [Aktualisierungen der Dokumentation](../release-notes/documentation-updates.md) einsehen.
+
+## Version Oktober 2021 {#october-2021-release}
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Profile cap condition</strong><br/></th>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>When using a <strong>Condition</strong> activity in a journey, you can now define a <strong>Profile cap</strong> condition. This new condition type allows you set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path. This allows you to optimize your IP ramp up. For example, you may want to ramp up your deliveries on a domain to 50 millions by splitting the execution: send 1000 messages on day 1, 2000 on day 2, etc.</p>
+<p>For more information, refer to the <a href="../building-journeys/condition-activity.md#profile_cap}">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+### Verbesserungen
+
+* **Ausdruckseditor** - Als Power User können Sie jetzt Funktionen verwenden, um mit Karten zu arbeiten. [Weitere Informationen](../expression/field-references.md)
+* **Zugänglichkeit** - Verbesserungen der Barrierefreiheit wurden implementiert. Die Barrierefreiheit von Journey Orchestration ist jetzt vollständig gewährleistet.
+* **Sammlungen** - Arrays von Objekten, die Unterobjekte enthalten, werden jetzt unterstützt. [Mehr dazu](../usecase/collections.md)
+* **Überwachung** - Schrittereignisse für Live-Journey und Testmodus wurden verbessert. [Neue Felder](../building-journeys/sharing-field-list.md#serviceevents) wurden im Zusammenhang mit Profilexportaufträgen hinzugefügt. Für ein besseres Benutzererlebnis sind die Schrittereignisfelder nun im Journey Schritt-Ereignisschema zur Journey Orchestration in verschiedene Kategorien unterteilt. Alle Felder für vorhergehende Schrittereignisse sind weiterhin im [stepEvents](../building-journeys/sharing-legacy-fields.md) Kategorie.
 
 ## Version September 2021 {#september-2021-release}
 

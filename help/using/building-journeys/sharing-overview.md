@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
-source-git-commit: ec5337e6b2df126370b55e1466fc5027659441fe
-workflow-type: ht
-source-wordcount: '453'
-ht-degree: 100%
+source-git-commit: b557e94076bc7ce5c212246ddf313248ca10dd60
+workflow-type: tm+mt
+source-wordcount: '441'
+ht-degree: 98%
 
 ---
 
@@ -53,10 +53,7 @@ Die folgenden Datensätze werden übergeben:
 
 Die Listen der XDM-Felder, die an Adobe Experience Platform übergeben werden, werden hier beschrieben:
 
-* [Gemeinsame Felder für journeySteps-Ereignisse](../building-journeys/sharing-common-fields.md)
-* [Aktionsausführungsfelder für journeyStep-Ereignisse](../building-journeys/sharing-execution-fields.md)
-* [Datenabruffelder für journeyStep-Ereignisse](../building-journeys/sharing-fetch-fields.md)
-* [Identitätsfelder für journeyStep-Ereignisse](../building-journeys/sharing-identity-fields.md)
-* [Journey-Felder](../building-journeys/sharing-journey-fields.md)
+* [Schrittereignisfeldliste](../building-journeys/sharing-field-list.md)
+* [Ereignisfelder für veraltete Schritte](../building-journeys/sharing-legacy-fields.md)
 
 Weiterführende Informationen zu Berichten über Schrittereignisse an Adobe Experience Platform finden Sie in diesem [Tutorial-Video](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html?lang=de).
