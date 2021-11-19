@@ -6,9 +6,9 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 751fdcde-0af5-4f98-8cea-aae3ebefdb04
-source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
+source-git-commit: a5d063784b278120b61f8d2641264baf40e34a90
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '60'
 ht-degree: 100%
 
 ---
@@ -40,10 +40,6 @@ Gibt einen booleschen Wert zurück.
 
 ## Beispiel
 
-`matchRegExp("Hello World", "Hello\s+World")`
+`matchRegExp("username@adobe.com", "*adobe")`
 
 Gibt „true“ zurück.
-
-Erklärung:
-
-Hier prüfen Sie, ob die Zeichenfolge den regulären Ausdruck (Java-Syntax) erfüllt: beginnt mit „Hello“, gefolgt von einer beliebigen Zeichenfolge, und endet mit „World“.

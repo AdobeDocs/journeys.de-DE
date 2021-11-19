@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
-source-git-commit: 601bed30d3c414f03c60ef52c787372e778dee54
+source-git-commit: a5d063784b278120b61f8d2641264baf40e34a90
 workflow-type: tm+mt
 source-wordcount: '492'
-ht-degree: 90%
+ht-degree: 82%
 
 ---
 
@@ -30,7 +30,7 @@ Die Erlebnisereignisse werden von Adobe Experience Platform als Sammlung in umge
 * Die Funktion „first“ gibt das neueste Ereignis zurück.
 * Die Funktion „last“ gibt das älteste zurück.
 
-Angenommen, Sie möchten Kunden mit einem Warenkorbabbruch in den letzten sieben Tagen ansprechen. Dazu möchten Sie diesen Kunden, wenn sie sich in der Nähe eines Stores befinden, eine Nachricht mit einem Angebot für Artikel in diesem Store senden, an denen die Kunden interessiert sind.
+Angenommen, Sie möchten Kunden mit einem Warenkorbabbruch in den letzten sieben Tagen ansprechen, um eine Nachricht zu senden, wenn sich der Kunde in der Nähe eines Stores befindet, mit einem Angebot zu Artikeln, die er wünschte und die im Geschäft sind.
 
 **Erstellen Sie dazu die folgenden Bedingungen:**
 
@@ -76,7 +76,7 @@ Dieser Ausdruck gibt einen booleschen Wert zurück.
 
 `#{Inventory.fieldgroup3.quantity} > 0`
 
-* Rechts werden die erforderlichen Werte angegeben. Hier müssen wir den Speicherort des Stores abrufen, der vom Speicherort des Ereignisses &quot;ArriveLumaStudio&quot;zugeordnet ist:
+* Rechts werden die erforderlichen Werte angegeben. Hier müssen wir den Speicherort des Stores abrufen, der vom Speicherort des Ereignisses &quot;ArriveLumaStudio&quot;zugeordnet wird:
 
 `#{ArriveLumaStudio._acpevangelists1.location.location}`
 
@@ -127,15 +127,20 @@ Die gleiche Abfrage mit der deaktivierten Option `Is sensitive` generiert den fo
 Mit dem folgenden Ausdruck können Sie die CRM-ID in einem Feld zur Aktionspersonalisierung definieren:
 
 ```json
-    substr(@{MobileAppLaunch
-            ._myorganization
-            .identification
-            .crmid}, 1, 
-            lastIndexOf(@{MobileAppLaunch
-                        ._myorganization
-                        .identification
-                        .crmid}
-                         ))
+substr(
+   @{MobileAppLaunch
+   ._myorganization
+   .identification
+   .crmid},
+   1, 
+   lastIndexOf(
+     @{MobileAppLaunch
+     ._myorganization
+     .identification
+     .crmid},
+     '}'
+   )
+)
 ```
 
 Erläuterung: In diesem Beispiel werden die `substr`- und `lastIndexOf`-Funktionen verwendet, um geschweifte Klammern zu entfernen, die die CRM-ID einschließen, die bei einem App-Startereignis übergeben wurde.
