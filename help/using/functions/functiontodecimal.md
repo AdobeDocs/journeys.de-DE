@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 11d7013c-2190-4654-8466-920861c836f5
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '71'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,7 @@ Konversion
 | Zeichenfolge | konvertiert den Zeichenfolgenwert in eine Dezimalzahl |
 | dateTime | konvertiert das Datum in die Zahl der Millisekunden (Millisekunden der Epoche) |
 | boolean | wandelt den booleschen Wert in 1 um, wenn „true“, und in 0, wenn „false“ |
-| Ganzzahl | konvertiert in eine Dezimalzahl (Beispiel: 1 wird zu 1.0) |
+| integer | konvertiert in eine Dezimalzahl (Beispiel: 1 wird zu 1.0) |
 
 ## Signaturen und zurückgegebene Typen
 

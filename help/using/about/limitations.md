@@ -8,7 +8,7 @@ level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '518'
 ht-degree: 100%
 
 ---
@@ -56,7 +56,7 @@ Im Zusammenhang mit der Verwendung von Journey Orchestration gibt es Einschränk
 * Für systemgenerierte Ereignisse müssen Streaming-Daten, die zur Initiierung einer Customer Journey verwendet werden, zunächst innerhalb von Journey Orchestration konfiguriert werden, um eine eindeutige Orchestrierungs-ID zu erhalten. Diese Orchestrierungs-ID muss an die Streaming-Payload angehängt werden, die in Adobe Experience Platform eingeht. Diese Einschränkung gilt nicht für regelbasierte Ereignisse.
  
 
-## Einschränkungen bei Datenquellen
+## Datenquellen Einschränkungen
 
 * Externe Datenquellen können innerhalb einer Customer Journey genutzt werden, um externe Daten in Echtzeit zu suchen. Diese Quellen müssen über die REST-API nutzbar sein, JSON unterstützen und in der Lage sein, das Anfragevolumen zu verarbeiten.
 

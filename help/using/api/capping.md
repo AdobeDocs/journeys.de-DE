@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
 source-git-commit: a32a208fcaef9a408c850c0ad74ab44e3eb44709
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1173'
 ht-degree: 100%
 
@@ -187,7 +187,7 @@ Anwendungsfall 1: **Erstellen und Bereitstellen einer neuen Begrenzungskonfigura
 
 Anwendungsfall 2: **Aktualisieren und Bereitstellen einer noch nicht bereitgestellten Begrenzungskonfiguration**
 
-1. list
+1. Liste
 1. get
 1. update
 1. candeploy
@@ -195,19 +195,19 @@ Anwendungsfall 2: **Aktualisieren und Bereitstellen einer noch nicht bereitgeste
 
 Anwendungsfall 3: **Aufheben einer Bereitstellung und Löschen einer bereitgestellten Begrenzungskonfiguration**
 
-1. list
+1. Liste
 1. undeploy
 1. delete
 
 Anwendungsfall 4: **Löschen einer bereitgestellten Begrenzungskonfiguration.**
 
 In nur einem API-Aufruf können Sie die Bereitstellung aufheben und die Konfiguration mithilfe des forceDelete-Parameters löschen.
-1. list
+1. Liste
 1. delete mit forceDelete-Parameter
 
 Anwendungsfall 5: **Aktualisieren einer bereits bereitgestellten Begrenzungskonfiguration**
 
-1. list
+1. Liste
 1. get
 1. update
 1. undeploy

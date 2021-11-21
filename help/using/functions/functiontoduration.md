@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 77f068fa-678e-49a4-b45f-843c3287390a
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '279'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Konversion
 | Parameter | Beschreibung |
 |--- |--- |
 | Zeichenfolge | Formate, die auf dem ISO 8601-Dauerformat PnDTnHnMn.nS basieren, wobei Tage als genau 24 Stunden betrachtet werden. |
-| Ganzzahl | Zahl der Millisekunden |
+| integer | Zahl der Millisekunden |
 
 Wenn Zeichenfolgenausdruck: Akzeptierte Formate basieren auf dem ISO 8601-Dauerformat PnDTnHnMn.nS, wobei Tage als genau 24 Stunden betrachtet werden.
 

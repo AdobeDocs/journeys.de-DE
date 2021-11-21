@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 47d31b56-b0ed-426d-bd79-3db3e441454b
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '44'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Datum
 | Parameter | Typ |
 |-----------|------------------|
 | Datum/Uhrzeit | dateTime |
-| delta | Ganzzahl |
+| delta | integer |
 
 ## Signaturen und zurückgegebener Typ
 

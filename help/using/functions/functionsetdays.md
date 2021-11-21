@@ -8,8 +8,8 @@ level: Experienced
 exl-id: eee7bf61-9101-4959-aa93-27d0f221c517
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 96%
+source-wordcount: '74'
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Datum
 |--- |--- |
 | Datum/Uhrzeit | dateTime |
 | Datum/Uhrzeit ohne Berücksichtigung der Zeitzone | dateTimeOnly |
-|  Tage | Ganzzahl |
+|  Tage | integer |
 
 ## Signaturen und zurückgegebener Typ
 
@@ -47,6 +47,6 @@ Gibt einen Datum/Uhrzeit-Wert ohne Berücksichtigung der Zeitzone zurück.
 
 `setDays(toDateTime('2010-12-12T01:11:00Z'), 25)`
 
-Gibt 2010-12-25T01:11:00Z zurück.
+Gibt 2010-25-12T01:11:00Z zurück.
 
 `setDays(toDateTimeOnly(@{MyEvent.registrationDate}), 1)`

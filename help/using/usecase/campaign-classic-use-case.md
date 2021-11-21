@@ -1,8 +1,8 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: Senden einer Nachricht mit Campaign v7/v8
-description: Senden einer Nachricht mit Campaign v7/v8
+title: Senden von Nachrichten mit Campaign v7/v8
+description: Senden von Nachrichten mit Campaign v7/v8
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 source-git-commit: 3e78e429bbdfc95bfef74e0f2e2b92f8ff17cfdb
 workflow-type: tm+mt
@@ -11,7 +11,7 @@ ht-degree: 100%
 
 ---
 
-# Senden einer Nachricht mit Campaign v7/v8 {#campaign-classic-use-case}
+# Senden von Nachrichten mit Campaign v7/v8 {#campaign-classic-use-case}
 
 In diesem Anwendungsbeispiel werden alle Schritte vorgestellt, die zum Senden einer E-Mail mithilfe der Integration mit Adobe Campaign Classic v7 und Adobe Campaign v8 erforderlich sind.
 
