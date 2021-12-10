@@ -8,7 +8,7 @@ feature: Journeys
 source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -88,8 +88,8 @@ ht-degree: 96%
    + [Veröffentlichen der Journey](using/building-journeys/publishing-the-journey.md)
    + Freigabe von Journey-Schritten mit Adobe Experience Platform {#sharing-journey-steps}
       + [Übersicht über die Freigabe von Journey-Schritten](using/building-journeys/sharing-overview.md)
-      + [Schrittereignisfeldliste](using/building-journeys/sharing-field-list.md)
-      + Ereignisfelder für veraltete Schritte {#legacy-step-event-fields}
+      + [Liste für Schrittereignisfelder](using/building-journeys/sharing-field-list.md)
+      + Veraltete Schrittereignisfelder {#legacy-step-event-fields}
          + [Über veraltete Felder](using/building-journeys/sharing-legacy-fields.md)
          + [Gemeinsame Felder für journeySteps-Ereignisse](using/building-journeys/sharing-common-fields.md)
          + [Aktionsausführungsfelder für journeyStep-Ereignisse](using/building-journeys/sharing-execution-fields.md)
@@ -97,14 +97,14 @@ ht-degree: 96%
          + [Identitätsfelder für journeyStep-Ereignisse](using/building-journeys/sharing-identity-fields.md)
          + [Journey-Felder](using/building-journeys/sharing-journey-fields.md)
       + [Beispiele für Abfragen](using/building-journeys/query-examples.md)
-+ Ausdrücke erstellen {#building-advanced-conditions-journeys}
++ Erstellen von Ausdrücken {#building-advanced-conditions-journeys}
    + [Übersicht](using/expression/expressionadvanced.md)
    + Syntax {#syntax}
       + [Allgemeines](using/expression/generalities.md)
       + [Bedingte Anweisung](using/expression/conditional-instruction.md)
       + [Datentypen](using/expression/data-types.md)
       + [Feldverweise](using/expression/field-references.md)
-      + [Funktionen zur Verwaltung von Sammlungen](using/expression/collection-management-functions.md)
+      + [Funktionen zur Verwaltung von Kollektionen](using/expression/collection-management-functions.md)
       + [Operatoren](using/expression/operators.md)
       + [Journey-Eigenschaften](using/expression/journey-properties.md)
       + [Beispiele](using/expression/advanced-editor-use-cases.md)

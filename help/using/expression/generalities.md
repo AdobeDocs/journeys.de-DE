@@ -44,4 +44,4 @@ Je nach Verwendungskontext kann der Ausdruckseditor verschiedene Werte zurückge
 |--- |--- |
 | Bedingung (Bedingung der Datenquelle, Bedingung für das Datum) | boolean |
 | Benutzerdefinierter Timer | dateTimeOnly |
-| Zuordnung von Aktionsparametern | Eines |
+| Zuordnung von Aktionsparametern | Beliebig |

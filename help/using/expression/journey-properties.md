@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Attribute der Journey-Eigenschaften {#journey-properties}
 
-Im erweiterten Ausdruckseditor finden Sie die Kategorie **Journey-Eigenschaften** unter den Kategorien „Ereignis“ und „Datenquelle“. Diese Kategorie enthält technische Felder, die sich auf die Journey eines bestimmten Profils beziehen. Dabei handelt es sich um die Informationen, die das System von Live-Journeys abruft, wie z. B. die Journey-ID oder die spezifischen aufgetretenen Fehler.
+Im erweiterten Ausdruckseditor finden Sie die Kategorie **Journey-Eigenschaften** unter den Kategorien „Ereignis“ und „Datenquelle“. Diese Kategorie enthält technische Felder, die sich auf die Journey eines bestimmten Profils beziehen. Dabei handelt es sich um die Informationen, die das System von Live-Journeys abruft, wie z. B. die Journey-ID oder die aufgetretenen Fehler.
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ Im Folgenden finden Sie einige Beispiele für Anwendungsfälle:
 
 ## Liste der Felder {#journey-properties-fields}
 
-| Kategorie | Feldname | Beschriftung | Beschreibung |
+| Kategorie | Feldname | Kennzeichnung | Beschreibung |
 |---|---|---|------------|
 | Journey-Version | journeyUID | Journey-Kennung |  |
 |  | journeyVersionUID | Versionskennung der Journey |  |

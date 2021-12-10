@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: Funktionen zur Verwaltung von Sammlungen
+title: Funktionen zur Verwaltung von Kollektionen
 description: Erfahren Sie mehr über die Datentypen in den Funktionen zur Verwaltung von Sammlungen
 feature: Journeys
 role: Data Engineer
@@ -9,11 +9,11 @@ exl-id: e80b04fe-b2d3-4c1b-ba22-7e37a9ad1d57
 source-git-commit: 579e5a0dbdc11369248c2683c399b090130a7262
 workflow-type: tm+mt
 source-wordcount: '601'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
-# Funktionen zur Verwaltung von Sammlungen {#collection-management-functions}
+# Funktionen zur Verwaltung von Kollektionen {#collection-management-functions}
 
 Die Ausdruckssprache bietet auch eine Reihe von Funktionen zum Abfragen von Sammlungen.
 
@@ -73,7 +73,7 @@ In einer Aktivität des Typs „Bedingung der Datenquelle“ können Sie überpr
 
 **Beispiel 1:**
 
-Wir möchten überprüfen, ob ein Anwender eine bestimmte Version einer App installiert hat. Dazu erhalten wir alle Push-Benachrichtigungstoken, die mit Mobile Apps verknüpft sind, deren Version 1.0 ist. Anschließend führen wir eine Bedingung mit dem **[!UICONTROL count]** -Funktion, um zu überprüfen, ob die zurückgegebene Token-Liste mindestens ein Element enthält.
+Wir möchten überprüfen, ob ein Anwender eine bestimmte Version einer App installiert hat. Zu diesem Zweck rufen wir alle Push-Benachrichtigungs-Token für Mobile Apps mit der Version 1.0 ab. Anschließend führen wir eine Bedingung mit der Funktion **[!UICONTROL Zählen]** aus, um zu überprüfen, ob die zurückgegebene Liste von Tokens mindestens ein Element enthält.
 
 ```json
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
@@ -139,7 +139,7 @@ Das Ergebnis ist wahr, wenn es kein Erlebnisereignis gibt, das den beiden Beding
 
 **Beispiel 4:**
 
-Hier möchten wir überprüfen, ob eine Person in den letzten sieben Tagen mindestens einmal eine Anwendung gestartet hat, um beispielsweise eine Push-Benachrichtigung Trigger, in der sie zum Starten eines Tutorials eingeladen wird.
+Hier möchten wir überprüfen, ob ein Kontakt in den letzten sieben Tagen mindestens einmal ein Programm gestartet hat, um z. B. eine Push-Benachrichtigung auszulösen, die den Kontakt zum Ansehen eines Tutorials einlädt.
 
 ```json
 count(
@@ -182,7 +182,7 @@ _`<listExpression>.last(<condition>)`_
 
 **Beispiel 1:**
 
-Dieser Ausdruck gibt das erste Push-Benachrichtigungstoken zurück, das mit Apps verknüpft ist, für die die Version 1.0 ist.
+Dieser Ausdruck gibt das erste Push-Benachrichtigungs-Token zurück, das mit Mobile Apps verknüpft ist, deren Version 1.0 ist.
 
 ```json
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.first(currentEventField.application.version == "1.0").token
@@ -192,7 +192,7 @@ Das Ergebnis ist „token_1“.
 
 **Beispiel 2:**
 
-Dieser Ausdruck gibt das letzte Push-Benachrichtigungstoken zurück, das mit Apps verknüpft ist, für die die Version 1.0 ist.
+Dieser Ausdruck gibt das letzte Push-Benachrichtigungs-Token zurück, das mit Mobile Apps verknüpft ist, deren Version 1.0 ist.
 
 ```json
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.last&#8203;(currentEventField.application.version == "1.0").token}

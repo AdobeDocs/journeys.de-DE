@@ -9,7 +9,7 @@ exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
 source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
 source-wordcount: '637'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 
 Technisch gesehen enthält eine Konstante immer einen Datentyp. Wörtlich genommen geben wir nur den Wert an. Der Datentyp kann aus dem Wert abgeleitet werden (z. B. Zeichenfolge, Ganzzahl, Dezimalzahl usw.). Für bestimmte Fälle wie Datum und Uhrzeit verwenden wir spezielle Funktionen für die Darstellung.
 
-Die folgenden Abschnitte enthalten Informationen zu den verschiedenen Datentypausdrücken und dazu, wie sie dargestellt werden.
+In den folgenden Abschnitten finden Sie Informationen zu den verschiedenen Ausdrücken von Datentypen und wie sie dargestellt werden.
 
 ## Zeichenfolge {#string}
 

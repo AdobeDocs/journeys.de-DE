@@ -27,7 +27,7 @@ Zeichenfolge
 
 ## Parameter
 
-* Zeichenfolge
+* string
 
 ## Signatur und zurückgegebener Typ
 

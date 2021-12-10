@@ -9,7 +9,7 @@ exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
 source-git-commit: a5d063784b278120b61f8d2641264baf40e34a90
 workflow-type: tm+mt
 source-wordcount: '492'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Die Erlebnisereignisse werden von Adobe Experience Platform als Sammlung in umge
 * Die Funktion „first“ gibt das neueste Ereignis zurück.
 * Die Funktion „last“ gibt das älteste zurück.
 
-Angenommen, Sie möchten Kunden mit einem Warenkorbabbruch in den letzten sieben Tagen ansprechen, um eine Nachricht zu senden, wenn sich der Kunde in der Nähe eines Stores befindet, mit einem Angebot zu Artikeln, die er wünschte und die im Geschäft sind.
+Angenommen, Sie möchten Kunden mit einem Warenkorbabbruch in den letzten sieben Tagen ansprechen. Dazu möchten Sie diesen Kunden, wenn sie sich in der Nähe eines Geschäfts befinden, eine Nachricht mit einem Angebot für Artikel in diesem Geschäft senden, an denen die Kunden interessiert waren.
 
 **Erstellen Sie dazu die folgenden Bedingungen:**
 
@@ -46,9 +46,9 @@ Anschließend werden alle Ereignisse vom Typ addtocart ausgewählt, die nicht in
 
 >[!NOTE]
 >
->Um Felder schnell in den Ausdruck einzufügen, doppelklicken Sie auf das Feld im linken Bereich des Editors.
+>Um Felder schnell in den Ausdruck einzufügen, doppelklicken Sie auf das Feld im linken Panel des Editors.
 
-Der angegebene Zeitstempel dient als Datums- und Uhrzeitwert, der zweite als Anzahl von Tagen.
+Der angegebene Zeitstempel dient als der Datums-/Uhrzeitwert, der zweite bezeichnet die Anzahl der Tage.
 
 ```json
         in( "addToCart", #{ExperiencePlatformDataSource
@@ -76,7 +76,7 @@ Dieser Ausdruck gibt einen booleschen Wert zurück.
 
 `#{Inventory.fieldgroup3.quantity} > 0`
 
-* Rechts werden die erforderlichen Werte angegeben. Hier müssen wir den Speicherort des Stores abrufen, der vom Speicherort des Ereignisses &quot;ArriveLumaStudio&quot;zugeordnet wird:
+* Rechts werden die erforderlichen Werte angegeben. Hier müssen wir den Ort des Geschäfts abrufen, der der Position des Ereignisses „ArriveLumaStudio“ zugeordnet ist:
 
 `#{ArriveLumaStudio._acpevangelists1.location.location}`
 

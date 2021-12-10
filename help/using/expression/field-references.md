@@ -9,7 +9,7 @@ exl-id: 2f317306-9afd-4e9a-88b8-fc66102e1046
 source-git-commit: e4a003656058ac7ae6706e22fd5162c9e875629a
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Es wird eine Syntaxfarbe verwendet, um die Ereignisfelder (grün) optisch von Fe
 
 ## Standardwerte für Feldverweise
 
-Ein Standardwert kann mit einem Feldnamen verknüpft werden. Für die gilt folgende Syntax:
+Ein Standardwert kann mit einem Feldnamen verknüpft werden. Es gilt folgende Syntax:
 
 ```json
 // event field
@@ -88,11 +88,11 @@ expression examples:
 - #{ACP.Profile.person.age}                      -> null
 ```
 
-## Verweis auf ein Feld in Sammlungen
+## Verweis auf ein Feld in Kollektionen
 
-Die in Kollektionen definierten Elemente werden mithilfe der spezifischen Funktionen referenziert `all`, `first` und `last`. Weitere Informationen dazu finden Sie auf dieser [Seite](../expression/collection-management-functions.md).
+Auf die in Kollektionen definierten Elemente wird mit den speziellen Funktionen `all`, `first` und `last` verwiesen. Weitere Informationen dazu finden Sie auf dieser [Seite](../expression/collection-management-functions.md).
 
-Beispiel :
+Beispiel:
 
 ```json
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
@@ -102,7 +102,7 @@ Beispiel :
 
 ### `entry`-Funktion
 
-Um ein Element in einer Zuordnung abzurufen, verwenden Sie die Eingabefunktion mit einem bestimmten Schlüssel. Sie wird beispielsweise beim Definieren des Schlüssels eines Ereignisses je nach ausgewähltem Namespace verwendet. Siehe „Auswählen des Namespace“. Weitere Informationen finden Sie auf [dieser Seite](../event/selecting-the-namespace.md).
+Um ein Element in einer Zuordnung abzurufen, verwenden Sie die Eingabefunktion mit einem bestimmten Schlüssel. Sie wird beispielsweise verwendet, wenn der Schlüssel eines Ereignisses entsprechend dem ausgewählten Namespace definiert wird. Siehe „Auswählen des Namespace“. Weitere Informationen finden Sie auf [dieser Seite](../event/selecting-the-namespace.md).
 
 ```json
 @{MyEvent.identityMap.entry('Email').first().id}
@@ -112,35 +112,35 @@ In diesem Ausdruck erhalten wir den Eintrag für den Schlüssel „E-Mail“ des
 
 ### `firstEntryKey`-Funktion
 
-Um den ersten Eintragsschlüssel einer Zuordnung abzurufen, verwenden Sie die `firstEntryKey` -Funktion.
+Verwenden Sie die `firstEntryKey`-Funktion, um den ersten Eintragsschlüssel einer Zuordnung abzurufen.
 
-In diesem Beispiel wird gezeigt, wie die erste E-Mail-Adresse der Abonnenten einer bestimmten Liste abgerufen wird:
+In diesem Beispiel wird gezeigt, wie die erste E-Mail-Adresse der Abonnenten aus einer bestimmten Liste abgerufen wird:
 
 ```json
 #{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-email').subscribers.firstEntryKey()}
 ```
 
-In diesem Beispiel erhält die Abonnementliste den Namen `daily-email`. E-Mail-Adressen werden als Schlüssel im `subscribers` -Karte, die mit der Abonnementlisten-Karte verknüpft ist.
+In diesem Beispiel erhält die Abonnementliste den Namen `daily-email`. E-Mail-Adressen werden als Schlüssel in der Zuordnung `subscribers` definiert, die mit der Zuordnung der Abonnementliste verknüpft ist.
 
 ### `keys`-Funktion
 
-Um alle Schlüssel einer Zuordnung abzurufen, verwenden Sie die `keys` -Funktion.
+Um alle Schlüssel einer Zuordnung abzurufen, verwenden Sie die `keys`-Funktion.
 
-In diesem Beispiel wird gezeigt, wie für ein bestimmtes Profil alle E-Mail-Adressen abgerufen werden, die mit den Abonnenten einer bestimmten Liste verknüpft sind:
+In diesem Beispiel wird gezeigt, wie für ein bestimmtes Profil alle E-Mail-Adressen abgerufen werden, die mit den Abonnenten aus einer bestimmten Liste verknüpft sind:
 
 ```json
 #{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-mail').subscribers.keys()
 ```
 
-## Parameterwerte einer Datenquelle (von Datenquelle abhängige Werte)
+## Parameterwerte einer Datenquelle (dynamische Werte der Datenquelle)
 
-Wenn Sie ein Feld aus einer externen Datenquelle auswählen, für das ein Parameter aufgerufen werden muss, wird rechts eine neue Registerkarte angezeigt, auf der Sie diesen Parameter angeben können. Weitere Informationen finden Sie auf [dieser Seite](../expression/expressionadvanced.md).
+Wenn Sie ein Feld aus einer externen Datenquelle auswählen, für das ein Parameter aufgerufen werden muss, wird rechts eine neue Registerkarte angezeigt, auf der Sie diesen Parameter spezifizieren können. Weitere Informationen finden Sie auf [dieser Seite](../expression/expressionadvanced.md).
 
 Bei komplexeren Anwendungsfällen können Sie, wenn Sie die Parameter der Datenquelle in den Hauptausdruck einbeziehen möchten, deren Werte mit dem Keyword _params_ definieren. Ein Parameter kann ein beliebiger gültiger Ausdruck sein und selbst aus einer anderen Datenquelle stammen, die ebenfalls einen anderen Parameter enthält.
 
 >[!NOTE]
 >
->Wenn Sie die Parameterwerte im Ausdruck definieren, wird die Registerkarte rechts ausgeblendet.
+>Wenn Sie die Parameterwerte im Ausdruck definieren, wird die Registerkarte auf der rechten Seite ausgeblendet.
 
 Verwenden Sie die folgende Syntax:
 

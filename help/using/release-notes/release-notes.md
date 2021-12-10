@@ -9,7 +9,7 @@ exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: d09d70a0ec2720c5a75385b9036bf3a6ab74f4ab
 workflow-type: tm+mt
 source-wordcount: '3075'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -37,10 +37,10 @@ Sie können auch die neusten [Aktualisierungen der Dokumentation](../release-not
 
 ### Verbesserungen
 
-* **Ausdruckseditor** - Als Power User können Sie jetzt Funktionen verwenden, um mit Karten zu arbeiten. [Weitere Informationen](../expression/field-references.md)
+* **Ausdruckseditor** – Als Power User können Sie jetzt Funktionen verwenden, um mit Karten zu arbeiten. [Weitere Informationen](../expression/field-references.md)
 * **Zugänglichkeit** - Verbesserungen der Barrierefreiheit wurden implementiert. Die Barrierefreiheit von Journey Orchestration ist jetzt vollständig gewährleistet.
-* **Sammlungen** - Arrays von Objekten, die Unterobjekte enthalten, werden jetzt unterstützt. [Mehr dazu](../usecase/collections.md)
-* **Überwachung** - Schrittereignisse für Live-Journey und Testmodus wurden verbessert. [Neue Felder](../building-journeys/sharing-field-list.md#serviceevents) wurden im Zusammenhang mit Profilexportaufträgen hinzugefügt. Für ein besseres Benutzererlebnis sind die Schrittereignisfelder nun im Journey Schritt-Ereignisschema zur Journey Orchestration in verschiedene Kategorien unterteilt. Alle Felder für vorhergehende Schrittereignisse sind weiterhin im [stepEvents](../building-journeys/sharing-legacy-fields.md) Kategorie.
+* **Kollektionen** – Arrays von Objekten, die Unterobjekte enthalten, werden nun unterstützt. [Weitere Informationen](../usecase/collections.md)
+* **Monitoring** – Step-Ereignisse für Live-Journeys und den Testmodus wurden verbessert. Es wurden [neue Felder](../building-journeys/sharing-field-list.md#serviceevents) im Zusammenhang mit Profilexportvorgängen hinzugefügt. Für ein besseres Benutzererlebnis sind die Schrittereignisfelder nun im Journey Schritt-Ereignisschema zur Journey Orchestration in verschiedene Kategorien unterteilt. Alle Felder für vorhergehende Step-Ereignisse sind weiterhin in der Kategorie [stepEvents](../building-journeys/sharing-legacy-fields.md) verfügbar.
 
 ## Version September 2021 {#september-2021-release}
 
@@ -213,7 +213,7 @@ Die Funktionen [getListItem](../functions/functiongetlistitem.md) und [split](..
 <tbody>
 <tr>
 <td>
-<p>Im erweiterten Ausdruckseditor haben wir der Liste der Felder und Funktionen eine neue Kategorie hinzugefügt. Dabei handelt es sich um die Informationen, die das System von Live-Journeys abruft, wie z. B. die Journey-ID oder die spezifischen aufgetretenen Fehler. Dadurch erhalten Sie beim Erstellen Ihrer Journeys mehr Möglichkeiten. Beispielsweise können Sie Systeme von Drittanbietern auf Fehler aufmerksam machen, die in einer Bedingung oder Aktion auftreten.
+<p>Im erweiterten Ausdruckseditor haben wir der Liste der Felder und Funktionen eine neue Kategorie hinzugefügt. Dabei handelt es sich um die Informationen, die das System von Live-Journeys abruft, wie z. B. die Journey-ID oder die aufgetretenen Fehler. Dadurch erhalten Sie beim Erstellen Ihrer Journeys mehr Möglichkeiten. Beispielsweise können Sie Systeme von Drittanbietern auf Fehler aufmerksam machen, die in einer Bedingung oder Aktion auftreten.
 </p>
 <p>Weitere Informationen finden Sie in der <a href="../expression/journey-properties.md">entsprechenden Dokumentation</a>.</p>
 </td>

@@ -9,7 +9,7 @@ exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
 source-git-commit: b557e94076bc7ce5c212246ddf313248ca10dd60
 workflow-type: tm+mt
 source-wordcount: '441'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ Die folgenden Datensätze werden übergeben:
 
 Die Listen der XDM-Felder, die an Adobe Experience Platform übergeben werden, werden hier beschrieben:
 
-* [Schrittereignisfeldliste](../building-journeys/sharing-field-list.md)
-* [Ereignisfelder für veraltete Schritte](../building-journeys/sharing-legacy-fields.md)
+* [Liste der Step-Ereignisfelder](../building-journeys/sharing-field-list.md)
+* [Veraltete Felder für Step-Ereignisse](../building-journeys/sharing-legacy-fields.md)
 
 Weiterführende Informationen zu Berichten über Schrittereignisse an Adobe Experience Platform finden Sie in diesem [Tutorial-Video](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html?lang=de).

@@ -9,13 +9,13 @@ exl-id: f6f0004d-8a33-4671-9c16-e56edfe2a45e
 source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # Informationen zum erweiterten Ausdruckseditor {#concept_uyj_trt_52b}
 
-Verwenden Sie den erweiterten Ausdruckseditor, um in verschiedenen Bildschirmen der Benutzeroberfläche erweiterte Ausdrücke zu erstellen. Beispielsweise können Sie Ausdrücke erstellen, wenn Sie Journey konfigurieren und verwenden und eine Datenquellenbedingung definieren.
+Verwenden Sie den erweiterten Ausdruckseditor, um in verschiedenen Bildschirmen der Benutzeroberfläche erweiterte Ausdrücke zu erstellen. Beispielsweise können Sie Ausdrücke erstellen, wenn Sie Journeys konfigurieren und verwenden oder eine Datenquellenbedingung definieren.
 Der Editor steht auch immer dann zur Verfügung, wenn Sie Aktionsparameter definieren müssen, die eine bestimmte Datenbearbeitung erfordern. Sie können Daten aus den Ereignissen oder zusätzliche Informationen nutzen, die aus der Datenquelle abgerufen wurden. Bei einer Journey ist die angezeigte Liste der Ereignisfelder kontextbezogen und variiert je nach den Ereignissen, die in der Journey hinzugefügt werden.
 
 Der erweiterte Ausdruckseditor bietet eine Reihe integrierter Funktionen und Operatoren, mit denen Sie Werte bearbeiten und einen Ausdruck definieren können, der Ihren Anforderungen entspricht. Mit dem erweiterten Ausdruckseditor können Sie auch die Werte des Parameters für die externe Datenquelle definieren sowie Zuordnungsfelder und Sammlungen (z. B. Erlebnisereignisse) bearbeiten.
@@ -57,11 +57,11 @@ In diesem Bildschirm können Sie Ihren Ausdruck manuell schreiben.
 
 Im linken Bildschirmbereich werden die verfügbaren Felder und Funktionen angezeigt:
 
-* **[!UICONTROL Ereignisse]**: Wählen Sie eines der Felder aus, die vom eingehenden Ereignis empfangen wurden. Die angezeigte Liste der Ereignisfelder ist kontextbasiert und variiert je nach Ereignissen, die in der Journey hinzugefügt werden. [Mehr dazu](../event/about-events.md)
-* **[!UICONTROL Segmente]**: Wenn Sie ein Ereignis vom Typ **[!UICONTROL Segmentqualifizierung]** abgelegt haben, wählen Sie das Segment aus, das Sie in Ihrem Ausdruck verwenden möchten. [Mehr dazu](../segment/using-a-segment.md)
-* **[!UICONTROL Datenquellen]**: Wählen Sie aus der Liste der Felder, die in den Feldergruppen Ihrer Datenquellen verfügbar sind. [Mehr dazu](../datasource/about-data-sources.md)
-* **[!UICONTROL Journey-Eigenschaften]**: In diesem Abschnitt werden die technischen Felder der Journey für ein bestimmtes Profil zusammengefasst. [Mehr dazu](../expression/journey-properties.md)
-* **[!UICONTROL Funktionen]**: Wählen Sie aus der Liste der integrierten Funktionen, die eine komplexe Filterung ermöglichen. Die Funktionen sind nach Kategorien geordnet. [Mehr dazu](../expression/functions.md)
+* **[!UICONTROL Ereignisse]**: Wählen Sie eines der Felder aus, die vom eingehenden Ereignis empfangen wurden. Die angezeigte Liste der Ereignisfelder ist kontextbasiert und variiert je nach Ereignissen, die in der Journey hinzugefügt werden. [Weitere Informationen](../event/about-events.md)
+* **[!UICONTROL Segmente]**: Wenn Sie ein Ereignis vom Typ **[!UICONTROL Segmentqualifizierung]** abgelegt haben, wählen Sie das Segment aus, das Sie in Ihrem Ausdruck verwenden möchten. [Weitere Informationen](../segment/using-a-segment.md)
+* **[!UICONTROL Datenquellen]**: Wählen Sie aus der Liste der Felder, die in den Feldergruppen Ihrer Datenquellen verfügbar sind. [Weitere Informationen](../datasource/about-data-sources.md)
+* **[!UICONTROL Journey-Eigenschaften]**: In diesem Abschnitt werden die technischen Felder der Journey für ein bestimmtes Profil zusammengefasst. [Weitere Informationen](../expression/journey-properties.md)
+* **[!UICONTROL Funktionen]**: Wählen Sie aus der Liste der integrierten Funktionen, die eine komplexe Filterung ermöglichen. Die Funktionen sind nach Kategorien geordnet. [Weitere Informationen](../expression/functions.md)
 
 ![](../assets/journey65.png)
 

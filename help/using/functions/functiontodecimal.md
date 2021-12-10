@@ -29,7 +29,7 @@ Konversion
 
 | Parameter | Beschreibung |
 |--- |--- |
-| Zeichenfolge | konvertiert den Zeichenfolgenwert in eine Dezimalzahl |
+| string | konvertiert den Zeichenfolgenwert in eine Dezimalzahl |
 | dateTime | konvertiert das Datum in die Zahl der Millisekunden (Millisekunden der Epoche) |
 | boolean | wandelt den booleschen Wert in 1 um, wenn „true“, und in 0, wenn „false“ |
 | integer | konvertiert in eine Dezimalzahl (Beispiel: 1 wird zu 1.0) |

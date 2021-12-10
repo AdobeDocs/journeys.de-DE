@@ -31,7 +31,7 @@ Datum
 |--- |--- |
 | Datum/Uhrzeit | dateTime |
 | Datum/Uhrzeit ohne Berücksichtigung der Zeitzone | dateTimeOnly |
-|  Tage | integer |
+| Tage | integer |
 
 ## Signaturen und zurückgegebener Typ
 

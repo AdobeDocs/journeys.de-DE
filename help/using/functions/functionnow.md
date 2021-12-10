@@ -29,7 +29,7 @@ Datum
 
 | Parameter | Beschreibung |
 |--- |--- |
-| Zeichenfolge |  |
+| string |  |
 
 ## Signaturen und zurückgegebener Typ
 

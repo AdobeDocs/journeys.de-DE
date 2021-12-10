@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Ersetzt das erste Auftreten, das mit der Zielzeichenfolge übereinstimmt, in der Basiszeichenfolge durch die Ersatzzeichenfolge.
 
-Die Ersetzung erfolgt vom Anfang der Zeichenfolge zum Ende, z. B. führt ein Ersetzen von „aa“ in der Zeichenfolge „aaa“ durch „b“ zu „ba“ und nicht zu „ab“.
+Die Ersetzung verläuft vom Anfang der Zeichenfolge zum Ende. Wenn Sie z. B. in der Zeichenfolge „aaa“ „aa“ durch „b“ ersetzen, erhalten Sie „ba“ und nicht „ab“.
 
 ## Kategorie
 
@@ -31,7 +31,7 @@ Zeichenfolge
 
 | Parameter | Typ |
 |-----------|--------------|
-| base | Zeichenfolge |
+| base | string |
 | target | Zeichenfolge |
 | replacement | Zeichenfolge |
 

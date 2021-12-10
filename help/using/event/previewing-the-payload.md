@@ -9,7 +9,7 @@ exl-id: 5a4cf7cd-463f-4e5b-a679-419649efef12
 source-git-commit: 579e5a0dbdc11369248c2683c399b090130a7262
 workflow-type: tm+mt
 source-wordcount: '115'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -31,4 +31,4 @@ Mit der Payload-Vorschau können Sie die Payload-Definition validieren.
 
 1. Überprüfen Sie die Vorschau, um die Payload-Definition zu validieren.
 
-1. Anschließend können Sie die Payload-Vorschau für die Person freigeben, die für das Senden des Ereignisses verantwortlich ist. Diese Payload kann ihnen bei der Konzeption eines Ereignisses helfen, das an [!DNL Journey Orchestration]. Weitere Informationen finden Sie auf [dieser Seite](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+1. Anschließend können Sie die Payload-Vorschau für die Person freigeben, die für das Senden des Ereignisses verantwortlich ist. Diese Payload kann ihr beim Entwurf eines Ereignisses helfen, das an [!DNL Journey Orchestration] gesendet wird. Weitere Informationen finden Sie auf [dieser Seite](../event/additional-steps-to-send-events-to-journey-orchestration.md).

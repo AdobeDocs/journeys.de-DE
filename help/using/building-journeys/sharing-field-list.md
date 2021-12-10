@@ -1,6 +1,6 @@
 ---
-title: Schrittereignisfeldliste
-description: Schrittereignisfeldliste
+title: Liste der Step-Ereignisfelder
+description: Liste der Step-Ereignisfelder
 feature: Journeys
 topic: Content Management
 role: User
@@ -9,26 +9,26 @@ exl-id: 177b4a97-c757-40ca-a190-fbd88169e5e2
 source-git-commit: 4291dfc91c2fb29d294416ceed022ee00842c870
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 32%
+ht-degree: 100%
 
 ---
 
-# Schrittereignisfeldliste {#sharing-field-list}
+# Liste der Step-Ereignisfelder {#sharing-field-list}
 
-Die Felder der Schrittereignisse sind nach Kategorie geordnet.
+Die Felder der Step-Ereignisse sind nach Kategorie geordnet.
 
 * Informationsfelder debuggen
 * Journey-Felder
 * Profilfelder
-* Dienstereignisfelder
+* Service-Ereignisfelder
 
 ## debugInfo
 
 | Feldname | Typ | Beschreibung |
 |---|---|------------|
-| requestId | Zeichenfolge | Die von Journey Orchestration verwendete Anfrage-ID zum Verfolgen des Anfrageflusses. |
+| requestId | Zeichenfolge | Die von Journey Orchestration verwendete Anfrage-ID, um den Fluss einer Anfrage zu verfolgen. |
 
-## Journey
+## journey
 
 Diese Feldergruppe wird im Journey-Schema verwendet (in Verbindung mit journeyStepEvent). Es enthält die folgenden Felder:
 
@@ -42,7 +42,7 @@ Diese Feldergruppe wird im Journey-Schema verwendet (in Verbindung mit journeySt
 
 ## profile
 
-Diese Feldergruppe ist spezifisch für journeyStepEvent: Dieses Ereignis steht im Zusammenhang mit Journey und verfügt nicht über die identityMap, die die Profilidentität beschreibt, sofern vorhanden.
+Diese Feldergruppe gilt speziell für „journeyStepEvent“: Das Ereignis bezieht sich auf die Journey und verfügt nicht über „identityMap“ zur Beschreibung der Profilidentität (sofern vorhanden).
 
 Für journeyStepEvent müssen auch Identitätsfelder hinzugefügt werden:
 
@@ -53,19 +53,19 @@ Für journeyStepEvent müssen auch Identitätsfelder hinzugefügt werden:
 
 ## serviceEvents
 
-Dieses Mixin enthält alle Felder, die einem Profilexport-Auftrag entsprechen.
+Dieses Mixin enthält alle Felder, die einem Profilexportvorgang entsprechen.
 
 | Feldname | Typ | Beschreibung |
 |---|---|------------|
-| ID | Zeichenfolge | Die Kennung des vom Segmentexport ausgelösten Auftrags |
-| status | Zeichenfolge | Der Status des Segmentexportauftrags: in die Warteschlange gestellt, gestartet, fertig gestellt |
-| exportCountTotal | Ganzzahl | Der maximale Wert des Segmentexportauftrags |
-| exportCountRealized | Ganzzahl | Die tatsächliche Anzahl von Segmenten, die über den Auftrag exportiert wurden |
-| exportCountFailed | Ganzzahl | Die Anzahl der Segmente, die beim Exportieren durch den Auftrag fehlgeschlagen sind |
-| exportSegmentID | Zeichenfolge | Die Kennung des zu exportierenden Segments |
-| eventType | Zeichenfolge | Der Ereignistyp, der angibt, ob es sich um ein Fehlerereignis von info -Ereignis handelt: Info, Fehler |
-| eventCode | Zeichenfolge | Der Fehlercode, der den Grund für den entsprechenden eventType angibt |
+| ID | Zeichenfolge | Die Kennung des ausgelösten Segmentexportvorgangs |
+| status | Zeichenfolge | Der Status des Segmentexportvorgangs: in der Warteschlange, gestartet, abgeschlossen |
+| exportCountTotal | Ganzzahl | Der maximale Wert des Segmentexportvorgangs |
+| exportCountRealized | Ganzzahl | Die tatsächliche Anzahl von Segmenten, die über den Vorgang exportiert wurden |
+| exportCountFailed | Ganzzahl | Die Anzahl der Segmente, bei denen der Export bei dem Vorgang fehlgeschlagen ist |
+| exportSegmentID | Zeichenfolge | Die Kennung des exportierten Segments |
+| eventType | Zeichenfolge | Der Ereignistyp, der angibt, ob es sich um ein Fehlerereignis eines Informationsereignisses handelt: Info, Fehler |
+| eventCode | Zeichenfolge | Der Fehler-Code, der den Grund für den entsprechenden eventType angibt |
 
 ## stepEvents
 
-Diese Kategorie enthält die Felder für das ursprüngliche Schrittereignis. Siehe diesen [Abschnitt](../building-journeys/sharing-legacy-fields.md).
+Diese Kategorie enthält die ursprünglichen Step-Ereignisfelder. Siehe diesen [Abschnitt](../building-journeys/sharing-legacy-fields.md).

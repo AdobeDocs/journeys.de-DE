@@ -55,7 +55,7 @@ listInteger,listInteger : listInteger
 listString,listString : listString
 ```
 
-**Nutzung**
+**Verwendung**
 
 Mit der bedingten Anweisung können Sie den Workflow der Journey optimieren, indem Sie die Anzahl der Bedingungsaktivitäten reduzieren. Beispielsweise können Sie innerhalb derselben Aktionsaktivität zwei Alternativen für eine Felddefinition angeben, wobei nur ein Bedingungsausdruck verwendet wird.
 

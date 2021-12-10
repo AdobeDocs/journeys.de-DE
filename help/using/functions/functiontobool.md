@@ -32,7 +32,7 @@ Konversion
 
 * decimal
 * boolean
-* Zeichenfolge
+* string
 * integer
 
 ## Signaturen und zurückgegebene Typen

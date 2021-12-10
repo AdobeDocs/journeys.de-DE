@@ -9,7 +9,7 @@ exl-id: 8e86b919-41f5-45f9-a6af-9fe290405095
 source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
 source-wordcount: '111'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -73,8 +73,8 @@ Gibt eine Liste mit booleschen Werten zurück.
 
 `sort(["A", "C", "B"], true)`
 
-Rückgabe `["A","B","C"]`.
+Gibt `["A","B","C"]` zurück.
 
 `sort([1, 3, 2], false)`
 
-Rückgabe `[3, 2, 1]`.
+Gibt `[3, 2, 1]` zurück.
