@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: d09d70a0ec2720c5a75385b9036bf3a6ab74f4ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3075'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -37,10 +37,10 @@ Sie können auch die neusten [Aktualisierungen der Dokumentation](../release-not
 
 ### Verbesserungen
 
-* **Ausdruckseditor** – Als Power User können Sie jetzt Funktionen verwenden, um mit Karten zu arbeiten. [Weitere Informationen](../expression/field-references.md)
-* **Zugänglichkeit** - Verbesserungen der Barrierefreiheit wurden implementiert. Die Barrierefreiheit von Journey Orchestration ist jetzt vollständig gewährleistet.
+* **Ausdruckseditor** – Als Power-User stehen Ihnen jetzt Funktionen zur Verfügung, um mit Karten zu arbeiten. [Weitere Informationen](../expression/field-references.md)
+* **Barrierefreiheit** – Es wurden Verbesserungen an der Barrierefreiheit vorgenommen. Die Barrierefreiheit von Journey Orchestration ist jetzt vollständig gewährleistet.
 * **Kollektionen** – Arrays von Objekten, die Unterobjekte enthalten, werden nun unterstützt. [Weitere Informationen](../usecase/collections.md)
-* **Monitoring** – Step-Ereignisse für Live-Journeys und den Testmodus wurden verbessert. Es wurden [neue Felder](../building-journeys/sharing-field-list.md#serviceevents) im Zusammenhang mit Profilexportvorgängen hinzugefügt. Für ein besseres Benutzererlebnis sind die Schrittereignisfelder nun im Journey Schritt-Ereignisschema zur Journey Orchestration in verschiedene Kategorien unterteilt. Alle Felder für vorhergehende Step-Ereignisse sind weiterhin in der Kategorie [stepEvents](../building-journeys/sharing-legacy-fields.md) verfügbar.
+* **Monitoring** – Step-Ereignisse für Live-Journeys und den Testmodus wurden verbessert. Es wurden [neue Felder](../building-journeys/sharing-field-list.md#serviceevents) im Zusammenhang mit Profilexportvorgängen hinzugefügt. Um ein besseres Benutzererlebnis zu bieten, sind im Journey-Schrittereignisschema für Journey Orchestration die Schrittereignisfelder nun in verschiedene Kategorien unterteilt. Alle Felder für vorhergehende Schrittereignisse sind weiterhin in der Kategorie [stepEvents](../building-journeys/sharing-legacy-fields.md) verfügbar.
 
 ## Version September 2021 {#september-2021-release}
 
