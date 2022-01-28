@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 545352efdcda80cb9940010c4587a20f53326085
 workflow-type: tm+mt
 source-wordcount: '313'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -23,7 +23,7 @@ Die Transaktionsnachricht in Campaign Standard und das zugehörige Ereignis müs
 
 >[!NOTE]
 >
->Für Adobe Campaign Standard-Aktionen wird automatisch eine Begrenzungsregel von 13 Aufrufen pro Sekunde definiert, sobald die Adobe Campaign Standard-Integration eingerichtet ist. Dies entspricht dem offiziellen Umfang von Transaktionsnachrichten in Adobe Campaign Standard.
+>Eine Begrenzungsregel von 4000 Aufrufen pro 5 Minuten wird automatisch für Adobe Campaign Standard-Aktionen definiert, sobald die Adobe Campaign Standard-Integration eingerichtet ist. Dies entspricht dem offiziellen Umfang von Transaktionsnachrichten in Adobe Campaign Standard.
 >
 >Lesen Sie mehr über Service-Level-Vereinbarungen für Transaktionsnachrichten in der [Produktbeschreibung von Adobe Campaign Standard](https://helpx.adobe.com/de/legal/product-descriptions/campaign-standard.html).
 
