@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
 source-git-commit: 034473b318eddf93e4ed27d9cbe9e18dab1d96cb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '552'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -60,8 +60,8 @@ Weiterführende Informationen zu Berichten über Schrittereignisse an Adobe Expe
 
 ## Integration mit Customer Journey Analytics{#integration-cja}
 
-Journey Orchestration Step-Ereignisse können mit anderen Datensätzen in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=de). Allgemeiner Workflow:
+Schrittereignisse von Journey Orchestration können mit anderen Datensätzen in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=de) verknüpft werden. So sieht der allgemeine Workflow aus:
 
-* Customer Journey Analytics erfasst den Datensatz &quot;Journey-Schritt-Ereignis&quot;.
-* Die **profileID** im zugehörigen &quot;Journey Step Event schema for Journey Orchestration&quot;als Identitätsfeld definiert. In Customer Journey Analytics können Sie diesen Datensatz dann mit jedem anderen Datensatz verknüpfen, der denselben Wert wie die personenbasierte Kennung hat.
-* Wenn Sie diesen Datensatz in Customer Journey Analytics für eine kanalübergreifende Journey-Analyse verwenden möchten, lesen Sie dies . [Dokumentation](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html).
+* Customer Journey Analytics nimmt den Datensatz „Schrittereignis der Journey“ auf.
+* Die **profileID** im zugehörigen „Schrittereignisschema der Journey für Journey Orchestration“ wird als Identitätsfeld definiert. In Customer Journey Analytics können Sie diesen Datensatz dann mit jedem anderen Datensatz verknüpfen, der denselben Wert wie die personenbasierte Kennung hat.
+* Wenn Sie diesen Datensatz in Customer Journey Analytics für eine kanalübergreifende Journey-Analyse verwenden möchten, lesen Sie bitte diese [Dokumentation](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=de).
