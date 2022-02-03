@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 4a6e2afc19a95e834278c161b271ba6e8a345425
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3136'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,8 +22,8 @@ Sie können auch die neusten [Aktualisierungen der Dokumentation](../release-not
 
 ### Verbesserungen
 
-* Journey Orchestration Step-Ereignisse können jetzt mit anderen Datensätzen in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=de). Die **profileID** -Feld im integrierten Journey Schritt-Ereignisschema ist jetzt als Identitätsfeld definiert. [Weitere Informationen](../building-journeys/sharing-overview.md#integration-cja)
-* Die Begrenzungsregel für Adobe Campaign Standard-Aktionen wurde in 4000 Aufrufe/5 Minuten geändert. [Weitere Informationen](../action/working-with-adobe-campaign.md)
+* Schrittereignisse von Journey Orchestration können jetzt mit anderen Datensätzen in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=de) verknüpft werden. Das Feld **profileID** im integrierten Schrittereignisschema einer Journey ist jetzt als Identitätsfeld definiert. [Weitere Informationen](../building-journeys/sharing-overview.md#integration-cja)
+* Die Begrenzungsregel für Adobe Campaign Standard-Aktionen wurde in 4.000 Aufrufe/5 Minuten geändert. [Weitere Informationen](../action/working-with-adobe-campaign.md)
 
 ## Version Oktober 2021 {#october-2021-release}
 
