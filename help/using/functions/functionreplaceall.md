@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: d60059e5-6bf8-4a57-88a4-5323d5f0fa0b
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 8980df5cc238a7195f01a1631e418a8de677fbea
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 100%
+source-wordcount: '105'
+ht-degree: 71%
 
 ---
 
@@ -32,7 +32,7 @@ Zeichenfolge
 | Parameter | Typ |
 |-----------|--------------|
 | base | string |
-| target | Zeichenfolge |
+| target | Zeichenfolge (RegExp) |
 | replacement | Zeichenfolge |
 
 ## Signatur und zurückgegebener Typ
@@ -41,8 +41,10 @@ Zeichenfolge
 
 Gibt eine Zeichenfolge zurück.
 
-## Beispiel
+## Beispiel{#example}
 
 `replaceAll("Hello World", "l", "x")`
 
 Gibt „Hexxo Worxd“ zurück.
+
+Da der Zielparameter eine RegExp ist, müssen Sie je nach der Zeichenfolge, die Sie ersetzen möchten, möglicherweise einige Zeichen maskieren. Siehe Beispiel unter [diese Seite](../functions/functionreplace.md#example_2).

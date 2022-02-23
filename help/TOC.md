@@ -5,9 +5,9 @@ title: Handbuch zu Journey Orchestration
 user-guide-description: Enthält Anleitungen zum Implementieren und Erstellen von Journeys.
 index: true
 feature: Journeys
-source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
+source-git-commit: 95d9ce8ffd213e46320a4c131ffae8442cfb23bf
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '435'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,6 @@ ht-degree: 100%
    + [Definieren der Payload-Felder](using/event/defining-the-payload-fields.md)
    + [Auswählen des Namespace](using/event/selecting-the-namespace.md)
    + [Definieren des Ereignisschlüssels](using/event/defining-the-event-key.md)
-   + [Hinzufügen einer Bedingung](using/event/adding-a-condition.md)
    + [Anzeigen der Payload-Vorschau](using/event/previewing-the-payload.md)
 + Konfigurieren einer Datenquelle {#data-source-journeys}
    + [Informationen zu Datenquellen](using/datasource/about-data-sources.md)
