@@ -9,7 +9,7 @@ exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: a5f84d291a5fcb3a0899e9eaabfaf7a7aa12471d
 workflow-type: tm+mt
 source-wordcount: '942'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,8 +20,8 @@ Lesen Sie auch die [Versionshinweise](../release-notes/release-notes.md) von [!D
 
 ## Februar 2022 {#feb-2022}
 
-* Die [replace](../functions/functionreplace.md#example_2) und [replaceAll](../functions/functionreplaceall.md#example) -Funktionsdokumentationsseiten wurden mit zusätzlichen Informationen und Beispielen zum Zielparameter aktualisiert.
-* Best Practices wurden zum [Benutzer](../expression/operators.md#important-notes) Seite.
+* Die Dokumentationsseiten der Funktionen [replace](../functions/functionreplace.md#example_2) und [replaceAll](../functions/functionreplaceall.md#example) wurden mit zusätzlichen Informationen und Beispielen zum Zielparameter aktualisiert.
+* Auf der Seite [Operatoren](../expression/operators.md#important-notes) wurden Best Practices hinzugefügt.
 
 ## September 2021
 

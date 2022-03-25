@@ -9,7 +9,7 @@ exl-id: fd86b6ab-76cf-4b35-9e87-f441e914f20b
 source-git-commit: a0b6ab595bc16a75aa5a56a858900418e2381ab9
 workflow-type: tm+mt
 source-wordcount: '457'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,8 +34,8 @@ Es gibt zwei Arten von Operatoren: unäre Operatoren und binäre Operatoren. Es 
 
 ## Wichtige Hinweise{#important-notes}
 
-* Bei Verwendung einer Multiplikation (`*`), müssen beide Vorgangsfelder denselben Typ aufweisen, entweder Ganzzahl oder Dezimalzahl. Beispiel:
-   * das folgende Beispiel stimmt: `3.0 * 4.0`
+* Bei Verwendung einer Multiplikation (`*`) müssen beide Operationsfelder denselben Typ aufweisen, entweder Ganzzahl oder Dezimalzahl. Beispiel:
+   * Das folgende Beispiel ist korrekt: `3.0 * 4.0`
    * `3 * 4.0` führt zu einem Fehler
 
 ## Logisch        {#logical}
