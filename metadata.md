@@ -1,21 +1,21 @@
 ---
 cloud: Experience Cloud
-solution-title: Lernen und Support
-solution-hub-url: https://helpx.adobe.com/de/support/experience-cloud.html
+solution-title: Learn & Support
+solution-hub-url: https://helpx.adobe.com/support/experience-cloud.html
 solution-image: assets/campaign-icon-24.png
 getting-started-title: Community
-getting-started-url: https://adobe.com/go/journeyorchestrationcommunity_de
+getting-started-url: https://adobe.com/go/journeyorchestrationcommunity
 tutorials-title: Tutorials
-tutorials-url: https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html?lang=de
-git-repo: https://git.corp.adobe.com/AdobeDocs/journeys.de-DE
+tutorials-url: https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html
+git-repo: https://github.com/AdobeDocs/journeys.de-DE
 index: true
 feature-set: Journey Orchestration
-solution: Experience Platform, Journey Orchestration
+solution: Journey Orchestration
 type: Documentation
 feature: Journeys
-source-git-commit: 5a2e017c37be76879e081a000785610368e60505
-workflow-type: ht
-source-wordcount: '29'
+source-git-commit: 68e4ff7fd2c2fda60aa02a62d9a97dbcd3a62cd9
+workflow-type: tm+mt
+source-wordcount: '7'
 ht-degree: 100%
 
 ---
