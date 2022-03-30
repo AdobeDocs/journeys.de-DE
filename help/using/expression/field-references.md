@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 2f317306-9afd-4e9a-88b8-fc66102e1046
-source-git-commit: e4a003656058ac7ae6706e22fd5162c9e875629a
+source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 100%
+source-wordcount: '557'
+ht-degree: 94%
 
 ---
 
@@ -39,7 +39,7 @@ Im Ausdruck wird auf Ereignisfelder mit „@“ und auf Datenquellenfelder mit �
 
 Es wird eine Syntaxfarbe verwendet, um die Ereignisfelder (grün) optisch von Feldgruppen (blau) zu unterscheiden.
 
-## Standardwerte für Feldverweise
+## Standardwerte für Feldverweise {#default-value}
 
 Ein Standardwert kann mit einem Feldnamen verknüpft werden. Es gilt folgende Syntax:
 
@@ -86,6 +86,13 @@ expression examples:
 - #{ACP.Profile.emails.at(1).email}              -> "snow@thewall.westeros"
 - #{ACP.Profile.person.age, defaultValue : -1}   -> -1 // default value, age is not a field present in the payload
 - #{ACP.Profile.person.age}                      -> null
+```
+
+Sie können jede Art von Ausdruck als Standardwert hinzufügen. Die einzige Einschränkung besteht darin, dass der Ausdruck den erwarteten Datentyp zurückgeben muss. Bei Verwendung einer Funktion muss die Funktion mit () gekapselt werden.
+
+```
+#{ExperiencePlatform.Subscriptions.profile.consents.marketing.any.time, defaultValue : (now())} 
+== date("2022-02-10T00:00:00Z")
 ```
 
 ## Verweis auf ein Feld in Kollektionen

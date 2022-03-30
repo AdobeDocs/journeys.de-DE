@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 0d1355f036b22df6b484ed2a0ea9a8b121e947e0
+source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
 workflow-type: tm+mt
-source-wordcount: '3170'
-ht-degree: 99%
+source-wordcount: '3234'
+ht-degree: 97%
 
 ---
 
@@ -17,6 +17,17 @@ ht-degree: 99%
 
 Auf dieser Seite werden alle neuen Funktionen und Verbesserungen bei Journey Orchestration aufgelistet.
 Sie können auch die neusten [Aktualisierungen der Dokumentation](../release-notes/documentation-updates.md) einsehen.
+
+## Version März 2022 {#feb-2022-release}
+
+### Neue Funktionen
+
+### Verbesserungen
+
+**Journeys**
+
+* Um zu vermeiden, dass im einheitlichen Profilschema unnötige Felder vorhanden sind, ist das Journey Step Event-Schema nicht mehr standardmäßig für Profile aktiviert. Bei Bedarf können Sie sie aktivieren. [Weitere Informationen](../building-journeys/sharing-overview.md)
+* Neue Schrittereignisse im Zusammenhang mit Exportvorgängen werden jetzt von Journey Optimizer an Adobe Experience Platform gesendet. Beispiele für Abfragen wurden der Dokumentation hinzugefügt. [Weitere Informationen](../building-journeys/query-examples.md)
 
 ## Version Februar 2022 {#february-2022-release}
 
@@ -71,7 +82,7 @@ Sie können auch die neusten [Aktualisierungen der Dokumentation](../release-not
 
 ### Verbesserungen
 
-**Journeys**
+**Journey**
 
 * **Dynamische Header** – Sie können jetzt dynamische Daten in HTTP-Header-Parametern übergeben. Diese Parameter können von den Integrationssystemen verwendet werden, die die HTTP-Aufrufe der Journey-Aktion empfangen, z. B. Zeitstempel oder Tracking-ID. [Mehr dazu](../action/url-configuration.md)
 * **Dynamische URL-Pfade** – Sie können jetzt dynamische URL-Pfade für benutzerdefinierte Aktionen einrichten. [Mehr dazu](../action/url-configuration.md)

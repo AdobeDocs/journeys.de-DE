@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: a5f84d291a5fcb3a0899e9eaabfaf7a7aa12471d
+source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 100%
+source-wordcount: '962'
+ht-degree: 98%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 100%
 
 Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journey Orchestration] aufgelistet.
 Lesen Sie auch die [Versionshinweise](../release-notes/release-notes.md) von [!DNL Journey Orchestration].
+
+## März 2022 {#march-2022}
+
+* Es wurde ein Beispiel zum Hinzufügen eines Ausdrucks als Standardwert im Ausdruckseditor hinzugefügt. [Weitere Informationen](../expression/field-references.md#default-value)
 
 ## Februar 2022 {#feb-2022}
 
