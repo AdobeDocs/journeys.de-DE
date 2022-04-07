@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 141937cd16d5676a80412b2b72750710ee1e537f
+source-git-commit: 1e9cb572cbebf1434e236f18ce58ce45dc6c0409
 workflow-type: tm+mt
-source-wordcount: '1708'
+source-wordcount: '1589'
 ht-degree: 100%
 
 ---
@@ -201,11 +201,3 @@ Wenn ein Ereignis im Testmodus ausgelöst wird, wird automatisch ein Datensatz m
 Wenn ein Ereignis im Testmodus ausgelöst wird, wird automatisch ein Datensatz mit dem Namen der Quelle generiert.
 
 Der Testmodus erstellt automatisch ein Erlebnis-Ereignis und sendet es an Adobe Experience Platform. Der Name der Quelle für dieses Erlebnis-Ereignis lautet „Journey Orchestration Test-Ereignisse“.
-
-Wenn mehrere Ereignisse von mehreren Journeys ausgelöst werden
-
-Es gibt ein Szenario, bei dem mehrere Ereignisse von mehreren Journeys gesendet werden, die unterschiedliche Schemas haben. Können n Schemas zu 1 Datensatz zugeordnet werden? Wenn nicht, werden mehrere Datensätze benötigt.
-
-Wenn ein Zieldatensatz nicht in dem Erlebnis-Ereignis enthalten ist, werden diese Datensätze automatisch erstellt und benannt. Deshalb sehen wir heute den „Automatisch erstellten Datensatz für Journey“.
-
-Die Benennung unserer Quelle führt zur automatischen Erstellung. Wenn wir mehrere Ereignisse haben, sollten wir verketten und es „Journey Orchestration Test-Ereignis – NAME DES SCHEMAS“ nennen. Dies wird sich automatisch in „Automatisch generierter Datensatz für Journey Orchestration Test-Ereignis – NAME DES SCHEMAS“ ändern.
