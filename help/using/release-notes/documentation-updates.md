@@ -9,7 +9,7 @@ exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
 workflow-type: tm+mt
 source-wordcount: '962'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Lesen Sie auch die [Versionshinweise](../release-notes/release-notes.md) von [!D
 
 ## März 2022 {#march-2022}
 
-* Es wurde ein Beispiel zum Hinzufügen eines Ausdrucks als Standardwert im Ausdruckseditor hinzugefügt. [Weitere Informationen](../expression/field-references.md#default-value)
+* Es wurde ein Beispiel hinzugefügt, das erläutert, wie im Ausdruckseditor ein Ausdruck als Standardwert hinzugefügt wird. [Weitere Informationen](../expression/field-references.md#default-value)
 
 ## Februar 2022 {#feb-2022}
 

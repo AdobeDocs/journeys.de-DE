@@ -54,7 +54,7 @@ Die Listen der XDM-Felder, die an Adobe Experience Platform übergeben werden, w
 * [Liste der Step-Ereignisfelder](../building-journeys/sharing-field-list.md)
 * [Veraltete Felder für Step-Ereignisse](../building-journeys/sharing-legacy-fields.md)
 
-Weiterführende Informationen zu Berichten über Schrittereignisse an Adobe Experience Platform finden Sie in diesem [Tutorial-Video](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html?lang=de).
+Weiterführende Informationen zu Berichten über Schrittereignisse an Adobe Experience Platform finden Sie in diesem [Tutorial-Video](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporsting-step-events-to-adobe-experience-platform.html?lang=de).
 
 ## Integration mit Customer Journey Analytics{#integration-cja}
 
