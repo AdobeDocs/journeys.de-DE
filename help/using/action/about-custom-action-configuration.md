@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 8b24abef-700d-4f68-a921-d7299c939439
 source-git-commit: 7ad2419854b4fcecae7fbb20bdd6a6f2fbc04988
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '318'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Einschränkungen sind auf [dieser Seite](../about/limitations.md) aufgeführt.
 
 In den Parametern für benutzerdefinierte Aktionen können Sie sowohl eine einfache Sammlung als auch eine Sammlung von Objekten übergeben. Bezüglich der Einschränkungen siehe [diese Seite](../usecase/collections.md#limitations). Beachten Sie außerdem, dass die Parameter ein erwartetes Format haben (Beispiel: Zeichenfolge, Dezimalzahl usw.). Sie müssen darauf achten, dass diese erwarteten Formate eingehalten werden. Siehe diesen [Anwendungsfall](../usecase/collections.md).
 
-Im Folgenden werden die wichtigsten Schritte beschrieben, die zum Konfigurieren einer benutzerdefinierten Aktion ausgeführt werden müssen:
+Im Folgenden werden die wichtigsten Schritte beschrieben, die zum Konfigurieren einer benutzerdefinierten Aktion erforderlich sind:
 
 1. Klicken Sie in der Liste **[!UICONTROL Aktionen]** auf **[!UICONTROL Hinzufügen]**, um eine neue Aktion zu erstellen. Der Bereich für die Konfiguration der Aktion wird auf der rechten Seite des Bildschirms geöffnet.
 
