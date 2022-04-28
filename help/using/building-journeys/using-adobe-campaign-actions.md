@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: b2e5c333-d0d8-4fe1-a6b8-5f2e6b3624a4
 source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '933'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ Für **[!UICONTROL E-Mail]** und **[!UICONTROL SMS]** sind die Parameter identis
 
 >[!NOTE]
 >
->Wenn Sie für E-Mails eine profilbasierte Transaktionsvorlage verwenden, wird der Abmeldungsmechanismus standardmäßig von Campaign Standard durchgeführt. Fügen Sie der Vorlage einfach einen Inhaltsblock für den **[!UICONTROL Link zum Abmelden]** hinzu ([weitere Informationen](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)). Wenn Sie eine ereignisbasierte Vorlage (rtEvent) verwenden, müssen Sie der Nachricht einen Link hinzufügen, über den die E-Mail-Adresse der Person im URL-Parameter übergeben wird und auf eine Landingpage zum Abmelden verwiesen wird. Sie müssen diese Landingpage erstellen und sicherstellen, dass die Entscheidung der Person, sich abzumelden, an Adobe übermittelt wird.
+>Wenn Sie für E-Mails eine profilbasierte Transaktionsvorlage verwenden, wird der Abmeldungsmechanismus standardmäßig von Campaign Standard durchgeführt. Fügen Sie der Vorlage einfach einen Inhaltsblock für den **[!UICONTROL Link zum Abmelden]** hinzu ([weitere Informationen](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=de)). Wenn Sie eine ereignisbasierte Vorlage (rtEvent) verwenden, müssen Sie der Nachricht einen Link hinzufügen, über den die E-Mail-Adresse der Person im URL-Parameter übergeben wird und auf eine Landingpage zum Abmelden verwiesen wird. Sie müssen diese Landingpage erstellen und sicherstellen, dass die Entscheidung der Person, sich abzumelden, an Adobe übermittelt wird.
 
 Zuerst müssen Sie eine Transaktionsnachrichtenvorlage auswählen. Mehr dazu erfahren Sie auf [dieser Seite](../building-journeys/about-action-activities.md).
 
