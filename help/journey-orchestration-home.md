@@ -2,19 +2,19 @@
 keywords: Journeys;Startseite;beliebte Themen
 product: adobe campaign
 title: Produktdokumentation für Journey Orchestration
-description: Produktdokumentation für Journey Orchestration
+description: Folgen Sie unserem Handbuch zur Journey Orchestration von Adoben , um Anweisungen zur Implementierung und zum Erstellen von Journey zu erhalten.
 feature: Journeys
 role: User
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: b0bf5c12adc6e9c538f2264f79b7c43656424f05
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Hilfezentrum {#journeys-documentation}
+# Handbuch zur Journey Orchestration {#journeys-documentation}
 
 ![](using/assets/do-not-localize/bannerjourney.png)
 
