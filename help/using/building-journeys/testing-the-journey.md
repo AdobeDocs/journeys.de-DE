@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 1e9cb572cbebf1434e236f18ce58ce45dc6c0409
-workflow-type: ht
-source-wordcount: '1589'
-ht-degree: 100%
+source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+workflow-type: tm+mt
+source-wordcount: '1592'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,7 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 
    >[!NOTE]
    >
-   >Wenn in einer Journey ein Reaktionsereignis verwendet wird, beträgt der Standard- und Mindestwert für die Wartezeit 40 Sekunden. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/reaction-events.md).
+   >Wenn ein Reaktionsereignis mit einer Zeitüberschreitung in einer Journey verwendet wird, beträgt der Standardwert für die Wartezeit und der Mindestwert 40 Sekunden. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/reaction-events.md).
 
 1. Klicken Sie auf **[!UICONTROL Ereignis auslösen]**, um Ereignisse zu konfigurieren und an die Journey zu senden.
 
@@ -129,7 +129,7 @@ Mit der Schaltfläche **[!UICONTROL Ereignis auslösen]** können Sie ein Ereign
 
 >[!NOTE]
 >
->Wenn Sie ein Ereignis im Testmodus auslösen, wird ein reales Ereignis generiert, d. h. es beeinflusst auch andere Journeys, die dieses Ereignis überwachen.
+>Wenn Sie ein Ereignis im Testmodus auslösen, wird ein reales Ereignis generiert, d. h. es beeinflusst auch andere Journeys, die dieses Ereignis überwachen.
 
 Als Voraussetzung müssen Sie wissen, welche Profile in Adobe Experience Platform als Testprofile gekennzeichnet sind. Der Testmodus lässt nur diese Profile in der Journey zu und das Ereignis muss eine ID enthalten. Die erwartete ID hängt von der Ereigniskonfiguration ab. Es kann sich beispielsweise um eine ECID oder eine E-Mail-Adresse handeln. Der Wert dieses Schlüssels muss im Feld **Profilkennung** hinzugefügt werden.
 

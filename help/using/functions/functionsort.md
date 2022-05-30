@@ -6,16 +6,16 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 8e86b919-41f5-45f9-a6af-9fe290405095
-source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
+source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 100%
+source-wordcount: '131'
+ht-degree: 48%
 
 ---
 
 # sort {#sort}
 
-Sortiert eine Liste von Werten in ihrer natürlichen Reihenfolge. Das erste Argument ist die Liste der Werte, das zweite ist ein boolescher Wert, der angibt, ob die Sortierung aufsteigend (true) oder absteigend (false) ist.
+Sortiert eine Liste von Werten oder Objekten in natürlicher Reihenfolge.
 
 ## Kategorie
 
@@ -27,17 +27,11 @@ Liste
 
 ## Parameter
 
-| Parameter | Typ |
-|-----------|------------------|
-| Liste | listString |
-| Liste | listBoolean |
-| Liste | listInteger |
-| Liste | listDecimal |
-| Liste | listDuration |
-| Liste | listDateTime |
-| Liste | listDateTimeOnly |
-| Liste | listDateOnly |
-| Boolesch | Boolesch |
+| Parameter | Typ | Beschreibung |
+|-----------|------------------|------------------|
+| listToSort | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly oder listObject | Liste zum Sortieren. Bei listObject muss es sich um einen Feldverweis handeln. |
+| keyAttributeName | Zeichenfolge | Dieser Parameter ist nur für listObject. Der Attributname in den Objekten der angegebenen Liste wird als Schlüssel zum Sortieren verwendet. |
+| sortOrder | boolean | Aufsteigend (true) oder absteigend (false) |
 
 ## Signatur und zurückgegebener Typ
 
@@ -69,6 +63,10 @@ Gibt eine Liste mit Datumsangaben zurück.
 
 Gibt eine Liste mit booleschen Werten zurück.
 
+`sort(<listObject>,<string>,<boolean>)`
+
+Gibt eine Liste von Objekten zurück.
+
 ## Beispiel
 
 `sort(["A", "C", "B"], true)`
@@ -78,3 +76,4 @@ Gibt `["A","B","C"]` zurück.
 `sort([1, 3, 2], false)`
 
 Gibt `[3, 2, 1]` zurück.
+

@@ -6,16 +6,16 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 034e4d77-2f0e-4117-9fd4-b9e35ef71a39
-source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
+source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 100%
+source-wordcount: '151'
+ht-degree: 44%
 
 ---
 
 # distinct {#distinct}
 
-Gibt die eindeutigen Werte der Liste ohne Nullwerte zurück.
+Gibt die eindeutigen Werte oder Objekte einer angegebenen Liste zurück. Null-Einträge werden ignoriert.
 
 ## Kategorie
 
@@ -23,20 +23,14 @@ Liste
 
 ## Funktionssyntax
 
-`distinct(<parameter>)`
+`distinct(<parameters>)`
 
 ## Parameter
 
-| Parameter | Typ |
-|-----------|------------------|
-| Liste | listString |
-| Liste | listBoolean |
-| Liste | listInteger |
-| Liste | listDecimal |
-| Liste | listDuration |
-| Liste | listDateTime |
-| Liste | listDateTimeOnly |
-| Liste | listDateOnly |
+| Parameter | Typ | Beschreibung |
+|-----------|------------------|------------------|
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly oder listObject | Zu verarbeitende Liste. Bei listObject muss es sich um einen Feldverweis handeln. |
+| keyAttributeName | Zeichenfolge | Dieser Parameter ist optional und nur für listObject. Wenn der Parameter nicht angegeben wird, wird ein Objekt als dupliziert betrachtet, wenn alle Attribute dieselben Werte aufweisen. Andernfalls wird ein Objekt als dupliziert betrachtet, wenn das angegebene Attribut denselben Wert aufweist. |
 
 ## Signaturen und zurückgegebene Typen
 
@@ -71,6 +65,13 @@ Gibt eine Liste mit booleschen Werten zurück.
 `distinct(<listDuration>)`
 
 Gibt eine Liste der Dauer zurück.
+
+`distinct(<listObject>)`
+
+`distinct(<listObject>,<string>)`
+
+Gibt eine Liste von Objekten zurück.
+
 
 ## Beispiele
 

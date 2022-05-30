@@ -5,10 +5,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
-workflow-type: ht
-source-wordcount: '1020'
-ht-degree: 100%
+source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+workflow-type: tm+mt
+source-wordcount: '1293'
+ht-degree: 81%
 
 ---
 
@@ -16,9 +16,137 @@ ht-degree: 100%
 
 In diesem Abschnitt werden einige häufig verwendete Beispiele für die Abfrage von Journey-Schrittereignissen im Data Lake aufgeführt.
 
+Stellen Sie sicher, dass die in Ihren Abfragen verwendeten Felder im entsprechenden Schema über zugeordnete Werte verfügen.
+
+## Anwendungsfälle für das Tracking von Datensätzen {#tracking-datasets}
+
+Im Folgenden finden Sie eine Liste der Tracking-Datensätze und der zugehörigen Anwendungsfälle:
+
+**Datensatz zum E-Mail-Tracking-Erlebnis** (cjm_email_tracking_experience_event_dataset)
+
+Systemdatensatz für die Aufnahme von E-Mail-Tracking-Erlebnisereignissen aus Journey Optimizer.
+
+Das zugehörige Schema ist das CJM-E-Mail-Tracking-Erlebnisereignis-Schema.
+
+_Anwendungsfall für Berichterstellung_
+
+```sql
+select
+    _experience.customerJourneyManagement.messageInteraction.interactionType AS interactionType,
+    count(1) eventCount
+from cjm_email_tracking_experience_event_dataset
+where
+     _experience.customerJourneyManagement.messageExecution.messageExecutionID IN ('UMA-30647505')
+group by
+    _experience.customerJourneyManagement.messageInteraction.interactionType
+
+
+select
+    _experience.customerJourneyManagement.messageExecution.messageExecutionID AS messageExecutionID,
+    _experience.customerJourneyManagement.messageInteraction.interactionType AS interactionType,
+    count(1) eventCount
+from cjm_email_tracking_experience_event_dataset
+where
+     _experience.customerJourneyManagement.messageExecution.journeyVersionID IN ('0e86ac62-c315-48cc-ab4f-3f8b741ae667')
+group by
+    _experience.customerJourneyManagement.messageExecution.messageExecutionID,
+    _experience.customerJourneyManagement.messageInteraction.interactionType
+order by
+    _experience.customerJourneyManagement.messageExecution.messageExecutionID,
+    _experience.customerJourneyManagement.messageInteraction.interactionType
+limit 100;
+```
+
+**Datensatz mit Nachrichten-Feedback-Ereignissen** (cjm_message_feedback_event_dataset)
+
+Datensatz zur Aufnahme von E-Mail- und Push-App-Feedback-Ereignissen aus Journey Optimizer.
+
+Das zugehörige Schema ist das Schema für CJM-Nachrichten-Feedback-Ereignis.
+
+_Anwendungsfall für Berichterstellung_
+
+```sql
+select
+    _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus AS feedbackStatus,
+    count(1) eventCount
+from cjm_message_feedback_event_dataset
+where
+     _experience.customerJourneyManagement.messageExecution.messageExecutionID IN ('UMA-30647505')
+group by
+    _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus;
+
+
+select
+    _experience.customerJourneyManagement.messageExecution.messageExecutionID AS messageExecutionID,
+    _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus AS feedbackStatus,
+    count(1) eventCount
+from cjm_message_feedback_event_dataset
+where
+     _experience.customerJourneyManagement.messageExecution.journeyVersionID IN ('0e86ac62-c315-48cc-ab4f-3f8b741ae667')
+group by
+    _experience.customerJourneyManagement.messageExecution.messageExecutionID,
+    _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus
+order by
+    _experience.customerJourneyManagement.messageExecution.messageExecutionID,
+    _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus
+limit 100;
+```
+
+**Datensatz mit Push-Tracking-Erlebnis** (cjm_push_tracking_experience_event_dataset)
+
+Datensatz für die Erfassung von Erlebnisereignissen für Mobilverfolgung für Push- und Inapp-Kanäle aus Journey Optimizer.
+
+Das zugehörige Schema ist das Schema für CJM-Push-Tracking-Erlebnis.
+
+_Anwendungsfall für Berichterstellung_
+
+```sql
+select _experience.customerJourneyManagement.pushChannelContext.platform, sum(pushNotificationTracking.customAction.value)  from cjm_push_tracking_experience_event_dataset
+group by _experience.customerJourneyManagement.pushChannelContext.platform
+
+select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (_experience.customerJourneyManagement.messageInteraction.offers.offerCount) from cjm_email_tracking_experience_event_dataset
+  group by _experience.customerJourneyManagement.pushChannelContext.platform
+```
+
+**Journey-Schrittereignis** (Journey_step_events)
+
+Datensatz zum Erfassen von Schrittereignissen für Benutzer im Journey.
+
+Das zugehörige Schema ist das Journey Step Event-Schema zur Journey Orchestration.
+
+_Anwendungsfall für Berichterstellung_
+
+```sql
+select
+    _experience.journeyOrchestration.stepEvents.actionName AS actionLabel,
+    count(1) actionSuccessCount
+from journey_step_events
+where
+     _experience.journeyOrchestration.stepEvents.journeyVersionID IN ('0e86ac62-c315-48cc-ab4f-3f8b741ae667')
+     AND _experience.journeyOrchestration.stepEvents.actionID IS NOT NULL
+     AND _experience.journeyOrchestration.stepEvents.actionType IS NOT NULL
+     AND _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode IS NULL
+group by
+    _experience.journeyOrchestration.stepEvents.actionName;   
+   
+
+select
+    _experience.journeyOrchestration.stepEvents.nodeID AS nodeID,
+    _experience.journeyOrchestration.stepEvents.nodeName AS nodeLabel,
+    count(1) stepEnteredCount
+from journey_step_events
+where
+     _experience.journeyOrchestration.stepEvents.journeyVersionID IN ('0e86ac62-c315-48cc-ab4f-3f8b741ae667')
+     AND _experience.journeyOrchestration.stepEvents.journeyNodeProcessed = TRUE
+     AND _experience.journeyOrchestration.stepEvents.eventID IS DISTINCT FROM 'createInstance'
+group by
+    _experience.journeyOrchestration.stepEvents.nodeID,
+    _experience.journeyOrchestration.stepEvents.nodeName;
+```
+
 ## Nachrichten-/Aktionsfehler {#message-action-errors}
 
-### Liste aller in Journeys aufgetretenen Fehler {#error-list-journey}
+**Liste aller in Journeys aufgetretenen Fehler**
 
 Mithilfe dieser Abfrage können Sie jeden in Journeys aufgetretenen Fehler beim Ausführen einer Nachricht/Aktion auflisten.
 
@@ -46,7 +174,7 @@ Diese Abfrage gibt alle Fehler zurück, die beim Ausführen einer Aktion in eine
 
 ## Profilbasierte Abfragen {#profile-based-queries}
 
-### Ermitteln, ob ein Profil in eine bestimmte Journey eingetreten ist {#profile-entered-journey}
+**Ermitteln, ob ein Profil in eine bestimmte Journey eingetreten ist**
 
 _Data-Lake-Abfrage_
 
@@ -68,9 +196,9 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 Das Ergebnis sollte größer als 0 sein. Diese Abfrage gibt die genaue Anzahl der Eintritte eines Profils in eine Journey zurück.
 
-### Ermitteln, ob eine bestimmte Nachricht an ein Profil gesendet wurde {#profile-specific-message}
+**Ermitteln, ob eine bestimmte Nachricht an ein Profil gesendet wurde**
 
-**Methode 1:** Wenn der Name Ihrer Nachricht in der Journey nicht eindeutig ist (er wird an mehreren Stellen verwendet).
+Methode 1: Wenn der Name Ihrer Nachricht in der Journey nicht eindeutig ist (er wird an mehreren Stellen verwendet).
 
 _Data-Lake-Abfrage_
 
@@ -94,7 +222,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 Das Ergebnis sollte größer als 0 sein. Diese Abfrage zeigt nur an, ob die Nachrichtenaktion auf der Journey-Seite erfolgreich ausgeführt wurde.
 
-**Methode 2:** Wenn der Name Ihrer Nachricht in der Journey eindeutig ist.
+Methode 2: Wenn der Name Ihrer Nachricht in der Journey eindeutig ist.
 
 _Data-Lake-Abfrage_
 
@@ -118,7 +246,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 Die Abfrage gibt die Liste aller Nachrichten zusammen mit der Anzahl der für das ausgewählte Profil aufgerufenen Nachrichten zurück.
 
-## Ermitteln aller Nachrichten, die ein Profil in den letzten 30 Tagen erhalten hat {#message-received-30-days}
+**Ermitteln aller Nachrichten, die ein Profil in den letzten 30 Tagen erhalten hat**
 
 _Data-Lake-Abfrage_
 
@@ -144,7 +272,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 
 Die Abfrage gibt die Liste aller Nachrichten zusammen mit der Anzahl der für das ausgewählte Profil aufgerufenen Nachrichten zurück.
 
-### Ermitteln aller Journeys, in die ein Profil in den letzten 30 Tagen eingetreten ist {#profile-entered-30-days}
+**Ermitteln aller Journeys, in die ein Profil in den letzten 30 Tagen eingetreten ist**
 
 _Data-Lake-Abfrage_
 
@@ -168,7 +296,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 
 Die Abfrage gibt die Liste aller Journey-Namen sowie die Anzahl der Eintritte des abgefragten Profils in die Journey zurück.
 
-### Anzahl der Profile, die sich täglich für eine Journey qualifiziert haben {#profile-qualified}
+**Anzahl der Profile, die sich täglich für eine Journey qualifiziert haben**
 
 _Data-Lake-Abfrage_
 
@@ -194,7 +322,7 @@ Die Abfrage gibt für den definierten Zeitraum die tägliche Anzahl der Profile 
 
 ## Abfragen im Zusammenhang mit „Segment lesen“ {#read-segment-queries}
 
-### Dauer bis zum Fertigstellen eines Segmentexportvorgangs
+**Dauer bis zum Fertigstellen eines Segmentexportvorgangs**
 
 _Data-Lake-Abfrage_
 
@@ -226,7 +354,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finish
 
 Die Abfrage gibt die Zeitdifferenz in Minuten zurück, die zwischen dem Zeitpunkt liegt, zu dem der Segmentexportvorgang in die Warteschlange gestellt wurde, und dem Zeitpunkt, zu dem er beendet wurde.
 
-### Anzahl der Profile, die von der Journey verworfen wurden, weil sie Duplikate waren
+**Anzahl der Profile, die von der Journey verworfen wurden, weil sie Duplikate waren**
 
 _Data-Lake-Abfrage_
 
@@ -248,7 +376,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 Die Abfrage gibt alle Profil-IDs zurück, die von der Journey verworfen wurden, da es sich um Duplikate handelte.
 
-### Anzahl der Profile, die von der Journey aufgrund eines ungültigen Namespace verworfen wurden
+**Anzahl der Profile, die von der Journey aufgrund eines ungültigen Namespace verworfen wurden**
 
 _Data-Lake-Abfrage_
 
@@ -270,7 +398,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 Die Abfrage gibt alle Profil-IDs zurück, die von der Journey verworfen wurden, da sie einen ungültigen Namespace oder keine Kennung für diesen Namespace hatten.
 
-### Anzahl der Profile, die von der Journey verworfen wurden, weil keine Identitätszuordnung vorhanden war
+**Anzahl der Profile, die von der Journey verworfen wurden, weil keine Identitätszuordnung vorhanden war**
 
 _Data-Lake-Abfrage_
 
@@ -292,7 +420,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 Die Abfrage gibt alle Profil-IDs zurück, die von der Journey verworfen wurden, da die Identitätszuordnung fehlte.
 
-### Anzahl der Profile, die von der Journey verworfen wurden, weil sich die Journey im Testmodus befand und das Profil kein Testprofil war
+**Anzahl der Profile, die von der Journey verworfen wurden, weil sich die Journey im Testmodus befand und das Profil kein Testprofil war**
 
 _Data-Lake-Abfrage_
 
@@ -314,7 +442,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 Die Abfrage gibt alle Profil-IDs zurück, die von der Journey verworfen wurden, da der Exportvorgang im Testmodus ausgeführt wurde, das Attribut testProfile des Profils aber nicht auf „true“ gesetzt war.
 
-### Anzahl der Profile, die von der Journey aufgrund eines internen Fehlers verworfen wurden
+**Anzahl der Profile, die von der Journey aufgrund eines internen Fehlers verworfen wurden**
 
 _Data-Lake-Abfrage_
 
@@ -336,7 +464,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 Die Abfrage gibt alle Profil-IDs zurück, die von der Journey aufgrund eines internen Fehlers verworfen wurden.
 
-### Übersicht über „Segment lesen“ für eine bestimmte Journey-Version
+**Übersicht über „Segment lesen“ für eine bestimmte Journey-Version**
 
 _Data-Lake-Abfrage_ 
 
@@ -374,7 +502,7 @@ WICHTIG: Wenn von dieser Abfrage kein Ereignis zurückgegeben wird, kann dies ei
 * Die Journey-Version hat die Planung nicht erreicht.
 * Die Journey-Version hätte den Exportvorgang durch Aufruf des Orchestrierers über einen Trigger auslösen sollen, aber im vorgelagerten Fluss ist ein Fehler aufgetreten: Problem bei der Journey-Bereitstellung, mit dem Geschäftsereignis oder mit der Planung.
 
-### Abrufen von „Segment lesen“-Fehlern für eine bestimmte Journey-Version
+**Abrufen von „Segment lesen“-Fehlern für eine bestimmte Journey-Version**
 
 _Data-Lake-Abfrage_
 
@@ -400,7 +528,7 @@ WHERE
     )
 ```
 
-### Abrufen des Verarbeitungsstatus für Exportvorgänge
+**Abrufen des Verarbeitungsstatus für Exportvorgänge**
 
 _Data-Lake-Abfrage_
 
@@ -429,7 +557,7 @@ Wenn kein Datensatz zurückgegeben wird, bedeutet dies, dass
 * bei der Erstellung des Themas oder des Exportvorgangs ein Fehler aufgetreten ist
 * der Exportvorgang noch ausgeführt wird
 
-### Abrufen von Metriken zu exportierten Profilen, einschließlich Verwerfen-Aktionen und Exportvorgangsmetriken für die einzelnen Exportvorgänge
+**Abrufen von Metriken zu exportierten Profilen, einschließlich Verwerfen-Aktionen und Exportvorgangsmetriken für die einzelnen Exportvorgänge**
 
 _Data-Lake-Abfrage_
 
@@ -489,7 +617,7 @@ FROM
 WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 ```
 
-### Abrufen aggregierter Metriken (Segmentexportvorgänge und Verwerfen-Aktionen) für alle Exportvorgänge
+**Abrufen aggregierter Metriken (Segmentexportvorgänge und Verwerfen-Aktionen) für alle Exportvorgänge**
 
 _Data-Lake-Abfrage_
 
@@ -554,31 +682,59 @@ Es werden die Gesamtmetriken für eine bestimmte Journey-Version zurückgegeben,
 
 ## Abfragen im Zusammenhang mit der Segmentqualifikation {#segment-qualification-queries}
 
-### Profil wird verworfen, da ein anderes als das konfigurierte Segment erstellt wurde 
+**Profil wird verworfen, da ein anderes als das konfigurierte Segment erstellt wurde**
 
 _Data-Lake-Abfrage_
 
 ```sql
-SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
+SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID
+FROM journey_step_events
 where
-_experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'ERROR_INSTANCE_WRONG_SEGMENT_REALIZATION'
+_experience.journeyOrchestration.journey.versionID = '<journey-version id>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEGMENT_REALISATION_CONDITION_MISMATCH'
 ```
 
 _Beispiel_
 
 ```sql
-SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
+SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID
+FROM journey_step_events
 where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'ERROR_INSTANCE_WRONG_SEGMENT_REALIZATION'
+_experience.journeyOrchestration.journey.versionID = 'a868f3c9-4888-46ac-a274-94cdf1c4159d' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEGMENT_REALISATION_CONDITION_MISMATCH'
 ```
 
 Diese Abfrage gibt alle Profil-IDs zurück, die aufgrund einer falschen Segmentrealisierung von der Journey-Version verworfen wurden.
 
+**Segmentqualifikationsereignisse, die aus einem anderen Grund für ein bestimmtes Profil verworfen wurden**
+
+_Data-Lake-Abfrage_
+
+```sql
+SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID, _experience.journeyOrchestration.serviceEvents.dispatcher.projectionID
+FROM journey_step_events
+where
+_experience.journeyOrchestration.profile.ID = '<profile-id>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
+```
+
+_Beispiel_
+
+```sql
+SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID, _experience.journeyOrchestration.serviceEvents.dispatcher.projectionID
+FROM journey_step_events
+where
+_experience.journeyOrchestration.profile.ID = 'mandee@adobe.com' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
+```
+
+Diese Abfrage gibt alle Ereignisse (externe Ereignisse/Segmentqualifikationsereignisse) zurück, die aufgrund eines anderen Profils verworfen wurden.
+
 ## Ereignisbasierte Abfragen {#event-based-queries}
 
-### Überprüfung, ob ein Geschäftsereignis für eine Journey empfangen wurde
+**Überprüfung, ob ein Geschäftsereignis für eine Journey empfangen wurde**
 
 _Data-Lake-Abfrage_
 
@@ -604,9 +760,101 @@ _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
 WHERE DATE(timestamp) > (now() - interval '6' hour)
 ```
 
+**Überprüfen Sie, ob ein externes Ereignis eines Profils verworfen wurde, da keine zugehörige Journey gefunden wurde.**
+
+_Data-Lake-Abfrage_
+
+```sql
+SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventID = '<eventId>' AND
+_experience.journeyOrchestration.profile.ID = '<profileId>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
+```
+
+_Beispiel_
+
+```sql
+SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventID = '515bff852185e434ca5c83bcfc4f24626b1545ca615659fc4cfff91626ce61a6' AND
+_experience.journeyOrchestration.profile.ID = 'mandee@adobe.com' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
+```
+
+**Überprüfen Sie, ob ein externes Ereignis eines Profils aus einem anderen Grund verworfen wurde.**
+
+_Data-Lake-Abfrage_
+
+```sql
+SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp), _experience.journeyOrchestration.serviceEvents.dispatcher.eventID, _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode
+FROM journey_step_events
+where
+_experience.journeyOrchestration.profile.ID='<profileID>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventID='<eventID>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
+```
+
+_Beispiel_
+
+```sql
+SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp), _experience.journeyOrchestration.serviceEvents.dispatcher.eventID, _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode
+FROM journey_step_events
+where
+_experience.journeyOrchestration.profile.ID='mandee@adobe.com' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventID='81c51be978d8bdf9ef497076b3e12b14533615522ecea9f5080a81c736491656' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
+```
+
+**Überprüfen Sie die Anzahl aller von stateMachine nach errorCode verworfenen Ereignisse.**
+
+_Data-Lake-Abfrage_
+
+```sql
+SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, COUNT() FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
+```
+
+_Beispiel_
+
+```sql
+SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, COUNT() FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
+```
+
+**Überprüfen Sie alle verworfenen Ereignisse, da der erneute Eintritt nicht zulässig war.**
+
+_Data-Lake-Abfrage_
+
+```sql
+SELECT DATE(timestamp), _experience.journeyOrchestration.profile.ID,
+_experience.journeyOrchestration.journey.versionID,
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventCode 
+FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
+```
+
+_Beispiel_
+
+```sql
+SELECT DATE(timestamp), _experience.journeyOrchestration.profile.ID,
+_experience.journeyOrchestration.journey.versionID,
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventCode 
+FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
+```
+
 ## Häufige Journey-basierte Abfragen {#journey-based-queries}
 
-### Anzahl der täglich aktiven Journeys {#daily-active-journeys}
+**Anzahl der täglich aktiven Journeys**
 
 _Data-Lake-Abfrage_
 
@@ -630,7 +878,7 @@ Die Abfrage gibt für den definierten Zeitraum die Anzahl der eindeutigen Journe
 
 ## Abfragen auf Journey-Instanzen {#journey-instances-queries}
 
-### Anzahl der Profile in einem bestimmten Status zu einer bestimmten Zeit
+**Anzahl der Profile in einem bestimmten Status zu einer bestimmten Zeit**
 
 _Data-Lake-Abfrage_
 
@@ -778,7 +1026,7 @@ ORDER BY
     DATETIME DESC
 ```
 
-### Anzahl der Profile, die in einem bestimmten Zeitraum aus der Journey austraten
+**Anzahl der Profile, die in einem bestimmten Zeitraum aus der Journey austraten**
 
 _Data-Lake-Abfrage_
 
@@ -816,7 +1064,7 @@ ORDER BY
     DATETIME DESC
 ```
 
-### Anzahl der Profile, die in einem bestimmten Zeitraum mit einem bestimmten Knoten/Status aus der Journey austraten
+**Anzahl der Profile, die in einem bestimmten Zeitraum mit einem bestimmten Knoten/Status aus der Journey austraten**
 
 _Data-Lake-Abfrage_
 
@@ -857,4 +1105,5 @@ GROUP BY
 ORDER BY
     DATETIME DESC
 ```
+
 
