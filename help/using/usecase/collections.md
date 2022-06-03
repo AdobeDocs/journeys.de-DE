@@ -4,8 +4,8 @@ solution: Journey Orchestration
 title: Dynamisches Übergeben von Kollektionen mithilfe benutzerdefinierter Aktionen
 description: Senden von Nachrichten mit Campaign v7/v8
 exl-id: 9ed62a74-3c51-4f15-af8a-d530ddf80b51
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
-workflow-type: ht
+source-git-commit: 97d19cf9cb91c82587e5c94e43580f808d15e813
+workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 100%
 
@@ -66,6 +66,7 @@ Sie können eine Kollektion in benutzerdefinierten Aktionsparametern übergeben,
     ]
    }
    ```
+
 * Um Kollektionen im Testmodus zu testen, müssen Sie den Code-Ansichtsmodus verwenden. Der Code-Ansichtsmodus wird derzeit für Geschäftsereignisse nicht unterstützt. Sie können eine Kollektion nur mit einem einzelnen Element senden.
 
 ## Allgemeines Verfahren {#general-procedure}
