@@ -1,20 +1,21 @@
 ---
 product: adobe campaign
 title: limit
-description: Erfahren Sie mehr über die Funktionsbeschränkung
+description: Erfahren Sie mehr über die Funktion „limit“.
 feature: Journeys
 role: Data Engineer
 level: Experienced
-source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
-workflow-type: tm+mt
+exl-id: 7e006660-1206-4b8a-9e5b-c6fbeee9cc8f
+source-git-commit: 9f5ef0497227a370e2e1f4a62450611ae2e336b9
+workflow-type: ht
 source-wordcount: '135'
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
 # limit {#limit}
 
-Gibt die ersten oder letzten N Elemente einer Liste zurück.
+Gibt die ersten oder letzten n Elemente einer Liste zurück.
 
 ## Kategorie
 
@@ -28,9 +29,9 @@ Liste
 
 | Parameter | Typ | Beschreibung |
 |-----------|------------------|------------------|
-| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly oder listObject | Liste zum Sortieren. Bei listObject muss es sich um einen Feldverweis handeln. |
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly oder listObject | Zu sortierende Liste. Bei listObject muss es sich um einen Feldverweis handeln. |
 | numberOfItems | integer | Anzahl der aus der angegebenen Liste zurückzugebenden Elemente. |
-| firstOrLastItems | boolean | Dieser Parameter ist optional (standardmäßig &quot;true&quot;). &quot;true&quot;gibt die ersten Elemente zurück. false gibt die letzten Elemente zurück. |
+| firstOrLastItems | boolean | Dieser Parameter ist optional (standardmäßig „true“). „True“ gibt die ersten Elemente zurück. „False“ gibt die letzten Elemente zurück. |
 
 ## Signatur und zurückgegebener Typ
 
@@ -77,7 +78,7 @@ Gibt eine Liste der Dauer zurück.
 `limit(<listObject>,<integer>)`
 `limit(<listObject>,<integer>,<boolean>)`
 
-Gibt eine Liste von Objekten zurück.
+Gibt eine Liste mit Objekten zurück.
 
 ## Beispiel
 
