@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
-source-git-commit: bdc9ac3f54fae1dfd6f24a54a2687a0834f69c36
-workflow-type: ht
-source-wordcount: '375'
+source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
+workflow-type: tm+mt
+source-wordcount: '360'
 ht-degree: 100%
 
 ---
@@ -18,9 +18,7 @@ ht-degree: 100%
 Wenn Sie warten möchten, bevor Sie die nächste Aktivität im Pfad ausführen, können Sie eine **[!UICONTROL Warteaktivität]** verwenden. Sie können den Zeitpunkt festlegen, zu dem die nächste Aktivität ausgeführt wird. Drei Optionen stehen zur Wahl:
 
 * [Dauer](#duration)
-* [Festgelegtes Datum](#fixed_date)
 * [Benutzerspezifisch](#custom)
-
 <!--* [Email send time optimization](#email_send_time_optimization)-->
 
 ## Informationen zur Warteaktivität{#about_wait}
@@ -33,19 +31,13 @@ Beachten Sie auch, dass bei zwei parallelen Wartezeiten die zuerst auftretende u
 >
 >Die maximale Wartezeit beträgt 30 Tage.
 >
->Im Testmodus können Sie mit dem Parameter **[!UICONTROL Wartezeit im Test]** die Dauer jeder Warteaktivität festlegen. Die standardmäßige Dauer beträgt 10 Sekunden. Dadurch erhalten Sie die Testergebnisse schnell. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md)
+>Im Testmodus können Sie mit dem Parameter **[!UICONTROL Wartezeit im Test]** die Dauer jeder Warteaktivität festlegen. Der Standardwert ist 10 Sekunden. Dadurch erhalten Sie die Testergebnisse schnell. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md)
 
 ## Wartezeit mit Dauer{#duration}
 
 Wählen Sie die Dauer der Wartezeit vor der Ausführung der nächsten Aktivität aus.
 
 ![](../assets/journey55.png)
-
-## Wartezeit mit festgelegtem Datum{#fixed_date}
-
-Wählen Sie das Datum für die Ausführung der nächsten Aktivität aus.
-
-![](../assets/journey56.png)
 
 ## Benutzerdefinierte Wartezeit{#custom}
 
