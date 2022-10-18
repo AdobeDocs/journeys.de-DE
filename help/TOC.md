@@ -5,9 +5,9 @@ title: Handbuch zu Journey Orchestration
 user-guide-description: Enthält Anleitungen zum Implementieren und Erstellen von Journeys.
 index: true
 feature: Journeys
-source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+source-git-commit: 19760b779c2b105286d502b3bf4edda5bec79194
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '440'
 ht-degree: 99%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 99%
 + Neue Funktionen {#release-notes}
    + [Versionshinweise](using/release-notes/release-notes.md)
    + [Aktualisierungen der Dokumentation](using/release-notes/documentation-updates.md)
+   + [Migration zu Journey Optimizer](using/release-notes/migration-to-ajo.md)
 + Einstieg in [!DNL Journey Orchestration] {#starting-with-journeys}
    + [Informationen zu  [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [Einschränkungen](using/about/limitations.md)
@@ -103,7 +104,7 @@ ht-degree: 99%
       + [Bedingte Anweisung](using/expression/conditional-instruction.md)
       + [Datentypen](using/expression/data-types.md)
       + [Feldverweise](using/expression/field-references.md)
-      + [Funktionen zur Verwaltung von Kollektionen](using/expression/collection-management-functions.md)
+      + [Funktionen zur Verwaltung von Sammlungen](using/expression/collection-management-functions.md)
       + [Operatoren](using/expression/operators.md)
       + [Journey-Eigenschaften](using/expression/journey-properties.md)
       + [Beispiele](using/expression/advanced-editor-use-cases.md)
@@ -152,7 +153,7 @@ ht-degree: 99%
          + [getListItem](using/functions/functiongetlistitem.md)
          + [in](using/functions/functionin.md)
          + [intersect](using/functions/functionintersect.md)
-         + [limit](using/functions/functionlimit.md)
+         + [Limit](using/functions/functionlimit.md)
          + [listSize](using/functions/functionlistsize.md)
          + [serializeList](using/functions/functionserializelist.md)
          + [sort](using/functions/functionsort.md)
@@ -202,6 +203,6 @@ ht-degree: 99%
       + [Konfigurieren von Datenquellen](using/usecase/configuring-the-data-sources.md)
       + [Erstellen der Journey](using/usecase/building-the-journey.md)
    + [Senden von Nachrichten mit Campaign v7/v8](using/usecase/campaign-classic-use-case.md)
-   + [Dynamisches Übergeben von Kollektionen mithilfe benutzerdefinierter Aktionen](using/usecase/collections.md)
+   + [Dynamisches Übergeben von Sammlungen mithilfe benutzerdefinierter Aktionen](using/usecase/collections.md)
 + Verwenden von APIs{#working-with-apis}
    + [Begrenzungs-APIs](using/api/capping.md)
