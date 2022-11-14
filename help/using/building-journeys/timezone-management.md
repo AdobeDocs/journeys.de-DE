@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: c0e67849-caa0-4045-94ed-38e483054e1d
 source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '278'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 66%
 
 Sie können eine Zeitzone in den [Eigenschaften](../building-journeys/changing-properties.md) Ihrer Journey festlegen.
 
-Um die Eigenschaften der aufzurufen, klicken Sie auf das Stiftsymbol oben rechts im Bildschirm.
+Um die Eigenschaften aufzurufen, klicken Sie auf das Stiftsymbol oben rechts im Bildschirm.
 
-Diese Zeitzone wird für jede Aktivität der Journey verwendet, die ein Zeitelement enthält, z. B.: 
+Diese Zeitzone wird für jede Aktivität der Journey verwendet, die ein Zeitelement enthält, z. B.:
 
 * [Bedingung für die Uhrzeit](../building-journeys/condition-activity.md#time_condition)
 * [Bedingung für das Datum](../building-journeys/condition-activity.md#date_condition)
@@ -41,7 +41,7 @@ Wählen Sie dazu in den **[!UICONTROL Eigenschaften]** eine Zeitzone aus.
 
 ## Verwenden von Profilen zur Definition der Zeitzone einer Journey {#timezone-from-profiles}
 
-Wenn das Eintrittsereignis der Journey einen Namespace hat, d. h. die Journey den Echtzeit-Kundenprofildienst von Adobe Experience Platform erreichen kann, sollten Sie die auf Profilebene definierte Zeitzone verwenden. Gehen Sie dazu in **Eigenschaften**, check **Verwenden der Zeitzone des Profils in Wartezeiten und Bedingungen**. Diese Option ist standardmäßig nicht aktiviert.
+Wenn das Eintrittsereignis der Journey einen Namespace hat, was bedeutet, dass die Journey Zugriff auf den Echtzeit-Kundenprofil-Service von Adobe Experience Platform hat, könnten Sie die auf Profilebene definierte Zeitzone verwenden. Aktivieren Sie dazu in den **Eigenschaften** die Option **Zeitzone des Profils für Wartezeiten und Bedingungen verwenden**. Diese Option ist nicht standardmäßig aktiviert.
 
 Wenn für ein Profil eine Zeitzone definiert wurde, wird diese abgerufen und von der Journey verwendet. Ist dies nicht der Fall, wird die im Zeitzonenfeld definierte Zeitzone verwendet.
 
