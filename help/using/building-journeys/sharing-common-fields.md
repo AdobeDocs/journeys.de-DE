@@ -86,7 +86,7 @@ Status des Schritts, der den Status des Schritts darstellt, nachdem die Verarbei
 
 Typ: Zeichenfolge
 
-Der Status kann folgendermaßen lauten:
+Der Status kann wie folgt lauten:
 
 * ended: Der Schritt weist keine Transition auf und seine Verarbeitung wurde erfolgreich beendet.
 * error: Bei der Schrittverarbeitung ist ein Fehler aufgetreten.

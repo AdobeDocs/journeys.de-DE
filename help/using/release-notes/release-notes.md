@@ -9,7 +9,7 @@ exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
 workflow-type: tm+mt
 source-wordcount: '3280'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Sie können auch die neusten [Aktualisierungen der Dokumentation](../release-not
 
 ### Verbesserungen
 
-* **Ausdruckseditor** - die [limit](../functions/functionlimit.md) wurde hinzugefügt, damit Sie die Anzahl der Elemente einer Liste begrenzen können. Die [sort](../functions/functionsort.md) -Funktion können Sie nun ein Listenobjekt sortieren. Die Unterstützung von listObject wurde auch der [distinct](../functions/functiondistinct.md) und [distinctWithNull](../functions/functiondistinctwithnull.md) Funktionen.
+* **Ausdruckseditor**: Die Funktion [Limit](../functions/functionlimit.md) wurde hinzugefügt, um die Anzahl der Elemente einer Liste zu begrenzen. Mit der Funktion [Sortierung](../functions/functionsort.md) können Sie jetzt ein Listenobjekt sortieren. Die Unterstützung von listObject wurde auch den Funktionen [distinct](../functions/functiondistinct.md) und [distinctWithNull](../functions/functiondistinctwithnull.md) hinzugefügt.
 
 ## Version März 2022 {#feb-2022-release}
 
@@ -50,7 +50,7 @@ Sie können auch die neusten [Aktualisierungen der Dokumentation](../release-not
 
 * **Ausdruckseditor** – Als Power-User stehen Ihnen jetzt Funktionen zur Verfügung, um mit Karten zu arbeiten. [Weitere Informationen](../expression/field-references.md)
 * **Barrierefreiheit** – Es wurden Verbesserungen an der Barrierefreiheit vorgenommen. Die Barrierefreiheit von Journey Orchestration ist jetzt vollständig gewährleistet.
-* **Kollektionen** – Arrays von Objekten, die Unterobjekte enthalten, werden nun unterstützt. [Weitere Informationen](../usecase/collections.md)
+* **Sammlungen** – Arrays von Objekten, die Unterobjekte enthalten, werden nun unterstützt. [Weitere Informationen](../usecase/collections.md)
 * **Monitoring** – Step-Ereignisse für Live-Journeys und den Testmodus wurden verbessert. Es wurden [neue Felder](../building-journeys/sharing-field-list.md#serviceevents) im Zusammenhang mit Profilexportvorgängen hinzugefügt. Um ein besseres Benutzererlebnis zu bieten, sind im Journey-Schrittereignisschema für Journey Orchestration die Schrittereignisfelder nun in verschiedene Kategorien unterteilt. Alle Felder für vorhergehende Schrittereignisse sind weiterhin in der Kategorie [stepEvents](../building-journeys/sharing-legacy-fields.md) verfügbar.
 
 ## Version September 2021 {#september-2021-release}
@@ -64,9 +64,9 @@ Sie können auch die neusten [Aktualisierungen der Dokumentation](../release-not
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt Kollektionen oder eine Liste von Daten in Ihren benutzerdefinierten Aktionsparametern übergeben, die zur Laufzeit dynamisch gefüllt werden. Es werden zwei Arten von Kollektionen unterstützt: einfache Kollektionen und Objektkollektionen. Zuvor erstellte benutzerdefinierte Aktionen funktionieren weiterhin. </p>
-<p>Weitere Informationen zu Kollektionen finden Sie in der <a href="../usecase/collections.md">entsprechenden Dokumentation</a>. </p>
-<p>Der Filter und die Überschneidungsfunktionen wurden der Liste der im erweiterten Ausdruckseditor verfügbaren Funktionen hinzugefügt. Dies bietet mehr Möglichkeiten zum Filtern und Vergleichen von Kollektionen.</p>
+<p>Sie können jetzt Sammlungen oder eine Liste von Daten in Ihren benutzerdefinierten Aktionsparametern übergeben, die zur Laufzeit dynamisch gefüllt werden. Es werden zwei Arten von Sammlungen unterstützt: einfache Sammlungen und Objektsammlungen. Zuvor erstellte benutzerdefinierte Aktionen funktionieren weiterhin. </p>
+<p>Weitere Informationen zu Sammlungen finden Sie in der <a href="../usecase/collections.md">entsprechenden Dokumentation</a>. </p>
+<p>Der Filter und die Überschneidungsfunktionen wurden der Liste der im erweiterten Ausdruckseditor verfügbaren Funktionen hinzugefügt. Dies bietet mehr Möglichkeiten zum Filtern und Vergleichen von Sammlungen.</p>
 <p>Lesen Sie die Dokumentation zu den Funktionen <a href="../functions/functionfilter.md">Filtern</a> und <a href="../functions/functionintersect.md">Überschneidung</a>.</p>
 </td>
 </tr>
@@ -102,7 +102,7 @@ Sie können auch die neusten [Aktualisierungen der Dokumentation](../release-not
 <td>
 <p>Mit Adobe Experience Platform können Sie Beziehungen zwischen Schemas definieren, um einen Datensatz als Lookup-Tabelle für einen anderen zu verwenden. Journey Orchestration kann jetzt Daten aus einem verknüpften Schema nutzen.</p>
 <p>Diese Felder sind bei der Konfiguration von unitären Ereignissen, in Journey-Bedingungen und bei der Personalisierung benutzerdefinierter Aktionen verfügbar.
-<p>Weitere Informationen finden Sie in der <a href="../event/experience-event-schema.md#leverage_schema_relationships">entsprechenden Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../event/experience-event-schema.md#leverage_schema_relationships">detaillierten Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -518,7 +518,7 @@ Die Benutzeroberfläche von Journey Orchestration ist auf Japanisch verfügbar.
 <p>Die folgenden Verbesserungen wurden am Testmodus vorgenommen:</p>
 <ul>
 <li>Wenn in einer Journey mehrere Ereignisse verwendet werden, können diese jetzt einzeln ausgelöst werden, indem Sie sie im Testmodus im Bildschirm <strong>Ereigniskonfiguration</strong> aus einer Dropdown-Liste auswählen. <a href="../building-journeys/testing-the-journey.md#firing_events">Mehr dazu</a></p></li>
-<li><p>Wenn in einer Journey eine oder mehrere <strong>Warteaktivitäten</strong> verwendet werden, können Sie jetzt festlegen, wie lange diese Aktivitäten im Testmodus dauern sollen. Die standardmäßige Dauer beträgt 10 Sekunden. Sie können diese mithilfe des Parameters <strong>Wartezeit im Test</strong> unten links ändern. <a href="../building-journeys/testing-the-journey.md">Mehr dazu</a></p><img src="../assets/rn-test.png"/>
+<li><p>Wenn in einer Journey eine oder mehrere <strong>Warteaktivitäten</strong> verwendet werden, können Sie jetzt festlegen, wie lange diese Aktivitäten im Testmodus dauern sollen. Der Standardwert ist 10 Sekunden. Sie können diese mithilfe des Parameters <strong>Wartezeit im Test</strong> unten links ändern. <a href="../building-journeys/testing-the-journey.md">Mehr dazu</a></p><img src="../assets/rn-test.png"/>
 </li>
 <li>In den <strong>Testprotokollen</strong> werden bei einem Fehler beim Aufrufen eines Drittanbietersystems (Datenquelle oder Aktion) der Fehlercode und die Fehlerantwort angezeigt. <a href="../building-journeys/testing-the-journey.md#viewing_logs">Mehr dazu</a>
 </li>

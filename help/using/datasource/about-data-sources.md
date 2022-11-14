@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: Informationen zu Datenquellen
-description: 'Erfahren Sie, wie Sie eine Datenquelle konfigurieren '
+description: Erfahren Sie, wie Sie eine Datenquelle konfigurieren
 feature: Journeys
 role: User
 level: Intermediate
@@ -18,7 +18,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="jo_datasources"
 >title="Informationen zu Datenquellen"
->abstract="Mit der Datenquellenkonfiguration können Sie eine Verbindung zu einem System definieren, um zusätzliche Informationen zur Verwendung in Ihren Journeys abzurufen."
+>abstract="Mit der Konfiguration von Datenquellen können Sie eine Verbindung zu einem System definieren, um zusätzliche Informationen zur Verwendung in Ihren Journeys abzurufen."
 
 Mit der Datenquellenkonfiguration können Sie eine Verbindung zu einem System definieren, um zusätzliche Informationen abzurufen, die in Ihren Journeys verwendet werden, zum Beispiel für:
 

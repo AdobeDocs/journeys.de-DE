@@ -34,7 +34,7 @@ Ein **Business-Anwender** kann mithilfe des Journey-Designers einfach per Drag-a
 
 Danach können Bedingungen auf folgender Basis erstellt werden:
 
-* Zeit
+* Zeit 
 * Daten aus der Ereignis-Payload
 * Informationen aus Datenquellen: dem Echtzeit-Kundenprofil oder aus benutzerdefinierten Datenquellen
 

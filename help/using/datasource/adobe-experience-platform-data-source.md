@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: 'Datenquelle von Adobe Experience Platform '
-description: 'Erfahren Sie, wie Sie die Datenquelle von Adobe Experience Platform konfigurieren '
+title: Datenquelle von Adobe Experience Platform
+description: Erfahren Sie, wie Sie die Datenquelle von Adobe Experience Platform konfigurieren
 feature: Journeys
 role: User
 level: Intermediate

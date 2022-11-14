@@ -61,4 +61,4 @@ Gibt 21 zurück.
 
 `sum([10.5,null,8.1])`
 
-Gibt 18,6 zurück.
+Gibt 18.6 zurück.

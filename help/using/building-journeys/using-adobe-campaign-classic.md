@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
 source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Damit dies funktioniert, müssen Sie eine dedizierte Aktion konfigurieren. Siehe
 
 In diesem [Abschnitt](../usecase/campaign-classic-use-case.md) wird ein Anwendungsfall schrittweise beschrieben.
 
-1. Beginnen Sie bei der Erstellung Ihrer Journey mit einem Ereignis. Siehe diesen [Abschnitt](../building-journeys/journey.md).
+1. Beginnen Sie bei der Erstellung Ihrer Journey mit einem Ereignis. Weitere Informationen finden Sie in diesem [Abschnitt](../building-journeys/journey.md).
 1. Wählen Sie im Abschnitt **Aktion** der Palette eine Campaign-Aktion aus und fügen Sie sie zu Ihrer Journey hinzu.
 1. Unter **Aktionsparameter** werden alle Felder angezeigt, die in der Nachrichten-Payload erwartet werden. Sie müssen jedes dieser Felder entweder im Ereignis oder der Datenquelle dem zu verwendenden Feld zuordnen. Dies ähnelt benutzerdefinierten Aktionen. Siehe diesen [Abschnitt](../building-journeys/using-custom-actions.md).
 

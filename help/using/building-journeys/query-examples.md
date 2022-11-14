@@ -8,7 +8,7 @@ exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
 source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
 workflow-type: tm+mt
 source-wordcount: '1293'
-ht-degree: 81%
+ht-degree: 93%
 
 ---
 
@@ -59,9 +59,9 @@ limit 100;
 
 **Datensatz mit Nachrichten-Feedback-Ereignissen** (cjm_message_feedback_event_dataset)
 
-Datensatz zur Aufnahme von E-Mail- und Push-App-Feedback-Ereignissen aus Journey Optimizer.
+Datensatz zur Aufnahme von E-Mail- und Push-Anwendungs-Feedback-Ereignissen aus Journey Optimizer.
 
-Das zugehörige Schema ist das Schema für CJM-Nachrichten-Feedback-Ereignis.
+Das zugehörige Schema ist das CJM-Nachrichten-Feedback-Ereignis-Schema.
 
 _Anwendungsfall für Berichterstellung_
 
@@ -96,7 +96,7 @@ limit 100;
 
 Datensatz für die Erfassung von Erlebnisereignissen für Mobilverfolgung für Push- und Inapp-Kanäle aus Journey Optimizer.
 
-Das zugehörige Schema ist das Schema für CJM-Push-Tracking-Erlebnis.
+Das zugehörige Schema ist das CJM-Push-Tracking-Erlebnisereignis-Schema.
 
 _Anwendungsfall für Berichterstellung_
 
@@ -112,7 +112,7 @@ select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (
 
 Datensatz zum Erfassen von Schrittereignissen für Benutzer im Journey.
 
-Das zugehörige Schema ist das Journey Step Event-Schema zur Journey Orchestration.
+Das zugehörige Schema ist das Journey-Schritt-Ereignis-Schema zur Journey Orchestration.
 
 _Anwendungsfall für Berichterstellung_
 
@@ -466,7 +466,7 @@ Die Abfrage gibt alle Profil-IDs zurück, die von der Journey aufgrund eines int
 
 **Übersicht über „Segment lesen“ für eine bestimmte Journey-Version**
 
-_Data-Lake-Abfrage_ 
+_Data-Lake-Abfrage_
 
 ```sql
 SELECT
@@ -552,7 +552,7 @@ WHERE
     )
 ```
 
-Wenn kein Datensatz zurückgegeben wird, bedeutet dies, dass
+Wenn kein Eintrag zurückgegeben wird, bedeutet dies, dass
 
 * bei der Erstellung des Themas oder des Exportvorgangs ein Fehler aufgetreten ist
 * der Exportvorgang noch ausgeführt wird
@@ -730,7 +730,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-Diese Abfrage gibt alle Ereignisse (externe Ereignisse/Segmentqualifikationsereignisse) zurück, die aufgrund eines anderen Profils verworfen wurden.
+Diese Abfrage gibt alle Ereignisse (externe Ereignisse/Segmentqualifikationsereignisse) zurück, die aus einem anderen Grund für ein Profil verworfen wurden.
 
 ## Ereignisbasierte Abfragen {#event-based-queries}
 
@@ -760,7 +760,7 @@ _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
 WHERE DATE(timestamp) > (now() - interval '6' hour)
 ```
 
-**Überprüfen Sie, ob ein externes Ereignis eines Profils verworfen wurde, da keine zugehörige Journey gefunden wurde.**
+**Überprüfung, ob ein externes Ereignis eines Profils verworfen wurde, weil keine zugehörige Journey gefunden wurde.**
 
 _Data-Lake-Abfrage_
 
@@ -784,7 +784,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
 
-**Überprüfen Sie, ob ein externes Ereignis eines Profils aus einem anderen Grund verworfen wurde.**
+**Überprüfung, ob ein externes Ereignis eines Profils aus einem anderen Grund verworfen wurde.**
 
 _Data-Lake-Abfrage_
 
@@ -810,7 +810,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-**Überprüfen Sie die Anzahl aller von stateMachine nach errorCode verworfenen Ereignisse.**
+**Überprüfung der Anzahl aller von stateMachine verworfenen Ereignisse nach errorCode**
 
 _Data-Lake-Abfrage_
 
@@ -828,7 +828,7 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
 ```
 
-**Überprüfen Sie alle verworfenen Ereignisse, da der erneute Eintritt nicht zulässig war.**
+**Überprüfung aller verworfenen Ereignisse, bei denen ein Wiedereintritt nicht erlaubt war**
 
 _Data-Lake-Abfrage_
 

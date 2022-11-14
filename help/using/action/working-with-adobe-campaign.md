@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: Arbeiten mit Adobe Campaign
-description: Erfahren Sie mehr über Adobe Campaign-Aktionen
+description: Erfahren Sie mehr über Aktionen in Adobe Campaign
 feature: Journeys
 role: User
 level: Intermediate
@@ -43,7 +43,7 @@ Im Folgenden werden die Konfigurationsschritte beschrieben:
    >
    >Der Host ist „.campaign.adobe.com“, „.campaign-sandbox.adobe.com“, „.campaign-demo.adobe.com“, „.ats.adobe.com“ oder „.adls.adobe.com“.
    >
-   >die URL beginnt mit https,
+   >Die URL beginnt mit https.
    >
    >die mit dieser Adobe Campaign Standard-Instanz verknüpfte ORG ist identisch mit der ORG von Journey Orchestration.
 

@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: 'Externe Datenquellen '
-description: 'Erfahren Sie, wie Sie externe Datenquellen konfigurieren '
+title: Externe Datenquellen
+description: Erfahren Sie, wie Sie externe Datenquellen konfigurieren
 feature: Journeys
 role: User
 level: Intermediate

@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: Funktionen zur Verwaltung von Kollektionen
+title: Funktionen zur Verwaltung von Sammlungen
 description: Erfahren Sie mehr über die Datentypen in den Funktionen zur Verwaltung von Sammlungen
 feature: Journeys
 role: Data Engineer
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Funktionen zur Verwaltung von Kollektionen {#collection-management-functions}
+# Funktionen zur Verwaltung von Sammlungen {#collection-management-functions}
 
 Die Ausdruckssprache bietet auch eine Reihe von Funktionen zum Abfragen von Sammlungen.
 

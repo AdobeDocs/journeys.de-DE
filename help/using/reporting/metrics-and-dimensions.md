@@ -93,7 +93,7 @@ In der Tabelle unten finden Sie eine Liste der Metriken, die in Journey-Berichte
 | **Bounce + Fehlerrate** | Gesamtzahl der Nachrichten, bei denen es zu einem Bounce gekommen ist, in Bezug auf die gesendeten Nachrichten. |
 | **Klick** | Zahl der Klicks auf einen Inhalt in einem Versand. |
 | **Durchklickrate** | Gesamtzahl der Klicks in einem Versand in Bezug auf die Zahl der gesendeten Nachrichten. |
-| **Zugestellt** | Zahl der erfolgreich gesendeten Nachrichten in Bezug auf die Gesamtzahl der gesendeten Nachrichten. |
+| **Zugestellt** | Zahl der erfolgreich gesendeten Nachrichten im Verhältnis zur Gesamtzahl der gesendeten Nachrichten. |
 | **Zustellrate** | Gesamtzahl der erfolgreich zugestellten Nachrichten in Bezug auf die gesendeten Nachrichten. |
 | **Fehler** | Gesamtzahl der Fehler, die während einer Journey aufgetreten sind, jedoch nicht verhindert haben, dass die Journey erfolgreich war. |
 | **Hardbounce** | Gesamtzahl der permanenten Fehler, beispielsweise eine falsche E-Mail-Adresse. |
@@ -104,12 +104,12 @@ In der Tabelle unten finden Sie eine Liste der Metriken, die in Journey-Berichte
 | **Öffnungsrate** | Gesamtzahl der geöffneten Nachrichten in Bezug auf die Zahl der zugestellten Nachrichten. |
 | **Quarantäne** | Zahl der Bounce-Nachrichten, bei denen eine Adresse unter Quarantäne gestellt wurde |
 | **Quarantänerate** | Gesamtzahl der Nachrichten in Quarantäne in Bezug auf die gesendeten Nachrichten. |
-| **Zurückgewiesen** | Zahl der Nachrichten, die von SMTP-Servern als Spam gekennzeichnet wurden. |
+| **Abgelehnt** | Zahl der Nachrichten, die von SMTP-Servern als Spam gekennzeichnet wurden. |
 | **Zurückweisungsrate** | Gesamtzahl der als abgelehnt markierten Nachrichten in Bezug auf die gesendeten Nachrichten. |
 | **Verarbeitet/gesendet** | Gesamtzahl der gesendeten Nachrichten für den Versand. |
 | **Softbounce** | Gesamtzahl der temporären Fehler, beispielsweise bei einem vollen Posteingang. |
 | **Softbounce-Rate** | Gesamtzahl der versendeten Nachrichten, die aus einem temporären Grund fehlgeschlagen sind, in Bezug auf die gesendeten Nachrichten. |
 | **Einzelklicks** | Zahl der Empfänger, die auf einen Inhalt in einem Versand geklickt haben. |
 | **Einzelöffnungen** | Zahl der Empfänger, die den Versand geöffnet haben. |
-| **Abo storniert** | Zahl der Klicks auf den Abmelde-Link. |
+| **Abo storniert** | Gesamtanzahl der Klicks auf den Abmelde-Link. |
 | **Abmelderate** | Gesamtzahl der Abmeldungen durch Empfänger in Bezug auf die gesendeten Nachrichten. |

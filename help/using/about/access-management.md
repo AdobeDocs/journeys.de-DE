@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: 'Zugriffsverwaltung '
+title: Zugriffsverwaltung
 description: Erfahren Sie mehr über die Zugriffsverwaltung
 feature: Journeys
 role: User
@@ -24,7 +24,7 @@ Rollen können von Administratoren verwaltet werden, die Zugriff auf die Admin C
 Um Zugriff auf [!DNL Journey Orchestration] zu erhalten, muss ein Benutzer:
 
 * Teil eines [!DNL Journey Orchestration]-**[!UICONTROL Produktprofils]** sein, das mit [!DNL Journey Orchestration]-Berechtigungen verknüpft ist.
-* Teil eines [!DNL Adobe Experience Platform]-**[!UICONTROL Produktprofils]** sein. Es ist keine zwingende Berechtigung erforderlich. Der Benutzer sollte über die Berechtigung **[!UICONTROL Profil-Management]** verfügen, um Plattformsegmente über die [!DNL Journey Orchestration]-Oberfläche erstellen und bearbeiten zu können. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=de#adobe-admin-console).
+* Teil eines [!DNL Adobe Experience Platform]-**[!UICONTROL Produktprofils]** sein. Es ist keine zwingende Berechtigung erforderlich. Der Benutzer sollte über die Berechtigung **[!UICONTROL Profil-Management]** verfügen, um Plattformsegmente über die [!DNL Journey Orchestration]-Oberfläche erstellen und bearbeiten zu können. Weiterführende Informationen hierzu finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=de#adobe-admin-console).
 
 In der Admin Console können Sie Ihren Benutzern eines der folgenden vordefinierten Produktprofile zuweisen:
 
@@ -36,7 +36,7 @@ In der Admin Console können Sie Ihren Benutzern eines der folgenden vordefinier
    * Journeys verwalten
    * Journeys veröffentlichen
    * Ereignisse, Datenquellen und Aktionen verwalten
-   * Berichte verwalten
+   * Verwalten von Berichten
 
    >[!NOTE]
    >
@@ -45,7 +45,7 @@ In der Admin Console können Sie Ihren Benutzern eines der folgenden vordefinier
 * **[!UICONTROL Standardbenutzer]**: Benutzer mit Basiszugriff, wie z. B. zur Verwaltung von Journeys. Dieses Produktprofil umfasst folgende Berechtigungen:
    * Journeys verwalten
    * Journeys veröffentlichen
-   * Berichte verwalten
+   * Verwalten von Berichten
    * Lesen von Ereignissen, Datenquellen und Aktionen
 
 Wenn die nativen Profile für Ihre Anforderungen nicht ausreichend sind, können Sie auch eigene Produktprofile erstellen.
@@ -57,7 +57,7 @@ Benutzer müssen stets mit einem Produktprofil verknüpft sein, damit Sie ihnen 
 * **[!UICONTROL Ereignisse, Datenquellen und Aktionen lesen]**
 * **[!UICONTROL Journeys verwalten]**
 * **[!UICONTROL Journeys veröffentlichen]**
-* **[!UICONTROL Berichte verwalten]**
+* **[!UICONTROL Verwalten von Berichten]**
 
 Sie können hier die Kompatibilität zwischen Berechtigungen und den verschiedenen Funktionen bei [!DNL Journey Orchestration] ermitteln.
 
@@ -83,7 +83,7 @@ So erstellen Sie ein Produktprofil und weisen einen Satz von Berechtigungen und 
 
    ![](../assets/do-not-localize/user_management_1.png)
 
-1. Wählen Sie Ihr neues Produktprofil aus, um Berechtigungen zu verwalten. Fügen Sie Ihrem Produktprofil auf dem Tab **[!UICONTROL Benutzer]** Benutzer hinzu. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](../about/access-management.md#assigning-product-profile).
+1. Wählen Sie Ihr neues Produktprofil aus, um Berechtigungen zu verwalten. Fügen Sie Ihrem Produktprofil auf dem Tab **[!UICONTROL Benutzer]** Benutzer hinzu. Weiterführende Informationen hierzu finden Sie auf [dieser Seite](../about/access-management.md#assigning-product-profile).
 
 1. Führen Sie dieselben Schritte wie oben beschrieben aus, um Ihrem Produktprofil **[!UICONTROL Admin]** hinzuzufügen.
 
@@ -125,7 +125,7 @@ So weisen Sie einem Benutzer ein Produktprofil für den Zugriff auf [!DNL Journe
 
 1. Wählen Sie **[!UICONTROL Benutzer hinzufügen]** aus.
 
-   Sie können Ihren neuen Benutzer auch einer Benutzergruppe hinzufügen, um den freigegebenen Berechtigungssatz genauer anzupassen. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://helpx.adobe.com/de/enterprise/using/user-groups.html).
+   Sie können Ihren neuen Benutzer auch einer Benutzergruppe hinzufügen, um den freigegebenen Berechtigungssatz genauer anzupassen. Weiterführende Informationen hierzu finden Sie auf [dieser Seite](https://helpx.adobe.com/de/enterprise/using/user-groups.html).
 
    ![](../assets/do-not-localize/user_management_3.png)
 

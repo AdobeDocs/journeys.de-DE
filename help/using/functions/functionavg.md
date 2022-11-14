@@ -57,8 +57,8 @@ Gibt eine Dezimalzahl zurück.
 
 `avg([10,3,8])`
 
-Gibt 7,0 zurück.
+Gibt 7.0 zurück.
 
 `avg(10.2, 3)`
 
-Gibt 6,6 zurück.
+Gibt 6.6 zurück.

@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: 'Konfigurieren der Datenquelle '
+title: Konfigurieren der Datenquelle
 description: Erfahren Sie, wie Sie die Datenquelle für die Journey mit dem einfachen Anwendungsfall konfigurieren können
 feature: Journeys
 role: User

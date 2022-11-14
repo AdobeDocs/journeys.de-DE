@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 2f317306-9afd-4e9a-88b8-fc66102e1046
 source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '557'
 ht-degree: 100%
 
@@ -95,9 +95,9 @@ Sie können jede Art von Ausdruck als Standardwert hinzufügen. Die einzige Eins
 == date("2022-02-10T00:00:00Z")
 ```
 
-## Verweis auf ein Feld in Kollektionen
+## Verweis auf ein Feld in Sammlungen
 
-Auf die in Kollektionen definierten Elemente wird mit den speziellen Funktionen `all`, `first` und `last` verwiesen. Weitere Informationen dazu finden Sie auf dieser [Seite](../expression/collection-management-functions.md).
+Auf die in Sammlungen definierten Elemente wird mit den speziellen Funktionen `all`, `first` und `last` verwiesen. Weitere Informationen dazu finden Sie auf dieser [Seite](../expression/collection-management-functions.md).
 
 Beispiel:
 
