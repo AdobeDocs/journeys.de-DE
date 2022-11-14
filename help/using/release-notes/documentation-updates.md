@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1003'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,12 +20,12 @@ Lesen Sie auch die [Versionshinweise](../release-notes/release-notes.md) von [!D
 
 ## Juli 2022 {#july-2022}
 
-* In den Journey-Eigenschaften wird die **Zeitzone des Profils** ist jetzt standardmäßig deaktiviert. [Weitere Informationen](../building-journeys/timezone-management.md#timezone-from-profiles)
-* Im **Warten** -Aktivität, die **Festes Datum** nicht mehr verfügbar ist. [Weitere Informationen](../building-journeys/wait-activity.md)
+* In den Journey-Eigenschaften ist die Option **Profil-Zeitzone** jetzt standardmäßig deaktiviert. [Weitere Informationen](../building-journeys/timezone-management.md#timezone-from-profiles)
+* In der Aktivität **Warten** ist die Option **Festes Datum** nicht mehr verfügbar. [Weitere Informationen](../building-journeys/wait-activity.md)
 
 ## Juni 2022 {#june-2022}
 
-* Es wurden neue Abfragebeispiele hinzugefügt [page](../building-journeys/query-examples.md)
+* Auf [dieser Seite](../building-journeys/query-examples.md) wurden neue Abfragebeispiele hinzugefügt.
 
 ## März 2022 {#march-2022}
 
