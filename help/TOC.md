@@ -6,9 +6,9 @@ user-guide-description: Enthält Anleitungen zum Implementieren und Erstellen vo
 index: true
 feature: Journeys
 source-git-commit: 235992282b0a05873dc17984e044400dc8de1dd8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '440'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 99%
 + [Produktdokumentation](journey-orchestration-home.md)
 + Neue Funktionen {#release-notes}
    + [Versionshinweise](using/release-notes/release-notes.md)
-   + [Aktualisierungen der Dokumentation](using/release-notes/documentation-updates.md)
-   + [Upgrade auf Journey Optimizer](using/release-notes/upgrade-to-ajo.md)
+   + [Dokumentation – Aktualisierungen](using/release-notes/documentation-updates.md)
+   + [Aktualisieren auf Journey Optimizer](using/release-notes/upgrade-to-ajo.md)
 + Einstieg in [!DNL Journey Orchestration] {#starting-with-journeys}
    + [Informationen zu  [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [Einschränkungen](using/about/limitations.md)
