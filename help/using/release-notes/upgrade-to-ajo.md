@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie auf Adobe Journey Optimizer aktualisieren
 hide: true
 hidefromtoc: true
 exl-id: 887fd3bb-bcd3-4a6d-9817-43049c51ecba
-source-git-commit: 9b90c098db1e13e7dc3405feb2ca74ffac54ef49
+source-git-commit: 3e9ff02cecfe85ea38cce4b0d241156f6209202f
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 100%
+source-wordcount: '753'
+ht-degree: 95%
 
 ---
 
@@ -55,7 +55,7 @@ Profitieren Sie von den Vorteilen anderer aktueller **Adobe Journey Optimizer-Fu
 
 ## Wie kann ich meine Journey Orchestration-Umgebung aktualisieren?
 
-1. Wenden Sie sich an Ihre Kundenbetreuer, um Ihre Vereinbarung mit Adobe kostenlos zu aktualisieren.
+1. Wenden Sie sich an Ihr Account-Team, um Ihre Vereinbarung mit Adobe zu aktualisieren.
 
 1. Warten Sie, bis unser Engineering-Team die Änderung abgeschlossen hat.
 
@@ -88,7 +88,7 @@ Nein, Sie behalten alle vorhandenen Journey Orchestration- und Adobe Experience 
 
 ![](../assets/migration-ajo-9.png)
 
-Ja, das ist normal. Nach dem Upgrade können Sie noch einen Monat lang auf Journey Orchestration zugreifen. Dadurch haben Sie genug Zeit, um alle Benutzerberechtigungen zu aktualisieren und Adobe Journey Optimizer besser kennenzulernen. Nach einem Monat wird der Zugriff entfernt.
+Ja, das ist normal. Möglicherweise wird das Element Journey Orchestration noch einige Tage nach dem Upgrade angezeigt. Bitte verwenden Sie die Journey Optimizer-Version.
 
 ### Was passiert, wenn ich heute Journey Orchestration mit Adobe Campaign Standard verwende?
 
