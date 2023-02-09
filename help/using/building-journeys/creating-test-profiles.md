@@ -48,7 +48,7 @@ Die Liste der Mixins wird im Übersichtsbildschirm des Schemas angezeigt.
 
 >[!NOTE]
 >
->Weitere Informationen zur Erstellung von Schemas finden Sie in der [XDM-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=de#prerequisites).
+>Weitere Informationen zur Erstellung von Schemata finden Sie in der [XDM-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=de#prerequisites).
 
 Anschließend müssen Sie **den Datensatz erstellen**, in den die Profile importiert werden. Führen Sie folgende Schritte aus:
 
@@ -99,7 +99,7 @@ Ihre Testprofile werden hinzugefügt und können jetzt beim Testen einer Journey
 
 ## Erstellen von Testprofilen mithilfe von API-Aufrufen{#create-test-profiles-api}
 
-Sie können Testprofile auch über API-Aufrufe erstellen. Weitere Informationen finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
+Sie können Testprofile auch über API-Aufrufe erstellen. Weitere Informationen finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de).
 
 Sie müssen ein Profilschema verwenden, das das Mixin „Profil-Testdetails“ enthält. Die Markierung „testProfile“ ist Teil dieses Mixins.
 

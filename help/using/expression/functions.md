@@ -69,7 +69,7 @@ Im Folgenden finden Sie eine Liste der unterstützten Funktionen.
 | Liste | [serializeList](../functions/functionserializelist.md) |
 | Liste | [sort](../functions/functionsort.md) |
 | Math | [random](../functions/functionrandom.md) |
-| Mathematisch | [round](../functions/functionround.md) |
+| Math | [round](../functions/functionround.md) |
 | Zeichenfolge | [concat](../functions/functionconcat.md) |
 | Zeichenfolge | [contain](../functions/functioncontain.md) |
 | Zeichenfolge | [containIgnoreCase](../functions/functioncontainwithignorecase.md) |

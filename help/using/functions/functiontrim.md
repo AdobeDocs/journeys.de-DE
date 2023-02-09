@@ -29,7 +29,7 @@ Zeichenfolge
 
 | Parameter | Typ |
 |-----------|------------------|
-| string | Zeichenfolge |
+| string | string |
 
 ## Signatur und zurückgegebener Typ
 

@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
 source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1039'
 ht-degree: 100%
 
 ---
@@ -43,7 +43,7 @@ Die Menüs am oberen Seitenrand bieten Zugriff auf die verschiedenen Funktionen 
 
 ![](../assets/journey2.png)
 
-Klicken Sie auf das ![](../assets/icon-context.png)-Symbol oben rechts im Bildschirm, um die Kontexthilfe anzuzeigen. Sie ist jetzt in allen Listenbildschirmen (Journeys, Ereignisse, Aktionen und Datenquellen) von [!DNL Journey Orchestration] verfügbar. Auf diese Weise können Sie eine kurze Beschreibung der aktuellen Funktion anzeigen und auf zugehörige Artikel und Videos zugreifen.
+Klicken Sie auf das ![](../assets/icon-context.png)-Symbol oben rechts im Bildschirm, um die kontextuelle Hilfe anzuzeigen. Sie ist jetzt in allen Listenbildschirmen (Journeys, Ereignisse, Aktionen und Datenquellen) von [!DNL Journey Orchestration] verfügbar. Auf diese Weise können Sie eine kurze Beschreibung der aktuellen Funktion anzeigen und auf zugehörige Artikel und Videos zugreifen.
 
 ![](../assets/journey2bis.png)
 
@@ -95,7 +95,7 @@ Die Funktionen für Barrierefreiheit in Adobe Journey Optimizer werden von Adobe
 * Farbkontrast
 * Validierung von Pflichtfeldern
 
-[Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=de){target=&quot;_blank&quot;} finden Sie in der Dokumentation zu Adobe Experience Platform.
+[Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=de){target="_blank"} finden Sie in der Dokumentation zu Adobe Experience Platform.
 
 Sie können die folgenden gängigen Tastaturbefehle in Adobe Journey Optimizer verwenden:
 
@@ -107,7 +107,7 @@ Sie können die folgenden gängigen Tastaturbefehle in Adobe Journey Optimizer v
 | Auswählen oder Löschen eines Element, das sich im Fokus befindet | Eingabetaste oder Leertaste |
 | Abbrechen einer Auswahl, Reduzieren eines Panels oder Schließen eines Dialogfelds | Esc |
 
-[Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=de){target=&quot;_blank&quot;} finden Sie in der Dokumentation zu Adobe Experience Platform.
+[Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=de){target="_blank"} finden Sie in der Dokumentation zu Adobe Experience Platform.
 
 Sie können diese Tastaturbefehle in bestimmten Teilen von Journey Optimizer verwenden:
 

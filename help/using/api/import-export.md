@@ -90,7 +90,7 @@ Die resultierende Payload kann verwendet werden, um die Version der Journey in e
 | `[POST]` | /list/journeys | Metadaten der Journeys und der Journey-Versionen auflisten |
 
 
-### Exportmerkmale und Limits
+### Exportmerkmale und Leitplanken
 
 * Die Journey muss vor dem Export gültig sein.
 

@@ -19,7 +19,7 @@ Im erweiterten Ausdruckseditor finden Sie die Kategorie **Journey-Eigenschaften*
 
 >[!NOTE]
 >
->Attribute von Journey-Eigenschaften sind auch im einfachen Ausdruckseditor verfügbar. Weitere Informationen finden Sie in diesem [Abschnitt](../building-journeys/condition-activity.md#about_condition)
+>Attribute von Journey-Eigenschaften sind auch im einfachen Ausdruckseditor verfügbar. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/condition-activity.md#about_condition)
 
 ![](../assets/journey-properties.png)
 

@@ -119,7 +119,7 @@ Lesen Sie auch die [Versionshinweise](../release-notes/release-notes.md) von [!D
 * Der Abschnitt „Testprotokoll“ wurde mit Fehlercodes und Antworten für externe Aufrufe aktualisiert. [Mehr dazu](../building-journeys/testing-the-journey.md#viewing_logs)
 * Das Zeitzonen-Management ist jetzt gebündelt im Panel der Journey-Eigenschaften verfügbar. Mehr dazu [hier](../building-journeys/changing-properties.md#timezone) und [hier](../building-journeys/timezone-management.md)
 * Der Abschnitt „Journey-Designer“ wurde aktualisiert, um die jüngsten Verbesserungen widerzuspiegeln. [Mehr dazu](../building-journeys/using-the-journey-designer.md)
-* Die Beschreibung der Benutzeroberfläche wurde mit Informationen zur Kontexthilfe aktualisiert. [Mehr dazu](../about/user-interface.md#section_ksq_zr1_ffb)
+* Die Beschreibung der Benutzeroberfläche wurde mit Informationen zur kontextuellen Hilfe aktualisiert. [Mehr dazu](../about/user-interface.md#section_ksq_zr1_ffb)
 * Beim Durchsuchen von **XDM-Feldern** wird jetzt der Benutzername angezeigt. Die entsprechenden Abschnitte wurden aktualisiert. [Mehr dazu](../about/user-interface.md#friendly-names-display)
 
 ## Februar 2020 {#february-2020}

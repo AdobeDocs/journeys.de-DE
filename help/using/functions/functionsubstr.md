@@ -29,7 +29,7 @@ Zeichenfolge
 
 | Parameter | type |
 |-------------|----------|
-| string | Zeichenfolge |
+| string | string |
 | beginIndex | integer |
 | endIndex | integer |
 

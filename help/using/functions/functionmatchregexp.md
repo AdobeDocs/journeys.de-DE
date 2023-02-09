@@ -29,8 +29,8 @@ Zeichenfolge
 
 | Parameter | Typ |
 |--- |--- |
-| string | Zeichenfolge |
-| regexp | Zeichenfolge |
+| string | string |
+| regexp | string |
 
 ## Signatur und zurückgegebener Typ
 

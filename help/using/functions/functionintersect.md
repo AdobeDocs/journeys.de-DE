@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Schnittmenge{#intersect}
+# intersect{#intersect}
 
 Gibt die gemeinsamen Werte in den beiden Eingabe-Listen zurück. Wenn eine der beiden Listen null ist, wird eine leere Liste zurückgegeben.
 

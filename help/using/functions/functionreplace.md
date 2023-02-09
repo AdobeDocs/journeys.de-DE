@@ -32,8 +32,8 @@ Zeichenfolge
 | Parameter | Typ |
 |-----------|--------------|
 | base | string |
-| target | Zeichenfolge (RegExp) |
-| replacement | Zeichenfolge |
+| target | string (RegExp) |
+| replacement | string |
 
 ## Signatur und zurückgegebener Typ
 
