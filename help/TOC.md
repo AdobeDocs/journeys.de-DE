@@ -5,10 +5,10 @@ title: Handbuch zu Journey Orchestration
 user-guide-description: Enthält Anleitungen zum Implementieren und Erstellen von Journeys.
 index: true
 feature: Journeys
-source-git-commit: 235992282b0a05873dc17984e044400dc8de1dd8
+source-git-commit: 137637a753ba44cc4f8e397b77c3fc076ec3de3f
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 100%
+source-wordcount: '447'
+ht-degree: 97%
 
 ---
 
@@ -205,4 +205,6 @@ ht-degree: 100%
    + [Senden von Nachrichten mit Campaign v7/v8](using/usecase/campaign-classic-use-case.md)
    + [Dynamisches Übergeben von Sammlungen mithilfe benutzerdefinierter Aktionen](using/usecase/collections.md)
 + Verwenden von APIs{#working-with-apis}
-   + [Begrenzungs-APIs](using/api/capping.md)
+   + [Erste Schritte mit Journey-APIs](using/api/journeys-apis.md)
+   + [Capping-API](using/api/capping.md)
+   + [Einschränkungs-API](using/api/throttling.md)
