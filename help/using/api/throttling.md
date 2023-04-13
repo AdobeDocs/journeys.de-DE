@@ -6,41 +6,42 @@ products: journeys
 feature: Journeys
 role: User
 level: Intermediate
-source-git-commit: fa493cf1e856378e4d79a6932c30cebf5e11e028
+exl-id: 76afe397-3e18-4e01-9b0b-c21705927ce2
+source-git-commit: 25d8dcd027f3f433759ce97f9a3a1dad85ba1427
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '799'
+ht-degree: 93%
 
 ---
 
 # Arbeiten mit der Einschränkungs-API
 
-Mit der Einschränkungs-API können Sie Ihre Einschränkungskonfigurationen erstellen, konfigurieren und überwachen.
+Mit der Einschränkungs-API können Sie Ihre Einschränkungskonfigurationen erstellen, konfigurieren und überwachen, um die Anzahl der pro Sekunde gesendeten Ereignisse zu begrenzen.
 
 >[!IMPORTANT]
 >
->Pro Organisation ist derzeit nur eine Konfiguration zulässig. Eine Konfiguration muss in einer Produktions-Sandbox definiert werden (in den Kopfzeilen über x-sandbox-name angegeben).
+>Pro Organisation ist derzeit nur eine Konfiguration zulässig. Eine Konfiguration muss in einer Produktions-Sandbox definiert werden (die über x-sandbox-name in den Kopfzeilen angegeben wird).
 >
 >Eine Konfiguration wird auf Unternehmensebene angewendet.
 >
 >Wenn das in der API festgelegte Limit erreicht ist, werden weitere Ereignisse für bis zu 6 Stunden in die Warteschlange gestellt. Dieser Wert kann nicht geändert werden.
 
-## Beschreibung der Einschränkungs-API {#description}
+## Beschreibung der Drosselungs-API {#description}
 
 | Methode | Pfad | Beschreibung |
 |---|---|---|
-| [!DNL POST] | list/throttlingConfigs | Liste der Einschränkungskonfigurationen abrufen |
-| [!DNL POST] | /throttlingConfigs | Erstellen einer Einschränkungskonfiguration |
-| [!DNL POST] | /throttlingConfigs/`{uid}`/deploy | Implementieren einer Einschränkungskonfiguration |
-| [!DNL POST] | /throttlingConfigs/`{uid}`/undeploy | Bereitstellung einer Einschränkungskonfiguration aufheben |
-| [!DNL POST] | /throttlingConfigs/`{uid}`/canDeploy | Überprüfen, ob eine Einschränkungskonfiguration bereitgestellt werden kann oder nicht |
-| [!DNL PUT] | /throttlingConfigs/`{uid}` | Aktualisieren einer Einschränkungskonfiguration |
-| [!DNL GET] | /throttlingConfigs/`{uid}` | Abrufen einer Einschränkungskonfiguration |
-| [!DNL DELETE] | /throttlingConfigs/`{uid}` | Eine Einschränkungskonfiguration löschen |
+| [!DNL POST] | list/throttlingConfigs | Liste der Drosselungskonfigurationen abrufen |
+| [!DNL POST] | /throttlingConfigs | Erstellen einer Drosselungskonfiguration |
+| [!DNL POST] | /throttlingConfigs/`{uid}`/deploy | Implementieren einer Drosselungskonfiguration |
+| [!DNL POST] | /throttlingConfigs/`{uid}`/undeploy | Implementierung einer Drosselungskonfiguration aufheben |
+| [!DNL POST] | /throttlingConfigs/`{uid}`/canDeploy | Überprüfen, ob eine Drosselungskonfiguration implementiert werden kann oder nicht |
+| [!DNL PUT] | /throttlingConfigs/`{uid}` | Aktualisieren einer Drosselungskonfiguration |
+| [!DNL GET] | /throttlingConfigs/`{uid}` | Abrufen einer Drosselungskonfiguration |
+| [!DNL DELETE] | /throttlingConfigs/`{uid}` | Löschen einer Drosselungskonfiguration |
 
-## Einschränkungskonfiguration {#configuration}
+## Drosselungskonfiguration {#configuration}
 
-Hier finden Sie die Struktur einer Einschränkungskonfiguration. **name** und **description** -Attribute sind optional.
+Hier finden Sie die Struktur einer Drosselungskonfiguration. Die Attribute **Name** und **Beschreibung** sind optional.
 
 ```
 {
@@ -66,7 +67,7 @@ Beispiel:
 
 ## Fehler
 
-Beim Erstellen oder Aktualisieren einer Konfiguration validiert der Prozess die angegebene Konfiguration und gibt den durch seine eindeutige ID identifizierten Validierungsstatus zurück:
+Beim Erstellen oder Aktualisieren einer Konfiguration validiert der Prozess die angegebene Konfiguration und gibt den Validierungsstatus zurück, der durch seine eindeutige ID identifizierten wird, entweder:
 
 ```
 "ok" or "error"
@@ -76,32 +77,32 @@ Beim Erstellen oder Aktualisieren einer Konfiguration validiert der Prozess die 
 >
 >Die Attribute **maxThroughput**, **urlPattern** und **methods** sind zwingend erforderlich.
 >
->**maxThroughput** -Wert muss zwischen 200 und 5000 liegen.
+>Der Wert für **maxThroughput** muss zwischen 200 und 5.000 liegen.
 
-Beim Erstellen, Löschen oder Bereitstellen der Einschränkungskonfiguration können die folgenden Fehler auftreten:
+Beim Erstellen, Löschen oder Bereitstellen der Drosselungskonfiguration können die folgenden Fehler auftreten:
 
-* **ERR_THROTTLING_CONFIG_100**: throttling config: `<mandatory attribute>` erforderlich
-* **ERR_THROTTLING_CONFIG_101**: throttling config: maxThroughput ist erforderlich und muss größer oder gleich 200 und kleiner oder gleich 5000 sein.
-* **ERR_THROTTLING_CONFIG_104**: throttling config: malformed url pattern
-* **ERR_THROTTLING_CONFIG_105**: throttling config: Platzhalter sind im Host-Teil des URL-Musters nicht zulässig
-* **ERR_THROTTLING_CONFIG_106**: throttling config: ungültige Payload
-* **THROTTLING_CONFIG_DELETE_FORBIDDEN_ERROR: 1456**, &quot;Kann keine bereitgestellte Einschränkungskonfiguration löschen. Bereitstellung vor dem Löschen aufheben&quot;
-* **THROTTLING_CONFIG_DELETE_ERROR: 1457**, &quot;Die Einschränkungskonfiguration kann nicht gelöscht werden: unerwarteter Fehler&quot;
-* **THROTTLING_CONFIG_DEPLOY_ERROR: 1458**, &quot;Die Einschränkungskonfiguration kann nicht bereitgestellt werden: unerwarteter Fehler&quot;
-* **THROTTLING_CONFIG_UNDEPLOY_ERROR: 1459**, &quot;Die Bereitstellung der Einschränkungskonfiguration kann nicht aufgehoben werden: unerwarteter Fehler&quot;
-* **THROTTLING_CONFIG_GET_ERROR: 1460**, &quot;Kann keine Einschränkungskonfiguration erhalten: unerwarteter Fehler&quot;
-* **THROTTLING_CONFIG_UPDATE_NOT_ACTIVE_ERROR: 1461**, &quot;Die Einschränkungskonfiguration kann nicht aktualisiert werden: Laufzeitversion ist nicht aktiv&quot;
-* **THROTTLING_CONFIG_UPDATE_ERROR: 1462**, &quot;Die Einschränkungskonfiguration kann nicht aktualisiert werden: unerwarteter Fehler&quot;
-* **THROTTLING_CONFIG_NON_PROD_SANDBOX_ERROR: 1463**, &quot;Operation not allowed on throtling config: Nicht-Produkt-Sandbox&quot;
-* **THROTTLING_CONFIG_CREATE_ERROR: 1464**, &quot;Kann keine Einschränkungskonfiguration erstellen: unerwarteter Fehler&quot;
-* **THROTTLING_CONFIG_CREATE_LIMIT_ERROR: 1465**, &quot;Kann keine Einschränkungskonfiguration erstellen: nur eine Konfiguration pro Organisation zulässig&quot;
-* **THROTTLING_CONFIG_ALREADY_DEPLOYED_ERROR: 14466**, &quot;Die Einschränkungskonfiguration kann nicht bereitgestellt werden: bereits bereitgestellt&quot;
-* **THROTTLING_CONFIG_NOT_FOUND_ERROR: 14467**, &quot;throttling config not found&quot;
-* **THROTTLING_CONFIG_NOT_DEPLOYED_ERROR: 14468**, &quot;Die Bereitstellung der Einschränkungskonfiguration kann nicht aufgehoben werden: noch nicht bereitgestellt&quot;
+* **ERR_THROTTLING_CONFIG_100**: Drosselungskonfiguration: `<mandatory attribute>` erforderlich
+* **ERR_THROTTLING_CONFIG_101**:throttling config: maxThroughput ist erforderlich und muss größer oder gleich 200 und kleiner oder gleich 5.000 sein.
+* **ERR_THROTTLING_CONFIG_104**: Drosselungskonfiguration: fehlerhaftes URL-Muster
+* **ERR_THROTTLING_CONFIG_105**: Drosselungskonfiguration: Platzhalter sind im Host-Teil des URL-Musters nicht zulässig
+* **ERR_THROTTLING_CONFIG_106**: Drosselungskonfiguration: ungültige Payload
+* **THROTTLING_CONFIG_DELETE_FORBIDDEN_ERROR: 1456**, „Eine implementierte Drosselungskonfiguration kann nicht gelöscht werden. Bitte die Implementierung vor dem Löschen aufheben“
+* **THROTTLING_CONFIG_DELETE_ERROR: 1457**, „Die Drosselungskonfiguration kann nicht gelöscht werden: unerwarteter Fehler“
+* **THROTTLING_CONFIG_DEPLOY_ERROR: 1458**, „Die Drosselungskonfiguration kann nicht implementiert werden: unerwarteter Fehler“
+* **THROTTLING_CONFIG_UNDEPLOY_ERROR: 1459**, „Die Implementierung der Drosselungskonfiguration kann nicht aufgehoben werden: unerwarteter Fehler“
+* **THROTTLING_CONFIG_GET_ERROR: 1460**, „Drosselungskonfiguration kann nicht abgerufen werden: unerwarteter Fehler“
+* **THROTTLING_CONFIG_UPDATE_NOT_ACTIVE_ERROR: 1461**, „Drosselungskonfiguration kann nicht aktualisiert werden: Laufzeitversion ist nicht aktiv“
+* **THROTTLING_CONFIG_UPDATE_ERROR: 1462**, „Drosselungskonfiguration kann nicht aktualisiert werden: unerwarteter Fehler“
+* **THROTTLING_CONFIG_NON_PROD_SANDBOX_ERROR: 1463**, „Vorgang bei Drosselungskonfiguration nicht zulässig: Nicht-Produktions-Sandbox“
+* **THROTTLING_CONFIG_CREATE_ERROR: 1464**, „Drosselungskonfiguration kann nicht erstellt werden: unerwarteter Fehler“
+* **THROTTLING_CONFIG_CREATE_LIMIT_ERROR: 1465**, „Drosselungskonfiguration kann nicht erstellt werden: nur eine Konfiguration pro Organisation zulässig“
+* **THROTTLING_CONFIG_ALREADY_DEPLOYED_ERROR: 14466**, „Drosselungskonfiguration kann nicht implementiert werden: bereits implementiert“
+* **THROTTLING_CONFIG_NOT_FOUND_ERROR: 14467**, „Drosselungskonfiguration nicht gefunden“
+* **THROTTLING_CONFIG_NOT_DEPLOYED_ERROR: 14468**, „Implementierung der Drosselungskonfiguration kann nicht aufgehoben werden: noch nicht implementiert“
 
-**Fehlerbeispiele**
+**Beispiele für Fehler**
 
-Wenn Sie versuchen, eine Konfiguration für Nicht-Produktions-Sandboxes zu erstellen:
+Beim Versuch, eine Konfiguration für Nicht-Produktions-Sandboxes zu erstellen:
 
 ```
 {
@@ -111,7 +112,7 @@ Wenn Sie versuchen, eine Konfiguration für Nicht-Produktions-Sandboxes zu erste
 }
 ```
 
-Falls es keine Sandbox gibt:
+Falls eine angegebene Sandbox nicht vorhanden ist:
 
 ```
 {
@@ -121,7 +122,7 @@ Falls es keine Sandbox gibt:
 }
 ```
 
-Wenn Sie versuchen, eine weitere Konfiguration zu erstellen:
+Beim Versuch, eine weitere Konfiguration zu erstellen:
 
 ```
 {
@@ -142,16 +143,16 @@ Nach dem Herunterladen und Hochladen in Postman müssen Sie drei Variablen hinzu
 * `{BASE_PATH}` : Einstiegspunkt für die API. Der Wert lautet „/authoring“
 * `{SANDBOX_NAME}`: der Header **x-sandbox-name** (z. B. „prod“), der dem Sandbox-Namen entspricht, in dem die API-Vorgänge stattfinden. Weiterführende Informationen dazu finden Sie unter [Sandbox-Übersicht](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=de).
 
-Im folgenden Abschnitt finden Sie die sortierte Liste der Rest-API-Aufrufe, um den Anwendungsfalls auszuführen.
+Im folgenden Abschnitt finden Sie die sortierte Liste der Rest-API-Aufrufe, um den Anwendungsfall auszuführen.
 
-Anwendungsfall 1: **Erstellung und Implementierung einer neuen Einschränkungskonfiguration**
+Anwendungsfall 1: **Erstellen und Implementieren einer neuen Drosselungskonfiguration**
 
 1. list
 1. create
 1. candeploy
 1. deploy
 
-Anwendungsfall 2: **Aktualisieren und Bereitstellen einer noch nicht bereitgestellten Einschränkungskonfiguration**
+Anwendungsfall 2: **Aktualisieren und Implementieren einer noch nicht implementierten Drosselungskonfiguration**
 
 1. list
 1. get
@@ -159,40 +160,40 @@ Anwendungsfall 2: **Aktualisieren und Bereitstellen einer noch nicht bereitgeste
 1. candeploy
 1. deploy
 
-Anwendungsfall 3: **Bereitstellung und Löschen einer bereitgestellten Einschränkungskonfiguration aufheben**
+Anwendungsfall 3: **Aufheben der Implementierung und Löschen einer implementierten Drosselungskonfiguration**
 
 1. list
 1. undeploy
 1. delete
 
-Anwendungsfall 4: **Löschen einer bereitgestellten Einschränkungskonfiguration**
+Anwendungsfall 4: **Löschen einer implementierten Drosselungskonfiguration**
 
 In nur einem API-Aufruf können Sie die Bereitstellung aufheben und die Konfiguration mithilfe des forceDelete-Parameters löschen.
 
 1. list
 1. delete mit forceDelete-Parameter
 
-Anwendungsfall Nr. 5: **Aktualisieren einer bereits bereitgestellten Einschränkungskonfiguration**
+Anwendungsfall 5: **Aktualisieren einer bereits implementierten Drosselungskonfiguration**
 
 >[!NOTE]
 >
->Es ist nicht erforderlich, die Bereitstellung der Konfiguration vor der Aktualisierung aufzuheben
+>Es ist nicht erforderlich, die Implementierung der Konfiguration vor der Aktualisierung aufzuheben
 
 1. list
 1. get
 1. Aktualisieren
 
-## Konfigurationslebenszyklus auf Laufzeitebene {#config}
+## Lebenszyklus der Konfiguration auf Laufzeitebene {#config}
 
-Wenn die Bereitstellung einer Konfiguration aufgehoben wird, wird sie auf Laufzeitebene als inaktiv markiert und ausstehende Ereignisse werden weiterhin 24 Stunden verarbeitet. Er wird dann im Laufzeitdienst gelöscht.
+Wenn die Implementierung einer Konfiguration aufgehoben wird, wird sie auf Laufzeitebene als inaktiv markiert und ausstehende Ereignisse werden 24 Stunden lang weiter verarbeitet. Sie wird dann im Laufzeit-Service gelöscht.
 
-Nachdem die Bereitstellung einer Konfiguration aufgehoben wurde, ist es möglich, die Konfiguration zu aktualisieren und erneut bereitzustellen. Dadurch wird eine neue Laufzeitkonfiguration erstellt, die bei der bevorstehenden Aktionsausführung berücksichtigt wird.
+Nachdem die Implementierung einer Konfiguration aufgehoben wurde, ist es möglich, die Konfiguration zu aktualisieren und erneut zu implementieren. Dadurch wird eine neue Laufzeitkonfiguration erstellt, die bei der bevorstehenden Aktionsausführung berücksichtigt wird.
 
-Beim Aktualisieren einer bereits bereitgestellten Konfiguration werden die neuen Werte sofort berücksichtigt. Die zugrunde liegenden Systemressourcen werden automatisch angepasst. Dies ist im Vergleich zum Aufheben der Bereitstellung und erneuten Bereitstellen der Konfiguration optimal.
+Beim Aktualisieren einer bereits implementierten Konfiguration werden die neuen Werte sofort berücksichtigt. Die zugrunde liegenden Systemressourcen werden automatisch angepasst. Dies ist im Vergleich zum Aufheben der Implementierung und dem erneuten Implementieren der Konfiguration optimal.
 
 ## Beispiele für Antworten {#responses}
 
-**Erstellung - POST**
+**Erstellung – POST**
 
 ```
 {
@@ -229,7 +230,7 @@ Beim Aktualisieren einer bereits bereitgestellten Konfiguration werden die neuen
 }
 ```
 
-**Aktualisieren - PUT**
+**Aktualisieren – PUT**
 
 ```
 {
@@ -267,7 +268,7 @@ Beim Aktualisieren einer bereits bereitgestellten Konfiguration werden die neuen
 }
 ```
 
-**Lesen (nach Aktualisierung) - GET**
+**Lesen (nach Aktualisierung) – GET**
 
 ```
 {
@@ -299,7 +300,7 @@ Beim Aktualisieren einer bereits bereitgestellten Konfiguration werden die neuen
 }
 ```
 
-**Lesen (nach der Bereitstellung) - GET**
+**Lesen (nach der Bereitstellung) – GET**
 
 ```
 {
