@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: Arbeiten mit der Einschränkungs-API
-description: Erfahren Sie mehr über die Einschränkungs-API.
+title: Arbeiten mit der Drosselungs-API
+description: Erfahren Sie mehr über die Drosselungs-API
 products: journeys
 feature: Journeys
 role: User
@@ -10,17 +10,17 @@ exl-id: 76afe397-3e18-4e01-9b0b-c21705927ce2
 source-git-commit: 25d8dcd027f3f433759ce97f9a3a1dad85ba1427
 workflow-type: tm+mt
 source-wordcount: '799'
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
-# Arbeiten mit der Einschränkungs-API
+# Arbeiten mit der Drosselungs-API
 
 Mit der Einschränkungs-API können Sie Ihre Einschränkungskonfigurationen erstellen, konfigurieren und überwachen, um die Anzahl der pro Sekunde gesendeten Ereignisse zu begrenzen.
 
 >[!IMPORTANT]
 >
->Pro Organisation ist derzeit nur eine Konfiguration zulässig. Eine Konfiguration muss in einer Produktions-Sandbox definiert werden (die über x-sandbox-name in den Kopfzeilen angegeben wird).
+>Pro Organisation ist derzeit nur eine Konfiguration zulässig. Eine Konfiguration muss in einer Produktions-Sandbox definiert werden (in den Kopfzeilen über x-sandbox-name angegeben).
 >
 >Eine Konfiguration wird auf Unternehmensebene angewendet.
 >
@@ -30,18 +30,18 @@ Mit der Einschränkungs-API können Sie Ihre Einschränkungskonfigurationen erst
 
 | Methode | Pfad | Beschreibung |
 |---|---|---|
-| [!DNL POST] | list/throttlingConfigs | Liste der Drosselungskonfigurationen abrufen |
+| [!DNL POST] | list/throttlingConfigs | Abrufen einer Liste der Drosselungskonfigurationen |
 | [!DNL POST] | /throttlingConfigs | Erstellen einer Drosselungskonfiguration |
 | [!DNL POST] | /throttlingConfigs/`{uid}`/deploy | Implementieren einer Drosselungskonfiguration |
-| [!DNL POST] | /throttlingConfigs/`{uid}`/undeploy | Implementierung einer Drosselungskonfiguration aufheben |
-| [!DNL POST] | /throttlingConfigs/`{uid}`/canDeploy | Überprüfen, ob eine Drosselungskonfiguration implementiert werden kann oder nicht |
+| [!DNL POST] | /throttlingConfigs/`{uid}`/undeploy | Bereitstellung einer Drosselungskonfiguration aufheben |
+| [!DNL POST] | /throttlingConfigs/`{uid}`/canDeploy | Überprüfen, ob eine Drosselungskonfiguration bereitgestellt werden kann oder nicht |
 | [!DNL PUT] | /throttlingConfigs/`{uid}` | Aktualisieren einer Drosselungskonfiguration |
 | [!DNL GET] | /throttlingConfigs/`{uid}` | Abrufen einer Drosselungskonfiguration |
 | [!DNL DELETE] | /throttlingConfigs/`{uid}` | Löschen einer Drosselungskonfiguration |
 
-## Drosselungskonfiguration {#configuration}
+## Drosselungskonfiguration{#configuration}
 
-Hier finden Sie die Struktur einer Drosselungskonfiguration. Die Attribute **Name** und **Beschreibung** sind optional.
+Hier finden Sie die Struktur einer Drosselungskonfiguration. Die Attribute **name** und **description** sind optional.
 
 ```
 {
@@ -67,7 +67,7 @@ Beispiel:
 
 ## Fehler
 
-Beim Erstellen oder Aktualisieren einer Konfiguration validiert der Prozess die angegebene Konfiguration und gibt den Validierungsstatus zurück, der durch seine eindeutige ID identifizierten wird, entweder:
+Beim Erstellen oder Aktualisieren einer Konfiguration validiert der Prozess die angegebene Konfiguration und gibt den Validierungsstatus zurück, der durch seine eindeutige ID identifiziert wird, entweder:
 
 ```
 "ok" or "error"
@@ -77,12 +77,12 @@ Beim Erstellen oder Aktualisieren einer Konfiguration validiert der Prozess die 
 >
 >Die Attribute **maxThroughput**, **urlPattern** und **methods** sind zwingend erforderlich.
 >
->Der Wert für **maxThroughput** muss zwischen 200 und 5.000 liegen.
+>Der Wert für **maxThroughput** muss zwischen 200 und 5000 liegen.
 
-Beim Erstellen, Löschen oder Bereitstellen der Drosselungskonfiguration können die folgenden Fehler auftreten:
+Beim Erstellen, Löschen oder Bereitstellen einer Drosselungskonfiguration können die folgenden Fehler auftreten:
 
 * **ERR_THROTTLING_CONFIG_100**: Drosselungskonfiguration: `<mandatory attribute>` erforderlich
-* **ERR_THROTTLING_CONFIG_101**:throttling config: maxThroughput ist erforderlich und muss größer oder gleich 200 und kleiner oder gleich 5.000 sein.
+* **ERR_THROTTLING_CONFIG_101**: Drosselungskonfiguration: maxThroughput ist erforderlich und muss größer oder gleich 200 und kleiner oder gleich 5.000 sein.
 * **ERR_THROTTLING_CONFIG_104**: Drosselungskonfiguration: fehlerhaftes URL-Muster
 * **ERR_THROTTLING_CONFIG_105**: Drosselungskonfiguration: Platzhalter sind im Host-Teil des URL-Musters nicht zulässig
 * **ERR_THROTTLING_CONFIG_106**: Drosselungskonfiguration: ungültige Payload
@@ -100,7 +100,7 @@ Beim Erstellen, Löschen oder Bereitstellen der Drosselungskonfiguration können
 * **THROTTLING_CONFIG_NOT_FOUND_ERROR: 14467**, „Drosselungskonfiguration nicht gefunden“
 * **THROTTLING_CONFIG_NOT_DEPLOYED_ERROR: 14468**, „Implementierung der Drosselungskonfiguration kann nicht aufgehoben werden: noch nicht implementiert“
 
-**Beispiele für Fehler**
+**Fehlerbeispiele**
 
 Beim Versuch, eine Konfiguration für Nicht-Produktions-Sandboxes zu erstellen:
 
@@ -156,7 +156,7 @@ Anwendungsfall 2: **Aktualisieren und Implementieren einer noch nicht implementi
 
 1. list
 1. get
-1. Aktualisieren
+1. update
 1. candeploy
 1. deploy
 
@@ -181,15 +181,15 @@ Anwendungsfall 5: **Aktualisieren einer bereits implementierten Drosselungskonfi
 
 1. list
 1. get
-1. Aktualisieren
+1. update
 
 ## Lebenszyklus der Konfiguration auf Laufzeitebene {#config}
 
-Wenn die Implementierung einer Konfiguration aufgehoben wird, wird sie auf Laufzeitebene als inaktiv markiert und ausstehende Ereignisse werden 24 Stunden lang weiter verarbeitet. Sie wird dann im Laufzeit-Service gelöscht.
+Wenn die Implementierung einer Konfiguration aufgehoben wird, wird sie auf Laufzeitebene als inaktiv markiert, und ausstehende Ereignisse werden 24 Stunden lang weiter verarbeitet. Sie wird dann im Laufzeit-Service gelöscht.
 
 Nachdem die Implementierung einer Konfiguration aufgehoben wurde, ist es möglich, die Konfiguration zu aktualisieren und erneut zu implementieren. Dadurch wird eine neue Laufzeitkonfiguration erstellt, die bei der bevorstehenden Aktionsausführung berücksichtigt wird.
 
-Beim Aktualisieren einer bereits implementierten Konfiguration werden die neuen Werte sofort berücksichtigt. Die zugrunde liegenden Systemressourcen werden automatisch angepasst. Dies ist im Vergleich zum Aufheben der Implementierung und dem erneuten Implementieren der Konfiguration optimal.
+Beim Aktualisieren einer bereits implementierten Konfiguration werden die neuen Werte sofort berücksichtigt. Die zugrunde liegenden Systemressourcen werden automatisch angepasst. Dies ist besser, als die Implementierung der Konfiguration rückgängig zu machen und sie dann erneut zu implementieren.
 
 ## Beispiele für Antworten {#responses}
 
@@ -300,7 +300,7 @@ Beim Aktualisieren einer bereits implementierten Konfiguration werden die neuen 
 }
 ```
 
-**Lesen (nach der Bereitstellung) – GET**
+**Lesen (nach Implementierung) – GET**
 
 ```
 {
