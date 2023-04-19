@@ -8,16 +8,16 @@ role: User
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
 source-git-commit: 1f91bae24dfcb291dd354e4bff9eab85afdaf5a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '527'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Arbeiten mit der Capping-API {#work}
+# Arbeiten mit der Begrenzungs-API {#work}
 
-Mit der Capping-API können Sie Begrenzungskonfigurationen erstellen, konfigurieren und überwachen.
+Mit der Begrenzungs-API können Sie Begrenzungskonfigurationen erstellen, konfigurieren und überwachen.
 
 ## Beschreibung der Capping-API
 
@@ -115,7 +115,7 @@ Nach dem Herunterladen und Hochladen in Postman müssen Sie drei Variablen hinzu
 * `{BASE_PATH}` : Einstiegspunkt für die API. Der Wert lautet „/authoring“
 * `{SANDBOX_NAME}`: der Header **x-sandbox-name** (z. B. „prod“), der dem Sandbox-Namen entspricht, in dem die API-Vorgänge stattfinden. Weiterführende Informationen dazu finden Sie unter [Sandbox-Übersicht](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=de).
 
-Im folgenden Abschnitt finden Sie die sortierte Liste der Rest-API-Aufrufe, um den Anwendungsfalls auszuführen.
+Im folgenden Abschnitt finden Sie die sortierte Liste der Rest-API-Aufrufe, um den Anwendungsfall auszuführen.
 
 Anwendungsfall 1: **Erstellen und Bereitstellen einer neuen Begrenzungskonfiguration**
 
@@ -128,7 +128,7 @@ Anwendungsfall 2: **Aktualisieren und Bereitstellen einer noch nicht bereitgeste
 
 1. list
 1. get
-1. Aktualisieren
+1. update
 1. candeploy
 1. deploy
 
@@ -148,7 +148,7 @@ Anwendungsfall 5: **Aktualisieren einer bereits bereitgestellten Begrenzungskonf
 
 1. list
 1. get
-1. Aktualisieren
+1. update
 1. undeploy
 1. candeploy
 1. deploy
