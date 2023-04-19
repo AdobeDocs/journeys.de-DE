@@ -6,9 +6,9 @@ user-guide-description: Enthält Anleitungen zum Implementieren und Erstellen vo
 index: true
 feature: Journeys
 source-git-commit: 137637a753ba44cc4f8e397b77c3fc076ec3de3f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '447'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -204,7 +204,7 @@ ht-degree: 97%
       + [Erstellen der Journey](using/usecase/building-the-journey.md)
    + [Senden von Nachrichten mit Campaign v7/v8](using/usecase/campaign-classic-use-case.md)
    + [Dynamisches Übergeben von Sammlungen mithilfe benutzerdefinierter Aktionen](using/usecase/collections.md)
-+ Verwenden von APIs{#working-with-apis}
-   + [Erste Schritte mit Journey-APIs](using/api/journeys-apis.md)
++ Arbeiten mit APIs{#working-with-apis}
+   + [Erste Schritte mit Journeys-APIs](using/api/journeys-apis.md)
    + [Capping-API](using/api/capping.md)
-   + [Einschränkungs-API](using/api/throttling.md)
+   + [Drosselungs-API](using/api/throttling.md)
