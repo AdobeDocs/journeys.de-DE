@@ -1,56 +1,56 @@
 ---
 product: adobe campaign
-title: Erste Schritte mit Journey-APIs
-description: Weitere Informationen zu Journey-APIs
+title: Erste Schritte mit Journeys-APIs
+description: Erfahren Sie mehr über Journeys-APIs
 products: journeys
 feature: Journeys
 role: User
 level: Intermediate
 source-git-commit: fa493cf1e856378e4d79a6932c30cebf5e11e028
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '832'
-ht-degree: 47%
+ht-degree: 100%
 
 ---
 
-# Erste Schritte mit Journey-APIs
+# Erste Schritte mit Journeys-APIs
 
-## Informationen zu Begrenzungs- und Einschränkungs-APIs
+## Über Begrenzungs- und Drosselungs-APIs
 
-Beim Konfigurieren einer Datenquelle oder einer Aktion stellen Sie eine Verbindung zu einem System her, um entweder zusätzliche Informationen abzurufen, die in Ihren Journey verwendet werden, oder Nachrichten oder API-Aufrufe zu senden.
+Beim Konfigurieren einer Datenquelle oder einer Aktion stellen Sie eine Verbindung zu einem System her, um entweder zusätzliche Informationen abzurufen, die in Ihren Journeys verwendet werden, oder um Nachrichten oder API-Aufrufe zu senden.
 
-Journey-APIs unterstützen bis zu 5.000 Ereignisse pro Sekunde, einige externe Systeme oder APIs weisen jedoch möglicherweise keinen gleichwertigen Durchsatz auf. Um eine Überlastung dieser Systeme zu vermeiden, können Sie die **Begrenzung** und **Einschränken** APIs zur Begrenzung der Anzahl der pro Sekunde gesendeten Ereignisse.
+Journey-APIs unterstützen bis zu 5.000 Ereignisse pro Sekunde, einige externe Systeme oder APIs weisen jedoch möglicherweise nicht den entsprechenden Durchsatz auf. Um eine Überlastung dieser Systeme zu vermeiden, können Sie die APIs für **Begrenzung** und **Drosselung** zum Begrenzen der Anzahl der pro Sekunde gesendeten Ereignisse verwenden.
 
-Jedes Mal, wenn Journey einen API-Aufruf ausführen, wird er über die API-Engine weitergeleitet. Wenn das in der API festgelegte Limit erreicht wird, wird der Aufruf entweder abgelehnt, wenn Sie die Capping-API verwenden, oder bis zu sechs Stunden in die Warteschlange gestellt und so bald wie möglich in der Reihenfolge verarbeitet, in der sie empfangen wurden, wenn Sie die Drosselungs-API verwenden.
+Jedes Mal, wenn Journeys einen API-Aufruf ausführen, wird er über die API-Engine weitergeleitet. Wenn das in der API festgelegte Limit erreicht wird, wird der Aufruf entweder abgelehnt, falls Sie die Begrenzungs-API verwenden, oder für bis zu 6 Stunden in die Warteschlange gestellt und so bald wie möglich in der Reihenfolge verarbeitet, in der die Aufrufe empfangen wurden, falls Sie die Drosselungs-API verwenden.
 
-Nehmen wir beispielsweise an, Sie haben eine Begrenzungs- oder Einschränkungsregel von 100 Aufrufen pro Sekunde für Ihr externes System definiert. Eine benutzerdefinierte Aktion führt in 10 verschiedenen Journeys Aufrufe an Ihr System aus. Wenn eine Journey 200 Aufrufe pro Sekunde erhält, werden die 100 verfügbaren Slots verwendet und die 100 verbleibenden Slots verworfen oder in die Warteschlange gestellt. Da die Höchstrate überschritten wurde, sind für die anderen 9 Journeys keine Slots mehr übrig. Durch diese Granularität ist das externe System vor Überlastung und Abstürzen geschützt.
+Nehmen wir beispielsweise an, Sie haben eine Begrenzungs- oder Drosselungsregel von 100 Aufrufen pro Sekunde für Ihr externes System definiert. Eine benutzerdefinierte Aktion führt in 10 verschiedenen Journeys Aufrufe an Ihr System aus. Wenn eine Journey 200 Aufrufe pro Sekunde erhält, verwendet sie die 100 verfügbaren Slots und verwirft die 100 verbleibenden Slots oder stellt sie in die Warteschlange. Da die Höchstrate überschritten wurde, sind für die anderen 9 Journeys keine Slots mehr übrig. Durch diese Granularität ist das externe System vor Überlastung und Abstürzen geschützt.
 
 >[!IMPORTANT]
 >
->**Begrenzungsregeln** werden auf Sandbox-Ebene für einen bestimmten Endpunkt (die URL genannt) konfiguriert, aber global für alle Journey dieser Sandbox.
+>**Begrenzungsregeln** werden auf Sandbox-Ebene für einen bestimmten Endpunkt (die aufgerufene URL), jedoch global für alle Journeys dieser Sandbox konfiguriert.
 >
->**Einschränkungsregeln** werden nur für Produktions-Sandboxes konfiguriert, für einen bestimmten Endpunkt, aber global für alle Journey über alle Sandboxes hinweg. Pro Organisation kann nur eine Einschränkungskonfiguration verwendet werden.
+>**Drosselungsregeln** werden nur für Produktions-Sandboxes und für einen bestimmten Endpunkt konfiguriert, jedoch global für alle Journeys über alle Sandboxes hinweg. Pro Organisation kann nur eine Drosselungskonfiguration verwendet werden.
 
-Weitere Informationen zum Arbeiten mit diesen APIs finden Sie in diesen Abschnitten:
+Weiterführende Informationen zur Verwendung dieser APIs finden Sie in diesen Abschnitten:
 
 * [Capping-API](capping.md)
-* [Einschränkungs-API](throttling.md)
+* [Drosselungs-API](throttling.md)
 
-Beide APIs werden auch in einer Swagger-Datei beschrieben, die verfügbar ist. [here](https://adobedocs.github.io/JourneyAPI/docs/).
+Beide APIs werden auch in einer Swagger-Datei beschrieben, die [hier](https://adobedocs.github.io/JourneyAPI/docs/) verfügbar ist.
 
 ## Kapazität von Datenquellen und benutzerdefinierten Aktionen {#capacity}
 
-Für **externe Datenquellen** festgelegt ist, ist die maximale Anzahl von Anrufen pro Sekunde auf 15 beschränkt. Wenn diese Grenze überschritten wird, werden alle zusätzlichen Aufrufe je nach verwendeter API entweder verworfen oder in die Warteschlange gestellt. Es ist möglich, diesen Grenzwert für private externe Datenquellen zu erhöhen, indem Sie sich an die Adobe wenden, um den Endpunkt in die Zulassungsliste aufzunehmen. Dies ist jedoch keine Option für öffentliche externe Datenquellen. * [Erfahren Sie, wie Sie Datenquellen konfigurieren](../datasource/about-data-sources.md).
+Bei **externen Datenquellen** ist die maximale Anzahl von Aufrufen pro Sekunde auf 15 begrenzt. Wenn diese Grenze überschritten wird, werden alle zusätzlichen Aufrufe je nach verwendeter API entweder verworfen oder in die Warteschlange gestellt. Es ist möglich, diesen Grenzwert für private externe Datenquellen zu erhöhen, indem Sie sich an Adobe wenden, um den Endpunkt in die Zulassungsliste aufzunehmen. Dies ist jedoch keine Option für öffentliche externe Datenquellen. * [Erfahren Sie, wie Sie Datenquellen konfigurieren](../datasource/about-data-sources.md).
 
 >[!NOTE]
 >
 >Wenn eine Datenquelle eine benutzerdefinierte Authentifizierung mit einem anderen Endpunkt als dem verwendet, der für die Datenquelle verwendet wird, müssen Sie sich an Adobe wenden, um diesen Endpunkt ebenfalls in die Zulassungsliste aufzunehmen.
 
-Für **benutzerdefinierte Aktionen** müssen Sie die Kapazität Ihrer externen API bewerten. Wenn Journey Optimizer beispielsweise 1000 Aufrufe pro Sekunde sendet und Ihr System nur 100 Aufrufe pro Sekunde unterstützen kann, müssen Sie eine Begrenzungs- oder Drosselkonfiguration definieren, damit Ihr System nicht überfordert wird. [Erfahren Sie, wie Sie Aktionen konfigurieren](../action/action.md)
+Für **benutzerdefinierte Aktionen** müssen Sie die Kapazität Ihrer externen API evaluieren. Wenn Journey Optimizer beispielsweise 1.000 Aufrufe pro Sekunde sendet und Ihr System nur 100 Aufrufe pro Sekunde unterstützt, müssen Sie eine Begrenzungs- oder Drosselungskonfiguration definieren, damit Ihr System nicht überlastet wird. [Erfahren Sie, wie Sie Aktionen konfigurieren](../action/action.md)
 
 ## Einrichten von API-Zugriff {#api}
 
-So verwenden Sie diese APIs mit Ihren [!DNL Journey Orchestration] müssen Sie die Adobe I/O-Konsole verwenden. Der API-Zugriff für [!DNL Journey Orchestration] wird wie folgt eingerichtet: Jeder dieser Schritte wird in der [Adobe I/O-Dokumentation](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) beschrieben.
+Um diese API mit Ihrer [!DNL Journey Orchestration]-Instanz verwenden zu können, müssen Sie die Adobe I/O-Konsole verwenden. Der API-Zugriff für [!DNL Journey Orchestration] wird wie folgt eingerichtet: Jeder dieser Schritte wird in der [Adobe I/O-Dokumentation](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) beschrieben.
 
 >[!CAUTION]
 >
@@ -70,7 +70,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
  -H 'x-gw-ims-org-id: <ORGANIZATION>'
 ```
 
-* **&lt;organization>**: Dies ist Ihre persönliche Organisationskennung. Eine Organisationskennung wird von der Adobe für jede Ihrer Instanzen bereitgestellt. Wenden Sie sich an Ihren Administrator oder Ihren technischen Ansprechpartner bei Adobe, um den Wert Ihrer Organisationskennung zu erhalten. Sie können sie auch beim Erstellen einer neuen Integration in Adobe I/O abrufen, und zwar in der Lizenzliste (siehe <a href="https://www.adobe.io/authentication.html">Adobe I/O-Dokumentation</a>).
+* **&lt;ORGANIZATION>**: Dies ist Ihre persönliche Organisationskennung; von Adobe erhalten Sie für jede Ihrer Instanzen eine Organisationskennung. Wenden Sie sich an Ihren Administrator oder Ihren technischen Ansprechpartner bei Adobe, um den Wert Ihrer Organisationskennung zu erhalten. Sie können sie auch beim Erstellen einer neuen Integration in Adobe I/O abrufen, und zwar in der Lizenzliste (siehe <a href="https://www.adobe.io/authentication.html">Adobe I/O-Dokumentation</a>).
 
 * **&lt;ACCESS_TOKEN>**: Ihr persönlicher Zugriffstoken, der beim Austausch Ihres JWT über eine POST-Anfrage abgerufen wurde.
 
