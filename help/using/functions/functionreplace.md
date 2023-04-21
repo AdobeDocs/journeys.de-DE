@@ -32,7 +32,7 @@ Zeichenfolge
 | Parameter | Typ |
 |-----------|--------------|
 | base | string |
-| target | string (RegExp) |
+| target | Zeichenfolge (RegExp) |
 | replacement | string |
 
 ## Signatur und zurückgegebener Typ
