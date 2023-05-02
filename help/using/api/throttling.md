@@ -7,10 +7,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 76afe397-3e18-4e01-9b0b-c21705927ce2
-source-git-commit: 25d8dcd027f3f433759ce97f9a3a1dad85ba1427
+source-git-commit: 7b8c9d2bfe244b040a9064a7a240ea6f43cc8b41
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 96%
+source-wordcount: '800'
+ht-degree: 95%
 
 ---
 
@@ -134,7 +134,7 @@ Beim Versuch, eine weitere Konfiguration zu erstellen:
 
 ## Anwendungsfälle {#uc}
 
-Um Ihnen bei Tests und der Konfiguration behilflich zu sein, steht Ihnen [hier](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Throttling-API_postman-collection.json) eine Postman-Sammlung zur Verfügung.
+Um Ihnen bei Tests und der Konfiguration behilflich zu sein, steht Ihnen [hier](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Throttling-API_postman-collection.json) eine Postman-Sammlung zur Verfügung.
 
 Diese Postman-Sammlung wurde eingerichtet, um die Postman-Variablensammlung freizugeben, die über __[Integrationen der Adobe I/O-Konsole](https://console.adobe.io/integrations) > Testen > Für Postman herunterladen__ generiert wurde. Dadurch wird eine Postman-Umgebung mit den ausgewählten Integrationswerten erzeugt.
 
