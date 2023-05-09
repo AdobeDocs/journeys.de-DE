@@ -6,16 +6,21 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: fef039ae-c04d-4198-a082-4be27710255f
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: 18c94897b5cea0d92a83f36845fdda64220b668f
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 100%
+source-wordcount: '572'
+ht-degree: 90%
 
 ---
 
 # Einschränkungen {#limitations}
 
 Im Zusammenhang mit der Verwendung von Journey Orchestration gibt es Einschränkungen.
+
+## Allgemeine Limits für Journey {#journeys-guardrails-journeys}
+
+* Die Anzahl der Aktivitäten in einer Journey ist auf 50 begrenzt. Die Anzahl der Aktivitäten wird im oberen linken Bereich der Journey-Arbeitsfläche angezeigt.
+* Die Anzahl der **Live-Journey** in einer Organisation auf 100 pro Sandbox beschränkt. Wenn diese Grenze erreicht ist, können Sie keine neue Journey mehr veröffentlichen.
 
 ## Allgemeine Aktionseinschränkungen
 
