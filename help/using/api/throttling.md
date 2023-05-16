@@ -8,15 +8,15 @@ role: User
 level: Intermediate
 exl-id: 76afe397-3e18-4e01-9b0b-c21705927ce2
 source-git-commit: 7b8c9d2bfe244b040a9064a7a240ea6f43cc8b41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '800'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # Arbeiten mit der Drosselungs-API
 
-Mit der Einschränkungs-API können Sie Ihre Einschränkungskonfigurationen erstellen, konfigurieren und überwachen, um die Anzahl der pro Sekunde gesendeten Ereignisse zu begrenzen.
+Mit der Drosselungs-API können Sie Ihre Drosselungskonfigurationen erstellen, konfigurieren und überwachen, um die Anzahl der pro Sekunde gesendeten Ereignisse zu begrenzen.
 
 >[!IMPORTANT]
 >
@@ -32,7 +32,7 @@ Mit der Einschränkungs-API können Sie Ihre Einschränkungskonfigurationen erst
 |---|---|---|
 | [!DNL POST] | list/throttlingConfigs | Abrufen einer Liste der Drosselungskonfigurationen |
 | [!DNL POST] | /throttlingConfigs | Erstellen einer Drosselungskonfiguration |
-| [!DNL POST] | /throttlingConfigs/`{uid}`/deploy | Implementieren einer Drosselungskonfiguration |
+| [!DNL POST] | /throttlingConfigs/`{uid}`/deploy | Bereitstellen einer Drosselungskonfiguration |
 | [!DNL POST] | /throttlingConfigs/`{uid}`/undeploy | Bereitstellung einer Drosselungskonfiguration aufheben |
 | [!DNL POST] | /throttlingConfigs/`{uid}`/canDeploy | Überprüfen, ob eine Drosselungskonfiguration bereitgestellt werden kann oder nicht |
 | [!DNL PUT] | /throttlingConfigs/`{uid}` | Aktualisieren einer Drosselungskonfiguration |
@@ -86,19 +86,19 @@ Beim Erstellen, Löschen oder Bereitstellen einer Drosselungskonfiguration könn
 * **ERR_THROTTLING_CONFIG_104**: Drosselungskonfiguration: fehlerhaftes URL-Muster
 * **ERR_THROTTLING_CONFIG_105**: Drosselungskonfiguration: Platzhalter sind im Host-Teil des URL-Musters nicht zulässig
 * **ERR_THROTTLING_CONFIG_106**: Drosselungskonfiguration: ungültige Payload
-* **THROTTLING_CONFIG_DELETE_FORBIDDEN_ERROR: 1456**, „Eine implementierte Drosselungskonfiguration kann nicht gelöscht werden. Bitte die Implementierung vor dem Löschen aufheben“
+* **THROTTLING_CONFIG_DELETE_FORBIDDEN_ERROR: 1456**, „Eine bereitgestellte Drosselungskonfiguration kann nicht gelöscht werden. Bitte die Bereitstellung vor dem Löschen aufheben“
 * **THROTTLING_CONFIG_DELETE_ERROR: 1457**, „Die Drosselungskonfiguration kann nicht gelöscht werden: unerwarteter Fehler“
-* **THROTTLING_CONFIG_DEPLOY_ERROR: 1458**, „Die Drosselungskonfiguration kann nicht implementiert werden: unerwarteter Fehler“
-* **THROTTLING_CONFIG_UNDEPLOY_ERROR: 1459**, „Die Implementierung der Drosselungskonfiguration kann nicht aufgehoben werden: unerwarteter Fehler“
+* **THROTTLING_CONFIG_DEPLOY_ERROR: 1458**, „Die Drosselungskonfiguration kann nicht bereitgestellt werden: unerwarteter Fehler“
+* **THROTTLING_CONFIG_UNDEPLOY_ERROR: 1459**, „Die Bereitstellung der Drosselungskonfiguration kann nicht aufgehoben werden: unerwarteter Fehler“
 * **THROTTLING_CONFIG_GET_ERROR: 1460**, „Drosselungskonfiguration kann nicht abgerufen werden: unerwarteter Fehler“
 * **THROTTLING_CONFIG_UPDATE_NOT_ACTIVE_ERROR: 1461**, „Drosselungskonfiguration kann nicht aktualisiert werden: Laufzeitversion ist nicht aktiv“
 * **THROTTLING_CONFIG_UPDATE_ERROR: 1462**, „Drosselungskonfiguration kann nicht aktualisiert werden: unerwarteter Fehler“
 * **THROTTLING_CONFIG_NON_PROD_SANDBOX_ERROR: 1463**, „Vorgang bei Drosselungskonfiguration nicht zulässig: Nicht-Produktions-Sandbox“
 * **THROTTLING_CONFIG_CREATE_ERROR: 1464**, „Drosselungskonfiguration kann nicht erstellt werden: unerwarteter Fehler“
 * **THROTTLING_CONFIG_CREATE_LIMIT_ERROR: 1465**, „Drosselungskonfiguration kann nicht erstellt werden: nur eine Konfiguration pro Organisation zulässig“
-* **THROTTLING_CONFIG_ALREADY_DEPLOYED_ERROR: 14466**, „Drosselungskonfiguration kann nicht implementiert werden: bereits implementiert“
+* **THROTTLING_CONFIG_ALREADY_DEPLOYED_ERROR: 14466**, „Drosselungskonfiguration kann nicht bereitgestellt werden: bereits bereitgestellt“
 * **THROTTLING_CONFIG_NOT_FOUND_ERROR: 14467**, „Drosselungskonfiguration nicht gefunden“
-* **THROTTLING_CONFIG_NOT_DEPLOYED_ERROR: 14468**, „Implementierung der Drosselungskonfiguration kann nicht aufgehoben werden: noch nicht implementiert“
+* **THROTTLING_CONFIG_NOT_DEPLOYED_ERROR: 14468**, „Bereitstellung der Drosselungskonfiguration kann nicht aufgehoben werden: noch nicht bereitgestellt“
 
 **Fehlerbeispiele**
 
@@ -140,19 +140,19 @@ Diese Postman-Sammlung wurde eingerichtet, um die Postman-Variablensammlung frei
 
 Nach dem Herunterladen und Hochladen in Postman müssen Sie drei Variablen hinzufügen: `{JO_HOST}`, `{BASE_PATH}` und `{SANDBOX_NAME}`.
 * `{JO_HOST}` : [!DNL Journey Orchestration]-Gateway-URL
-* `{BASE_PATH}` : Einstiegspunkt für die API. Der Wert lautet „/authoring“
+* `{BASE_PATH}`: Einstiegspunkt für die API. Der Wert lautet „/authoring“
 * `{SANDBOX_NAME}`: der Header **x-sandbox-name** (z. B. „prod“), der dem Sandbox-Namen entspricht, in dem die API-Vorgänge stattfinden. Weiterführende Informationen dazu finden Sie unter [Sandbox-Übersicht](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=de).
 
 Im folgenden Abschnitt finden Sie die sortierte Liste der Rest-API-Aufrufe, um den Anwendungsfall auszuführen.
 
-Anwendungsfall 1: **Erstellen und Implementieren einer neuen Drosselungskonfiguration**
+Anwendungsfall 1: **Erstellen und Bereitstellen einer neuen Drosselungskonfiguration**
 
 1. list
 1. create
 1. candeploy
 1. deploy
 
-Anwendungsfall 2: **Aktualisieren und Implementieren einer noch nicht implementierten Drosselungskonfiguration**
+Anwendungsfall 2: **Aktualisieren und Bereitstellen einer noch nicht bereitgestellten Drosselungskonfiguration**
 
 1. list
 1. get
@@ -160,24 +160,24 @@ Anwendungsfall 2: **Aktualisieren und Implementieren einer noch nicht implementi
 1. candeploy
 1. deploy
 
-Anwendungsfall 3: **Aufheben der Implementierung und Löschen einer implementierten Drosselungskonfiguration**
+Anwendungsfall 3: **Aufheben der Bereitstellung und Löschen einer bereitgestellten Drosselungskonfiguration**
 
 1. list
 1. undeploy
 1. delete
 
-Anwendungsfall 4: **Löschen einer implementierten Drosselungskonfiguration**
+Anwendungsfall 4: **Löschen einer bereitgestellten Drosselungskonfiguration**
 
 In nur einem API-Aufruf können Sie die Bereitstellung aufheben und die Konfiguration mithilfe des forceDelete-Parameters löschen.
 
 1. list
 1. delete mit forceDelete-Parameter
 
-Anwendungsfall 5: **Aktualisieren einer bereits implementierten Drosselungskonfiguration**
+Anwendungsfall 5: **Aktualisieren einer bereits bereitgestellten Drosselungskonfiguration**
 
 >[!NOTE]
 >
->Es ist nicht erforderlich, die Implementierung der Konfiguration vor der Aktualisierung aufzuheben
+>Es ist nicht erforderlich, die Bereitstellung der Konfiguration vor der Aktualisierung aufzuheben
 
 1. list
 1. get
@@ -185,11 +185,11 @@ Anwendungsfall 5: **Aktualisieren einer bereits implementierten Drosselungskonfi
 
 ## Lebenszyklus der Konfiguration auf Laufzeitebene {#config}
 
-Wenn die Implementierung einer Konfiguration aufgehoben wird, wird sie auf Laufzeitebene als inaktiv markiert, und ausstehende Ereignisse werden 24 Stunden lang weiter verarbeitet. Sie wird dann im Laufzeit-Service gelöscht.
+Wenn die Bereitstellung einer Konfiguration aufgehoben wird, wird sie auf Laufzeitebene als inaktiv markiert und ausstehende Ereignisse werden 24 Stunden lang weiter verarbeitet. Sie wird dann im Laufzeit-Service gelöscht.
 
-Nachdem die Implementierung einer Konfiguration aufgehoben wurde, ist es möglich, die Konfiguration zu aktualisieren und erneut zu implementieren. Dadurch wird eine neue Laufzeitkonfiguration erstellt, die bei der bevorstehenden Aktionsausführung berücksichtigt wird.
+Nachdem die Bereitstellung einer Konfiguration aufgehoben wurde, ist es möglich, die Konfiguration zu aktualisieren und erneut bereitzustellen. Dadurch wird eine neue Laufzeitkonfiguration erstellt, die bei der bevorstehenden Aktionsausführung berücksichtigt wird.
 
-Beim Aktualisieren einer bereits implementierten Konfiguration werden die neuen Werte sofort berücksichtigt. Die zugrunde liegenden Systemressourcen werden automatisch angepasst. Dies ist besser, als die Implementierung der Konfiguration rückgängig zu machen und sie dann erneut zu implementieren.
+Beim Aktualisieren einer bereits bereitgestellten Konfiguration werden die neuen Werte sofort berücksichtigt. Die zugrunde liegenden Systemressourcen werden automatisch angepasst. Dies ist im Vergleich zum Aufheben der Bereitstellung und dem erneuten Bereitstellen der Konfiguration optimal.
 
 ## Beispiele für Antworten {#responses}
 
@@ -300,7 +300,7 @@ Beim Aktualisieren einer bereits implementierten Konfiguration werden die neuen 
 }
 ```
 
-**Lesen (nach Implementierung) – GET**
+**Lesen (nach Bereitstellung) – GET**
 
 ```
 {
