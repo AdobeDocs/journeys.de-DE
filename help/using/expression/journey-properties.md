@@ -44,26 +44,26 @@ Im Folgenden finden Sie einige Beispiele für Anwendungsfälle:
 
 | Kategorie | Feldname | Kennzeichnung | Beschreibung |
 |---|---|---|------------|
-| Journey-Version | journeyUID | Journey-Kennung |  |
-|  | journeyVersionUID | Versionskennung der Journey |  |
-|  | journeyVersionName | Name der Journey-Version |  |
-|  | journeyVersionDescription | Beschreibung der Journey-Version |  |
-|  | journeyVersion | Journey-Version |  |
+| Journey-Version | journeyUID | Journey-Kennung | |
+| | journeyVersionUID | Versionskennung der Journey | |
+| | journeyVersionName | Name der Journey-Version | |
+| | journeyVersionDescription | Beschreibung der Journey-Version | |
+| | journeyVersion | Journey-Version | |
 | Journey-Instanz | instanceUID | Kennung der Journey-Instanz | ID der Instanz |
-|  | externalKey | Externer Schlüssel | Individuelle Kennung, die die Journey auslöst |
-|  | organizationId | Organisationskennung | Markenorganisation |
-|  | sandboxName | Sandbox-Name | Name der Sandbox |
+| | externalKey | Externer Schlüssel | Individuelle Kennung, die die Journey auslöst |
+| | organizationId | Organisationskennung | Markenorganisation |
+| | sandboxName | Sandbox-Name | Name der Sandbox |
 | Identität | profileId | Identitätskennung des Profils | Kennung des Profils in der Journey |
-|  | namespace | Identity-Namespace des Profils | Namespace des Profils in der Journey (Beispiel: ECID) |
+| | namespace | Identity-Namespace des Profils | Namespace des Profils in der Journey (Beispiel: ECID) |
 | Aktueller Knoten | currentNodeId | Kennung des aktuellen Knotens | Kennung der aktuellen Aktivität (Knoten) |
-|  | currentNodeName | Name des aktuellen Knotens | Name der aktuellen Aktivität (Knoten) |
+| | currentNodeName | Name des aktuellen Knotens | Name der aktuellen Aktivität (Knoten) |
 | Vorheriger Knoten | previousNodeId | Kennung des vorherigen Knotens | Kennung der vorherigen Aktivität (Knoten) |
-|  | previousNodeName | Name des vorherigern Knotens | Name der vorherigen Aktivität (Knoten) |
+| | previousNodeName | Name des vorherigern Knotens | Name der vorherigen Aktivität (Knoten) |
 | Fehler | lastNodeUIDInError | Kennung des letzten Knotens im Fehler | Kennung der aktuellen fehlerhaften Aktivität (Knoten) |
-|  | lastNodeNameInError | Name des letzten Knotens im Fehler | Name der aktuellen fehlerhaften Aktivität (Knoten) |
-|  | lastNodeTypeInError | Letzter Knotentyp im Fehler | Fehlertyp der aktuellen fehlerhaften Aktivität (Knoten). Mögliche Typen:<ul><li>Ereignisse: Ereignisse, Reaktionen, SQ (Beispiel: Segmentqualifikation)</li><li>Flusssteuerung: Ende, Bedingung, Warten</li><li>Aktionen: ACS-Aktionen, Sprung, benutzerdefinierte Aktion</li></ul> |
-|  | lastErrorCode | Letzter Fehler-Code | Fehler-Code der aktuellen fehlerhaften Aktivität (Knoten). Mögliche Fehler: <ul><li>HTTP-Fehler-Codes</li><li>capped</li><li>timedOut</li><li>Fehler (Beispiel: Standard bei unerwartetem Fehler. Sollte nicht / äußerst selten vorkommen.)</li></ul> |
-|  | lastExecutedActionErrorCode | Fehler-Code der letzten ausgeführten Aktion | Fehler-Code der aktuellen Aktion im Fehler |
-|  | lastDataFetchErrorCode | Fehler-Code beim letzten Datenabruf | Fehler-Code beim aktuellen Datenabruf aus Datenquellen |
+| | lastNodeNameInError | Name des letzten Knotens im Fehler | Name der aktuellen fehlerhaften Aktivität (Knoten) |
+| | lastNodeTypeInError | Letzter Knotentyp im Fehler | Fehlertyp der aktuellen fehlerhaften Aktivität (Knoten). Mögliche Typen:<ul><li>Ereignisse: Ereignisse, Reaktionen, SQ (Beispiel: Segmentqualifikation)</li><li>Flusssteuerung: Ende, Bedingung, Warten</li><li>Aktionen: ACS-Aktionen, Sprung, benutzerdefinierte Aktion</li></ul> |
+| | lastErrorCode | Letzter Fehler-Code | Fehler-Code der aktuellen fehlerhaften Aktivität (Knoten). Mögliche Fehler: <ul><li>HTTP-Fehler-Codes</li><li>capped</li><li>timedOut</li><li>Fehler (Beispiel: Standard bei unerwartetem Fehler. Sollte nicht / äußerst selten vorkommen.)</li></ul> |
+| | lastExecutedActionErrorCode | Fehler-Code der letzten ausgeführten Aktion | Fehler-Code der aktuellen Aktion im Fehler |
+| | lastDataFetchErrorCode | Fehler-Code beim letzten Datenabruf | Fehler-Code beim aktuellen Datenabruf aus Datenquellen |
 | Zeit | lastActionExecutionElapsedTime | Verstrichene Zeit der letzten Aktionsausführung | Zeitaufwand für die Ausführung der aktuellen Aktion |
-|  | lastDataFetchElapsedTime | Verstrichene Zeit des letzten Datenabrufs | Zeitaufwand für die Ausführung des aktuellen Datenabrufs aus Datenquellen |
+| | lastDataFetchElapsedTime | Verstrichene Zeit des letzten Datenabrufs | Zeitaufwand für die Ausführung des aktuellen Datenabrufs aus Datenquellen |

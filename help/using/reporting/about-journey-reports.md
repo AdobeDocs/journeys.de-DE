@@ -37,8 +37,8 @@ Im Tab **[!UICONTROL Projekt]** haben Sie folgende Möglichkeiten:
 
 Im Tab **[!UICONTROL Bearbeiten]** haben Sie folgende Möglichkeiten:
 
-* **[!UICONTROL Rückgängig]**: Bricht den zuletzt im Dashboard ausgeführten Vorgang ab.
-* **[!UICONTROL Wiederholen]**: Bricht den zuletzt im Dashboard ausgeführten **[!UICONTROL Rückgängig]**-Vorgang ab.
+* **[!UICONTROL Rückgängig]**: Bricht die zuletzt im Dashboard ausgeführte Aktion ab.
+* **[!UICONTROL Wiederholen]**: Bricht die zuletzt im Dashboard ausgeführte **[!UICONTROL Rückgängig]**-Aktion ab.
 * **[!UICONTROL Alle löschen]**: Löscht alle Panels in Ihrem Dashboard.
 
 Im Tab **[!UICONTROL Einfügen]** können Sie Ihre Berichte anpassen, indem Sie Diagramme und Tabellen zum Dashboard hinzufügen:

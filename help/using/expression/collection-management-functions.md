@@ -207,7 +207,6 @@ Das Ergebnis ist „token_2“.
 >* Die Funktion **[!UICONTROL first]** gibt das neueste Ereignis zurück.
 >* Die Funktion **[!UICONTROL last]** gibt das älteste zurück.
 
-
 **Beispiel 3:**
 
 Wir prüfen, ob das erste (neueste) Adobe Analytics-Ereignis mit einem Wert ungleich null für die DMA-ID den Wert „602“ hat.

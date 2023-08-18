@@ -2,7 +2,7 @@
 keywords: Journeys;Startseite;beliebte Themen
 product: adobe campaign
 title: Produktdokumentation für Journey Orchestration
-description: Folgen Sie unserem Handbuch zur Journey Orchestration von Adoben , um Anweisungen zur Implementierung und zum Erstellen von Journey zu erhalten.
+description: In unserem Adobe Journey Orchestration Guide finden Sie einfache Anleitungen zur Implementierung und Erstellung von Journey.
 feature: Journeys
 role: User
 level: Beginner

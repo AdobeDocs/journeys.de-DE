@@ -64,10 +64,10 @@ Im Folgenden sind einige Faktoren aufgeführt, die der Administrator überprüfe
 * Haben Sie die Payload-Struktur der Streaming-Aufnahme-APIs mithilfe der Payload-Strukturvorschau im Ereigniskonfigurationsbereich beachtet? Weitere Informationen finden Sie auf [dieser Seite](../event/previewing-the-payload.md).
 * Haben Sie in der Kopfzeile die richtigen Schlüssel/Wert-Paare Ihres Ereignisses verwendet?
 
-   ```
-   X-gw-ims-org-id - your ORGID
-   Content-type - application/json
-   ```
+  ```
+  X-gw-ims-org-id - your ORGID
+  Content-type - application/json
+  ```
 
 ## Überprüfen, wie Personen durch die Journey navigieren{#section_l5y_yzs_dgb}
 

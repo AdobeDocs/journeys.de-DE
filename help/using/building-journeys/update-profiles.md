@@ -51,11 +51,11 @@ Mit der Aktionsaktivität **[!UICONTROL Profil aktualisieren]** können Sie ein 
 
    * Mit dem einfachen Ausdruckseditor können Sie ein Feld aus einer Datenquelle oder aus dem eingehenden Ereignis auswählen.
 
-      ![](../assets/profileupdate4.png)
+     ![](../assets/profileupdate4.png)
 
    * Wenn Sie einen bestimmten Wert definieren oder erweiterte Funktionen nutzen möchten, klicken Sie auf **Erweiterter Modus**.
 
-      ![](../assets/profileupdate3.png)
+     ![](../assets/profileupdate3.png)
 
 Die Aktivität **Profil aktualisieren** ist jetzt konfiguriert.
 

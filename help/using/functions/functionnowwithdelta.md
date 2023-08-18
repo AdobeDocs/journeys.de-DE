@@ -31,7 +31,7 @@ Datum
 |--- |--- |
 | delta | positiver oder negativer Ganzzahlwert |
 | date part | Jahre, Monate, Tage, Stunden, Minuten oder Sekunden als Zeichenfolge |
-| Zeitzonen-ID | Zeichenfolgendarstellung des Zeitzonenwerts. Weitere Informationen finden Sie unter [Datentypen](../expression/data-types.md). Die Zeitzonen-ID muss eine Zeichenfolgenkonstante sein. Sie darf weder ein Feldverweis noch ein Ausdruck sein. |
+| Zeitzonen-ID | Zeichenfolgendarstellung des Zeitzonenwerts. Weitere Informationen finden Sie unter [Datentypen](../expression/data-types.md). Die Zeitzonen-ID muss eine Zeichenfolgenkonstante sein. Er darf weder ein Feldverweis noch ein Ausdruck sein. |
 
 ## Signaturen und zurückgegebener Typ
 

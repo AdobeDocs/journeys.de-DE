@@ -19,7 +19,7 @@ Wenn Sie warten möchten, bevor Sie die nächste Aktivität im Pfad ausführen, 
 
 * [Dauer](#duration)
 * [Benutzerspezifisch](#custom)
-   <!--* [Email send time optimization](#email_send_time_optimization)-->
+  <!--* [Email send time optimization](#email_send_time_optimization)-->
 
 ## Informationen zur Warteaktivität{#about_wait}
 

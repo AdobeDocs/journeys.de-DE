@@ -34,7 +34,7 @@ In der Tabelle unten finden Sie eine Liste der Dimensionen, die in Journey-Beric
 | **Aktion** | Liste aller Aktionen (**Aktionsname - Aktionsbezeichnung**), die in Journeys verwendet werden (z. B. Push-Benachrichtigung - Checkout-Bestätigung, E-Mail - Treueprämien). |
 | **Datenquelle** | Liste der Datenquellen (**Datenquellenname**), die in einer Journey zur Datenanreicherung verwendet werden (z. B. Adobe Experience Platform, Reservierungssystem). |
 | **[!UICONTROL Ereignis]** | Liste aller Ereignisse (**Ereignisname - Ereignisbezeichnung**), die in Journeys zum Einsatz kommen (z. B. Geometrixx-Ereignis - Geometrixx-Checkout). |
-| **Feldergruppe** | Liste der Feldergruppen (**Feldergruppenname**), die in Journeys zur Datenanreicherung verwendet werden (z. B. Profilfeldgruppe, Geometrixx-Reservierungssystem). |
+| **Feldgruppe** | Liste der Feldergruppen (**Feldergruppenname**), die in Journeys zur Datenanreicherung verwendet werden (z. B. Profilfeldgruppe, Geometrixx-Reservierungssystem). |
 | **Journey** | Liste aller Journeys (**Journey-Name**), die im Testmodus und live sind (z. B. Transaktionsabbruch, Benachrichtigung zu Hotelreservierung). |
 | **Journey-Version** | Liste aller veröffentlichten Journey-Versionen (**Journey-Name + Nummer der Version**), z. B. Transaktionsabbruch v1, Benachrichtigung zu Hotelreservierung v2. |
 | **Orchestrierung** | Liste aller Orchestrierungsaktivitäten (**Bedingung, Ende, Warten**), die definiert sind und in Journeys verwendet werden. |

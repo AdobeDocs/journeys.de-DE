@@ -54,7 +54,7 @@ Lesen Sie auch die [Versionshinweise](../release-notes/release-notes.md) von [!D
 
 * Das Konfigurationsverfahren für benutzerdefinierte Aktionen mit dynamischen URL-Pfaden und dynamischen Headern wurde aktualisiert. [Mehr dazu](../action/url-configuration.md)
 * Es wurde ein Abschnitt über Funktionen zur Barrierefreiheit hinzugefügt. [Mehr dazu](../about/user-interface.md#accessibility)
-* Es wurde ein Abschnitt über Methoden zur Segmentprüfung hinzugefügt. [Mehr dazu](../segment/about-segments.md#evaluation-method-in-journey-orchestration)
+* Es wurde ein Abschnitt über Methoden zur Segmentauswertung hinzugefügt. [Mehr dazu](../segment/about-segments.md#evaluation-method-in-journey-orchestration)
 
 ## März 2021 {#march-2021}
 
@@ -130,13 +130,13 @@ Lesen Sie auch die [Versionshinweise](../release-notes/release-notes.md) von [!D
 ## Januar 2020 {#january-2020}
 
 * Für [Erlebnisereignisse](../datasource/adobe-experience-platform-data-source.md) und [Segmente](../functions/functioninsegment.md) wurden Abrufbeschränkungen hinzugefügt.
-   <!--* The [getBestSendTime documentation](../functions/functiongetbestsendtime.md) has been updated.-->
+  <!--* The [getBestSendTime documentation](../functions/functiongetbestsendtime.md) has been updated.-->
 
 ## Dezember 2019 {#december-2019}
 
 * Alle Screenshots wurden entsprechend den Änderungen der Benutzeroberfläche aktualisiert.
 * Der Abschnitt „Testmodus“ wurde aktualisiert. [Mehr dazu](../building-journeys/testing-the-journey.md)
-   <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).-->
+  <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).-->
 * Gestoppte Journeys können nun gelöscht werden. Die entsprechenden Seiten in der Dokumentation wurden aktualisiert.
 * Wenn in einer Journey Probleme erkannt werden, werden nun zwei Farben angezeigt. Rot steht für Fehler und orange für Warnungen. [Mehr dazu](../about/troubleshooting.md)
 * Der Abschnitt zum erweiterten Ausdruckseditor wurde aktualisiert. [Mehr dazu](../expression/expressionadvanced.md).

@@ -26,9 +26,9 @@ Im Folgenden finden Sie die Möglichkeiten von [!DNL Journey Orchestration] bei 
 * Verwenden von Segmenten in Bedingungen Ihrer Journey mit dem einfachen oder erweiterten Ausdruckseditor. Siehe [Verwenden von Segmenten in Bedingungen](../segment/using-a-segment.md).
 * Hinzufügen eines Ereignisses vom Typ **[!UICONTROL Segmentqualifikation]** zu Ihrer Journey, um die Ein- und Austritte von Profilen in Adobe Experience Platform-Segmenten zu beobachten. Siehe [Ereignisaktivitäten](../building-journeys/segment-qualification-events.md).
 
-## Evaluierungsmethode in Journey Orchestration {#evaluation-method-in-journey-orchestration}
+## Auswertungsmethode in Journey Orchestration {#evaluation-method-in-journey-orchestration}
 
-In Journey Orchestration werden Audiences aus Segmentdefinitionen mithilfe einer der folgenden Evaluierungsmethoden erzeugt:
+In Journey Orchestration werden Audiences aus Segmentdefinitionen mithilfe einer der folgenden Auswertungsmethoden erzeugt:
 
 * Streaming-Segmentierung: Die Audiences-Liste für das Segment wird in Echtzeit auf dem neuesten Stand gehalten, während neue Daten in das System fließen.
 * Batch-Segmentierung: Die Audiences-Liste für das Segment wird stündlich aktualisiert, basierend auf Daten, die in der letzten Stunde erfasst wurden.

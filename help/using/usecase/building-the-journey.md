@@ -130,9 +130,9 @@ Nach der Bedingung werden zwei Pfade erstellt:
    * **[!UICONTROL Push-Plattform]**: Wählen Sie die Plattform: **[!UICONTROL Apple Push Notification Server]** (Apple) oder **[!UICONTROL Firebase Cloud Messaging]** (Android).
    * **[!UICONTROL Anmeldetoken]**: Fügen Sie im erweiterten Modus den folgenden Ausdruck hinzu (basierend auf dem konfigurierten Ereignis):
 
-      ```
-      @{LobbyBeacon._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
-      ```
+     ```
+     @{LobbyBeacon._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
+     ```
 
 1. Definieren Sie die Personalisierungsfelder der Push-Benachrichtigung. In unserem Beispiel: Vorname und Nachname.
 

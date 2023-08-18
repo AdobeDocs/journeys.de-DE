@@ -51,4 +51,4 @@ Gibt 2010-12-12T04:11:00Z zurück.
 
 `setHours(nowWithDelta(1, "days"), 20)`
 
-Gibt morgen um 20:XY Uhr zurück, wobei XY die Minuten zum Zeitpunkt der aktuellen Zeitbewertung darstellt. Wenn die Auswertung um 2:45 Uhr erfolgt, lautet die zurückgegebene Zeit 20:45 Uhr.
+Gibt morgen um 20:XY Uhr zurück, wobei XY die Minuten zum Zeitpunkt der aktuellen Zeitauswertung darstellt. Wenn die Auswertung um 2:45 Uhr erfolgt, lautet die zurückgegebene Zeit 20:45 Uhr.

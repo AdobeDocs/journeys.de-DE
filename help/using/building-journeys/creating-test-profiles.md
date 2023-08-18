@@ -36,7 +36,6 @@ Zuerst müssen Sie **ein Schema erstellen**. Führen Sie folgende Schritte aus:
 1. Wählen Sie die entsprechenden Mixins aus. Stellen Sie sicher, dass Sie das Mixin **[!UICONTROL Profil-Testdetails]** hinzufügen. Klicken Sie auf **[!UICONTROL Mixin hinzufügen]**.
    ![](../assets/test-profiles-1-ter.png)
 Die Liste der Mixins wird im Übersichtsbildschirm des Schemas angezeigt.
-
    ![](../assets/test-profiles-2.png)
 1. Klicken Sie in der Liste der Felder auf das Feld, das Sie als die primäre Identität definieren möchten.
    ![](../assets/test-profiles-3.png)
@@ -87,7 +86,7 @@ In Adobe Experience Platform können Sie Profile erstellen, indem Sie eine CSV-D
    ![](../assets/test-profiles-18.png)
 1. Ordnen Sie die CSV-Quellfelder den Feldern des Schemas zu und klicken Sie dann auf **[!UICONTROL Beenden]**.
    ![](../assets/test-profiles-19.png)
-1. Der Datenimport beginnt. Der Status wechselt von **[!UICONTROL Verarbeitungsvorgang läuft]** zu **[!UICONTROL Erfolg]**. Klicken Sie oben rechts auf **[!UICONTROL Datensatz in der Vorschau ansehen]**.
+1. Der Datenimport beginnt. Der Status wechselt von **[!UICONTROL Verarbeitung läuft]** zu **[!UICONTROL Erfolg]**. Klicken Sie oben rechts auf **[!UICONTROL Datensatz in der Vorschau ansehen]**.
    ![](../assets/test-profiles-20.png)
 1. Vergewissern Sie sich, dass die Testprofile korrekt hinzugefügt wurden.
    ![](../assets/test-profiles-21.png)
