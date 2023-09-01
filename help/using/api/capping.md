@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: Beschreibung der Capping-API
+title: Beschreibung der Begrenzungs-API
 description: Erfahren Sie mehr über die Capping-API.
 products: journeys
 feature: Journeys
@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
 source-git-commit: 861c6bd8ce65793b6009e220d88f105c75ea3008
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '580'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Mit der Begrenzungs-API können Sie Begrenzungskonfigurationen erstellen, konfigurieren und überwachen.
 
-## Beschreibung der Capping-API
+## Beschreibung der Begrenzungs-API
 
 | Methode | Pfad | Beschreibung |
 |---|---|---|
