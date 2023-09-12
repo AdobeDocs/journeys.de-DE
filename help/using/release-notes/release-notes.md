@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: d759aab70b2a6f6d4897bdd3498a9499dff2899f
+source-git-commit: 77b7979b2023e58298298c88240cb2855b55d56b
 workflow-type: tm+mt
-source-wordcount: '4194'
-ht-degree: 100%
+source-wordcount: '4238'
+ht-degree: 99%
 
 ---
 
@@ -21,11 +21,15 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen in Journey Orch
 >
 >Für die in den Jahren 2022 und 2023 veröffentlichten Funktionen verweisen die Links auf die Dokumentation zu Adobe Journey Optimizer.
 
+## Version August 2023 {#aug-rn-2023}
+
+### Verbesserungen {#aug-2023-improvements}
+
+* Sie können jetzt API-Aufrufantworten in benutzerdefinierten Aktionen nutzen und Ihre Journey basierend auf diesen Antworten koordinieren. Diese Funktion ist als private Betaversion verfügbar. Weitere Informationen finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html) zu Journey Optimizer.
+
 ## Version April 2023 {#apr-rn-2023}
 
 ### Verbesserungen {#april-2023-improvements}
-
-**Journeys**
 
 * Das Layout des Konfigurationsbereichs, der in Aktionen, Datenquellen, Ereignissen und Journeys angezeigt wird, wurde verbessert.
 * Sie können jetzt in Ihren benutzerdefinierten Aktionen statische oder dynamische Abfrageparameter definieren. Weitere Informationen finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=de#url-configuration) zu Journey Optimizer.
