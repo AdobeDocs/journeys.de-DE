@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 77b7979b2023e58298298c88240cb2855b55d56b
-workflow-type: tm+mt
-source-wordcount: '4238'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '4156'
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen in Journey Orch
 
 ### Verbesserungen {#aug-2023-improvements}
 
-* Sie können jetzt API-Aufrufantworten in benutzerdefinierten Aktionen nutzen und Ihre Journey basierend auf diesen Antworten koordinieren. Diese Funktion ist als private Betaversion verfügbar. Weitere Informationen finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html) zu Journey Optimizer.
+* Sie können jetzt API-Aufrufantworten in benutzerdefinierten Aktionen nutzen und Ihre Journey basierend auf diesen Antworten koordinieren. Diese Funktion ist als private Betaversion verfügbar. Weitere Informationen finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html?lang=de) zu Journey Optimizer.
 
 ## Version April 2023 {#apr-rn-2023}
 
@@ -89,7 +89,7 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen in Journey Orch
 
 ### Weitere Änderungen{#sept-2022-other}
 
-* Zur Leistungsverbesserung können Feldergruppen für Erlebnisereignisse nicht mehr in Journeys verwendet werden, die mit einer Segmentqualifikationsaktivität beginnen. Diese Änderung gilt nur für neue Journeys. Bestehende Journeys behalten das aktuelle Verhalten bei. Weitere Informationen finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=de#expression-editor) zu Journey Optimizer.
+* Zur Performance-Verbesserung können Feldergruppen für Erlebnisereignisse nicht mehr in Journeys verwendet werden, die mit einer Segmentqualifikationsaktivität beginnen. Diese Änderung gilt nur für neue Journeys. Bestehende Journeys behalten das aktuelle Verhalten bei. Weitere Informationen finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=de#expression-editor) zu Journey Optimizer.
 
 ### Verbesserungen
 
@@ -114,7 +114,7 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen in Journey Orch
 
 ### Verbesserungen
 
-* Um die Leistung zu optimieren und unnötige Ressourcennutzung zu verhindern, wechseln alle Journeys im Testmodus, die seit einer Woche nicht ausgelöst wurden, wieder in den Entwurfsstatus. [Weitere Informationen](../building-journeys/testing-the-journey.md#important_notes)
+* Um die Performance zu optimieren und unnötige Ressourcennutzung zu verhindern, wechseln alle Journeys im Testmodus, die seit einer Woche nicht ausgelöst wurden, wieder in den Entwurfsstatus. [Weitere Informationen](../building-journeys/testing-the-journey.md#important_notes)
 
 ## Version Januar 2022 {#january-2022-release}
 
@@ -179,7 +179,7 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen in Journey Orch
 <tbody>
 <tr>
 <td>
-<p>Mit Adobe Experience Platform können Sie Beziehungen zwischen Schemas definieren, um einen Datensatz als Lookup-Tabelle für einen anderen zu verwenden. Journey Orchestration kann jetzt Daten aus einem verknüpften Schema nutzen.</p>
+<p>Mit Adobe Experience Platform können Sie Beziehungen zwischen Schemata definieren, um einen Datensatz als Lookup-Tabelle für einen anderen zu verwenden. Journey Orchestration kann jetzt Daten aus einem verknüpften Schema nutzen.</p>
 <p>Diese Felder sind bei der Konfiguration von unitären Ereignissen, in Journey-Bedingungen und bei der Personalisierung benutzerdefinierter Aktionen verfügbar.
 <p>Weitere Informationen finden Sie in der <a href="../event/experience-event-schema.md#leverage_schema_relationships">ausführlichen Dokumentation</a>.</p>
 </td>
@@ -314,7 +314,7 @@ Die Funktionen [getListItem](../functions/functiongetlistitem.md) und [split](..
 <table>
 <thead>
 <tr>
-<th><strong>Regelbasierte Ereignisse           (Betaversion)</strong><br/></th>
+<th><strong>Regelbasierte Ereignisse (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
