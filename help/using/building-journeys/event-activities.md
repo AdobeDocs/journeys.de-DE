@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 3a4ff8b1-bbe7-47c8-9fba-defe4b1d5299
 source-git-commit: fca24f7dd0f9170fa209474f270a4c0fb4080c03
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '533'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Wenn Sie auf die Ereignisaktivität auf der Arbeitsfläche klicken, wird der Kon
 
 Eine in der Journey positionierte Ereignisaktivität überwacht Ereignisse auf unbestimmte Zeit. Damit ein Ereignis nur während einer bestimmten Zeit überwacht wird, müssen Sie für das Ereignis eine maximale Wartezeit konfigurieren.
 
-Die Journey überwacht dann das Ereignis während der in der maximalen Wartezeit angegebenen Zeit. Wenn ein Ereignis während dieses Zeitraums empfangen wird, wird die Person in den Ereignispfad geleitet. Andernfalls fließt der Kunde entweder in den Timeout-Pfad, sofern er definiert ist, oder setzt die Journey fort. Wenn kein Timeout-Pfad definiert ist, fungiert die Timeout-Einstellung als Warteaktivität, wodurch das Profil einen Zeitraum wartet, der gestoppt werden kann, wenn ein Ereignis vor dem Ende dieser Wartezeit eintritt. Wenn Sie möchten, dass Profile nach einer Zeitüberschreitung von dieser Journey ausgeschlossen werden, müssen Sie einen Zeitüberschreitungspfad festlegen.
+Die Journey überwacht dann das Ereignis während der in der maximalen Wartezeit angegebenen Zeit. Wenn ein Ereignis während dieses Zeitraums empfangen wird, wird die Person in den Ereignispfad geleitet. Andernfalls gelangt der Kunde bzw. die Kundin in den Pfad für die maximale Wartezeit, sofern er definiert ist, oder setzt die Journey fort. Wenn kein Pfad für die maximale Wartezeit definiert ist, fungiert die Einstellung für die maximale Wartezeit als Warteaktivität. Dadurch wartet das Profil für einen Zeitraum, der beendet werden kann, wenn ein Ereignis vor dem Ende dieser Wartezeit eintritt. Wenn Sie möchten, dass Profile nach einer maximalen Wartezeit von dieser Journey ausgeschlossen werden, müssen Sie einen Pfad für die maximale Wartezeit festlegen.
 
 Gehen Sie wie folgt vor, um für ein Ereignis eine maximale Wartezeit zu konfigurieren:
 
@@ -39,7 +39,7 @@ Gehen Sie wie folgt vor, um für ein Ereignis eine maximale Wartezeit zu konfigu
 
 1. Legen Sie fest, wie lange die Journey auf das Ereignis warten soll.
 
-1. Wenn Sie die Kontakte in einen Zeitüberschreitungspfad senden möchten, wenn innerhalb der angegebenen maximalen Wartezeit kein Ereignis empfangen wird, aktivieren Sie die Option **[!UICONTROL Pfad der Zeitüberschreitung festlegen]**. Wenn diese Option nicht aktiviert ist, wird die Journey für die Person fortgesetzt, sobald die Zeitüberschreitung erreicht ist.
+1. Wenn Sie die Kontakte in einen Zeitüberschreitungspfad senden möchten, wenn innerhalb der angegebenen maximalen Wartezeit kein Ereignis empfangen wird, aktivieren Sie die Option **[!UICONTROL Pfad der Zeitüberschreitung festlegen]**. Wenn diese Option nicht aktiviert ist, wird die Journey für den betreffenden Kontakt fortgesetzt, sobald die maximale Wartezeit erreicht wird.
 
    ![](../assets/event-timeout.png)
 
@@ -50,6 +50,6 @@ In diesem Beispiel sendet die Journey einen ersten Willkommens-Push an einen Kun
 
 Wenn Sie eine maximale Wartezeit für mehrere Ereignisse konfigurieren möchten, die sich hinter einer **[!UICONTROL Warteaktivität]** befinden, müssen Sie die maximale Wartezeit nur für eines dieser Ereignisse konfigurieren.
 
-Die maximale Wartezeit gilt für alle Ereignisse, die hinter der **[!UICONTROL Warteaktivität]** positioniert wurden. Wenn vor der angegebenen Zeitüberschreitung kein Ereignis empfangen wird, fließen die Kontakte in einen einzigen Zeitüberschreitungspfad oder fahren mit der Journey über die Verzweigung fort, die die Aktivität verlässt, in der diese Zeitüberschreitungseinstellungen definiert wurden.
+Die maximale Wartezeit gilt für alle Ereignisse, die hinter der **[!UICONTROL Warteaktivität]** positioniert wurden. Wenn vor der angegebenen maximalen Wartezeit kein Ereignis empfangen wird, gelangen die Personen in einen einzigen Pfad für die maximale Wartezeit oder fahren mit der Journey über die Verzweigung fort, die die Aktivität verlässt, in der diese Einstellungen für die maximale Wartezeit definiert wurden.
 
 ![](../assets/event-timeout-group.png)
