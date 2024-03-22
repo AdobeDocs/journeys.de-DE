@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: ea4b589755b904007cc4ea8be04f67f8742ff5a0
+source-git-commit: bb74c7dc1ebad0a707b830602a8d0b33e8443a5d
 workflow-type: tm+mt
-source-wordcount: '4358'
-ht-degree: 96%
+source-wordcount: '4424'
+ht-degree: 98%
 
 ---
 
@@ -21,14 +21,26 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen in Journey Orch
 >
 >Für die in den Jahren 2022 und 2023 veröffentlichten Funktionen verweisen die Links auf die Dokumentation zu Adobe Journey Optimizer.
 
+## Version März 2024 {#mar-rn-2024}
+
+### Verbesserungen {#mar-2024-improvements}
+
+Dem Journey-Authoring-Lebenszyklus wurden neue Zwischenstatus hinzugefügt:
+
+* **Publishing** Status zwischen **Entwurf** und **Live** status
+* **Anhalten** Status zwischen **Live** und **Angehalten** status
+* **Aktivieren des Testmodus** oder **Deaktivieren des Testmodus** Status zwischen den **Entwurf** und **Entwurf (Test)** status
+
+Wenn eine Journey in einem Zwischenzustand ist, ist sie schreibgeschützt. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs#filter)
+
 ## Version Februar 2024 {#feb-rn-2024}
 
 ### Verbesserungen {#feb-2024-improvements}
 
-* **Journey filtern** - Sie können jetzt **Benutzerdefinierte Datumswerte zum Filtern der Journey** Inventar, zusätzlich zu den vorhandenen vordefinierten Datumsfiltern. Auf diese Weise können Sie die Liste verfeinern, indem Sie Journey anzeigen, die an einem bestimmten Datum, innerhalb eines bestimmten Monats, über ein ganzes Jahr oder innerhalb eines bestimmten Zeitraums erstellt oder veröffentlicht wurden. [Weitere Informationen](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#filter)
-* **Benutzerdefinierte Aktionen** - Sie können jetzt die **content-type** -Kopfzeile. Diese neue **content-type** sollte auf JSON-Inhalte verweisen. [Weitere Informationen](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=de#url-configuration)
-* **Konfiguration** - Das Attribut identityMap in stepEvents ist jetzt vorausgefüllt. Die primäre Identität wird als &quot;primary = true&quot;definiert. [Weitere Informationen](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html)
-* **Benutzeroberfläche** - Die obere Leiste in den Journey-Bildschirmen wurde für ein besseres Erlebnis umstrukturiert. Unter den verschiedenen Updates sehen Sie, dass das &quot;Stiftsymbol&quot;, das Ihnen den Zugriff auf die Journey-Eigenschaften ermöglicht, jetzt links in der oberen Leiste neben dem Journey-Namen angezeigt wird. [Weitere Informationen](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#change-properties)
+* **Filtern von Journeys**: Sie können jetzt zusätzlich zu den vorhandenen vordefinierten Datumsfiltern **eigene Daten zum Filtern des Inventars von Journeys** verwenden. Sie können die Liste verfeinern, indem Sie sich Journeys anzeigen lassen, die an einem bestimmten Datum, in einem bestimmten Monat, in einem ganzen Jahr oder in bestimmten Zeiträumen erstellt oder veröffentlicht wurden. [Weitere Informationen](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#filter)
+* **Benutzerdefinierte Aktionen**: Sie können jetzt den **Content-Typ**-Header aktualisieren. Dieser neue **Content-Typ** sollte auf JSON-Inhalte verweisen. [Weitere Informationen](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=de#url-configuration)
+* **Konfiguration**: Das Attribut „identityMap“ in „stepEvents“ ist jetzt vorausgefüllt. Die primäre Identität wird als „primary = true“ definiert. [Weitere Informationen](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html)
+* **Benutzeroberfläche**: Die obere Leiste in den Journey-Bildschirmen wurde für ein besseres Erlebnis umgestaltet. Unter den verschiedenen Updates sehen Sie, dass das Stiftsymbol, das Ihnen den Zugriff auf die Journey-Eigenschaften ermöglicht, nun links in der oberen Leiste neben dem Journey-Namen angezeigt wird. [Weitere Informationen](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#change-properties)
 
 ## Version Januar 2024 {#jan-rn-2024}
 
