@@ -1,14 +1,14 @@
 ---
 product: adobe campaign
 title: Verwenden von Adobe Campaign-Aktionen
-description: Erfahren Sie mehr über Aktionen in Adobe Campaign
+description: Erfahren Sie mehr über Adobe Campaign-Aktionen
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: b2e5c333-d0d8-4fe1-a6b8-5f2e6b3624a4
 source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
-workflow-type: tm+mt
-source-wordcount: '933'
+workflow-type: ht
+source-wordcount: '915'
 ht-degree: 100%
 
 ---
@@ -75,7 +75,7 @@ Dies sind die Felder, die von der Adobe Campaign Standard-Nachricht erwartet wer
 
 ## Push-Benachrichtigung {#section_im3_hvf_nhb}
 
-Vor der Verwendung der Push-Aktivität muss Ihre App mit Campaign Standard konfiguriert werden, um Push-Benachrichtigungen zu senden. Verwenden Sie diesen [Artikel](https://helpx.adobe.com/de/campaign/kb/integrate-mobile-sdk.html?lang=de), um die erforderlichen Implementierungsschritte für Mobilgeräte auszuführen.
+Vor der Verwendung der Push-Aktivität muss Ihre App mit Campaign Standard konfiguriert werden, um Push-Benachrichtigungen zu senden. Verwenden Sie diesen [Artikel](https://helpx.adobe.com/de/campaign/kb/integrate-mobile-sdk.html), um die erforderlichen Implementierungsschritte für Mobilgeräte auszuführen.
 
 Wählen Sie zunächst eine App aus der Dropdown-Liste und eine Transaktionsnachricht aus. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/about-action-activities.md).
 

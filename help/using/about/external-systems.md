@@ -8,8 +8,8 @@ role: User
 level: Beginner
 exl-id: e39218bd-fa6e-443f-9843-92b7a07070fa
 source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
-workflow-type: tm+mt
-source-wordcount: '1014'
+workflow-type: ht
+source-wordcount: '1039'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ Mit Journey Orchestration können Sie über benutzerdefinierte Datenquellen und 
 
 Bei der Integration eines externen Systems können mehrere Probleme auftreten: Das System kann langsam sein, nicht mehr reagieren oder es kann möglicherweise nicht in der Lage sein, große Datenmengen zu verarbeiten. Journey Orchestration bietet verschiedene Schutzmechanismen, um Ihr System vor Überlastung zu schützen.
 
-Alle externen Systeme unterscheiden sich hinsichtlich ihrer Leistung. Sie müssen die Konfiguration deshalb an Ihre Anwendungsfälle anpassen.
+Alle externen Systeme unterscheiden sich hinsichtlich ihrer Performance. Sie müssen die Konfiguration deshalb an Ihre Anwendungsfälle anpassen.
 
 Wenn Journey Orchestration einen Aufruf an eine externe API ausführt, werden die technischen Schutzmaßnahmen wie folgt ausgeführt:
 
@@ -58,7 +58,7 @@ Während der definierten maximalen Wartezeit versucht Journey Orchestration, das
 
 Bei jedem erneuten Versuch wird ein Slot verwendet. Wenn Sie eine Begrenzung von 100 Aufrufen pro Sekunde haben und jeder Ihrer Aufrufe zwei weitere Versuche erfordert, sinkt die Rate auf 30 Aufrufe pro Sekunde (jeder Aufruf verwendet drei Slots: den ersten Aufruf und zwei weitere Versuche).
 
-Der Wert für die Zeitüberschreitungsdauer hängt vom Anwendungsfall ab. Wenn Sie Ihre Nachricht schnell senden möchten, z. B. wenn ein Kunde das Geschäft betritt, ist es nicht sinnvoll, eine lange Zeitüberschreitung einzurichten. Je länger die Zeitüberschreitung ist, desto mehr Elemente werden in die Warteschlange gestellt. Dies kann die Leistung erheblich beeinträchtigen. Wenn Journey Orchestration 1.000 Aufrufe pro Sekunde ausführt, kann die Speicherung von 5 oder 15 Sekunden Daten das System schnell überfordern.
+Der Wert für die Zeitüberschreitungsdauer hängt vom Anwendungsfall ab. Wenn Sie Ihre Nachricht schnell senden möchten, z. B. wenn ein Kunde das Geschäft betritt, ist es nicht sinnvoll, eine lange Zeitüberschreitung einzurichten. Je länger die Zeitüberschreitung ist, desto mehr Elemente werden in die Warteschlange gestellt. Dies kann die Performance erheblich beeinträchtigen. Wenn Journey Orchestration 1.000 Aufrufe pro Sekunde ausführt, kann die Speicherung von 5 oder 15 Sekunden Daten das System schnell überfordern.
 
 Sehen wir uns ein Beispiel einer Zeitüberschreitung von fünf Sekunden an.
 

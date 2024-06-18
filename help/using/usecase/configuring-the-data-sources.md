@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 exl-id: 2cfa4397-fe8f-44b3-b219-2fd5d3bdd156
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
-workflow-type: tm+mt
-source-wordcount: '476'
+workflow-type: ht
+source-wordcount: '475'
 ht-degree: 100%
 
 ---
@@ -58,7 +58,7 @@ Zudem muss geprüft werden, ob die Person im Hotelreservierungssystem über eine
 
 1. Klicken Sie auf **[!UICONTROL Neue Feldergruppe hinzufügen]**, um die abzurufenden Informationen und die API-Parameter zu definieren. In unserem Beispiel gibt es nur einen Parameter (die ID). Daher müssen wir eine Feldergruppe mit den folgenden Informationen erstellen:
 
-   * **[!UICONTROL Methode]**: Wählen Sie die POST- oder GET-Methode aus. In unserem Fall wählen wir die GET-Methode.
+   * **[!UICONTROL Methode]**: Wählen Sie die POST- oder GET-Methode aus. In unserem Beispiel wählen wir die GET-Methode aus.
    * **[!UICONTROL Antwort-Payload]**: Klicken Sie in das Feld **[!UICONTROL Payload]** und fügen Sie ein Beispiel der Payload ein. Überprüfen Sie, ob die Feldtypen korrekt sind. Jedes Mal, wenn die API aufgerufen wird, ruft das System alle im Payload-Beispiel enthaltenen Felder ab. In unserem Beispiel enthält die Payload nur den Buchungsstatus:
 
    ```

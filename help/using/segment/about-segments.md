@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 exl-id: 94e1e3e3-9a46-41ca-bec1-f41287925372
 source-git-commit: e5c0db2e1f85ea72fd54f91e4a26cc287377fb0e
-workflow-type: tm+mt
-source-wordcount: '366'
+workflow-type: ht
+source-wordcount: '362'
 ht-degree: 100%
 
 ---
@@ -28,15 +28,15 @@ Im Folgenden finden Sie die Möglichkeiten von [!DNL Journey Orchestration] bei 
 
 ## Auswertungsmethode in Journey Orchestration {#evaluation-method-in-journey-orchestration}
 
-In Journey Orchestration werden Audiences aus Segmentdefinitionen mithilfe einer der folgenden Auswertungsmethoden erzeugt:
+In Journey Orchestration werden Zielgruppen aus Segmentdefinitionen mithilfe einer der folgenden Auswertungsmethoden erzeugt:
 
-* Streaming-Segmentierung: Die Audiences-Liste für das Segment wird in Echtzeit auf dem neuesten Stand gehalten, während neue Daten in das System fließen.
-* Batch-Segmentierung: Die Audiences-Liste für das Segment wird stündlich aktualisiert, basierend auf Daten, die in der letzten Stunde erfasst wurden.
+* Streaming-Segmentierung: Die Zielgruppen-Liste für das Segment wird in Echtzeit auf dem neuesten Stand gehalten, während neue Daten in das System fließen.
+* Batch-Segmentierung: Die Zielgruppen-Liste für das Segment wird stündlich aktualisiert, basierend auf Daten, die in der letzten Stunde erfasst wurden.
 
 Die Entscheidung zwischen Batch- und Streaming-Segmentierung wird für jede Segmentdefinition abhängig von der Komplexität und den Kosten für die Auswertung der Segmentregel vom System getroffen.
 
 Sie können die Auswertungsmethode für jedes Segment in der Spalte **[!UICONTROL Auswertungsmethode]** der Segmentliste anzeigen.
 
-Nachdem Sie ein Segment zum ersten Mal definiert haben, werden Profile zur Audience hinzugefügt, wenn sie sich qualifizieren.
+Nachdem Sie ein Segment zum ersten Mal definiert haben, werden Profile zur Zielgruppe hinzugefügt, wenn sie sich qualifizieren.
 
-Das Auffüllen der Audience anhand früherer Daten kann bis zu 24 Stunden dauern. Nachdem die Audience aufgefüllt wurde, wird sie kontinuierlich aktuell gehalten und ist immer für die Zielgruppenbestimmung bereit.
+Das Auffüllen der Zielgruppe anhand früherer Daten kann bis zu 24 Stunden dauern. Nachdem die Audience aufgefüllt wurde, wird sie kontinuierlich aktuell gehalten und ist immer für die Zielgruppenbestimmung bereit.

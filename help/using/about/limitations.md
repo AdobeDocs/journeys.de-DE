@@ -8,7 +8,7 @@ level: Beginner
 exl-id: fef039ae-c04d-4198-a082-4be27710255f
 source-git-commit: 861c6bd8ce65793b6009e220d88f105c75ea3008
 workflow-type: ht
-source-wordcount: '567'
+source-wordcount: '564'
 ht-degree: 100%
 
 ---
@@ -39,7 +39,7 @@ Im Zusammenhang mit der Verwendung von Journey Orchestration gibt es Einschränk
 * Die **Segmentqualifikationsaktivität** kann aufgrund von Durchsatzbeschränkungen nicht zusammen mit Transaktionsnachrichten in Adobe Campaign Standard verwendet werden. Weitere Informationen finden Sie in der [Adobe Campaign Standard – Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/campaign-standard.html). 
 
  
-## Benutzerdefinierte Aktionen  Einschränkungen
+## Einschränkungen bei benutzerdefinierten Aktionen
 
 * Die URL einer benutzerdefinierten Aktion unterstützt keine dynamischen Parameter. 
 * Es werden nur POST- und PUT-Aufrufmethoden unterstützt. 
@@ -56,7 +56,7 @@ Im Zusammenhang mit der Verwendung von Journey Orchestration gibt es Einschränk
 
 * Für systemgenerierte Ereignisse müssen Streaming-Daten, die zur Initiierung einer Customer Journey verwendet werden, zunächst innerhalb von Journey Orchestration konfiguriert werden, um eine eindeutige Orchestrierungs-ID zu erhalten. Diese Orchestrierungs-ID muss an die Streaming-Payload angehängt werden, die in Adobe Experience Platform eingeht. Diese Einschränkung gilt nicht für regelbasierte Ereignisse.
  
-## Datenquellen  Einschränkungen
+## Einschränkungen bei Datenquellen
 
 * Externe Datenquellen können in einer Customer Journey genutzt werden, um externe Daten in Echtzeit zu suchen. Diese Quellen müssen über die REST-API nutzbar sein, JSON unterstützen und in der Lage sein, das Anfragevolumen zu verarbeiten.
 

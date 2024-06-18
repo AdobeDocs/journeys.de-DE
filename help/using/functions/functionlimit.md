@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 7e006660-1206-4b8a-9e5b-c6fbeee9cc8f
 source-git-commit: 9f5ef0497227a370e2e1f4a62450611ae2e336b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '135'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Liste
 |-----------|------------------|------------------|
 | listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly oder listObject | Zu sortierende Liste. Bei listObject muss es sich um einen Feldverweis handeln. |
 | numberOfItems | integer | Anzahl der aus der angegebenen Liste zurückzugebenden Elemente. |
-| firstOrLastItems | boolean | Dieser Parameter ist optional (standardmäßig „true“). „True“ gibt die ersten Elemente zurück. „False“ gibt die letzten Elemente zurück. |
+| firstOrLastItems | Boolescher Wert | Dieser Parameter ist optional (standardmäßig „true“). „True“ gibt die ersten Elemente zurück. „False“ gibt die letzten Elemente zurück. |
 
 ## Signatur und zurückgegebener Typ
 

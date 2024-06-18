@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 exl-id: 4b321b63-c624-4c2a-ae92-f9a2a95688d4
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
-workflow-type: tm+mt
-source-wordcount: '442'
+workflow-type: ht
+source-wordcount: '437'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ Für jede konfigurierte Aktion ist eine Aktionsaktivität in der Journey-Designe
 
 ## Wichtige Hinweise
 
-* Es gibt keine Drosselung der Nachrichten. Wir begrenzen die Anzahl der Nachrichten, die versendet werden können, basierend auf unserem aktuellen Campaign SLA auf 50.000/Stunde. Aus diesem Grund sollte Journey Orchestration nur in unitären Anwendungsfällen (einzelne Ereignisse, nicht Segmente) verwendet werden.
+* Es gibt keine Drosselung von Nachrichten. Wir begrenzen die Anzahl der Nachrichten, die versendet werden können, basierend auf unserem aktuellen Campaign SLA auf 50.000/Stunde. Aus diesem Grund sollte Journey Orchestration nur in unitären Anwendungsfällen (einzelne Ereignisse, nicht Segmente) verwendet werden.
 
 * Sie müssen für jede Vorlage, die Sie verwenden möchten, eine Aktion auf der Arbeitsfläche konfigurieren. Sie müssen für jede Vorlage, die Sie in Adobe Campaign verwenden möchten, eine Aktion in Journey Orchestration konfigurieren.
 
@@ -64,7 +64,7 @@ In Journey Orchestration müssen Sie eine Aktion pro Transaktionsnachricht konfi
 
 1. Erstellen Sie eine neue Aktion. Siehe diesen [Abschnitt](../action/action.md).
 1. Geben Sie einen Namen und eine Beschreibung ein.
-1. Wählen Sie im Feld **Aktionstyp** **Adobe Campaign Classic** aus.
+1. Wählen Sie im Feld **Aktionstyp** die Option **Adobe Campaign Classic** aus.
 1. Klicken Sie in das Feld **Payload** und fügen Sie ein Beispiel der JSON-Payload ein, die der Campaign-Nachricht entspricht. Wenden Sie sich an Adobe, um diese Payload zu erhalten.
 1. Passen Sie die verschiedenen Felder je nach gewünschter Zuordnung auf der Journey-Arbeitsfläche als statisch oder variabel an. Bestimmte Felder, wie z. B. Kanalparameter für E-Mail-Adressen- und Personalisierungsfelder (ctx), sollten wahrscheinlich als Variablen für die Zuordnung im Kontext der Journey definiert werden.
 1. Klicken Sie auf **Speichern**.

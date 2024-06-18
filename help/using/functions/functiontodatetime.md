@@ -7,8 +7,8 @@ role: Data Engineer
 level: Experienced
 exl-id: 0b8d1a82-a55a-4a4d-ad1b-35499d52b469
 source-git-commit: 2aa73498f44f22a70bb2268afca7d1a62e434542
-workflow-type: tm+mt
-source-wordcount: '93'
+workflow-type: ht
+source-wordcount: '100'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ Konversion
 
 >[!NOTE]
 >
->Die Zeitzonen-ID muss eine Zeichenfolgenkonstante sein. Er darf weder ein Feldverweis noch ein Ausdruck sein. Weitere Informationen zu Datentypen finden Sie auf [dieser Seite](../expression/data-types.md).
+>Die Zeitzonen-ID muss eine Zeichenfolgenkonstante sein. Sie darf weder ein Feldverweis noch ein Ausdruck sein. Weitere Informationen zu Datentypen finden Sie auf [dieser Seite](../expression/data-types.md).
 
 ## Signaturen und zurückgegebene Typen
 
