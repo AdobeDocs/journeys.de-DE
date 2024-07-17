@@ -34,7 +34,7 @@ In der Tabelle unten finden Sie eine Liste der Dimensionen, die in Journey-Beric
 | **Aktion** | Liste aller Aktionen (**Aktionsname - Aktionsbezeichnung**), die in Journeys verwendet werden (z. B. Push-Benachrichtigung - Checkout-Bestätigung, E-Mail - Treueprämien). |
 | **Datenquelle** | Liste der Datenquellen (**Datenquellenname**), die in einer Journey zur Datenanreicherung verwendet werden (z. B. Adobe Experience Platform, Reservierungssystem). |
 | **[!UICONTROL Ereignis]** | Liste aller Ereignisse (**Ereignisname - Ereignisbezeichnung**), die in Journeys zum Einsatz kommen (z. B. Geometrixx-Ereignis - Geometrixx-Checkout). |
-| **Feldgruppe** | Liste der Feldergruppen (**Feldergruppenname**), die in Journeys zur Datenanreicherung verwendet werden (z. B. Profilfeldgruppe, Geometrixx-Reservierungssystem). |
+| **Feldergruppe** | Liste der Feldergruppen (**Feldergruppenname**), die in Journeys zur Datenanreicherung verwendet werden (z. B. Profilfeldgruppe, Geometrixx-Reservierungssystem). |
 | **Journey** | Liste aller Journeys (**Journey-Name**), die im Testmodus und live sind (z. B. Transaktionsabbruch, Benachrichtigung zu Hotelreservierung). |
 | **Journey-Version** | Liste aller veröffentlichten Journey-Versionen (**Journey-Name + Nummer der Version**), z. B. Transaktionsabbruch v1, Benachrichtigung zu Hotelreservierung v2. |
 | **Orchestrierung** | Liste aller Orchestrierungsaktivitäten (**Bedingung, Ende, Warten**), die definiert sind und in Journeys verwendet werden. |
@@ -104,12 +104,12 @@ In der Tabelle unten finden Sie eine Liste der Metriken, die in Journey-Berichte
 | **Öffnungsrate** | Gesamtzahl der geöffneten Nachrichten in Bezug auf die Zahl der zugestellten Nachrichten. |
 | **Quarantäne** | Zahl der Bounce-Nachrichten, bei denen eine Adresse unter Quarantäne gestellt wurde |
 | **Quarantänerate** | Gesamtzahl der Nachrichten in Quarantäne in Bezug auf die gesendeten Nachrichten. |
-| **Abgelehnt** | Zahl der Nachrichten, die von SMTP-Servern als Spam gekennzeichnet wurden. |
+| **Zurückgewiesen** | Zahl der Nachrichten, die von SMTP-Servern als Spam gekennzeichnet wurden. |
 | **Zurückweisungsrate** | Gesamtzahl der als abgelehnt markierten Nachrichten in Bezug auf die gesendeten Nachrichten. |
 | **Verarbeitet/gesendet** | Gesamtzahl der gesendeten Nachrichten für den Versand. |
 | **Softbounce** | Gesamtzahl der temporären Fehler, beispielsweise bei einem vollen Posteingang. |
 | **Softbounce-Rate** | Gesamtzahl der versendeten Nachrichten, die aus einem temporären Grund fehlgeschlagen sind, in Bezug auf die gesendeten Nachrichten. |
 | **Einzelklicks** | Zahl der Empfänger, die auf einen Inhalt in einem Versand geklickt haben. |
 | **Einzelöffnungen** | Zahl der Empfänger, die den Versand geöffnet haben. |
-| **Abo storniert** | Gesamtanzahl der Klicks auf den Abmelde-Link. |
+| **Abo storniert** | Zahl der Klicks auf den Abmelde-Link. |
 | **Abmelderate** | Gesamtzahl der Abmeldungen durch Empfänger in Bezug auf die gesendeten Nachrichten. |

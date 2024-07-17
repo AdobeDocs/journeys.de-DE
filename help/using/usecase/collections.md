@@ -5,7 +5,7 @@ title: Dynamisches Übergeben von Sammlungen mithilfe benutzerdefinierter Aktion
 description: Senden von Nachrichten mit Campaign v7/v8
 exl-id: 9ed62a74-3c51-4f15-af8a-d530ddf80b51
 source-git-commit: 97d19cf9cb91c82587e5c94e43580f808d15e813
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 100%
 

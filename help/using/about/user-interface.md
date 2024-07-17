@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
 source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1013'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ Alternativ können Sie auf [!DNL Journey Orchestration] über die Experience Clo
 
 ![](../assets/journey1bis.png)
 
-## Kennenlernen der Benutzeroberfläche{#section_jsq_zr1_ffb}
+## Vorstellung der Benutzeroberfläche{#section_jsq_zr1_ffb}
 
 >[!CONTEXTUALHELP]
 >id="jo_home"
@@ -85,7 +85,7 @@ Wenn ein benutzerfreundlicher Name verfügbar ist, wird das Feld als `<friendly-
 
 >[!NOTE]
 >
->Benutzerfreundliche Namen werden nicht abgerufen, wenn Sie Felder aus einer Vereinigungsmenge von Schemas auswählen.
+>Benutzerfreundliche Namen werden nicht abgerufen, wenn Sie Felder aus einer Vereinigungsmenge von Schemata auswählen.
 
 ## Barrierefreiheit{#accessibility}
 
@@ -99,7 +99,7 @@ Die Funktionen für Barrierefreiheit in Adobe Journey Optimizer werden von Adobe
 
 Sie können die folgenden gängigen Tastaturbefehle in Adobe Journey Optimizer verwenden:
 
-| Aktion | Tastaturbefehl |
+| Aktion | Tastenkombination |
 | --- | --- |
 | Wechseln zwischen Elementen, Abschnitten und Menügruppen der Benutzeroberfläche | Tabulatortaste |
 | Rückwärts zwischen Elementen, Abschnitten und Menügruppen der Benutzeroberfläche wechseln | Umschalttaste + Tabulatortaste |
@@ -116,7 +116,7 @@ Sie können diese Tastaturbefehle in bestimmten Teilen von Journey Optimizer ver
     <tr>
       <th>Element der Benutzeroberfläche</th>
       <th>Aktion</th>
-      <th>Tastaturbefehl</th>
+      <th>Tastenkombination</th>
     </tr>
   </thead>
   <tr>

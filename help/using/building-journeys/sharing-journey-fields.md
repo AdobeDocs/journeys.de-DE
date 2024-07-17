@@ -25,7 +25,7 @@ Typ: Zeichenfolge
 
 ## journeyVersionID
 
-Kennung der Journey-Version. Diese Kennung stellt die Identität einer Journey dar.
+ID der Journey-Version. Diese Kennung stellt die Identität einer Journey dar.
 
 Typ: Zeichenfolge
 

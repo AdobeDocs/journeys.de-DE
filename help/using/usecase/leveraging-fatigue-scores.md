@@ -4,7 +4,7 @@ title: Nutzen von Ermüdungswerten
 description: Erfahren Sie, wie Sie in Journeys Ermüdungswerte nutzen
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '262'
 ht-degree: 100%
 
 ---

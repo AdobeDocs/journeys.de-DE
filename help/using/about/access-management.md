@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '904'
 ht-degree: 100%
 
 ---
@@ -57,7 +57,7 @@ Benutzer müssen stets mit einem Produktprofil verknüpft sein, damit Sie ihnen 
 * **[!UICONTROL Ereignisse, Datenquellen und Aktionen lesen]**
 * **[!UICONTROL Journeys verwalten]**
 * **[!UICONTROL Journeys veröffentlichen]**
-* **[!UICONTROL Verwalten von Berichten]**
+* **[!UICONTROL Berichte verwalten]**
 
 Sie können hier die Kompatibilität zwischen Berechtigungen und den verschiedenen Funktionen bei [!DNL Journey Orchestration] ermitteln.
 

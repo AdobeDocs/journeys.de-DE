@@ -8,12 +8,12 @@ level: Intermediate
 exl-id: ffec0d42-8632-4806-97df-da2a2372ca53
 source-git-commit: 3a0fc5cd6b7bc4177ab50986b11b020a11a72c9b
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '717'
 ht-degree: 100%
 
 ---
 
-# Informationen zu ExperienceEvent-Schemas für [!DNL Journey Orchestration]-Ereignisse
+# Informationen zu ExperienceEvent-Schemata für [!DNL Journey Orchestration]-Ereignisse
 
 [!DNL Journey Orchestration]-Ereignisse sind XDM-Erlebnisereignisse, die über die Streaming-Aufnahme an Adobe Experience Platform gesendet werden.
 
@@ -27,7 +27,7 @@ Der erste Schritt beim Einrichten eines Ereignisses für [!DNL Journey Orchestra
 
 Jedes XDM-Schema, das für [!DNL Journey Orchestration]-Ereignisse verwendet wird, sollte die folgenden Anforderungen erfüllen:
 
-* Das Schema muss der ExperienceEvent-XDM-Klasse angehören.
+* Das Schema muss der XDM-Klasse „ExperienceEvent“ angehören.
 
   ![](../assets/schema2.png)
 
@@ -35,17 +35,17 @@ Jedes XDM-Schema, das für [!DNL Journey Orchestration]-Ereignisse verwendet wir
 
   ![](../assets/schema3.png)
 
-* Deklarieren Sie ein Identitätsfeld zur Identifizierung des Themas des Ereignisses. Wenn keine Identität angegeben ist, kann eine Identitätszuordnung (identityMap) verwendet werden. Dies wird nicht empfohlen.
+* Deklarieren Sie ein Identitätsfeld zur Identifizierung des Themas des Ereignisses. Wenn keine Identität angegeben wird, kann eine Identitätszuordnung verwendet werden. Dies wird nicht empfohlen.
 
   ![](../assets/schema4.png)
 
-* Damit diese Daten später in einer Journey zur Suche verfügbar sind, markieren Sie das Schema und den Datensatz für das Profil.
+* Wenn Sie möchten, dass diese Daten später in einer Journey abrufbar sind, markieren Sie das Schema und den Datensatz für das Profil.
 
   ![](../assets/schema5.png)
 
   ![](../assets/schema6.png)
 
-* Sie können auch Datenfelder einschließen, um andere Kontextdaten zu erfassen, die Sie in das Ereignis aufnehmen möchten, z. B. Informationen zum Benutzer, zum Gerät, von dem das Ereignis generiert wurde, zum Ort oder andere aussagekräftige Umstände in Zusammenhang mit dem Ereignis.
+* Sie können Datenfelder einfügen, um andere Kontextdaten zu erfassen, die Sie mit dem Ereignis verknüpfen möchten, z. B. Informationen über die Person, das Gerät, von dem das Ereignis erzeugt wurde, den Standort oder andere aussagekräftige Umstände im Zusammenhang mit dem Ereignis.
 
   ![](../assets/schema7.png)
 
@@ -53,7 +53,7 @@ Jedes XDM-Schema, das für [!DNL Journey Orchestration]-Ereignisse verwendet wir
 
 ## Nutzen von Schemabeziehungen{#leverage_schema_relationships}
 
-Mit Adobe Experience Platform können Sie Beziehungen zwischen Schemas definieren, um einen Datensatz als Lookup-Tabelle für einen anderen zu verwenden.
+Mit Adobe Experience Platform können Sie Beziehungen zwischen Schemata definieren, um einen Datensatz als Lookup-Tabelle für einen anderen zu verwenden.
 
 Nehmen wir an, Ihr Marken-Datenmodell verfügt über ein Schema zur Erfassung von Käufen. Sie verfügen weiterhin über ein Schema für den Produktkatalog. Sie können die Produkt-ID im Kaufschema erfassen und eine Beziehung verwenden, um vollständigere Produktdetails aus dem Produktkatalog nachzuschlagen. So können Sie beispielsweise ein Segment für alle Kunden erstellen, die einen Laptop gekauft haben, ohne explizit alle Laptop-IDs auflisten oder alle Produktdetails aus Transaktionssystemen erfassen zu müssen.
 

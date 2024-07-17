@@ -1,14 +1,14 @@
 ---
 product: adobe campaign
 title: Arbeiten mit Adobe Campaign
-description: Erfahren Sie mehr über Aktionen in Adobe Campaign
+description: Erfahren Sie mehr über Adobe Campaign-Aktionen
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
 source-git-commit: 545352efdcda80cb9940010c4587a20f53326085
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '311'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ Die Transaktionsnachricht in Campaign Standard und das zugehörige Ereignis müs
 
 Im Folgenden werden die Konfigurationsschritte beschrieben:
 
-1. Klicken Sie in der Liste **[!UICONTROL Aktionen]** auf die integrierte Aktion **[!UICONTROL AdobeCampaignStandard]**. Der Bereich für die Konfiguration der Aktion wird auf der rechten Seite des Bildschirms geöffnet.
+1. Klicken Sie in der Liste **[!UICONTROL Aktionen]** auf die integrierte Aktion **[!UICONTROL AdobeCampaignStandard]**. Der Bereich für die Aktionskonfiguration wird auf der rechten Seite des Bildschirms geöffnet.
 
    ![](../assets/actioncampaign.png)
 

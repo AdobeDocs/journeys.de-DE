@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 847fa819-2b92-49e5-8a5e-4f3f0acd5e35
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '356'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ Im Folgenden finden Sie die wichtigsten Schritte, um der integrierten Datenquell
 
 1. Wählen Sie in der Liste der Datenquellen die integrierte Datenquelle von Adobe Experience Platform aus.
 
-   Dadurch wird der Konfigurationsbereich für die Datenquellen auf der rechten Seite des Bildschirms geöffnet.
+   Dadurch wird der Konfigurationsbereich für die Datenquelle auf der rechten Seite des Bildschirms geöffnet.
 
    ![](../assets/journey23.png)
 
