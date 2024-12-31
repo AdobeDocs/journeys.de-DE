@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: Erstellen einer Journey – Fortgeschritten
-description: Erfahren Sie, wie Sie eine Journey für den fortgeschrittenen Anwendungsfall erstellen
+description: 'Erfahren Sie, wie Sie eine Journey für den fortgeschrittenen Anwendungsfall erstellen '
 feature: Journeys
 role: User
 level: Intermediate
