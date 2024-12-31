@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: Zugriffsverwaltung
+title: 'Zugriffsverwaltung '
 description: Erfahren Sie mehr über die Zugriffsverwaltung
 feature: Journeys
 role: User

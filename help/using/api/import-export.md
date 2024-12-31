@@ -35,7 +35,7 @@ Wir empfehlen, die folgenden Schritte auszuführen, um Ihre Journeys über Umgeb
 1. Rufen Sie **/list/journeys** API auf, um die UID-Journey und die UID Ihrer aktuellen Journey-Version abzurufen. Bei Bedarf können Sie **/journeys/`{uid}`/latest** aufrufen, um die UID Ihrer aktuellen Journey-Version zu finden.
 1. Rufen Sie die **Export**-API mit den Parametern Ihrer Startumgebung auf (orgID und sandboxName).
 1. Öffnen Sie die Rückgabe-Payload und überprüfen Sie dann die folgenden Elemente:
-   * Wenn Ihre exportierte Journey **bestimmte Anmeldeinformationen** enthält, müssen Sie diese durch die entsprechenden Anmeldeinformationen der neuen Umgebung ersetzen.
+   * Wenn Ihre exportierte Journey **bestimmte Anmeldedaten** enthält, müssen Sie diese durch die entsprechenden Anmeldedaten der neuen Umgebung ersetzen.
    * Wenn Ihre exportierte Journey **Ereignisse** enthält, die auf ein **XDM-Schema** verweisen, müssen Sie die Schema-ID-Referenz manuell mit der Schema-ID der neuen Umgebung im Knoten xdmEntity aktualisieren, wenn die IDs unterschiedlich sind. Diese Aktualisierung muss für jedes Ereignis durchgeführt werden. [Weitere Informationen finden Sie hier.](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html?lang=de)
    * Wenn Ihre Journey E-Mail-, SMS- oder Push-Aktionen enthält, müssen Sie möglicherweise den Vorlagennamen oder den mobileApp-Namen aktualisieren, wenn der Name in der Zielumgebung sich von dem in Ihrer Startumgebung unterscheidet.
 1. Rufen Sie die **Import**-API mit den Parametern Ihrer Zielumgebung auf (orgID und sandboxName). Beachten Sie, dass Sie die Import-API so oft aufrufen können, wie Sie möchten. Die UUID und der Name der einzelnen Objekte, die in der Journey enthalten sind, werden jedes Mal generiert, wenn Sie die Import-API aufrufen.
@@ -53,7 +53,7 @@ Der API-Zugriff für Journey Orchestration wird wie folgt eingerichtet: Jeder di
 >Wenn Sie Zertifikate in Adobe I/O verwalten möchten, vergewissern Sie sich, dass Sie in der Admin Console über <b>Systemadministrator</b>-Rechte für das Unternehmen oder ein [Entwicklerkonto](https://helpx.adobe.com/de/enterprise/using/manage-developers.html) verfügen.
 
 1. **Überprüfen Sie, ob Sie ein digitales Zertifikat haben**, oder erstellen Sie bei Bedarf eines. Die mit dem Zertifikat bereitgestellten öffentlichen und privaten Schlüssel werden in den folgenden Schritten benötigt.
-1. **Erstellen Sie eine neue Integration mit dem [!DNL Journey Orchestration]-Service** in Adobe I/O und konfigurieren Sie sie. Der Produktprofilzugriff wird für Journey Orchestration und Adobe Experience Platform benötigt. Dann werden Ihre Zugangsdaten generiert (API-Schlüssel, Client-Geheimnis …).
+1. **Erstellen Sie eine neue Integration mit dem [!DNL Journey Orchestration]-Service** in Adobe I/O und konfigurieren Sie sie. Der Produktprofilzugriff wird für Journey Orchestration und Adobe Experience Platform benötigt. Dann werden Ihre Anmeldedaten generiert (API-Schlüssel, Client-Geheimnis …).
 
 >[!CAUTION]
 >
@@ -103,8 +103,8 @@ Die resultierende Payload kann verwendet werden, um die Version der Journey in e
 
 * Die Journey muss vor dem Export gültig sein.
 
-* Die Anmeldeinformationen werden nicht exportiert und ein Platzhalter (z. B. INSERT_SECRET_HERE) wird in die Antwort-Payload eingefügt.
-Nach dem Export-Aufruf müssen Sie die neuen Anmeldeinformationen (entsprechend der Zielumgebung) manuell einfügen, bevor Sie die Payload in die Zielumgebung importieren.
+* Die Anmeldedaten werden nicht exportiert und ein Platzhalter (z. B. INSERT_SECRET_HERE) wird in die Antwort-Payload eingefügt.
+Nach dem Export-Aufruf müssen Sie die neuen Anmeldedaten (entsprechend der Zielumgebung) manuell einfügen, bevor Sie die Payload in die Zielumgebung importieren.
 
 * Die folgenden Objekte werden exportiert, sie werden jedoch nie in die Zielumgebung importiert. Diese Systemressourcen werden automatisch von Journey Orchestration verwaltet. Sie müssen „INSERT_SECRET_HERE“ nicht ersetzen.
    * **DataProviders**:  „Adobe Campaign Standard Data Provider“ (acsDataProvider) und „Experience Platform“ (acppsDataProvider)
@@ -116,7 +116,7 @@ Nach dem Export-Aufruf müssen Sie die neuen Anmeldeinformationen (entsprechend 
 
 * Während des Imports werden die Objekte der Journey mit einer neuen UID und einem neuen Namen erstellt, um die Eindeutigkeit in der Zielumgebung (Instanz oder Sandbox) sicherzustellen.
 
-* Wenn die Import-Payload geheime Platzhalter enthält, wird ein Fehler ausgegeben. Sie müssen die Anmeldeinformationen vor dem POST-Aufruf zum Import der Journey ersetzen.
+* Wenn die Import-Payload geheime Platzhalter enthält, wird ein Fehler ausgegeben. Sie müssen die Anmeldedaten vor dem POST-Aufruf zum Import der Journey ersetzen.
 
 ## Warnung und Fehler
 
@@ -124,6 +124,6 @@ Mögliche Fehler sind:
 
 * Zum **Zeitpunkt des Exports**, wenn die Journey-Version nicht gültig ist: Fehler 500
 
-* Zum **Zeitpunkt des Imports**, wenn die Payload nach Änderungen nicht gültig ist oder wenn die Anmeldeinformationen in der Payload nicht gut definiert sind: Fehler 400
+* Zum **Zeitpunkt des Imports**, wenn die Payload nach Änderungen nicht gültig ist oder wenn die Anmeldedaten in der Payload nicht gut definiert sind: Fehler 400
 
 * Wenn nach dem Importschritt die XDM-Schema-ID für Ihre Ereignisse in der Zielumgebung nicht gültig ist, wird in Journey Orchestration ein Fehler angezeigt. In diesem Fall kann die Journey nicht veröffentlicht werden.
