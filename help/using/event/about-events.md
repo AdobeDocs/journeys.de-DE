@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '401'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Wenn Sie ein Ereignis bearbeiten, das in einer Entwurfs- oder Live-Journey verwe
 
 Sie können zwei Typen von Ereignissen definieren:
 
-* **Regelbasierte** Ereignisse: dieser Ereignistyp generiert keine eventID. Mit dem einfachen Ausdruckseditor definieren Sie einfach eine Regel, anhand derer das System die relevanten Ereignisse identifiziert, die Ihre Journeys auslösen. Diese Regel kann auf einem beliebigen Feld basieren, das in der Ereignis-Payload verfügbar ist, z. B. dem Standort des Profils oder der Anzahl der Artikel, die dem Warenkorb des Profils hinzugefügt wurden.
+* **Regelbasierte** Ereignisse: Dieser Ereignistyp generiert keine eventID. Mit dem einfachen Ausdruckseditor definieren Sie einfach eine Regel, anhand derer das System die relevanten Ereignisse identifiziert, die Ihre Journeys auslösen. Diese Regel kann auf einem beliebigen Feld basieren, das in der Ereignis-Payload verfügbar ist, z. B. dem Standort des Profils oder der Anzahl der Artikel, die dem Warenkorb des Profils hinzugefügt wurden.
 
   >[!CAUTION]
   >

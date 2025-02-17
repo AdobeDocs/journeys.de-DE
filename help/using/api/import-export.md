@@ -4,7 +4,7 @@ title: Beschreibung der Import-Export-API
 description: Weitere Informationen zur Import-Export-API.
 products: journeys
 source-git-commit: 8f409fe6e37a3b80527d9a5514b066e539dcd9f3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1027'
 ht-degree: 100%
 

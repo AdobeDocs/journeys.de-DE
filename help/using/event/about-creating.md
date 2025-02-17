@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 2ae8854a-c3e7-469d-9f89-25b54bc3e894
 source-git-commit: bdc9ac3f54fae1dfd6f24a54a2687a0834f69c36
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '567'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ Im Folgenden finden Sie die wichtigsten Schritte zum Konfigurieren eines neuen E
 
    ![](../assets/journey6bis.png)
 
-   * **Regelbasierte** Ereignisse: dieser Ereignistyp generiert keine eventID. Im Feld **Ereignis-ID-Bedingung** definieren Sie einfach eine Regel, die vom System verwendet wird, um die relevanten Ereignisse zu identifizieren, die Ihre Journeys auslösen werden. Diese Regel kann auf einem beliebigen Feld basieren, das in der Ereignis-Payload verfügbar ist, z. B. dem Standort des Profils oder der Anzahl der Artikel, die dem Warenkorb des Profils hinzugefügt wurden.
+   * **Regelbasierte** Ereignisse: Dieser Ereignistyp generiert keine eventID. Im Feld **Ereignis-ID-Bedingung** definieren Sie einfach eine Regel, die vom System verwendet wird, um die relevanten Ereignisse zu identifizieren, die Ihre Journeys auslösen werden. Diese Regel kann auf einem beliebigen Feld basieren, das in der Ereignis-Payload verfügbar ist, z. B. dem Standort des Profils oder der Anzahl der Artikel, die dem Warenkorb des Profils hinzugefügt wurden.
 
    * **Systemgenerierte** Ereignisse: dieser Typ erfordert eine eventID. Dieses eventID-Feld wird beim Erstellen des Ereignisses automatisch generiert und der Payload-Vorschau hinzugefügt. Das System, das das Ereignis per Push sendet, sollte keine ID generieren, sondern die ID übergeben, die in der Payload-Vorschau verfügbar ist. Weitere Informationen finden Sie in [diesem Abschnitt](../event/previewing-the-payload.md).
 

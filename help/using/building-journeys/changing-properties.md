@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 06d26078-b9b8-4dc4-918d-0f2426d00f54
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '565'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Mit der Schaltfläche **Technische Details kopieren** lassen sich jederzeit tech
 
 Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt. Sie können die Option für „einmalige“ Journeys deaktivieren, z. B. wenn Sie ein einmaliges Geschenk anbieten möchten, wenn eine Person einen Shop betritt. In diesem Fall möchten Sie nicht, dass der Kunde die Journey erneut betreten und das Angebot erneut wahrnehmen kann.
 
-Wenn eine Journey „endet“, weist sie den Status **[!UICONTROL Geschlossen (kein Eintritt)]** auf. Die Journey erlaubt den Eintritt neuer Kontakte nicht mehr. Personen, die sich bereits in der Journey befinden, beenden die Journey wie gewohnt.
+Wenn eine Journey „endet“, weist sie den Status **[!UICONTROL Geschlossen (kein Eintritt)]** auf. Die Journey stoppt den Eintritt neuer Personen in die Journey.  Personen, die sich bereits in der Journey befinden, beenden die Journey wie gewohnt.
 
 Nach der standardmäßigen globalen maximalen Wartezeit von 30 Tagen wechselt die Journey zum Status **Beendet**. Weitere Informationen finden Sie in diesem [Abschnitt](#global_timeout).
 

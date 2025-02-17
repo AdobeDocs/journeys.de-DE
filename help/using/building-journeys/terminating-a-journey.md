@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 2d1b9d6b-0a53-436c-b251-ce77cb931aaa
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '382'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Mit den Optionen **[!UICONTROL Stoppen]** und **[!UICONTROL Für neue Eintritte 
 
 ## Schließen einer Journey
 
-Sie können eine Journey manuell schließen. In diesem Fall können Kunden, die sich bereits in der Journey befinden, ihren Pfad bis zum Ende verfolgen, neue Anwender können jedoch nicht in die Journey eintreten.
+Sie können eine Journey manuell schließen. In diesem Fall können Kundinnen und Kunden, die sich bereits in der Journey befinden, ihren Pfad bis zum Ende verfolgen, neue Anwenderinnen und Anwender können jedoch nicht in die Journey eintreten.
 
 Wenn eine Journey geschlossen ist, weist sie den Status **[!UICONTROL Geschlossen (kein Eintritt)]** auf. Nach der standardmäßigen globalen maximalen Wartezeit von 30 Tagen wechselt die Journey zum Status **Beendet**. Weitere Informationen finden Sie in diesem [Abschnitt](../building-journeys/changing-properties.md#entrance).
 

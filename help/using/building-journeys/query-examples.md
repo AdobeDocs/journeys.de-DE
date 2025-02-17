@@ -6,9 +6,9 @@ role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
 source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1283'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ In diesem Abschnitt werden einige häufig verwendete Beispiele für die Abfrage 
 
 Stellen Sie sicher, dass die in Ihren Abfragen verwendeten Felder im entsprechenden Schema über zugeordnete Werte verfügen.
 
-## Anwendungsfälle für Datensätze verfolgen {#tracking-datasets}
+## Anwendungsfälle für Tracking-Datensätze {#tracking-datasets}
 
-Im Folgenden finden Sie eine Liste der Tracking-Datensätze und der zugehörigen Anwendungsfälle:
+Im Folgenden finden Sie eine Liste der Tracking-Datensätze und zugehörige Anwendungsfälle:
 
-**E-Mail-Tracking-Erlebnisereignis-Datensatz** (cjm_email_tracking_experience_event_dataset)
+**E-Mail-Tracking-Erlebnis-Ereignisdatensatz** (cjm_email_tracking_experience_event_dataset)
 
 Systemdatensatz für die Aufnahme von E-Mail-Tracking-Erlebnisereignissen aus Journey Optimizer.
 
@@ -57,13 +57,13 @@ order by
 limit 100;
 ```
 
-**Nachrichten-Feedback-Ereignisdatensatz** (CJM_MESSAGE_FEEDBACK_EVENT_DATASET)
+**Nachrichten-Feedback-Ereignisdatensatz** (cjm_message_feedback_event_dataset)
 
 Datensatz zur Aufnahme von E-Mail- und Push-Anwendungs-Feedback-Ereignissen aus Journey Optimizer.
 
 Das zugehörige Schema ist das CJM-Nachrichten-Feedback-Ereignis-Schema.
 
-_Anwendungsfall für Berichte_
+_Anwendungsfälle für Berichte_
 
 ```sql
 select
@@ -92,13 +92,13 @@ order by
 limit 100;
 ```
 
-**Push-Tracking-Erlebnisereignis-Datensatz** (cjm_push_tracking_experience_event_dataset)
+**Push-Tracking-Erlebnis-Ereignisdatensatz** (cjm_push_tracking_experience_event_dataset)
 
-Datensatz für die Aufnahme von Mobile-Tracking-Erlebnisereignissen für Push- und In-App-Kanäle aus Journey Optimizer.
+Datensatz für die Aufnahme von Mobile-Tracking-Erlebnisereignissen für Push- und In-App-Kanäle von Journey Optimizer.
 
 Das zugehörige Schema ist das CJM-Push-Tracking-Erlebnisereignis-Schema.
 
-_Anwendungsfall für Berichte_
+_Anwendungsfälle für Berichte_
 
 ```sql
 select _experience.customerJourneyManagement.pushChannelContext.platform, sum(pushNotificationTracking.customAction.value)  from cjm_push_tracking_experience_event_dataset
@@ -108,13 +108,13 @@ select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (
   group by _experience.customerJourneyManagement.pushChannelContext.platform
 ```
 
-**Journey-Schrittereignis** (Journey_STEP_EVENTS)
+**Journey-Schritt-Ereignis** (journey_step_events)
 
-Datensatz für die Aufnahme von Schrittereignissen für Benutzende in der Journey.
+Datensatz für die Aufnahme von Schritt-Ereignissen für Benutzende in der Journey.
 
-Das zugehörige Schema ist das Journey-Schrittereignisschema für die Journey Orchestration.
+Das zugehörige Schema ist das Journey-Schritt-Ereignis-Schema für Journey Orchestration.
 
-_Anwendungsfall für Berichte_
+_Anwendungsfälle für Berichte_
 
 ```sql
 select
