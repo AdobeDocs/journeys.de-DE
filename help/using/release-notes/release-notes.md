@@ -6,14 +6,20 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: bb74c7dc1ebad0a707b830602a8d0b33e8443a5d
+source-git-commit: 6a5226ea0f7b5a87f236eeac108737fc69d4f9c8
 workflow-type: tm+mt
-source-wordcount: '4424'
-ht-degree: 100%
+source-wordcount: '4469'
+ht-degree: 98%
 
 ---
 
 # Versionshinweise {#release-notes}
+
+>[!CAUTION]
+>
+>**Suche nach Adobe Journey Optimizer**? Klicken Sie [hier](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/ajo-home){target="_blank"}, um die Dokumentation zu Journey Optimizer anzuzeigen.
+>
+>Diese Dokumentation bezieht sich auf veraltete Journey Orchestration-Materialien, die durch Journey Optimizer ersetzt wurden. Wenden Sie sich an Ihr Account-Team, wenn Sie Fragen zu Ihrem Zugriff auf Journey Orchestration oder Journey Optimizer haben.
 
 Auf dieser Seite werden alle neuen Funktionen und Verbesserungen in Journey Orchestration aufgelistet. Informationen zu Funktionen von Experience Platform finden Sie in den folgenden [Versionshinweisen](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de).
 
@@ -452,7 +458,7 @@ Die Payload von Segmentqualifkationsereignissen enthält jetzt die folgenden in 
 <ul>
 <li><p>Der Name der Aktivität wurde in „Segment lesen“ geändert. </p>
 </li>
-<li><p>Die Konfiguration der Journey-Planung wurde aus den Eigenschaften der Aktivität entfernt. Sie ist jetzt direkt über die Eigenschaften der Journey in einem eigenen Bereich aufrufbar, der angezeigt wird, wenn eine „Segment lesen“-Aktivität auf der Arbeitsfläche abgelegt wurde. </p>
+<li><p>Die Konfiguration des Journey-Schedulers wurde aus den Eigenschaften der Aktivität entfernt. Sie ist jetzt direkt über die Eigenschaften der Journey in einem eigenen Bereich aufrufbar, der angezeigt wird, wenn eine „Segment lesen“-Aktivität auf der Arbeitsfläche abgelegt wurde. </p>
 </li>
 <li><p>Sie können die Journey jetzt auf einem unitären Profil testen und den Fortschritt der Journey über den visuellen Verlauf verfolgen.</p>
 </li>
