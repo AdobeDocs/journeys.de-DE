@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 520376aa-2cb5-46d6-8f21-3e03544f5da1
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '802'
 ht-degree: 100%
 
 ---
@@ -23,10 +23,6 @@ Mit der Aktionsaktivität **[!UICONTROL Sprung]** können Sie Kontakte von einer
 Fügen Sie in der Ursprungs-Journey einfach eine **[!UICONTROL Sprungaktivität]** hinzu und wählen Sie eine Ziel-Journey aus. Wenn der Kontakt in den **[!UICONTROL Sprungschritt]** eintritt, wird ein internes Ereignis an das erste Ereignis der Ziel-Journey gesendet. Wenn die **[!UICONTROL Sprungaktion]** erfolgreich ist, schreitet der Kontakt in der Journey fort. Das Verhalten ist mit anderen Aktionen vergleichbar.
 
 In der Ziel-Journey leitet das erste Ereignis, das intern durch die **[!UICONTROL Sprungaktivität]** ausgelöst wurde, den Kontakt in die Journey.
-
->[!NOTE]
->
->Weitere Informationen erfahren Sie [hier](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=de) im Anleitungsvideo.
 
 ## Lebenszyklus
 
