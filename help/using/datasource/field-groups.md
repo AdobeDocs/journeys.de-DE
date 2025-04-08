@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 6f7f2673-9080-4274-afa3-a0255798f78d
-source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
-workflow-type: ht
-source-wordcount: '460'
-ht-degree: 100%
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+workflow-type: tm+mt
+source-wordcount: '505'
+ht-degree: 64%
 
 ---
 
 # Feldergruppen {#concept_ntl_ypt_52b}
+
+
+>[!CAUTION]
+>
+>**Suche nach Adobe Journey Optimizer**? Klicken Sie [hier](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/ajo-home){target="_blank"}, um die Dokumentation zu Journey Optimizer anzuzeigen.
+>
+>
+>_Diese Dokumentation bezieht sich auf veraltete Journey Orchestration-Materialien, die durch Journey Optimizer ersetzt wurden. Wenden Sie sich an Ihr Account-Team, wenn Sie Fragen zu Ihrem Zugriff auf Journey Orchestration oder Journey Optimizer haben._
+
 
 Feldergruppen sind Gruppen von Feldern, die Sie aus einer Datenquelle abrufen und in einer Journey verwenden können.
 
@@ -31,7 +40,7 @@ Die Anzahl der Journeys, die eine Feldergruppe verwendet, wird im Feld **[!UICON
 
 >[!NOTE]
 >
->Beachten Sie, dass Feldergruppen ohne Felder nicht im Ausdruckseditor angezeigt werden.
+>Beachten Sie, dass eine Feldergruppe, die kein Feld hat, nicht im Ausdruckseditor angezeigt wird.
 
 ![](../assets/journey3bis.png)
 
@@ -41,12 +50,12 @@ Sie können Felder zu einer Feldergruppe hinzufügen oder daraus entfernen, die 
 
 Einer Feldergruppe, die in einer oder mehreren Entwurfs- oder Live-Journeys verwendet wird, können Sie ein Feld hinzufügen. Sie können jedoch kein Feld daraus entfernen. Dadurch wird verhindert, dass Journeys unterbrochen werden.
 
-Gehen Sie wie folgt vor, um ein Feld aus einer Feldergruppe zu löschen, die für eine oder mehrere Journeys verwendet wird. Verwenden wir ein Beispiel für eine Feldergruppe namens „Feldergruppe A“.
+Gehen Sie wie folgt vor, um ein Feld aus einer Feldergruppe zu löschen, die für eine oder mehrere Journeys verwendet wird. Nehmen wir als Beispiel eine Feldergruppe mit dem Namen „Feldergruppe A“.
 
-1. Platzieren Sie den Cursor in der Liste der Feldergruppen auf „Feldergruppe A“ und klicken Sie auf der rechten Seite auf das Symbol **[!UICONTROL Duplizieren]**. Benennen Sie die duplizierte Feldergruppe beispielsweise „Feldergruppe B“.
-1. Entfernen Sie die nicht mehr benötigten Felder aus „Feldergruppe B“.
-1. Überprüfen Sie in „Feldergruppe A“, wo diese Feldergruppe verwendet wird. Diese Informationen werden im Feld **[!UICONTROL Verwendet in]** angezeigt.
-1. Öffnen Sie alle Journeys, die „Feldergruppe A“ verwenden.
-1. Erstellen Sie neue Versionen jeder dieser Journeys. Bearbeiten Sie alle Aktivitäten mit „Feldergruppe A“ und wählen Sie „Feldergruppe B“ aus.
-1. Stoppen Sie alte Versionen von Journeys, die „Feldergruppe A“ verwenden. Sie sollten dann keine Journey mit „Feldergruppe A“ haben.
-1. Entfernen Sie „Feldergruppe A“, da sie nicht mehr verwendet wird.
+1. Platzieren Sie den Cursor in der Liste der Feldergruppen auf „Feldergruppe A“ und klicken Sie auf **[!UICONTROL Symbol „Duplizieren]** auf der rechten Seite. Benennen Sie die duplizierte Feldergruppe mit „Feldergruppe B“, z. B. .
+1. Entfernen Sie in „Feldergruppe B“ die nicht mehr gewünschten Felder.
+1. Überprüfen Sie unter „Feldergruppe A“, wo diese Feldergruppe verwendet wird. Diese Informationen werden im Feld **[!UICONTROL Verwendet in]** angezeigt.
+1. Öffnen Sie alle Journey, die „Feldergruppe A“ verwenden.
+1. Erstellen Sie neue Versionen jeder dieser Journeys. Bearbeiten Sie alle Aktivitäten mit „Feldergruppe A“ und wählen Sie „Feldergruppe B“ aus.
+1. Beenden Sie alte Versionen von Journey, die „Feldergruppe A“ verwenden. Sie sollten dann keine Journey mit „Feldergruppe A“ haben.
+1. Entfernen Sie „Feldergruppe A“, da sie nicht mehr verwendet wird.
