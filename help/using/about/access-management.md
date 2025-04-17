@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 100%
 
@@ -81,7 +81,7 @@ Weitere Informationen zum Erstellen und Verwalten von Sandboxes finden Sie in de
 
 So erstellen Sie ein Produktprofil und weisen einen Satz von Berechtigungen und Sandboxes zu:
 
-1. Wählen Sie in der Admin Console die Option **[!UICONTROL Journey-Orchestrierung]** aus. Klicken Sie auf dem Tab **[!UICONTROL Produktprofile]** auf **[!UICONTROL Neues Profil]**.
+1. Wählen Sie in der Admin Console die Option **[!UICONTROL Journey Orchestration]** aus. Klicken Sie auf dem Tab **[!UICONTROL Produktprofile]** auf **[!UICONTROL Neues Profil]**.
 
    ![](../assets/do-not-localize/user_management_5.png)
 
