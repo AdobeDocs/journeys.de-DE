@@ -137,7 +137,7 @@ Lesen Sie auch die [Versionshinweise](../release-notes/release-notes.md) von [!D
 
 * Alle Screenshots wurden entsprechend den Änderungen der Benutzeroberfläche aktualisiert.
 * Der Abschnitt „Testmodus“ wurde aktualisiert. [Mehr dazu](../building-journeys/testing-the-journey.md)
-  <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).-->
+  <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html?lang=de).-->
 * Gestoppte Journeys können nun gelöscht werden. Die entsprechenden Seiten in der Dokumentation wurden aktualisiert.
 * Wenn in einer Journey Probleme erkannt werden, werden nun zwei Farben angezeigt. Rot steht für Fehler und orange für Warnungen. [Mehr dazu](../about/troubleshooting.md)
 * Der Abschnitt zum erweiterten Ausdruckseditor wurde aktualisiert. [Mehr dazu](../expression/expressionadvanced.md).
