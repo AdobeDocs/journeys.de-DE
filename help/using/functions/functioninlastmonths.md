@@ -3,10 +3,10 @@ product: adobe campaign
 title: inLastMonths
 description: Erfahren Sie mehr über die Funktion „inLastMonths“
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: ff8effa9-404a-482b-8842-a276f029e2ed
-source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # inLastMonths {#inLastMonths}
 
-Gibt „true“ zurück, wenn der angegebene Datums- bzw. Datum/Uhrzeit-Wert zwischen jetzt und jetzt - delta Monaten liegt.
+Gibt „true“ zurück, wenn der angegebene Datums- bzw. Datum-/Uhrzeit-Wert zwischen jetzt und jetzt – delta Monaten liegt.
 
 ## Kategorie
 

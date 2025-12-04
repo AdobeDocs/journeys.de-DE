@@ -3,11 +3,11 @@ product: adobe campaign
 title: Verwenden des erweiterten Ausdruckseditors
 description: Erfahren Sie, wie Sie erweiterte Ausdrücke erstellen
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
+workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 >_Diese Dokumentation bezieht sich auf veraltete Journey Orchestration-Materialien, die durch Journey Optimizer ersetzt wurden. Wenden Sie sich an Ihr Accountteam, wenn Sie Fragen zu Ihrem Zugriff auf Journey Orchestration oder Journey Optimizer haben._
 
 
-Der erweiterte Ausdruckseditor kann verwendet werden, um Bedingungen zum Filtern von Benutzern in Ihren Journeys zu erstellen. Mit diesen Bedingungen können Sie Benutzer nach Uhrzeit, Datum, Ort, Dauer oder Aktionen wie Kauf oder Warenkorbabbruch ansprechen, damit diese in der Journey erneut angesprochen werden können.
+Der erweiterte Ausdruckseditor kann verwendet werden, um Bedingungen zum Filtern von Benutzenden in Ihren Journeys zu erstellen. Mit diesen Bedingungen können Sie Benutzer nach Uhrzeit, Datum, Ort, Dauer oder Aktionen wie Kauf oder Warenkorbabbruch ansprechen, damit diese in der Journey erneut angesprochen werden können.
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ Sprechen Sie in erster Linie Kunden an, die den Online-Store besucht, aber in de
 
 `In ("addToCart", #{field reference from experience event})`-->
 
-**Dieser Ausdruck sucht nach allen Ereignissen für diesen Benutzer, die in den letzten sieben Tagen spezifiziert wurden:**
+**Dieser Ausdruck sucht nach allen Ereignissen für diese Person, die in den letzten sieben Tagen spezifiziert wurden:**
 
 Anschließend werden alle Ereignisse vom Typ addtocart ausgewählt, die nicht in completePurchase umgewandelt wurden.
 

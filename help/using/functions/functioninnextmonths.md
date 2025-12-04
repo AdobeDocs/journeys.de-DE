@@ -3,10 +3,10 @@ product: adobe campaign
 title: inNextMonths
 description: Erfahren Sie mehr über die Funktion „inNextMonths“
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: b5e8d514-a24d-42a2-b422-ec5d6617048a
-source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # inNextMonths {#inNextMonths}
 
-Gibt „true“ zurück, wenn der angegebene Datums- bzw. Datum/Uhrzeit-Wert zwischen jetzt und jetzt + delta Monaten liegt.
+Gibt „true“ zurück, wenn der angegebene Datums- bzw. Datum-/Uhrzeit-Wert zwischen jetzt und jetzt + delta Monaten liegt.
 
 ## Kategorie
 

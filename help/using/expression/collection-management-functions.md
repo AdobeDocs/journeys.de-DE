@@ -3,10 +3,10 @@ product: adobe campaign
 title: Funktionen zur Verwaltung von Sammlungen
 description: Erfahren Sie mehr über die Datentypen in den Funktionen zur Verwaltung von Sammlungen
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: e80b04fe-b2d3-4c1b-ba22-7e37a9ad1d57
-source-git-commit: 579e5a0dbdc11369248c2683c399b090130a7262
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 100%
@@ -83,7 +83,7 @@ Das Ergebnis ist wahr.
 
 **Beispiel 2:**
 
-Hier verwenden wir die Funktion **[!UICONTROL count]**, um zu überprüfen, ob in der Sammlung Push-Benachrichtigungstoken vorhanden sind.
+Hier verwenden wir die Funktion **[!UICONTROL count]**, um zu überprüfen, ob in der Sammlung Push-Benachrichtigungs-Token vorhanden sind.
 
 ```json
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) > 0
@@ -225,7 +225,7 @@ _`<listExpression>`.at(`<index>`)_
 
 **Beispiel:**
 
-Dieser Ausdruck gibt das zweite Push-Benachrichtigungstoken der Liste zurück.
+Dieser Ausdruck gibt das zweite Push-Benachrichtigungs-Token der Liste zurück.
 
 ```json
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.at(1).token}
