@@ -7,7 +7,7 @@ role: Developer
 level: Experienced
 exl-id: fd86b6ab-76cf-4b35-9e87-f441e914f20b
 source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '504'
 ht-degree: 100%
 
@@ -435,7 +435,7 @@ Beispiel:
 @ is decimal
 ```
 
-## Zeichenfolge {#string}
+## String {#string}
 
 ### +
 

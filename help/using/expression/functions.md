@@ -7,7 +7,7 @@ role: Developer
 level: Experienced
 exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
 source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '222'
 ht-degree: 100%
 
@@ -79,25 +79,25 @@ Im Folgenden finden Sie eine Liste der unterstützten Funktionen.
 | Liste | [sort](../functions/functionsort.md) |
 | Math | [random](../functions/functionrandom.md) |
 | Math | [round](../functions/functionround.md) |
-| Zeichenfolge | [concat](../functions/functionconcat.md) |
-| Zeichenfolge | [contain](../functions/functioncontain.md) |
-| Zeichenfolge | [containIgnoreCase](../functions/functioncontainwithignorecase.md) |
-| Zeichenfolge | [endWith](../functions/functionendwith.md) |
-| Zeichenfolge | [endWithIgnoreCase](../functions/functionendwithignorecase.md) |
-| Zeichenfolge | [equalIgnoreCase](../functions/functionequalignorecase.md) |
-| Zeichenfolge | [indexOf](../functions/functionindexof.md) |
-| Zeichenfolge | [isEmpty](../functions/functionisempty.md) |
-| Zeichenfolge | [isNotEmpty](../functions/functionisnotempty.md) |
-| Zeichenfolge | [lastIndexOf](../functions/functionlastindexof.md) |
-| Zeichenfolge | [length](../functions/functionlength.md) |
-| Zeichenfolge | [lower](../functions/functionlower.md) |
-| Zeichenfolge | [matchRegExp](../functions/functionmatchregexp.md) |
-| Zeichenfolge | [notEqualIgnoreCase](../functions/functionnotequalignorecase.md) |
-| Zeichenfolge | [replace](../functions/functionreplace.md) |
-| Zeichenfolge | [replaceAll](../functions/functionreplaceall.md) |
-| Zeichenfolge | [startWith](../functions/functionstartwith.md) |
-| Zeichenfolge | [startWithIgnoreCase](../functions/functionstartwithignorecase.md) |
-| Zeichenfolge | [substr](../functions/functionsubstr.md) |
-| Zeichenfolge | [trim](../functions/functiontrim.md) |
-| Zeichenfolge | [upper](../functions/functionupper.md) |
-| Zeichenfolge | [uuid](../functions/functionuuid.md) |
+| String | [concat](../functions/functionconcat.md) |
+| String | [contain](../functions/functioncontain.md) |
+| String | [containIgnoreCase](../functions/functioncontainwithignorecase.md) |
+| String | [endWith](../functions/functionendwith.md) |
+| String | [endWithIgnoreCase](../functions/functionendwithignorecase.md) |
+| String | [equalIgnoreCase](../functions/functionequalignorecase.md) |
+| String | [indexOf](../functions/functionindexof.md) |
+| String | [isEmpty](../functions/functionisempty.md) |
+| String | [isNotEmpty](../functions/functionisnotempty.md) |
+| String | [lastIndexOf](../functions/functionlastindexof.md) |
+| String | [length](../functions/functionlength.md) |
+| String | [lower](../functions/functionlower.md) |
+| String | [matchRegExp](../functions/functionmatchregexp.md) |
+| String | [notEqualIgnoreCase](../functions/functionnotequalignorecase.md) |
+| String | [replace](../functions/functionreplace.md) |
+| String | [replaceAll](../functions/functionreplaceall.md) |
+| String | [startWith](../functions/functionstartwith.md) |
+| String | [startWithIgnoreCase](../functions/functionstartwithignorecase.md) |
+| String | [substr](../functions/functionsubstr.md) |
+| String | [trim](../functions/functiontrim.md) |
+| String | [upper](../functions/functionupper.md) |
+| String | [uuid](../functions/functionuuid.md) |

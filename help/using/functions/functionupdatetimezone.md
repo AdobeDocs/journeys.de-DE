@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 exl-id: 2ce60ed2-161a-4b98-9694-eb47cc0e04a9
 source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '57'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Gibt einen Datum/Uhrzeit-Wert zurück.
 
 `updateTimeZone( toDateTime("2019-08-28T08:15:30.123-07:00"), "Europe/Paris"))`
 
-Gibt 2019-08-28T17-:15:.123+02:00 zurück.
+Gibt 2019-08-28T17:15:30.123+02:00 zurück.
 
 <!--`updateTimeZone( toDateTime("2019-08-28T08:15:30.123-07:00"), toTimeZone("Europe/Paris")))`
 Returns "2019-08-28T17:15:30.123+02:00".-->

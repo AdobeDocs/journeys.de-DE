@@ -7,7 +7,7 @@ role: Developer
 level: Experienced
 exl-id: 2f317306-9afd-4e9a-88b8-fc66102e1046
 source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '607'
 ht-degree: 100%
 
@@ -106,7 +106,7 @@ Sie können jede Art von Ausdruck als Standardwert hinzufügen. Die einzige Eins
 
 ## Verweis auf ein Feld in Sammlungen
 
-Auf die in Sammlungen definierten Elemente wird mit den speziellen Funktionen `all`, `first` und `last` verwiesen. Weitere Informationen dazu finden Sie auf dieser [Seite](../expression/collection-management-functions.md).
+Auf die in Sammlungen definierten Elemente wird mit den speziellen Funktionen `all`, `first` und `last` verwiesen. Weitere Informationen dazu finden Sie auf [dieser Seite](../expression/collection-management-functions.md).
 
 Beispiel:
 

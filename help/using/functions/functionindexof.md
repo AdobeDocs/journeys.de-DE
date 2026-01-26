@@ -7,7 +7,7 @@ role: Developer
 level: Experienced
 exl-id: 7617bb25-ec4c-498f-947a-66bbdecd1069
 source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '63'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## Kategorie
 
-Zeichenfolge
+String
 
 ## Funktionssyntax
 
@@ -29,8 +29,8 @@ Zeichenfolge
 
 | Parameter | Typ |
 |-----------|------------------|
-| string | Zeichenfolge |
-| angegebener Wert | Zeichenfolge |
+| string | String |
+| angegebener Wert | String |
 
 ## Signatur und zurückgegebener Typ
 

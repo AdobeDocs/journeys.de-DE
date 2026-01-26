@@ -7,7 +7,7 @@ role: Developer
 level: Experienced
 exl-id: ebec646e-9dbb-4432-a430-ab69fb7d75cf
 source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '48'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## Kategorie
 
-Zeichenfolge
+String
 
 ## Funktionssyntax
 
