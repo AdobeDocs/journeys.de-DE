@@ -5,10 +5,10 @@ title: Handbuch zu Journey Orchestration
 user-guide-description: Enthält Anleitungen zum Implementieren und Erstellen von Journeys.
 index: true
 feature: Journeys
-source-git-commit: 137637a753ba44cc4f8e397b77c3fc076ec3de3f
+source-git-commit: 517aedc8568a9988a56fe5a0ebd08cf4bf593bb8
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 100%
+source-wordcount: '450'
+ht-degree: 90%
 
 ---
 
@@ -25,14 +25,14 @@ ht-degree: 100%
    + [Einschränkungen](using/about/limitations.md)
    + [Erste Schritte](using/about/get-started.md)
    + [Benutzeroberfläche](using/about/user-interface.md)
-   + [Zugriffsverwaltung ](using/about/access-management.md)
+   + [Zugriffsverwaltung](using/about/access-management.md)
    + [Fehlerbehebung](using/about/troubleshooting.md)
    + [Integration mit externen Systemen](using/about/external-systems.md)
-+ Konfigurieren eines Ereignisses {#events-journeys}
++ Ereignis konfigurieren {#events-journeys}
    + Informationen zu Ereignissen {#about-events}
       + [Allgemeine Funktionsweise](using/event/about-events.md)
       + [Datenzyklus](using/event/about-data-cycle.md)
-      + [Erstellen eines Ereignisses](using/event/about-creating.md)
+      + [Ereignis erstellen](using/event/about-creating.md)
       + [Nutzung von Adobe Analytics](using/event/about-analytics.md)
       + [Informationen zu ExperienceEvent-Schemata](using/event/experience-event-schema.md)
       + [Zusätzliche Schritte zum Senden von Ereignissen](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
@@ -57,7 +57,7 @@ ht-degree: 100%
    + [Über Segmente](using/segment/about-segments.md)
    + [Erstellen eines Segments](using/segment/creating-a-segment.md)
    + [Verwenden von Segmenten in Bedingungen](using/segment/using-a-segment.md)
-+ Erstellen der Journey {#building-journeys}
++ Erstellen einer Journey {#building-journeys}
    + Informationen zum Erstellen von Journeys {#about-journey-building}
       + [Erstellen einer Journey](using/building-journeys/journey.md)
       + [Verwenden des Journey-Designers](using/building-journeys/using-the-journey-designer.md)
@@ -71,19 +71,19 @@ ht-degree: 100%
          + [Informationen zu Ereignisaktivitäten](using/building-journeys/event-activities.md)
          + [Allgemeine Ereignisse](using/building-journeys/general-events.md)
          + [Reaktionsereignisse](using/building-journeys/reaction-events.md)
-         + [Segmentqualifizierungsereignisse](using/building-journeys/segment-qualification-events.md)
+         + [Segmentqualifikationsereignisse](using/building-journeys/segment-qualification-events.md)
       + Orchestrierungsaktivitäten {#orchestration-activities}
          + [Informationen zu Orchestrierungsaktivitäten](using/building-journeys/about-orchestration-activities.md)
-         + [Bedingungsaktivität](using/building-journeys/condition-activity.md)
+         + [Aktivität des Typs „Bedingung“](using/building-journeys/condition-activity.md)
          + [Endaktivität](using/building-journeys/end-activity.md)
          + [Warteaktivität](using/building-journeys/wait-activity.md)
       + Aktionsaktivitäten {#action-activities}
-         + [Über Aktionsaktivitäten](using/building-journeys/about-action-activities.md)
+         + [Informationen zu Aktionsaktivitäten](using/building-journeys/about-action-activities.md)
          + [Verwenden von Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-actions.md)
          + [Verwenden von Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
          + [Verwenden benutzerdefinierter Aktionen](using/building-journeys/using-custom-actions.md)
          + [Springen zwischen Journeys](using/building-journeys/jump.md)
-         + [Profil aktualisieren](using/building-journeys/update-profiles.md)
+         + [Aktualisieren des Profils](using/building-journeys/update-profiles.md)
    + [Testen der Journey](using/building-journeys/testing-the-journey.md)
    + [Veröffentlichen der Journey](using/building-journeys/publishing-the-journey.md)
    + Freigabe von Journey-Schritten mit Adobe Experience Platform {#sharing-journey-steps}
@@ -98,7 +98,7 @@ ht-degree: 100%
          + [Journey-Felder](using/building-journeys/sharing-journey-fields.md)
       + [Beispiele für Abfragen](using/building-journeys/query-examples.md)
 + Erstellen von Ausdrücken {#building-advanced-conditions-journeys}
-   + [Übersicht](using/expression/expressionadvanced.md)
+   + [Überblick](using/expression/expressionadvanced.md)
    + Syntax {#syntax}
       + [Allgemeines](using/expression/generalities.md)
       + [Bedingte Anweisung](using/expression/conditional-instruction.md)
@@ -153,7 +153,7 @@ ht-degree: 100%
          + [getListItem](using/functions/functiongetlistitem.md)
          + [in](using/functions/functionin.md)
          + [intersect](using/functions/functionintersect.md)
-         + [Limit](using/functions/functionlimit.md)
+         + [limit](using/functions/functionlimit.md)
          + [listSize](using/functions/functionlistsize.md)
          + [serializeList](using/functions/functionserializelist.md)
          + [sort](using/functions/functionsort.md)
@@ -191,7 +191,7 @@ ht-degree: 100%
 + Integrieren mit Intelligent Services{#use-case-advanced}
    + [Informationen zur KI-Integration](using/ai-services/ai-services-overview.md)
    + [Verwenden von Kunden-KI-Werten](using/ai-services/leveraging-customer-ai.md)
-+ Anwendungsbeispiele{#use-cases-journeys}
++ Anwendungsfälle{#use-cases-journeys}
    + Senden einer personalisierten E-Mail{#use-case-simple}
       + [Informationen zum einfachen Anwendungsfall](using/usecase/about-the-simple-use-case.md)
       + [Konfigurieren des Ereignisses](using/usecase/configuring-the-event.md)
@@ -200,7 +200,7 @@ ht-degree: 100%
    + Erstellen einer Cross-Channel-Journey{#use-case-advanced}
       + [Informationen zum erweiterten Anwendungsfall](using/usecase/about-the-advanced-use-case.md)
       + [Konfigurieren der Ereignisse](using/usecase/configuring-the-events.md)
-      + [Konfigurieren von Datenquellen](using/usecase/configuring-the-data-sources.md)
+      + [Konfigurieren der Datenquellen](using/usecase/configuring-the-data-sources.md)
       + [Erstellen der Journey](using/usecase/building-the-journey.md)
    + [Senden von Nachrichten mit Campaign v7/v8](using/usecase/campaign-classic-use-case.md)
    + [Dynamisches Übergeben von Sammlungen mithilfe benutzerdefinierter Aktionen](using/usecase/collections.md)

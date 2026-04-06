@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '998'
-ht-degree: 100%
+source-git-commit: 58514d6757f9705f5baa71cfbbe0bdfe65c8e16c
+workflow-type: tm+mt
+source-wordcount: '1042'
+ht-degree: 98%
 
 ---
 
@@ -72,7 +72,7 @@ In den Konfigurationsbereichen für Ereignis, Datenquelle und Aktion zeigt das F
 
 ![](../assets/journey3bis.png)
 
-In den verschiedenen Listen können Sie grundlegende Aktionen für einzelne Elemente durchführen. Sie können Elemente beispielsweise duplizieren oder löschen.
+In den verschiedenen Listen können Sie grundlegende Aktionen für einzelne Elemente durchführen. Sie können ein Element beispielsweise duplizieren oder löschen.
 
 ![](../assets/journey4.png)
 
@@ -80,7 +80,7 @@ In den verschiedenen Listen können Sie grundlegende Aktionen für einzelne Elem
 
 Bei der Definition von [Ereignis-Payload](../event/defining-the-payload-fields.md), [Feldgruppen-Payload](../datasource/field-groups.md) und der Auswahl von Feldern im [Ausdruckseditor](../expression/expressionadvanced.md) wird der Anzeigename zusätzlich zum Feldnamen angezeigt. Diese Informationen werden aus der Schemadefinition im Experience-Datenmodell abgerufen.
 
-Wenn beim Einrichten von Schemata Deskriptoren wie „xdm:alternateDisplayInfo“ angegeben werden, werden die Anzeigenamen durch benutzerfreundliche Namen ersetzt. Dies ist besonders bei der Verwendung von eVars und generischen Feldern nützlich. Deskriptoren für benutzerfreundliche Namen können über einen API-Aufruf konfiguriert werden. Weitere Informationen finden Sie im [Entwicklerhandbuch zur Schema Registry](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=de).
+Wenn beim Einrichten von Schemata Deskriptoren wie &quot;:alternateDisplayInfo&quot; bereitgestellt werden, ersetzen die benutzerfreundlichen Namen Anzeigenamen. Dies ist besonders beim Arbeiten mit „eVars“und generischen Feldern nützlich.Sie können die Deskriptoren für benutzerfreundliche Namen über einen API-Aufruf konfigurieren. Weitere Informationen finden Sie im [Entwicklerhandbuch zur Schema Registry](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=de).
 
 ![](../assets/xdm-from-descriptors.png)
 
@@ -104,7 +104,7 @@ Sie können die folgenden gängigen Tastaturbefehle in Adobe Journey Optimizer v
 
 | Aktion | Tastenkombination |
 | --- | --- |
-| Wechseln zwischen Elementen, Abschnitten und Menügruppen der Benutzeroberfläche | Tabulatortaste |
+| Wechseln zwischen Elementen, Abschnitten und Menügruppen der Benutzeroberfläche | Tab |
 | Rückwärts zwischen Elementen, Abschnitten und Menügruppen der Benutzeroberfläche wechseln | Umschalttaste + Tabulatortaste |
 | Bewegen innerhalb von Abschnitten zum Setzen des Fokus auf einzelne Elemente | Pfeil |
 | Auswählen oder Löschen eines Element, das sich im Fokus befindet | Eingabetaste oder Leertaste |
@@ -154,7 +154,7 @@ Konfigurationsbereich dieser Elemente:
 
 </td>
     <td>Wechseln zum nächsten zu konfigurierenden Feld</td>
-    <td>Tabulatortaste</td>
+    <td>Tab</td>
   </tr>
   <tr>
     <td>Speichern der Änderungen und Schließen des Konfigurationsbereichs</td>
@@ -185,7 +185,8 @@ Auslösen eines Ereignisses in einer segmentbasierten Journey, für die die Opti
     <td>Anzeigen der Testprotokolle</td>
     <td>L</td>
   </tr>
-<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
+<!--
+//Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
   <tr>
     <td>Page with a search bar</td>
     <td>Select the search bar</td>
