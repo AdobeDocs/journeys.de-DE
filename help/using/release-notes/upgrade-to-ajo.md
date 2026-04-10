@@ -2,11 +2,10 @@
 title: Aktualisieren auf Adobe Journey Optimizer
 description: Erfahren Sie, wie Sie auf Adobe Journey Optimizer aktualisieren
 hide: true
-hidefromtoc: true
 exl-id: 887fd3bb-bcd3-4a6d-9817-43049c51ecba
-source-git-commit: 3e9ff02cecfe85ea38cce4b0d241156f6209202f
-workflow-type: ht
-source-wordcount: '731'
+source-git-commit: ecdfc92fc1516c55b2d16d270094e637a4245483
+workflow-type: tm+mt
+source-wordcount: '772'
 ht-degree: 100%
 
 ---
@@ -15,7 +14,7 @@ ht-degree: 100%
 
 ## Was ist Adobe Journey Optimizer?
 
-Adobe Journey Optimizer ist ein agiles und skalierbares Programm, das nativ auf Adobe Experience Platform zur Orchestrierung und Bereitstellung personalisierter, vernetzter und zeitnaher Customer Journeys über Apps, Geräte, Bildschirme oder Kanäle hinweg entwickelt wurde. 
+Adobe Journey Optimizer ist ein agiles und skalierbares Programm, das nativ auf Adobe Experience Platform zur Orchestrierung und Bereitstellung personalisierter, vernetzter und zeitnaher Customer Journeys über Apps, Geräte, Bildschirme oder Kanäle hinweg entwickelt wurde.
 
 ## Was ist Journey Orchestration?
 
