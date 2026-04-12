@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '1389'
+workflow-type: tm+mt
+source-wordcount: '1429'
 ht-degree: 100%
 
 ---
@@ -140,7 +140,7 @@ Die Definition der Art und Weise, wie das Zugriffstoken in die HTTP-Anfrage der 
 
 * tokenInResponse: Gibt an, wie das Zugriffstoken aus dem Authentifizierungsaufruf extrahiert wird. Diese Eigenschaft kann Folgendes sein:
    * &#39;response&#39;: gibt an, dass die HTTP-Antwort das Zugriffstoken ist
-   * eine Auswahl in einer JSON-Datei (es wird vorausgesetzt, die Antwort ist eine JSON-Datei, und andere Formate wie XML werden nicht unterstützt). Das Format dieser Auswahl ist _json://&lt;Pfad zur Zugriffstoken-Eigenschaft>_. Wenn die Antwort des Aufrufs zum Beispiel folgendermaßen lautet: _{ &quot;access_token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_, wird die tokenInResponse Folgendes sein: _json: //access_token_
+   * eine Auswahl in einer JSON-Datei (es wird vorausgesetzt, die Antwort ist eine JSON-Datei, und andere Formate wie XML werden nicht unterstützt). Das Format dieser Auswahl ist _json://&lt;Pfad zur Zugriffstoken-Eigenschaft>_. Wenn die Antwort des Aufrufs zum Beispiel folgendermaßen lautet: _{ &quot;access_ token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_, wird die tokenInResponse Folgendes sein:_ json: //access_token_
 
 Das Format dieser Authentifizierung lautet:
 
