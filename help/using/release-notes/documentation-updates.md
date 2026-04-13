@@ -7,7 +7,7 @@ role: User
 level: Beginner
 hide: true
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: ecdfc92fc1516c55b2d16d270094e637a4245483
+source-git-commit: 331d2797093c7287c317fd398c74e04613896f01
 workflow-type: tm+mt
 source-wordcount: '1005'
 ht-degree: 99%
@@ -136,7 +136,7 @@ Lesen Sie auch die [Versionshinweise](../release-notes/release-notes.md) von [!D
 
 * Alle Screenshots wurden entsprechend den Änderungen der Benutzeroberfläche aktualisiert.
 * Der Abschnitt „Testmodus“ wurde aktualisiert. [Mehr dazu](../building-journeys/testing-the-journey.md)
-  <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html?lang=de).-->
+  <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).-->
 * Gestoppte Journeys können nun gelöscht werden. Die entsprechenden Seiten in der Dokumentation wurden aktualisiert.
 * Wenn in einer Journey Probleme erkannt werden, werden nun zwei Farben angezeigt. Rot steht für Fehler und orange für Warnungen. [Weitere Informationen](../about/troubleshooting.md)
 * Der Abschnitt zum erweiterten Ausdruckseditor wurde aktualisiert. [Weitere Informationen](../expression/expressionadvanced.md).
