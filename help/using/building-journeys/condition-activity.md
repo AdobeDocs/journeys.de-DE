@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: Bedingungsaktivität
+title: Aktivität des Typs „Bedingung“
 description: Erfahren Sie mehr über Bedingungsaktivitäten
 feature: Journeys
 role: User
@@ -8,12 +8,12 @@ level: Intermediate
 exl-id: 7b44edbe-9d05-4d67-8a64-2a0a553fcb92
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: ht
-source-wordcount: '894'
+source-wordcount: '916'
 ht-degree: 100%
 
 ---
 
-# Bedingungsaktivität{#section_e2n_pft_dgb}
+# Aktivität des Typs „Bedingung“{#section_e2n_pft_dgb}
 
 
 >[!CAUTION]
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 Es stehen vier Bedingungstypen zur Verfügung:
 
-* [Bedingung der Datenquelle](#data_source_condition)
+* [Datenquellenbedingung](#data_source_condition)
 * [Bedingung für die Uhrzeit](#time_condition)
 * [Prozentuale Aufspaltung](#percentage_split)
 * [Bedingung für das Datum](#date_condition)
@@ -36,7 +36,7 @@ Es stehen vier Bedingungstypen zur Verfügung:
 
 ## Informationen zu Bedingungsaktivitäten {#about_condition}
 
-Wenn Sie mehrere Bedingungen in einer Journey verwenden, können Sie für jede dieser Bedingungen Titel definieren, um sie leichter zu identifizieren.
+Wenn Sie mehrere Bedingungen in einer Journey verwenden, können Sie für jede dieser Bedingungen Labels definieren, um sie leichter zu identifizieren.
 
 Klicken Sie auf **[!UICONTROL Pfad hinzufügen]**, wenn Sie mehrere Bedingungen definieren möchten. Für jede Bedingung wird der Arbeitsfläche nach der Aktivität ein neuer Pfad hinzugefügt.
 
@@ -50,10 +50,10 @@ Nehmen wir beispielsweise die Bedingung eines ersten Pfads „Die Person ist ein
 
 Sie können einen anderen Pfad für Zielgruppen erstellen, für die die definierten Bedingungen nicht gelten, indem Sie die Option **[!UICONTROL Pfad für andere Fälle als die obigen zeigen]** aktivieren. Beachten Sie, dass diese Option in Bedingungen für die Aufspaltung nicht verfügbar ist. Siehe [Prozentuale Aufspaltung](#percentage_split).
 
-Im einfachen Modus können Sie einfache Abfragen anhand einer Kombination von Feldern durchführen. Alle verfügbaren Felder werden auf der linken Seite des Bildschirms angezeigt. Ziehen Sie Felder per Drag-and-Drop in den Hauptbereich. Um die verschiedenen Elemente zu kombinieren, verschachteln Sie diese, um Gruppen und/oder Gruppenebenen zu erstellen. Definieren Sie dann einen logischen Operator zwischen Elementen desselben Niveaus:
+Im einfachen Modus können Sie einfache Abfragen anhand einer Kombination von Feldern durchführen. Alle verfügbaren Felder werden auf der linken Seite des Bildschirms angezeigt. Felder per Drag-and-Drop in den Hauptbereich ziehen. Um die verschiedenen Elemente zu kombinieren, diese verschachteln, um Gruppen und/oder Gruppenebenen zu erstellen. Definieren Sie dann einen logischen Operator zwischen Elementen desselben Niveaus:
 
 * UND bildet die Schnittmenge aus zwei Kriterien. Nur Elemente, die allen Kriterien entsprechen, werden berücksichtigt.
-* ODER bildet die Vereinigungsmenge aus zwei Kriterien. Elemente, die wenigstens einem der Kriterien entsprechen, werden berücksichtigt.
+* ODER bildet die Vereinigungsmenge aus zwei Kriterien. Elemente, die mindestens einem der Kriterien entsprechen, werden berücksichtigt.
 
 ![](../assets/journey64.png)
 
@@ -62,19 +62,19 @@ Wenn Sie zur Erstellung Ihrer Segmente den [Segmentierungsdienst von Adobe Exper
 
 >[!NOTE]
 >
->Mit dem einfachen Editor können Sie keine Abfragen zu Zeitreihen (z. B. zu einer Liste der Käufe oder vergangenen Klicks auf Nachrichten) durchführen. Dazu müssen Sie den erweiterten Editor verwenden.  Weitere Informationen finden Sie auf [dieser Seite](../expression/expressionadvanced.md).
+>Mit dem einfachen Editor können Sie keine Abfragen zu Zeitreihen (z. B. zu einer Liste der Käufe oder vergangenen Klicks auf Nachrichten) durchführen. Dazu müssen Sie den erweiterten Editor verwenden. Weitere Informationen finden Sie auf [dieser Seite](../expression/expressionadvanced.md).
 
 Wenn in einer Aktion oder einer Bedingung ein Fehler auftritt, wird die Journey des Kontakts gestoppt. Die einzige Möglichkeit zum Fortsetzen des Vorgangs besteht darin, das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** zu aktivieren. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/using-the-journey-designer.md#paths).
 
-Im einfachen Editor finden Sie auch die Kategorie „Journey-Eigenschaften“ unter den Kategorien „Ereignis“ und „Datenquelle“. Diese Kategorie enthält technische Felder, die sich auf die Journey eines bestimmten Profils beziehen.  Dabei handelt es sich um die Informationen, die das System von Live-Journeys abruft, wie z. B. die Journey-ID oder die aufgetretenen Fehler. Weitere Informationen finden Sie auf [dieser Seite](../expression/journey-properties.md).
+Im einfachen Editor finden Sie auch die Kategorie „Journey-Eigenschaften“ unter den Kategorien „Ereignis“ und „Datenquelle“. Diese Kategorie enthält technische Felder, die sich auf die Journey eines bestimmten Profils beziehen. Dabei handelt es sich um die Informationen, die das System von Live-Journeys abruft, wie z. B. die Journey-ID oder die aufgetretenen Fehler. Weitere Informationen finden Sie auf [dieser Seite](../expression/journey-properties.md).
 
-## Bedingung der Datenquelle {#data_source_condition}
+## Datenquellenbedingung {#data_source_condition}
 
 Auf diese Weise können Sie eine Bedingung basierend auf Feldern aus den Datenquellen oder den zuvor in der Journey positionierten Ereignissen definieren. Informationen zur Verwendung des Ausdruckseditors finden Sie auf [dieser Seite](../expression/expressionadvanced.md). Mit dem erweiterten Ausdruckseditor können Sie erweiterte Bedingungen zur Bearbeitung von Sammlungen oder zur Verwendung von Datenquellen einrichten, für die Parameter übergeben werden müssen. Weitere Informationen finden Sie auf [dieser Seite](../datasource/external-data-sources.md).
 
 ![](../assets/journey50.png)
 
-## Bedingung für die Uhrzeit{#time_condition}
+## Zeitbedingung{#time_condition}
 
 Auf diese Weise können Sie je nach Tageszeit und/oder Wochentag unterschiedliche Aktionen durchführen. So können Sie beispielsweise entscheiden, an Werktagen tagsüber SMS-Nachrichten und nachts E-Mails zu versenden.
 
@@ -111,7 +111,7 @@ Auf diese Weise können Sie basierend auf dem Datum einen jeweils anderen Fluss 
 
 Use this condition type to set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path.
 
-You can use this condition type to ramp up the volume of your deliveries. For example, you might have recently moved to another email service provider, IP address, or email domain or subdomain. Using this feature, you can establish your reputation as a sender and avoid that your deliveries be blocked or moved to the spam folder of the recipients' mailbox. Learn how to increase your email reputation with IP warming in the [Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=de){target="_blank"}.
+You can use this condition type to ramp up the volume of your deliveries. For example, you might have recently moved to another email service provider, IP address, or email domain or subdomain. Using this feature, you can establish your reputation as a sender and avoid that your deliveries be blocked or moved to the spam folder of the recipients' mailbox. Learn how to increase your email reputation with IP warming in the [Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html){target="_blank"}.
 
 The default cap is 1000. You must set an integer value that is greater than or equal to 1.
 

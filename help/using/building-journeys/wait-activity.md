@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
 source-git-commit: 58514d6757f9705f5baa71cfbbe0bdfe65c8e16c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '426'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 99%
 Wenn Sie warten möchten, bevor Sie die nächste Aktivität im Pfad ausführen, können Sie eine **[!UICONTROL Warteaktivität]** verwenden. Sie können den Zeitpunkt festlegen, zu dem die nächste Aktivität ausgeführt wird. Drei Optionen stehen zur Wahl:
 
 * [Dauer](#duration)
-* [Custom](#custom)
+* [Benutzerdefiniert](#custom)
   <!--* [Email send time optimization](#email_send_time_optimization)-->
 
 ## Informationen zur Warteaktivität{#about_wait}

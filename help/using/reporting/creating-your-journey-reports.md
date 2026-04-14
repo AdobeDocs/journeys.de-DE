@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 0d2417e9-5b3f-442d-a00d-8b4df239d952
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: ht
-source-wordcount: '944'
+source-wordcount: '960'
 ht-degree: 100%
 
 ---
@@ -68,7 +68,7 @@ So greifen Sie auf die Berichte zu Ihren Journeys zu und beginnen damit, den Erf
 
 ### Leeres Panel hinzufügen {#adding-a-blank-panel}
 
-Um mit der Berichterstellung zu beginnen, fügen Sie einem vordefinierten oder benutzerdefinierten Bericht Panels hinzu. Jedes Panel enthält unterschiedliche Datensätze und besteht aus Freiformtabellen und Visualisierungen.
+Um mit der Berichterstellung zu beginnen, fügen Sie einem vordefinierten oder benutzerdefinierten Bericht Panels hinzu. Jedes Bedienfeld enthält unterschiedliche Datensätze und besteht aus Freiformtabellen und Visualisierungen.
 
 In diesen Panels können Sie nach Bedarf Ihre Berichte erstellen. Sie können beliebig viele Panels in Ihre Berichte einfügen, um Ihre Daten nach unterschiedlichen Zeiträumen zu filtern.
 
@@ -80,9 +80,9 @@ In diesen Panels können Sie nach Bedarf Ihre Berichte erstellen. Sie können be
 
    ![](../assets/dynamic_report_panel.png)
 
-Dann können Sie eine Freiformtabelle in Ihr Panel einfügen, um mit der Datensuche zu beginnen.
+Dann können Sie eine Freiformtabelle in Ihr Bedienfeld einfügen, um mit der Datensuche zu beginnen.
 
-### Freiformtabelle hinzufügen            {#adding-a-freeform-table}
+### Freiformtabelle hinzufügen {#adding-a-freeform-table}
 
 Mit Freiformtabellen kann eine Tabelle erstellt werden, in der Daten unter Verwendung der unterschiedlichen Messwerte und Dimensionen im Bereich **[!UICONTROL Komponente]** analysiert werden.
 
@@ -108,9 +108,9 @@ Die Größe jeder Tabelle und Grafik kann entsprechend Ihrem Bericht geändert u
 
    Die **[!UICONTROL Spalteneinstellungen]** beinhalten folgende Optionen:
 
-   * **[!UICONTROL Zahl]**: Ermöglicht das Anzeigen oder Verbergen der Zusammenfassungszahlen in der Spalte.
+   * **[!UICONTROL Anzahl]**: Ermöglicht das Anzeigen oder Verbergen der Anzahl der Zusammenfassungen in der Spalte
    * **[!UICONTROL Prozent]**: Ermöglicht das Anzeigen oder Verbergen der Prozentwerte in der Spalte.
-   * **[!UICONTROL Null als keinen Wert auffassen]**: Ermöglicht es, den Wert null anzuzeigen oder zu verbergen.
+   * **[!UICONTROL Null als keinen Wert auffassen]**: Ermöglicht es, den Wert Null anzuzeigen oder zu verbergen.
    * **[!UICONTROL Hintergrund]**: Ermöglicht das Anzeigen oder Verbergen des Fortschrittsbalkens in Zellen.
    * **[!UICONTROL Wiederholungsversuche einbeziehen]**: Ermöglicht das Einbeziehen von weiteren Zustellversuchen in das Ergebnis. Diese Option ist nur bei **[!UICONTROL Gesendet]** und **[!UICONTROL Bounces + Fehler]** verfügbar.
 

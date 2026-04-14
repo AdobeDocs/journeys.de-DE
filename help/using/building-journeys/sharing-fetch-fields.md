@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 4df471ae-c6b7-452e-8e44-a108d0da276f
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: ht
-source-wordcount: '422'
+source-wordcount: '430'
 ht-degree: 100%
 
 ---
@@ -69,7 +69,7 @@ Eine Zeitüberschreitung kann in zwei Fällen auftreten:
 * beim ersten Versuch der Ausführung der Aktion; in diesem Fall ist die Ausführung noch nicht abgeschlossen, sodass kein zugrunde liegender Fehler vorliegt.
 * bei einer Wiederholung; in diesem Fall beschreibt der ActionExecOrigError/actionExecOrigErrorCode den Fehler, der beim Versuch vor der Wiederholung aufgetreten ist.
 
-Beispielsweise werden Daten vom Unified Profil Service abgerufen und wird beim ersten Versuch ein HTTP 500-Fehler zurückgegeben. Der Abruf wird erneut versucht, aber die Dauer der zwei Versuche liegt über der Zeitüberschreitung. Dann wird die Aktionsausführung als Zeitüberschreitung markiert. Der Aktionsteil sieht wie folgt aus:
+Beispielsweise werden Daten vom Unified Profil Service abgerufen und wird beim ersten Versuch ein HTTP 500-Fehler zurückgegeben. Der Abruf wird erneut versucht, aber die Dauer der zwei Versuche liegt über dem Timeout. Dann wird die Aktionsausführung als Zeitüberschreitung markiert. Der Aktionsteil sieht wie folgt aus:
 
 ```
     ...

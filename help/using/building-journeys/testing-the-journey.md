@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: ht
-source-wordcount: '1635'
+source-wordcount: '1657'
 ht-degree: 100%
 
 ---
@@ -38,13 +38,13 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 
    ![](../assets/journeytest1.png)
 
-1. Verwenden Sie den Parameter **[!UICONTROL Wartezeit]** unten links, um die Zeit für jede Warteaktivität und die maximale Wartezeit für ein Ereignis im Testmodus zu definieren. Die Standardzeit für Wartezeiten und die maximale Wartezeit für Ereignisse beträgt 10 Sekunden. Dadurch erhalten Sie die Testergebnisse schnell. Dieser Parameter wird nur angezeigt, wenn Sie Ihrer Journey mindestens eine Warteaktivität hinzugefügt haben.
+1. Verwenden Sie den Parameter **[!UICONTROL Wartezeit]** unten links, um die Zeit für jede Warteaktivität und den Timeout für ein Ereignis im Testmodus zu definieren. Die Standardzeit für Wartezeiten und der Timeout für Ereignisse beträgt 10 Sekunden. Dadurch erhalten Sie die Testergebnisse schnell. Dieser Parameter wird nur angezeigt, wenn Sie Ihrer Journey mindestens eine Warteaktivität hinzugefügt haben.
 
    ![](../assets/journeytest_wait.png)
 
    >[!NOTE]
    >
-   >Wenn in einer Journey ein Reaktionsereignis mit einer maximalen Wartezeit verwendet wird, beträgt der Standard- und Mindestwert für die Wartezeit 40 Sekunden. Weitere Informationen finden Sie in diesem [Abschnitt](../building-journeys/reaction-events.md).
+   >Wenn in einer Journey ein Reaktionsereignis mit einem Timeout verwendet wird, beträgt der Standard- und Mindestwert für die Wartezeit 40 Sekunden. Weitere Informationen finden Sie in diesem [Abschnitt](../building-journeys/reaction-events.md).
 
 1. Klicken Sie auf **[!UICONTROL Ereignis auslösen]**, um Ereignisse zu konfigurieren und an die Journey zu senden.
 
@@ -144,13 +144,13 @@ Als Voraussetzung müssen Sie wissen, welche Profile in Adobe Experience Platfor
 
 >[!NOTE]
 >
->Für Felder, bei denen eine Auflistung erwartet wird, wird eine Dropdown-Liste angezeigt. Wählen Sie einfach einen der verfügbaren Werte aus.
+>Für Felder, bei denen eine Aufzählung erwartet wird, wird eine Dropdown-Liste angezeigt. Wählen Sie einfach einen der verfügbaren Werte aus.
 
 Wenn Ihre Journey mehrere Ereignisse enthält, wählen Sie ein Ereignis aus der Dropdown-Liste aus. Konfigurieren Sie dann für jedes Ereignis die weitergeleiteten Felder und die Ausführung des Ereignisversands. Über die Benutzeroberfläche können Sie die richtigen Informationen in der Ereignis-Payload angeben und prüfen, ob der Informationstyp korrekt ist. Der Testmodus speichert die zuletzt in einer Testsitzung verwendeten Parameter zur späteren Verwendung.
 
 ![](../assets/journeytest4.png)
 
-Über die Benutzeroberfläche können Sie einfache Ereignisparameter übergeben. Wenn Sie Sammlungen oder andere erweiterte Objekte in dem Ereignis verwenden möchten, können Sie auf **[!UICONTROL Code-Ansicht]** klicken, um den gesamten Code der Payload anzuzeigen und zu ändern. Beispielsweise können Sie die von einem technischen Anwender erstellten Ereignisinformationen kopieren und einfügen.
+Über die Benutzeroberfläche können Sie einfache Ereignisparameter übergeben. Wenn Sie Sammlungen oder andere erweiterte Objekte in dem Ereignis verwenden möchten, können Sie auf **[!UICONTROL Code-Ansicht]** klicken, um den gesamten Code der Payload anzuzeigen und zu ändern. Beispielsweise können Sie die von technischen Anwendenden erstellten Ereignisinformationen kopieren und einfügen.
 
 ![](../assets/journeytest5.png)
 
@@ -189,7 +189,7 @@ Mit der Schaltfläche **[!UICONTROL Protokoll anzeigen]** können Sie die Tester
 Die Anzahl der Kontakte (technisch gesehen handelt es sich um Instanzen), die sich derzeit innerhalb der Journey befinden, wird angezeigt. Außerdem finden Sie hier nützliche Informationen zu jedem Kontakt:
 
 * _ID_: die interne ID des Kontakts in der Journey. Diese kann zum Debugging verwendet werden.
-* _currentstep_: der Schritt, in dem sich der Kontakt in der Journey befindet. Es wird empfohlen, Ihren Aktivitäten Titel zu geben, damit Sie sie leichter identifizieren können.
+* _currentstep_: der Schritt, in dem sich der Kontakt in der Journey befindet. Es wird empfohlen, Ihren Aktivitäten Labels zu geben, damit Sie sie leichter identifizieren können.
 * _currentstep_ > phase: der Status der Journey des Kontakts (Läuft, Abgeschlossen, Fehler, Zeitüberschreitung). Weitere Informationen finden Sie unten.
 * _currentstep_ > _extraInfo_: Beschreibung des Fehlers und andere kontextuelle Informationen.
 * _currentstep_ > _fetchErrors_: Informationen zu Datenfehlern beim Abrufen, die während dieses Schritts aufgetreten sind.

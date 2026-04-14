@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: Segmentqualifizierungsereignisse
+title: Segmentqualifikationsereignisse
 description: Mehr über Segmentqualifikationsereignisse
 feature: Journeys
 role: User
@@ -8,12 +8,12 @@ level: Intermediate
 exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: ht
-source-wordcount: '854'
+source-wordcount: '887'
 ht-degree: 100%
 
 ---
 
-# Segmentqualifizierungsereignisse {#segment-qualification}
+# Segmentqualifikationsereignisse {#segment-qualification}
 
 
 >[!CAUTION]
@@ -40,11 +40,11 @@ Diese Art von Ereignis kann als erster Schritt oder auch später in der Journey 
 >Wenn das ausgewählte Segment gestreamt wird, treten die zu diesem Segment gehörenden Kontakte in Echtzeit in die Journey ein. Wenn es sich bei dem Segment um ein Batch-Segment handelt, treten für dieses Segment neu qualifizierte Personen in die Journey ein, wenn die Segmentberechnung in Adobe Experience Platform ausgeführt wird.
 
 
-1. Erweitern Sie die Kategorie **[!UICONTROL Ereignisse]** und legen Sie eine Aktivität vom Typ **[!UICONTROL Segmentqualifizierung]** auf Ihrer Arbeitsfläche ab.
+1. Erweitern Sie die Kategorie **[!UICONTROL Ereignisse]** und legen Sie eine Aktivität vom Typ **[!UICONTROL Segmentqualifikation]** auf Ihrer Arbeitsfläche ab.
 
    ![](../assets/segment5.png)
 
-1. Fügen Sie der Aktivität einen **[!UICONTROL Titel]** hinzu. Dieser Schritt ist optional.
+1. Fügen Sie der Aktivität ein **[!UICONTROL Label]** hinzu. Dieser Schritt ist optional.
 
 1. Klicken Sie in das Feld **[!UICONTROL Segment]** und wählen Sie die gewünschten Segmente aus.
 
@@ -76,7 +76,7 @@ Die Payload enthält die folgenden Kontextinformationen, die Sie in Bedingungen 
 * Zeitstempel der Qualifizierung
 * Segmentkennung
 
-Wenn Sie den Ausdruckseditor in einer Bedingung oder Aktion verwenden, die einer Aktivität vom Typ **[!UICONTROL Segmentqualifikation]** folgt, können Sie auf den Knoten **[!UICONTROL SegmentQualification]** zugreifen. Sie können zwischen der **[!UICONTROL letzten Qualifikationszeit]** und dem **[!UICONTROL Status]** (Einstieg oder Ausstieg) wählen.
+Wenn Sie den Ausdruckseditor in einer Bedingung oder Aktion verwenden, die einer Aktivität vom Typ **[!UICONTROL Segmentqualifikation]** folgt, können Sie auf den Knoten **[!UICONTROL SegmentQualification]** zugreifen. Sie können zwischen der **[!UICONTROL letzten Qualifizierungszeit]** und dem **[!UICONTROL Status]** (Einstieg oder Ausstieg) wählen.
 
 Siehe [Bedingungsaktivität](../building-journeys/condition-activity.md#about_condition).
 

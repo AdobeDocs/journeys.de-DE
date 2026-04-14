@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: Aktualisieren von Profilen
-description: Aktualisieren von Profilen
+title: Aktualisieren des Profils
+description: Aktualisieren des Profils
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: eaf2c795-0920-4b9c-9f06-801e43c1844b
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: ht
-source-wordcount: '392'
+source-wordcount: '400'
 ht-degree: 100%
 
 ---
 
-# Aktualisieren von Profilen {#update-profile}
+# Aktualisieren des Profils {#update-profile}
 
 
 >[!CAUTION]
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 Mit der Aktionsaktivität **[!UICONTROL Profil aktualisieren]** können Sie ein vorhandenes Adobe Experience Platform-Profil mit Informationen aus dem Ereignis, aus einer Datenquelle oder mit einem bestimmten Wert aktualisieren.
 
-## Wichtige Hinweise     
+## Wichtige Hinweise
 
 * Die Aktion **Profil aktualisieren** kann nur in Journeys verwendet werden, die mit einem Ereignis beginnen, das über einen Namespace verfügt.
 * Die Aktion aktualisiert nur die vorhandenen Felder, sie erstellt keine neuen Profilfelder.
@@ -38,7 +38,7 @@ Mit der Aktionsaktivität **[!UICONTROL Profil aktualisieren]** können Sie ein 
 
 ## Verwenden der Profilaktualisierung
 
-1. Entwerfen Sie Ihre Journey, indem Sie mit einem Ereignis beginnen. Weitere Informationen finden Sie in diesem [Abschnitt](../building-journeys/journey.md).
+1. Entwerfen Sie Ihre Journey, indem Sie mit einem Ereignis beginnen. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/journey.md).
 
 1. Legen Sie im Abschnitt **Aktion** der Palette die Aktivität **Profil aktualisieren** auf der Arbeitsfläche ab.
 

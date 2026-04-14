@@ -8,7 +8,7 @@ level: Experienced
 exl-id: dda01de5-b865-4323-ac36-2e3d90d213ee
 source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: ht
-source-wordcount: '64'
+source-wordcount: '65'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ String
 
 | Parameter | type |
 |-------------|----------|
-| string | string |
+| string | Zeichenfolge |
 | beginIndex | integer |
 | endIndex | integer |
 

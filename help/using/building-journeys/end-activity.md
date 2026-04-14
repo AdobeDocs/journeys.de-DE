@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: c2352bbe-f6a3-4815-9c43-2e170b3ba84c
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: ht
-source-wordcount: '105'
+source-wordcount: '113'
 ht-degree: 100%
 
 ---
@@ -25,6 +25,6 @@ ht-degree: 100%
 
 
 
-Mit der **[!UICONTROL Endaktivität]** können Sie das Ende jedes Pfades der Journey markieren. Sie ist nicht obligatorisch, wird aber aus Gründen der besseren optischen Übersichtlichkeit empfohlen. Wenn die Journey mehrere Endaktivitäten hat, empfehlen wir, jedem Ende einen Titel hinzuzufügen, damit Berichte leichter verständlich sind. Weitere Informationen finden Sie auf [dieser Seite](../reporting/about-journey-reports.md).
+Mit der **[!UICONTROL Endaktivität]** können Sie das Ende jedes Pfades der Journey markieren. Sie ist nicht obligatorisch, wird aber aus Gründen der besseren optischen Übersichtlichkeit empfohlen. Wenn die Journey mehrere Endaktivitäten hat, empfehlen wir, jedem Ende ein Label hinzuzufügen, damit Berichte leichter verständlich sind. Weitere Informationen finden Sie auf [dieser Seite](../reporting/about-journey-reports.md).
 
 ![](../assets/journey54.png)

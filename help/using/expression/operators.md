@@ -8,7 +8,7 @@ level: Experienced
 exl-id: fd86b6ab-76cf-4b35-9e87-f441e914f20b
 source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: ht
-source-wordcount: '504'
+source-wordcount: '514'
 ht-degree: 100%
 
 ---
@@ -47,7 +47,7 @@ Es gibt zwei Arten von Operatoren: unäre Operatoren und binäre Operatoren. Es 
    * Das folgende Beispiel ist korrekt: `3.0 * 4.0`
    * `3 * 4.0` führt zu einem Fehler
 
-## Logisch        {#logical}
+## Logisch  {#logical}
 
 ### und
 

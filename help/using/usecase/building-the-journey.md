@@ -1,14 +1,14 @@
 ---
 product: adobe campaign
 title: Erstellen einer Journey – Fortgeschritten
-description: 'Erfahren Sie, wie Sie eine Journey für den fortgeschrittenen Anwendungsfall erstellen '
+description: Erfahren Sie, wie Sie eine Journey für den fortgeschrittenen Anwendungsfall erstellen
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: cca6ed3c-e151-4494-9e2d-9ed504bfc54b
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: ht
-source-wordcount: '968'
+source-wordcount: '978'
 ht-degree: 100%
 
 ---

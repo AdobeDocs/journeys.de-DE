@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 7f756ec5-d787-4024-aaf8-5b4f1d4ddece
 source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: ht
-source-wordcount: '187'
+source-wordcount: '204'
 ht-degree: 100%
 
 ---
@@ -33,7 +33,7 @@ Segmente können drei Status haben:
 
 Nur Personen mit den Segmentteilnahmestatus **Realisiert** und **Vorhanden** werden als Mitglieder des Segments betrachtet. Weitere Informationen zum Auswerten eines Segments finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=de#interpret-segment-results).
 
-`IF inSegment('segmentName') == true` bedeutet, dass Sie eine segmentMembership mit dem Status „eingetreten/vorhanden“ haben. 
+`IF inSegment('segmentName') == true` bedeutet, dass Sie eine segmentMembership mit dem Status „eingetreten/vorhanden“ haben.
 
 `ELSE inSegment('segmentName') == false` bedeutet, dass Sie über eine segmentMitgliedschaft mit dem Status „beendet“ haben.
 

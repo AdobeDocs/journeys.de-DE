@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: ffec0d42-8632-4806-97df-da2a2372ca53
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: ht
-source-wordcount: '762'
+source-wordcount: '786'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 100%
 >**Sie möchten mehr über Adobe Journey Optimizer erfahren**? Klicken Sie [hier](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/ajo-home){target="_blank"}, um auf die Journey Optimizer-Dokumentation zuzugreifen.
 >
 >
->_Diese Dokumentation bezieht sich auf veraltete Materialien zu Journey Orchestration, das durch Journey Optimizer ersetzt wurde. Wenden Sie sich an Ihr Accountteam, wenn Sie Fragen zu Ihrem Zugriff auf Journey Orchestration oder Journey Optimizer haben._
+>_Diese Dokumentation bezieht sich auf veraltete Journey Orchestration-Materialien, die durch Journey Optimizer ersetzt wurden. Wenden Sie sich an Ihr Accountteam, wenn Sie Fragen zu Ihrem Zugriff auf Journey Orchestration oder Journey Optimizer haben._
 
 
 

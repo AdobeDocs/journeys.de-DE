@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 2d1b9d6b-0a53-436c-b251-ce77cb931aaa
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: ht
-source-wordcount: '427'
+source-wordcount: '437'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ Mit den Optionen **[!UICONTROL Stoppen]** und **[!UICONTROL Für neue Eintritte 
 
 Sie können eine Journey manuell schließen. In diesem Fall können Kundinnen und Kunden, die sich bereits in der Journey befinden, ihren Pfad bis zum Ende verfolgen, neue Anwenderinnen und Anwender können jedoch nicht in die Journey eintreten.
 
-Wenn eine Journey geschlossen ist, weist sie den Status **[!UICONTROL Geschlossen (kein Eintritt)]** auf. Nach der standardmäßigen globalen maximalen Wartezeit von 30 Tagen wechselt die Journey zum Status **Beendet**. Weitere Informationen finden Sie in diesem [Abschnitt](../building-journeys/changing-properties.md#entrance).
+Wenn eine Journey geschlossen ist, weist sie den Status **[!UICONTROL Geschlossen (kein Eintritt)]** auf. Nach dem standardmäßigen globalen Timeout von 30 Tagen wechselt die Journey zum Status **Beendet**. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/changing-properties.md#entrance).
 
 Eine geschlossene Journey-Version kann weder neu gestartet noch gelöscht werden. Stattdessen können Sie eine neue Version davon erstellen oder sie duplizieren. Nur abgeschlossene Journeys können gelöscht werden.
 
@@ -58,7 +58,7 @@ Alternativ können Sie auch folgendermaßen vorgehen:
 
 Sie können eine Journey stoppen, wenn ein unerwartetes Ereignis eintritt und die gesamte Verarbeitung der Journey unverzüglich abgebrochen werden muss.
 
-Eine gestoppte Journey-Version kann nicht nochmals gestartet werden.
+Eine gestoppte Journey-Version kann nicht neu gestartet werden.
 
 Wird eine Journey gestoppt, hat sie den Status **[!UICONTROL Gestoppt]**.
 

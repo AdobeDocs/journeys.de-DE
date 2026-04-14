@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 44499a09-19e2-4085-bf2f-7d9080ec382d
 source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: ht
-source-wordcount: '65'
+source-wordcount: '64'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ String
 | Parameter | Typ |
 |-----------|------------------|
 | Eingabezeichenfolge | Zeichenfolge |
-| Trennzeichenfolge | Zeichenfolge |
+| Trennzeichenfolge | string |
 
 ## Signaturen und zurückgegebener Typ
 

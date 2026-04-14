@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: f6897011-0a5e-4094-a18e-ba2aa25f902c
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: ht
-source-wordcount: '1083'
+source-wordcount: '1092'
 ht-degree: 100%
 
 ---
@@ -92,7 +92,8 @@ In der Tabelle unten finden Sie eine Liste der Metriken, die in Journey-Berichte
 
 ## Versandmetriken {#delivery-metrics}
 
-In der Tabelle unten finden Sie eine Liste der Metriken, die in Journey-Berichten verwendet werden, sowie ihrer Definitionen und Formeln.
+In der Tabelle unten finden Sie eine Liste der Metriken, die in Journey-
+Berichten verwendet werden, sowie ihrer Definitionen und Formeln.
 
 | Metrik | Definition |
 |--- |--- |

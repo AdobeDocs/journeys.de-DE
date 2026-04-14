@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 8b24abef-700d-4f68-a921-d7299c939439
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: ht
-source-wordcount: '364'
+source-wordcount: '375'
 ht-degree: 100%
 
 ---
@@ -45,7 +45,7 @@ Im Folgenden werden die wichtigsten Schritte beschrieben, die zum Konfigurieren 
 1. Fügen Sie Ihrer Aktion eine Beschreibung hinzu. Dieser Schritt ist optional.
 1. Die Anzahl der Journeys, die diese Aktion verwenden, wird im Feld **[!UICONTROL Verwendet in]** angezeigt. Sie können auf **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der Journeys, die diese Aktion verwenden, anzuzeigen.
 1. Definieren Sie die verschiedenen **[!UICONTROL URL-Konfigurations]**-Parameter. Weitere Informationen finden Sie auf [dieser Seite](../action/url-configuration.md).
-1. Konfigurieren Sie den Abschnitt **[!UICONTROL Authentifizierung]**. Diese Konfiguration entspricht der für Datenquellen. Weiterführende Informationen finden Sie in diesem [Abschnitt](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
+1. Konfigurieren Sie den Abschnitt **[!UICONTROL Authentifizierung]**. Diese Konfiguration entspricht der für Datenquellen.  Weitere Informationen finden Sie in [diesem Abschnitt](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
 1. Definieren Sie die **[!UICONTROL Aktionsparameter]**. Weitere Informationen finden Sie auf [dieser Seite](../action/defining-the-message-parameters.md).
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 

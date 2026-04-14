@@ -8,7 +8,7 @@ level: Beginner
 exl-id: fef039ae-c04d-4198-a082-4be27710255f
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: ht
-source-wordcount: '609'
+source-wordcount: '637'
 ht-degree: 100%
 
 ---
@@ -39,29 +39,27 @@ Im Zusammenhang mit der Verwendung von Journey Orchestration gibt es Einschränk
 
 ## Einschränkungen bei den Journey-Versionen {#journey-versions-limitations}
 
-* Eine Journey, die in Version 1 mit einer Ereignisaktivität beginnt, kann in weiteren Versionen nicht mit etwas anderem als einem Ereignis beginnen. Sie können eine Journey nicht mit einem **Segmentqualifizierungsereignis** starten.
-* Eine Journey, die in Version 1 mit einer **Segmentqualifizierungsaktivität** beginnt, muss in weiteren Versionen immer mit einer **Segmentqualifizierung** beginnen.
+* Eine Journey, die in Version 1 mit einer Ereignisaktivität beginnt, kann in weiteren Versionen nicht mit etwas anderem als einem Ereignis beginnen. Sie können eine Journey nicht mit einem **Segmentqualifikationsereignis** starten.
+* Eine Journey, die in Version 1 mit einer **Segmentqualifikationsaktivität** beginnt, muss in weiteren Versionen immer mit einer **Segmentqualifikation** beginnen.
 * Das Segment und der Namespace, die unter **Segmentqualifikation** (erster Knoten) ausgewählt wurden, können in neuen Versionen nicht geändert werden.
 * Die Regel für den Wiedereintritt muss in allen Journey-Versionen gleich sein.
 
 ## Segmentqualifikation {#segment-qualification}
 
-* Die **Segmentqualifikationsaktivität** kann aufgrund von Durchsatzbeschränkungen nicht zusammen mit Transaktionsnachrichten in Adobe Campaign Standard verwendet werden. Weitere Informationen finden Sie in der [Adobe Campaign Standard – Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/campaign-standard.html). 
-
- 
+* Die **Segmentqualifikationsaktivität** kann aufgrund von Durchsatzbeschränkungen nicht zusammen mit Transaktionsnachrichten in Adobe Campaign Standard verwendet werden. Weitere Informationen finden Sie in der [Adobe Campaign Standard – Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/campaign-standard.html). 
+ 
 ## Einschränkungen bei benutzerdefinierten Aktionen
 
 * Die URL einer benutzerdefinierten Aktion unterstützt keine dynamischen Parameter. 
 * Es werden nur POST- und PUT-Aufrufmethoden unterstützt. 
-* Der Name des Abfrageparameters oder der Kopfzeile darf nicht mit &quot;.&quot; beginnen oder &quot;$&quot;. 
+* Der Name des Abfrageparameters oder der Kopfzeile darf nicht mit „.“ oder &quot;$&quot;. 
 * IP-Adressen sind nicht zulässig. 
-* Interne Adobe-Adressen (.adobe.) sind nicht zulässig.
+* Interne Adobe-Adressen (.adobe.)sind nicht zulässig.
  
 ## Einschränkungen bei Adobe Campaign-Aktionen
 
-* Transaktionsnachrichten in Adobe Campaign Standard sind für eine bestimmte Instanz auf maximal 50.000 Nachrichten pro Stunde über alle Kanäle hinweg begrenzt. Weitere Informationen finden Sie in der [Adobe Campaign Standard – Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/campaign-standard.html). 
-
- 
+* Transaktionsnachrichten in Adobe Campaign Standard sind für eine bestimmte Instanz auf maximal 50.000 Nachrichten pro Stunde über alle Kanäle hinweg begrenzt. Weitere Informationen finden Sie in der [Adobe Campaign Standard – Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/campaign-standard.html). 
+ 
 ## Einschränkungen bei Ereignissen
 
 * Für systemgenerierte Ereignisse müssen Streaming-Daten, die zur Initiierung einer Customer Journey verwendet werden, zunächst innerhalb von Journey Orchestration konfiguriert werden, um eine eindeutige Orchestrierungs-ID zu erhalten. Diese Orchestrierungs-ID muss an die Streaming-Payload angehängt werden, die in Adobe Experience Platform eingeht. Diese Einschränkung gilt nicht für regelbasierte Ereignisse.

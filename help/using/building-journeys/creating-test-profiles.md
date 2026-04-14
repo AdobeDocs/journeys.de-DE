@@ -5,7 +5,7 @@ description: Erfahren Sie mehr über die Erstellung von Testprofilen
 exl-id: f1be46a8-04b9-4f40-b18e-9099099d2e1c
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: ht
-source-wordcount: '732'
+source-wordcount: '796'
 ht-degree: 100%
 
 ---
@@ -80,14 +80,14 @@ Anschließend müssen Sie **den Datensatz erstellen**, in den die Profile import
 In Adobe Experience Platform können Sie Profile erstellen, indem Sie eine CSV-Datei, die die verschiedenen Profilfelder enthält, in Ihren Datensatz hochladen. Dies ist die einfachste Methode.
 
 1. Erstellen Sie mit einer Tabellenkalkulations-Software eine einfache CSV-Datei.
-1. Fügen Sie für jedes erforderliche Feld eine Spalte hinzu. Stellen Sie sicher, dass Sie das primäre Identitätsfeld („personID“ in unserem Beispiel oben) und das Feld „testProfile“ auf „true“ gesetzt hinzufügen.
+1. Fügen Sie für jedes erforderliche Feld eine Spalte hinzu. Stellen Sie sicher, dass Sie das primäre Identitätsfeld („personID“ in unserem Beispiel oben) und das Feld „testProfile“ auf „wahr“ gesetzt hinzufügen.
    ![](../assets/test-profiles-11.png)
 1. Fügen Sie pro Profil eine Zeile hinzu und geben Sie die Werte für die einzelnen Felder ein.
    ![](../assets/test-profiles-12.png)
 1. Speichern Sie die Tabelle als CSV-Datei. Verwenden Sie als Trennzeichen Kommas.
 1. Klicken Sie in Adobe Experience Platform im linken Menü auf **[!UICONTROL Workflows]**.
    ![](../assets/test-profiles-14.png)
-1. Wählen Sie **[!UICONTROL CSV einem XDM-Schema zuordnen]** und klicken Sie dann auf **[!UICONTROL Starten]**.
+1. Wählen Sie **[!UICONTROL CSV-Datei einem XDM-Schema zuordnen]** und klicken Sie dann auf **[!UICONTROL Starten]**.
    ![](../assets/test-profiles-16.png)
 1. Wählen Sie den Datensatz aus, in den Sie die Profile importieren möchten. Klicken Sie auf **[!UICONTROL Weiter]**.
    ![](../assets/test-profiles-17.png)

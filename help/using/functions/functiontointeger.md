@@ -29,7 +29,7 @@ Konversion
 
 | Parameter | Beschreibung |
 |--- |--- |
-| Zeichenfolge | konvertiert den Zeichenfolgenwert in eine Ganzzahl |
+| string | konvertiert den Zeichenfolgenwert in eine Ganzzahl |
 | dateTime | konvertiert das Datum in die Zahl der Millisekunden (Millisekunden der Epoche) |
 | decimal | konvertiert in eine Ganzzahl, indem der Dezimalteil entfernt wird (Beispiel: 1.5 wird zu 1) |
 | boolean | wandelt den booleschen Wert in 1 um, wenn „true“, und in 0, wenn „false“ |

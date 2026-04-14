@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '464'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 96%
 >title="Informationen zu Ereignissen"
 >abstract="Ein Ereignis ist mit einer Person verbunden. Es bezieht sich auf das Verhalten einer Person oder auf etwas, was mit einer Person in Zusammenhang steht. Diese Ereignisse werden von [!DNL Journey Orchestration] in Journeys überwacht, um die nächsten besten Aktionen zu orchestrieren."
 
-Ein Ereignis ist mit einer Person verbunden. Es bezieht sich auf das Verhalten einer Person (z. B. eine Person hat ein Produkt gekauft, einen Shop besucht, eine Website verlassen usw.) Oder etwas, das mit einer Person in Verbindung steht (z. B. eine Person hat 10.000 Treuepunkte erreicht). Diese Ereignisse werden von [!DNL Journey Orchestration] in Journeys überwacht, um die nächsten besten Aktionen zu orchestrieren.
+Ein Ereignis ist mit einer Person verbunden. Es bezieht sich auf das Verhalten einer Person (z. B. eine Person hat ein Produkt gekauft, einen Shop besucht, eine Website verlassen usw.) oder auf ein Geschehen, das mit einer Person verknüpft ist (z. B. eine Person hat 10.000 Treuepunkte erreicht). Diese Ereignisse werden von [!DNL Journey Orchestration] in Journeys überwacht, um die nächsten besten Aktionen zu orchestrieren.
 
 Diese Konfiguration wird immer von einem **technischen Anwender** durchgeführt und ist **obligatorisch**, da [!DNL Journey Orchestration] dazu bestimmt ist, Ereignisse zu überwachen.
 

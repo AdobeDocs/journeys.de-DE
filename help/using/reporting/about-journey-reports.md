@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 93768321-b171-4338-a440-6ea189a85a4a
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: ht
-source-wordcount: '873'
+source-wordcount: '889'
 ht-degree: 100%
 
 ---
@@ -51,7 +51,7 @@ Im Tab **[!UICONTROL Bearbeiten]** haben Sie folgende Möglichkeiten:
 * **[!UICONTROL Wiederholen]**: Bricht die zuletzt im Dashboard ausgeführte **[!UICONTROL Rückgängig]**-Aktion ab.
 * **[!UICONTROL Alle löschen]**: Löscht alle Panels in Ihrem Dashboard.
 
-Im Tab **[!UICONTROL Einfügen]** können Sie Ihre Berichte anpassen, indem Sie Diagramme und Tabellen zum Dashboard hinzufügen:
+Im Tab **[!UICONTROL Einfügen]** können Sie Ihre Berichte anpassen, indem Sie Diagramme und Tabellen zu Ihrem Dashboard hinzufügen:
 
 * **[!UICONTROL Neues leeres Panel]**: Fügt ein neues leeres Panel zu Ihrem Dashboard hinzu.
 * **[!UICONTROL Neue Freiform]**: Fügt eine neue Freiformtabelle zu Ihrem Dashboard hinzu.

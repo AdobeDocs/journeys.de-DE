@@ -7,7 +7,7 @@ level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: ht
-source-wordcount: '1328'
+source-wordcount: '1341'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ Stellen Sie sicher, dass die in Ihren Abfragen verwendeten Felder im entsprechen
 
 Im Folgenden finden Sie eine Liste der Tracking-Datensätze und zugehörige Anwendungsfälle:
 
-**E-Mail-Tracking-Erlebnis-Ereignisdatensatz** (cjm_email_tracking_experience_event_dataset)
+**E-Mail-Tracking-Erlebnisereignis-Datensatz** (cjm_email_tracking_experience_event_dataset)
 
 Systemdatensatz für die Aufnahme von E-Mail-Tracking-Erlebnisereignissen aus Journey Optimizer.
 
@@ -101,7 +101,7 @@ order by
 limit 100;
 ```
 
-**Push-Tracking-Erlebnis-Ereignisdatensatz** (cjm_push_tracking_experience_event_dataset)
+**Push-Tracking-Erlebnisereignis-Datensatz** (cjm_push_tracking_experience_event_dataset)
 
 Datensatz für die Aufnahme von Mobile-Tracking-Erlebnisereignissen für Push- und In-App-Kanäle von Journey Optimizer.
 
@@ -331,7 +331,7 @@ Die Abfrage gibt für den definierten Zeitraum die tägliche Anzahl der Profile 
 
 ## Abfragen im Zusammenhang mit „Segment lesen“ {#read-segment-queries}
 
-**Dauer bis zum Fertigstellen eines Segmentexportvorgangs**
+**Dauer bis zum Fertigstellen eines Segmentexportauftrags**
 
 _Data-Lake-Abfrage_
 
@@ -361,7 +361,7 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finished')) AS export_job_runtime;
 ```
 
-Die Abfrage gibt die Zeitdifferenz in Minuten zurück, die zwischen dem Zeitpunkt liegt, zu dem der Segmentexportvorgang in die Warteschlange gestellt wurde, und dem Zeitpunkt, zu dem er beendet wurde.
+Die Abfrage gibt die Zeitdifferenz in Minuten zurück, die zwischen dem Zeitpunkt liegt, zu dem der Segmentexportauftrag in die Warteschlange gestellt wurde, und dem Zeitpunkt, zu dem er beendet wurde.
 
 **Anzahl der Profile, die von der Journey verworfen wurden, weil sie Duplikate waren**
 
@@ -449,7 +449,7 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NOT_A_TEST_PROFILE'
 ```
 
-Die Abfrage gibt alle Profil-IDs zurück, die von der Journey verworfen wurden, da der Exportvorgang im Testmodus ausgeführt wurde, das Attribut testProfile des Profils aber nicht auf „true“ gesetzt war.
+Die Abfrage gibt alle Profil-IDs zurück, die von der Journey verworfen wurden, da der Exportauftrag im Testmodus ausgeführt wurde, das Attribut testProfile des Profils aber nicht auf „true“ gesetzt war.
 
 **Anzahl der Profile, die von der Journey aufgrund eines internen Fehlers verworfen wurden**
 
@@ -496,20 +496,20 @@ WHERE
 Es werden alle Service-Ereignisse im Zusammenhang mit der angegebenen Journey-Version zurückgegeben. Dabei kann auch die Abfolge der Vorgänge nachvollzogen werden:
 
 * Erstellung des Themas
-* Erstellung von Exportvorgängen
-* Beendigung der Exportvorgänge (mit Metriken zu exportierten Profilen)
+* Erstellung von Exportaufträgen
+* Beendigung der Exportaufträge (mit Metriken zu exportierten Profilen)
 * Abbruch der Worker-Verarbeitung
 
 Zusätzlich können Probleme identifiziert werden wie z. B.:
 
 * Fehler bei der Erstellung des Themas oder des Exportvorgangs (einschließlich Zeitüberschreitungen bei API-Aufrufen zum Segmentexport)
-* Blockierte Exportvorgänge (wenn für eine Journey-Version kein Ereignis zur Beendigung des Exportvorgangs vorhanden ist)
-* Worker-Probleme, wenn ein Beendigungsereignis zum Exportvorgang, aber kein Beendigungsereignis zur Worker-Verarbeitung empfangen wurde.
+* Blockierte Exportaufträge (wenn für eine Journey-Version kein Ereignis zur Beendigung des Exportauftrags vorhanden ist)
+* Worker-Probleme, wenn ein Beendigungsereignis zum Exportauftrag, aber kein Beendigungsereignis zur Worker-Verarbeitung empfangen wurde.
 
 WICHTIG: Wenn von dieser Abfrage kein Ereignis zurückgegeben wird, kann dies einen der folgenden Gründe haben:
 
 * Die Journey-Version hat die Planung nicht erreicht.
-* Die Journey-Version hätte den Exportvorgang durch Aufruf des Orchestrierers über einen Trigger auslösen sollen, aber im vorgelagerten Fluss ist ein Fehler aufgetreten: Problem bei der Journey-Bereitstellung, mit dem Geschäftsereignis oder mit der Planung.
+* Die Journey-Version hätte den Exportauftrag durch Aufruf des Orchestrierers über einen Trigger auslösen sollen, aber im vorgelagerten Fluss ist ein Fehler aufgetreten: Problem bei der Journey-Bereitstellung, mit dem Geschäftsereignis oder mit der Planung.
 
 **Abrufen von „Segment lesen“-Fehlern für eine bestimmte Journey-Version**
 
@@ -537,7 +537,7 @@ WHERE
     )
 ```
 
-**Abrufen des Verarbeitungsstatus für Exportvorgänge**
+**Abrufen des Verarbeitungsstatus für Exportaufträge**
 
 _Data-Lake-Abfrage_
 
@@ -563,10 +563,10 @@ WHERE
 
 Wenn kein Eintrag zurückgegeben wird, bedeutet dies, dass
 
-* bei der Erstellung des Themas oder des Exportvorgangs ein Fehler aufgetreten ist
-* der Exportvorgang noch ausgeführt wird
+* bei der Erstellung des Themas oder des Exportauftrags ein Fehler aufgetreten ist
+* der Exportauftrag noch ausgeführt wird
 
-**Abrufen von Metriken zu exportierten Profilen, einschließlich Verwerfen-Aktionen und Exportvorgangsmetriken für die einzelnen Exportvorgänge**
+**Abrufen von Metriken zu exportierten Profilen, einschließlich Verwerfen-Aktionen und Exportauftragsmetriken für die einzelnen Exportaufträge**
 
 _Data-Lake-Abfrage_
 
@@ -626,7 +626,7 @@ FROM
 WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 ```
 
-**Abrufen aggregierter Metriken (Segmentexportvorgänge und Verwerfen-Aktionen) für alle Exportvorgänge**
+**Abrufen aggregierter Metriken (Segmentexportaufträge und Verwerfen-Aktionen) für alle Exportaufträge**
 
 _Data-Lake-Abfrage_
 
@@ -687,7 +687,7 @@ WHERE T1.JOURNEYVERSION_ID = T2.JOURNEYVERSION_ID
 
 Diese Abfrage unterscheidet sich von der vorherigen.
 
-Es werden die Gesamtmetriken für eine bestimmte Journey-Version zurückgegeben, unabhängig von den Vorgängen, die dafür ausgeführt wurden (bei wiederkehrenden Journeys lösten Geschäftsereignisse diejenigen aus, die eine erneute Verwendung von Themen nutzten).
+Es werden die Gesamtmetriken für eine bestimmte Journey-Version zurückgegeben, unabhängig von den Aufträgen, die dafür ausgeführt wurden (bei wiederkehrenden Journeys lösten Geschäftsereignisse diejenigen aus, die eine erneute Verwendung von Themen nutzten).
 
 ## Abfragen im Zusammenhang mit der Segmentqualifikation {#segment-qualification-queries}
 
