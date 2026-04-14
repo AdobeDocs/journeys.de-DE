@@ -8,7 +8,7 @@ feature: Journeys
 source-git-commit: ecdfc92fc1516c55b2d16d270094e637a4245483
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 89%
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 89%
    + [Versionshinweise](using/release-notes/release-notes.md)
    + {hide-from-toc}[Dokumentation – Aktualisierungen](using/release-notes/documentation-updates.md)
    + {hide-from-toc}[Upgrade auf Journey Optimizer](using/release-notes/upgrade-to-ajo.md)
-+ Einstieg in [!DNL Journey Orchestration] {#starting-with-journeys}
++ Erste Schritte mit [!DNL Journey Orchestration] {#starting-with-journeys}
    + [Informationen zu  [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [Einschränkungen](using/about/limitations.md)
    + [Erste Schritte](using/about/get-started.md)
@@ -28,7 +28,7 @@ ht-degree: 89%
    + [Zugriffsverwaltung](using/about/access-management.md)
    + [Fehlerbehebung](using/about/troubleshooting.md)
    + [Integration mit externen Systemen](using/about/external-systems.md)
-+ Ereignis konfigurieren {#events-journeys}
++ Konfigurieren eines Ereignisses {#events-journeys}
    + Informationen zu Ereignissen {#about-events}
       + [Allgemeine Funktionsweise](using/event/about-events.md)
       + [Datenzyklus](using/event/about-data-cycle.md)
@@ -86,7 +86,7 @@ ht-degree: 89%
          + [Aktualisieren des Profils](using/building-journeys/update-profiles.md)
    + [Testen der Journey](using/building-journeys/testing-the-journey.md)
    + [Veröffentlichen der Journey](using/building-journeys/publishing-the-journey.md)
-   + Freigabe von Journey-Schritten mit Adobe Experience Platform {#sharing-journey-steps}
+   + Freigeben von Journey-Schritten mit Adobe Experience Platform {#sharing-journey-steps}
       + [Übersicht über die Freigabe von Journey-Schritten](using/building-journeys/sharing-overview.md)
       + [Liste für Schrittereignisfelder](using/building-journeys/sharing-field-list.md)
       + Veraltete Schrittereignisfelder {#legacy-step-event-fields}
