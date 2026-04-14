@@ -9,7 +9,7 @@ level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
 source-git-commit: 9fb1f031df4084b78cfca8a693098a36bfb51435
 workflow-type: ht
-source-wordcount: '206'
+source-wordcount: '270'
 ht-degree: 100%
 
 ---
@@ -29,13 +29,13 @@ ht-degree: 100%
 * **[Was ist Journey Orchestration?](using/about/about-journey-orchestration.md)**<br/>
 Weitere Informationen zu Journey Orchestration.
 
-* **[Erstellen Ihrer ersten Journey](using/about/get-started.md)**<br/>
-Entdecken Sie die wichtigsten Schritte zur Einrichtung von Journey Orchestration und zur Erstellung Ihrer ersten Journey.
+* **[Ihre erste Journey erstellen](using/about/get-started.md)**<br/>
+Entdecken Sie die wichtigsten Schritte zum Einrichten von Journey Orchestration und zum Erstellen Ihrer ersten Journey.
 
-* **[Konfigurieren eines Ereignisses](using/event/about-events.md#section_tbk_5qt_pgb)**<br/>
+* **[Ereignis konfigurieren](using/event/about-events.md#section_tbk_5qt_pgb)**<br/>
 Erfahren Sie, wie Sie die Ereignisse konfigurieren, auf die Ihre Journeys reagieren.
 
-* **[Entdecken Sie die neuen Funktionen](using/release-notes/release-notes.md)**<br/>
+* **[Neue Funktionen entdecken](using/release-notes/release-notes.md)**<br/>
 Erfahren Sie mehr über die neuesten Versionen.
 
 ## Wichtigste Seiten

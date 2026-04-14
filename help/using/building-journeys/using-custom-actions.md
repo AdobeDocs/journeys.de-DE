@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 9996d1eb-ddef-46dd-aaa9-c37fa9deb2f9
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: ht
-source-wordcount: '306'
+source-wordcount: '314'
 ht-degree: 100%
 
 ---
@@ -51,7 +51,7 @@ Die verkettete URL sieht folgendermaßen aus:
 
 ![](../assets/journey-custom-action-url.png)
 
-### Header
+### Kopfzeilen
 
 Im Abschnitt **[!UICONTROL URL-Konfiguration]** werden die dynamischen Header-Felder, jedoch nicht die konstanten Header-Felder angezeigt. Dynamische Header-Felder sind HTTP-Header-Felder, deren Wert als Variable konfiguriert ist. [Weitere Informationen](../action/about-custom-action-configuration.md).
 

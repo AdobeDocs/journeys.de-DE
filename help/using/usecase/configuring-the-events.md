@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 90139c72-8fae-4e6e-a79b-7c510f41fe38
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: ht
-source-wordcount: '447'
+source-wordcount: '457'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ Weitere Informationen zur Ereigniskonfiguration finden Sie auf [dieser Seite](..
 
    ![](../assets/journeyuc2_1.png)
 
-1. Wählen Sie anschließend das Schema aus und definieren Sie die für das Ereignis erwartete Payload. Wählen Sie die erforderlichen Felder aus dem mit XDM normalisierten Modell. Sie benötigen die Experience Cloud-ID, um die Person in der Echtzeit-Kundenprofildatenbank zu identifizieren: endUserIDs > _experience > mcid > id.
+1. Anschließend wählen wir das Schema aus und definieren die für das Ereignis erwartete Payload. Wir wählen die erforderlichen Felder aus dem mit XDM normalisierten Modell. Sie benötigen die Experience Cloud-ID, um die Person in der Echtzeit-Kundenprofildatenbank zu identifizieren: endUserIDs > _experience > mcid > id.
 
    Außerdem benötigen Sie das Anmeldetoken, um Push-Benachrichtigungen senden zu können: _experience > campaign > message > profile > pushNotificationTokens > token.
 

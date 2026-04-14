@@ -4,7 +4,7 @@ title: Nutzen von Ermüdungswerten
 description: Erfahren Sie, wie Sie in Journeys Ermüdungswerte nutzen
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: ht
-source-wordcount: '262'
+source-wordcount: '283'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ Dieser Anwendungsfall zeigt, wie Sie Ermüdungswerte verwenden können, um zu ve
 
 Führen Sie die auf [dieser Seite](../event/about-events.md) beschriebenen Schritte aus.
 
-## Konfigurieren der Datenquelle  {#section_o3n_4yy_wfb}
+## Konfigurieren der Datenquelle {#section_o3n_4yy_wfb}
 
 Führen Sie folgende Schritte aus, um die Ermüdungswertfelder in der integrierten Datenquelle auszuwählen:
 

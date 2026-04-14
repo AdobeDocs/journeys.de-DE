@@ -30,7 +30,7 @@ Liste
 | Parameter | Typ |
 |-----------|------------------|
 | Liste 1 | Liste |
-| Liste 2 | Liste  |
+| Liste 2 | Liste |
 
 ## Signaturen und zurückgegebene Typen
 

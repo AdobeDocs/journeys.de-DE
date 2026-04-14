@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: Arbeiten mit der Drosselungs-API
+title: Arbeiten mit der Einschränkungs-API
 description: Erfahren Sie mehr über die Drosselungs-API
 products: journeys
 feature: Journeys
@@ -9,12 +9,12 @@ level: Intermediate
 exl-id: 76afe397-3e18-4e01-9b0b-c21705927ce2
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: ht
-source-wordcount: '791'
+source-wordcount: '835'
 ht-degree: 100%
 
 ---
 
-# Arbeiten mit der Drosselungs-API
+# Arbeiten mit der Einschränkungs-API
 
 
 >[!CAUTION]
@@ -48,7 +48,7 @@ Mit der Drosselungs-API können Sie Ihre Drosselungskonfigurationen erstellen, k
 | [!DNL GET] | /throttlingConfigs/`{uid}` | Abrufen einer Drosselungskonfiguration |
 | [!DNL DELETE] | /throttlingConfigs/`{uid}` | Löschen einer Drosselungskonfiguration |
 
-## Drosselungskonfiguration{#configuration}
+## Drosselungskonfiguration {#configuration}
 
 Hier finden Sie die Struktur einer Drosselungskonfiguration. Die Attribute **name** und **description** sind optional.
 
@@ -91,7 +91,7 @@ Beim Erstellen oder Aktualisieren einer Konfiguration validiert der Prozess die 
 Beim Erstellen, Löschen oder Bereitstellen einer Drosselungskonfiguration können die folgenden Fehler auftreten:
 
 * **ERR_THROTTLING_CONFIG_100**: Drosselungskonfiguration: `<mandatory attribute>` erforderlich
-* **ERR_THROTTLING_CONFIG_101**: Drosselungskonfiguration: maxThroughput ist erforderlich und muss größer oder gleich 200 und kleiner oder gleich 5.000 sein.
+* **ERR_THROTTLING_CONFIG_101**: Drosselungskonfiguration: maxThroughput ist erforderlich und muss größer oder gleich 200 und kleiner oder gleich 5000 sein.
 * **ERR_THROTTLING_CONFIG_104**: Drosselungskonfiguration: fehlerhaftes URL-Muster
 * **ERR_THROTTLING_CONFIG_105**: Drosselungskonfiguration: Platzhalter sind im Host-Teil des URL-Musters nicht zulässig
 * **ERR_THROTTLING_CONFIG_106**: Drosselungskonfiguration: ungültige Payload

@@ -6,7 +6,7 @@ description: Senden von Nachrichten mit Campaign v7/v8
 exl-id: 717a927a-4357-4058-a626-1b69f4bb46bc
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: ht
-source-wordcount: '439'
+source-wordcount: '449'
 ht-degree: 100%
 
 ---
@@ -37,7 +37,7 @@ Ihre Campaign-Instanz muss für diese Integration bereitgestellt werden. Die Fun
 
 1. Melden Sie sich bei Ihrer Campaign-Kontrollinstanz an.
 
-1. Wählen Sie unter **Administration** > **Platform** > **Auflistungen** die Auflistung **Ereignistyp** (eventType) aus. Erstellen Sie einen neuen Ereignistyp (in unserem Beispiel „Journey-Ereignis“). Beim späteren Schreiben der JSON-Datei müssen Sie den internen Namen des Ereignistyps verwenden.
+1. Wählen Sie unter **Administration** > **Platform** > **Aufzählungen** die Aufzählung **Ereignistyp** (eventType) aus. Erstellen Sie einen neuen Ereignistyp (in unserem Beispiel „Journey-Ereignis“). Beim späteren Schreiben der JSON-Datei müssen Sie den internen Namen des Ereignistyps verwenden.
 
    ![](../assets/accintegration-uc-1.png)
 
@@ -70,7 +70,7 @@ Ihre Campaign-Instanz muss für diese Integration bereitgestellt werden. Die Fun
 
 * Beim Kanal geben Sie „E-Mail“ ein.
 * Verwenden Sie für eventType den internen Namen des zuvor erstellten Ereignistyps.
-* Die E-Mail-Adresse ist eine Variable, sodass Sie einen beliebigen Titel eingeben können.
+* Die E-Mail-Adresse ist eine Variable, sodass Sie ein beliebiges Label eingeben können.
 * Unter ctx sind die Personalisierungsfelder auch Variablen.
 
 **Journey Orchestration**

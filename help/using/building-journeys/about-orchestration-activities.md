@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 3c2de723-d990-43f5-b39d-2348de62bbcc
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: ht
-source-wordcount: '77'
+source-wordcount: '86'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 In der Palette auf der linken Seite des Bildschirms stehen die folgenden Orchestrierungsaktivitäten zur Verfügung:
 
-* [Bedingungsaktivität](../building-journeys/condition-activity.md)
+* [Aktivität des Typs „Bedingung“](../building-journeys/condition-activity.md)
 * [Endaktivität](../building-journeys/end-activity.md)
 * [Warteaktivität](../building-journeys/wait-activity.md)
 

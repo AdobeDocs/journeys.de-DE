@@ -6,7 +6,7 @@ description: Senden von Nachrichten mit Campaign v7/v8
 exl-id: 9ed62a74-3c51-4f15-af8a-d530ddf80b51
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: ht
-source-wordcount: '473'
+source-wordcount: '481'
 ht-degree: 100%
 
 ---
@@ -126,7 +126,7 @@ Sie können sehen, dass „Produkte“ ein Array von zwei Objekten ist. Sie müs
    >
    >Das erste Objekt des Payload-Beispiels wird verwendet, um die Felder zu definieren.
 
-1. Definieren Sie für jedes Feld den Titel, der auf der Journey-Arbeitsfläche angezeigt werden soll.
+1. Definieren Sie für jedes Feld das Label, das auf der Journey-Arbeitsfläche angezeigt werden soll.
 
    ![](../assets/uc-collection-2.png)
 

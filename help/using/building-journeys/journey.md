@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 540b5142-9323-4cc1-9b5a-3fa20a5945bf
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: ht
-source-wordcount: '610'
+source-wordcount: '624'
 ht-degree: 100%
 
 ---
@@ -76,7 +76,7 @@ Eine Journey kann aus den folgenden Gründen geschlossen werden:
 * Die Journey wird manuell über die Schaltfläche **[!UICONTROL Für neue Eintritte schließen]** geschlossen.
 * Das Enddatum des Journey wurde erreicht.
 
-Wenn eine Journey geschlossen wird (aus einem der oben genannten Gründe), weist sie den Status **[!UICONTROL Geschlossen]** auf. Die Journey stoppt den Eintritt neuer Personen in die Journey.  Personen, die sich bereits in der Journey befinden, beenden die Journey wie gewohnt. Nach der standardmäßigen globalen maximalen Wartezeit von 30 Tagen wechselt die Journey zum Status **Beendet**. Weitere Informationen finden Sie in diesem [Abschnitt](../building-journeys/changing-properties.md#entrance).
+Wenn eine Journey geschlossen wird (aus einem der oben genannten Gründe), weist sie den Status **[!UICONTROL Geschlossen]** auf. Die Journey stoppt den Eintritt neuer Personen in die Journey. Personen, die sich bereits in der Journey befinden, beenden die Journey wie gewohnt. Nach dem standardmäßigen globalen Timeout von 30 Tagen wechselt die Journey zum Status **Beendet**. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/changing-properties.md#entrance).
 
 Sie können nötigenfalls den Fortschritt aller Personen in einer Journey stoppen. In diesem Fall entsteht für alle Personen in der Journey eine Zeitüberschreitung.
 

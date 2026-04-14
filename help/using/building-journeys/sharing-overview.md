@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: ht
-source-wordcount: '519'
+source-wordcount: '547'
 ht-degree: 100%
 
 ---
@@ -40,7 +40,7 @@ Die Liste der weitergeleiteten XDM-Felder ist umfassend. Einige enthalten system
 >
 >Für den Echtzeit-Profildienst können keine Datensätze aktiviert werden. Stellen Sie sicher, dass der Umschalter **[!UICONTROL Profil]** deaktiviert ist.
 
-Journeys sendet Daten direkt im Streaming-Modus. Sie können diese Daten mit dem Query Service abfragen. Sie können eine Verbindung zu Customer Journey Analytics oder anderen BI-Tools herstellen, um Daten anzuzeigen, die mit diesen Schritten in Verbindung stehen.
+Journeys sendet Daten direkt im Streaming-Modus. Sie können diese Daten mit dem Abfrage-Service abfragen. Sie können eine Verbindung zu Customer Journey Analytics oder anderen BI-Tools herstellen, um Daten anzuzeigen, die mit diesen Schritten in Verbindung stehen.
 
 Die folgenden Schemata werden erstellt:
 
@@ -61,7 +61,7 @@ Die folgenden Datensätze werden übergeben:
 Die Listen der XDM-Felder, die an Adobe Experience Platform übergeben werden, werden hier beschrieben:
 
 * [Liste für Schrittereignisfelder](../building-journeys/sharing-field-list.md)
-* [Veraltete Felder für Step-Ereignisse](../building-journeys/sharing-legacy-fields.md)
+* [Veraltete Schrittereignisfelder](../building-journeys/sharing-legacy-fields.md)
 
 
 ## Integration mit Customer Journey Analytics{#integration-cja}

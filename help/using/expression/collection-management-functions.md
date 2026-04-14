@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 exl-id: e80b04fe-b2d3-4c1b-ba22-7e37a9ad1d57
 source-git-commit: 58514d6757f9705f5baa71cfbbe0bdfe65c8e16c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '622'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ In einer Aktivität des Typs „Bedingung der Datenquelle“ können Sie überpr
 
 **Beispiel 1:**
 
-Wir möchten überprüfen, ob ein Anwender eine bestimmte Version einer App installiert hat. Zu diesem Zweck rufen wir alle Push-Benachrichtigungs-Token für Mobile Apps mit der Version 1.0 ab. Anschließend führen wir eine Bedingung mit der Funktion **[!UICONTROL count]** aus, um zu überprüfen, ob die zurückgegebene Liste von Tokens mindestens ein Element enthält.
+Wir möchten überprüfen, ob ein Anwender eine bestimmte Version einer App installiert hat. Zu diesem Zweck rufen wir alle Push-Benachrichtigungs-Token für Apps mit der Version 1.0 ab.Anschließend führen wir eine Bedingung mit der Funktion **[!UICONTROL count]** aus, um zu überprüfen, ob die zurückgegebene Liste von Token mindestens ein Element enthält.
 
 ```json
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
@@ -171,7 +171,7 @@ The result will be:
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]** ist nur bei der Bearbeitung von Ereignisauflistungen und &quot;**&quot; verfügbar**
+>**[!UICONTROL currentEventField]** ist nur verfügbar, wenn Ereignissammlungen bearbeitet werden, und **currentDataPackField**
 >wenn Datenquellensammlungen bearbeitet werden. Bei der Verarbeitung von Sammlungen mit **[!UICONTROL all]**, **[!UICONTROL first]** und **[!UICONTROL last]** wird>jedes Element der Sammlung einzeln durchlaufen. **[!UICONTROL currentEventField]** und **currentDataPackField**
 >entsprechen dem Element, das in der Schleife verarbeitet wird.
 

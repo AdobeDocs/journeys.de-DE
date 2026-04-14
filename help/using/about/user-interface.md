@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
 source-git-commit: 58514d6757f9705f5baa71cfbbe0bdfe65c8e16c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1042'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ In den verschiedenen Listen können Sie grundlegende Aktionen für einzelne Elem
 
 Bei der Definition von [Ereignis-Payload](../event/defining-the-payload-fields.md), [Feldgruppen-Payload](../datasource/field-groups.md) und der Auswahl von Feldern im [Ausdruckseditor](../expression/expressionadvanced.md) wird der Anzeigename zusätzlich zum Feldnamen angezeigt. Diese Informationen werden aus der Schemadefinition im Experience-Datenmodell abgerufen.
 
-Wenn beim Einrichten von Schemata Deskriptoren wie &quot;:alternateDisplayInfo&quot; bereitgestellt werden, ersetzen die benutzerfreundlichen Namen Anzeigenamen. Dies ist besonders beim Arbeiten mit „eVars“und generischen Feldern nützlich.Sie können die Deskriptoren für benutzerfreundliche Namen über einen API-Aufruf konfigurieren. Weitere Informationen finden Sie im [Entwicklerhandbuch zur Schema Registry](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=de).
+Wenn beim Einrichten von Schemata Deskriptoren wie „xdm:alternateDisplayInfo“ bereitgestellt werden, ersetzen die benutzerfreundlichen Namen Anzeigenamen. Dies ist besonders beim Arbeiten mit „eVars“und generischen Feldern nützlich.Sie können die Deskriptoren für benutzerfreundliche Namen über einen API-Aufruf konfigurieren. Weitere Informationen finden Sie im [Entwicklerhandbuch zur Schema Registry](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=de).
 
 ![](../assets/xdm-from-descriptors.png)
 

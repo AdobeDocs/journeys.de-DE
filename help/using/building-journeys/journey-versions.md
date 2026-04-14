@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 554d1f60-5d46-4e75-afcb-8209b127c4cd
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: ht
-source-wordcount: '293'
+source-wordcount: '302'
 ht-degree: 100%
 
 ---
@@ -46,7 +46,7 @@ Wenn Sie eine Live-Journey ändern müssen, müssen Sie eine neue Version Ihrer 
 
    ![](../assets/journeyversions3.png)
 
-Ab dem Zeitpunkt der Veröffentlichung der Journey treten Personen in die neueste Version der Journey ein.  Personen, die bereits in einer früheren Version eingetreten sind, bleiben bis zum Ende der Journey darin. Bei einem späteren erneuten Eintritt in dieselbe Journey treten sie in die neueste Version ein.
+Ab dem Zeitpunkt der Veröffentlichung der Journey treten Personen in die neueste Version der Journey ein. Personen, die bereits in einer früheren Version eingetreten sind, bleiben bis zum Ende der Journey darin. Bei einem späteren erneuten Eintritt in dieselbe Journey treten sie in die neueste Version ein.
 
 Journey-Versionen können einzeln angehalten werden. Alle Versionen einer Journey haben denselben Namen.
 

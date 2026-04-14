@@ -1,6 +1,6 @@
 ---
-title: Liste der Step-Ereignisfelder
-description: Liste der Step-Ereignisfelder
+title: Liste der Schrittereignisfelder
+description: Liste der Schrittereignisfelder
 feature: Journeys
 topic: Content Management
 role: User
@@ -8,12 +8,12 @@ level: Intermediate
 exl-id: b7568080-b88c-415c-9d3f-cc1361664838
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: ht
-source-wordcount: '351'
+source-wordcount: '360'
 ht-degree: 100%
 
 ---
 
-# Liste der Step-Ereignisfelder {#sharing-field-list}
+# Liste der Schrittereignisfelder {#sharing-field-list}
 
 
 >[!CAUTION]
@@ -62,15 +62,15 @@ Für journeyStepEvent müssen auch Identitätsfelder hinzugefügt werden:
 
 ## serviceEvents
 
-Dieses Mixin enthält alle Felder, die einem Profilexportvorgang entsprechen.
+Dieses Mixin enthält alle Felder, die einem Profilexportauftrag entsprechen.
 
 | Feldname | Typ | Beschreibung |
 |---|---|------------|
-| ID | Zeichenfolge | Die Kennung des ausgelösten Segmentexportvorgangs |
-| status | Zeichenfolge | Der Status des Segmentexportvorgangs: in der Warteschlange, gestartet, abgeschlossen |
-| exportCountTotal | Ganzzahl | Der maximale Wert des Segmentexportvorgangs |
-| exportCountRealized | Ganzzahl | Die tatsächliche Anzahl von Segmenten, die über den Vorgang exportiert wurden |
-| exportCountFailed | Ganzzahl | Die Anzahl der Segmente, bei denen der Export bei dem Vorgang fehlgeschlagen ist |
+| ID | Zeichenfolge | Die Kennung des ausgelösten Segmentexportauftrags |
+| status | Zeichenfolge | Der Status des Segmentexportauftrags: in der Warteschlange, gestartet, abgeschlossen |
+| exportCountTotal | Ganzzahl | Der maximale Wert des Segmentexportauftrags |
+| exportCountRealized | Ganzzahl | Die tatsächliche Anzahl von Segmenten, die über den Auftrag exportiert wurden |
+| exportCountFailed | Ganzzahl | Die Anzahl der Segmente, bei denen der Export bei dem Auftrag fehlgeschlagen ist |
 | exportSegmentID | Zeichenfolge | Die Kennung des exportierten Segments |
 | eventType | Zeichenfolge | Der Ereignistyp, der angibt, ob es sich um ein Fehlerereignis eines Informationsereignisses handelt: Info, Fehler |
 | eventCode | Zeichenfolge | Der Fehler-Code, der den Grund für den entsprechenden eventType angibt |

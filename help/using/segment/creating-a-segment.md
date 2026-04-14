@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: f84dc133-3b70-479e-b5be-a155d892fec0
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: ht
-source-wordcount: '175'
+source-wordcount: '196'
 ht-degree: 100%
 
 ---
@@ -34,4 +34,4 @@ Sie können ein Segment entweder mit dem [Segmentierungsdienst von Adobe Experie
 
    ![](../assets/segment2.png)
 
-Ihr Segment kann nun für Journeys verwendet werden, um Bedingungen zu erstellen oder ein Ereignis vom Typ **[!UICONTROL Segmentqualifizierung]** hinzuzufügen. Siehe [Verwenden von Segmenten in Bedingungen](../segment/using-a-segment.md) und [Ereignisaktivitäten](../building-journeys/segment-qualification-events.md).
+Ihr Segment kann nun für Journeys verwendet werden, um Bedingungen zu erstellen oder ein Ereignis vom Typ **[!UICONTROL Segmentqualifikation]** hinzuzufügen. Siehe [Verwenden von Segmenten in Bedingungen](../segment/using-a-segment.md) und [Ereignisaktivitäten](../building-journeys/segment-qualification-events.md).

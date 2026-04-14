@@ -29,8 +29,8 @@ String
 
 | Parameter | Typ |
 |-----------|------------------|
-| string | string |
-| string searched | Zeichenfolge |
+| string | Zeichenfolge |
+| string searched | string |
 
 ## Signatur und zurückgegebener Typ
 

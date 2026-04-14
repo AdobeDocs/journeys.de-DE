@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 4d0245de-a2cf-44c6-93d2-3309a3314e5e
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: ht
-source-wordcount: '112'
+source-wordcount: '120'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ Typ: Zeichenfolge
 
 ## journeyVersionID
 
-ID der Journey-Version. Diese Kennung stellt die Identität einer Journey dar.
+Kennung der Journey-Version. Diese Kennung stellt die Identität einer Journey dar.
 
 Typ: Zeichenfolge
 

@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 9af66037-63d7-41a8-86d1-b03c655dfb82
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: ht
-source-wordcount: '367'
+source-wordcount: '375'
 ht-degree: 100%
 
 ---
@@ -83,7 +83,7 @@ Eine Zeitüberschreitung kann in zwei Fällen auftreten:
 * beim ersten Versuch der Ausführung einer Aktion; in diesem Fall ist die Ausführung noch nicht abgeschlossen, sodass kein zugrunde liegender Fehler vorliegt.
 * bei einer Wiederholung; in diesem Fall beschreibt der ActionExecOrigError/actionExecOrigErrorCode den Fehler, der beim Versuch vor der Wiederholung aufgetreten ist.
 
-Beispielsweise wird eine E-Mail gesendet und beim ersten Versuch ein HTTP 500-Fehler zurückgegeben. Der Abruf wird erneut versucht, aber die Dauer der zwei Versuche liegt über der maximalen Wartezeit. Dann wird die Aktionsausführung als Zeitüberschreitung markiert. Der Aktionsteil sieht wie folgt aus:
+Beispielsweise wird eine E-Mail gesendet und beim ersten Versuch ein HTTP 500-Fehler zurückgegeben. Der Abruf wird erneut versucht, aber die Dauer der zwei Versuche liegt über dem Timeout. Dann wird die Aktionsausführung als Zeitüberschreitung markiert. Der Aktionsteil sieht wie folgt aus:
 
 ```
     ...
@@ -122,7 +122,7 @@ Typ: Zeichenfolge
 
 ## deliveryJobID
 
-Beschreibt die Versand-Vorgangskennung für die Batch-Journey.
+Beschreibt die Versand-Auftragskennung für die Batch-Journey.
 
 Typ: Zeichenfolge
 

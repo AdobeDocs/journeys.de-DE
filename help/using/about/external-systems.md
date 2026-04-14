@@ -9,7 +9,7 @@ level: Beginner
 exl-id: e39218bd-fa6e-443f-9843-92b7a07070fa
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: ht
-source-wordcount: '1084'
+source-wordcount: '1096'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 
 
-Auf dieser Seite finden Sie die verschiedenen Schutzmechanismen, die Journey Orchestration bei der Integration eines externen Systems bietet, sowie Best Practices: wie Sie den Schutz Ihres externen Systems unter Verwendung der Begrenzungs-API optimieren können, wie die maximale Wartezeit bei Journeys konfiguriert wird und wie erneute Versuche funktionieren.
+Auf dieser Seite finden Sie die verschiedenen Schutzmechanismen, die Journey Orchestration bei der Integration eines externen Systems bietet, sowie Best Practices: wie Sie den Schutz Ihres externen Systems unter Verwendung der Begrenzungs-API optimieren können, wie der Timeout bei Journeys konfiguriert wird und wie erneute Versuche funktionieren.
 
 Mit Journey Orchestration können Sie über benutzerdefinierte Datenquellen und Aktionen Verbindungen zu externen Systemen konfigurieren. Auf diese Weise können Sie beispielsweise Ihre Journeys mit Daten aus einem externen Reservierungssystem anreichern oder Nachrichten mithilfe eines Drittanbietersystems wie Epsilon oder Facebook versenden.
 
@@ -38,7 +38,7 @@ Wenn Journey Orchestration einen Aufruf an eine externe API ausführt, werden di
 
 1. Begrenzungsregeln werden angewendet: Wenn die maximale Anzahl erreicht wurde, werden die verbleibenden Aufrufe verworfen.
 
-2. Maximale Wartezeit und erneuter Versuch: Wenn die Begrenzungsregel erfüllt ist, versucht Journey Orchestration, den Aufruf durchzuführen, bis das Ende der maximalen Wartezeit erreicht ist.
+2. Timeout und erneuter Versuch: Wenn die Begrenzungsregel erfüllt ist, versucht Journey Orchestration, den Aufruf durchzuführen, bis das Ende des Timeouts erreicht ist.
 
 ## Begrenzung{#capping}
 
@@ -62,9 +62,9 @@ Wenn die Begrenzungsregel erfüllt ist, wird die Zeitüberschreitungsregel angew
 
 Sie können in jeder Journey eine Zeitüberschreitungsdauer festlegen. Auf diese Weise können Sie für den Aufruf eines externen Systems eine maximale Dauer festlegen. Die Zeitüberschreitungsdauer wird in den Eigenschaften einer Journey konfiguriert. Mehr dazu erfahren Sie auf [dieser Seite](../building-journeys/changing-properties.md#timeout_and_error).
 
-Diese Zeitüberschreitung gilt für alle externen Aufrufe (externe API-Aufrufe in benutzerdefinierten Aktionen und Datenquellen). Standardmäßig ist dieser Zeitraum mit fünf Sekunden festgelegt.
+Diese Zeitüberschreitung gilt für alle externen Aufrufe (externe API-Aufrufe in benutzerdefinierten Aktionen und Datenquellen). Standardmäßig ist dieser Zeitraum auf 5 Sekunden festgelegt.
 
-Während der definierten maximalen Wartezeit versucht Journey Orchestration, das externe System aufzurufen. Nach dem ersten Aufruf können bis zum Ende der Zeitüberschreitungsdauer maximal drei weitere Versuche unternommen werden. Die Anzahl weiterer Versuche kann nicht geändert werden.
+Während des definierten Timeouts versucht Journey Orchestration, das externe System aufzurufen. Nach dem ersten Aufruf können bis zum Ende der Zeitüberschreitungsdauer maximal drei weitere Versuche unternommen werden. Die Anzahl weiterer Versuche kann nicht geändert werden.
 
 Bei jedem erneuten Versuch wird ein Slot verwendet. Wenn Sie eine Begrenzung von 100 Aufrufen pro Sekunde haben und jeder Ihrer Aufrufe zwei weitere Versuche erfordert, sinkt die Rate auf 30 Aufrufe pro Sekunde (jeder Aufruf verwendet drei Slots: den ersten Aufruf und zwei weitere Versuche).
 
@@ -76,7 +76,7 @@ Sehen wir uns ein Beispiel einer Zeitüberschreitung von fünf Sekunden an.
 * Der erste Aufruf dauert länger als fünf Sekunden: Der Aufruf wird abgebrochen und es wird kein erneuter Versuch unternommen. In Berichten wird dies als Zeitüberschreitungsfehler gezählt.
 * Der erste Aufruf schlägt nach zwei Sekunden fehl (das externe System gibt einen Fehler zurück): drei Sekunden bleiben für weitere Versuche, wenn Begrenzungs-Slots verfügbar sind.
    * Wenn einer der drei weiteren Versuche vor Ablauf der fünf Sekunden erfolgreich ist, wird der Aufruf durchgeführt und es wird kein Fehler ausgegeben.
-   * Wenn während der erneuten Versuche das Ende der maximalen Wartezeit erreicht wird, wird der Aufruf abgebrochen und in Berichten als Zeitüberschreitungsfehler gezählt.
+   * Wenn während der erneuten Versuche das Ende des Timeouts erreicht wird, wird der Aufruf abgebrochen und in Berichten als Zeitüberschreitungsfehler gezählt.
 
 ## Häufig gestellte Fragen{#faq}
 

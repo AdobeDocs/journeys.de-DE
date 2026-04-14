@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 520376aa-2cb5-46d6-8f21-3e03544f5da1
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: ht
-source-wordcount: '847'
+source-wordcount: '855'
 ht-degree: 100%
 
 ---
@@ -78,7 +78,7 @@ In Journey B wird das erste Ereignis intern über die **[!UICONTROL Sprungaktivi
 
    ![](../assets/jump1.png)
 
-1. Fügen Sie einem beliebigen Schritt in der Journey eine **[!UICONTROL Sprungaktivität]** der Kategorie **[!UICONTROL AKTIONEN]** hinzu. Fügen Sie einen Titel und eine Beschreibung hinzu.
+1. Fügen Sie einem beliebigen Schritt in der Journey eine **[!UICONTROL Sprungaktivität]** der Kategorie **[!UICONTROL AKTIONEN]** hinzu. Fügen Sie ein Label und eine Beschreibung hinzu.
 
    ![](../assets/jump2.png)
 

@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 4b321b63-c624-4c2a-ae92-f9a2a95688d4
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: ht
-source-wordcount: '482'
+source-wordcount: '506'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 Diese Integration ist für Adobe Campaign Classic v7 ab Version 21.1 und Adobe Campaign v8 verfügbar. Sie ermöglicht Ihnen das Senden von E-Mails, Push-Benachrichtigungen und SMS mit der Transaktionsnachrichtenfunktion von Adobe Campaign.
 
-Die Verbindung zwischen der Journey Orchestration- und der Campaign-Instanz wird bei der Bereitstellung durch Adobe eingerichtet.
+Die Verbindung zwischen der Journey Orchestration- und der Campaign-Instanz wird bei der Bereitstellung von Adobe eingerichtet.
 
 In diesem [Abschnitt](../usecase/campaign-classic-use-case.md) wird ein Anwendungsfall schrittweise beschrieben.
 
@@ -42,7 +42,7 @@ Für jede konfigurierte Aktion ist eine Aktionsaktivität in der Journey-Designe
 
 * Es wird nicht überprüft, ob die Payload oder Campaign-Nachricht korrekt ist.
 
-* Sie können eine Campaign-Aktion nicht mit einem Segmentqualifizierungsereignis verwenden.
+* Sie können eine Campaign-Aktion nicht mit einem Segmentqualifikationsereignis verwenden.
 
 ## Voraussetzungen
 

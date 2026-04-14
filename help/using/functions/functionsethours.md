@@ -8,7 +8,7 @@ level: Experienced
 exl-id: d4fe578f-c3be-4c8b-98b3-090dab0c41d1
 source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: ht
-source-wordcount: '105'
+source-wordcount: '104'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ Datum
 |--- |--- |
 | Datum/Uhrzeit | dateTime |
 | Datum/Uhrzeit ohne Berücksichtigung der Zeitzone | dateTimeOnly |
-| Stunden | Ganzzahl |
+| Stunden | integer |
 
 ## Signaturen und zurückgegebener Typ
 

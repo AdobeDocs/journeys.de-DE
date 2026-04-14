@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 2f317306-9afd-4e9a-88b8-fc66102e1046
 source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: ht
-source-wordcount: '607'
+source-wordcount: '614'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Wenn Sie in einem Feld Sonderzeichen verwenden, müssen Sie doppelte oder einfac
 
 * das Feld beginnt mit numerischen Zeichen;
 * das Feld beginnt mit dem Zeichen „-“;
-* das Feld enthält andere Zeichen als: _a_–_z_, _A_–_Z_, _0_–_9_, _ , _-_.
+* das Feld enthält andere Zeichen als: _a_–_z_, _A_–_Z_, _0_–_9_, _,_-_.
 
 Wenn Ihr Feld zum Beispiel folgendermaßen lautet: _3h_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
 

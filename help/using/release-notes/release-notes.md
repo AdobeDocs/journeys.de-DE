@@ -8,7 +8,7 @@ level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 634ba1cb926d20a11539f6262d5c4d0342c6c286
 workflow-type: ht
-source-wordcount: '4458'
+source-wordcount: '4776'
 ht-degree: 100%
 
 ---
@@ -284,7 +284,7 @@ Wenn sich eine Journey in einem Zwischenzustand befindet, ist sie schreibgeschü
 </tbody>
 </table>
 
-### Sonstige Verbesserungen 
+### Sonstige Verbesserungen
 
 * Beim Konfigurieren eines Ereignisses werden jetzt standardmäßig nur die für die XDM-Validierung erforderlichen Felder vorausgewählt. Die Auswahl dieser Felder kann nicht aufgehoben werden.
 * In der Journey-Palette wurde ein neuer Filter hinzugefügt. Sie können damit neben den nativen nur die letzten fünf verwendeten Ereignisse und Aktionen anzeigen. Dies ist benutzerspezifisch. Standardmäßig werden alle Elemente angezeigt. [Weitere Informationen](../building-journeys/using-the-journey-designer.md#palette)
@@ -361,7 +361,7 @@ Die Funktionen [getListItem](../functions/functiongetlistitem.md) und [split](..
 </tbody>
 </table>
 
-### Sonstige Verbesserungen 
+### Sonstige Verbesserungen
 
 Beim Erstellen neuer Versionen einer Journey wurden Einschränkungen hinzugefügt. Diese Einschränkungen vermeiden zu drastische Änderungen an der Journey, um eine gewisse Konsistenz zwischen den Versionen zu erhalten. [Weitere Informationen](../about/limitations.md#journey-versions-limitations)
 
@@ -386,7 +386,7 @@ Die Aktivität **Segmentqualifikation** kann nicht mehr in einer Journey verwend
 </tbody>
 </table>
 
-### Sonstige Verbesserungen 
+### Sonstige Verbesserungen
 
 * Wenn Sie eine neue Version einer Journey veröffentlichen, endet die vorherige Version automatisch und wechselt in den Status „Geschlossen“. [Weitere Informationen](../building-journeys/journey-versions.md)
 
