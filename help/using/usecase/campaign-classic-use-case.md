@@ -5,7 +5,7 @@ title: Senden von Nachrichten mit Campaign v7/v8
 description: Senden von Nachrichten mit Campaign v7/v8
 exl-id: 717a927a-4357-4058-a626-1b69f4bb46bc
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 100%
 
