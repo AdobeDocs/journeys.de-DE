@@ -7,7 +7,7 @@ role: Developer
 level: Experienced
 exl-id: 8105ea5c-c06b-4afa-baa5-41feddff8d0a
 source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '40'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ Generiert einen zufälligen UUID (Universal Unique IDentifier).
 
 ## Kategorie
 
-String
+Zeichenfolge
 
 ## Funktionssyntax
 
