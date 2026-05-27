@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: fef039ae-c04d-4198-a082-4be27710255f
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ Im Zusammenhang mit der Verwendung von Journey Orchestration gibt es Einschränk
 * Es werden nur POST- und PUT-Aufrufmethoden unterstützt. 
 * Der Name des Abfrageparameters oder der Kopfzeile darf nicht mit „.“ oder &quot;$&quot;. 
 * IP-Adressen sind nicht zulässig. 
-* Interne Adobe-Adressen (.adobe.)sind nicht zulässig.
+* Interne Adobe-Adressen (.adobe.) sind nicht zulässig.
  
 ## Einschränkungen bei Adobe Campaign-Aktionen
 
