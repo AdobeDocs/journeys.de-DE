@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 5cf8e6b5-2162-4aa3-b071-96ede31948e6
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Dieses Mixin wird von journeyStepEvent und journeyStepProfileEvent geteilt.
 
 Dies sind die gängigen XDM-Felder, die [!DNL Journey Orchestration] an Adobe Experience Platform sendet. Gemeinsame Felder werden für jeden Schritt gesendet, der während einer Journey verarbeitet wird. Für benutzerdefinierte Aktionen und Anreicherungen werden spezifischere Felder verwendet.
 
-Einige dieser Felder sind nur in bestimmten Verarbeitungsmustern (Aktionsausführung, Datenabruf usw.) verfügbar,um die Größe von Ereignissen zu begrenzen.
+Einige dieser Felder sind nur in bestimmten Verarbeitungsmustern (Aktionsausführung, Datenabruf usw.) verfügbar, um die Größe von Ereignissen zu begrenzen.
 
 ## entrance
 
