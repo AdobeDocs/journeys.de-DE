@@ -19,7 +19,7 @@ Ausrichtung.
 ## Unsere Standards
 
 Beispiele für Verhaltensweisen, die zu einer positiven Umgebung beitragen
-Einschließen:
+zählen:
 
 * Freundliche und inklusive Sprache
 * Respektvoller Umgang mit anderen Sichtweisen und Erfahrungen
