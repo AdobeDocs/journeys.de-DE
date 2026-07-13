@@ -7,17 +7,16 @@ role: User
 level: Beginner
 hide: true
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: 331d2797093c7287c317fd398c74e04613896f01
+source-git-commit: 855c5b5dd83cf8d132c71f5ed02dd6fe0c10dcfa
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1012'
 ht-degree: 100%
 
 ---
 
 # Dokumentation – Aktualisierungen
 
-Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journey Orchestration] aufgelistet.
-Lesen Sie auch die [Versionshinweise](../release-notes/release-notes.md) von [!DNL Journey Orchestration].
+Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journey Orchestration] aufgelistet.Lesen Sie auch die [Versionshinweise](../release-notes/release-notes.md) von [!DNL Journey Orchestration].
 
 ## Juli 2022 {#july-2022}
 
@@ -40,15 +39,10 @@ Lesen Sie auch die [Versionshinweise](../release-notes/release-notes.md) von [!D
 ## September 2021
 
 * Die folgenden Funktionsseiten wurden aktualisiert: [sethours](../functions/functionsethours.md), [getListItem](../functions/functiongetlistitem.md), [inSegment](../functions/functioninsegment.md)
-
 * Die folgenden Funktionen wurden hinzugefügt: [filter](../functions/functionfilter.md), [intersect](../functions/functionintersect.md), [toDateOnly](../functions/functiontodateonly.md)
-
 * Der Datentyp „dateOnly“ wurde in der Dokumentation zum Ausdruckseditor hinzugefügt. [Weitere Informationen](../expression/data-types.md)
-
 * Es wurden Details zur Aufbewahrungsfrist im Cache für benutzerdefinierte Aktionen hinzugefügt. [Weitere Informationen](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
-
 * Es wurden Informationen zu Standard-Ports für benutzerdefinierten Aktionen hinzugefügt. [Weitere Informationen](../action/url-configuration.md)
-
 * Es wurden häufig verwendete Beispiele zur Abfrage von Journey-Schrittereignissen im Data Lake hinzugefügt. [Weitere Informationen](../building-journeys/query-examples.md)
 
 ## August 2021
