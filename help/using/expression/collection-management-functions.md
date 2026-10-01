@@ -6,13 +6,11 @@ feature: Journeys
 role: Developer
 level: Experienced
 exl-id: e80b04fe-b2d3-4c1b-ba22-7e37a9ad1d57
-source-git-commit: 58514d6757f9705f5baa71cfbbe0bdfe65c8e16c
-workflow-type: ht
-source-wordcount: '622'
-ht-degree: 100%
-
+source-git-commit: c80acc261853108edccb40d120c8fe16023770e8
+workflow-type: tm+mt
+source-wordcount: '626'
+ht-degree: 98%
 ---
-
 # Funktionen zur Verwaltung von Sammlungen {#collection-management-functions}
 
 Die Ausdruckssprache bietet auch eine Reihe von Funktionen zum Abfragen von Sammlungen.
@@ -67,13 +65,13 @@ Die Funktion **[!UICONTROL all]** ermöglicht mithilfe eines booleschen Ausdruck
 <listExpression>.all(<condition>)
 ```
 
-Beispielsweise können Sie von allen App-Anwendern diejenigen abfragen, die iOS 13 verwenden (boolescher Ausdruck „app used == iOS 13“). Das Ergebnis dieser Funktion ist die gefilterte Liste mit Elementen, die dem booleschen Ausdruck entsprechen (Beispiel: App-Anwender 1, App-Anwender 34, App-Anwender 432).
+Beispielsweise können Sie von allen App-Benutzenden diejenigen abfragen, die iOS 13 nutzen (boolescher Ausdruck „app used == iOS 13“). Das Ergebnis dieser Funktion ist die gefilterte Liste mit Elementen, die dem booleschen Ausdruck entsprechen (Beispiel: App-Anwender 1, App-Anwender 34, App-Anwender 432).
 
 In einer Aktivität des Typs „Bedingung der Datenquelle“ können Sie überprüfen, ob das Ergebnis der Funktion **[!UICONTROL all]** null ist. Sie können die Funktion **[!UICONTROL all]** auch mit anderen Funktionen wie **[!UICONTROL count]** kombinieren. Weitere Informationen finden Sie unter [Aktivität „Bedingung der Datenquelle“](../building-journeys/condition-activity.md#data_source_condition).
 
 **Beispiel 1:**
 
-Wir möchten überprüfen, ob ein Anwender eine bestimmte Version einer App installiert hat. Zu diesem Zweck rufen wir alle Push-Benachrichtigungs-Token für Apps mit der Version 1.0 ab.Anschließend führen wir eine Bedingung mit der Funktion **[!UICONTROL count]** aus, um zu überprüfen, ob die zurückgegebene Liste von Token mindestens ein Element enthält.
+Wir möchten überprüfen, ob ein Anwender eine bestimmte Version einer App installiert hat. Zu diesem Zweck rufen wir alle Push-Benachrichtigungs-Token für Apps mit der Version 1.0 ab. Anschließend führen wir eine Bedingung mit der Funktion **[!UICONTROL count]** aus, um zu überprüfen, ob die zurückgegebene Liste von Token mindestens ein Element enthält.
 
 ```json
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
@@ -172,7 +170,8 @@ The result will be:
 >[!NOTE]
 >
 >**[!UICONTROL currentEventField]** ist nur verfügbar, wenn Ereignissammlungen bearbeitet werden, und **currentDataPackField**
->wenn Datenquellensammlungen bearbeitet werden. Bei der Verarbeitung von Sammlungen mit **[!UICONTROL all]**, **[!UICONTROL first]** und **[!UICONTROL last]** wird>jedes Element der Sammlung einzeln durchlaufen. **[!UICONTROL currentEventField]** und **currentDataPackField**
+>wenn Datenquellensammlungen bearbeitet werden. Bei der Verarbeitung von Sammlungen mit **[!UICONTROL all]**, **[!UICONTROL first]** und **[!UICONTROL last]** wird
+>jedes Element der Sammlung einzeln durchlaufen. **[!UICONTROL currentEventField]** und **currentDataPackField**
 >entsprechen dem Element, das in der Schleife verarbeitet wird.
 
 **Die Funktionen „first(`<condition>`)“ und „last(`<condition>`)“**
@@ -244,6 +243,6 @@ _aepgdcdevenablement2.purchase_event.productListItems. all(currentDataPackField.
 ```
 
 ```json
- #{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.last(
+#{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.last(
 currentDataPackField.eventType == "commerce.productListAdds").productListItems.last(currentDataPackField.priceTotal >= 150).name}
 ```
