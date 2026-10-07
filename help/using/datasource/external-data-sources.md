@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '1429'
 ht-degree: 100%
-
 ---
-
 # Externe Datenquellen {#concept_t2s_kqt_52b}
 
 
@@ -127,20 +137,20 @@ Die Definition des Endpunkts, der aufgerufen werden soll, um das Zugriffstoken z
 * Methode der HTTP-Anfrage am Endpunkt (GET oder POST)
 * headers: Schlüssel/Wert-Paare, die bei Bedarf als Kopfzeilen in diesen Aufruf eingefügt werden sollen
 * body: beschreibt den Haupttextteil des Aufrufs, wenn die Methode POST ist. Für den Hauptteil unterstützen wir eine begrenzte Struktur, die in bodyParams definiert ist (Schlüssel/Wert-Paare). Der bodyType beschreibt Format und Codierung des Haupttextteils (body) im Aufruf:
-   * &#39;form&#39;: bedeutet, dass der Inhaltstyp application/x-www-form-urlencoded (Zeichensatz UTF-8) lautet und die Schlüssel/Wert-Paare wie folgt serialisiert werden: Schlüssel1=Wert1&amp;Schlüssel2=Wert2&amp; ...
-   * &#39;json&#39;: bedeutet, dass der Inhaltstyp application/json (Zeichensatz UTF-8) ist und die Schlüssel/Wert-Paare wie folgt als JSON-Objekt serialisiert werden: _{ &quot;Schlüssel1&quot;: &quot;Wert1&quot;, &quot;Schlüssel2&quot;: &quot;Wert2&quot;, ...}_
+  * &#39;form&#39;: bedeutet, dass der Inhaltstyp application/x-www-form-urlencoded (Zeichensatz UTF-8) lautet und die Schlüssel/Wert-Paare wie folgt serialisiert werden: Schlüssel1=Wert1&amp;Schlüssel2=Wert2&amp; ...
+  * &#39;json&#39;: bedeutet, dass der Inhaltstyp application/json (Zeichensatz UTF-8) ist und die Schlüssel/Wert-Paare wie folgt als JSON-Objekt serialisiert werden: _{ &quot;Schlüssel1&quot;: &quot;Wert1&quot;, &quot;Schlüssel2&quot;: &quot;Wert2&quot;, ...}_
 
 Die Definition der Art und Weise, wie das Zugriffstoken in die HTTP-Anfrage der Aktion eingefügt werden muss:
 
 * authorizationType: definiert, wie das generierte Zugriffstoken in den HTTP-Aufruf für die Aktion eingefügt werden muss. Die möglichen Werte sind:
 
-   * bearer: gibt an, dass das Zugriffstoken in der Autorisierungskopfzeile eingefügt werden muss, z. B.: _Authorization: Bearer &lt;access token>_
-   * header: gibt an, dass das Zugriffstoken als Kopfzeile eingefügt werden muss, wobei der Kopfzeilenname durch die Eigenschaft „tokenTarget“ definiert wird. Wenn das tokenTarget z. B. myHeader ist, wird das Zugriffstoken wie folgt als Kopfzeile eingefügt: _myHeader: &lt;access token>_
-   * queryParam: gibt an, dass das Zugriffstoken als queryParam eingefügt werden muss, wobei der Abfrageparametername durch die Eigenschaft „tokenTarget“ definiert wird. Wenn das tokenTarget beispielsweise myQueryParam ist, lautet die URL des Aktionsaufrufs: _&lt;url>?myQueryParam=&lt;access token>_
+  * bearer: gibt an, dass das Zugriffstoken in der Autorisierungskopfzeile eingefügt werden muss, z. B.: _Authorization: Bearer &lt;access token>_
+  * header: gibt an, dass das Zugriffstoken als Kopfzeile eingefügt werden muss, wobei der Kopfzeilenname durch die Eigenschaft „tokenTarget“ definiert wird. Wenn das tokenTarget z. B. myHeader ist, wird das Zugriffstoken wie folgt als Kopfzeile eingefügt: _myHeader: &lt;access token>_
+  * queryParam: gibt an, dass das Zugriffstoken als queryParam eingefügt werden muss, wobei der Abfrageparametername durch die Eigenschaft „tokenTarget“ definiert wird. Wenn das tokenTarget beispielsweise myQueryParam ist, lautet die URL des Aktionsaufrufs: _&lt;url>?myQueryParam=&lt;access token>_
 
 * tokenInResponse: Gibt an, wie das Zugriffstoken aus dem Authentifizierungsaufruf extrahiert wird. Diese Eigenschaft kann Folgendes sein:
-   * &#39;response&#39;: gibt an, dass die HTTP-Antwort das Zugriffstoken ist
-   * eine Auswahl in einer JSON-Datei (es wird vorausgesetzt, die Antwort ist eine JSON-Datei, und andere Formate wie XML werden nicht unterstützt). Das Format dieser Auswahl ist _json://&lt;Pfad zur Zugriffstoken-Eigenschaft>_. Wenn die Antwort des Aufrufs zum Beispiel folgendermaßen lautet: _{ &quot;access_ token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_, wird die tokenInResponse Folgendes sein:_ json: //access_token_
+  * &#39;response&#39;: gibt an, dass die HTTP-Antwort das Zugriffstoken ist
+  * eine Auswahl in einer JSON-Datei (es wird vorausgesetzt, die Antwort ist eine JSON-Datei, und andere Formate wie XML werden nicht unterstützt). Das Format dieser Auswahl ist _json://&lt;Pfad zur Zugriffstoken-Eigenschaft>_. Wenn die Antwort des Aufrufs zum Beispiel folgendermaßen lautet: _{ &quot;access_ token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_, wird die tokenInResponse Folgendes sein:_ json: //access_token_
 
 Das Format dieser Authentifizierung lautet:
 

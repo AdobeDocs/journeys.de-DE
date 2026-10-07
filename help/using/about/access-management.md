@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1009'
 ht-degree: 100%
-
 ---
-
 # Zugriffsverwaltung{#concept_rfj_wpt_52b}
 
 
@@ -39,24 +49,24 @@ Um Zugriff auf [!DNL Journey Orchestration] zu erhalten, muss ein Benutzer:
 In der Admin Console können Sie Ihren Benutzenden eines der folgenden vorkonfigurierten Produktprofile zuweisen:
 
 * **[!UICONTROL Benutzer mit eingeschränktem Zugriff]**: Benutzende mit schreibgeschütztem Zugriff auf Journeys und Berichte. Dieses Produktprofil umfasst folgende Berechtigungen:
-   * Journeys lesen
-   * Berichte lesen
+  * Journeys lesen
+  * Berichte lesen
 
 * **[!UICONTROL Administrator]**: Benutzer mit Zugriff auf die Verwaltungsmenüs und mit der Fähigkeit, Journeys, Ereignisse und Berichte zu verwalten. Dieses Produktprofil umfasst folgende Berechtigungen:
-   * Journeys verwalten
-   * Journeys veröffentlichen
-   * Ereignisse, Datenquellen und Aktionen verwalten
-   * Verwalten von Berichten
+  * Journeys verwalten
+  * Journeys veröffentlichen
+  * Ereignisse, Datenquellen und Aktionen verwalten
+  * Verwalten von Berichten
 
   >[!NOTE]
   >
   >**[!UICONTROL Administratoren]** ist das einzige Produktprofil, das in Adobe Campaign Standard eine Erstellung, Bearbeitung und Veröffentlichung von Transaktionsnachrichten (oder Nachrichtenvorlagen) ermöglicht. Dieses Produktprofil ist erforderlich, wenn Sie mit Adobe Campaign Standard in Journeys Nachrichten senden möchten. Sein Name sollte in der Admin Console nicht geändert werden.
 
 * **[!UICONTROL Standardbenutzer]**: Benutzer mit Basiszugriff, wie z. B. zur Verwaltung von Journeys. Dieses Produktprofil umfasst folgende Berechtigungen:
-   * Journeys verwalten
-   * Journeys veröffentlichen
-   * Verwalten von Berichten
-   * Lesen von Ereignissen, Datenquellen und Aktionen
+  * Journeys verwalten
+  * Journeys veröffentlichen
+  * Verwalten von Berichten
+  * Lesen von Ereignissen, Datenquellen und Aktionen
 
 Wenn die nativen Profile für Ihre Anforderungen nicht ausreichend sind, können Sie auch eigene Produktprofile erstellen.
 Benutzer müssen stets mit einem Produktprofil verknüpft sein, damit Sie ihnen bestimmte native Berechtigungen zuweisen können, z. B.:

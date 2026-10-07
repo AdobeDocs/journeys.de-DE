@@ -2,13 +2,14 @@
 product: adobe campaign
 title: Nutzen von Ermüdungswerten
 description: Erfahren Sie, wie Sie in Journeys Ermüdungswerte nutzen
-source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
-workflow-type: ht
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
+workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 100%
-
 ---
-
 
 # Verwenden von Journey-KI {#concept_dsh_1ry_wfb}
 

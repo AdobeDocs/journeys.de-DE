@@ -7,13 +7,23 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: e39218bd-fa6e-443f-9843-92b7a07070fa
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
+workflow-type: tm+mt
 source-wordcount: '1096'
 ht-degree: 100%
-
 ---
-
 # Integration mit externen Systemen {#external-systems}
 
 
@@ -75,8 +85,8 @@ Sehen wir uns ein Beispiel einer Zeitüberschreitung von fünf Sekunden an.
 * Der erste Aufruf dauert weniger als fünf Sekunden: Der Aufruf ist erfolgreich und es wird kein erneuter Versuch unternommen.
 * Der erste Aufruf dauert länger als fünf Sekunden: Der Aufruf wird abgebrochen und es wird kein erneuter Versuch unternommen. In Berichten wird dies als Zeitüberschreitungsfehler gezählt.
 * Der erste Aufruf schlägt nach zwei Sekunden fehl (das externe System gibt einen Fehler zurück): drei Sekunden bleiben für weitere Versuche, wenn Begrenzungs-Slots verfügbar sind.
-   * Wenn einer der drei weiteren Versuche vor Ablauf der fünf Sekunden erfolgreich ist, wird der Aufruf durchgeführt und es wird kein Fehler ausgegeben.
-   * Wenn während der erneuten Versuche das Ende des Timeouts erreicht wird, wird der Aufruf abgebrochen und in Berichten als Zeitüberschreitungsfehler gezählt.
+  * Wenn einer der drei weiteren Versuche vor Ablauf der fünf Sekunden erfolgreich ist, wird der Aufruf durchgeführt und es wird kein Fehler ausgegeben.
+  * Wenn während der erneuten Versuche das Ende des Timeouts erreicht wird, wird der Aufruf abgebrochen und in Berichten als Zeitüberschreitungsfehler gezählt.
 
 ## Häufig gestellte Fragen{#faq}
 
