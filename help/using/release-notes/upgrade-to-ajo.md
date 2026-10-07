@@ -3,13 +3,14 @@ title: Aktualisieren auf Adobe Journey Optimizer
 description: Erfahren Sie, wie Sie auf Adobe Journey Optimizer aktualisieren
 hide: true
 exl-id: 887fd3bb-bcd3-4a6d-9817-43049c51ecba
-source-git-commit: 855c5b5dd83cf8d132c71f5ed02dd6fe0c10dcfa
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '772'
 ht-degree: 95%
-
 ---
-
 # Aktualisieren Ihrer Journey Orchestration-Umgebung auf Adobe Journey Optimizer{#ugrade-ajo}
 
 ## Was ist Adobe Journey Optimizer?
@@ -90,7 +91,7 @@ Ja, das ist normal. Möglicherweise wird das Element „Journey Orchestration“
 
 Wenn Sie auf Adobe Journey Optimizer umsteigen, können Sie die Integration zwischen Journeys und Adobe Campaign Standard weiterhin nutzen, indem Sie Ihre Customer Journey in Adobe Journey Optimizer entwickeln und den Versand Adobe Campaign Standard überlassen.
 
-Aufgrund der Funktionsweise des Berichtstapels in Adobe Journey Optimizer werden beim Reporting jedoch keine Journey- und Campaign Standard-Daten kombiniert. Journey-Informationen sind in Adobe Journey Optimizer-Berichten und Versandinformationen in Adobe Campaign Standard verfügbar. Experience Platform kann so konfiguriert werden, dass Adobe Campaign Standard-Daten nach Adobe Experience Platform zurückgeholt und dadurch Customer Journey Analytics ([weitere Informationen](https://business.adobe.com/de/products/experience-platform/customer-journey-analytics.html)) oder anderen Reporting-Tools von Drittanbietern wie Tableau oder PowerBI zur Verfügung gestellt werden können.
+Aufgrund der Funktionsweise des Berichtstapels in Adobe Journey Optimizer werden beim Reporting jedoch keine Journey- und Campaign Standard-Daten kombiniert. Journey-Informationen sind in Adobe Journey Optimizer-Berichten und Versandinformationen in Adobe Campaign Standard verfügbar. Experience Platform kann so konfiguriert werden, dass Adobe Campaign Standard-Daten nach Adobe Experience Platform zurückgeholt und dadurch Customer Journey Analytics ([weitere Informationen](https://business.adobe.com/products/experience-platform/customer-journey-analytics.html)) oder anderen Reporting-Tools von Drittanbietern wie Tableau oder PowerBI zur Verfügung gestellt werden können.
 
 Adobe Journey Optimizer-Berichte eignen sich am besten für die Verwendung der vordefinierten Messaging-Funktionen von Adobe Journey Optimizer (verfügbar in dedizierten Adobe Journey Optimizer-Angeboten). Weitere Informationen zur Erstellung von Nachrichten in der Journey-Arbeitsfläche finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/messages-in-journeys.html?lang=de).
 

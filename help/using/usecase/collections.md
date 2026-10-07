@@ -4,13 +4,14 @@ solution: Journey Orchestration
 title: Dynamisches Übergeben von Sammlungen mithilfe benutzerdefinierter Aktionen
 description: Senden von Nachrichten mit Campaign v7/v8
 exl-id: 9ed62a74-3c51-4f15-af8a-d530ddf80b51
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
+workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 100%
-
 ---
-
 # Dynamisches Übergeben von Sammlungen mithilfe benutzerdefinierter Aktionen{#passing-collection}
 
 

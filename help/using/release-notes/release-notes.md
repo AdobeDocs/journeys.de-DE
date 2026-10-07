@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 634ba1cb926d20a11539f6262d5c4d0342c6c286
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '4776'
 ht-degree: 100%
-
 ---
-
 # Versionshinweise {#release-notes}
 
 >[!CAUTION]
@@ -68,8 +78,8 @@ Wenn sich eine Journey in einem Zwischenzustand befindet, ist sie schreibgeschü
 * Das Layout des Konfigurationsbereichs, der in Aktionen, Datenquellen, Ereignissen und Journeys angezeigt wird, wurde verbessert.
 * Sie können jetzt in Ihren benutzerdefinierten Aktionen statische oder dynamische Abfrageparameter definieren. Weitere Informationen finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=de#url-configuration){target="_blank"} zu Journey Optimizer.
 * Neue Limits zur Steuerung des Wachstums von Erlebnissen, die von Journeys bereitgestellt werden:
-   * Es wird empfohlen, die Anzahl der Knoten auf maximal 50 zu begrenzen, um die Leistung, Lesbarkeit, Qualitätssicherung und Fehlerbehebung ihrer Journeys zu verbessern. Die Anzahl der Aktivitäten wird im linken oberen Bereich der Journey-Arbeitsfläche angezeigt. Weitere Informationen finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=de#journeys-guardrails-journeys){target="_blank"} zu Journey Optimizer
-   * Wenn Sie Journeys entwickeln und starten, benachrichtigen wir Sie, sobald Sie sich dem Meilenstein von 100 Live-Journeys nähern. Sollten Sie mehr als 100 Journeys benötigen, erstellen Sie bitte ein Support-Ticket, nachdem Sie die Benachrichtigung erhalten haben. Wir helfen Ihnen gerne weiter. Weitere Informationen finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=de#journeys-guardrails-journeys){target="_blank"} zu Journey Optimizer
+  * Es wird empfohlen, die Anzahl der Knoten auf maximal 50 zu begrenzen, um die Leistung, Lesbarkeit, Qualitätssicherung und Fehlerbehebung ihrer Journeys zu verbessern. Die Anzahl der Aktivitäten wird im linken oberen Bereich der Journey-Arbeitsfläche angezeigt. Weitere Informationen finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=de#journeys-guardrails-journeys){target="_blank"} zu Journey Optimizer
+  * Wenn Sie Journeys entwickeln und starten, benachrichtigen wir Sie, sobald Sie sich dem Meilenstein von 100 Live-Journeys nähern. Sollten Sie mehr als 100 Journeys benötigen, erstellen Sie bitte ein Support-Ticket, nachdem Sie die Benachrichtigung erhalten haben. Wir helfen Ihnen gerne weiter. Weitere Informationen finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=de#journeys-guardrails-journeys){target="_blank"} zu Journey Optimizer
 
 ## Version März 2023 {#mar-2023}
 

@@ -3,13 +3,14 @@ product: adobe campaign
 title: Beschreibung der Import-Export-API
 description: Weitere Informationen zur Import-Export-API.
 products: journeys
-source-git-commit: 8f409fe6e37a3b80527d9a5514b066e539dcd9f3
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1162'
 ht-degree: 100%
-
 ---
-
 
 # Arbeiten mit der Export-Import-API
 
@@ -59,7 +60,10 @@ Der API-Zugriff für Journey Orchestration wird wie folgt eingerichtet: Jeder di
 >
 >Die JWT-Methode zum Generieren von Zugriffs-Token wird nicht mehr unterstützt. Alle neuen Integrationen müssen mit der [Authentifizierungsmethode OAuth-Server-zu-Server](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=de#select-oauth-server-to-server) erstellt werden. Adobe empfiehlt auch, Ihre vorhandenen Integrationen zur OAuth-Methode zu migrieren.
 >
->Lesen Sie die folgenden wichtigen Dokumentationen:>[Handbuch für die Migration Ihrer Anwendungen von JWT zu OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/),>[Implementierungshandbuch für neue und alte Programme mit OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/),>[Vorteile der Verwendung der Anmeldemethode OAuth-Server-zu-Server](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
+>Lesen Sie die folgenden wichtigen Dokumentationen:
+>[Handbuch für die Migration Ihrer Anwendungen von JWT zu OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/),
+>[Implementierungshandbuch für neue und alte Programme mit OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/),
+>[Vorteile der Verwendung der Anmeldemethode OAuth-Server-zu-Server](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
 
 
 Um eine sichere Service-to-Service-Adobe I/O-API-Sitzung herzustellen, muss jede Anfrage an einen Adobe-Dienst folgende Informationen in der Autorisierungskopfzeile umfassen.
@@ -73,7 +77,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 * **&lt;ORGANIZATION>**: Dies ist Ihre persönliche Organisationskennung; von Adobe erhalten Sie für jede Ihrer Instanzen eine Organisationskennung:
 
-   * &lt;ORGANIZATION>: Ihre Produktionsinstanz
+  * &lt;ORGANIZATION>: Ihre Produktionsinstanz
 
   Um den Wert der ORGANISATIONS-ID zu erhalten, wenden Sie sich wahlweise an Ihre Administrierenden oder Ihre technische Kontaktperson bei Adobe. Sie können sie auch beim Erstellen einer neuen Integration in Adobe I/O abrufen, und zwar in der Lizenzliste (siehe [Adobe I/O-Dokumentation](https://www.adobe.io/authentication.html)).
 
@@ -104,8 +108,8 @@ Die resultierende Payload kann verwendet werden, um die Version der Journey in e
 Nach dem Export-Aufruf müssen Sie die neuen Anmeldedaten (entsprechend der Zielumgebung) manuell einfügen, bevor Sie die Payload in die Zielumgebung importieren.
 
 * Die folgenden Objekte werden exportiert, sie werden jedoch nie in die Zielumgebung importiert. Diese Systemressourcen werden automatisch von Journey Orchestration verwaltet. Sie müssen „INSERT_SECRET_HERE“ nicht ersetzen.
-   * **DataProviders**:  „Adobe Campaign Standard Data Provider“ (acsDataProvider) und „Experience Platform“ (acppsDataProvider)
-   * **Feldergruppen** (dataEntities): „ProfileFieldGroup“ (acppsDataPack)
+  * **DataProviders**:  „Adobe Campaign Standard Data Provider“ (acsDataProvider) und „Experience Platform“ (acppsDataProvider)
+  * **Feldergruppen** (dataEntities): „ProfileFieldGroup“ (acppsDataPack)
 
 
 

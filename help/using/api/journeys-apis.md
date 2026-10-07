@@ -7,13 +7,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: a5dd3d23-c820-4ab7-bc6c-b1dcfe15022c
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '923'
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
+workflow-type: tm+mt
+source-wordcount: '925'
 ht-degree: 100%
-
 ---
-
 # Erste Schritte mit Journeys-APIs
 
 
@@ -60,7 +70,7 @@ Für **benutzerdefinierte Aktionen** müssen Sie die Kapazität Ihrer externen A
 
 ## Einrichten von API-Zugriff {#api}
 
-Um diese APIs mit Ihrer [!DNL Journey Orchestration]-Instanz nutzen zu können, müssen Sie die Adobe I/O-Konsole verwenden. [!DNL Journey Orchestration] Der API-Zugriff wird wie folgt eingerichtet:Jeder dieser Schritte wird in der [Adobe I/O-Dokumentation](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) beschrieben.
+Um diese APIs mit Ihrer [!DNL Journey Orchestration]-Instanz nutzen zu können, müssen Sie die Adobe I/O-Konsole verwenden. [!DNL Journey Orchestration] Der API-Zugriff wird wie folgt eingerichtet: Jeder dieser Schritte wird in der [Adobe I/O-Dokumentation](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) beschrieben.
 
 >[!CAUTION]
 >
@@ -73,7 +83,10 @@ Um diese APIs mit Ihrer [!DNL Journey Orchestration]-Instanz nutzen zu können, 
 >
 >Die JWT-Methode zum Generieren von Zugriffs-Token wird nicht mehr unterstützt. Alle neuen Integrationen müssen mit der [Authentifizierungsmethode OAuth-Server-zu-Server](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=de#select-oauth-server-to-server) erstellt werden. Adobe empfiehlt auch, Ihre vorhandenen Integrationen zur OAuth-Methode zu migrieren.
 >
->Lesen Sie die folgenden wichtigen Dokumentationen:>[Handbuch für die Migration Ihrer Anwendungen von JWT zu OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/),>[Implementierungshandbuch für neue und alte Programme mit OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/),>[Vorteile der Verwendung der Anmeldemethode OAuth-Server-zu-Server](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
+>Lesen Sie die folgenden wichtigen Dokumentationen:
+>[Handbuch für die Migration Ihrer Anwendungen von JWT zu OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/),
+>[Implementierungshandbuch für neue und alte Programme mit OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/),
+>[Vorteile der Verwendung der Anmeldemethode OAuth-Server-zu-Server](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
 
 Um eine sichere Service-to-Service-Adobe I/O-API-Sitzung herzustellen, muss jede Anfrage an einen Adobe-Dienst folgende Informationen in der Autorisierungskopfzeile umfassen.
 
