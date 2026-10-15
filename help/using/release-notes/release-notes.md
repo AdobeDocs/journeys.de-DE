@@ -79,26 +79,26 @@ Wenn sich eine Journey in einem Zwischenzustand befindet, ist sie schreibgeschü
 * Sie können jetzt in Ihren benutzerdefinierten Aktionen statische oder dynamische Abfrageparameter definieren. Weitere Informationen finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=de#url-configuration){target="_blank"} zu Journey Optimizer.
 * Neue Limits zur Steuerung des Wachstums von Erlebnissen, die von Journeys bereitgestellt werden:
   * Es wird empfohlen, die Anzahl der Knoten auf maximal 50 zu begrenzen, um die Leistung, Lesbarkeit, Qualitätssicherung und Fehlerbehebung ihrer Journeys zu verbessern. Die Anzahl der Aktivitäten wird im linken oberen Bereich der Journey-Arbeitsfläche angezeigt. Weitere Informationen finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=de#journeys-guardrails-journeys){target="_blank"} zu Journey Optimizer
-  * Wenn Sie Journeys entwickeln und starten, benachrichtigen wir Sie, sobald Sie sich dem Meilenstein von 100 Live-Journeys nähern. Sollten Sie mehr als 100 Journeys benötigen, erstellen Sie bitte ein Support-Ticket, nachdem Sie die Benachrichtigung erhalten haben. Wir helfen Ihnen gerne weiter. Weitere Informationen finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=de#journeys-guardrails-journeys){target="_blank"} zu Journey Optimizer
+  * Wenn Sie Journeys entwickeln und starten, benachrichtigen wir Sie, sobald Sie sich dem Meilenstein von 100 Live-Journeys nähern. Sollten Sie mehr als 100 Journeys gleichzeitig benötigen, erstellen Sie bitte ein Support-Ticket, nachdem Sie die Benachrichtigung erhalten haben. Wir helfen Ihnen gerne weiter. Weitere Informationen finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=de#journeys-guardrails-journeys){target="_blank"} zu Journey Optimizer
 
-## Version März 2023 {#mar-2023}
+## Version vom März 2023 {#mar-2023}
 
 ### Verbesserungen {#mar-2023-improvements}
 
-* Die neue **Einschränkungs-API** ermöglicht es Ihnen, ein Limit für die Anzahl der pro Sekunde gesendeten Ereignisse festzulegen, wodurch überlastende Traffic-Spitzen auf Ihren externen Systemen oder in Ihrer API verhindert werden. Wenn das festgelegte Limit erreicht ist, werden alle nachfolgenden API-Aufrufe in der Reihenfolge, in der sie empfangen wurden, in die Warteschlange gestellt und so bald wie möglich verarbeitet. Beachten Sie, dass diese Funktion nur eine Einschränkungskonfiguration für alle Sandboxes unterstützt. [Weitere Informationen](../api/throttling.md)
+* Die neue **Einschränkungs-API** ermöglicht es Ihnen, ein Limit für die Anzahl der pro Sekunde gesendeten Ereignisse festzulegen, wodurch überlastende Traffic-Spitzen auf Ihren externen Systemen oder in Ihrer API verhindert werden. Wenn das festgelegte Limit erreicht ist, werden alle nachfolgenden API-Aufrufe in der Reihenfolge, in der sie empfangen wurden, in die Warteschlange gestellt und so bald wie möglich verarbeitet. Beachten Sie, dass diese Funktion nur eine Drosselungskonfiguration für alle Sandboxes unterstützt. [Weitere Informationen](../api/throttling.md)
 * Die Journey-Arbeitsfläche wurde verbessert, um das Benutzererlebnis zu vereinfachen und zu verbessern. Am Ende jedes Pfads auf der Arbeitsfläche wurden die leeren Platzhalter entfernt. Sie können Ihre Aktivitäten jetzt einfach hinzufügen, indem Sie sie an das Ende eines Pfads ziehen.
 * Auf der Journey-Arbeitsfläche ist der Namen der vorherigen Aktivität nicht mehr automatisch als Label des **Ende**-Tags festgelegt. Benutzerinnen und Benutzer können bei Bedarf manuell ein benutzerdefiniertes Label hinzufügen.
 * Die standardmäßige Zeitüberschreitungs- und Fehlerdauer in den Journey-Eigenschaften wurde von 5 auf 30 Sekunden geändert. Weitere Informationen finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/external-systems/external-systems.html?lang=de#timeout){target="_blank"} zu Journey Optimizer.
 * Dem Testmodus wurde ein Schutzmechanismus hinzugefügt, der nur Ereignisse überwacht, die über die Oberfläche gesendet werden. Ereignisse, die über ein externes Tool gesendet werden, werden nicht berücksichtigt. Weitere Informationen finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey.html?lang=de){target="_blank"} zu Journey Optimizer.
 
-## Version Februar 2023 {#feb-2023}
+## Version vom Februar 2023 {#feb-2023}
 
 ### Verbesserungen {#feb-2023-improvements}
 
-* Das Feld **Wartezeit bis zum erneuten Eintritt** wurde zu den Journey-Eigenschaften hinzugefügt. In diesem Feld kann die Wartezeit definiert werden, bevor es einem Profil erlaubt wird, in unitären Journeys erneut in die Journey einzutreten (beginnend mit einem Ereignis oder einer Segmentqualifikation). Dadurch wird verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Standardmäßig ist das Feld auf 5 Minuten eingestellt. Weitere Informationen finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=de#entrance){target="_blank"} zu Journey Optimizer.
+* Das Feld **Wartezeit bis zum erneuten Eintritt** wurde zu den Journey-Eigenschaften hinzugefügt. In diesem Feld kann die Wartezeit definiert werden, bevor ein Profil in unitären Journeys erneut in die Journey eintreten darf (beginnend mit einem Ereignis oder einer Segmentqualifikation). Dadurch wird verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Standardmäßig ist das Feld auf 5 Minuten eingestellt. Weitere Informationen finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=de#entrance){target="_blank"} zu Journey Optimizer.
 * Es wurden Verbesserungen in Bezug auf die **Start- und Enddaten einer Journey** vorgenommen. Wenn kein Startdatum angegeben wurde, wird es jetzt automatisch zum Veröffentlichungszeitpunkt hinzugefügt. Dadurch können Profile beim Erreichen des Datums automatisch die Journey verlassen. Weitere Informationen finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=de#dates){target="_blank"} zu Journey Optimizer.
 
-## Version Januar 2023 {#jan-2023-release}
+## Version vom Januar 2023 {#jan-2023-release}
 
 ### Verbesserungen {#jan-2023-improvements}
 
@@ -129,11 +129,11 @@ Wenn sich eine Journey in einem Zwischenzustand befindet, ist sie schreibgeschü
 
 ### Verbesserungen{#sept-2022-improvements}
 
-* Eine neue Sschutzmaßnahme wurde zu unitären Journeys hinzugefügt (beginnend mit einem Ereignis oder einer Segmentqualifikation), um zu verhindern, dass Journeys fälschlicherweise mehrfach für dasselbe Ereignis ausgelöst werden. Der erneute Profileintritt wird jetzt standardmäßig fünf Minuten lang vorübergehend blockiert. Weitere Informationen finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=de#events-g){target="_blank"} zu Journey Optimizer.
+* Ein neuer Schutzmechanismus wurde zu unitären Journeys hinzugefügt (beginnend mit einem Ereignis oder einer Segmentqualifikation), um zu verhindern, dass Journeys fälschlicherweise mehrfach für dasselbe Ereignis ausgelöst werden. Der erneute Profileintritt wird jetzt standardmäßig fünf Minuten lang vorübergehend blockiert. Weitere Informationen finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=de#events-g){target="_blank"} zu Journey Optimizer.
 
 ### Weitere Änderungen{#sept-2022-other}
 
-* Zur Performance-Verbesserung können Feldergruppen für Erlebnisereignisse nicht mehr in Journeys verwendet werden, die mit einer Segmentqualifikationsaktivität beginnen. Diese Änderung gilt nur für neue Journeys. Bestehende Journeys behalten das aktuelle Verhalten bei. Weitere Informationen finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=de#expression-editor){target="_blank"} zu Journey Optimizer.
+* Zur Performance-Verbesserung können Feldergruppen für Erlebnisereignisse nicht mehr in Journeys verwendet werden, die mit einer Segmentqualifikationsaktivität beginnen. Diese Änderung gilt nur für neue Journeys. Bestehende behalten das aktuelle Verhalten bei. Weitere Informationen finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=de#expression-editor){target="_blank"} zu Journey Optimizer.
 
 ### Verbesserungen
 
@@ -165,7 +165,7 @@ Wenn sich eine Journey in einem Zwischenzustand befindet, ist sie schreibgeschü
 ### Verbesserungen
 
 * Schrittereignisse von Journey Orchestration können jetzt mit anderen Datensätzen in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=de){target="_blank"} verknüpft werden. Das Feld **profileID** im integrierten Step-Ereignisschema einer Journey ist jetzt als Identitätsfeld definiert. [Weitere Informationen](../building-journeys/sharing-overview.md#integration-cja)
-* Die Begrenzungsregel für Adobe Campaign Standard-Aktionen wurde in 4.000 Aufrufe/5 Minuten geändert. [Weitere Informationen](../action/working-with-adobe-campaign.md)
+* Die Begrenzungsregel für Adobe Campaign Standard-Aktionen wurde auf 4.000 Aufrufe/5 Minuten geändert. [Weitere Informationen](../action/working-with-adobe-campaign.md)
 
 ## Version Oktober 2021 {#october-2021-release}
 
@@ -174,7 +174,7 @@ Wenn sich eine Journey in einem Zwischenzustand befindet, ist sie schreibgeschü
 * **Ausdruckseditor** – Als Power-User stehen Ihnen jetzt Funktionen zur Verfügung, um mit Karten zu arbeiten. [Weitere Informationen](../expression/field-references.md)
 * **Barrierefreiheit** – Es wurden Verbesserungen an der Barrierefreiheit vorgenommen. Die Barrierefreiheit von Journey Orchestration ist jetzt vollständig gewährleistet.
 * **Sammlungen** – Arrays von Objekten, die Unterobjekte enthalten, werden nun unterstützt. [Weitere Informationen](../usecase/collections.md)
-* **Monitoring** – Step-Ereignisse für Live-Journeys und den Testmodus wurden verbessert. Es wurden [neue Felder](../building-journeys/sharing-field-list.md#serviceevents) im Zusammenhang mit Profilexportaufträgen hinzugefügt. Um ein besseres Benutzererlebnis zu bieten, sind im Journey-Schrittereignisschema für Journey Orchestration die Schrittereignisfelder nun in verschiedene Kategorien unterteilt. Alle Felder für vorhergehende Schrittereignisse sind weiterhin in der Kategorie [stepEvents](../building-journeys/sharing-legacy-fields.md) verfügbar.
+* **Monitoring** – Step-Ereignisse für Live-Journeys und den Testmodus wurden verbessert. Es wurden [neue Felder](../building-journeys/sharing-field-list.md#serviceevents) im Zusammenhang mit Profilexportaufträgen hinzugefügt. Um ein besseres Anwendererlebnis zu bieten, sind im Journey-Schrittereignisschema für Journey Orchestration die Schrittereignisfelder nun in verschiedene Kategorien unterteilt. Alle Felder für vorhergehende Schrittereignisse sind weiterhin in der Kategorie [stepEvents](../building-journeys/sharing-legacy-fields.md) verfügbar.
 
 ## Version September 2021 {#september-2021-release}
 
@@ -199,11 +199,11 @@ Wenn sich eine Journey in einem Zwischenzustand befindet, ist sie schreibgeschü
 ### Verbesserungen
 
 * Systemgenerierte Schemata und Datensätze, die während der Bereitstellung von Schrittereignissen erstellt wurden, befinden sich jetzt im schreibgeschützten Modus, um versehentliche Änderungen an kritischen Schemata zu verhindern. [Weitere Informationen](../building-journeys/sharing-overview.md)
-* Sie können die Aktivität **Warten** eindeutig mit einem Label benennen, die auf der Arbeitsfläche angezeigt wird. Das Label wird auch in Reporting- und Testmodusprotokollen verwendet, um eindeutig zu identifizieren, was Sie tun. [Weitere Informationen](../building-journeys/using-the-journey-designer.md)
+* Sie können die Aktivität **Warten** eindeutig mit einem Label benennen, die auf der Arbeitsfläche angezeigt wird. Das Label wird auch in Reporting- und Testmodusprotokollen verwendet, um eindeutig zu kennzeichnen, was Sie tun. [Weitere Informationen](../building-journeys/using-the-journey-designer.md)
 * Ihre Ereignisse und Aktionen sind jetzt schneller auffindbar, indem Sie Elemente in den Kategorien **Ereignisse** und **Aktion** mithilfe der Suche filtern. Orchestrierungsaktivitäten werden nicht mehr gefiltert. [Weitere Informationen](../building-journeys/using-the-journey-designer.md)
 * Beim Definieren einer Ereignis-ID-Bedingung in einem regelbasierten Ereignis ist jetzt der Operator „enthält“ für Felder vom Typ Zeichenfolge verfügbar. [Weitere Informationen](../event/about-creating.md)
 
-## Version August 2021 {#august-2021-release}
+## Version vom August 2021 {#august-2021-release}
 
 ### Verbesserungen
 
@@ -212,7 +212,7 @@ Wenn sich eine Journey in einem Zwischenzustand befindet, ist sie schreibgeschü
 * **Dynamische Header** – Sie können jetzt dynamische Daten in HTTP-Header-Parametern übergeben. Diese Parameter können von den Integrationssystemen verwendet werden, die die HTTP-Aufrufe der Journey-Aktion empfangen, z. B. Zeitstempel oder Tracking-ID. [Weitere Informationen](../action/url-configuration.md)
 * **Dynamische URL-Pfade** – Sie können jetzt dynamische URL-Pfade für benutzerdefinierte Aktionen einrichten. [Weitere Informationen](../action/url-configuration.md)
 
-## Version Juli 2021 {#july-2021-release}
+## Version vom Juli 2021 {#july-2021-release}
 
 <table>
 <thead>
@@ -271,8 +271,8 @@ Wenn sich eine Journey in einem Zwischenzustand befindet, ist sie schreibgeschü
 
 ### Verbesserungen
 
-* Es wurde ein neuer Status zu Journeys hinzugefügt. Wenn eine Journey beendet oder manuell geschlossen wird, wechselt ihr Status 30 Tage nach dem Schließen von **Geschlossen** zu **Beendet**. Dadurch können Sie inaktive Journeys leichter identifizieren und gleichzeitig sicherstellen, dass alle noch anwesenden Personen Zeit haben, die Journey zu beenden. [Weitere Informationen](../building-journeys/journey.md#ending_a_journey)
-* In den rechten Aktivitätsbereichen von Entwurfs-Journeys sind schreibgeschützte Felder jetzt standardmäßig ausgeblendet. Diese Vereinfachung der Oberfläche hilft Ihnen, Ihre Aktivitäten einfacher zu konfigurieren. Um sie anzuzeigen, klicken Sie auf das Symbol **Schreibgeschützte Felder anzeigen**, das in der oberen linken Ecke des Konfigurationsbereichs für die Aktivitäten verfügbar ist. [Weitere Informationen](../building-journeys/using-the-journey-designer.md#configuration_pane)
+* Es wurde ein neuer Status zu Journeys hinzugefügt. Wenn eine Journey beendet oder manuell geschlossen wird, wechselt ihr Status 30 Tage nach dem Schließen von **Geschlossen** zu **Beendet**. Dadurch können Sie inaktive Journeys leichter identifizieren und gleichzeitig sicherstellen, dass alle Personen, die sich noch in der Journey befinden, Zeit haben, die Journey zu beenden. [Weitere Informationen](../building-journeys/journey.md#ending_a_journey)
+* In den rechten Bereichen der Aktivitäten von Entwurfs-Journeys sind schreibgeschützte Felder jetzt standardmäßig ausgeblendet. Diese Vereinfachung der Oberfläche hilft Ihnen, Ihre Aktivitäten einfacher zu konfigurieren. Um sie anzuzeigen, klicken Sie auf das Symbol **Schreibgeschützte Felder anzeigen**, das in der oberen linken Ecke des Konfigurationsbereichs für die Aktivitäten verfügbar ist. [Weitere Informationen](../building-journeys/using-the-journey-designer.md#configuration_pane)
 * Im Testmodus wurde im Bildschirm **Ereigniskonfiguration** das Feld **Schlüssel**, das zur Definition der ID des Testprofils verwendet wird, in **Profilkennung** umbenannt, um das Benutzererlebnis zu verbessern. [Weitere Informationen](../building-journeys/testing-the-journey.md).
 * Bei Reaktionsereignissen kann die Dauer des Timeouts jetzt nur mehr zwischen 40 Sekunden und 30 Tagen eingestellt werden. Beim Testen einer Journey, die ein Reaktionsereignis verwendet, beträgt der Standard- und Mindestwert der **[!UICONTROL Wartezeit]** für den Testmodus jetzt 40 Sekunden. [Weitere Informationen](../building-journeys/reaction-events.md).
 
@@ -297,8 +297,8 @@ Wenn sich eine Journey in einem Zwischenzustand befindet, ist sie schreibgeschü
 ### Sonstige Verbesserungen
 
 * Beim Konfigurieren eines Ereignisses werden jetzt standardmäßig nur die für die XDM-Validierung erforderlichen Felder vorausgewählt. Die Auswahl dieser Felder kann nicht aufgehoben werden.
-* In der Journey-Palette wurde ein neuer Filter hinzugefügt. Sie können damit neben den nativen nur die letzten fünf verwendeten Ereignisse und Aktionen anzeigen. Dies ist benutzerspezifisch. Standardmäßig werden alle Elemente angezeigt. [Weitere Informationen](../building-journeys/using-the-journey-designer.md#palette)
-* Beim Erstellen einer neuen Journey werden jetzt Elemente, die nicht als erster Schritt auf der Arbeitsfläche abgelegt werden können, ausgeblendet. Dies betrifft alle Aktionen, die Bedingungsaktivität, die Wartezeit und die Reaktion.
+* In der Journey-Palette wurde ein neuer Filter hinzugefügt. Sie können damit neben den standardmäßig verfügbaren nur die letzten fünf verwendeten Ereignisse und Aktionen anzeigen. Dies ist benutzerspezifisch. Standardmäßig werden alle Elemente angezeigt. [Weitere Informationen](../building-journeys/using-the-journey-designer.md#palette)
+* Beim Erstellen einer neuen Journey werden jetzt Elemente, die nicht als erster Schritt auf der Arbeitsfläche abgelegt werden können, ausgeblendet. Dies betrifft alle Aktionen, die Bedingungsaktivität, die Warteaktivität und die Reaktion.
 * Im linken Bereich des erweiterten Ausdruckseditors werden Funktionen nun am Ende der Liste unter dem Abschnitt **Funktionen** gruppiert dargestellt.
 
 ## Version Januar 2021 {#january-2021-release}
@@ -489,7 +489,7 @@ Die Payload von Segmentqualifikationsereignissen enthält jetzt die folgenden in
 <p>Die folgenden Verbesserungen wurden an regelbasierten Ereignissen vorgenommen:
 </p>
 <ul>
-<li><p>Sie können jetzt alle verhaltensbezogenen Ereignisdaten, die Sie in Adobe Analytics bereits erfassen und an Platform streamen, zum Auslösen von Journeys und zur Automatisierung von Erlebnissen für Ihre Kunden nutzen. <a href="../event/about-analytics.md">Weitere Informationen</a></p>
+<li><p>Sie können jetzt alle verhaltensbezogenen Ereignisdaten, die Sie in Adobe Analytics bereits erfassen und an die Plattform streamen, zum Auslösen von Journeys und zur Automatisierung von Erlebnissen für Ihre Kundinnen und Kunden nutzen. <a href="../event/about-analytics.md">Weitere Informationen</a></p>
 </li>
 <li><p>Beim Auslösen eines regelbasierten Ereignisses im Testmodus können Sie jetzt die Ereignis-ID-Bedingung direkt anzeigen. Außerdem ist jetzt neben jedem Feld, das Teil der Regelauswertung ist, eine QuickInfo verfügbar. <a href="../building-journeys/testing-the-journey.md#test-rule-based">Weitere Informationen</a></p>
 </li>
@@ -560,7 +560,7 @@ Das Alpha-Programm bietet Funktionen, die derzeit von einer begrenzten Anzahl vo
 </table>
 
 
-## Version 2. Quartal – Juni 2020 {#q2-release---june-2020}
+## Q2-Version – Juni 2020 {#q2-release---june-2020}
 
 <table>
 <thead>
@@ -582,10 +582,10 @@ Das Alpha-Programm bietet Funktionen, die derzeit von einer begrenzten Anzahl vo
 <li><p>Im einfachen Ausdruckseditor werden Adobe Experience Platform-Segmente jetzt direkt in der Navigationsstruktur aufgeführt, um eine einfache Einrichtung von Bedingungen wie „Gehört diese Person zu Segment A?“ zu ermöglichen. <a href="../segment/using-a-segment.md">Weitere Informationen</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Journey Orchestration leitet nun die bei den Journeys ausgeführten Schritte automatisch an Adobe Experience Platform weiter. Dazu gehören potenziell auch Fehler. Diese Informationen können für die Berichterstellung und Fehlerbehebung verwendet werden, indem Abfragen zu den Journey-Schrittereignissen für eine bestimmte Journey oder für alle Journeys ausgeführt werden. <a href="../building-journeys/sharing-overview.md">Weitere Informationen</a></p>
+<li><p>Journey Orchestration leitet nun die bei den Journeys ausgeführten Schritte automatisch an Adobe Experience Platform weiter. Dazu gehören potenziell auch Fehler. Diese Informationen können für Reporting und Fehlerbehebung verwendet werden, indem Abfragen zu den Journey-Schrittereignissen für eine bestimmte Journey oder für alle Journeys ausgeführt werden. <a href="../building-journeys/sharing-overview.md">Weitere Informationen</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
-<li><p>Journey Orchestration kann jetzt mit der Adobe Experience Platform-Sandbox für Produktion und Nicht-Produktion verbunden werden. Beachten Sie, dass Sandboxes eine Funktion der Betaversion sind. <a href="../about/access-management.md#sandboxes">Weitere Informationen</a></p>
+<li><p>Journey Orchestration kann jetzt mit Adobe Experience Platform-Sandboxes für Produktion und Nicht-Produktion verbunden werden. Beachten Sie, dass Sandboxes eine Beta-Funktion ist. <a href="../about/access-management.md#sandboxes">Weitere Informationen</a></p>
 </li>
 </ul>
 </td>
@@ -621,9 +621,9 @@ Das Alpha-Programm bietet Funktionen, die derzeit von einer begrenzten Anzahl vo
 
 Um ein Senden zu vieler API-Aufrufe an Drittanbietersysteme zu vermeiden, führen wir eine neue öffentliche API für die Einrichtung von Begrenzungsregeln ein. Mit Begrenzungsregeln können Sie eine maximale Anzahl von Aufrufen an einen API-Endpunkt pro Millisekunde festlegen. [Weitere Informationen](../api/capping.md)
 
-Die Zugriffskontrolle ermöglicht nun eine größere Granularität bei der Verwaltung des Benutzerzugriffs. Tatsächliche Verfügbarkeit: 30. Juni 2020. [Weitere Informationen](../about/access-management.md#create-product-profile)
+Die Zugriffskontrolle ermöglicht nun eine größere Granularität bei der Verwaltung des Benutzerzugriffs. Verfügbar ab: 30. Juni 2020. [Weitere Informationen](../about/access-management.md#create-product-profile)
 
-Journey Orchestration ist jetzt im Raum APAC verfügbar (australisches Rechenzentrum). Tatsächliche Verfügbarkeit: 30. Juni 2020
+Journey Orchestration ist jetzt im Raum APAC verfügbar (australisches Rechenzentrum). Verfügbar ab: 30. Juni 2020
 
 Die Benutzeroberfläche von Journey Orchestration ist auf Japanisch verfügbar.
 
@@ -715,7 +715,7 @@ Die Benutzeroberfläche von Journey Orchestration ist auf Japanisch verfügbar.
 
 **Sonstige Verbesserungen**
 
-* Zusätzlich zu den USA ist Journey Orchestration jetzt in der Region **EMEA** verfügbar. Die Anwendung und die Dokumentation sind in Französisch und Deutsch verfügbar.
+* Zusätzlich zu den USA ist Journey Orchestration jetzt in der Region **EMEA** verfügbar. Die Anwendung und die Dokumentation sind auf Französisch und Deutsch verfügbar.
 
 * Experience League ist jetzt in das Produkt integriert. Dies vereinfacht den Zugriff auf verwandte Inhalte und hilft Ihnen, Experience Cloud optimal zu nutzen. Unten im Tab „Hilfe“ können Sie direkt auf die Dokumentation für Journey Orchestration zugreifen. Zusätzlich können Sie unter Hilfe > Feedback Probleme melden oder Ihre Ideen mit Adobe teilen.
 
@@ -731,6 +731,6 @@ Journey Orchestration ist jetzt allgemein verfügbar.
 
 Journey Orchestration ermöglicht die Erstellung von Anwendungsfällen für die Echtzeit-Orchestrierung mithilfe von kontextuellen Daten aus Ereignissen oder Datenquellen.
 
-Journey Orchestration erlaubt eine Echtzeit-Orchestrierung auf Basis von kontextuellen Daten aus Ereignissen, Informationen aus Adobe Experience Platform oder Daten aus API-Diensten von Drittanbietern. Die Anwendung bestimmt in mehrstufigen Flüssen, die Journeys genannt werden, je nach Profil und Verhalten des Benutzers die nächsten für den Kunden optimalen Aktionen. Dies umfasst sowohl den besten Zeitpunkt als auch die Art der Aktion, z. B. das Senden einer Push-Benachrichtigung über die Transaktionsnachrichtenfunktion von Adobe Campaign Standard (Adobe Campaign Standard erforderlich) oder das Benachrichtigen eines Drittanbietersystems. Diese Entscheidungen werden auf Grundlage von Regeln und KI-Bewertungen getroffen.
+Journey Orchestration erlaubt eine Echtzeit-Orchestrierung auf Basis von kontextuellen Daten aus Ereignissen, Informationen aus Adobe Experience Platform oder Daten aus API-Diensten von Drittanbietern. Die Anwendung bestimmt in mehrstufigen Flüssen, die Journeys genannt werden, je nach Profil und Verhalten der Person die nächsten für sie optimalen Aktionen. Dies umfasst sowohl den besten Zeitpunkt als auch die Art der Aktion, z. B. das Senden einer Push-Benachrichtigung über die Transaktionsnachrichtenfunktion von Adobe Campaign Standard (Adobe Campaign Standard erforderlich) oder das Benachrichtigen eines Drittanbietersystems. Diese Entscheidungen werden auf Grundlage von Regeln und KI-Bewertungen getroffen.
 
 [Weitere Informationen](../action/working-with-adobe-campaign.md) zu Journey Orchestration.
